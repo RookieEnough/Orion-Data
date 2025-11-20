@@ -72,6 +72,23 @@
     ]
   },
   {
+    "id": "Spotify-pc",
+    "name": "Spicetify",
+    "description": "Transform your Spotify desktop client with Spicetify, the ultimate CLI mod for premium perks without the price. Block ads effortlessly, unlock seamless playback, and explore the built-in Marketplace for thousands of themes, plugins, extensions, and custom apps. Personalize colors, add fun snippets, and tweak every detail for a vibe that's uniquely yours.No subs, endless style. Install now and remix your music! 🎨",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/250px-Spotify_icon.svg.png",
+    "version": "2.42.0",
+    "latestVersion": "2.42.0",
+    "downloadUrl": "https://spicetify.app/",
+    "category": "Media",
+    "platform": "PC",
+    "size": "7.29 MB",
+    "author": "Spicetify Team",
+    "screenshots": [
+        "https://picsum.photos/seed/devpc1/800/500",
+        "https://picsum.photos/seed/devpc2/800/500"
+    ]
+  },
+  {
     "id": "X-revanced",
     "name": "X ReVanced",
     "description": "Reclaim your feed with X (formerly Twitter) ReVanced – unlock ad-free browsing, video/image downloads, hidden recommendations, and premium features like dynamic theming and sanitized links. Swipe through tweets, trends, and DMs in a customized, interruption-free paradise. No subs, no spam.Tweet boldly, scroll endlessly. Install now! 🐦",
