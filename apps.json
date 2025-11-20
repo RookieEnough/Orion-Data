@@ -1,0 +1,74 @@
+[
+  {
+    "id": "netmirror",
+    "name": "NetMirror",
+    "description": "Netmirror: Free Netflix Clone with Lightning-Fast Streams\n\nExperience Netflix's sleek UI and endless library of movies, series, and originals, all for free! Dive into personalized recommendations, HD/4K buffering-free playback, and offline downloads. No subscriptions, no ads. Stream smarter on any device.\n\nYour binge session awaits. Download now! 🎬",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "version": "3.0",
+    "latestVersion": "3.0",
+    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/raw/main/APKs/NetMirrorapp.netmirror.netmirrornewv3.0.apk",
+    "repoUrl": "https://netmirror.app/",
+    "category": "Media",
+    "platform": "Android",
+    "size": "15 MB",
+    "author": "NetMirror Team",
+    "screenshots": [
+      "https://picsum.photos/seed/netmirror1/300/600",
+      "https://picsum.photos/seed/netmirror2/300/600"
+    ]
+  },
+  {
+    "id": "yt-music-revanced",
+    "name": "YouTube Music ReVanced",
+    "description": "Elevate your audio game with YouTube Music's full premium suite ad-free streaming, offline downloads, background play, and high-fidelity sound all unlocked for free. Explore endless tracks, custom mixes, podcasts, and live stations in a buttery-smooth interface. No subs, no skips.\n\nTune in to freedom. Download today! 🎵",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Youtube_Music_icon.svg",
+    "version": "8.15.52",
+    "latestVersion": "8.15.52",
+    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/raw/main/APKs/YouTube_Musicapp.revanced.android.apps.youtube.musicv8.15.52.apk",
+    "repoUrl": "https://github.com/revanced",
+    "category": "Media",
+    "platform": "Android",
+    "size": "45 MB",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/music1/300/600",
+      "https://picsum.photos/seed/music2/300/600"
+    ]
+  },
+  {
+    "id": "google-photos-revanced",
+    "name": "Google Photos ReVanced",
+    "description": "Relive every moment without limits. ReVanced Google Photos spoofs your device as a Pixel 6 for free unlimited original-quality backups of photos and videos. Enjoy seamless search, AI edits, shared albums, and offline access in the familiar, polished UI. No root, no fees, just endless space.\n\nCapture forever, store smarter. Download now! 📸",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Google_Photos_icon.svg",
+    "version": "7.43.0",
+    "latestVersion": "7.43.0",
+    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/Photosapp/Photosapp.revanced.v7.43.0.801018619.apk",
+    "repoUrl": "https://github.com/revanced",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "120 MB",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/photo1/300/600",
+       "https://picsum.photos/seed/photo2/300/600"
+    ]
+  },
+  {
+    "id": "youtube-revanced",
+    "name": "YouTube ReVanced",
+    "description": "Transform your YouTube into a premium powerhouse: block ads, enable background playback, download videos offline, restore dislikes, and swipe for seamless controls. Enjoy SponsorBlock, minimized viewing, and crystal-clear quality without a dime. Dive into infinite content, interruption-free.\n\nWatch without limits. Get ReVanced now! 📱",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+    "version": "20.14.43",
+    "latestVersion": "20.14.43",
+    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/YT/YouTube_ReVancedapp.revanced.android.youtubev20.14.43.apk",
+    "repoUrl": "https://github.com/revanced",
+    "category": "Media",
+    "platform": "Android",
+    "size": "135 MB",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/yt1/300/600",
+       "https://picsum.photos/seed/yt2/300/600"
+    ]
+  }
+]
