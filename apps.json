@@ -105,7 +105,7 @@
        "https://picsum.photos/seed/yt1/300/600",
        "https://picsum.photos/seed/yt2/300/600"
     ]
-  }
+  },
   {
     "id": "discord-revenge",
     "name": "Discord Revenge",
@@ -118,6 +118,23 @@
     "platform": "Android",
     "size": "107 MB",
     "author": "Revenge Team",
+    "screenshots": [
+        "https://picsum.photos/seed/devpc1/800/500",
+        "https://picsum.photos/seed/devpc2/800/500"
+    ]
+  },
+  {
+    "id": "discord-vencord",
+    "name": "Vencord",
+    "description": "Revolutionize your Discord chats with Vencord the ultimate PC client mod packed with plugins, custom themes, profile effects, and lightning-fast tweaks. Block ads, add fun snippets, personalize everything from colors to layouts, and dive deeper into servers without limits. Lightweight, developer-friendly, and totally free. Chat like a pro.",
+    "icon": "https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg",
+    "version": "9c3163d",
+    "latestVersion": "9c3163d",
+    "downloadUrl": "https://vencord.dev/",
+    "category": "Social",
+    "platform": "PC",
+    "size": "9.9 MB",
+    "author": "Vencord Team",
     "screenshots": [
         "https://picsum.photos/seed/devpc1/800/500",
         "https://picsum.photos/seed/devpc2/800/500"
