@@ -71,4 +71,23 @@
        "https://picsum.photos/seed/yt2/300/600"
     ]
   }
+  {
+    "id": "X-revanced",
+    "name": "X ReVanced",
+    "description": "Reclaim your feed with X (formerly Twitter) ReVanced – unlock ad-free browsing, video/image downloads, hidden recommendations, and premium features like dynamic theming and sanitized links. Swipe through tweets, trends, and DMs in a customized, interruption-free paradise. No subs, no spam.Tweet boldly, scroll endlessly. Install now! 🐦",
+    "icon": "https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg",
+    "version": "11.20.0",
+    "latestVersion": "11.20.0",
+    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/X/Xcom.twitter.androidv11.20.0-release.0.apk",
+    "repoUrl": "https://github.com/crimera/piko",
+    "category": "Soical",
+    "platform": "Android",
+    "size": "204 MB",
+    "author": "Crimera",
+    "screenshots": [
+       "https://picsum.photos/seed/yt1/300/600",
+       "https://picsum.photos/seed/yt2/300/600"
+    ]
+  }
+
 ]
