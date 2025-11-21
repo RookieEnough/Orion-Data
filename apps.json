@@ -191,7 +191,7 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "reddit-extended",
+    "githubPattern": "reddit-revanced-extended",
     "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
     "category": "Social",
     "platform": "Android",
