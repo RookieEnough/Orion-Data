@@ -1,13 +1,17 @@
+
 [
   {
     "id": "netmirror",
     "name": "NetMirror",
-    "description": "Netmirror: Free Netflix Clone with Lightning-Fast Streams\n\nExperience Netflix's sleek UI and endless library of movies, series, and originals, all for free! Dive into personalized recommendations, HD/4K buffering-free playback, and offline downloads. No subscriptions, no ads. Stream smarter on any device.\n\nYour binge session awaits. Download now! 🎬",
-    "icon": "https://cdn-www.bluestacks.com/bs-images/Icon_app.netmirror.netmirrornew.jpg",
+    "description": "Netmirror: Free Netflix Clone with Lightning-Fast Streams\n\nExperience Netflix's sleek UI and endless library of movies, series, and originals, all for free! Dive into personalized recommendations, HD/4K buffering-free playback, and endless entertainment.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
     "version": "3.0",
     "latestVersion": "3.0",
     "downloadUrl": "https://github.com/RookieEnough/Orion-Data/raw/main/APKs/NetMirrorapp.netmirror.netmirrornewv3.0.apk",
     "repoUrl": "https://netmirror.app/",
+    "githubRepo": "RookieEnough/Orion-Data",
+    "githubPath": "APKs",
+    "githubPattern": "NetMirror",
     "category": "Media",
     "platform": "Android",
     "size": "15 MB",
@@ -18,200 +22,10 @@
     ]
   },
   {
-    "id": "yt-music-revanced",
-    "name": "YouTube Music ReVanced",
-    "description": "Elevate your audio game with YouTube Music's full premium suite ad-free streaming, offline downloads, background play, and high-fidelity sound all unlocked for free. Explore endless tracks, custom mixes, podcasts, and live stations in a buttery-smooth interface. No subs, no skips.\n\nTune in to freedom. Download today! 🎵",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/2048px-Youtube_Music_icon.svg.png",
-    "version": "8.15.52",
-    "latestVersion": "8.15.52",
-    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/raw/main/APKs/YouTube_Musicapp.revanced.android.apps.youtube.musicv8.15.52.apk",
-    "repoUrl": "https://github.com/revanced",
-    "category": "Media",
-    "platform": "Android",
-    "size": "45 MB",
-    "author": "ReVanced Team",
-    "screenshots": [
-      "https://picsum.photos/seed/music1/300/600",
-      "https://picsum.photos/seed/music2/300/600"
-    ]
-  },
-  {
-    "id": "google-photos-revanced",
-    "name": "Google Photos ReVanced",
-    "description": "Relive every moment without limits. ReVanced Google Photos spoofs your device as a Pixel 6 for free unlimited original-quality backups of photos and videos. Enjoy seamless search, AI edits, shared albums, and offline access in the familiar, polished UI. No root, no fees, just endless space.\n\nCapture forever, store smarter. Download now! 📸",
-    "icon": "https://static.vecteezy.com/system/resources/previews/022/484/504/non_2x/google-photo-icon-logo-symbol-free-png.png",
-    "version": "7.43.0",
-    "latestVersion": "7.43.0",
-    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/Photosapp/Photosapp.revanced.v7.43.0.801018619.apk",
-    "repoUrl": "https://github.com/revanced",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "120 MB",
-    "author": "ReVanced Team",
-    "screenshots": [
-       "https://picsum.photos/seed/photo1/300/600",
-       "https://picsum.photos/seed/photo2/300/600"
-    ]
-  },
-  {
-    "id": "youtube-revanced",
-    "name": "YouTube ReVanced",
-    "description": "Transform your YouTube into a premium powerhouse: block ads, enable background playback, download videos offline, restore dislikes, and swipe for seamless controls. Enjoy SponsorBlock, minimized viewing, and crystal-clear quality without a dime. Dive into infinite content, interruption-free.\n\nWatch without limits. Get ReVanced now! 📱",
-    "icon": "https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png",
-    "version": "20.14.43",
-    "latestVersion": "20.14.43",
-    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/YT/YouTube_ReVancedapp.revanced.android.youtubev20.14.43.apk",
-    "repoUrl": "https://github.com/revanced",
-    "category": "Media",
-    "platform": "Android",
-    "size": "135 MB",
-    "author": "ReVanced Team",
-    "screenshots": [
-       "https://picsum.photos/seed/yt1/300/600",
-       "https://picsum.photos/seed/yt2/300/600"
-    ]
-  },
-  {
-    "id": "Spotify-pc",
-    "name": "Spicetify",
-    "description": "Transform your Spotify desktop client with Spicetify, the ultimate CLI mod for premium perks without the price. Block ads effortlessly, unlock seamless playback, and explore the built-in Marketplace for thousands of themes, plugins, extensions, and custom apps. Personalize colors, add fun snippets, and tweak every detail for a vibe that's uniquely yours.No subs, endless style. Install now and remix your music! 🎨",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/250px-Spotify_icon.svg.png",
-    "version": "2.42.0",
-    "latestVersion": "2.42.0",
-    "downloadUrl": "https://spicetify.app/",
-    "category": "Media",
-    "platform": "PC",
-    "size": "7.29 MB",
-    "author": "Spicetify Team",
-    "screenshots": [
-        "https://picsum.photos/seed/devpc1/800/500",
-        "https://picsum.photos/seed/devpc2/800/500"
-    ]
-  },
-  {
-    "id": "x-revanced",
-    "name": "X ReVanced",
-    "description": "The X app is the trusted global digital town square for everyone. ReVanced X removes ads and promoted posts for a clean timeline.",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
-    "version": "10.0.0",
-    "latestVersion": "10.0.0",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/revanced",
-    "githubRepo": "krvstek/rvx-apks",
-    "githubPattern": "Twitter",
-    "includePrereleases": true,
-    "category": "Social",
-    "platform": "Android",
-    "size": "90 MB",
-    "author": "ReVanced Team",
-    "screenshots": [
-       "https://picsum.photos/seed/x1/300/600",
-       "https://picsum.photos/seed/x2/300/600"
-    ]
-  },
-  {
-    "id": "duolingo-revanced",
-    "name": "Duolingo ReVanced",
-    "description": "Learn languages for free. ReVanced Duolingo unlocks Super Duolingo features like unlimited hearts and no ads.",
-    "icon": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:140,cw:360,ch:360,q:80,w:360/mFFHbRYjQzxks9trfXWefL.jpg",
-    "version": "5.106.3",
-    "latestVersion": "5.106.3",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/revanced",
-    "githubRepo": "krvstek/rvx-apks",
-    "githubPattern": "Duolingo",
-    "includePrereleases": true,
-    "category": "Development",
-    "platform": "Android",
-    "size": "60 MB",
-    "author": "ReVanced Team",
-    "screenshots": [
-      "https://picsum.photos/seed/duo1/300/600",
-      "https://picsum.photos/seed/duo2/300/600"
-    ]
-  },
-  {
-    "id": "reddit-revanced",
-    "name": "Reddit ReVanced",
-    "description": "Dive into the conversation without interruptions. Reddit ReVanced removes ads, sponsored posts, and unlocks premium icon features.",
-    "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Reddit_Logo_Icon.svg/220px-Reddit_Logo_Icon.svg.png",
-    "version": "2024.16.0",
-    "latestVersion": "2024.16.0",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/revanced",
-    "githubRepo": "krvstek/rvx-apks",
-    "githubPattern": "Reddit",
-    "includePrereleases": true,
-    "category": "Social",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "ReVanced Team",
-    "screenshots": [
-       "https://picsum.photos/seed/reddit1/300/600",
-       "https://picsum.photos/seed/reddit2/300/600"
-    ]
-  },
-  {
-    "id": "discord-revenge",
-    "name": "Discord Revenge",
-    "description": "Revolutionize your Discord chats with Revenge – the ultimate mobile client mod packed with plugins, custom themes, profile effects, and lightning-fast tweaks. Block ads, add fun snippets, personalize everything from colors to layouts, and dive deeper into servers without limits. Lightweight, developer-friendly, and totally free. Chat like a pro. Install Revenge now! 💬",
-    "icon": "https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg",
-    "version": "305.12",
-    "latestVersion": "305.12",
-    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/Dis/Discordapp.revengev305.12.-.Stable.apk",
-    "repoUrl": "https://github.com/revenge-mod",
-    "category": "Social",
-    "platform": "Android",
-    "size": "107 MB",
-    "author": "Revenge Team",
-    "screenshots": [
-        "https://picsum.photos/seed/devpc1/800/500",
-        "https://picsum.photos/seed/devpc2/800/500"
-    ]
-  },
-  {
-    "id": "twitch-revanced",
-    "name": "Twitch ReVanced",
-    "description": "Watch your favorite streamers without ad interruptions. Twitch ReVanced blocks video ads, removes bloat, and offers cleaner chat.",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Twitch_Glitch_Logo_purple.svg",
-    "version": "18.0.0",
-    "latestVersion": "18.0.0",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/revanced",
-    "githubRepo": "krvstek/rvx-apks",
-    "githubPattern": "Twitch",
-    "includePrereleases": true,
-    "category": "Media",
-    "platform": "Android",
-    "size": "110 MB",
-    "author": "ReVanced Team",
-    "screenshots": [
-       "https://picsum.photos/seed/twitch1/300/600",
-       "https://picsum.photos/seed/twitch2/300/600"
-    ]
-  },
-  {
-    "id": "discord-vencord",
-    "name": "Vencord",
-    "description": "Revolutionize your Discord chats with Vencord the ultimate PC client mod packed with plugins, custom themes, profile effects, and lightning-fast tweaks. Block ads, add fun snippets, personalize everything from colors to layouts, and dive deeper into servers without limits. Lightweight, developer-friendly, and totally free. Chat like a pro.",
-    "icon": "https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg",
-    "version": "9c3163d",
-    "latestVersion": "9c3163d",
-    "downloadUrl": "https://vencord.dev/",
-    "category": "Social",
-    "platform": "PC",
-    "size": "9.9 MB",
-    "author": "Vencord Team",
-    "screenshots": [
-        "https://picsum.photos/seed/devpc1/800/500",
-        "https://picsum.photos/seed/devpc2/800/500"
-    ]
-  },
-  {
     "id": "instafel",
     "name": "InstaFel",
     "description": "A feature-rich Instagram mod offering ad-free browsing, media downloading, privacy features, and customization options. Keep your feed clean and your media saved.",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png",
+    "icon": "https://github.com/mamiiblt.png",
     "version": "1.0",
     "latestVersion": "1.0",
     "downloadUrl": "#",
@@ -226,10 +40,10 @@
       "https://picsum.photos/seed/instafel2/300/600"
     ]
   },
-  {
+   {
     "id": "micts",
     "name": "MiCTS",
-    "description": "Get Circle To Search in Any Android phone which is running on Android 9-15",
+    "description": "Get official Xiaomi themes, wallpapers, ringtones and fonts for your HyperOS and MIUI devices! Bypass region restrictions and customize your device to your heart's content.",
     "icon": "https://github.com/parallelcc.png",
     "version": "1.0",
     "latestVersion": "1.0",
@@ -245,22 +59,336 @@
       "https://picsum.photos/seed/micts2/300/600"
     ]
   },
-  {
+   {
     "id": "anilab",
     "name": "Anilab",
-    "description": "Tired of endless googling for safe and free anime streaming apps? Your search ends right here! Save time for what matters and let us handle the rest, delivering the best streaming experience to you.",
-    "icon": "https://pbs.twimg.com/profile_images/1703994358393978880/BxsOw4US_400x400.jpg",
-    "version": "1.1.2",
-    "latestVersion": "1.1.2",
-    "downloadUrl": "https://app2.sremrofsnart.com/setup/anilab/5879068/anilab-android.apk",
-    "repoUrl": "https://anilab.to",
+    "description": "Anilab is an Android app that lets you watch and download anime, with features like Anilist tracking and no ads.",
+    "icon": "https://anilab.to/img/icons/android-chrome-512x512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://anilab.to/download",
+    "repoUrl": "https://anilab.to/",
     "category": "Media",
     "platform": "Android",
-    "size": "16.5 MB",
+    "size": "20 MB",
     "author": "Anilab Team",
+    "screenshots": [
+      "https://picsum.photos/seed/anilab1/300/600",
+      "https://picsum.photos/seed/anilab2/300/600"
+    ]
+  },
+  {
+    "id": "discord-revanced",
+    "name": "Discord ReVanced",
+    "description": "Chat, hang out, and stay close with your friends and communities. ReVanced Discord unlocks Nitro sticker features and removes bloat.",
+    "icon": "https://assets-global.website-files.com/6257adef93867e56f84d3092/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png",
+    "version": "205.15",
+    "latestVersion": "205.15",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "RookieEnough/Orion-Data",
+    "githubPattern": "Discord",
+    "category": "Social",
+    "platform": "Android",
+    "size": "100 MB",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/disc1/300/600",
+       "https://picsum.photos/seed/disc2/300/600"
+    ]
+  },
+  {
+    "id": "youtube-revanced",
+    "name": "YouTube ReVanced",
+    "description": "Transform your YouTube into a premium powerhouse: block ads, enable background playback, download videos offline, restore dislikes, and swipe for seamless controls.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "youtube-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
     "screenshots": [
        "https://picsum.photos/seed/yt1/300/600",
        "https://picsum.photos/seed/yt2/300/600"
+    ]
+  },
+  {
+    "id": "yt-music-revanced",
+    "name": "YouTube Music ReVanced",
+    "description": "Elevate your audio game with YouTube Music's full premium suite ad-free streaming, offline downloads, background play, and high-fidelity sound all unlocked for free.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Youtube_Music_icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "music-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/music1/300/600",
+      "https://picsum.photos/seed/music2/300/600"
+    ]
+  },
+  {
+    "id": "google-photos-revanced",
+    "name": "Google Photos ReVanced",
+    "description": "Relive every moment without limits. ReVanced Google Photos spoofs your device as a Pixel 6 for free unlimited original-quality backups of photos and videos.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Google_Photos_icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "photos-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/photo1/300/600",
+       "https://picsum.photos/seed/photo2/300/600"
+    ]
+  },
+  {
+    "id": "x-revanced",
+    "name": "X ReVanced",
+    "description": "The X app is the trusted global digital town square for everyone. ReVanced X removes ads and promoted posts for a clean timeline.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "twitter-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/x1/300/600",
+       "https://picsum.photos/seed/x2/300/600"
+    ]
+  },
+  {
+    "id": "reddit-revanced",
+    "name": "Reddit ReVanced",
+    "description": "Dive into the conversation without interruptions. Reddit ReVanced removes ads, sponsored posts, and unlocks premium icon features.",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Reddit_Logo_Icon.svg/220px-Reddit_Logo_Icon.svg.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "reddit-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/reddit1/300/600",
+       "https://picsum.photos/seed/reddit2/300/600"
+    ]
+  },
+  {
+    "id": "twitch-revanced",
+    "name": "Twitch ReVanced",
+    "description": "Watch your favorite streamers without ad interruptions. Twitch ReVanced blocks video ads, removes bloat, and offers cleaner chat.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Twitch_Glitch_Logo_purple.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "twitch-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/twitch1/300/600",
+       "https://picsum.photos/seed/twitch2/300/600"
+    ]
+  },
+  {
+    "id": "duolingo-revanced",
+    "name": "Duolingo ReVanced",
+    "description": "Learn languages for free. ReVanced Duolingo unlocks Super Duolingo features like unlimited hearts and no ads.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Duolingo_logo_2019.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "duolingo-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/duo1/300/600",
+      "https://picsum.photos/seed/duo2/300/600"
+    ]
+  },
+  {
+    "id": "tiktok-revanced",
+    "name": "TikTok ReVanced",
+    "description": "Enjoy short-form videos without distractions. TikTok ReVanced removes ads, allows downloading videos without watermarks, and unlocks region-restricted content.",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "tiktok-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/tiktok1/300/600",
+      "https://picsum.photos/seed/tiktok2/300/600"
+    ]
+  },
+  {
+    "id": "instagram-revanced",
+    "name": "Instagram ReVanced",
+    "description": "A cleaner Instagram experience. Blocks ads in feed and stories, enables downloading of photos/videos, and adds privacy features like hiding view status.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "instagram-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/insta1/300/600",
+      "https://picsum.photos/seed/insta2/300/600"
+    ]
+  },
+  {
+    "id": "facebook-revanced",
+    "name": "Facebook ReVanced",
+    "description": "Browse Facebook without clutter. Removes sponsored posts, video ads, and suggestions, giving you back control of your feed.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "facebook-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/fb1/300/600",
+      "https://picsum.photos/seed/fb2/300/600"
+    ]
+  },
+  {
+    "id": "messenger-revanced",
+    "name": "Messenger ReVanced",
+    "description": "Chat without interruptions. Removes ads from your inbox and stories, and adds privacy features to Facebook Messenger.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "messenger-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/mess1/300/600",
+      "https://picsum.photos/seed/mess2/300/600"
+    ]
+  },
+  {
+    "id": "spotify-revanced",
+    "name": "Spotify ReVanced",
+    "description": "Listen to music free. Unlocks unlimited skips, seek, and ad-free listening. Note: Downloads are server-side and cannot be unlocked.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "spotify-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/spot1/300/600",
+      "https://picsum.photos/seed/spot2/300/600"
+    ]
+  },
+  {
+    "id": "pinterest-revanced",
+    "name": "Pinterest ReVanced",
+    "description": "Explore ideas without ads. Removes promoted pins and ads from the home feed and search results.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "pinterest-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/pin1/300/600",
+      "https://picsum.photos/seed/pin2/300/600"
+    ]
+  },
+  {
+    "id": "soundcloud-revanced",
+    "name": "SoundCloud ReVanced",
+    "description": "Stream music and audio without ads. Unlocks high-quality audio and removes audio advertisements.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Soundcloud_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "soundcloud-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+      "https://picsum.photos/seed/sc1/300/600",
+      "https://picsum.photos/seed/sc2/300/600"
     ]
   }
 ]
