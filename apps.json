@@ -1,4 +1,3 @@
-
 [
   {
     "id": "netmirror",
@@ -11,7 +10,7 @@
     "repoUrl": "https://netmirror.app/",
     "githubRepo": "RookieEnough/Orion-Data",
     "githubPath": "APKs",
-    "githubPattern": "NetMirror",
+    "githubPattern": "netmirror",
     "category": "Media",
     "platform": "Android",
     "size": "15 MB",
@@ -38,9 +37,10 @@
     "screenshots": [
       "https://picsum.photos/seed/instafel1/300/600",
       "https://picsum.photos/seed/instafel2/300/600"
-    ]
+    ],
+    "githubPattern": "instafel"
   },
-   {
+  {
     "id": "micts",
     "name": "MiCTS",
     "description": "Get official Xiaomi themes, wallpapers, ringtones and fonts for your HyperOS and MIUI devices! Bypass region restrictions and customize your device to your heart's content.",
@@ -57,9 +57,10 @@
     "screenshots": [
       "https://picsum.photos/seed/micts1/300/600",
       "https://picsum.photos/seed/micts2/300/600"
-    ]
+    ],
+    "githubPattern": "micts"
   },
-   {
+  {
     "id": "anilab",
     "name": "Anilab",
     "description": "Anilab is an Android app that lets you watch and download anime, with features like Anilist tracking and no ads.",
@@ -75,7 +76,8 @@
     "screenshots": [
       "https://picsum.photos/seed/anilab1/300/600",
       "https://picsum.photos/seed/anilab2/300/600"
-    ]
+    ],
+    "githubPattern": "anilab"
   },
   {
     "id": "discord-revanced",
@@ -87,14 +89,14 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "RookieEnough/Orion-Data",
-    "githubPattern": "Discord",
+    "githubPattern": "discordrevanced",
     "category": "Social",
     "platform": "Android",
     "size": "100 MB",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/disc1/300/600",
-       "https://picsum.photos/seed/disc2/300/600"
+      "https://picsum.photos/seed/disc1/300/600",
+      "https://picsum.photos/seed/disc2/300/600"
     ]
   },
   {
@@ -107,15 +109,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "youtube-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "youtuberevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/yt1/300/600",
-       "https://picsum.photos/seed/yt2/300/600"
+      "https://picsum.photos/seed/yt1/300/600",
+      "https://picsum.photos/seed/yt2/300/600"
     ]
   },
   {
@@ -128,8 +134,12 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "music-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "youtubemusicrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
@@ -149,15 +159,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "photos-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "googlephotosrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/photo1/300/600",
-       "https://picsum.photos/seed/photo2/300/600"
+      "https://picsum.photos/seed/photo1/300/600",
+      "https://picsum.photos/seed/photo2/300/600"
     ]
   },
   {
@@ -170,15 +184,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "twitter-piko",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "xrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/x1/300/600",
-       "https://picsum.photos/seed/x2/300/600"
+      "https://picsum.photos/seed/x1/300/600",
+      "https://picsum.photos/seed/x2/300/600"
     ]
   },
   {
@@ -191,15 +209,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "reddit-extended",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "redditrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/reddit1/300/600",
-       "https://picsum.photos/seed/reddit2/300/600"
+      "https://picsum.photos/seed/reddit1/300/600",
+      "https://picsum.photos/seed/reddit2/300/600"
     ]
   },
   {
@@ -212,15 +234,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "twitch-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "twitchrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/twitch1/300/600",
-       "https://picsum.photos/seed/twitch2/300/600"
+      "https://picsum.photos/seed/twitch1/300/600",
+      "https://picsum.photos/seed/twitch2/300/600"
     ]
   },
   {
@@ -233,8 +259,12 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "duolingo-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "duolingorevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Development",
     "platform": "Android",
     "size": "Varies",
@@ -254,8 +284,12 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "tiktok-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "tiktokrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
@@ -275,8 +309,12 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "instagram-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "instagramrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
@@ -296,8 +334,12 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "facebook-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "facebookrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
@@ -317,8 +359,12 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "messenger-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "messengerrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
@@ -338,8 +384,12 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "spotify-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "spotifyrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
@@ -359,8 +409,12 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "soundcloud-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "soundcloudrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
@@ -380,15 +434,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "threads-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "threadsrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/threads1/300/600",
-       "https://picsum.photos/seed/threads2/300/600"
+      "https://picsum.photos/seed/threads1/300/600",
+      "https://picsum.photos/seed/threads2/300/600"
     ]
   },
   {
@@ -401,15 +459,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "telegram",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "telegramrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/telegram1/300/600",
-       "https://picsum.photos/seed/telegram2/300/600"
+      "https://picsum.photos/seed/telegram1/300/600",
+      "https://picsum.photos/seed/telegram2/300/600"
     ]
   },
   {
@@ -422,15 +484,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "lightroom-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "lightroomrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/lightroom1/300/600",
-       "https://picsum.photos/seed/lightroom2/300/600"
+      "https://picsum.photos/seed/lightroom1/300/600",
+      "https://picsum.photos/seed/lightroom2/300/600"
     ]
   },
   {
@@ -443,15 +509,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "tumblr-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "tumblrrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/tumblr1/300/600",
-       "https://picsum.photos/seed/tumblr2/300/600"
+      "https://picsum.photos/seed/tumblr1/300/600",
+      "https://picsum.photos/seed/tumblr2/300/600"
     ]
   },
   {
@@ -464,15 +534,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "google-news-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "googlenewsrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/gnews1/300/600",
-       "https://picsum.photos/seed/gnews2/300/600"
+      "https://picsum.photos/seed/gnews1/300/600",
+      "https://picsum.photos/seed/gnews2/300/600"
     ]
   },
   {
@@ -485,15 +559,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "photomath-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "photomathrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/photomath1/300/600",
-       "https://picsum.photos/seed/photomath2/300/600"
+      "https://picsum.photos/seed/photomath1/300/600",
+      "https://picsum.photos/seed/photomath2/300/600"
     ]
   },
   {
@@ -506,15 +584,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "proton-mail-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "protonmailrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Privacy",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/proton1/300/600",
-       "https://picsum.photos/seed/proton2/300/600"
+      "https://picsum.photos/seed/proton1/300/600",
+      "https://picsum.photos/seed/proton2/300/600"
     ]
   },
   {
@@ -527,15 +609,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "strava-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "stravarevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/strava1/300/600",
-       "https://picsum.photos/seed/strava2/300/600"
+      "https://picsum.photos/seed/strava1/300/600",
+      "https://picsum.photos/seed/strava2/300/600"
     ]
   },
   {
@@ -548,15 +634,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "pixiv-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "pixivrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/pixiv1/300/600",
-       "https://picsum.photos/seed/pixiv2/300/600"
+      "https://picsum.photos/seed/pixiv1/300/600",
+      "https://picsum.photos/seed/pixiv2/300/600"
     ]
   },
   {
@@ -569,15 +659,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "bili-roaming",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "bilibilirevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/bili1/300/600",
-       "https://picsum.photos/seed/bili2/300/600"
+      "https://picsum.photos/seed/bili1/300/600",
+      "https://picsum.photos/seed/bili2/300/600"
     ]
   },
   {
@@ -590,15 +684,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "prime-video-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "primevideorevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/prime1/300/600",
-       "https://picsum.photos/seed/prime2/300/600"
+      "https://picsum.photos/seed/prime1/300/600",
+      "https://picsum.photos/seed/prime2/300/600"
     ]
   },
   {
@@ -611,15 +709,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "viber-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "viberrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/viber1/300/600",
-       "https://picsum.photos/seed/viber2/300/600"
+      "https://picsum.photos/seed/viber1/300/600",
+      "https://picsum.photos/seed/viber2/300/600"
     ]
   },
   {
@@ -632,15 +734,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "crunchyroll-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "crunchyrollrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/crunchy1/300/600",
-       "https://picsum.photos/seed/crunchy2/300/600"
+      "https://picsum.photos/seed/crunchy1/300/600",
+      "https://picsum.photos/seed/crunchy2/300/600"
     ]
   },
   {
@@ -653,15 +759,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "solid-explorer-scrazzz",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "solidexplorerrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/solid1/300/600",
-       "https://picsum.photos/seed/solid2/300/600"
+      "https://picsum.photos/seed/solid1/300/600",
+      "https://picsum.photos/seed/solid2/300/600"
     ]
   },
   {
@@ -674,15 +784,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "nova-launcher-indrastorms",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "novalauncherrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/nova1/300/600",
-       "https://picsum.photos/seed/nova2/300/600"
+      "https://picsum.photos/seed/nova1/300/600",
+      "https://picsum.photos/seed/nova2/300/600"
     ]
   },
   {
@@ -695,15 +809,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "tasker-indrastorms",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "taskerrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/tasker1/300/600",
-       "https://picsum.photos/seed/tasker2/300/600"
+      "https://picsum.photos/seed/tasker1/300/600",
+      "https://picsum.photos/seed/tasker2/300/600"
     ]
   },
   {
@@ -716,15 +834,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "fx-file-explorer-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "fxfileexplorerrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/fx1/300/600",
-       "https://picsum.photos/seed/fx2/300/600"
+      "https://picsum.photos/seed/fx1/300/600",
+      "https://picsum.photos/seed/fx2/300/600"
     ]
   },
   {
@@ -737,15 +859,19 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "geologically/revanced-builder",
-    "githubPattern": "rar-revanced",
-    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "githubPattern": "rarrevanced",
+    "githubAssetPriority": [
+      "universal",
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/rar1/300/600",
-       "https://picsum.photos/seed/rar2/300/600"
+      "https://picsum.photos/seed/rar1/300/600",
+      "https://picsum.photos/seed/rar2/300/600"
     ]
   }
 ]
