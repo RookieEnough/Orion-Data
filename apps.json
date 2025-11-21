@@ -113,7 +113,8 @@
     "icon": "https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg",
     "version": "305.12",
     "latestVersion": "305.12",
-    "downloadUrl": "https://github.com/revenge-mod",
+    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/Dis/Discordapp.revengev305.12.-.Stable.apk",
+    "repoUrl": "https://github.com/revenge-mod",
     "category": "Social",
     "platform": "Android",
     "size": "107 MB",
@@ -139,6 +140,24 @@
         "https://picsum.photos/seed/devpc1/800/500",
         "https://picsum.photos/seed/devpc2/800/500"
     ]
-  }
+  },
+  {
+    "id": "instafel",
+    "name": "InstaFel",
+    "description": "A feature-rich Instagram mod offering ad-free browsing, media downloading, privacy features, and customization options. Keep your feed clean and your media saved.",
+    "icon": "https://github.com/mamiiblt.png",
+    "version": "1.0",
+    "latestVersion": "1.0",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mamiiblt/instafel",
+    "githubRepo": "mamiiblt/instafel",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mamiiblt",
+    "screenshots": [
+      "https://picsum.photos/seed/instafel1/300/600",
+      "https://picsum.photos/seed/instafel2/300/600"
+    ]
 
 ]
