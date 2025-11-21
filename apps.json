@@ -390,5 +390,362 @@
       "https://picsum.photos/seed/sc1/300/600",
       "https://picsum.photos/seed/sc2/300/600"
     ]
+  },
+  {
+    "id": "threads-revanced",
+    "name": "Threads ReVanced",
+    "description": "The text-based conversation app from Instagram. ReVanced Threads removes ads and sponsored posts for a cleaner reading experience.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Threads_%28app%29_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "threads-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/threads1/300/600",
+       "https://picsum.photos/seed/threads2/300/600"
+    ]
+  },
+  {
+    "id": "telegram-revanced",
+    "name": "Telegram ReVanced",
+    "description": "Pure instant messaging. ReVanced Telegram unlocks Premium app icons, removes sponsored messages in channels, and enables more customization.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "telegram-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/telegram1/300/600",
+       "https://picsum.photos/seed/telegram2/300/600"
+    ]
+  },
+  {
+    "id": "lightroom-revanced",
+    "name": "Lightroom ReVanced",
+    "description": "Professional photo editing made easy. Unlocks premium presets and editing tools for free.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "lightroom-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/lightroom1/300/600",
+       "https://picsum.photos/seed/lightroom2/300/600"
+    ]
+  },
+  {
+    "id": "tumblr-revanced",
+    "name": "Tumblr ReVanced",
+    "description": "Post whatever you want. ReVanced Tumblr removes ads and sponsored posts from your dashboard.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/4/43/Tumblr_logotype_2018.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "tumblr-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/tumblr1/300/600",
+       "https://picsum.photos/seed/tumblr2/300/600"
+    ]
+  },
+  {
+    "id": "google-news-revanced",
+    "name": "Google News ReVanced",
+    "description": "Stay informed without the clutter. Removes ads and sponsored stories from your news feed.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/d/da/Google_News_icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "google-news-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/gnews1/300/600",
+       "https://picsum.photos/seed/gnews2/300/600"
+    ]
+  },
+  {
+    "id": "photomath-revanced",
+    "name": "Photomath ReVanced",
+    "description": "Learn math step-by-step. Unlocks Plus features like animated tutorials and deep explanations.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Photomath_Logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "photomath-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/photomath1/300/600",
+       "https://picsum.photos/seed/photomath2/300/600"
+    ]
+  },
+  {
+    "id": "proton-mail-revanced",
+    "name": "Proton Mail ReVanced",
+    "description": "Secure email without subscriptions. Unlocks premium features for enhanced privacy and organization.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/8/8b/ProtonMail_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "proton-mail-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/proton1/300/600",
+       "https://picsum.photos/seed/proton2/300/600"
+    ]
+  },
+  {
+    "id": "strava-revanced",
+    "name": "Strava ReVanced",
+    "description": "Track your fitness. Unlocks subscription features like route planning and advanced analytics.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Strava_Logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "strava-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/strava1/300/600",
+       "https://picsum.photos/seed/strava2/300/600"
+    ]
+  },
+  {
+    "id": "pixiv-revanced",
+    "name": "Pixiv ReVanced",
+    "description": "The premier community for artists. ReVanced Pixiv removes ads and unlocks premium sorting and search features.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/7/75/Pixiv_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "pixiv-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/pixiv1/300/600",
+       "https://picsum.photos/seed/pixiv2/300/600"
+    ]
+  },
+  {
+    "id": "bilibili-revanced",
+    "name": "Bilibili ReVanced",
+    "description": "Watch anime and videos. Removes ads, unlocks HD streaming, and improves the player interface.",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/b/b4/Bilibili_logo_blue.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "bilibili-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/bilibili1/300/600",
+       "https://picsum.photos/seed/bilibili2/300/600"
+    ]
+  },
+  {
+    "id": "prime-video-revanced",
+    "name": "Prime Video ReVanced",
+    "description": "Watch movies and TV. Removes ads from the interface and pre-roll video ads.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "prime-video-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/prime1/300/600",
+       "https://picsum.photos/seed/prime2/300/600"
+    ]
+  },
+  {
+    "id": "viber-revanced",
+    "name": "Viber ReVanced",
+    "description": "Secure calls and messages. Removes ads and unlocked stickers.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Viber_logo_2018.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "viber-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/viber1/300/600",
+       "https://picsum.photos/seed/viber2/300/600"
+    ]
+  },
+  {
+    "id": "solid-explorer-revanced",
+    "name": "Solid Explorer ReVanced",
+    "description": "File management made beautiful. Unlocks the full version license check for free.",
+    "icon": "https://play-lh.googleusercontent.com/S3S4kL5gH50m0f-u9wD0zY-D8eX8582z9e9_57952890140095148024=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "solid-explorer-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/solid1/300/600",
+       "https://picsum.photos/seed/solid2/300/600"
+    ]
+  },
+  {
+    "id": "nova-launcher-revanced",
+    "name": "Nova Launcher ReVanced",
+    "description": "The ultimate homescreen replacement. Unlocks Prime features for advanced customization.",
+    "icon": "https://play-lh.googleusercontent.com/1_4c8_5_5969293876284266705110666034402116085007011338998873057965=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "nova-launcher-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/nova1/300/600",
+       "https://picsum.photos/seed/nova2/300/600"
+    ]
+  },
+  {
+    "id": "tasker-revanced",
+    "name": "Tasker ReVanced",
+    "description": "Automate everything. Bypasses license verification so you can use the full power of automation.",
+    "icon": "https://play-lh.googleusercontent.com/7_k8_5_5969293876284266705110666034402116085007011338998873057965=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "tasker-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/tasker1/300/600",
+       "https://picsum.photos/seed/tasker2/300/600"
+    ]
+  },
+  {
+    "id": "fx-file-explorer-revanced",
+    "name": "FX File Explorer ReVanced",
+    "description": "Privacy-focused file manager. Unlocks FX Plus features for network and cloud access.",
+    "icon": "https://play-lh.googleusercontent.com/8_k8_5_5969293876284266705110666034402116085007011338998873057965=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "fx-file-explorer-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/fx1/300/600",
+       "https://picsum.photos/seed/fx2/300/600"
+    ]
+  },
+  {
+    "id": "rar-revanced",
+    "name": "Rar ReVanced",
+    "description": "Compress and archive. Removes ads from the RAR app by RARLAB.",
+    "icon": "https://play-lh.googleusercontent.com/9_k8_5_5969293876284266705110666034402116085007011338998873057965=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "geologically/revanced-builder",
+    "githubPattern": "rar-revanced",
+    "githubAssetPriority": ["universal", "arm64-v8a", "armeabi-v7a"],
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced Team",
+    "screenshots": [
+       "https://picsum.photos/seed/rar1/300/600",
+       "https://picsum.photos/seed/rar2/300/600"
+    ]
   }
 ]
