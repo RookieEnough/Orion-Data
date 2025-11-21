@@ -112,22 +112,22 @@
   {
     "id": "duolingo-revanced",
     "name": "Duolingo ReVanced",
-    "description": "Duolingo ReVanced is a version of the official Duolingo Android app that incorporates patches from the open-source ReVanced project to add features not available in the standard free version, such as ad removal, unlimited hearts, and access to Super Duolingo features",
-    "icon": "https://logos-world.net/wp-content/uploads/2021/03/Duolingo-Logo.png",
-    "version": "1.0.0",
-    "latestVersion": "1.0.0",
+    "description": "Learn languages for free. ReVanced Duolingo unlocks Super Duolingo features like unlimited hearts and no ads.",
+    "icon": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:140,cw:360,ch:360,q:80,w:360/mFFHbRYjQzxks9trfXWefL.jpg",
+    "version": "5.106.3",
+    "latestVersion": "5.106.3",
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "krvstek/rvx-apks",
     "githubPattern": "Duolingo",
     "includePrereleases": true,
-    "category": "Social",
+    "category": "Development",
     "platform": "Android",
-    "size": "Varies",
+    "size": "60 MB",
     "author": "ReVanced Team",
     "screenshots": [
-       "https://picsum.photos/seed/x1/300/600",
-       "https://picsum.photos/seed/x2/300/600"
+      "https://picsum.photos/seed/duo1/300/600",
+      "https://picsum.photos/seed/duo2/300/600"
     ]
   },
   {
