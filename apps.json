@@ -159,5 +159,24 @@
       "https://picsum.photos/seed/instafel1/300/600",
       "https://picsum.photos/seed/instafel2/300/600"
     ]
+  },
+  {
+    "id": "micts",
+    "name": "MiCTS",
+    "description": "Get Circle To Search in Any Android phone which is running on Android 9-15",
+    "icon": "https://github.com/parallelcc.png",
+    "version": "1.0",
+    "latestVersion": "1.0",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/parallelcc/MiCTS",
+    "githubRepo": "parallelcc/MiCTS",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "parallelcc",
+    "screenshots": [
+      "https://picsum.photos/seed/micts1/300/600",
+      "https://picsum.photos/seed/micts2/300/600"
+    ]
   }
 ]
