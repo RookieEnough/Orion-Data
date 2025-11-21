@@ -178,5 +178,23 @@
       "https://picsum.photos/seed/micts1/300/600",
       "https://picsum.photos/seed/micts2/300/600"
     ]
+  },
+  {
+    "id": "anilab",
+    "name": "Anilab",
+    "description": "Tired of endless googling for safe and free anime streaming apps? Your search ends right here! Save time for what matters and let us handle the rest, delivering the best streaming experience to you.",
+    "icon": "https://pbs.twimg.com/profile_images/1703994358393978880/BxsOw4US_400x400.jpg",
+    "version": "1.1.2",
+    "latestVersion": "1.1.2",
+    "downloadUrl": "https://app2.sremrofsnart.com/setup/anilab/5879068/anilab-android.apk",
+    "repoUrl": "https://anilab.to",
+    "category": "Media",
+    "platform": "Android",
+    "size": "16.5 MB",
+    "author": "Anilab Team",
+    "screenshots": [
+       "https://picsum.photos/seed/yt1/300/600",
+       "https://picsum.photos/seed/yt2/300/600"
+    ]
   }
 ]
