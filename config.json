@@ -2,6 +2,6 @@
   "appsJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/apps.json",
   "maintenanceMode": false,
   "announcement": "The Orion Store is currently in active development. We appreciate your patience as issues may occasionally arise.",
-  "latestStoreVersion": "1.1.0",
+  "latestStoreVersion": "1.0.0",
   "storeDownloadUrl": "https://github.com/RookieEnough/OrionStore/releases/latest/download/app-release.apk"
 }
