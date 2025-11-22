@@ -1,0 +1,7 @@
+{
+  "appsJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/apps.json",
+  "maintenanceMode": false,
+  "maintenanceMessage": "We are currently updating the server. Please check back in 30 minutes.",
+  "announcement": "Welcome to Orion Store! We now support dynamic updates 🚀",
+  "minStoreVersion": "1.5.0"
+}
