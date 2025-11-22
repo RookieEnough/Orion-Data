@@ -2,20 +2,19 @@
   "appsJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/apps.json",
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/mirror.json",
   "maintenanceMode": false,
-  "maintenanceMessage": "We are currently updating the server. Please check",
+  "maintenanceMessage": "We are currently updating the server. Please check back in 30 minutes.",
   "announcement": "The Orion Store is currently in active development. We appreciate your patience as issues may occasionally arise.",
   "latestStoreVersion": "1.0.0",
-  "storeDownloadUrl": "https://github.com/RookieEnough/OrionStore/releases/latest/download/app-release.apk"
-
+  "storeDownloadUrl": "https://github.com/RookieEnough/OrionStore/releases/latest/download/app-release.apk",
   "socials": {
-  "github": "https://github.com/RookieEnough",
-  "x": "https://x.com/_Rookie_Z",
-  "discord": "https://discord.com/invite/CrM6y4ujnq",
-  "coffee": "https://ko-fi.com/rookie_z"
+    "github": "https://github.com/RookieEnough",
+    "x": "https://x.com/_Rookie_Z",
+    "discord": "https://discord.com/invite/CrM6y4ujnq",
+    "coffee": "https://ko-fi.com/rookie_z"
   },
   "devProfile": {
     "name": "RookieZ",
-    "bio": "Orion is the future, one commit at a time. No ads, no tracking, just code.",
+    "bio": "Building the open web, one commit at a time. No ads, no tracking, just code.",
     "image": "https://i.pinimg.com/originals/12/79/48/127948a3253396796874286570740594.jpg"
   },
   "faqs": [
