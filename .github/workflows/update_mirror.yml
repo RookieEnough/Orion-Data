@@ -1,0 +1,36 @@
+name: Update Store Mirror
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour at minute 0
+  workflow_dispatch: # Allows you to click a button to run it manually
+
+permissions:
+  contents: write # Crucial: Allows the bot to save the new JSON file
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Data Repo
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Run Mirror Generator
+      env:
+        # This token is automatically provided by GitHub. You don't need to generate one.
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: python3 mirror_generator.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "Orion Bot"
+        git config --global user.email "bot@orionstore.app"
+        git add mirror.json
+        # Only commit if mirror.json actually changed
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update mirror.json [skip ci]" && git push)
