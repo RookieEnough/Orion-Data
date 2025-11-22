@@ -83,6 +83,48 @@
     ]
   },
   {
+    "id": "tiktok-revanced",
+    "name": "TikTok ReVanced",
+    "description": "YouTube Music with Premium features unlocked. Background playback, no ads, high quality audio, and landscape mode.",
+    "icon": "http://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "RookieEnough/Revanced-Orion",
+    "releaseKeyword": "tiktok",
+    "packageName": "com.zhiliaoapp.musically",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced",
+    "screenshots": [
+      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
+    ]
+  },
+  {
+    "id": "viber-revanced",
+    "name": "Viber ReVanced",
+    "description": "YouTube Music with Premium features unlocked. Background playback, no ads, high quality audio, and landscape mode.",
+    "icon": "https://play-lh.googleusercontent.com/EbQM-vsHv42Hg6qZvuK47q_cK3-KObc9GRlhNBWebX0AWrg5nMD92Kniqz8Z1BFpD3U",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "RookieEnough/Revanced-Orion",
+    "releaseKeyword": "viber",
+    "packageName": "com.viber.voip",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced",
+    "screenshots": [
+      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
+    ]
+  },
+  {
     "id": "twitch-revanced",
     "name": "Twitch ReVanced",
     "description": "Ad-free Twitch experience. Blocks video ads, hides promoted content, and includes BTTV/7TV emote support.",
