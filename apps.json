@@ -1,5 +1,5 @@
 
-[
+export const localAppsData = [
   {
     "id": "youtube-revanced",
     "name": "YouTube ReVanced",
@@ -85,7 +85,7 @@
   {
     "id": "tiktok-revanced",
     "name": "TikTok ReVanced",
-    "description": "YouTube Music with Premium features unlocked. Background playback, no ads, high quality audio, and landscape mode.",
+    "description": "Ad-free scrolling experience. Removes video ads, unlocks downloading without watermarks, and bypasses country restrictions.",
     "icon": "http://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -106,7 +106,7 @@
   {
     "id": "viber-revanced",
     "name": "Viber ReVanced",
-    "description": "YouTube Music with Premium features unlocked. Background playback, no ads, high quality audio, and landscape mode.",
+    "description": "Ad-free messaging and calls. Removes sponsored messages, ads in chat list, and business suggestions.",
     "icon": "https://play-lh.googleusercontent.com/EbQM-vsHv42Hg6qZvuK47q_cK3-KObc9GRlhNBWebX0AWrg5nMD92Kniqz8Z1BFpD3U",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -248,7 +248,7 @@
   {
     "id": "facebook-revanced",
     "name": "Facebook Revanced",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Cleaned up Facebook client. Removes sponsored posts, reels, suggestion cards, and unlocks internal developer settings.",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1280px-Facebook_f_logo_%282019%29.svg.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -268,7 +268,7 @@
   {
     "id": "fx-file-explorer-indrastorms",
     "name": "FX FIle Explorer",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Full Plus version unlocked. Features root explorer, network file sharing (SMB/FTP), and advanced archive support without ads.",
     "icon": "https://play-lh.googleusercontent.com/DhBFSJoink5IMx0GdrmYuF-HzAqfSt_0wTkW0UtnAmp76tAEF98C3K5a-hP_KzgB0xY",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -288,7 +288,7 @@
   {
     "id": "nova-launcher-revanced",
     "name": "Nova Launcher",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Prime features unlocked. The gold standard of Android launchers with gestures, icon swipes, and hidden app drawers.",
     "icon": "https://downloadr2.apkmirror.com/wp-content/uploads/2021/01/07/5ff153c41b114.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -308,7 +308,7 @@
   {
     "id": "rar-revanced",
     "name": "RAR",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Premium features unlocked. Create and extract RAR and ZIP archives efficiently without ads or nags.",
     "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41xFgufNXSXDKgD98p0wmTc7AYWJ-eBANjw&s",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -328,7 +328,7 @@
   {
     "id": "soild-explorer-revanced",
     "name": "Solid Explorer",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Full version unlocked. A beautiful dual-pane file manager with strong encryption, cloud storage support, and root access.",
     "icon": "https://play-lh.googleusercontent.com/_sX2KdkFOwzvT3J8dmcLcYAa6mDQG6OBweFxFN6mwwpIY0SMjuEbo6wsjfUhjN0DSA",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -348,7 +348,7 @@
   {
     "id": "strava-revanced",
     "name": "Strava",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Subscription features unlocked. Access advanced performance analytics, route planning, and segment leaderboards.",
     "icon": "https://play-lh.googleusercontent.com/j-ZV144PlVuTVsLuBzIKyEw9CbFnmWw9ku2NJ1ef0gZJh-iiIN1nrNPmAtvgAteyDqU",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -368,7 +368,7 @@
   {
     "id": "tasker-revanced",
     "name": "Tasker",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Full version unlocked. The ultimate automation tool for Android—script actions, triggers, and scenes to control your device.",
     "icon": "https://play-lh.googleusercontent.com/8IkkhPNnxNVYhnUxcidu0-Yp72aSb3H0gQJ1U-_ImQ7SCGLz1zgXtV7wi2Hpd6Odghg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -388,7 +388,7 @@
   {
     "id": "pixiv-revanced",
     "name": "Pixiv",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Premium features unlocked. Sort by popularity, ad-free browsing, and filter search results for the best anime illustrations.",
     "icon": "https://play-lh.googleusercontent.com/Ls9opXo6-wfEWmbBU8heJaFS8HwWydssWE1J3vexIGvkF-UJDqcW7ZMD8w6dQABfygONd4z3Yt4TfRDZAPYq=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -408,7 +408,7 @@
   {
     "id": "photomath-revanced",
     "name": "Photomath",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Plus features unlocked. Get step-by-step explanations, animated tutorials, and deep definitions for math problems.",
     "icon": "https://play-lh.googleusercontent.com/Ma_HEbK1LzEoayR0tE0ZXqLopug69-dPspfCV36zzHOSuC0_i6mu5ulKz1eY7en-UM4",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -428,7 +428,7 @@
   {
     "id": "messenger-revanced",
     "name": "Messenger Revanced",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Ad-free Messenger. Removes inbox ads, story ads, and cleans up the UI for a focused chat experience.",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/2048px-Facebook_Messenger_logo_2020.svg.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -448,7 +448,7 @@
   {
     "id": "lightroom-revanced",
     "name": "Lightroom Revanced",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Premium features unlocked. Access selective adjustments, healing brush, geometry tools, and cloud syncing features.",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/1200px-Adobe_Photoshop_Lightroom_CC_logo.svg.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -468,7 +468,7 @@
   {
     "id": "mircoG-re",
     "name": "MicroG-RE",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "A free, open-source implementation of Google Play Services. Required to sign into Google accounts on ReVanced apps.",
     "icon": "https://downloadr2.apkmirror.com/wp-content/uploads/2024/04/MicroG_round.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -488,13 +488,13 @@
   {
     "id": "spotify-revanced",
     "name": "Spotify Revanced",
-    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "description": "Ad-free music listening. Unlimited skips, seek bar enabled, and no forced shuffle. Note: Downloads are server-side and not available.",
     "icon": "https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
     "repoUrl": "https://github.com/krvstek/rvx-apks",
-    "githubRepo": "https://github.com/krvstek/rvx-apks/releases",
+    "githubRepo": "https://github.com/krvstek/rvx-apks",
     "releaseKeyword": "spotify-revanced",
     "packageName": "com.spotify.music",
     "category": "Entertainment",
@@ -526,3 +526,4 @@
     ]
   }
 ]
+    
