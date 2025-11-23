@@ -486,6 +486,26 @@
     ]
   },
   {
+    "id": "spotify-revanced",
+    "name": "Spotify Revanced",
+    "description": "Learn languages for free. Ad-free experience with Super Duolingo features unlocked.",
+    "icon": "https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/krvstek/rvx-apks",
+    "githubRepo": "https://github.com/krvstek/rvx-apks",
+    "releaseKeyword": "spotify",
+    "packageName": "com.spotify.music",
+    "category": "Entertainment",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "WSTxda",
+    "screenshots": [
+      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
+    ]
+  },
+  {
     "id": "twitter-revanced",
     "name": "X ReVanced",
     "description": "Ad-free Twitter/X experience. Removes promoted tweets, suggested users, and timeline clutter.",
