@@ -1,3 +1,4 @@
+
 [
   {
     "id": "youtube-revanced",
@@ -16,9 +17,7 @@
     "size": "Varies",
     "author": "ReVanced",
     "screenshots": [
-      "https://image.winudf.com/p/aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9CeGJhRnY2N1lrcVQ0OHdjNC05SUxOU21MWUxiOTJtZ2tyQVlkeUJ3STQ3OEgyczZVRFR1dEF2ZU51N2NPWkZFZVNnPWg4MDA?k=db6fcc3ef739895fea73225fb2b8d82569304fa9&.jpg"
-      "https://image.winudf.com/p/aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9sbmZRNDJIc2xjNkJfMEEzN1lZX3NOVlBHRXBORDBZWTBoY3ZqS0xQQ0RCN2RKTmxEUG4ySUxJQ3lwZUp4aGVjQlE9aDgwMA?k=bf1adb4862738751f11c71b07846a7d169304fa9&.jpg"
-      "https://image.winudf.com/p/aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9uRDJMSDlLcnRZbWRydVJYVW4yWlF5cGZQSFZpSjFVWUIxZkhETjdUaTVKT21xOHFIZC01NG9CQ0FWTlVxdkdXWUM4PWg4MDA?k=8fd0b71247a34cef6ce41cc1c5425c3d69304fa9&.jpg"
+      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
     ]
   },
   {
@@ -34,6 +33,27 @@
     "releaseKeyword": "music",
     "packageName": "app.revanced.android.apps.youtube.music",
     "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced",
+    "screenshots": [
+      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
+    ]
+  },
+  {
+    "id": "tiktok-revanced",
+    "name": "TikTok ReVanced",
+    "description": "YouTube Music with Premium features unlocked. Background playback, no ads, high quality audio, and landscape mode.",
+    "icon": "http://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revanced",
+    "githubRepo": "RookieEnough/Revanced-Orion",
+    "releaseKeyword": "tiktok",
+    "packageName": "com.zhiliaoapp.musically",
+    "category": "Social",
     "platform": "Android",
     "size": "Varies",
     "author": "ReVanced",
@@ -80,48 +100,6 @@
     "size": "Varies",
     "author": "ReVanced",
     "screenshots": [
-      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
-    ]
-  },
-  {
-    "id": "tiktok-revanced",
-    "name": "TikTok ReVanced",
-    "description": "Ad-free scrolling experience. Removes video ads, unlocks downloading without watermarks, and bypasses country restrictions.",
-    "icon": "http://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/revanced",
-    "githubRepo": "RookieEnough/Revanced-Orion",
-    "releaseKeyword": "tiktok",
-    "packageName": "com.zhiliaoapp.musically",
-    "category": "Social",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "ReVanced",
-    "screenshots": [
-      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600",
-      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
-    ]
-  },
-  {
-    "id": "viber-revanced",
-    "name": "Viber ReVanced",
-    "description": "Ad-free messaging and calls. Removes sponsored messages, ads in chat list, and business suggestions.",
-    "icon": "https://play-lh.googleusercontent.com/EbQM-vsHv42Hg6qZvuK47q_cK3-KObc9GRlhNBWebX0AWrg5nMD92Kniqz8Z1BFpD3U",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/revanced",
-    "githubRepo": "RookieEnough/Revanced-Orion",
-    "releaseKeyword": "viber",
-    "packageName": "com.viber.voip",
-    "category": "Social",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "ReVanced",
-    "screenshots": [
-      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600",
       "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
     ]
   },
@@ -525,6 +503,45 @@
     "screenshots": [
       "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
     ]
+  },
+  {
+    "id": "Vencord",
+    "name": "Vencord",
+    "description": "Code editing. Redefined. Free. Built on open source. Runs everywhere.",
+    "icon": "https://vencord.dev/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://code.visualstudio.com/download",
+    "repoUrl": "https://github.com/microsoft/vscode",
+    "githubRepo": "",
+    "releaseKeyword": "",
+    "packageName": "",
+    "category": "Development",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Microsoft",
+    "screenshots": [
+      "https://code.visualstudio.com/assets/home/home-screenshot-mac-2x-v2.png"
+    ]
+  },
+  {
+    "id": "rufus-pc",
+    "name": "Rufus",
+    "description": "Create bootable USB drives the easy way.",
+    "icon": "https://i.pinimg.com/736x/33/ed/7d/33ed7d0bffed18fb944eb944002bb11f.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://rufus.ie/en/",
+    "repoUrl": "",
+    "githubRepo": "",
+    "releaseKeyword": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "pbatard",
+    "screenshots": [
+      "https://rufus.ie/images/rufus_en.png"
+    ]
   }
 ]
-    
