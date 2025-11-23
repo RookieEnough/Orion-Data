@@ -1,5 +1,4 @@
 
-export const localAppsData = [
   {
     "id": "youtube-revanced",
     "name": "YouTube ReVanced",
@@ -17,7 +16,9 @@ export const localAppsData = [
     "size": "Varies",
     "author": "ReVanced",
     "screenshots": [
-      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
+      "https://image.winudf.com/p/aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9CeGJhRnY2N1lrcVQ0OHdjNC05SUxOU21MWUxiOTJtZ2tyQVlkeUJ3STQ3OEgyczZVRFR1dEF2ZU51N2NPWkZFZVNnPWg4MDA?k=db6fcc3ef739895fea73225fb2b8d82569304fa9&.jpg"
+      "https://image.winudf.com/p/aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9sbmZRNDJIc2xjNkJfMEEzN1lZX3NOVlBHRXBORDBZWTBoY3ZqS0xQQ0RCN2RKTmxEUG4ySUxJQ3lwZUp4aGVjQlE9aDgwMA?k=bf1adb4862738751f11c71b07846a7d169304fa9&.jpg"
+      "https://image.winudf.com/p/aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9uRDJMSDlLcnRZbWRydVJYVW4yWlF5cGZQSFZpSjFVWUIxZkhETjdUaTVKT21xOHFIZC01NG9CQ0FWTlVxdkdXWUM4PWg4MDA?k=8fd0b71247a34cef6ce41cc1c5425c3d69304fa9&.jpg"
     ]
   },
   {
