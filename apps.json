@@ -495,7 +495,7 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/krvstek/rvx-apks",
     "githubRepo": "https://github.com/krvstek/rvx-apks",
-    "releaseKeyword": "spotify",
+    "releaseKeyword": "spotify-revanced",
     "packageName": "com.spotify.music",
     "category": "Entertainment",
     "platform": "Android",
