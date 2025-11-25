@@ -140,7 +140,7 @@
         "state": "uploaded",
         "size": 80659734,
         "digest": "sha256:5fb33960e10c5b4122fee54530d290bb984e671f2d46422a01af4dae8b859de7",
-        "download_count": 1525,
+        "download_count": 1526,
         "created_at": "2025-10-05T20:23:08Z",
         "updated_at": "2025-10-05T20:23:11Z",
         "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/28/reddit-revanced-extended-v2025.12.1-all.apk"
@@ -212,7 +212,7 @@
         "state": "uploaded",
         "size": 125748439,
         "digest": "sha256:46297d6a3deb97895c318774733741de71c625863870d2eab49a97634a295a32",
-        "download_count": 3364,
+        "download_count": 3365,
         "created_at": "2025-10-05T20:22:57Z",
         "updated_at": "2025-10-05T20:23:00Z",
         "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/28/youtube-revanced-extended-v20.21.37-all.apk"
@@ -303,7 +303,7 @@
         "state": "uploaded",
         "size": 214137682,
         "digest": "sha256:0f177487c71d690ff96f1473c12c9e92bf2d0d7b3e948e8e6c5dc8e48b854f26",
-        "download_count": 34134,
+        "download_count": 34173,
         "created_at": "2025-09-11T06:56:23Z",
         "updated_at": "2025-09-11T06:56:33Z",
         "browser_download_url": "https://github.com/crimera/twitter-apk/releases/download/11.20.0-release.0/twitter-piko-material-you-v11.20.0-release.0.apk"
@@ -339,7 +339,7 @@
         "state": "uploaded",
         "size": 214108951,
         "digest": "sha256:13ffec20c684a583631164ed4b28b782667fa3149a7f87e5f3ffc15a625e8511",
-        "download_count": 21455,
+        "download_count": 21480,
         "created_at": "2025-09-11T06:56:23Z",
         "updated_at": "2025-09-11T06:56:31Z",
         "browser_download_url": "https://github.com/crimera/twitter-apk/releases/download/11.20.0-release.0/twitter-piko-v11.20.0-release.0.apk"
@@ -375,7 +375,7 @@
         "state": "uploaded",
         "size": 214149911,
         "digest": "sha256:8cfeb545fd5c0b71a12e2d25943b2cabca2f6c8a66fb5225d951a184e12256de",
-        "download_count": 16820,
+        "download_count": 16836,
         "created_at": "2025-09-11T06:56:23Z",
         "updated_at": "2025-09-11T06:56:32Z",
         "browser_download_url": "https://github.com/crimera/twitter-apk/releases/download/11.20.0-release.0/x-piko-material-you-v11.20.0-release.0.apk"
@@ -411,7 +411,7 @@
         "state": "uploaded",
         "size": 214100759,
         "digest": "sha256:284567a8ad7371dd37eaeb1ce543363ea4377b466f6bf016abe9d7bfd70b31d5",
-        "download_count": 21671,
+        "download_count": 21706,
         "created_at": "2025-09-11T06:56:23Z",
         "updated_at": "2025-09-11T06:56:35Z",
         "browser_download_url": "https://github.com/crimera/twitter-apk/releases/download/11.20.0-release.0/x-piko-v11.20.0-release.0.apk"
@@ -468,7 +468,7 @@
     "immutable": false,
     "prerelease": false,
     "created_at": "2025-11-22T11:46:12Z",
-    "updated_at": "2025-11-24T09:36:12Z",
+    "updated_at": "2025-11-25T00:53:08Z",
     "published_at": "2025-11-22T11:47:02Z",
     "assets": [
       {
@@ -760,9 +760,9 @@
         "browser_download_url": "https://github.com/RookieEnough/Revanced-Orion/releases/download/all/instagram-arm64-v8a-revanced-experiments.apk"
       },
       {
-        "url": "https://api.github.com/repos/RookieEnough/Revanced-Orion/releases/assets/320186331",
-        "id": 320186331,
-        "node_id": "RA_kwDOQa0rR84TFafb",
+        "url": "https://api.github.com/repos/RookieEnough/Revanced-Orion/releases/assets/320445661",
+        "id": 320445661,
+        "node_id": "RA_kwDOQa0rR84TGZzd",
         "name": "instagram-clone-instafel.apk",
         "label": "",
         "uploader": {
@@ -789,16 +789,16 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 120034107,
-        "digest": "sha256:bf404e8042b91f35d9997128e345a1f17306489716e9d625634c4e01472d3a7a",
+        "digest": "sha256:d76553733806a5e83d9ac4ef871473662eb77b686607e529e6bd31fcccf46f21",
         "download_count": 0,
-        "created_at": "2025-11-24T09:36:09Z",
-        "updated_at": "2025-11-24T09:36:12Z",
+        "created_at": "2025-11-25T00:53:06Z",
+        "updated_at": "2025-11-25T00:53:08Z",
         "browser_download_url": "https://github.com/RookieEnough/Revanced-Orion/releases/download/all/instagram-clone-instafel.apk"
       },
       {
-        "url": "https://api.github.com/repos/RookieEnough/Revanced-Orion/releases/assets/320186316",
-        "id": 320186316,
-        "node_id": "RA_kwDOQa0rR84TFafM",
+        "url": "https://api.github.com/repos/RookieEnough/Revanced-Orion/releases/assets/320445638",
+        "id": 320445638,
+        "node_id": "RA_kwDOQa0rR84TGZzG",
         "name": "instagram-instafel.apk",
         "label": "",
         "uploader": {
@@ -825,10 +825,10 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 120103739,
-        "digest": "sha256:5773a2a3991353b350068d8652cc42fdfc0b5ed4010830ca49402ce0510fa19c",
+        "digest": "sha256:ce08a7b385f0d127541d820db47091c0634de4d9db5072ff6752164c223012bf",
         "download_count": 0,
-        "created_at": "2025-11-24T09:36:05Z",
-        "updated_at": "2025-11-24T09:36:08Z",
+        "created_at": "2025-11-25T00:53:01Z",
+        "updated_at": "2025-11-25T00:53:05Z",
         "browser_download_url": "https://github.com/RookieEnough/Revanced-Orion/releases/download/all/instagram-instafel.apk"
       },
       {
@@ -1769,7 +1769,7 @@
         "state": "uploaded",
         "size": 12779184,
         "digest": "sha256:a357da44d7364321cb3f1774b3355d93ad0886f735a12473bfa4ac0c8b8b0b85",
-        "download_count": 47560,
+        "download_count": 47601,
         "created_at": "2025-09-28T14:33:49Z",
         "updated_at": "2025-09-28T14:33:53Z",
         "browser_download_url": "https://github.com/WSTxda/MicroG-RE/releases/download/5.13/microg-release.apk"
