@@ -9,9 +9,9 @@
   {
     "id": "capcut-premium",
     "name": "CapCut Pro",
-    "downloadUrl": "https://filecr.com/android/capcut-video-editor/",
+    "downloadUrl": "https://apkdone.com/capcut-mod-apk/",
     "mode": "scrape",
-    "wait": 120000,
-    "note": "FileCR has countdowns, set to 120s for safety."
+    "wait": 30000,
+    "note": "Scraping from APKDone"
   }
 ]
