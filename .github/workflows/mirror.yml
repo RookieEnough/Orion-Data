@@ -1,0 +1,80 @@
+
+name: Mirror APK (Manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      app_name:
+        description: 'App ID'
+        required: true
+        type: string
+      download_url:
+        description: 'Download Link'
+        required: true
+        type: string
+      mode:
+        description: 'Mode'
+        required: true
+        default: 'direct'
+        type: choice
+        options:
+        - direct
+        - scrape
+      wait_time:
+        description: 'Wait Time (ms) for Scrape Mode'
+        required: false
+        default: '30000'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node & Tools
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install Deps
+        run: |
+          npm install
+          sudo apt-get update && sudo apt-get install -y aapt
+
+      - name: Download
+        run: |
+          APP_ID="${{ inputs.app_name }}"
+          URL="${{ inputs.download_url }}"
+          MODE="${{ inputs.mode }}"
+          WAIT="${{ inputs.wait_time }}"
+          TEMP_APK="temp.apk"
+          
+          if [[ "$MODE" == "scrape" ]]; then
+             node .github/scripts/apk_hunter.js --url "$URL" --id "$APP_ID" --out "$TEMP_APK" --wait "$WAIT"
+          else
+             curl -L -A "Mozilla/5.0" -o "$TEMP_APK" "$URL"
+          fi
+
+      - name: Verify & Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TEMP_APK="temp.apk"
+          if [[ ! -s "$TEMP_APK" ]]; then
+            echo "::error::Download failed"
+            exit 1
+          fi
+          
+          VERSION=$(aapt dump badging "$TEMP_APK" | grep "package: " | sed -n "s/.*versionName='\([^']*\)'.*/\1/p")
+          echo "Detected Version: $VERSION"
+          
+          TAG="${{ inputs.app_name }}-$VERSION"
+          FINAL_NAME="${{ inputs.app_name }}-$VERSION.apk"
+          mv "$TEMP_APK" "$FINAL_NAME"
+          
+          gh release create "$TAG" "$FINAL_NAME" --title "${{ inputs.app_name }} $VERSION" --notes "Manual Mirror" --latest || echo "Release likely exists"
