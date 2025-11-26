@@ -13,8 +13,7 @@ const getConfig = (key) => {
 const TARGET_URL = getConfig('url');
 const APP_ID = getConfig('id');
 const OUTPUT_FILE = getConfig('out') || `${APP_ID}-temp.apk`;
-// Allow custom wait time from config, default to 30 seconds if not specified
-const MAX_WAIT_MS = parseInt(getConfig('wait') || '30000'); 
+const MAX_WAIT_MS = parseInt(getConfig('wait') || '60000'); 
 
 if (!TARGET_URL || !APP_ID) {
     console.error("❌ Usage: node apk_hunter.js --url <url> --id <app_id> [--wait <ms>] [--out <filename>]");
@@ -31,15 +30,34 @@ if (!fs.existsSync(DOWNLOAD_PATH)) fs.mkdirSync(DOWNLOAD_PATH);
 
     const browser = await puppeteer.launch({
         headless: "new",
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: [
+            '--no-sandbox', 
+            '--disable-setuid-sandbox',
+            '--disable-features=site-per-process',
+            '--window-size=1920,1080'
+        ]
     });
 
     const page = await browser.newPage();
     
+    // 1. Spoof User Agent (Look like a real PC to avoid mobile sites/blocking)
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+
+    // 2. Setup Download Behavior
     const client = await page.target().createCDPSession();
     await client.send('Page.setDownloadBehavior', {
         behavior: 'allow',
         downloadPath: DOWNLOAD_PATH,
+    });
+
+    // 3. Speed Optimization: Block images, fonts, and media
+    await page.setRequestInterception(true);
+    page.on('request', (req) => {
+        if (['image', 'font', 'media', 'stylesheet'].includes(req.resourceType())) {
+            req.abort();
+        } else {
+            req.continue();
+        }
     });
 
     try {
@@ -51,16 +69,15 @@ if (!fs.existsSync(DOWNLOAD_PATH)) fs.mkdirSync(DOWNLOAD_PATH);
     }
 
     // --- SMART POLLING LOOP ---
-    // Instead of sleeping once, we loop repeatedly checking for progress.
-    
     const startTime = Date.now();
     let fileFound = null;
+    let clickedButtons = new Set();
 
     console.log("🔄  Entering Hunt Loop...");
 
-    while (Date.now() - startTime < MAX_WAIT_MS + 10000) { // Add 10s buffer for download time
+    while (Date.now() - startTime < MAX_WAIT_MS + 10000) { 
         
-        // 1. Check if file arrived
+        // 1. Check for File
         const files = fs.readdirSync(DOWNLOAD_PATH);
         const apk = files.find(f => f.endsWith('.apk'));
         const part = files.find(f => f.endsWith('.crdownload'));
@@ -72,53 +89,62 @@ if (!fs.existsSync(DOWNLOAD_PATH)) fs.mkdirSync(DOWNLOAD_PATH);
         }
 
         if (part) {
-            console.log("⬇️  Downloading in progress...");
+            // Downloading... wait patiently
             await new Promise(r => setTimeout(r, 2000));
-            continue; // Skip clicking if already downloading
+            continue; 
         }
 
-        // 2. Try to click buttons
-        // We evaluate page to find buttons. Sites like FileCR often have multiple buttons
-        // or a button that changes text from "Please Wait" to "Download".
-        const clickedText = await page.evaluate(() => {
-            const buttons = [...document.querySelectorAll('a, button, .btn, div[role="button"]')];
-            
-            // Filter visible buttons only
-            const visibleButtons = buttons.filter(b => {
-                const rect = b.getBoundingClientRect();
-                return rect.width > 0 && rect.height > 0 && b.style.display !== 'none' && b.style.visibility !== 'hidden';
-            });
-
-            // Priority 1: High confidence text matches
-            const target = visibleButtons.find(el => {
-                const t = el.innerText.toLowerCase().trim();
-                // Avoid "Premium" or "Fast Download" ads
-                if (t.includes('premium') || t.includes('fast')) return false;
+        // 2. Perform Interaction
+        try {
+            const clickResult = await page.evaluate(() => {
+                // A. Scroll to bottom to trigger lazy loads
+                window.scrollTo(0, document.body.scrollHeight);
                 
-                return (
-                    (t.includes('download') && t.includes('apk')) || // "Download APK"
-                    (t === 'download') ||                            // Exact "Download"
-                    (t.includes('click here') && t.includes('download')) ||
-                    (t.includes('generate') && t.includes('link'))   // "Generate Download Link"
-                );
+                // B. Helper to check visibility
+                const isVisible = (el) => {
+                    const rect = el.getBoundingClientRect();
+                    return rect.width > 0 && rect.height > 0 && el.style.visibility !== 'hidden';
+                };
+
+                const buttons = [...document.querySelectorAll('a, button, div[role="button"], span')];
+                
+                // Strategy: Find the best candidate
+                const candidate = buttons.find(el => {
+                    if (!isVisible(el)) return false;
+                    const t = el.innerText?.toLowerCase().trim() || "";
+                    
+                    // Negative Keywords (Ads)
+                    if (t.includes('premium') || t.includes('fast') || t.includes('manager') || t.includes('advertisement')) return false;
+
+                    // Positive Keywords
+                    // Priority: Exact "Download APK" or "Download"
+                    if (t === 'download' || t === 'download apk') return true;
+                    
+                    // Secondary: "Download (X MB)"
+                    if (t.includes('download') && (t.includes('mb') || t.includes('apk') || t.includes('file'))) return true;
+
+                    // Fallback: Just "Download"
+                    return t.includes('download');
+                });
+
+                if (candidate) {
+                    candidate.click();
+                    return candidate.innerText;
+                }
+                return null;
             });
 
-            if (target) {
-                target.click();
-                return target.innerText; // Return text to Node context
+            if (clickResult && !clickedButtons.has(clickResult)) {
+                console.log(`Hg  Clicked: "${clickResult}". Waiting...`);
+                clickedButtons.add(clickResult);
+                await new Promise(r => setTimeout(r, 5000)); // Wait for redirect/popup
             }
-            return null;
-        });
-
-        if (clickedText) {
-            console.log(`Hg  Clicked button: "${clickedText}". Waiting for reaction...`);
-            // Wait a bit after clicking to let page react/redirect
-            await new Promise(r => setTimeout(r, 4000)); 
-        } else {
-            // No button found yet (maybe countdown is running?)
-            process.stdout.write(".");
-            await new Promise(r => setTimeout(r, 2000));
+        } catch (e) {
+            // Ignore evaluation errors (detached nodes etc)
         }
+
+        process.stdout.write(".");
+        await new Promise(r => setTimeout(r, 2000));
     }
 
     if (fileFound) {
@@ -128,8 +154,8 @@ if (!fs.existsSync(DOWNLOAD_PATH)) fs.mkdirSync(DOWNLOAD_PATH);
         process.exit(0);
     } else {
         console.error("\n❌  Timed out. File did not download.");
-        await page.screenshot({ path: 'debug_timeout.png' });
         await browser.close();
         process.exit(1);
     }
 })();
+
