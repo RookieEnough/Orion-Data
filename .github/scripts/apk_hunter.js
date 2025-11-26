@@ -30,6 +30,10 @@ const BLOCKED_DOMAINS = [
 
 const configurePage = async (page) => {
     try {
+        // Prevent setting up multiple times on the same page
+        if (page._isConfigured) return;
+        page._isConfigured = true;
+
         const client = await page.target().createCDPSession();
         await client.send('Page.setDownloadBehavior', {
             behavior: 'allow',
@@ -37,21 +41,28 @@ const configurePage = async (page) => {
         });
         
         await page.setRequestInterception(true);
-        page.on('request', (req) => {
+        page.on('request', async (req) => {
+            // CRITICAL FIX: Check if request is already handled to prevent crash
+            if (req.isInterceptResolutionHandled()) return;
+
             const url = req.url().toLowerCase();
             const resourceType = req.resourceType();
             
-            // Block generic ads and tracking
-            if (BLOCKED_DOMAINS.some(d => url.includes(d))) {
-                req.abort();
-                return;
+            try {
+                // Block generic ads and tracking
+                if (BLOCKED_DOMAINS.some(d => url.includes(d))) {
+                    await req.abort();
+                    return;
+                }
+                // Block heavy media to speed up processing
+                if (['image', 'media', 'font'].includes(resourceType)) {
+                    await req.abort();
+                    return;
+                }
+                await req.continue();
+            } catch (err) {
+                // Ignore errors if request is already closed/handled by browser
             }
-            // Block heavy media to speed up processing
-            if (['image', 'media', 'font'].includes(resourceType)) {
-                req.abort();
-                return;
-            }
-            req.continue();
         });
     } catch (err) {
         // Ignore errors on closed pages
@@ -82,7 +93,9 @@ const configurePage = async (page) => {
                     await configurePage(newPage);
                     // Close empty/ad tabs quickly
                     setTimeout(async () => {
-                        if (!newPage.isClosed() && newPage.url() === 'about:blank') await newPage.close();
+                        try {
+                            if (!newPage.isClosed() && newPage.url() === 'about:blank') await newPage.close();
+                        } catch(e){}
                     }, 2000);
                 }
             } catch(e) {}
@@ -90,6 +103,8 @@ const configurePage = async (page) => {
     });
 
     const page = await browser.newPage();
+    // We call this here to ensure the main page is configured, 
+    // the check inside configurePage prevents double-init if targetcreated fired first.
     await configurePage(page);
 
     try {
@@ -175,7 +190,6 @@ const configurePage = async (page) => {
                         }
 
                         // ⛔ STATS TRAPS (e.g. "Total Downloads: 500")
-                        // If it has "Download" but also "Total" or "View", it's a stat, not a button.
                         if (text.includes('total') || text.includes('view') || text.includes('date') || text.includes('size')) {
                              score -= 500;
                         }
@@ -214,16 +228,16 @@ const configurePage = async (page) => {
 
                 if (decision.action === 'WAITING') {
                     console.log(`\n⏳  Countdown detected on [${p.url().substring(0,25)}...]: "${decision.text}". Waiting...`);
-                    actionTaken = true; // We did something (we saw it), so don't sleep too long
+                    actionTaken = true; 
                     await new Promise(r => setTimeout(r, 2000));
                     break;
                 } else if (decision.action === 'CLICKED') {
                     const key = `${p.url()}-${decision.text}`;
-                    // Simple debounce: don't click exact same button on same page twice in 5 seconds
+                    // Simple debounce
                     if (!clickedHistory.has(key)) {
                         console.log(`\n🎯  Clicked [${p.url().substring(0,25)}...]: "${decision.text}"`);
                         clickedHistory.add(key);
-                        setTimeout(() => clickedHistory.delete(key), 10000); // Forget after 10s
+                        setTimeout(() => clickedHistory.delete(key), 10000); 
                         actionTaken = true;
                         // Give it time to react
                         await new Promise(r => setTimeout(r, 4000));
