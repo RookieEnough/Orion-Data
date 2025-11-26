@@ -42,30 +42,31 @@ const configurePage = async (page) => {
         
         await page.setRequestInterception(true);
         page.on('request', async (req) => {
-            // CRITICAL FIX: Always check if handled before doing anything
-            if (req.isInterceptResolutionHandled()) return;
-
-            const url = req.url().toLowerCase();
-            const resourceType = req.resourceType();
-            
+            // FIXED: Use proper interception handling
             try {
+                const url = req.url().toLowerCase();
+                const resourceType = req.resourceType();
+                
                 // Block generic ads and tracking
                 if (BLOCKED_DOMAINS.some(d => url.includes(d))) {
-                    if (!req.isInterceptResolutionHandled()) await req.abort();
-                    return;
+                    return req.abort();
                 }
                 // Block heavy media to speed up processing
                 if (['image', 'media', 'font'].includes(resourceType)) {
-                    if (!req.isInterceptResolutionHandled()) await req.abort();
-                    return;
+                    return req.abort();
                 }
                 
-                // Final safety check before continue
-                if (!req.isInterceptResolutionHandled()) {
-                    await req.continue();
-                }
+                // Allow all other requests
+                return req.continue();
             } catch (err) {
-                // Ignore errors if request became handled during processing
+                // Ignore errors if request became invalid during processing
+                try {
+                    if (!req._interceptionHandled) {
+                        return req.continue();
+                    }
+                } catch (e) {
+                    // Request is already handled or invalid, ignore
+                }
             }
         });
     } catch (err) {
