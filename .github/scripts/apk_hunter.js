@@ -12,7 +12,7 @@ const getConfig = (key) => {
 const TARGET_URL = getConfig('url');
 const APP_ID = getConfig('id');
 const OUTPUT_FILE = getConfig('out') || `${APP_ID}-temp.apk`;
-const MAX_WAIT_MS = parseInt(getConfig('wait') || '60000'); 
+const MAX_WAIT_MS = parseInt(getConfig('wait') || '60000', 10);
 
 if (!TARGET_URL || !APP_ID) {
     console.error("❌ Usage: node apk_hunter.js --url <url> --id <app_id> [--wait <ms>] [--out <filename>]");
@@ -20,91 +20,169 @@ if (!TARGET_URL || !APP_ID) {
 }
 
 const DOWNLOAD_PATH = path.resolve(__dirname, 'downloads');
-if (!fs.existsSync(DOWNLOAD_PATH)) fs.mkdirSync(DOWNLOAD_PATH);
+if (!fs.existsSync(DOWNLOAD_PATH)) fs.mkdirSync(DOWNLOAD_PATH, { recursive: true });
 
 // Ad Blocking & Resource Optimization
 const BLOCKED_DOMAINS = [
-    'googleads', 'doubleclick', 'googlesyndication', 'adservice', 'rubicon', 'criteo', 
-    'outbrain', 'taboola', 'adsystem', 'adnxs', 'smartadserver', 'popcash', 'popads'
+    'googleads', 'doubleclick', 'googlesyndication', 'adservice', 'rubicon', 'criteo',
+    'outbrain', 'taboola', 'adsystem', 'adnxs', 'smartadserver', 'popcash', 'popads',
+    'facebook.net', 'facebook.com', 'twitter.com', 'cdn-ads'
 ];
+
+const RESOURCE_BLOCK_TYPES = new Set(['image', 'media', 'font', 'stylesheet']);
+
+// A global set used as a mutex to ensure each intercepted request is handled exactly once.
+const handledRequests = new Set();
+
+// Helper to create a small safe ID for a request object.
+// Uses private props if available, else falls back to URL+method+timestamp.
+const reqId = (req) => {
+    // Puppeteer's CDP-backed request often has an internal _requestId — use when available.
+    return req._requestId || `${req.url()}|${req.method()}`;
+};
 
 const configurePage = async (page) => {
     try {
-        // Prevent double configuration on the same page instance
+        // prevent double configuration on the same page instance
         if (page._isConfigured) return;
         page._isConfigured = true;
 
-        const client = await page.target().createCDPSession();
-        await client.send('Page.setDownloadBehavior', {
-            behavior: 'allow',
-            downloadPath: DOWNLOAD_PATH,
-        });
-        
+        // Set download behavior via CDP
+        try {
+            const client = await page.target().createCDPSession();
+            await client.send('Page.setDownloadBehavior', {
+                behavior: 'allow',
+                downloadPath: DOWNLOAD_PATH,
+            });
+        } catch (err) {
+            // If CDP fails for some reason, keep going — downloads might still work
+            console.warn("⚠️  Could not set download behavior via CDP:", err.message);
+        }
+
+        // Enable request interception
         await page.setRequestInterception(true);
+
         page.on('request', async (req) => {
-            // FIXED: Use proper interception handling
+            // If request was already handled by our mutex, drop out immediately.
+            const id = reqId(req);
+            if (handledRequests.has(id)) return;
+
+            // Mark handled immediately to prevent any parallel handler attempting to handle same request.
+            handledRequests.add(id);
+
+            // Ensure we cleanup the ID eventually to avoid memory leak.
+            // Requests should finish quickly; remove after a short delay.
+            const cleanupTimer = setTimeout(() => handledRequests.delete(id), 7000);
+
             try {
-                const url = req.url().toLowerCase();
-                const resourceType = req.resourceType();
-                
-                // Block generic ads and tracking
-                if (BLOCKED_DOMAINS.some(d => url.includes(d))) {
-                    return req.abort();
+                const u = req.url().toLowerCase();
+                const rType = req.resourceType();
+
+                // Block obvious ad/tracker domains
+                if (BLOCKED_DOMAINS.some(d => u.includes(d))) {
+                    try { await req.abort(); } catch (e) {}
+                    return;
                 }
-                // Block heavy media to speed up processing
-                if (['image', 'media', 'font'].includes(resourceType)) {
-                    return req.abort();
+
+                // Block heavy/static resources to speed up crawling
+                if (RESOURCE_BLOCK_TYPES.has(rType)) {
+                    try { await req.abort(); } catch (e) {}
+                    return;
                 }
-                
-                // Allow all other requests
-                return req.continue();
-            } catch (err) {
-                // Ignore errors if request became invalid during processing
+
+                // Some requests are navigation/frame-internals; allow them.
                 try {
-                    if (!req._interceptionHandled) {
-                        return req.continue();
-                    }
-                } catch (e) {
-                    // Request is already handled or invalid, ignore
+                    await req.continue();
+                } catch (err) {
+                    // If continue() throws because the request was already handled by the browser,
+                    // ignore it. Our mutex prevents duplicate continues in normal flow.
                 }
+            } catch (err) {
+                // swallow — we don't want an individual request error to crash the whole script
+            } finally {
+                clearTimeout(cleanupTimer);
+                // Keep a short grace period to ensure we don't re-handle the same id immediately,
+                // but remove it to let GC / future requests reuse the same key if needed.
+                setTimeout(() => handledRequests.delete(id), 1000);
             }
         });
+
+        // Occasionally pages create many frames/requests — protect against console spam
+        page.on('console', (msg) => {
+            // Keep important console logs; silence verbose ones.
+            const text = msg.text();
+            if (/Error|Warning|download/i.test(text)) {
+                console.log(`PAGE LOG: ${text}`);
+            }
+        });
+
+        // Close suspiciously blank pages soon after they open
+        page.on('domcontentloaded', async () => {
+            try {
+                if (!page.isClosed()) {
+                    const url = page.url();
+                    if (url === 'about:blank') {
+                        setTimeout(async () => {
+                            if (!page.isClosed() && page.url() === 'about:blank') {
+                                try { await page.close(); } catch(e) {}
+                            }
+                        }, 1500);
+                    }
+                }
+            } catch (e) {}
+        });
     } catch (err) {
-        // Ignore errors on closed pages
+        // ignore errors on closed pages or if configuration fails
     }
 };
 
 (async () => {
     console.log(`\n🕷️  Starting Smart APK Hunter for: ${APP_ID}`);
     console.log(`🔗  Target: ${TARGET_URL}`);
-    
+
+    // Global handlers to show useful info if something goes wrong.
+    process.on('unhandledRejection', (reason) => {
+        console.error('Unhandled Rejection:', reason && reason.stack ? reason.stack : reason);
+    });
+
+    process.on('uncaughtException', (err) => {
+        console.error('Uncaught Exception:', err && err.stack ? err.stack : err);
+        process.exit(1);
+    });
+
     const browser = await puppeteer.launch({
         headless: "new",
         args: [
-            '--no-sandbox', 
-            '--disable-setuid-sandbox', 
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
             '--disable-features=site-per-process',
-            '--window-size=1280,800', // Standard resolution
-            '--disable-popup-blocking'
+            '--window-size=1280,800',
+            '--disable-popup-blocking',
+            '--disable-background-networking'
         ]
     });
 
-    // Handle new tabs (popups/redirects)
+    // Strengthened popup/tab handling
     browser.on('targetcreated', async (target) => {
-        if (target.type() === 'page') {
-            try {
+        try {
+            if (target.type() === 'page') {
                 const newPage = await target.page();
                 if (newPage) {
+                    // Bypass CSP might help pages that inject many dynamic scripts
+                    try { await newPage.setBypassCSP(true); } catch(e){}
                     await configurePage(newPage);
-                    // Close empty/ad tabs quickly
+
+                    // Close immediately if blank and stays blank
                     setTimeout(async () => {
                         try {
-                            if (!newPage.isClosed() && newPage.url() === 'about:blank') await newPage.close();
-                        } catch(e){}
-                    }, 2000);
+                            if (!newPage.isClosed() && (newPage.url() === 'about:blank' || newPage.url().length === 0)) {
+                                await newPage.close();
+                            }
+                        } catch (e) {}
+                    }, 2500);
                 }
-            } catch(e) {}
-        }
+            }
+        } catch (e) {}
     });
 
     const page = await browser.newPage();
@@ -114,25 +192,25 @@ const configurePage = async (page) => {
         await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
         await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
     } catch (e) {
-        console.error("❌  Initial Navigation failed:", e.message);
+        console.error("❌  Initial Navigation failed:", e.message || e);
         await browser.close();
         process.exit(1);
     }
 
     const startTime = Date.now();
     let fileFound = null;
-    let clickedHistory = new Set();
+    const clickedHistory = new Set();
 
     console.log("🔄  Entering Hunter Loop...");
 
     // === MAIN LOOP ===
     while (Date.now() - startTime < MAX_WAIT_MS + 30000) {
-        
-        // 1. Check File System
+
+        // 1. Check File System for completed download files
         try {
             const files = fs.readdirSync(DOWNLOAD_PATH);
-            const apk = files.find(f => f.endsWith('.apk'));
-            const crdownload = files.find(f => f.endsWith('.crdownload'));
+            const apk = files.find(f => f.toLowerCase().endsWith('.apk'));
+            const crdownload = files.find(f => f.toLowerCase().endsWith('.crdownload') || f.toLowerCase().endsWith('.part'));
 
             if (apk) {
                 const stats = fs.statSync(path.join(DOWNLOAD_PATH, apk));
@@ -143,75 +221,58 @@ const configurePage = async (page) => {
                 }
             }
             if (crdownload) {
-                process.stdout.write("Dl."); // Downloading
+                process.stdout.write("Dl."); // Downloading indicator
                 await new Promise(r => setTimeout(r, 2000));
                 continue;
             }
-        } catch (err) {}
+        } catch (err) {
+            // ignore FS errors
+        }
 
-        // 2. Scan All Pages
+        // 2. Scan All Pages for potential download buttons and click
         const pages = await browser.pages();
         let actionTaken = false;
 
         for (const p of pages) {
             if (p.isClosed()) continue;
-            
-            // Inject logic into page
+
             try {
+                // Evaluate page to pick the best element to click (same scoring engine)
                 const decision = await p.evaluate(() => {
-                    // --- SCORING ENGINE ---
                     const buttons = Array.from(document.querySelectorAll('a, button, div[role="button"], span, input[type="button"], input[type="submit"]'));
-                    
+                    const isVisible = (el) => {
+                        const style = window.getComputedStyle(el);
+                        return style && style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0' && el.offsetWidth > 0 && el.offsetHeight > 0;
+                    };
+
                     let bestEl = null;
                     let highestScore = -9999;
                     let debugText = "";
 
-                    const isVisible = (el) => {
-                        const style = window.getComputedStyle(el);
-                        return style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0' && el.offsetWidth > 0 && el.offsetHeight > 0;
-                    };
-
                     for (let el of buttons) {
                         if (!isVisible(el)) continue;
-
-                        let text = (el.innerText || el.value || "").toLowerCase().replace(/\s+/g, ' ').trim();
-                        if (text.length < 3) continue;
+                        let text = (el.innerText || el.value || el.getAttribute('aria-label') || "").toLowerCase().replace(/\s+/g, ' ').trim();
+                        if (!text || text.length < 2) continue;
 
                         let score = 0;
 
-                        // ⛔ KILL WORDS (Immediate Disqualification)
+                        // Kill words
                         if (text.includes('ad') || text.includes('sponsored') || text.includes('facebook') || text.includes('twitter')) continue;
                         if (text.includes('login') || text.includes('signup') || text.includes('register')) continue;
-                        
-                        // ⛔ WAITING WORDS (Detected but not ready)
+
+                        // Waiting words
                         if (text.includes('generating') || text.includes('please wait') || text.includes('seconds')) {
-                            // If this looks like a download button but is waiting, return special status
                             if (text.includes('download') || text.includes('link')) {
-                                return { action: 'WAITING', text: text.substring(0, 30) };
+                                return { action: 'WAITING', text: text.substring(0, 60) };
                             }
-                            continue; 
+                            continue;
                         }
 
-                        // ⛔ STATS TRAPS (e.g. "Total Downloads: 500")
-                        if (text.includes('total') || text.includes('view') || text.includes('date') || text.includes('size')) {
-                             score -= 500;
-                        }
-
-                        // ⛔ FAKE/PREMIUM BUTTONS
-                        if (text.includes('premium') || text.includes('fast') || text.includes('manager')) score -= 100;
-
-                        // ✅ GOOD WORDS
-                        if (text === 'download') score += 100;
-                        if (text === 'download apk') score += 100;
-                        if (text === 'direct download') score += 80;
-                        if (text.includes('click to download')) score += 90; // FileCR specific
-                        
-                        // ✅ CONTEXT WORDS
-                        if (text.includes('download') && text.includes('mb')) score += 60; // "Download (50MB)"
-                        if (text.includes('download') && text.includes('apk')) score += 50;
-
-                        // Prefer shorter, concise buttons over long paragraphs
-                        if (text.length > 50) score -= 20;
+                        if (text.includes('download')) score += 80;
+                        if (text === 'download' || text === 'download apk') score += 40;
+                        if (text.includes('direct download')) score += 60;
+                        if (text.length > 70) score -= 20;
+                        if (text.includes('premium') || text.includes('manager')) score -= 80;
 
                         if (score > highestScore) {
                             highestScore = score;
@@ -220,35 +281,35 @@ const configurePage = async (page) => {
                         }
                     }
 
-                    // Threshold: Only click if we are fairly sure (Score > 20)
-                    if (bestEl && highestScore > 20) {
+                    if (bestEl && highestScore > 30) {
                         bestEl.click();
                         return { action: 'CLICKED', text: debugText };
                     }
-                    
                     return { action: 'NONE' };
                 });
 
+                if (!decision) continue;
+
                 if (decision.action === 'WAITING') {
-                    console.log(`\n⏳  Countdown detected on [${p.url().substring(0,25)}...]: "${decision.text}". Waiting...`);
-                    actionTaken = true; 
+                    console.log(`\n⏳  Countdown detected on [${p.url().slice(0,60)}...]: "${decision.text}". Waiting...`);
+                    actionTaken = true;
                     await new Promise(r => setTimeout(r, 2000));
                     break;
                 } else if (decision.action === 'CLICKED') {
-                    const key = `${p.url()}-${decision.text}`;
-                    // Simple debounce
+                    const key = `${p.url()}|${decision.text}`;
                     if (!clickedHistory.has(key)) {
-                        console.log(`\n🎯  Clicked [${p.url().substring(0,25)}...]: "${decision.text}"`);
+                        console.log(`\n🎯  Clicked [${p.url().slice(0,60)}...]: "${decision.text}"`);
                         clickedHistory.add(key);
-                        setTimeout(() => clickedHistory.delete(key), 10000); 
+                        setTimeout(() => clickedHistory.delete(key), 15000);
                         actionTaken = true;
-                        // Give it time to react
-                        await new Promise(r => setTimeout(r, 4000));
+                        // Give UI time to react and potentially start a download
+                        await new Promise(r => setTimeout(r, 3500));
                         break;
                     }
                 }
-
-            } catch(e) { /* context destroyed, ignore */ }
+            } catch (e) {
+                // page might be navigating/closing - ignore
+            }
         }
 
         if (!actionTaken) {
@@ -257,11 +318,18 @@ const configurePage = async (page) => {
         }
     }
 
+    // Finalize
     if (fileFound) {
-        fs.renameSync(fileFound, OUTPUT_FILE);
-        console.log(`\n🎉  Success! Downloaded to ${OUTPUT_FILE}`);
-        await browser.close();
-        process.exit(0);
+        try {
+            fs.renameSync(fileFound, OUTPUT_FILE);
+            console.log(`\n🎉  Success! Downloaded to ${OUTPUT_FILE}`);
+            await browser.close();
+            process.exit(0);
+        } catch (err) {
+            console.error("❌  Could not move downloaded file:", err.message || err);
+            await browser.close();
+            process.exit(1);
+        }
     } else {
         console.error("\n❌  Timed out. Smart Hunter failed to download.");
         await browser.close();
