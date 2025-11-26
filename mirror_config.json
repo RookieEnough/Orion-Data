@@ -1,0 +1,17 @@
+
+[
+  {
+    "id": "telegram-premium",
+    "name": "Telegram",
+    "downloadUrl": "https://telegram.org/dl/android/apk",
+    "mode": "direct"
+  },
+  {
+    "id": "spotify-mod",
+    "name": "Spotify Mod",
+    "downloadUrl": "https://example.com/download-page-with-timer",
+    "mode": "scrape",
+    "wait": 45000,
+    "note": "This site has a 30s timer, so we wait 45s total."
+  }
+]
