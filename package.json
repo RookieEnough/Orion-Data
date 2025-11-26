@@ -1,0 +1,14 @@
+
+{
+  "name": "orion-store-scraper",
+  "version": "1.0.0",
+  "description": "Automated APK Mirroring for OrionStore",
+  "main": "index.js",
+  "scripts": {
+    "mirror": "node .github/scripts/apk_hunter.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "axios": "^1.6.0"
+  }
+}
