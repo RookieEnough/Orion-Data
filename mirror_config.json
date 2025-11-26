@@ -1,17 +1,18 @@
 
 [
   {
-    "id": "telegram-premium",
-    "name": "Telegram",
+    "id": "telegram-example",
+    "name": "Telegram (Direct Example)",
     "downloadUrl": "https://telegram.org/dl/android/apk",
-    "mode": "direct"
+    "mode": "direct",
+    "note": "Use 'direct' mode when the link directly triggers a download."
   },
   {
-    "id": "spotify-mod",
-    "name": "Spotify Mod",
-    "downloadUrl": "https://example.com/download-page-with-timer",
+    "id": "capcut-premium",
+    "name": "CapCut Pro",
+    "downloadUrl": "https://filecr.com/android/capcut-video-editor/",
     "mode": "scrape",
-    "wait": 45000,
-    "note": "This site has a 30s timer, so we wait 45s total."
+    "wait": 10000,
+    "note": "Use 'scrape' mode for websites. The bot will find and click the download button automatically."
   }
 ]
