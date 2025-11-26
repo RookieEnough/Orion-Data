@@ -30,7 +30,7 @@ const BLOCKED_DOMAINS = [
 
 const configurePage = async (page) => {
     try {
-        // Prevent setting up multiple times on the same page
+        // Prevent double configuration on the same page instance
         if (page._isConfigured) return;
         page._isConfigured = true;
 
@@ -42,7 +42,7 @@ const configurePage = async (page) => {
         
         await page.setRequestInterception(true);
         page.on('request', async (req) => {
-            // CRITICAL FIX: Check if request is already handled to prevent crash
+            // CRITICAL FIX: Always check if handled before doing anything
             if (req.isInterceptResolutionHandled()) return;
 
             const url = req.url().toLowerCase();
@@ -51,17 +51,21 @@ const configurePage = async (page) => {
             try {
                 // Block generic ads and tracking
                 if (BLOCKED_DOMAINS.some(d => url.includes(d))) {
-                    await req.abort();
+                    if (!req.isInterceptResolutionHandled()) await req.abort();
                     return;
                 }
                 // Block heavy media to speed up processing
                 if (['image', 'media', 'font'].includes(resourceType)) {
-                    await req.abort();
+                    if (!req.isInterceptResolutionHandled()) await req.abort();
                     return;
                 }
-                await req.continue();
+                
+                // Final safety check before continue
+                if (!req.isInterceptResolutionHandled()) {
+                    await req.continue();
+                }
             } catch (err) {
-                // Ignore errors if request is already closed/handled by browser
+                // Ignore errors if request became handled during processing
             }
         });
     } catch (err) {
@@ -103,8 +107,6 @@ const configurePage = async (page) => {
     });
 
     const page = await browser.newPage();
-    // We call this here to ensure the main page is configured, 
-    // the check inside configurePage prevents double-init if targetcreated fired first.
     await configurePage(page);
 
     try {
