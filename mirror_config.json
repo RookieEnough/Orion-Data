@@ -12,7 +12,7 @@
     "name": "CapCut Pro",
     "downloadUrl": "https://filecr.com/android/capcut-video-editor/",
     "mode": "scrape",
-    "wait": 10000,
+    "wait": 90000,
     "note": "Use 'scrape' mode for websites. The bot will find and click the download button automatically."
   }
 ]
