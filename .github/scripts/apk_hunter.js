@@ -12,7 +12,7 @@ const getConfig = (key) => {
 const TARGET_URL = getConfig('url');
 const APP_ID = getConfig('id');
 const OUTPUT_FILE = getConfig('out') || `${APP_ID || 'app'}.apk`;
-const MAX_WAIT_MS = parseInt(getConfig('wait') || '90000', 10); // 90s default
+const MAX_WAIT_MS = parseInt(getConfig('wait') || '120000', 10); // 2min default
 
 if (!TARGET_URL || !APP_ID) {
     console.error("Usage: node apk_hunter.js --url <url> --id <app_id> [--wait <ms>] [--out <filename>]");
@@ -39,26 +39,21 @@ const configurePage = async (page) => {
         downloadPath: DOWNLOAD_PATH,
     });
 
-    // Request interception — CRITICAL: NO async/await inside handler!
+    // Request interception — NO async/await inside!
     await page.setRequestInterception(true);
     page.on('request', (req) => {
-        // Defensive check
         if (req.isInterceptResolutionHandled()) return;
 
         const url = req.url().toLowerCase();
         const type = req.resourceType();
 
-        // Block ads
         if (BLOCKED_DOMAINS.some(d => url.includes(d))) {
             return void req.abort().catch(() => {});
         }
-
-        // Block heavy/unnecessary resources
         if (['image', 'media', 'font', 'stylesheet', 'imageset'].includes(type)) {
             return void req.abort().catch(() => {});
         }
 
-        // Everything else → continue
         req.continue().catch(() => {});
     });
 };
@@ -80,12 +75,15 @@ const configurePage = async (page) => {
         defaultViewport: null
     });
 
-    // Auto-configure any new pages (popups, redirects)
+    // Auto-configure new pages (popups)
     browser.on('targetcreated', async (target) => {
         if (target.type() === 'page') {
             try {
                 const newPage = await target.page();
-                if (newPage) await configurePage(newPage);
+                if (newPage && newPage.url() !== 'about:blank') {
+                    await configurePage(newPage);
+                    console.log(`New popup detected: ${newPage.url().substring(0, 50)}`);
+                }
             } catch (e) {}
         }
     });
@@ -96,8 +94,26 @@ const configurePage = async (page) => {
 
     try {
         await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+        console.log("Page loaded. Scrolling to reveal download section...");
+        // CRITICAL: Scroll to bottom to load "Direct Download"
+        await page.evaluate(async () => {
+            await new Promise(resolve => {
+                let totalHeight = 0;
+                const distance = 100;
+                const timer = setInterval(() => {
+                    const scrollHeight = document.body.scrollHeight;
+                    window.scrollBy(0, distance);
+                    totalHeight += distance;
+                    if (totalHeight >= scrollHeight) {
+                        clearInterval(timer);
+                        resolve();
+                    }
+                }, 100);
+            });
+        });
+        await new Promise(r => setTimeout(r, 2000)); // Stabilize
     } catch (e) {
-        console.error("Failed to load target URL:", e.message);
+        console.error("Failed to load/scroll page:", e.message);
         await browser.close();
         process.exit(1);
     }
@@ -105,6 +121,7 @@ const configurePage = async (page) => {
     const startTime = Date.now();
     let downloadedFile = null;
     const clicked = new Set();
+    let popupPage = null;
 
     console.log("Hunting for download button...\n");
 
@@ -118,7 +135,7 @@ const configurePage = async (page) => {
             if (apk) {
                 const fullPath = path.join(DOWNLOAD_PATH, apk);
                 const stats = fs.statSync(fullPath);
-                if (stats.size > 500000) { // >500KB = real file
+                if (stats.size > 500000) { // >500KB
                     downloadedFile = fullPath;
                     console.log(`\nAPK Downloaded: ${apk} (${(stats.size/1024/1024).toFixed(2)} MB)`);
                     break;
@@ -131,7 +148,7 @@ const configurePage = async (page) => {
             }
         } catch (e) {}
 
-        // 2. Scan all open pages for clickable buttons
+        // 2. Get all pages (main + popups)
         const pages = await browser.pages();
         let acted = false;
 
@@ -139,8 +156,44 @@ const configurePage = async (page) => {
             if (p.isClosed()) continue;
 
             try {
+                // Special handling for popups (FileCR download page)
+                if (p.url().includes('filecr.com') && p.url() !== TARGET_URL && !popupPage) {
+                    popupPage = p;
+                    console.log("Switching to download popup...");
+                    await p.bringToFront();
+                    acted = true;
+                    // Inject state monitor for "Generating..." → "Click to download"
+                    await p.evaluate(() => {
+                        const monitorButton = () => {
+                            const btn = document.querySelector('a, button, .download-btn, [class*="download"]');
+                            if (!btn) return 'NO_BUTTON';
+                            const text = (btn.innerText || btn.value || '').toLowerCase().trim();
+                            if (text.includes('generating download link') || text.includes('please wait')) return 'GENERATING';
+                            if (text.includes('click to download') || text.includes('download now')) return 'READY';
+                            return 'UNKNOWN';
+                        };
+
+                        const interval = setInterval(() => {
+                            const state = monitorButton();
+                            if (state === 'READY') {
+                                const btn = document.querySelector('a, button, .download-btn, [class*="download"]');
+                                if (btn) {
+                                    btn.scrollIntoView({ block: 'center' });
+                                    btn.click();
+                                    clearInterval(interval);
+                                }
+                            }
+                        }, 1000); // Poll every 1s
+
+                        setTimeout(() => clearInterval(interval), 15000); // Max 15s
+                    });
+                    await new Promise(r => setTimeout(r, 8000)); // Wait for generation
+                    continue;
+                }
+
+                // Main page or generic scanning
                 const result = await p.evaluate(() => {
-                    const candidates = Array.from(document.querySelectorAll('a, button, div[onclick], span[onclick], input[type="button"]'));
+                    const candidates = Array.from(document.querySelectorAll('a, button, div[onclick], span[onclick], input[type="button"], .download-btn'));
                     let best = null;
                     let score = -999;
 
@@ -157,11 +210,12 @@ const configurePage = async (page) => {
 
                         let s = 0;
                         if (text.includes('ad') || text.includes('sponsored') || text.includes('login')) continue;
-                        if (text.includes('premium') || text.includes('vip')) s -= 100;
+                        if (text.includes('premium') || text.includes('vip')) s -= 50; // Less penalty
 
+                        // FileCR-specific boosts
+                        if (text.includes('direct download')) s += 150;
                         if (text === 'download apk') s += 200;
                         if (text === 'download') s += 100;
-                        if (text.includes('direct download')) s += 150;
                         if (text.includes('click to download')) s += 120;
                         if (text.includes('download') && text.includes('mb')) s += 80;
 
@@ -171,10 +225,10 @@ const configurePage = async (page) => {
                         }
                     }
 
-                    if (best && score > 30) {
+                    if (best && score > 20) { // Lowered threshold for "Direct Download"
                         best.scrollIntoView({ block: 'center' });
                         best.click();
-                        return { clicked: true, text: best.innerText.substring(0, 50) };
+                        return { clicked: true, text: best.innerText.substring(0, 50), score };
                     }
                     return { clicked: false };
                 });
@@ -182,11 +236,11 @@ const configurePage = async (page) => {
                 if (result.clicked) {
                     const key = `${p.url()}-${result.text}`;
                     if (!clicked.has(key)) {
-                        console.log(`Clicked: "${result.text}"`);
+                        console.log(`Clicked: "${result.text}" (Score: ${result.score})`);
                         clicked.add(key);
                         setTimeout(() => clicked.delete(key), 15000);
                         acted = true;
-                        await new Promise(r => setTimeout(r, 5000));
+                        await new Promise(r => setTimeout(r, 3000)); // Wait for popup
                     }
                 }
             } catch (e) {}
@@ -194,9 +248,12 @@ const configurePage = async (page) => {
 
         if (!acted) {
             process.stdout.write(".");
-            await new Promise(r => setTimeout(r, 1200));
+            await new Promise(r => setTimeout(r, 2000)); // Slower loop for stability
         }
     }
+
+    // Cleanup
+    if (popupPage) await popupPage.close().catch(() => {});
 
     // Final result
     if (downloadedFile) {
@@ -205,7 +262,7 @@ const configurePage = async (page) => {
         await browser.close();
         process.exit(0);
     } else {
-        console.error("\nFailed — No APK downloaded in time.");
+        console.error("\nFailed — No APK downloaded in time. Check if scroll/popup handling needs tweak.");
         await browser.close();
         process.exit(1);
     }
