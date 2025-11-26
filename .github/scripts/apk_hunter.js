@@ -1,4 +1,3 @@
-
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
@@ -23,7 +22,12 @@ if (!TARGET_URL || !APP_ID) {
 const DOWNLOAD_PATH = path.resolve(__dirname, 'downloads');
 if (!fs.existsSync(DOWNLOAD_PATH)) fs.mkdirSync(DOWNLOAD_PATH);
 
-// Helper to configure download behavior on a page
+// Ad Blocking List
+const BLOCKED_DOMAINS = [
+    'googleads', 'doubleclick', 'googlesyndication', 'adservice', 'rubicon', 'criteo', 
+    'outbrain', 'taboola', 'adsystem', 'adnxs', 'smartadserver'
+];
+
 const configureDownload = async (page) => {
     try {
         const client = await page.target().createCDPSession();
@@ -31,17 +35,22 @@ const configureDownload = async (page) => {
             behavior: 'allow',
             downloadPath: DOWNLOAD_PATH,
         });
-        // Block heavy resources
+        
         await page.setRequestInterception(true);
         page.on('request', (req) => {
-            if (['image', 'font', 'media', 'stylesheet'].includes(req.resourceType())) {
+            const url = req.url().toLowerCase();
+            const resourceType = req.resourceType();
+            
+            // Block heavy media AND known ad domains
+            if (['image', 'font', 'media', 'stylesheet'].includes(resourceType) || 
+                BLOCKED_DOMAINS.some(d => url.includes(d))) {
                 req.abort();
             } else {
                 req.continue();
             }
         });
     } catch (err) {
-        console.log("⚠️ Failed to configure page (might be closed):", err.message);
+        console.log("⚠️ Failed to configure page:", err.message);
     }
 };
 
@@ -54,14 +63,13 @@ const configureDownload = async (page) => {
         headless: "new",
         args: [
             '--no-sandbox', 
-            '--disable-setuid-sandbox',
+            '--disable-setuid-sandbox', 
             '--disable-features=site-per-process',
             '--window-size=1920,1080',
-            '--disable-popup-blocking' // Allow popups for downloads
+            '--disable-popup-blocking'
         ]
     });
 
-    // Listen for new tabs/windows to ensure downloads work there too
     browser.on('targetcreated', async (target) => {
         if (target.type() === 'page') {
             const newPage = await target.page();
@@ -84,19 +92,17 @@ const configureDownload = async (page) => {
         process.exit(1);
     }
 
-    // --- SMART POLLING LOOP ---
     const startTime = Date.now();
     let fileFound = null;
-    let clickedButtons = new Set();
     
-    // Keep track of all pages to search buttons on all tabs
-    const getAllPages = async () => {
-        return await browser.pages();
-    };
+    // Store clicked buttons with timestamp to allow retrying (Anti-Popunder)
+    let clickedButtons = new Map(); 
+
+    const getAllPages = async () => await browser.pages();
 
     console.log("🔄  Entering Hunt Loop...");
 
-    while (Date.now() - startTime < MAX_WAIT_MS + 15000) { 
+    while (Date.now() - startTime < MAX_WAIT_MS + 20000) { 
         
         // 1. Check for File
         try {
@@ -105,7 +111,6 @@ const configureDownload = async (page) => {
             const part = files.find(f => f.endsWith('.crdownload'));
 
             if (apk) {
-                // Ensure file size is stable (download finished)
                 const stats = fs.statSync(path.join(DOWNLOAD_PATH, apk));
                 if (stats.size > 0) {
                     fileFound = path.join(DOWNLOAD_PATH, apk);
@@ -115,54 +120,55 @@ const configureDownload = async (page) => {
             }
 
             if (part) {
-                // Downloading... wait patiently
                 process.stdout.write("Dl.");
                 await new Promise(r => setTimeout(r, 2000));
                 continue; 
             }
-        } catch (err) {
-            // ignore fs errors
+        } catch (err) {}
+
+        // 2. Refresh Button State (Retry logic)
+        for (const [txt, time] of clickedButtons) {
+            if (Date.now() - time > 15000) { 
+                // If 15s passed and no download, assume it was a popunder/ad and forget it so we can click again.
+                clickedButtons.delete(txt);
+            }
         }
 
-        // 2. Perform Interaction (Scan all open tabs)
+        // 3. Scan Pages
         const pages = await getAllPages();
         let actionTaken = false;
 
         for (const p of pages) {
             try {
-                // Skip if page is closed
                 if (p.isClosed()) continue;
 
                 const clickResult = await p.evaluate(() => {
-                    // A. Scroll to bottom to trigger lazy loads
                     window.scrollTo(0, document.body.scrollHeight);
                     
-                    // B. Helper to check visibility
                     const isVisible = (el) => {
                         const rect = el.getBoundingClientRect();
-                        return rect.width > 0 && rect.height > 0 && el.style.visibility !== 'hidden';
+                        // Must be visible AND have some size
+                        return rect.width > 0 && rect.height > 0 && el.style.visibility !== 'hidden' && el.style.display !== 'none';
                     };
 
                     const buttons = [...document.querySelectorAll('a, button, div[role="button"], span, input[type="button"]')];
                     
-                    // Strategy: Find the best candidate
                     const candidate = buttons.find(el => {
                         if (!isVisible(el)) return false;
                         const t = (el.innerText || el.value || "").toLowerCase().trim();
                         if (t.length < 3) return false;
 
-                        // Negative Keywords (Ads/Stats)
-                        if (t.includes('premium') || t.includes('fast') || t.includes('manager') || t.includes('advertisement')) return false;
-                        if (t.includes('total downloads') || t.includes('viewed') || t.includes('votes')) return false;
-
-                        // Positive Keywords priority
-                        // 1. Exact "Download APK" or "Download" or "Direct Download"
-                        if (t === 'download' || t === 'download apk' || t === 'direct download') return true;
+                        // ⛔ STRICT NEGATIVE MATCHING ⛔
+                        // If it says "Generating" or "Wait", it is NOT ready, even if it also says "Download".
+                        if (t.includes('generating') || t.includes('please wait') || t.includes('seconds')) return false;
                         
-                        // 2. FileCR specific: "Click to Download"
-                        if (t.includes('click to download')) return true;
+                        // Generic bad keywords
+                        if (t.includes('premium') || t.includes('fast') || t.includes('manager') || t.includes('advertisement')) return false;
+                        if (t.includes('total downloads') || t.includes('viewed')) return false;
 
-                        // 3. Secondary: "Download (X MB)"
+                        // ✅ POSITIVE MATCHING ✅
+                        if (t === 'download' || t === 'download apk' || t === 'direct download') return true;
+                        if (t.includes('click to download')) return true; // FileCR Final Button
                         if (t.includes('download') && (t.includes('mb') || t.includes('apk') || t.includes('file'))) return true;
 
                         return false;
@@ -170,22 +176,20 @@ const configureDownload = async (page) => {
 
                     if (candidate) {
                         candidate.click();
-                        return (candidate.innerText || candidate.value || "button").substring(0, 30);
+                        // Return the text to identify this button
+                        return (candidate.innerText || candidate.value || "button").substring(0, 50).replace(/\n/g, ' ');
                     }
                     return null;
                 });
 
                 if (clickResult && !clickedButtons.has(clickResult)) {
-                    console.log(`\nHg  Clicked on [${p.url().substring(0,30)}...]: "${clickResult.replace(/\n/g, ' ')}". Waiting...`);
-                    clickedButtons.add(clickResult);
+                    console.log(`\nHg  Clicked on [${p.url().substring(0,30)}...]: "${clickResult}". Waiting...`);
+                    clickedButtons.set(clickResult, Date.now());
                     actionTaken = true;
-                    // Don't wait too long here, we want to check for files, but give it a moment to react
-                    await new Promise(r => setTimeout(r, 3000)); 
-                    break; // Move to file check
+                    await new Promise(r => setTimeout(r, 4000)); 
+                    break; 
                 }
-            } catch (e) {
-                // Ignore evaluation errors (detached nodes etc)
-            }
+            } catch (e) {}
         }
 
         if (!actionTaken) {
