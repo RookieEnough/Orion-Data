@@ -1,36 +1,51 @@
+
 name: Update Store Mirror
 
 on:
+  workflow_dispatch:
+  release:
+    types: [published]
   schedule:
-    - cron: '0 * * * *' # Runs every hour at minute 0
-  workflow_dispatch: # Allows you to click a button to run it manually
+    - cron: '0 */6 * * *' # Run every 6 hours to sync data
 
 permissions:
-  contents: write # Crucial: Allows the bot to save the new JSON file
+  contents: write
 
 jobs:
-  build:
+  update-mirror:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout Data Repo
-      uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-    - name: Run Mirror Generator
-      env:
-        # This token is automatically provided by GitHub. You don't need to generate one.
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: python3 mirror_generator.py
+      - name: Install Requests
+        run: pip install requests
 
-    - name: Commit and Push changes
-      run: |
-        git config --global user.name "Orion Bot"
-        git config --global user.email "bot@orionstore.app"
-        git add mirror.json
-        # Only commit if mirror.json actually changed
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update mirror.json [skip ci]" && git push)
+      - name: Generate Mirror JSON
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/mirror_generator.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "Orion Bot"
+          git config --global user.email "bot@orion.store"
+          
+          git add mirror.json
+          
+          # Check if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to mirror.json"
+            exit 0
+          fi
+          
+          git commit -m "Update mirror.json [skip ci]"
+          
+          # SAFETY: Pull changes from remote before pushing to avoid conflicts
+          git pull --rebase origin main
+          git push
