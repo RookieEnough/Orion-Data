@@ -1,4 +1,3 @@
-
 [
   {
     "id": "telegram-example",
@@ -12,7 +11,7 @@
     "name": "CapCut Pro",
     "downloadUrl": "https://filecr.com/android/capcut-video-editor/",
     "mode": "scrape",
-    "wait": 90000,
-    "note": "Use 'scrape' mode for websites. The bot will find and click the download button automatically."
+    "wait": 120000,
+    "note": "FileCR has countdowns, set to 120s for safety."
   }
 ]
