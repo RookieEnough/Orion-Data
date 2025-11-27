@@ -1,317 +1,254 @@
-/**
- * APK Hunter - APKDone Download Script
- * 
- * APKDone Anti-Bot Behavior (Nov 2025):
- * - The /download/ page contains a gateway URL (file.apkdone.io/s/.../download)
- * - Direct HTTP requests to gateway URL return 302 → HTML 404 (fake error)
- * - Real APK is only served after browser click with proper cookies/referrer
- * - This script simulates the real browser interaction to bypass protection
- * 
- * Important: There are two download buttons:
- * 1. Transparent "Download APK (size)" button - the real APK we want
- * 2. APKDone downloader app button - their own app (small file)
+/*
+ * ORION DATA - DEEP DIVE APK HUNTER (V16.0 - THE AN1 SPECIALIST)
+ * -------------------------------------------------------
+ * Strategies for: APKDone (The Tourist), AN1 (The Shortcut)
  */
 
-const puppeteer = require('puppeteer');
-const https = require('https');
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 
-(async () => {
-  try {
-    // Parse command line arguments
-    const args = parseArgs();
-    const configId = args.id;
-    const outputFile = args.out;
+// Enable Stealth
+puppeteer.use(StealthPlugin());
+
+// --- UTILS ---
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+const randomRange = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
+// --- FINGERPRINT INJECTION ---
+async function injectTrustProfile(page) {
+    await page.evaluateOnNewDocument(() => {
+        const getImageData = CanvasRenderingContext2D.prototype.getImageData;
+        CanvasRenderingContext2D.prototype.getImageData = function(x, y, w, h) {
+            return getImageData.call(this, x, y, w, h);
+        };
+        Object.defineProperty(navigator, 'plugins', {
+            get: () => [
+                { name: 'Chrome PDF Viewer', filename: 'internal-pdf-viewer', description: 'Portable Document Format' },
+                { name: 'PDF Viewer', filename: 'internal-pdf-viewer', description: 'Portable Document Format' }
+            ]
+        });
+        Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+    });
+}
+
+// --- CLOUDFLARE SOLVER ---
+const solveCloudflare = async (page) => {
+    console.log('   🛡️  Checking Cloudflare status...');
+    await delay(2000); 
+
+    let attempt = 0;
+    const maxAttempts = 10;
+
+    while (attempt < maxAttempts) {
+        const title = await page.title();
+        const content = (await page.content()).toLowerCase();
+        const isBlocked = title.includes('Just a moment') || content.includes('challenge-platform');
+        
+        if (!isBlocked) {
+            console.log('   ✅ Cloudflare cleared!');
+            return;
+        }
+
+        console.log(`   ⏳ Waiting for Cloudflare (Attempt ${attempt+1})...`);
+        await page.mouse.move(randomRange(100, 700), randomRange(100, 500), { steps: 25 });
+        
+        // Try Shadow DOM clicks
+        const shadowHandle = await page.evaluateHandle(() => {
+            const targets = ['#challenge-stage', '.ctp-checkbox-label', 'input[name="cf-turnstile-response"]'];
+            for (const t of targets) {
+                const el = document.querySelector(t);
+                if (el) return el;
+            }
+            return null;
+        });
+        if (shadowHandle.asElement()) await shadowHandle.click();
+
+        await delay(4000);
+        attempt++;
+    }
+};
+
+// --- AN1 STRATEGY (THE SHORTCUT) ---
+async function runAn1Strategy(page, url) {
+    console.log(`🧠 Strategy: AN1.com Shortcut`);
     
-    if (!configId || !outputFile) {
-      throw new Error('Missing required arguments: --id and --out are required');
+    // 1. Extract ID from URL
+    // https://an1.com/7029-capcut-video-editor-apk.html -> 7029
+    const idMatch = url.match(/an1\.com\/(\d+)-/);
+    if (!idMatch || !idMatch[1]) {
+        throw new Error("Could not extract App ID from AN1 URL. Expected format: an1.com/1234-name.html");
+    }
+    const appId = idMatch[1];
+    
+    // 2. Construct Intermediate Download Page
+    // Pattern: https://an1.com/file_7029-dw.html
+    const downloadPageUrl = `https://an1.com/file_${appId}-dw.html`;
+    console.log(`   📍 Jumping to download page: ${downloadPageUrl}`);
+
+    await page.goto(downloadPageUrl, { waitUntil: 'domcontentloaded' });
+    await solveCloudflare(page);
+
+    // 3. Wait for Timer (usually 7 seconds)
+    console.log('   ⏳ Waiting for AN1 countdown...');
+    // We wait for the timer div to disappear or the link to appear
+    try {
+        await page.waitForSelector('#pre_download', { timeout: 15000 });
+        // The container usually holds the countdown, then gets replaced by the link
+        await delay(8000); // Hard wait is often safer for timers than trying to read the DOM repeatedly
+    } catch (e) {
+        console.log('   ⚠️ Timer element not found, checking if link is already there...');
     }
 
-    console.log(`Starting APK Hunter for ID: ${configId}, output: ${outputFile}`);
+    // 4. Find the Green Button
+    console.log('   🔍 Looking for final link...');
+    const downloadLink = await page.evaluateHandle(() => {
+        // Look for the main green download button usually inside #pre_download or generic class
+        const btn = document.querySelector('a.btn-lg.btn-green') || document.querySelector('a.download_line');
+        return btn;
+    });
 
-    // Read mirror_config.json from repository root
-    const configPath = path.resolve(process.cwd(), 'mirror_config.json');
-    console.log(`Reading config from: ${configPath}`);
-    
-    if (!fs.existsSync(configPath)) {
-      throw new Error('mirror_config.json not found in repository root');
-    }
-
-    const configData = fs.readFileSync(configPath, 'utf8');
-    const config = JSON.parse(configData);
-    
-    const appConfig = config.find(item => item.id === configId);
-    if (!appConfig) {
-      throw new Error(`Config entry with id '${configId}' not found in mirror_config.json`);
-    }
-
-    console.log(`Found app: ${appConfig.name}, mode: ${appConfig.mode}, URL: ${appConfig.downloadUrl}`);
-
-    const outputPath = path.resolve(process.cwd(), outputFile);
-    
-    if (appConfig.mode === 'direct') {
-      await downloadDirect(appConfig.downloadUrl, outputPath);
-    } else if (appConfig.mode === 'scrape') {
-      await downloadWithScrape(appConfig.downloadUrl, outputPath, appConfig.name);
+    if (downloadLink.asElement()) {
+        console.log('   🚀 CLICKING DOWNLOAD');
+        await Promise.all([
+            // Sometimes it triggers a navigation, sometimes a direct download
+            // We don't await navigation strictly because it might just be a file stream
+            downloadLink.click()
+        ]);
+        await delay(20000); // Allow download to start/complete
     } else {
-      throw new Error(`Unknown mode: ${appConfig.mode}`);
+        throw new Error("Could not find the green download button on AN1.");
     }
+}
 
-    console.log(`Successfully downloaded APK to: ${outputPath}`);
-    process.exit(0);
+// --- APKDONE STRATEGY (THE TOURIST) ---
+async function runApkDoneStrategy(page, appSlug) {
+    let searchName = appSlug.replace(/-/g, ' ').replace(/\b(mod|apk|premium|pro|unlocked)\b/gi, '').trim();
+    if (searchName.length < 3) searchName = appSlug.replace(/-/g, ' ');
+
+    console.log(`🧠 The Tourist: Searching APKDone for "${searchName}"...`);
+    await page.goto('https://apkdone.com/', { waitUntil: 'domcontentloaded' });
+    await solveCloudflare(page);
+    await delay(randomRange(2000, 4000));
+
+    // Search
+    const toggle = await page.$('.search-toggle, .fa-search');
+    if (toggle) await toggle.click();
+    await delay(500);
+    await page.type('input[name="s"]', searchName, { delay: 100 });
+    await page.keyboard.press('Enter');
+    await page.waitForNavigation().catch(()=>null);
+    await solveCloudflare(page);
+
+    // Click Result
+    const appLink = await page.evaluateHandle((targetName) => {
+        const links = Array.from(document.querySelectorAll('article a'));
+        return links.find(l => l.innerText.toLowerCase().includes(targetName.toLowerCase())) || links[0];
+    }, searchName);
+
+    if (!appLink.asElement()) throw new Error("No results found");
+    await Promise.all([page.waitForNavigation().catch(()=>null), appLink.click()]);
     
-  } catch (error) {
-    console.error('APK Hunter failed: ' + error.message);
-    process.exit(1);
-  }
+    // Download Flow
+    const dlBtn = await page.$('a[href$="/download"]');
+    if (dlBtn) await Promise.all([page.waitForNavigation().catch(()=>null), dlBtn.click()]);
+    
+    await delay(3000); // Wait for generator
+    const finalBtn = await page.evaluateHandle(() => Array.from(document.querySelectorAll('a')).find(a => a.innerText.includes('APK')));
+    if (finalBtn.asElement()) await finalBtn.click();
+    await delay(20000);
+}
+
+// --- MAIN ---
+(async () => {
+    const args = process.argv.slice(2);
+    const getArg = (key) => args.indexOf('--' + key) !== -1 ? args[args.indexOf('--' + key) + 1] : null;
+    const TARGET_URL = getArg('url');
+    const OUTPUT_FILE = getArg('out') || 'output.apk';
+    const ID = getArg('id') || 'unknown';
+    const WAIT_TIME = parseInt(getArg('wait')) || 30000;
+
+    if (!TARGET_URL) { console.error('❌ No URL'); process.exit(1); }
+    
+    // Identify Slug
+    let slug = ID;
+    try {
+        const urlObj = new URL(TARGET_URL);
+        const pathParts = urlObj.pathname.split('/').filter(p => p && p !== 'download');
+        if (pathParts.length > 0) slug = pathParts[0];
+    } catch (e) {}
+
+    const PROFILE_PATH = path.join(process.cwd(), 'chrome_profile');
+    if (!fs.existsSync(PROFILE_PATH)) fs.mkdirSync(PROFILE_PATH);
+
+    const browser = await puppeteer.launch({
+        headless: "new",
+        userDataDir: PROFILE_PATH,
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--window-size=1920,1080']
+    });
+
+    let foundApkUrl = null;
+
+    try {
+        const page = await browser.newPage();
+        await injectTrustProfile(page);
+
+        // Network Interception to catch the APK link
+        await page.setRequestInterception(true);
+        page.on('request', req => {
+            if (['font', 'image'].includes(req.resourceType())) req.abort();
+            else req.continue();
+        });
+
+        page.on('response', async (response) => {
+            const url = response.url();
+            // AN1 usually serves from files.an1.net
+            if (url.endsWith('.apk') || response.headers()['content-type']?.includes('android.package-archive')) {
+                console.log(`\n🎣 CAUGHT APK URL: ${url}`);
+                foundApkUrl = url;
+            }
+        });
+
+        // ROUTING STRATEGY
+        if (TARGET_URL.includes('an1.com')) {
+            await runAn1Strategy(page, TARGET_URL);
+        } else if (TARGET_URL.includes('apkdone.com')) {
+            await runApkDoneStrategy(page, slug);
+        } else {
+            console.log("🧠 Strategy: Direct / Generic");
+            await page.goto(TARGET_URL);
+        }
+
+        if (foundApkUrl) {
+            console.log('\n✅ Downloading to file...');
+            await downloadFile(foundApkUrl, OUTPUT_FILE);
+        } else {
+            // If network intercept didn't catch it (sometimes AN1 uses a direct href we clicked), 
+            // the click in runAn1Strategy might have triggered a download behavior Puppeteer handled internally?
+            // Usually network intercept catches it. If not, we might need to rely on the fact we clicked it.
+            // But for the sake of the 'hunter', we need the URL or the file.
+            throw new Error("No APK URL intercepted.");
+        }
+
+    } catch (err) {
+        console.error(`\n🔥 ERROR: ${err.message}`);
+        process.exit(1);
+    } finally {
+        await browser.close();
+    }
 })();
 
-function parseArgs() {
-  const args = {};
-  for (let i = 2; i < process.argv.length; i++) {
-    if (process.argv[i] === '--id' && process.argv[i + 1]) {
-      args.id = process.argv[++i];
-    } else if (process.argv[i] === '--out' && process.argv[i + 1]) {
-      args.out = process.argv[++i];
-    }
-  }
-  return args;
-}
-
-async function downloadDirect(url, outputPath) {
-  return new Promise((resolve, reject) => {
-    console.log(`Starting direct download from: ${url}`);
-    
-    const file = fs.createWriteStream(outputPath);
-    let attempts = 0;
-    const maxAttempts = 2;
-
-    function attemptDownload() {
-      attempts++;
-      console.log(`Direct download attempt ${attempts}/${maxAttempts}`);
-      
-      const request = https.get(url, (response) => {
-        if (response.statusCode === 200) {
-          const contentLength = response.headers['content-length'];
-          console.log(`Downloading APK (${contentLength} bytes)`);
-          
-          response.pipe(file);
-          
-          file.on('finish', () => {
-            file.close();
-            console.log('Direct download completed successfully');
-            resolve();
-          });
-          
-          response.on('error', (error) => {
-            file.close();
-            if (fs.existsSync(outputPath)) {
-              fs.unlinkSync(outputPath);
+function downloadFile(url, dest) {
+    return new Promise((resolve, reject) => {
+        const file = fs.createWriteStream(dest);
+        https.get(url, (res) => {
+            if (res.statusCode > 300 && res.statusCode < 400 && res.headers.location) {
+                return downloadFile(res.headers.location, dest).then(resolve).catch(reject);
             }
-            reject(new Error('Network error during download: ' + error.message));
-          });
-          
-        } else if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
-          // Follow redirects for direct mode
-          console.log(`Following redirect to: ${response.headers.location}`);
-          attemptDownload(response.headers.location);
-        } else {
-          reject(new Error(`HTTP ${response.statusCode}: ${response.statusMessage}`));
-        }
-      });
-      
-      request.setTimeout(120000, () => {
-        request.destroy();
-        reject(new Error('Direct download timeout after 120 seconds'));
-      });
-      
-      request.on('error', (error) => {
-        if (attempts < maxAttempts) {
-          console.log(`Retrying after error: ${error.message}`);
-          setTimeout(attemptDownload, 2000);
-        } else {
-          reject(new Error('Direct download failed after ' + maxAttempts + ' attempts: ' + error.message));
-        }
-      });
-    }
-    
-    attemptDownload();
-  });
-}
-
-async function downloadWithScrape(url, outputPath, appName) {
-  console.log('Starting APKDone scrape mode download');
-  
-  const browser = await puppeteer.launch({
-    headless: 'new',
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-accelerated-2d-canvas',
-      '--disable-gpu',
-      '--window-size=1920,1080'
-    ],
-    timeout: 120000
-  });
-
-  try {
-    const page = await browser.newPage();
-    
-    // Block unnecessary resources for speed
-    await page.setRequestInterception(true);
-    page.on('request', (req) => {
-      const resourceType = req.resourceType();
-      if (['image', 'font', 'stylesheet'].includes(resourceType)) {
-        req.abort();
-      } else {
-        req.continue();
-      }
+            res.pipe(file);
+            file.on('finish', () => file.close(resolve));
+        }).on('error', (e) => { fs.unlink(dest, ()=>{}); reject(e); });
     });
-
-    // Listen for APK download responses
-    let realApkUrl = null;
-    let apkContentLength = 0;
-    
-    page.on('response', async (response) => {
-      const responseUrl = response.url();
-      const headers = response.headers();
-      
-      // Check if this is an APK file and NOT the APKDone downloader
-      if ((responseUrl.endsWith('.apk') || 
-          headers['content-type'] === 'application/vnd.android.package-archive') &&
-          !responseUrl.includes('APKDone_') && // Filter out APKDone app
-          !responseUrl.includes('apkdone_mod_apkdone')) {
-        
-        const contentLength = parseInt(headers['content-length']) || 0;
-        console.log(`Detected potential real APK download: ${responseUrl}`);
-        console.log(`  Content-Type: ${headers['content-type']}`);
-        console.log(`  Content-Length: ${contentLength} bytes`);
-        
-        // Prefer larger files (real APKs are usually > 100MB)
-        if (contentLength > apkContentLength) {
-          realApkUrl = responseUrl;
-          apkContentLength = contentLength;
-          console.log(`  Selected as candidate (larger file)`);
-        }
-      }
-    });
-
-    console.log(`Navigating to APKDone page: ${url}`);
-    await page.goto(url, {
-      waitUntil: 'networkidle2',
-      timeout: 30000
-    });
-
-    // Find the correct download button - look for the transparent "Download APK" button
-    console.log('Searching for the real APK download button...');
-    
-    // Strategy 1: Look for button with text containing "Download APK" and size info
-    const realDownloadButton = await page.evaluate(() => {
-      // Look for buttons or links that contain "Download APK" and have size information
-      const allElements = Array.from(document.querySelectorAll('a, button, div[onclick]'));
-      
-      for (const element of allElements) {
-        const text = element.textContent || '';
-        if (text.includes('Download APK') && (text.includes('MB') || text.includes('GB'))) {
-          return {
-            element: element.outerHTML.substring(0, 200), // For logging
-            href: element.href,
-            text: text.trim()
-          };
-        }
-      }
-      
-      // Strategy 2: Look for the gateway URL that's NOT the APKDone app
-      const gatewayLinks = Array.from(document.querySelectorAll('a[href*="file.apkdone.io"]'));
-      for (const link of gatewayLinks) {
-        const parentText = link.closest('div')?.textContent || '';
-        if (parentText.includes('Download APK') && (parentText.includes('MB') || parentText.includes('GB'))) {
-          return {
-            element: link.outerHTML.substring(0, 200),
-            href: link.href,
-            text: parentText.trim()
-          };
-        }
-      }
-      
-      return null;
-    });
-
-    if (!realDownloadButton) {
-      throw new Error('Could not find the real APK download button on page');
-    }
-
-    console.log(`Found real download button: ${realDownloadButton.text}`);
-    console.log(`Gateway URL: ${realDownloadButton.href}`);
-
-    // Click the real download button
-    console.log('Clicking the real APK download button...');
-    
-    // Use multiple strategies to click the button
-    try {
-      // Strategy 1: Click using text selector
-      await page.click('a:has-text("Download APK")');
-    } catch (error) {
-      try {
-        // Strategy 2: Click using the gateway URL
-        await page.click(`a[href="${realDownloadButton.href}"]`);
-      } catch (error2) {
-        // Strategy 3: Use JavaScript to trigger click
-        await page.evaluate((href) => {
-          const link = document.querySelector(`a[href="${href}"]`);
-          if (link) {
-            link.click();
-          }
-        }, realDownloadButton.href);
-      }
-    }
-
-    // Wait for the real APK download to be detected (longer wait for large files)
-    console.log('Waiting for real APK download to be detected...');
-    await page.waitForTimeout(10000);
-    
-    if (!realApkUrl) {
-      console.log('Real APK URL not detected yet, waiting longer...');
-      await page.waitForTimeout(5000);
-    }
-
-    if (!realApkUrl) {
-      // Last resort: try to get current URL in case we navigated directly to APK
-      const currentUrl = page.url();
-      if (currentUrl.endsWith('.apk') && !currentUrl.includes('APKDone_')) {
-        realApkUrl = currentUrl;
-        console.log(`Using current URL as APK: ${realApkUrl}`);
-      } else {
-        throw new Error('Could not detect real APK download URL after clicking button');
-      }
-    }
-
-    console.log(`Final real APK download URL: ${realApkUrl}`);
-    console.log(`Expected file size: ${apkContentLength} bytes`);
-    
-    // Close browser before starting the actual download
-    await browser.close();
-    console.log('Browser closed, starting real APK download...');
-
-    // Download the real APK
-    await downloadDirect(realApkUrl, outputPath);
-    
-    // Verify the downloaded file size matches expectations
-    const stats = fs.statSync(outputPath);
-    console.log(`Downloaded file size: ${stats.size} bytes`);
-    
-    if (stats.size < 100000000) { // Less than 100MB is suspicious for CapCut
-      console.warn('Warning: Downloaded file is smaller than expected for CapCut (' + stats.size + ' bytes).');
-    }
-    
-    if (apkContentLength > 0 && Math.abs(stats.size - apkContentLength) > 1000000) {
-      console.warn('Warning: Downloaded file size differs significantly from expected size.');
-    }
-    
-  } catch (error) {
-    await browser.close();
-    throw error;
-  }
 }
