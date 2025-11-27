@@ -20,15 +20,18 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+          cache: 'npm'
 
       - name: Install Dependencies
         run: |
+          rm -rf node_modules package-lock.json
           npm install
           sudo apt-get update && sudo apt-get install -y aapt
 
       - name: Run APK Hunter
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CF_COOKIES: ${{ secrets.CF_COOKIES }}
         run: |
           CONFIG_FILE="mirror_config.json"
           
