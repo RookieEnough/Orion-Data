@@ -1,7 +1,18 @@
+/*
+ * ORION DATA - SMART APK HUNTER
+ * -----------------------------
+ * Specialized automation script to mirror APKs.
+ * 
+ * V3.3 CHANGE:
+ * - Refined Scoring: Bad files (Installers) also use file.apkdone.io.
+ * - logic shifted to prioritize Button Text + Size combo over Domain.
+ * - Mobile User-Agent retained.
+ */
+
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
-const https = require('https'); // Kept for direct mode only
+const https = require('https'); 
 
 // Helper: Sleep
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -50,10 +61,9 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
         fs.mkdirSync(DOWNLOAD_DIR);
     }
 
-    console.log('--- APK HUNTER V3.1 (Stealth Native) ---');
+    console.log('--- APK HUNTER V3.3 (Precision Mode) ---');
     console.log(`Target: ${APP_ID}`);
     console.log(`URL: ${TARGET_URL}`);
-    console.log(`Mode: ${MODE}`);
     console.log(`Temp Dir: ${DOWNLOAD_DIR}`);
     console.log('-----------------------------------------');
 
@@ -61,10 +71,11 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
     const runScrape = async () => {
         let browser = null;
         try {
-            console.log('Launching Browser (Stealth Mode)...');
+            console.log('Launching Browser (Mobile Mode)...');
             
-            // USE A REAL DESKTOP USER AGENT TO TRICK SERVER
-            const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36';
+            // USE ANDROID USER AGENT
+            // This ensures the site sees us as a phone and serves the real APK, not the PC installer.
+            const MOBILE_UA = 'Mozilla/5.0 (Linux; Android 13; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36';
 
             browser = await puppeteer.launch({
                 headless: "new",
@@ -72,30 +83,26 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
                     '--no-sandbox',
                     '--disable-setuid-sandbox',
                     '--disable-dev-shm-usage',
-                    '--window-size=1920,1080', // Standard Desktop
-                    `--user-agent=${USER_AGENT}`
+                    `--user-agent=${MOBILE_UA}` // Force browser to be a phone
                 ]
             });
 
             const page = await browser.newPage();
             
             // 1. Override UA in Page
-            await page.setUserAgent(USER_AGENT);
+            await page.setUserAgent(MOBILE_UA);
             
-            // 2. Mask Webdriver (Crucial for bypass)
-            await page.evaluateOnNewDocument(() => {
-                Object.defineProperty(navigator, 'webdriver', { get: () => false });
-            });
+            // 2. Set Viewport to Mobile
+            await page.setViewport({ width: 393, height: 851, isMobile: true });
 
+            // 3. Enable Download Behavior
             const client = await page.target().createCDPSession();
-
-            // Enable file download behavior
             await client.send('Page.setDownloadBehavior', {
                 behavior: 'allow',
                 downloadPath: DOWNLOAD_DIR
             });
 
-            // Block heavy media to speed up
+            // Block heavy media
             await page.setRequestInterception(true);
             page.on('request', (req) => {
                 const rType = req.resourceType();
@@ -112,89 +119,99 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
             const anchors = await page.$$('a');
             let bestHandle = null;
             let bestText = '';
-            let maxScore = -1;
+            let bestHref = '';
+            let maxScore = -100;
 
             for (const handle of anchors) {
-                // Evaluate each node in browser context
                 const meta = await page.evaluate(el => {
                     const txt = (el.innerText || el.textContent || '').toLowerCase().trim();
-                    const href = el.href || '';
+                    const href = (el.href || '').toLowerCase();
                     
                     let score = 0;
                     
                     // Filter: Must look like a download link
-                    if (!href.includes('/download') && !href.includes('file.apkdone.io')) return { score: -1 };
+                    if (!href.includes('/download') && !href.includes('file.apkdone.io')) return { score: -1000 };
 
-                    // Penalize: Fast Download / Adware
-                    if (txt.includes('fast download') || txt.includes('with apkdone')) return { score: -1 };
+                    // Penalize: Fast Download / Adware / Installer / Telegram
+                    if (txt.includes('fast download') || txt.includes('installer') || txt.includes('telegram')) return { score: -1000 };
 
-                    // Score Calculation
-                    if (txt.includes('download apk')) score += 20;
-                    if (/\d+\s*(mb|gb)/.test(txt)) score += 10; // Contains size
-                    if (href.includes('file.apkdone.io')) score += 5;
+                    // --- SCORING RULES V3.3 ---
+
+                    // 1. Domain Match
+                    // Reduced importance because bad files also use this domain
+                    if (href.includes('file.apkdone.io')) score += 20;
+
+                    // 2. Feature Detection
+                    const hasDownloadText = txt.includes('download apk');
+                    const hasSizeText = /\d+\s*(mb|gb)/.test(txt);
+
+                    if (hasDownloadText) score += 20;
+                    if (hasSizeText) score += 20;
+
+                    // 3. THE COMBO (The Holy Grail)
+                    // If it has BOTH "Download APK" AND a size (e.g. "277 MB"), it is almost certainly the real button.
+                    // Fake buttons usually lack the specific size or just say "Download".
+                    if (hasDownloadText && hasSizeText) score += 150;
 
                     return { score, txt, href };
                 }, handle);
+
+                // Debug log for candidates with positive score
+                if (meta.score > 0) {
+                    // console.log(`Candidate: "${meta.txt}" | Score: ${meta.score}`);
+                }
 
                 if (meta.score > maxScore) {
                     maxScore = meta.score;
                     bestHandle = handle;
                     bestText = meta.txt;
+                    bestHref = meta.href;
                 }
             }
 
             if (!bestHandle || maxScore <= 0) {
-                throw new Error('No valid download button found via scoring.');
+                throw new Error('No valid download button found.');
             }
 
-            console.log(`🎯 Clicking Target: "${bestText}" (Score: ${maxScore})`);
+            console.log(`🎯 Found Target: "${bestText}"`);
+            console.log(`🔗 Link: ${bestHref}`);
+            console.log(`🏆 Score: ${maxScore}`);
             
             // CLICK THE BUTTON
             try {
-                // Ensure the click mimics a real user
                 await bestHandle.click();
             } catch (e) {
-                console.log('Click warning (might still work):', e.message);
+                console.log('Click warning:', e.message);
             }
 
             console.log('Waiting for download to start...');
             
             // MONITOR DOWNLOAD FOLDER
-            // Wait up to 5 minutes (300s) for the file
             let downloadedFile = null;
             const maxWaitTime = 300000; // 5 mins
             const startTime = Date.now();
 
             while (Date.now() - startTime < maxWaitTime) {
                 const files = fs.readdirSync(DOWNLOAD_DIR);
-                
-                // Look for files that are NOT .crdownload (Chrome partial file)
                 const finishedFile = files.find(f => !f.endsWith('.crdownload') && f.endsWith('.apk'));
                 const inProgress = files.find(f => f.endsWith('.crdownload'));
 
                 if (finishedFile) {
                     downloadedFile = path.join(DOWNLOAD_DIR, finishedFile);
-                    // Double check size to ensure it's not empty
                     const stats = fs.statSync(downloadedFile);
                     if (stats.size > 0) break;
                 }
-
-                if (inProgress) {
-                    process.stdout.write('.'); // progress indicator
-                }
-
-                await delay(2000); // Check every 2s
+                if (inProgress) process.stdout.write('.'); 
+                await delay(2000);
             }
 
             console.log('\n');
 
-            if (!downloadedFile) {
-                throw new Error('Download timed out or failed.');
-            }
+            if (!downloadedFile) throw new Error('Download timed out or failed.');
 
             console.log(`File downloaded: ${path.basename(downloadedFile)}`);
             
-            // Move to Final Output
+            // Final Move
             fs.renameSync(downloadedFile, OUTPUT_FILE);
             
             // Cleanup
@@ -211,20 +228,14 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
         }
     };
 
-    // --- 3. DIRECT MODE (FALLBACK) ---
+    // --- 3. DIRECT MODE ---
     const runDirect = async () => {
         return new Promise((resolve, reject) => {
             const file = fs.createWriteStream(OUTPUT_FILE);
             https.get(TARGET_URL, (response) => {
                 if (response.statusCode === 200) {
                     response.pipe(file);
-                    file.on('finish', () => {
-                        file.close(() => resolve());
-                    });
-                } else if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
-                    // Simple redirect handling for direct mode
-                    console.log(`Redirecting to ${response.headers.location}`);
-                    reject(new Error('Direct mode redirect (use scrape mode for complex sites)'));
+                    file.on('finish', () => { file.close(() => resolve()); });
                 } else {
                     reject(new Error(`HTTP ${response.statusCode}`));
                 }
@@ -246,7 +257,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
         
         if (fs.existsSync(OUTPUT_FILE)) {
             const stats = fs.statSync(OUTPUT_FILE);
-            if (stats.size < 1024 * 1024) { // < 1MB
+            if (stats.size < 1024 * 1024) { 
                 console.warn(`⚠️ Warning: File is suspiciously small (${(stats.size/1024).toFixed(2)} KB).`);
             } else {
                 console.log(`Final File Size: ${(stats.size/1024/1024).toFixed(2)} MB`);
