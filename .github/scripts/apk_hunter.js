@@ -1,4 +1,4 @@
-// .github/scripts/apk_hunter.js — Handles Double-Click Ad Redirect Pattern
+// .github/scripts/apk_hunter.js — Direct Extraction for APKDone (No Clicks, No Timeouts)
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
@@ -64,8 +64,8 @@ const https = require('https');
     return;
   }
 
-  // ────────────────────── SCRAPE MODE (Ad Redirect Pattern) ──────────────────────
-  console.log(`Starting scrape with ad redirect handling for: ${TARGET_URL}`);
+  // ────────────────────── SCRAPE MODE (Simple Extraction) ──────────────────────
+  console.log(`Extracting direct link from: ${TARGET_URL}`);
 
   const browser = await puppeteer.launch({
     headless: "new",
@@ -75,7 +75,7 @@ const https = require('https');
   try {
     const page = await browser.newPage();
 
-    // Block junk
+    // Block junk for speed
     await page.setRequestInterception(true);
     page.on('request', (req) => {
       const type = req.resourceType();
@@ -86,100 +86,45 @@ const https = require('https');
       }
     });
 
-    // Enable downloads
-    const client = await page.target().createCDPSession();
-    await client.send('Page.setDownloadBehavior', { behavior: 'allow', downloadPath: path.resolve(__dirname, '../downloads') });
-
     await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 30000 });
 
-    // Step 1: First page - Double-click orange "Download" (first = ad, back, second = /download/)
-    console.log('First page: Double-clicking orange Download (handle ad redirect)...');
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll('a, button')).find(el => 
-        el.innerText.toLowerCase().includes('download') && 
-        (el.className.includes('orange') || el.style.backgroundColor === 'orange' || el.innerText === 'Download')
-      );
-      if (btn) {
-        btn.click();
-      }
-    });
-    await page.waitForTimeout(3000); // Let redirect to ad happen
-
-    // Go back from ad
-    await page.goBack({ waitUntil: 'networkidle2', timeout: 10000 });
-    await page.waitForTimeout(2000); // Stabilize
-
-    // Second click on orange - now goes to /download/
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll('a, button')).find(el => 
-        el.innerText.toLowerCase().includes('download')
-      );
-      if (btn) {
-        btn.click();
-      }
-    });
-    await page.waitForTimeout(5000); // Wait for /download/ load
-
-    // Now on /download/ page
-    console.log('On /download/ page: Double-clicking white Download APK (XXX MB)...');
-    await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 10000 });
-
-    // Ignore orange "Fast Download with APKDone" - find white "Download APK (MB)"
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll('a, button')).find(el => 
-        el.innerText.toLowerCase().includes('download apk') && el.innerText.includes('mb') &&
-        (!el.className.includes('orange') && el.style.backgroundColor !== 'orange') // White/non-orange
-      );
-      if (btn) {
-        btn.click();
-      }
-    });
-    await page.waitForTimeout(3000); // Ad redirect
-
-    // Go back from ad
-    await page.goBack({ waitUntil: 'networkidle2', timeout: 10000 });
-    await page.waitForTimeout(2000);
-
-    // Second click on white button - real download starts
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll('a, button')).find(el => 
-        el.innerText.toLowerCase().includes('download apk') && el.innerText.includes('mb')
-      );
-      if (btn) {
-        btn.click();
-      }
-    });
-
-    console.log('Real download triggered... waiting for APK');
-
-    // Wait for download (monitor folder)
-    const DOWNLOAD_PATH = path.resolve(__dirname, '../downloads');
-    if (!fs.existsSync(DOWNLOAD_PATH)) fs.mkdirSync(DOWNLOAD_PATH, { recursive: true });
-
-    const start = Date.now();
-    let apkFile = null;
-    while (Date.now() - start < 60000) { // 60s max
-      const files = fs.readdirSync(DOWNLOAD_PATH);
-      apkFile = files.find(f => f.endsWith('.apk') && !f.includes('.crdownload'));
-      if (apkFile) {
-        const stats = fs.statSync(path.join(DOWNLOAD_PATH, apkFile));
-        if (stats.size > 50 * 1024 * 1024) {
-          console.log(`Downloaded: ${apkFile} (${(stats.size / 1024 / 1024).toFixed(1)} MB)`);
-          break;
+    // Extract the direct CDN link (pattern: apkdone.io + /download)
+    const directLink = await page.evaluate(() => {
+      const links = Array.from(document.querySelectorAll('a'));
+      for (const a of links) {
+        const href = a.href;
+        const text = a.innerText.toLowerCase();
+        if (href && (href.includes('apkdone.io') || href.includes('/download')) && text.includes('download')) {
+          return href;
         }
       }
-      process.stdout.write('.');
-      await new Promise(r => setTimeout(r, 3000));
+      return null;
+    });
+
+    if (!directLink) {
+      throw new Error('No download link found on page');
     }
 
-    if (apkFile) {
-      const finalPath = path.resolve(__dirname, '../', OUTPUT_FILE);
-      fs.renameSync(path.join(DOWNLOAD_PATH, apkFile), finalPath);
-      console.log(`\nSUCCESS! ${OUTPUT_FILE}`);
-      process.exit(0);
-    } else {
-      throw new Error('No APK downloaded');
-    }
+    console.log(`Found direct link: ${directLink.substring(0, 60)}...`);
+
+    // Direct fetch (no Puppeteer wait)
+    const file = fs.createWriteStream(OUTPUT_FILE);
+    https.get(directLink, (res) => {
+      if (res.statusCode !== 200) {
+        console.error(`HTTP ${res.statusCode}`);
+        process.exit(1);
+      }
+      res.pipe(file);
+      file.on('finish', () => {
+        const size = (fs.statSync(OUTPUT_FILE).size / 1024 / 1024).toFixed(1);
+        console.log(`\nDownloaded → ${OUTPUT_FILE} (${size} MB)`);
+        console.log(`\n🎉 SUCCESS! ${OUTPUT_FILE}`);
+        process.exit(0);
+      });
+    }).on('error', (e) => {
+      console.error('Download failed:', e.message);
+      process.exit(1);
+    });
 
   } catch (err) {
     console.error('\n❌ Error:', err.message);
