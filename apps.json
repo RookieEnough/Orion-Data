@@ -636,6 +636,26 @@
       "https://lh3.googleusercontent.com/C-uYqRNO2EbE6hX3M9qUZPXZa8VL7Ee65KenkR2uidTJurS3t0BYcbEgGBkikXG0W5b_jL_yufT8j4xlfRJoA59jcao=s1280-w1280-h800"
     ]
   },
+   {
+    "id": "capcut-premium",
+    "name": "CapCut Pro",
+    "description": "Premium Unlocked. Create stunning videos with advanced features, no watermark, and pro transitions unlocked.",
+    "icon": "https://play-lh.googleusercontent.com/e9o6QGvpXm8sVbLd3QhQxGgL5rgQk5B4pM4jFq5zX6xC8vK9n3mJ7bH5gF4c3d2e1a",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://an1.com/7029-capcut-video-editor-apk.html",
+    "githubRepo": "RookieEnough/Orion-Data",
+    "releaseKeyword": "capcut-premium",
+    "packageName": "com.lemon.lvoverseas",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ByteDance",
+    "screenshots": [
+      "https://lh3.googleusercontent.com/pw/AIL4fc8y-s9j6Tz1vLq_gJ8k8qj4s7t0=w600"
+    ]
+  },
   {
     "id": "spicetify",
     "name": "Spicetify",
