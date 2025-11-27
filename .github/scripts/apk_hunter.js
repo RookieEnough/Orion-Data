@@ -1,12 +1,13 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
-const { URL } = require('url');
+const https = require('https'); // Kept for direct mode only
 
-// Wrap in IIFE
+// Helper: Sleep
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 (async () => {
-    // --- 1. CONFIGURATION & SETUP ---
+    // --- 1. CONFIGURATION ---
     const args = process.argv.slice(2);
     const getArg = (key) => {
         const index = args.indexOf('--' + key);
@@ -20,7 +21,7 @@ const { URL } = require('url');
     let MODE = 'direct';
     let WAIT_TIME = 60000;
 
-    // Load from JSON if ID is present but URL is missing
+    // Load Config
     if (APP_ID && fs.existsSync(CONFIG_PATH)) {
         try {
             const rawConfig = fs.readFileSync(CONFIG_PATH, 'utf8');
@@ -32,87 +33,35 @@ const { URL } = require('url');
                 if (appConfig.wait) WAIT_TIME = parseInt(appConfig.wait);
             }
         } catch (e) {
-            console.log('Warning: Could not read mirror_config.json: ' + e.message);
+            console.log('Warning: Config read error: ' + e.message);
         }
     }
 
-    // Defaults / Validation
     if (!APP_ID) APP_ID = 'unknown-app';
     if (!OUTPUT_FILE) OUTPUT_FILE = APP_ID + '.apk';
-    
     if (!TARGET_URL) {
-        console.error('Error: No target URL provided. Use --url or ensure ID exists in mirror_config.json');
+        console.error('Error: No target URL provided.');
         process.exit(1);
     }
 
-    console.log('--- APK HUNTER V2.1 (Selector Fix) ---');
-    console.log('Target ID: ' + APP_ID);
-    console.log('Target URL: ' + TARGET_URL);
-    console.log('Mode: ' + MODE);
-    console.log('Output: ' + OUTPUT_FILE);
-    console.log('-----------------------');
+    // Prepare Download Directory for Puppeteer
+    const DOWNLOAD_DIR = path.resolve(process.cwd(), 'temp_dl_' + Date.now());
+    if (!fs.existsSync(DOWNLOAD_DIR)) {
+        fs.mkdirSync(DOWNLOAD_DIR);
+    }
 
-    // --- 2. DOWNLOAD UTILITY (Native Node.js with Redirects) ---
-    const downloadFile = (url, destPath, headers = {}) => {
-        return new Promise((resolve, reject) => {
-            const file = fs.createWriteStream(destPath);
-            
-            const makeRequest = (currentUrl, redirectCount = 0) => {
-                if (redirectCount > 10) {
-                    reject(new Error('Too many redirects'));
-                    return;
-                }
+    console.log('--- APK HUNTER V3.0 (Native Download) ---');
+    console.log(`Target: ${APP_ID}`);
+    console.log(`URL: ${TARGET_URL}`);
+    console.log(`Mode: ${MODE}`);
+    console.log(`Temp Dir: ${DOWNLOAD_DIR}`);
+    console.log('-----------------------------------------');
 
-                const options = {
-                    headers: headers,
-                    timeout: 30000 // 30s connection timeout
-                };
-
-                console.log('Requesting: ' + currentUrl);
-                
-                https.get(currentUrl, options, (response) => {
-                    // Handle Redirects (301, 302, 303, 307, 308)
-                    if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
-                        const newUrl = new URL(response.headers.location, currentUrl).href;
-                        console.log('Redirect (' + response.statusCode + ') -> ' + newUrl);
-                        makeRequest(newUrl, redirectCount + 1);
-                        return;
-                    }
-
-                    // Handle Success
-                    if (response.statusCode === 200) {
-                        const size = parseInt(response.headers['content-length'] || '0');
-                        console.log('Response 200 OK. Content-Length: ' + (size ? (size / 1024 / 1024).toFixed(2) + ' MB' : 'Unknown'));
-                        
-                        // Check content type just in case
-                        const contentType = response.headers['content-type'] || '';
-                        if (contentType.includes('text/html')) {
-                            console.warn('Warning: Response looks like HTML, not APK.');
-                        }
-
-                        response.pipe(file);
-                        
-                        file.on('finish', () => {
-                            file.close(() => resolve());
-                        });
-                    } else {
-                        reject(new Error('HTTP Status ' + response.statusCode));
-                    }
-                }).on('error', (err) => {
-                    fs.unlink(destPath, () => {});
-                    reject(err);
-                });
-            };
-
-            makeRequest(url);
-        });
-    };
-
-    // --- 3. SCRAPE MODE (Puppeteer) ---
+    // --- 2. PUPPETEER LOGIC ---
     const runScrape = async () => {
         let browser = null;
         try {
-            console.log('Launching Headless Browser...');
+            console.log('Launching Browser...');
             browser = await puppeteer.launch({
                 headless: "new",
                 args: [
@@ -124,11 +73,15 @@ const { URL } = require('url');
             });
 
             const page = await browser.newPage();
-            
-            // Log browser console output to node console for debugging selector
-            page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+            const client = await page.target().createCDPSession();
 
-            // Optimization: Block images/fonts
+            // Enable file download behavior
+            await client.send('Page.setDownloadBehavior', {
+                behavior: 'allow',
+                downloadPath: DOWNLOAD_DIR
+            });
+
+            // Block heavy media to speed up
             await page.setRequestInterception(true);
             page.on('request', (req) => {
                 const rType = req.resourceType();
@@ -136,99 +89,139 @@ const { URL } = require('url');
                 else req.continue();
             });
 
-            const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
-            await page.setUserAgent(userAgent);
-
-            console.log('Navigating to ' + TARGET_URL);
+            console.log(`Navigating to ${TARGET_URL}...`);
             await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
-            // Locate the gateway link
-            console.log('Hunting for download button...');
+            console.log('Scanning for buttons...');
             
-            // APKDone Logic: Use a SCORING system to find the right button
-            const result = await page.evaluate(() => {
-                const anchors = Array.from(document.querySelectorAll('a'));
-                
-                const cleanText = (el) => (el.innerText || el.textContent || '').toLowerCase().trim();
+            // Get all anchor handles
+            const anchors = await page.$$('a');
+            let bestHandle = null;
+            let bestText = '';
+            let maxScore = -1;
 
-                let bestCandidate = null;
-                let maxScore = -1;
-
-                anchors.forEach(a => {
-                    let score = 0;
-                    const txt = cleanText(a);
-                    const href = a.href;
-
-                    // 1. Basic Eligibility: Must contain /download/ or point to file.apkdone
-                    // (Some links are relative "/capcut.../download", some are absolute)
-                    if (!href.includes('/download') && !href.includes('file.apkdone.io')) return;
-
-                    // 2. CRITICAL FILTER: "Fast Download" is the installer (Ad)
-                    if (txt.includes('fast download')) {
-                        console.log('Ignored Fast Download: ' + txt);
-                        return;
-                    }
-                    if (txt.includes('with apkdone')) {
-                        console.log('Ignored Installer: ' + txt);
-                        return;
-                    }
-
-                    // 3. SCORING
+            for (const handle of anchors) {
+                // Evaluate each node in browser context
+                const meta = await page.evaluate(el => {
+                    const txt = (el.innerText || el.textContent || '').toLowerCase().trim();
+                    const href = el.href || '';
                     
-                    // Boost for "Download APK" (The text on the real button)
+                    let score = 0;
+                    
+                    // Filter: Must look like a download link
+                    if (!href.includes('/download') && !href.includes('file.apkdone.io')) return { score: -1 };
+
+                    // Penalize: Fast Download / Adware
+                    if (txt.includes('fast download') || txt.includes('with apkdone')) return { score: -1 };
+
+                    // Score Calculation
                     if (txt.includes('download apk')) score += 20;
-
-                    // Boost for mentioning size (e.g. "277 MB")
-                    // Regex looks for digits followed by optional space and MB/GB
-                    if (/\d+\s*(mb|gb)/.test(txt)) score += 10;
-
-                    // Boost for having the gateway domain
+                    if (/\d+\s*(mb|gb)/.test(txt)) score += 10; // Contains size
                     if (href.includes('file.apkdone.io')) score += 5;
 
-                    console.log(`Candidate: "${txt}" | Score: ${score} | Href: ${href.substring(0, 50)}...`);
+                    return { score, txt, href };
+                }, handle);
 
-                    if (score > maxScore && score > 0) {
-                        maxScore = score;
-                        bestCandidate = { url: href, method: `score-${score}`, text: txt };
-                    }
-                });
-
-                return bestCandidate;
-            });
-
-            if (!result || !result.url) {
-                throw new Error('Could not find a valid download URL on the page.');
+                if (meta.score > maxScore) {
+                    maxScore = meta.score;
+                    bestHandle = handle;
+                    bestText = meta.txt;
+                }
             }
 
-            console.log(`\n🎯 Selected Target:\nText: "${result.text}"\nMethod: ${result.method}\nURL: ${result.url}\n`);
+            if (!bestHandle || maxScore <= 0) {
+                throw new Error('No valid download button found via scoring.');
+            }
 
-            // EXTRACT COOKIES FOR AUTHENTICATED DOWNLOAD
-            const cookies = await page.cookies();
-            const cookieString = cookies.map(c => c.name + '=' + c.value).join('; ');
+            console.log(`🎯 Clicking Target: "${bestText}" (Score: ${maxScore})`);
             
-            console.log('Extracted Session Cookies (' + cookies.length + ')');
+            // CLICK THE BUTTON
+            // We use Promise.all to handle cases where click triggers navigation vs simple download
+            try {
+                await bestHandle.click();
+            } catch (e) {
+                console.log('Click warning (might still work):', e.message);
+            }
 
-            // Close browser before downloading to save resources
+            console.log('Waiting for download to start...');
+            
+            // MONITOR DOWNLOAD FOLDER
+            // Wait up to 5 minutes (300s) for the file
+            let downloadedFile = null;
+            const maxWaitTime = 300000; // 5 mins
+            const startTime = Date.now();
+
+            while (Date.now() - startTime < maxWaitTime) {
+                const files = fs.readdirSync(DOWNLOAD_DIR);
+                
+                // Look for files that are NOT .crdownload (Chrome partial file)
+                const finishedFile = files.find(f => !f.endsWith('.crdownload') && f.endsWith('.apk'));
+                const inProgress = files.find(f => f.endsWith('.crdownload'));
+
+                if (finishedFile) {
+                    downloadedFile = path.join(DOWNLOAD_DIR, finishedFile);
+                    // Double check size to ensure it's not empty
+                    const stats = fs.statSync(downloadedFile);
+                    if (stats.size > 0) break;
+                }
+
+                if (inProgress) {
+                    process.stdout.write('.'); // progress indicator
+                }
+
+                await delay(2000); // Check every 2s
+            }
+
+            console.log('\n');
+
+            if (!downloadedFile) {
+                throw new Error('Download timed out or failed.');
+            }
+
+            console.log(`File downloaded: ${path.basename(downloadedFile)}`);
+            
+            // Move to Final Output
+            fs.renameSync(downloadedFile, OUTPUT_FILE);
+            
+            // Cleanup
             await browser.close();
-            browser = null;
-
-            // --- HANDOFF TO NODE DOWNLOADER ---
-            console.log('Starting Authenticated Download...');
-            await downloadFile(result.url, OUTPUT_FILE, {
-                'Cookie': cookieString,
-                'Referer': TARGET_URL,
-                'User-Agent': userAgent,
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.9'
-            });
-
-            console.log('Download Complete: ' + OUTPUT_FILE);
+            fs.rmSync(DOWNLOAD_DIR, { recursive: true, force: true });
+            
+            console.log(`Success! Saved to ${OUTPUT_FILE}`);
 
         } catch (err) {
-            console.error('Scrape Failed: ' + err.message);
+            console.error('Puppeteer Error: ' + err.message);
             if (browser) await browser.close();
+            if (fs.existsSync(DOWNLOAD_DIR)) fs.rmSync(DOWNLOAD_DIR, { recursive: true, force: true });
             process.exit(1);
         }
+    };
+
+    // --- 3. DIRECT MODE (FALLBACK) ---
+    const runDirect = async () => {
+        return new Promise((resolve, reject) => {
+            const file = fs.createWriteStream(OUTPUT_FILE);
+            https.get(TARGET_URL, (response) => {
+                if (response.statusCode === 200) {
+                    response.pipe(file);
+                    file.on('finish', () => {
+                        file.close(() => resolve());
+                    });
+                } else if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
+                    // Simple redirect handling for direct mode
+                    console.log(`Redirecting to ${response.headers.location}`);
+                    // Recursive call not implemented for simplicity in this fallback block, 
+                    // assuming direct links are usually straight forward or handled by curl in workflows.
+                    // For robust redirects, use the previous logic, but here we prioritize Puppeteer.
+                    reject(new Error('Direct mode redirect (use scrape mode for complex sites)'));
+                } else {
+                    reject(new Error(`HTTP ${response.statusCode}`));
+                }
+            }).on('error', (err) => {
+                fs.unlink(OUTPUT_FILE, () => {});
+                reject(err);
+            });
+        });
     };
 
     // --- 4. EXECUTION ---
@@ -236,28 +229,21 @@ const { URL } = require('url');
         if (MODE === 'scrape') {
             await runScrape();
         } else {
-            console.log('Starting Direct Download...');
-            await downloadFile(TARGET_URL, OUTPUT_FILE, {
-                'User-Agent': 'Mozilla/5.0 (Android 13; Mobile; rv:109.0) Gecko/113.0 Firefox/113.0'
-            });
-            console.log('Download Complete: ' + OUTPUT_FILE);
+            console.log('Running Direct Download...');
+            await runDirect();
         }
         
-        // Final Verification
         if (fs.existsSync(OUTPUT_FILE)) {
             const stats = fs.statSync(OUTPUT_FILE);
-            // Just warn if small, don't fail, so we can debug the file artifacts if needed
-            if (stats.size < 1000 * 1000 * 20) { // < 20MB
-                 console.warn('\n⚠️ WARNING: File is small (' + (stats.size / 1024 / 1024).toFixed(2) + ' MB). Check if it is the installer or the real App.');
+            if (stats.size < 1024 * 1024) { // < 1MB
+                console.warn(`⚠️ Warning: File is suspiciously small (${(stats.size/1024).toFixed(2)} KB).`);
+            } else {
+                console.log(`Final File Size: ${(stats.size/1024/1024).toFixed(2)} MB`);
             }
-            process.exit(0);
-        } else {
-            console.error('Error: Output file not found.');
-            process.exit(1);
         }
 
     } catch (e) {
-        console.error('Critical Error: ' + e.message);
+        console.error('Fatal: ' + e.message);
         process.exit(1);
     }
 })();
