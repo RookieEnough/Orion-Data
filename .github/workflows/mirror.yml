@@ -40,19 +40,29 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+          cache: 'npm'
       
-      - name: Install Deps
+      - name: Install Dependencies
         run: |
+          # Force clean install to prevent cache issues
+          rm -rf node_modules package-lock.json
           npm install
+          
+          # Install AAPT for APK parsing
           sudo apt-get update && sudo apt-get install -y aapt
 
       - name: Download
+        env:
+          CF_COOKIES: ${{ secrets.CF_COOKIES }}
         run: |
           APP_ID="${{ inputs.app_name }}"
           URL="${{ inputs.download_url }}"
           MODE="${{ inputs.mode }}"
           WAIT="${{ inputs.wait_time }}"
           TEMP_APK="temp.apk"
+          
+          echo "📂 Working Directory: $(pwd)"
+          echo "📦 Node Modules: $(ls -d node_modules || echo 'MISSING')"
           
           if [[ "$MODE" == "scrape" ]]; then
              node .github/scripts/apk_hunter.js --url "$URL" --id "$APP_ID" --out "$TEMP_APK" --wait "$WAIT"
@@ -78,6 +88,7 @@ jobs:
             exit 1
           fi
           
+          # AAPT Dump to find Version Name
           VERSION=$(aapt dump badging "$TEMP_APK" | grep "package: " | sed -n "s/.*versionName='\([^']*\)'.*/\1/p")
           echo "Detected Version: $VERSION"
           
@@ -85,4 +96,4 @@ jobs:
           FINAL_NAME="${{ inputs.app_name }}-$VERSION.apk"
           mv "$TEMP_APK" "$FINAL_NAME"
           
-          gh release create "$TAG" "$FINAL_NAME" --title "${{ inputs.app_name }} $VERSION" --notes "Manual Mirror" --latest || echo "Release likely exists"
+          gh release create "$TAG" "$FINAL_NAME" --title "${{ inputs.app_name }} $VERSION" --notes "Manual Mirror via OrionStore" --latest || echo "Release likely exists"
