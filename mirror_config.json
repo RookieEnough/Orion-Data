@@ -8,6 +8,14 @@
     "note": "Scraping from AN1 (ID: 7029)"
   },
    {
+    "id": "Mx-pro",
+    "name": "MX Player Pro",
+    "downloadUrl": "https://an1.com/file_2477-dw.html",
+    "mode": "scrape",
+    "wait": 30000,
+    "note": "Scraping from AN1 (ID: 2477)"
+  },
+   {
     "id": "telegram-example",
     "name": "Telegram (Direct Example)",
     "downloadUrl": "https://telegram.org/dl/android/apk",
