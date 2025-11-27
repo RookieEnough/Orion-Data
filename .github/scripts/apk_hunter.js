@@ -7,8 +7,9 @@
  * - Real APK is only served after browser click with proper cookies/referrer
  * - This script simulates the real browser interaction to bypass protection
  * 
- * Important: APKDone first serves their downloader app, then the real APK.
- * We need to ignore the first download and wait for the actual APK.
+ * Important: There are two download buttons:
+ * 1. Transparent "Download APK (size)" button - the real APK we want
+ * 2. APKDone downloader app button - their own app (small file)
  */
 
 const puppeteer = require('puppeteer');
@@ -169,26 +170,31 @@ async function downloadWithScrape(url, outputPath, appName) {
       }
     });
 
-    // Listen for APK download responses - we need to distinguish between APKDone app and real APK
-    const detectedDownloads = [];
+    // Listen for APK download responses
+    let realApkUrl = null;
+    let apkContentLength = 0;
+    
     page.on('response', async (response) => {
       const responseUrl = response.url();
       const headers = response.headers();
       
-      // Check if this is an APK file
-      if (responseUrl.endsWith('.apk') || 
-          headers['content-type'] === 'application/vnd.android.package-archive') {
+      // Check if this is an APK file and NOT the APKDone downloader
+      if ((responseUrl.endsWith('.apk') || 
+          headers['content-type'] === 'application/vnd.android.package-archive') &&
+          !responseUrl.includes('APKDone_') && // Filter out APKDone app
+          !responseUrl.includes('apkdone_mod_apkdone')) {
         
-        const contentLength = headers['content-length'] || 'unknown';
-        console.log(`Detected APK download: ${responseUrl}`);
+        const contentLength = parseInt(headers['content-length']) || 0;
+        console.log(`Detected potential real APK download: ${responseUrl}`);
         console.log(`  Content-Type: ${headers['content-type']}`);
         console.log(`  Content-Length: ${contentLength} bytes`);
         
-        detectedDownloads.push({
-          url: responseUrl,
-          contentLength: parseInt(contentLength) || 0,
-          isApkdoneApp: responseUrl.includes('apkdone') && responseUrl.includes('APKDone_')
-        });
+        // Prefer larger files (real APKs are usually > 100MB)
+        if (contentLength > apkContentLength) {
+          realApkUrl = responseUrl;
+          apkContentLength = contentLength;
+          console.log(`  Selected as candidate (larger file)`);
+        }
       }
     });
 
@@ -198,80 +204,110 @@ async function downloadWithScrape(url, outputPath, appName) {
       timeout: 30000
     });
 
-    // Find and extract the gateway download link
-    console.log('Searching for download button...');
-    const gatewayUrl = await page.evaluate(() => {
-      // Look for any link that contains file.apkdone.io and /download
-      const links = Array.from(document.querySelectorAll('a[href*="file.apkdone.io"]'));
-      const downloadLink = links.find(link => link.href.includes('/download'));
-      return downloadLink ? downloadLink.href : null;
+    // Find the correct download button - look for the transparent "Download APK" button
+    console.log('Searching for the real APK download button...');
+    
+    // Strategy 1: Look for button with text containing "Download APK" and size info
+    const realDownloadButton = await page.evaluate(() => {
+      // Look for buttons or links that contain "Download APK" and have size information
+      const allElements = Array.from(document.querySelectorAll('a, button, div[onclick]'));
+      
+      for (const element of allElements) {
+        const text = element.textContent || '';
+        if (text.includes('Download APK') && (text.includes('MB') || text.includes('GB'))) {
+          return {
+            element: element.outerHTML.substring(0, 200), // For logging
+            href: element.href,
+            text: text.trim()
+          };
+        }
+      }
+      
+      // Strategy 2: Look for the gateway URL that's NOT the APKDone app
+      const gatewayLinks = Array.from(document.querySelectorAll('a[href*="file.apkdone.io"]'));
+      for (const link of gatewayLinks) {
+        const parentText = link.closest('div')?.textContent || '';
+        if (parentText.includes('Download APK') && (parentText.includes('MB') || parentText.includes('GB'))) {
+          return {
+            element: link.outerHTML.substring(0, 200),
+            href: link.href,
+            text: parentText.trim()
+          };
+        }
+      }
+      
+      return null;
     });
 
-    if (!gatewayUrl) {
-      throw new Error('Could not find APKDone gateway download link on page');
+    if (!realDownloadButton) {
+      throw new Error('Could not find the real APK download button on page');
     }
 
-    console.log(`Found gateway URL: ${gatewayUrl}`);
+    console.log(`Found real download button: ${realDownloadButton.text}`);
+    console.log(`Gateway URL: ${realDownloadButton.href}`);
 
-    // Clear any previously detected downloads before clicking
-    detectedDownloads.length = 0;
-
-    // Click the download button to trigger the real download flow
-    console.log('Clicking download button to activate session...');
-    await page.click('a[href*="file.apkdone.io"]');
+    // Click the real download button
+    console.log('Clicking the real APK download button...');
     
-    // Wait for downloads to be detected - APKDone typically serves their app first, then the real APK
-    console.log('Waiting for APK downloads to be detected...');
-    await page.waitForTimeout(8000);
-    
-    // Analyze detected downloads
-    console.log(`Detected ${detectedDownloads.length} APK downloads during session`);
-    
-    let realApkUrl = null;
-    
-    if (detectedDownloads.length === 0) {
-      throw new Error('No APK downloads detected after button click');
-    } else if (detectedDownloads.length === 1) {
-      // If only one download detected, use it (might be the real APK or APKDone app)
-      realApkUrl = detectedDownloads[0].url;
-      console.log(`Single download detected, using: ${realApkUrl}`);
-    } else {
-      // Multiple downloads - filter out APKDone app and choose the largest file (usually the real APK)
-      const nonApkdoneDownloads = detectedDownloads.filter(d => !d.isApkdoneApp);
-      
-      if (nonApkdoneDownloads.length > 0) {
-        // Choose the largest file from non-APKDone downloads
-        nonApkdoneDownloads.sort((a, b) => b.contentLength - a.contentLength);
-        realApkUrl = nonApkdoneDownloads[0].url;
-        console.log(`Selected largest non-APKDone download: ${realApkUrl}`);
-      } else {
-        // All downloads are from APKDone, choose the largest one
-        detectedDownloads.sort((a, b) => b.contentLength - a.contentLength);
-        realApkUrl = detectedDownloads[0].url;
-        console.log(`Selected largest download (may be APKDone app): ${realApkUrl}`);
+    // Use multiple strategies to click the button
+    try {
+      // Strategy 1: Click using text selector
+      await page.click('a:has-text("Download APK")');
+    } catch (error) {
+      try {
+        // Strategy 2: Click using the gateway URL
+        await page.click(`a[href="${realDownloadButton.href}"]`);
+      } catch (error2) {
+        // Strategy 3: Use JavaScript to trigger click
+        await page.evaluate((href) => {
+          const link = document.querySelector(`a[href="${href}"]`);
+          if (link) {
+            link.click();
+          }
+        }, realDownloadButton.href);
       }
     }
 
+    // Wait for the real APK download to be detected (longer wait for large files)
+    console.log('Waiting for real APK download to be detected...');
+    await page.waitForTimeout(10000);
+    
     if (!realApkUrl) {
-      throw new Error('Could not determine real APK download URL');
+      console.log('Real APK URL not detected yet, waiting longer...');
+      await page.waitForTimeout(5000);
     }
 
-    console.log(`Final APK download URL: ${realApkUrl}`);
+    if (!realApkUrl) {
+      // Last resort: try to get current URL in case we navigated directly to APK
+      const currentUrl = page.url();
+      if (currentUrl.endsWith('.apk') && !currentUrl.includes('APKDone_')) {
+        realApkUrl = currentUrl;
+        console.log(`Using current URL as APK: ${realApkUrl}`);
+      } else {
+        throw new Error('Could not detect real APK download URL after clicking button');
+      }
+    }
+
+    console.log(`Final real APK download URL: ${realApkUrl}`);
+    console.log(`Expected file size: ${apkContentLength} bytes`);
     
     // Close browser before starting the actual download
     await browser.close();
-    console.log('Browser closed, starting APK download...');
+    console.log('Browser closed, starting real APK download...');
 
-    // Download the APK using the final URL
+    // Download the real APK
     await downloadDirect(realApkUrl, outputPath);
     
-    // Verify the downloaded file is reasonable size (not the tiny APKDone app)
+    // Verify the downloaded file size matches expectations
     const stats = fs.statSync(outputPath);
     console.log(`Downloaded file size: ${stats.size} bytes`);
     
-    if (stats.size < 10000000) { // Less than 10MB is suspicious for a real app
-      console.warn('Warning: Downloaded file is very small (' + stats.size + ' bytes). This might be the APKDone downloader app instead of the actual APK.');
-      // Don't fail here, as some apps might actually be small
+    if (stats.size < 100000000) { // Less than 100MB is suspicious for CapCut
+      console.warn('Warning: Downloaded file is smaller than expected for CapCut (' + stats.size + ' bytes).');
+    }
+    
+    if (apkContentLength > 0 && Math.abs(stats.size - apkContentLength) > 1000000) {
+      console.warn('Warning: Downloaded file size differs significantly from expected size.');
     }
     
   } catch (error) {
