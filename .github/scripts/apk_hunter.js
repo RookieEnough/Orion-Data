@@ -1,304 +1,246 @@
-const puppeteer = require('puppeteer-extra');
-const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+/**
+ * APK Hunter - APKDone Download Script
+ * 
+ * APKDone Anti-Bot Behavior (Nov 2025):
+ * - The /download/ page contains a gateway URL (file.apkdone.io/s/.../download)
+ * - Direct HTTP requests to gateway URL return 302 → HTML 404 (fake error)
+ * - Real APK is only served after browser click with proper cookies/referrer
+ * - This script simulates the real browser interaction to bypass protection
+ */
+
+const puppeteer = require('puppeteer');
+const https = require('https');
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
 
-// Enable Stealth
-puppeteer.use(StealthPlugin());
-
-// --- UTILS ---
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-const randomRange = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-
-// --- FINGERPRINT & NOISE INJECTION ---
-async function injectTrustProfile(page) {
-    await page.evaluateOnNewDocument(() => {
-        // 1. CANVAS NOISE (Make us look unique/imperfect)
-        const toBlob = HTMLCanvasElement.prototype.toBlob;
-        const toDataURL = HTMLCanvasElement.prototype.toDataURL;
-        const getImageData = CanvasRenderingContext2D.prototype.getImageData;
-        
-        // Add tiny random noise to pixel data
-        const noise = {
-            r: Math.floor(Math.random() * 10) - 5,
-            g: Math.floor(Math.random() * 10) - 5,
-            b: Math.floor(Math.random() * 10) - 5
-        };
-
-        CanvasRenderingContext2D.prototype.getImageData = function(x, y, w, h) {
-            const image = getImageData.call(this, x, y, w, h);
-            // We don't actually modify the pixels (too slow), we just hook the method
-            // to show we have a "custom" rendering path if inspected deeply
-            return image;
-        };
-
-        // 2. FAKE PLUGINS (The "Fake Files" Cloudflare looks for)
-        Object.defineProperty(navigator, 'plugins', {
-            get: () => {
-                const PDF = { name: 'Chrome PDF Viewer', filename: 'internal-pdf-viewer', description: 'Portable Document Format' };
-                const Media = { name: 'Chromium PDF Viewer', filename: 'internal-pdf-viewer', description: 'Portable Document Format' };
-                return [PDF, Media];
-            }
-        });
-        
-        // 3. REMOVE ROBOT FLAGS
-        Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-    });
-}
-
-// --- HISTORY WARMER (Builds Trust) ---
-async function warmUpBrowser(page) {
-    console.log("🔥 Warming up browser history (Building Trust)...");
-    try {
-        // Go to Google first. This sets a "Referrer" and cookies.
-        await page.goto('https://www.google.com', { waitUntil: 'domcontentloaded' });
-        await delay(randomRange(1000, 2000));
-        
-        // Move mouse around on Google
-        await page.mouse.move(randomRange(100, 500), randomRange(100, 500), { steps: 10 });
-        
-        // Maybe go to Bing too
-        await page.goto('https://www.bing.com', { waitUntil: 'domcontentloaded' });
-        await delay(1000);
-        
-        console.log("   ✅ Browser warmed up.");
-    } catch (e) {
-        console.log("   ⚠️ Warm-up skipped (network issue?)");
-    }
-}
-
-// --- SMART CLOUDFLARE SOLVER ---
-const findChallengeElement = async (page) => {
-    const frames = page.frames();
-    for (const frame of frames) {
-        const btn = await frame.$('#challenge-stage, .ctp-checkbox-label, input[type="checkbox"]');
-        if (btn) return { type: 'iframe', handle: btn, frame: frame };
-    }
-    const shadowHandle = await page.evaluateHandle(() => {
-        function findInShadow(root) {
-            const targets = ['#challenge-stage', '.ctp-checkbox-label', 'input[name="cf-turnstile-response"]'];
-            for (const t of targets) {
-                const el = root.querySelector(t);
-                if (el) return el;
-            }
-            const children = root.querySelectorAll('*');
-            for (const child of children) {
-                if (child.shadowRoot) {
-                    const res = findInShadow(child.shadowRoot);
-                    if (res) return res;
-                }
-            }
-            return null;
-        }
-        return findInShadow(document.body);
-    });
-    if (shadowHandle.asElement()) return { type: 'shadow', handle: shadowHandle, frame: page };
-    return null;
-};
-
-const solveCloudflare = async (page) => {
-    console.log('   🛡️  Checking Cloudflare status...');
-    await delay(3000); 
-
-    let attempt = 0;
-    const maxAttempts = 15;
-
-    while (attempt < maxAttempts) {
-        const title = await page.title();
-        const content = (await page.content()).toLowerCase();
-        const isBlocked = title.includes('Just a moment') || content.includes('challenge-platform');
-        
-        if (!isBlocked) {
-            console.log('   ✅ Cloudflare cleared!');
-            return;
-        }
-
-        console.log(`   ⏳ Waiting for Cloudflare (Attempt ${attempt+1})...`);
-        
-        // 1. Mouse Jitter (Human Nervousness)
-        await page.mouse.move(randomRange(100, 700), randomRange(100, 500), { steps: 20 });
-
-        // 2. Try to Click
-        const target = await findChallengeElement(page);
-        if (target && target.handle) {
-            console.log('   👉 Clicking Challenge Widget...');
-            try {
-                const box = await target.handle.boundingBox();
-                if (box) {
-                    // Click slightly off-center (Human)
-                    const x = box.x + box.width / 2 + (Math.random() * 10 - 5);
-                    const y = box.y + box.height / 2 + (Math.random() * 10 - 5);
-                    await page.mouse.click(x, y, { delay: randomRange(50, 150) });
-                } else {
-                    await target.handle.click();
-                }
-            } catch (e) {}
-        }
-
-        await delay(5000);
-        attempt++;
-    }
-    console.log("   ⚠️ Timeout. Reloading...");
-    await page.reload({ waitUntil: 'domcontentloaded' });
-    await delay(5000);
-};
-
-// --- NAVIGATION LOGIC ---
-async function runApkDoneStrategy(page, appSlug) {
-    let cleanName = appSlug.replace(/-/g, ' ').replace(/\b(mod|apk|premium|pro)\b/gi, '').trim();
-    if (cleanName.length < 3) cleanName = appSlug;
-    
-    console.log(`🧠 Strategy: "${cleanName}" via Search Injection`);
-
-    // STEP 1: Direct Entry with Referrer spoof via Warmup
-    await page.goto(`https://apkdone.com/?s=${encodeURIComponent(cleanName)}`, { waitUntil: 'domcontentloaded' });
-    await solveCloudflare(page);
-
-    // STEP 2: Find Result
-    const firstRes = await page.$('article a');
-    if (firstRes) {
-        console.log('   👉 Found App. Clicking...');
-        await Promise.all([
-            page.waitForNavigation().catch(()=>null),
-            firstRes.click()
-        ]);
-        await solveCloudflare(page);
-    }
-
-    // STEP 3: Download Page
-    console.log('📍 Finding Download Link...');
-    const downloadPageBtn = await page.evaluateHandle(() => {
-        return Array.from(document.querySelectorAll('a')).find(a => 
-            a.href.endsWith('/download') || a.innerText.toLowerCase().includes('download apk')
-        );
-    });
-
-    if (downloadPageBtn && downloadPageBtn.asElement()) {
-        await Promise.all([
-            page.waitForNavigation().catch(()=>null),
-            downloadPageBtn.click()
-        ]);
-        await solveCloudflare(page);
-    }
-
-    // STEP 4: Final File
-    console.log('📍 Waiting for file generation...');
-    await delay(2000);
-    const finalBtn = await page.evaluateHandle(() => {
-        return Array.from(document.querySelectorAll('a')).find(a => /\(\s*\d+(\.\d+)?\s*[M|G]B\s*\)/i.test(a.innerText));
-    });
-
-    if (finalBtn && finalBtn.asElement()) {
-        console.log('   🚀 STARTING DOWNLOAD');
-        await finalBtn.click();
-        await delay(20000); 
-    } else {
-        // Fallback for auto-start links
-        const fallback = await page.$('a[href$=".apk"]');
-        if (fallback) { await fallback.click(); await delay(20000); }
-        else throw new Error("Link not found");
-    }
-}
-
-// --- MAIN ---
 (async () => {
-    const args = process.argv.slice(2);
-    const getArg = (key) => args.indexOf('--' + key) !== -1 ? args[args.indexOf('--' + key) + 1] : null;
-    const TARGET_URL = getArg('url');
-    const OUTPUT_FILE = getArg('out') || 'output.apk';
-    const ID = getArg('id') || 'unknown';
-    const IS_VISUAL = args.includes('--visual');
-
-    if (!TARGET_URL) { console.error('❌ No URL'); process.exit(1); }
+  try {
+    // Parse command line arguments
+    const args = parseArgs();
+    const configId = args.id;
+    const outputFile = args.out;
     
-    // PERSISTENCE
-    const PROFILE_PATH = path.join(process.cwd(), 'chrome_profile');
-    if (!fs.existsSync(PROFILE_PATH)) fs.mkdirSync(PROFILE_PATH);
-
-    const browser = await puppeteer.launch({
-        // IF VISUAL, USE HEADLESS: FALSE (TRUE HEADFUL). 'new' IS DETECTABLE.
-        headless: IS_VISUAL ? false : "new", 
-        userDataDir: PROFILE_PATH,
-        ignoreDefaultArgs: ['--enable-automation'],
-        defaultViewport: null,
-        args: [
-            '--no-sandbox', 
-            '--disable-setuid-sandbox', 
-            '--window-size=1920,1080',
-            '--start-maximized',
-            '--disable-blink-features=AutomationControlled',
-            '--disable-infobars',
-            '--lang=en-US,en;q=0.9'
-        ]
-    });
-
-    let foundApkUrl = null;
-
-    try {
-        const page = await browser.newPage();
-        
-        // 1. INJECT FINGERPRINT
-        await injectTrustProfile(page);
-
-        // 2. WARM UP (History Builder)
-        await warmUpBrowser(page);
-
-        // 3. NETWORK INTERCEPTION
-        await page.setRequestInterception(true);
-        page.on('request', req => {
-            if (['image', 'media', 'font'].includes(req.resourceType())) req.continue();
-            else req.continue();
-        });
-
-        page.on('response', async (response) => {
-            const url = response.url();
-            const type = response.headers()['content-type'] || '';
-            if ((type.includes('android.package-archive') || url.endsWith('.apk')) && !url.includes('favicon')) {
-                console.log(`\n🎣 CAUGHT APK URL: ${url}`);
-                foundApkUrl = url;
-            }
-        });
-
-        // 4. EXECUTE
-        if (TARGET_URL.includes('apkdone.com')) {
-            let slug = ID;
-            try { slug = new URL(TARGET_URL).pathname.split('/').filter(p=>p)[0]; } catch(e){}
-            await runApkDoneStrategy(page, slug);
-        } else {
-            await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded' });
-            await solveCloudflare(page);
-        }
-
-        if (foundApkUrl) {
-            console.log('\n✅ Downloading...');
-            await downloadFile(foundApkUrl, OUTPUT_FILE);
-            console.log(`🎉 SUCCESS! Saved to ${OUTPUT_FILE}`);
-        } else {
-            throw new Error("No APK URL intercepted.");
-        }
-
-    } catch (err) {
-        console.error(`\n🔥 ERROR: ${err.message}`);
-        if(IS_VISUAL) {
-            console.log("⚠️  Window open for inspection (60s)...");
-            await delay(60000);
-        }
-        process.exit(1);
-    } finally {
-        await browser.close();
+    if (!configId || !outputFile) {
+      throw new Error('Missing required arguments: --id and --out are required');
     }
+
+    console.log(`Starting APK Hunter for ID: ${configId}, output: ${outputFile}`);
+
+    // Read mirror_config.json from repository root
+    const configPath = path.resolve(process.cwd(), 'mirror_config.json');
+    console.log(`Reading config from: ${configPath}`);
+    
+    if (!fs.existsSync(configPath)) {
+      throw new Error('mirror_config.json not found in repository root');
+    }
+
+    const configData = fs.readFileSync(configPath, 'utf8');
+    const config = JSON.parse(configData);
+    
+    const appConfig = config.find(item => item.id === configId);
+    if (!appConfig) {
+      throw new Error(`Config entry with id '${configId}' not found in mirror_config.json`);
+    }
+
+    console.log(`Found app: ${appConfig.name}, mode: ${appConfig.mode}, URL: ${appConfig.downloadUrl}`);
+
+    const outputPath = path.resolve(process.cwd(), outputFile);
+    
+    if (appConfig.mode === 'direct') {
+      await downloadDirect(appConfig.downloadUrl, outputPath);
+    } else if (appConfig.mode === 'scrape') {
+      await downloadWithScrape(appConfig.downloadUrl, outputPath);
+    } else {
+      throw new Error(`Unknown mode: ${appConfig.mode}`);
+    }
+
+    console.log(`Successfully downloaded APK to: ${outputPath}`);
+    process.exit(0);
+    
+  } catch (error) {
+    console.error('APK Hunter failed: ' + error.message);
+    process.exit(1);
+  }
 })();
 
-function downloadFile(url, dest) {
-    return new Promise((resolve, reject) => {
-        const file = fs.createWriteStream(dest);
-        https.get(url, (res) => {
-            if (res.statusCode > 300 && res.statusCode < 400 && res.headers.location) {
-                return downloadFile(res.headers.location, dest).then(resolve).catch(reject);
-            }
-            res.pipe(file);
-            file.on('finish', () => file.close(resolve));
-        }).on('error', (e) => { fs.unlink(dest, ()=>{}); reject(e); });
+function parseArgs() {
+  const args = {};
+  for (let i = 2; i < process.argv.length; i++) {
+    if (process.argv[i] === '--id' && process.argv[i + 1]) {
+      args.id = process.argv[++i];
+    } else if (process.argv[i] === '--out' && process.argv[i + 1]) {
+      args.out = process.argv[++i];
+    }
+  }
+  return args;
+}
+
+async function downloadDirect(url, outputPath) {
+  return new Promise((resolve, reject) => {
+    console.log(`Starting direct download from: ${url}`);
+    
+    const file = fs.createWriteStream(outputPath);
+    let attempts = 0;
+    const maxAttempts = 2;
+
+    function attemptDownload() {
+      attempts++;
+      console.log(`Direct download attempt ${attempts}/${maxAttempts}`);
+      
+      const request = https.get(url, (response) => {
+        if (response.statusCode === 200) {
+          const contentLength = response.headers['content-length'];
+          console.log(`Downloading APK (${contentLength} bytes)`);
+          
+          response.pipe(file);
+          
+          file.on('finish', () => {
+            file.close();
+            console.log('Direct download completed successfully');
+            resolve();
+          });
+          
+          response.on('error', (error) => {
+            file.close();
+            fs.unlinkSync(outputPath);
+            reject(new Error('Network error during download: ' + error.message));
+          });
+          
+        } else if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
+          // Follow redirects for direct mode
+          console.log(`Following redirect to: ${response.headers.location}`);
+          attemptDownload(response.headers.location);
+        } else {
+          reject(new Error(`HTTP ${response.statusCode}: ${response.statusMessage}`));
+        }
+      });
+      
+      request.setTimeout(120000, () => {
+        request.destroy();
+        reject(new Error('Direct download timeout after 120 seconds'));
+      });
+      
+      request.on('error', (error) => {
+        if (attempts < maxAttempts) {
+          console.log(`Retrying after error: ${error.message}`);
+          setTimeout(attemptDownload, 2000);
+        } else {
+          reject(new Error('Direct download failed after ' + maxAttempts + ' attempts: ' + error.message));
+        }
+      });
+    }
+    
+    attemptDownload();
+  });
+}
+
+async function downloadWithScrape(url, outputPath) {
+  console.log('Starting APKDone scrape mode download');
+  
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-accelerated-2d-canvas',
+      '--disable-gpu',
+      '--window-size=1920,1080'
+    ],
+    timeout: 120000
+  });
+
+  try {
+    const page = await browser.newPage();
+    
+    // Block unnecessary resources for speed
+    await page.setRequestInterception(true);
+    page.on('request', (req) => {
+      const resourceType = req.resourceType();
+      if (['image', 'font', 'stylesheet'].includes(resourceType)) {
+        req.abort();
+      } else {
+        req.continue();
+      }
     });
+
+    // Listen for APK download responses
+    let apkDownloadUrl = null;
+    page.on('response', async (response) => {
+      const responseUrl = response.url();
+      const headers = response.headers();
+      
+      // Check if this is the APK file
+      if (responseUrl.endsWith('.apk') || 
+          headers['content-type'] === 'application/vnd.android.package-archive' ||
+          (headers['content-disposition'] && headers['content-disposition'].includes('.apk'))) {
+        
+        console.log(`Detected APK download: ${responseUrl}`);
+        console.log(`Content-Type: ${headers['content-type']}`);
+        console.log(`Content-Length: ${headers['content-length']}`);
+        
+        apkDownloadUrl = responseUrl;
+      }
+    });
+
+    console.log(`Navigating to APKDone page: ${url}`);
+    await page.goto(url, {
+      waitUntil: 'networkidle2',
+      timeout: 30000
+    });
+
+    // Find and extract the gateway download link
+    console.log('Searching for download button...');
+    const gatewayUrl = await page.evaluate(() => {
+      // Look for any link that contains file.apkdone.io and /download
+      const links = Array.from(document.querySelectorAll('a[href*="file.apkdone.io"]'));
+      const downloadLink = links.find(link => link.href.includes('/download'));
+      return downloadLink ? downloadLink.href : null;
+    });
+
+    if (!gatewayUrl) {
+      throw new Error('Could not find APKDone gateway download link on page');
+    }
+
+    console.log(`Found gateway URL: ${gatewayUrl}`);
+
+    // Click the download button to trigger the real download flow
+    console.log('Clicking download button to activate session...');
+    await page.click('a[href*="file.apkdone.io"]');
+    
+    // Wait for potential navigation/redirect
+    await page.waitForTimeout(5000);
+    
+    // Check if we detected the APK URL during the click
+    if (!apkDownloadUrl) {
+      console.log('APK URL not detected after click, checking current page...');
+      
+      // Sometimes the APK starts downloading immediately after click
+      await page.waitForTimeout(3000);
+      
+      if (!apkDownloadUrl) {
+        // Fallback: try to extract final URL from page after click
+        const currentUrl = page.url();
+        if (currentUrl.endsWith('.apk')) {
+          apkDownloadUrl = currentUrl;
+        } else {
+          console.log('Current URL after click: ' + currentUrl);
+          throw new Error('Could not detect APK download URL after button click');
+        }
+      }
+    }
+
+    console.log(`Final APK download URL: ${apkDownloadUrl}`);
+    
+    // Close browser before starting the actual download
+    await browser.close();
+    console.log('Browser closed, starting APK download...');
+
+    // Download the APK using the final URL with proper cookies would be handled by Node
+    await downloadDirect(apkDownloadUrl, outputPath);
+    
+  } catch (error) {
+    await browser.close();
+    throw error;
+  }
 }
