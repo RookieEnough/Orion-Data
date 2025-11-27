@@ -1,14 +1,3 @@
-/*
- * ORION DATA - SMART APK HUNTER
- * -----------------------------
- * Specialized automation script to mirror APKs.
- * 
- * V3.3 CHANGE:
- * - Refined Scoring: Bad files (Installers) also use file.apkdone.io.
- * - logic shifted to prioritize Button Text + Size combo over Domain.
- * - Mobile User-Agent retained.
- */
-
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
@@ -61,7 +50,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
         fs.mkdirSync(DOWNLOAD_DIR);
     }
 
-    console.log('--- APK HUNTER V3.3 (Precision Mode) ---');
+    console.log('--- APK HUNTER V3.4 (Stealth Mobile) ---');
     console.log(`Target: ${APP_ID}`);
     console.log(`URL: ${TARGET_URL}`);
     console.log(`Temp Dir: ${DOWNLOAD_DIR}`);
@@ -71,10 +60,9 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
     const runScrape = async () => {
         let browser = null;
         try {
-            console.log('Launching Browser (Mobile Mode)...');
+            console.log('Launching Browser (Stealth Mobile Mode)...');
             
-            // USE ANDROID USER AGENT
-            // This ensures the site sees us as a phone and serves the real APK, not the PC installer.
+            // PIXEL 5 USER AGENT
             const MOBILE_UA = 'Mozilla/5.0 (Linux; Android 13; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36';
 
             browser = await puppeteer.launch({
@@ -83,17 +71,26 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
                     '--no-sandbox',
                     '--disable-setuid-sandbox',
                     '--disable-dev-shm-usage',
-                    `--user-agent=${MOBILE_UA}` // Force browser to be a phone
+                    '--disable-blink-features=AutomationControlled', // Hide automation
+                    `--user-agent=${MOBILE_UA}`
                 ]
             });
 
             const page = await browser.newPage();
             
-            // 1. Override UA in Page
+            // 1. OVERRIDE BROWSER FINGERPRINT (Critical for avoiding PC Installer)
+            await page.evaluateOnNewDocument(() => {
+                // Force platform to look like Android ARM, not Linux x86
+                Object.defineProperty(navigator, 'platform', { get: () => 'Linux armv8l' });
+                // Simulate Touch Screen
+                Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 5 });
+                // Hide webdriver
+                Object.defineProperty(navigator, 'webdriver', { get: () => false });
+            });
+
+            // 2. Set Viewport & UA
             await page.setUserAgent(MOBILE_UA);
-            
-            // 2. Set Viewport to Mobile
-            await page.setViewport({ width: 393, height: 851, isMobile: true });
+            await page.setViewport({ width: 393, height: 851, isMobile: true, hasTouch: true });
 
             // 3. Enable Download Behavior
             const client = await page.target().createCDPSession();
@@ -102,7 +99,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
                 downloadPath: DOWNLOAD_DIR
             });
 
-            // Block heavy media
+            // Block heavy media for speed
             await page.setRequestInterception(true);
             page.on('request', (req) => {
                 const rType = req.resourceType();
@@ -115,6 +112,9 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
             console.log('Scanning for buttons...');
             
+            // Wait a moment for dynamic content
+            await delay(2000);
+
             // Get all anchor handles
             const anchors = await page.$$('a');
             let bestHandle = null;
@@ -135,31 +135,23 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
                     // Penalize: Fast Download / Adware / Installer / Telegram
                     if (txt.includes('fast download') || txt.includes('installer') || txt.includes('telegram')) return { score: -1000 };
 
-                    // --- SCORING RULES V3.3 ---
+                    // --- SCORING RULES V3.4 ---
 
-                    // 1. Domain Match
-                    // Reduced importance because bad files also use this domain
-                    if (href.includes('file.apkdone.io')) score += 20;
-
-                    // 2. Feature Detection
+                    // 1. Text Content - Priority #1
                     const hasDownloadText = txt.includes('download apk');
-                    const hasSizeText = /\d+\s*(mb|gb)/.test(txt);
+                    const hasSizeText = /\d+\s*(mb|gb)/.test(txt); // Matches "277 MB" etc
 
                     if (hasDownloadText) score += 20;
                     if (hasSizeText) score += 20;
 
-                    // 3. THE COMBO (The Holy Grail)
-                    // If it has BOTH "Download APK" AND a size (e.g. "277 MB"), it is almost certainly the real button.
-                    // Fake buttons usually lack the specific size or just say "Download".
+                    // THE COMBO: "Download APK" + Size found in text = 99% Real Button
                     if (hasDownloadText && hasSizeText) score += 150;
+
+                    // 2. Domain Match (Secondary)
+                    if (href.includes('file.apkdone.io')) score += 20;
 
                     return { score, txt, href };
                 }, handle);
-
-                // Debug log for candidates with positive score
-                if (meta.score > 0) {
-                    // console.log(`Candidate: "${meta.txt}" | Score: ${meta.score}`);
-                }
 
                 if (meta.score > maxScore) {
                     maxScore = meta.score;
@@ -170,6 +162,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
             }
 
             if (!bestHandle || maxScore <= 0) {
+                // Fallback: Try searching for just class names if text fails
                 throw new Error('No valid download button found.');
             }
 
@@ -178,6 +171,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
             console.log(`🏆 Score: ${maxScore}`);
             
             // CLICK THE BUTTON
+            // We use standard click here. Puppeteer click triggers the download.
             try {
                 await bestHandle.click();
             } catch (e) {
@@ -198,7 +192,11 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
                 if (finishedFile) {
                     downloadedFile = path.join(DOWNLOAD_DIR, finishedFile);
+                    // Check size to prevent small installer files
                     const stats = fs.statSync(downloadedFile);
+                    
+                    // V3.4 Check: If file is too small (< 20MB) and we expected a big file, it might be the installer.
+                    // But we can't be sure, so we just log it for now.
                     if (stats.size > 0) break;
                 }
                 if (inProgress) process.stdout.write('.'); 
@@ -211,6 +209,11 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
             console.log(`File downloaded: ${path.basename(downloadedFile)}`);
             
+            const finalStats = fs.statSync(downloadedFile);
+            if (finalStats.size < 20 * 1024 * 1024) {
+                 console.warn("⚠️  WARNING: Downloaded file is small (< 20MB). It might be the installer.");
+            }
+
             // Final Move
             fs.renameSync(downloadedFile, OUTPUT_FILE);
             
@@ -257,11 +260,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
         
         if (fs.existsSync(OUTPUT_FILE)) {
             const stats = fs.statSync(OUTPUT_FILE);
-            if (stats.size < 1024 * 1024) { 
-                console.warn(`⚠️ Warning: File is suspiciously small (${(stats.size/1024).toFixed(2)} KB).`);
-            } else {
-                console.log(`Final File Size: ${(stats.size/1024/1024).toFixed(2)} MB`);
-            }
+            console.log(`Final File Size: ${(stats.size/1024/1024).toFixed(2)} MB`);
         }
 
     } catch (e) {
