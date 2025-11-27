@@ -21,7 +21,7 @@ const https = require('https');
   }
 
   // Load mirror_config.json
-  const configPath = path.resolve(__dirname, '../mirror_config.json');
+  const configPath = path.resolve(process.cwd(), 'mirror_config.json');
   if (!fs.existsSync(configPath)) {
     console.error('mirror_config.json not found!');
     process.exit(1);
