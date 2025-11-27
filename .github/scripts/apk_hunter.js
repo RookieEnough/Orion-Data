@@ -1,9 +1,3 @@
-/*
- * ORION DATA - DEEP DIVE APK HUNTER (V16.0 - THE AN1 SPECIALIST)
- * -------------------------------------------------------
- * Strategies for: APKDone (The Tourist), AN1 (The Shortcut)
- */
-
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
@@ -100,34 +94,48 @@ async function runAn1Strategy(page, url) {
     await page.goto(downloadPageUrl, { waitUntil: 'domcontentloaded' });
     await solveCloudflare(page);
 
-    // 3. Wait for Timer (usually 7 seconds)
-    console.log('   ⏳ Waiting for AN1 countdown...');
-    // We wait for the timer div to disappear or the link to appear
+    // 3. Wait for Button Appearance
+    console.log('   ⏳ Waiting for download button...');
     try {
-        await page.waitForSelector('#pre_download', { timeout: 15000 });
-        // The container usually holds the countdown, then gets replaced by the link
-        await delay(8000); // Hard wait is often safer for timers than trying to read the DOM repeatedly
+        // Wait until we see a large green button or "DOWNLOAD" text
+        await page.waitForFunction(() => {
+            const btns = Array.from(document.querySelectorAll('a'));
+            return btns.some(b => b.innerText.toUpperCase().includes('DOWNLOAD') && b.offsetHeight > 0);
+        }, { timeout: 15000 });
+        await delay(2000); // Small buffer for animations
     } catch (e) {
-        console.log('   ⚠️ Timer element not found, checking if link is already there...');
+        console.log('   ⚠️ Wait timed out, trying to find button anyway...');
     }
 
     // 4. Find the Green Button
     console.log('   🔍 Looking for final link...');
     const downloadLink = await page.evaluateHandle(() => {
-        // Look for the main green download button usually inside #pre_download or generic class
-        const btn = document.querySelector('a.btn-lg.btn-green') || document.querySelector('a.download_line');
-        return btn;
+        // Strategy 1: The standard AN1 green button class
+        const classBtn = document.querySelector('a.btn-lg.btn-green');
+        if (classBtn) return classBtn;
+
+        // Strategy 2: Text Match "DOWNLOAD" (ignoring "Run on PC")
+        const allLinks = Array.from(document.querySelectorAll('a'));
+        const textBtn = allLinks.find(a => {
+            const t = a.innerText.toUpperCase();
+            return t.includes('DOWNLOAD') && !t.includes('PC') && !t.includes('TELEGRAM');
+        });
+        return textBtn;
     });
 
     if (downloadLink.asElement()) {
         console.log('   🚀 CLICKING DOWNLOAD');
-        await Promise.all([
-            // Sometimes it triggers a navigation, sometimes a direct download
-            // We don't await navigation strictly because it might just be a file stream
-            downloadLink.click()
-        ]);
-        await delay(20000); // Allow download to start/complete
+        
+        // CRITICAL FIX: Use DOM click() via evaluate instead of Puppeteer's click()
+        // This bypasses "Node is not clickable" errors if element is obscured by ads
+        await page.evaluate(el => el.click(), downloadLink);
+        
+        // Wait for download to start
+        await delay(25000); 
     } else {
+        // Debug: Print page text if failed
+        const bodyText = await page.evaluate(() => document.body.innerText.substring(0, 500));
+        console.log("   ❌ Page Content Preview:", bodyText);
         throw new Error("Could not find the green download button on AN1.");
     }
 }
