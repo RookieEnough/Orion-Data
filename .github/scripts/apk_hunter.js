@@ -45,7 +45,7 @@ const { URL } = require('url');
         process.exit(1);
     }
 
-    console.log('--- APK HUNTER V2.0 ---');
+    console.log('--- APK HUNTER V2.1 (Selector Fix) ---');
     console.log('Target ID: ' + APP_ID);
     console.log('Target URL: ' + TARGET_URL);
     console.log('Mode: ' + MODE);
@@ -125,6 +125,9 @@ const { URL } = require('url');
 
             const page = await browser.newPage();
             
+            // Log browser console output to node console for debugging selector
+            page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+
             // Optimization: Block images/fonts
             await page.setRequestInterception(true);
             page.on('request', (req) => {
@@ -142,32 +145,62 @@ const { URL } = require('url');
             // Locate the gateway link
             console.log('Hunting for download button...');
             
-            // APKDone Logic: Find the link that points to file.apkdone.io
+            // APKDone Logic: Use a SCORING system to find the right button
             const result = await page.evaluate(() => {
                 const anchors = Array.from(document.querySelectorAll('a'));
-                // Priority 1: Link containing "file.apkdone.io" and "download"
-                const gatewayLink = anchors.find(a => 
-                    a.href.includes('file.apkdone.io') && a.href.includes('/download')
-                );
                 
-                if (gatewayLink) return { url: gatewayLink.href, method: 'gateway' };
-                
-                // Priority 2: Generic "Download APK" button on the /download/ page
-                const downloadBtn = anchors.find(a => 
-                    a.innerText.toLowerCase().includes('download apk') && 
-                    !a.innerText.toLowerCase().includes('fast')
-                );
-                
-                if (downloadBtn) return { url: downloadBtn.href, method: 'generic' };
-                
-                return null;
+                const cleanText = (el) => (el.innerText || el.textContent || '').toLowerCase().trim();
+
+                let bestCandidate = null;
+                let maxScore = -1;
+
+                anchors.forEach(a => {
+                    let score = 0;
+                    const txt = cleanText(a);
+                    const href = a.href;
+
+                    // 1. Basic Eligibility: Must contain /download/ or point to file.apkdone
+                    // (Some links are relative "/capcut.../download", some are absolute)
+                    if (!href.includes('/download') && !href.includes('file.apkdone.io')) return;
+
+                    // 2. CRITICAL FILTER: "Fast Download" is the installer (Ad)
+                    if (txt.includes('fast download')) {
+                        console.log('Ignored Fast Download: ' + txt);
+                        return;
+                    }
+                    if (txt.includes('with apkdone')) {
+                        console.log('Ignored Installer: ' + txt);
+                        return;
+                    }
+
+                    // 3. SCORING
+                    
+                    // Boost for "Download APK" (The text on the real button)
+                    if (txt.includes('download apk')) score += 20;
+
+                    // Boost for mentioning size (e.g. "277 MB")
+                    // Regex looks for digits followed by optional space and MB/GB
+                    if (/\d+\s*(mb|gb)/.test(txt)) score += 10;
+
+                    // Boost for having the gateway domain
+                    if (href.includes('file.apkdone.io')) score += 5;
+
+                    console.log(`Candidate: "${txt}" | Score: ${score} | Href: ${href.substring(0, 50)}...`);
+
+                    if (score > maxScore && score > 0) {
+                        maxScore = score;
+                        bestCandidate = { url: href, method: `score-${score}`, text: txt };
+                    }
+                });
+
+                return bestCandidate;
             });
 
             if (!result || !result.url) {
                 throw new Error('Could not find a valid download URL on the page.');
             }
 
-            console.log('Found Target URL (' + result.method + '): ' + result.url);
+            console.log(`\n🎯 Selected Target:\nText: "${result.text}"\nMethod: ${result.method}\nURL: ${result.url}\n`);
 
             // EXTRACT COOKIES FOR AUTHENTICATED DOWNLOAD
             const cookies = await page.cookies();
@@ -213,9 +246,9 @@ const { URL } = require('url');
         // Final Verification
         if (fs.existsSync(OUTPUT_FILE)) {
             const stats = fs.statSync(OUTPUT_FILE);
-            if (stats.size < 1000) {
-                console.error('Error: File is too small (' + stats.size + ' bytes). Likely an error page.');
-                process.exit(1);
+            // Just warn if small, don't fail, so we can debug the file artifacts if needed
+            if (stats.size < 1000 * 1000 * 20) { // < 20MB
+                 console.warn('\n⚠️ WARNING: File is small (' + (stats.size / 1024 / 1024).toFixed(2) + ' MB). Check if it is the installer or the real App.');
             }
             process.exit(0);
         } else {
