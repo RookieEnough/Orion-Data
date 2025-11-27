@@ -40,13 +40,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          # Cache removed to prevent lock file errors
       
       - name: Install Dependencies
         run: |
-          # Force clean install to prevent cache issues
-          rm -rf node_modules package-lock.json
-          npm install
+          # Explicitly install packages to ensure they exist
+          npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
           
           # Install AAPT for APK parsing
           sudo apt-get update && sudo apt-get install -y aapt
@@ -54,6 +52,7 @@ jobs:
       - name: Download
         env:
           CF_COOKIES: ${{ secrets.CF_COOKIES }}
+          NODE_PATH: ./node_modules
         run: |
           APP_ID="${{ inputs.app_name }}"
           URL="${{ inputs.download_url }}"
@@ -62,7 +61,6 @@ jobs:
           TEMP_APK="temp.apk"
           
           echo "📂 Working Directory: $(pwd)"
-          echo "📦 Node Modules: $(ls -d node_modules || echo 'MISSING')"
           
           if [[ "$MODE" == "scrape" ]]; then
              node .github/scripts/apk_hunter.js --url "$URL" --id "$APP_ID" --out "$TEMP_APK" --wait "$WAIT"
