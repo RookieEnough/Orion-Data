@@ -50,7 +50,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
         fs.mkdirSync(DOWNLOAD_DIR);
     }
 
-    console.log('--- APK HUNTER V3.0 (Native Download) ---');
+    console.log('--- APK HUNTER V3.1 (Stealth Native) ---');
     console.log(`Target: ${APP_ID}`);
     console.log(`URL: ${TARGET_URL}`);
     console.log(`Mode: ${MODE}`);
@@ -61,18 +61,32 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
     const runScrape = async () => {
         let browser = null;
         try {
-            console.log('Launching Browser...');
+            console.log('Launching Browser (Stealth Mode)...');
+            
+            // USE A REAL DESKTOP USER AGENT TO TRICK SERVER
+            const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36';
+
             browser = await puppeteer.launch({
                 headless: "new",
                 args: [
                     '--no-sandbox',
                     '--disable-setuid-sandbox',
                     '--disable-dev-shm-usage',
-                    '--window-size=1280,800'
+                    '--window-size=1920,1080', // Standard Desktop
+                    `--user-agent=${USER_AGENT}`
                 ]
             });
 
             const page = await browser.newPage();
+            
+            // 1. Override UA in Page
+            await page.setUserAgent(USER_AGENT);
+            
+            // 2. Mask Webdriver (Crucial for bypass)
+            await page.evaluateOnNewDocument(() => {
+                Object.defineProperty(navigator, 'webdriver', { get: () => false });
+            });
+
             const client = await page.target().createCDPSession();
 
             // Enable file download behavior
@@ -136,8 +150,8 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
             console.log(`🎯 Clicking Target: "${bestText}" (Score: ${maxScore})`);
             
             // CLICK THE BUTTON
-            // We use Promise.all to handle cases where click triggers navigation vs simple download
             try {
+                // Ensure the click mimics a real user
                 await bestHandle.click();
             } catch (e) {
                 console.log('Click warning (might still work):', e.message);
@@ -210,9 +224,6 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
                 } else if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
                     // Simple redirect handling for direct mode
                     console.log(`Redirecting to ${response.headers.location}`);
-                    // Recursive call not implemented for simplicity in this fallback block, 
-                    // assuming direct links are usually straight forward or handled by curl in workflows.
-                    // For robust redirects, use the previous logic, but here we prioritize Puppeteer.
                     reject(new Error('Direct mode redirect (use scrape mode for complex sites)'));
                 } else {
                     reject(new Error(`HTTP ${response.statusCode}`));
