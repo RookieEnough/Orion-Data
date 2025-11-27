@@ -94,3 +94,11 @@ jobs:
             
             echo "------------------------------------------------"
           done
+
+      - name: Upload Debug Screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshots
+          path: debug_screenshots/
+          retention-days: 3
