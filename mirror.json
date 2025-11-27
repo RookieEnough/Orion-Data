@@ -1335,7 +1335,7 @@
         "state": "uploaded",
         "size": 12779184,
         "digest": "sha256:a357da44d7364321cb3f1774b3355d93ad0886f735a12473bfa4ac0c8b8b0b85",
-        "download_count": 49175,
+        "download_count": 49292,
         "created_at": "2025-09-28T14:33:49Z",
         "updated_at": "2025-09-28T14:33:53Z",
         "browser_download_url": "https://github.com/WSTxda/MicroG-RE/releases/download/5.13/microg-release.apk"
@@ -1427,7 +1427,7 @@
         "state": "uploaded",
         "size": 62917046,
         "digest": "sha256:d1b74947e2611a2bd3b9c79f7c3c2d7c55feaca6fadb1772d9554fa85550cf96",
-        "download_count": 564,
+        "download_count": 565,
         "created_at": "2025-10-05T20:23:14Z",
         "updated_at": "2025-10-05T20:23:16Z",
         "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/28/music-revanced-extended-v8.30.54-arm-v7a.apk"
@@ -1463,7 +1463,7 @@
         "state": "uploaded",
         "size": 75733390,
         "digest": "sha256:6632afe7ed43841aebb39f991a07c517fc53da1caa603f017aa4eab031367a3d",
-        "download_count": 2631,
+        "download_count": 2635,
         "created_at": "2025-10-05T20:23:11Z",
         "updated_at": "2025-10-05T20:23:13Z",
         "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/28/music-revanced-extended-v8.30.54-arm64-v8a.apk"
@@ -1499,7 +1499,7 @@
         "state": "uploaded",
         "size": 80659734,
         "digest": "sha256:5fb33960e10c5b4122fee54530d290bb984e671f2d46422a01af4dae8b859de7",
-        "download_count": 1560,
+        "download_count": 1563,
         "created_at": "2025-10-05T20:23:08Z",
         "updated_at": "2025-10-05T20:23:11Z",
         "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/28/reddit-revanced-extended-v2025.12.1-all.apk"
@@ -1535,7 +1535,7 @@
         "state": "uploaded",
         "size": 94475917,
         "digest": "sha256:61d0cbd1722024e78fe5228f9d9fdb6c7403b8a7e32e16938e0e8d228e386c0a",
-        "download_count": 1216,
+        "download_count": 1218,
         "created_at": "2025-10-05T20:23:05Z",
         "updated_at": "2025-10-05T20:23:07Z",
         "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/28/spotify-revanced-extended-v9.0.84.1340-all.apk"
@@ -1571,7 +1571,7 @@
         "state": "uploaded",
         "size": 125748439,
         "digest": "sha256:46297d6a3deb97895c318774733741de71c625863870d2eab49a97634a295a32",
-        "download_count": 3419,
+        "download_count": 3425,
         "created_at": "2025-10-05T20:22:57Z",
         "updated_at": "2025-10-05T20:23:00Z",
         "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/28/youtube-revanced-extended-v20.21.37-all.apk"
@@ -1662,7 +1662,7 @@
         "state": "uploaded",
         "size": 214137682,
         "digest": "sha256:0f177487c71d690ff96f1473c12c9e92bf2d0d7b3e948e8e6c5dc8e48b854f26",
-        "download_count": 35232,
+        "download_count": 35356,
         "created_at": "2025-09-11T06:56:23Z",
         "updated_at": "2025-09-11T06:56:33Z",
         "browser_download_url": "https://github.com/crimera/twitter-apk/releases/download/11.20.0-release.0/twitter-piko-material-you-v11.20.0-release.0.apk"
@@ -1698,7 +1698,7 @@
         "state": "uploaded",
         "size": 214108951,
         "digest": "sha256:13ffec20c684a583631164ed4b28b782667fa3149a7f87e5f3ffc15a625e8511",
-        "download_count": 22226,
+        "download_count": 22286,
         "created_at": "2025-09-11T06:56:23Z",
         "updated_at": "2025-09-11T06:56:31Z",
         "browser_download_url": "https://github.com/crimera/twitter-apk/releases/download/11.20.0-release.0/twitter-piko-v11.20.0-release.0.apk"
@@ -1734,7 +1734,7 @@
         "state": "uploaded",
         "size": 214149911,
         "digest": "sha256:8cfeb545fd5c0b71a12e2d25943b2cabca2f6c8a66fb5225d951a184e12256de",
-        "download_count": 17303,
+        "download_count": 17356,
         "created_at": "2025-09-11T06:56:23Z",
         "updated_at": "2025-09-11T06:56:32Z",
         "browser_download_url": "https://github.com/crimera/twitter-apk/releases/download/11.20.0-release.0/x-piko-material-you-v11.20.0-release.0.apk"
@@ -1770,7 +1770,7 @@
         "state": "uploaded",
         "size": 214100759,
         "digest": "sha256:284567a8ad7371dd37eaeb1ce543363ea4377b466f6bf016abe9d7bfd70b31d5",
-        "download_count": 22443,
+        "download_count": 22537,
         "created_at": "2025-09-11T06:56:23Z",
         "updated_at": "2025-09-11T06:56:35Z",
         "browser_download_url": "https://github.com/crimera/twitter-apk/releases/download/11.20.0-release.0/x-piko-v11.20.0-release.0.apk"
