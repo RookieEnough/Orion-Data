@@ -4,14 +4,23 @@
  * Strategies for: APKDone (The Tourist), AN1 (The Shortcut)
  */
 
-const puppeteer = require('puppeteer-extra');
-const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-// Enable Stealth
-puppeteer.use(StealthPlugin());
+// Robust Import Check
+let puppeteer, StealthPlugin;
+try {
+    puppeteer = require('puppeteer-extra');
+    StealthPlugin = require('puppeteer-extra-plugin-stealth');
+    puppeteer.use(StealthPlugin());
+    console.log("✅ Dependencies loaded successfully");
+} catch (e) {
+    console.error("❌ CRITICAL ERROR: Missing Dependencies");
+    console.error("Please run: npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth");
+    console.error("Error Details:", e.message);
+    process.exit(1);
+}
 
 // --- UTILS ---
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
