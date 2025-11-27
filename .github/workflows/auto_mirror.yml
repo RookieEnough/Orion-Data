@@ -20,18 +20,18 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          # Cache removed to prevent lock file errors
 
       - name: Install Dependencies
         run: |
-          rm -rf node_modules package-lock.json
-          npm install
+          # Explicitly install packages to ensure they exist
+          npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
           sudo apt-get update && sudo apt-get install -y aapt
 
       - name: Run APK Hunter
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CF_COOKIES: ${{ secrets.CF_COOKIES }}
+          NODE_PATH: ./node_modules
         run: |
           CONFIG_FILE="mirror_config.json"
           
