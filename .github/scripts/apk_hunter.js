@@ -1,8 +1,9 @@
-// .github/scripts/apk_hunter.js — Direct Extraction for APKDone (No Clicks, No Timeouts)
+// .github/scripts/apk_hunter.js — Follows 302 Redirects to Real APK
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const http = require('http'); // For redirect handling
 
 (async () => {
   // ────────────────────── ARGUMENTS & CONFIG ──────────────────────
@@ -14,7 +15,7 @@ const https = require('https');
 
   const APP_ID = getArg('id');
   const PROVIDED_URL = getArg('url');
-  const OUTPUT_FILE = getArg('out') || `${APP_ID || 'app'}.apk`;
+  const OUTPUT_FILE = getArg('out') || `${APP_ID || 'app'}.apk';
 
   if (!APP_ID) {
     console.error('Error: --id <app_id> is required');
@@ -45,27 +46,12 @@ const https = require('https');
   // Direct mode (e.g., telegram-example)
   if (MODE === 'direct') {
     console.log('Direct download mode...');
-    const file = fs.createWriteStream(OUTPUT_FILE);
-    https.get(TARGET_URL, (res) => {
-      if (res.statusCode !== 200) {
-        console.error(`HTTP ${res.statusCode}`);
-        process.exit(1);
-      }
-      res.pipe(file);
-      file.on('finish', () => {
-        const size = (fs.statSync(OUTPUT_FILE).size / 1024 / 1024).toFixed(1);
-        console.log(`Downloaded → ${OUTPUT_FILE} (${size} MB)`);
-        process.exit(0);
-      });
-    }).on('error', (e) => {
-      console.error('Download failed:', e.message);
-      process.exit(1);
-    });
+    downloadWithRedirect(TARGET_URL, OUTPUT_FILE);
     return;
   }
 
-  // ────────────────────── SCRAPE MODE (Simple Extraction) ──────────────────────
-  console.log(`Extracting direct link from: ${TARGET_URL}`);
+  // ────────────────────── SCRAPE MODE (Extract & Follow Redirect) ──────────────────────
+  console.log(`Extracting link from: ${TARGET_URL}`);
 
   const browser = await puppeteer.launch({
     headless: "new",
@@ -88,8 +74,8 @@ const https = require('https');
 
     await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 30000 });
 
-    // Extract the direct CDN link (pattern: apkdone.io + /download)
-    const directLink = await page.evaluate(() => {
+    // Extract the CDN entry point link
+    const entryLink = await page.evaluate(() => {
       const links = Array.from(document.querySelectorAll('a'));
       for (const a of links) {
         const href = a.href;
@@ -101,30 +87,14 @@ const https = require('https');
       return null;
     });
 
-    if (!directLink) {
+    if (!entryLink) {
       throw new Error('No download link found on page');
     }
 
-    console.log(`Found direct link: ${directLink.substring(0, 60)}...`);
+    console.log(`Found entry link: ${entryLink.substring(0, 60)}...`);
 
-    // Direct fetch (no Puppeteer wait)
-    const file = fs.createWriteStream(OUTPUT_FILE);
-    https.get(directLink, (res) => {
-      if (res.statusCode !== 200) {
-        console.error(`HTTP ${res.statusCode}`);
-        process.exit(1);
-      }
-      res.pipe(file);
-      file.on('finish', () => {
-        const size = (fs.statSync(OUTPUT_FILE).size / 1024 / 1024).toFixed(1);
-        console.log(`\nDownloaded → ${OUTPUT_FILE} (${size} MB)`);
-        console.log(`\n🎉 SUCCESS! ${OUTPUT_FILE}`);
-        process.exit(0);
-      });
-    }).on('error', (e) => {
-      console.error('Download failed:', e.message);
-      process.exit(1);
-    });
+    // Follow redirects to real APK
+    downloadWithRedirect(entryLink, OUTPUT_FILE);
 
   } catch (err) {
     console.error('\n❌ Error:', err.message);
@@ -133,3 +103,42 @@ const https = require('https');
     await browser.close();
   }
 })();
+
+// Helper: Download with full redirect following (handles 302)
+function downloadWithRedirect(url, outputFile) {
+  const parsed = new URL(url);
+  const client = parsed.protocol === 'https:' ? https : http;
+
+  const req = client.get(url, { followRedirect: true, maxRedirects: 5 }, (res) => {
+    if (res.statusCode >= 300 && res.statusCode < 400) {
+      console.log(`Redirected to: ${res.headers.location}`);
+      downloadWithRedirect(res.headers.location, outputFile); // Recursive for multi-redirect
+      return;
+    }
+
+    if (res.statusCode !== 200) {
+      console.error(`HTTP ${res.statusCode}: ${res.statusMessage}`);
+      process.exit(1);
+    }
+
+    const file = fs.createWriteStream(outputFile);
+    let total = 0;
+    res.on('data', chunk => total += chunk.length);
+    file.on('finish', () => {
+      const sizeMB = (total / 1024 / 1024).toFixed(1);
+      console.log(`\nDownloaded → ${outputFile} (${sizeMB} MB)`);
+      console.log(`\n🎉 SUCCESS! ${outputFile}`);
+      process.exit(0);
+    });
+    file.on('error', (e) => {
+      console.error('Download failed:', e.message);
+      process.exit(1);
+    });
+    res.pipe(file);
+  });
+
+  req.on('error', (e) => {
+    console.error('Request error:', e.message);
+    process.exit(1);
+  });
+}
