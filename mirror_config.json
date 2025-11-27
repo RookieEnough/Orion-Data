@@ -1,8 +1,15 @@
 [
   {
+    "id": "telegram-example",
+    "name": "Telegram (Direct Example)",
+    "downloadUrl": "https://telegram.org/dl/android/apk",
+    "mode": "direct",
+    "note": "Use 'direct' mode when the link directly triggers a download."
+  },
+  {
     "id": "capcut-premium",
     "name": "CapCut Pro",
-    "downloadUrl": "https://apkdone.com/capcut-mod-apk/",
+    "downloadUrl": "https://apkdone.com/capcut-video-editor/download/",
     "mode": "scrape",
     "wait": 30000,
     "note": "Scraping from APKDone"
