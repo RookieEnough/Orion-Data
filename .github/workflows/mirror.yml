@@ -23,7 +23,7 @@ on:
       wait_time:
         description: 'Wait Time (ms) for Scrape Mode'
         required: false
-        default: '30000'
+        default: '60000'
         type: string
 
 permissions:
@@ -59,6 +59,14 @@ jobs:
           else
              curl -L -A "Mozilla/5.0" -o "$TEMP_APK" "$URL"
           fi
+
+      - name: Upload Debug Screenshots
+        if: always() # Upload even if download fails
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshots
+          path: debug_screenshots/
+          retention-days: 5
 
       - name: Verify & Release
         env:
