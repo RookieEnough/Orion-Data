@@ -15,14 +15,15 @@ def load_apps():
     with open(APPS_FILE, 'r') as f:
         return json.load(f)
 
-def get_latest_release(repo_url):
+def get_all_releases(repo_url):
     # Extract "owner/repo" from full URL if necessary
     if "github.com/" in repo_url:
         repo_slug = repo_url.split("github.com/")[-1].strip("/")
     else:
         repo_slug = repo_url
 
-    api_url = f"https://api.github.com/repos/{repo_slug}/releases/latest"
+    # Fetch ALL releases, not just latest
+    api_url = f"https://api.github.com/repos/{repo_slug}/releases?per_page=100"
     headers = {
         "Accept": "application/vnd.github.v3+json",
         "User-Agent": "Orion-Store-Bot"
@@ -31,16 +32,29 @@ def get_latest_release(repo_url):
         headers["Authorization"] = f"token {GITHUB_TOKEN}"
 
     try:
-        print(f"Fetching: {repo_slug}...")
+        print(f"📦 Fetching ALL releases: {repo_slug}...")
         response = requests.get(api_url, headers=headers)
         if response.status_code == 200:
-            return repo_slug, response.json()
-        elif response.status_code == 404:
-            print(f"  - Release not found for {repo_slug}")
+            releases = response.json()
+            print(f"   ✅ Found {len(releases)} releases")
+            
+            # Debug: Show what we found
+            total_assets = sum(len(release.get('assets', [])) for release in releases)
+            print(f"   📊 Total assets: {total_assets}")
+            
+            # Show unique asset patterns
+            asset_names = []
+            for release in releases:
+                for asset in release.get('assets', []):
+                    asset_names.append(asset.get('name'))
+            
+            print(f"   📁 Sample assets: {asset_names[:5]}...")  # Show first 5
+            
+            return repo_slug, releases
         else:
-            print(f"  - Error {response.status_code}: {response.text}")
+            print(f"   ❌ Error {response.status_code}: {response.text}")
     except Exception as e:
-        print(f"  - Exception: {e}")
+        print(f"   ❌ Exception: {e}")
     
     return repo_slug, None
 
@@ -51,18 +65,31 @@ def main():
     # Use a set to avoid fetching the same repo multiple times
     processed_repos = set()
 
+    # Repositories that we know contain multiple apps
+    MULTI_APP_REPOS = [
+        "RookieEnough/Orion-Data"
+    ]
+
     for app in apps:
         repo = app.get('githubRepo')
         
         # Skip if no repo or already processed
         if not repo or repo in processed_repos:
             continue
-            
-        repo_slug, release_data = get_latest_release(repo)
         
-        if release_data:
-            # We Key the mirror.json by the repo slug (e.g., "RookieEnough/Revanced-Orion")
-            mirror_data[repo_slug] = release_data
+        # For multi-app repos OR if app has releaseKeyword, fetch all releases
+        needs_all_releases = any(multi_repo in repo for multi_repo in MULTI_APP_REPOS)
+        
+        if needs_all_releases:
+            repo_slug, releases_data = get_all_releases(repo)
+        else:
+            # For single-app repos, you could use get_latest_release() here
+            # But let's fetch all for consistency
+            repo_slug, releases_data = get_all_releases(repo)
+        
+        if releases_data:
+            # Store all releases, not just latest
+            mirror_data[repo_slug] = releases_data
             
         processed_repos.add(repo)
 
@@ -70,7 +97,7 @@ def main():
     with open(MIRROR_FILE, 'w') as f:
         json.dump(mirror_data, f, indent=2)
     
-    print(f"\nSuccessfully mirrored {len(mirror_data)} repositories to {MIRROR_FILE}")
+    print(f"\n✅ SUCCESS: Mirrored {len(mirror_data)} repositories to {MIRROR_FILE}")
 
 if __name__ == "__main__":
     main()
