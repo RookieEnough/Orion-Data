@@ -1,7 +1,7 @@
 import json
 import os
-import requests
-import time
+import urllib.request
+import urllib.error
 
 # Configuration
 APPS_JSON_FILE = 'apps.json'
@@ -14,140 +14,147 @@ def get_apps():
     with open(APPS_JSON_FILE, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def normalize_repo(url_or_name):
-    """
-    Normalizes a repo reference to 'user/repo' (lowercase).
-    Handles:
-    - https://github.com/User/Repo -> user/repo
-    - User/Repo -> user/repo
-    - user/repo -> user/repo
-    """
-    if not url_or_name:
-        return None
+def fetch_github_data(repo_input, strategy="list"):
+    # Normalize input
+    clean_repo = repo_input.replace("https://github.com/", "").rstrip("/")
     
-    # Strip protocol and domain
-    clean = url_or_name.replace("https://github.com/", "").replace("http://github.com/", "")
+    # Select Endpoint based on strategy
+    if strategy == "latest":
+        api_url = f"https://api.github.com/repos/{clean_repo}/releases/latest"
+        print(f"Fetching [LATEST]: {clean_repo}...")
+    else:
+        # For multi-app repos, fetch more releases to find all apps
+        api_url = f"https://api.github.com/repos/{clean_repo}/releases?per_page=50"
+        print(f"Fetching [FULL HISTORY]: {clean_repo}...")
     
-    # Remove trailing slashes and whitespace
-    clean = clean.strip().rstrip("/")
+    req = urllib.request.Request(api_url)
     
-    # Lowercase for consistent dictionary keys
-    return clean.lower()
-
-def fetch_github_data(repo_slug, strategy="list"):
-    """
-    Fetches release data from GitHub API.
-    Always returns a LIST of releases.
-    """
+    # Auth
     token = os.environ.get('GITHUB_TOKEN')
-    headers = {
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'OrionStore-MirrorBot'
-    }
     if token:
-        headers['Authorization'] = f'Bearer {token}'
+        req.add_header('Authorization', f'Bearer {token}')
+    
+    # Add User-Agent header to avoid 403 errors
+    req.add_header('User-Agent', 'Mozilla/5.0')
     
     try:
-        if strategy == "latest":
-            print(f"⬇️  Fetching [LATEST] for: {repo_slug}...")
-            url = f"https://api.github.com/repos/{repo_slug}/releases/latest"
-            response = requests.get(url, headers=headers, timeout=15)
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read())
             
-            if response.status_code == 200:
-                # Wrap single object in list
-                return [response.json()]
-            elif response.status_code == 404:
-                print(f"   ⚠️ Repo or Release not found: {repo_slug}")
-                return []
-            else:
-                print(f"   ❌ API Error {response.status_code}: {response.text}")
-                return []
-                
-        else: # strategy == "list" (History)
-            # CRITICAL FIX: per_page=100 ensures we see older releases in shared repos
-            print(f"📚 Fetching [HISTORY - 100 items] for: {repo_slug}...")
-            url = f"https://api.github.com/repos/{repo_slug}/releases?per_page=100"
-            response = requests.get(url, headers=headers, timeout=15)
+            # Normalize to list for consistency in storage
+            if isinstance(data, dict):
+                return clean_repo, [data]
+            return clean_repo, data
             
-            if response.status_code == 200:
-                data = response.json()
-                if isinstance(data, list):
-                    print(f"   ✅ Retrieved {len(data)} releases.")
-                    return data
-                return []
-            else:
-                print(f"   ❌ API Error {response.status_code}: {response.text}")
-                return []
-
+    except urllib.error.HTTPError as e:
+        print(f"Failed to fetch {clean_repo}: {e.code} ({e.reason})")
+        return clean_repo, []
     except Exception as e:
-        print(f"   ❌ Network Error for {repo_slug}: {e}")
-        return []
+        print(f"Error {clean_repo}: {e}")
+        return clean_repo, []
 
-def main():
-    print("--- Starting Deep-Dive Mirror Generator ---")
-    apps = get_apps()
+def analyze_repository_needs(apps):
+    """Analyze which repositories need full history scanning"""
+    repo_analysis = {}
     
-    if not apps:
-        print("No apps found.")
-        return
-
-    # 1. Analyze Apps & Determine Strategy per Repo
-    repo_strategies = {} 
-    repo_display_names = {}
-
-    print(f"🔍 Scanning {len(apps)} apps configuration...")
-
     for app in apps:
-        raw_repo = app.get('githubRepo')
-        if not raw_repo:
+        repo = app.get('githubRepo')
+        if not repo:
             continue
             
-        norm_key = normalize_repo(raw_repo)
+        app_id = app.get('id')
+        keyword = app.get('releaseKeyword', '')
         
-        # Store display name (User/Repo)
-        if norm_key not in repo_display_names:
-            clean_display = raw_repo.replace("https://github.com/", "").replace("http://github.com/", "").strip().rstrip("/")
-            repo_display_names[norm_key] = clean_display
-
-        # Check keyword
-        keyword = app.get('releaseKeyword')
-        has_keyword = bool(keyword and str(keyword).strip())
-
-        # Strategy Logic:
-        # If ANY app in this repo uses a keyword, we must fetch the full LIST (history).
-        # Otherwise, we can just fetch LATEST to save API calls.
-        current_strategy = repo_strategies.get(norm_key, 'latest')
+        if repo not in repo_analysis:
+            repo_analysis[repo] = {
+                'strategy': 'latest',  # default
+                'apps': [],
+                'has_keywords': False
+            }
         
-        if has_keyword:
-            if current_strategy == 'latest' and norm_key in repo_strategies:
-                 print(f"   🔄 Upgrading {norm_key} to HISTORY mode (shared repo needs keyword search)")
-            repo_strategies[norm_key] = 'list'
+        repo_analysis[repo]['apps'].append({
+            'id': app_id,
+            'keyword': keyword
+        })
+        
+        # If any app in this repo has a releaseKeyword, we need full history
+        if keyword and len(keyword.strip()) > 0:
+            repo_analysis[repo]['has_keywords'] = True
+            repo_analysis[repo]['strategy'] = 'list'
+    
+    return repo_analysis
+
+def main():
+    apps = get_apps()
+    
+    # 1. Analyze repository needs
+    repo_analysis = analyze_repository_needs(apps)
+    
+    # 2. Determine final strategy for each repo
+    repo_strategies = {}
+    for repo, analysis in repo_analysis.items():
+        # Use list strategy if any app has keywords OR if multiple apps use the same repo
+        if analysis['has_keywords'] or len(analysis['apps']) > 1:
+            repo_strategies[repo] = 'list'
+            reason = "multiple apps" if len(analysis['apps']) > 1 else "has releaseKeywords"
+            print(f"📦 {repo}: FULL HISTORY scan needed ({reason})")
+            print(f"   Apps in this repo: {[app['id'] for app in analysis['apps']]}")
         else:
-            if norm_key not in repo_strategies:
-                repo_strategies[norm_key] = 'latest'
+            repo_strategies[repo] = 'latest'
+            print(f"📦 {repo}: LATEST release only")
 
-    # 2. Fetch Data
-    mirror_output = {}
-    print(f"\n--- Processing {len(repo_strategies)} unique repositories ---")
-
-    for norm_key, strategy in repo_strategies.items():
-        display_name = repo_display_names[norm_key]
-        data = fetch_github_data(display_name, strategy)
-        
+    # 3. Fetch Data
+    mirror_data = {}
+    for repo, strategy in repo_strategies.items():
+        key, data = fetch_github_data(repo, strategy)
         if data:
-            mirror_output[display_name] = data
-        
-        # Slight delay to be nice to API
-        time.sleep(0.5)
+            mirror_data[key] = data
 
-    # 3. Save
-    print("\n--- Saving Data ---")
-    try:
-        with open(MIRROR_JSON_FILE, 'w', encoding='utf-8') as f:
-            json.dump(mirror_output, f, indent=2)
-        print(f"✅ Successfully wrote {len(mirror_output)} entries to {MIRROR_JSON_FILE}")
-    except Exception as e:
-        print(f"❌ Failed to write file: {e}")
+    # 4. Save Mirror
+    with open(MIRROR_JSON_FILE, 'w', encoding='utf-8') as f:
+        json.dump(mirror_data, f, indent=2)
+    
+    print(f"\n✅ Successfully mirrored {len(mirror_data)} repositories to {MIRROR_JSON_FILE}")
+    
+    # 5. Debug: Show what was found for each app
+    print("\n=== APP DISCOVERY RESULTS ===")
+    
+    for app in apps:
+        repo = app.get('githubRepo')
+        app_id = app.get('id')
+        keyword = app.get('releaseKeyword', '')
+        
+        if not repo or repo not in mirror_data:
+            continue
+            
+        releases = mirror_data[repo]
+        app_found = False
+        
+        for release in releases:
+            for asset in release.get('assets', []):
+                asset_name = asset.get('name', '')
+                
+                # Check if this asset matches the app
+                matches = False
+                if keyword:
+                    # If keyword is specified, check for match
+                    matches = keyword.lower() in asset_name.lower()
+                else:
+                    # If no keyword, this should be the only app in the repo
+                    # or we need a different matching strategy
+                    matches = True  # This might need refinement
+                
+                if matches:
+                    app_found = True
+                    status = "✅" if app_found else "❌"
+                    print(f"{status} {app_id}: Found '{asset_name}' in {repo}")
+                    break
+            
+            if app_found:
+                break
+        
+        if not app_found:
+            print(f"❌ {app_id}: Not found in {repo}")
 
 if __name__ == "__main__":
     main()
