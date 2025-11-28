@@ -1,6 +1,7 @@
 import json
 import os
 import requests
+import time
 
 # Configuration
 APPS_JSON_FILE = 'apps.json'
@@ -36,9 +37,8 @@ def normalize_repo(url_or_name):
 def fetch_github_data(repo_slug, strategy="list"):
     """
     Fetches release data from GitHub API.
-    Always returns a LIST of releases, even if fetching 'latest'.
+    Always returns a LIST of releases.
     """
-    # Authorization
     token = os.environ.get('GITHUB_TOKEN')
     headers = {
         'Accept': 'application/vnd.github.v3+json',
@@ -49,12 +49,12 @@ def fetch_github_data(repo_slug, strategy="list"):
     
     try:
         if strategy == "latest":
-            print(f"⬇️  Fetching [LATEST]: {repo_slug}...")
+            print(f"⬇️  Fetching [LATEST] for: {repo_slug}...")
             url = f"https://api.github.com/repos/{repo_slug}/releases/latest"
             response = requests.get(url, headers=headers, timeout=15)
             
             if response.status_code == 200:
-                # Wrap the single object in a list so frontend always gets an array
+                # Wrap single object in list
                 return [response.json()]
             elif response.status_code == 404:
                 print(f"   ⚠️ Repo or Release not found: {repo_slug}")
@@ -64,14 +64,15 @@ def fetch_github_data(repo_slug, strategy="list"):
                 return []
                 
         else: # strategy == "list" (History)
-            print(f"📚 Fetching [HISTORY]: {repo_slug}...")
-            # Fetch last 10 releases to ensure we find the specific keyword
-            url = f"https://api.github.com/repos/{repo_slug}/releases?per_page=10"
+            # CRITICAL FIX: per_page=100 ensures we see older releases in shared repos
+            print(f"📚 Fetching [HISTORY - 100 items] for: {repo_slug}...")
+            url = f"https://api.github.com/repos/{repo_slug}/releases?per_page=100"
             response = requests.get(url, headers=headers, timeout=15)
             
             if response.status_code == 200:
                 data = response.json()
                 if isinstance(data, list):
+                    print(f"   ✅ Retrieved {len(data)} releases.")
                     return data
                 return []
             else:
@@ -83,7 +84,7 @@ def fetch_github_data(repo_slug, strategy="list"):
         return []
 
 def main():
-    print("--- Starting Robust Mirror Generator ---")
+    print("--- Starting Deep-Dive Mirror Generator ---")
     apps = get_apps()
     
     if not apps:
@@ -91,9 +92,7 @@ def main():
         return
 
     # 1. Analyze Apps & Determine Strategy per Repo
-    # We use a map: normalized_repo_key -> strategy
     repo_strategies = {} 
-    # We also keep a map of original repo names to preserve casing for the output key
     repo_display_names = {}
 
     print(f"🔍 Scanning {len(apps)} apps configuration...")
@@ -103,10 +102,9 @@ def main():
         if not raw_repo:
             continue
             
-        # Normalize: 'https://github.com/User/Repo' -> 'user/repo'
         norm_key = normalize_repo(raw_repo)
         
-        # Store a display version (User/Repo without https://)
+        # Store display name (User/Repo)
         if norm_key not in repo_display_names:
             clean_display = raw_repo.replace("https://github.com/", "").replace("http://github.com/", "").strip().rstrip("/")
             repo_display_names[norm_key] = clean_display
@@ -115,11 +113,9 @@ def main():
         keyword = app.get('releaseKeyword')
         has_keyword = bool(keyword and str(keyword).strip())
 
-        # Logic:
-        # If repo is new, default to 'latest'
-        # If repo exists and already 'list', keep 'list'
-        # If repo exists and is 'latest', but this app has keyword -> upgrade to 'list'
-        
+        # Strategy Logic:
+        # If ANY app in this repo uses a keyword, we must fetch the full LIST (history).
+        # Otherwise, we can just fetch LATEST to save API calls.
         current_strategy = repo_strategies.get(norm_key, 'latest')
         
         if has_keyword:
@@ -130,21 +126,21 @@ def main():
             if norm_key not in repo_strategies:
                 repo_strategies[norm_key] = 'latest'
 
-    # 2. Fetch Data based on determined strategies
+    # 2. Fetch Data
     mirror_output = {}
     print(f"\n--- Processing {len(repo_strategies)} unique repositories ---")
 
     for norm_key, strategy in repo_strategies.items():
-        # Recover a nice display name for the key (e.g. "RookieEnough/Orion-Data")
         display_name = repo_display_names[norm_key]
-        
         data = fetch_github_data(display_name, strategy)
         
         if data:
-            # Always store as the display name (User/Repo)
             mirror_output[display_name] = data
+        
+        # Slight delay to be nice to API
+        time.sleep(0.5)
 
-    # 3. Save to mirror.json
+    # 3. Save
     print("\n--- Saving Data ---")
     try:
         with open(MIRROR_JSON_FILE, 'w', encoding='utf-8') as f:
