@@ -664,6 +664,26 @@
     ]
   },
   {
+    "id": "MiCTS",
+    "name": "MiCTS",
+    "description": "Trigger Circle to Search on any Android 9–15 devicem, without any ROOT.",
+    "icon": "https://vencord.dev/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/parallelcc/MiCTS",
+    "githubRepo": "https://github.com/parallelcc/MiCTS",
+    "releaseKeyword": "MiCTS",
+    "packageName": "com.parallelc.micts",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "parallelcc",
+    "screenshots": [
+      "https://images.indianexpress.com/2024/01/Google-Search-6.jpg"
+    ]
+  },
+  {
     "id": "spicetify",
     "name": "Spicetify",
     "description": "A modded Client of Spotify for PC, Enjoy Ad Free music with  tons of cusmtom themes and plugins.",
