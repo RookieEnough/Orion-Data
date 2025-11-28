@@ -1,7 +1,6 @@
 import json
 import os
-import urllib.request
-import urllib.error
+import requests
 
 # Configuration
 APPS_JSON_FILE = 'apps.json'
@@ -14,90 +13,145 @@ def get_apps():
     with open(APPS_JSON_FILE, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def clean_repo_url(url):
-    """Normalizes 'https://github.com/User/Repo' to 'User/Repo'"""
-    if not url: return None
-    return url.replace("https://github.com/", "").replace("http://github.com/", "").strip().rstrip("/")
+def normalize_repo(url_or_name):
+    """
+    Normalizes a repo reference to 'user/repo' (lowercase).
+    Handles:
+    - https://github.com/User/Repo -> user/repo
+    - User/Repo -> user/repo
+    - user/repo -> user/repo
+    """
+    if not url_or_name:
+        return None
+    
+    # Strip protocol and domain
+    clean = url_or_name.replace("https://github.com/", "").replace("http://github.com/", "")
+    
+    # Remove trailing slashes and whitespace
+    clean = clean.strip().rstrip("/")
+    
+    # Lowercase for consistent dictionary keys
+    return clean.lower()
 
-def fetch_github_data(clean_repo, strategy="list"):
-    # Select Endpoint based on strategy
-    if strategy == "latest":
-        api_url = f"https://api.github.com/repos/{clean_repo}/releases/latest"
-        print(f"⬇️  Fetching [LATEST]: {clean_repo}...")
-    else:
-        # Fetch 20 items to ensure we find older apps sharing the repo
-        api_url = f"https://api.github.com/repos/{clean_repo}/releases?per_page=20"
-        print(f"📚 Fetching [HISTORY]: {clean_repo}...")
-    
-    req = urllib.request.Request(api_url)
-    
-    # Auth (Crucial for rate limits)
+def fetch_github_data(repo_slug, strategy="list"):
+    """
+    Fetches release data from GitHub API.
+    Always returns a LIST of releases, even if fetching 'latest'.
+    """
+    # Authorization
     token = os.environ.get('GITHUB_TOKEN')
+    headers = {
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'OrionStore-MirrorBot'
+    }
     if token:
-        req.add_header('Authorization', f'Bearer {token}')
-        req.add_header('User-Agent', 'OrionStore-MirrorBot')
+        headers['Authorization'] = f'Bearer {token}'
     
     try:
-        with urllib.request.urlopen(req) as response:
-            data = json.loads(response.read())
+        if strategy == "latest":
+            print(f"⬇️  Fetching [LATEST]: {repo_slug}...")
+            url = f"https://api.github.com/repos/{repo_slug}/releases/latest"
+            response = requests.get(url, headers=headers, timeout=15)
             
-            # NORMALIZATION RULE:
-            # If strategy is 'list', data is already [ ... ].
-            # If strategy is 'latest', data is { ... }.
-            # We ALWAYS want to store a List [ ... ] in mirror.json so the frontend 
-            # can consistently iterate over it.
-            if isinstance(data, dict):
-                return [data]
-            return data
+            if response.status_code == 200:
+                # Wrap the single object in a list so frontend always gets an array
+                return [response.json()]
+            elif response.status_code == 404:
+                print(f"   ⚠️ Repo or Release not found: {repo_slug}")
+                return []
+            else:
+                print(f"   ❌ API Error {response.status_code}: {response.text}")
+                return []
+                
+        else: # strategy == "list" (History)
+            print(f"📚 Fetching [HISTORY]: {repo_slug}...")
+            # Fetch last 10 releases to ensure we find the specific keyword
+            url = f"https://api.github.com/repos/{repo_slug}/releases?per_page=10"
+            response = requests.get(url, headers=headers, timeout=15)
             
-    except urllib.error.HTTPError as e:
-        print(f"❌ Failed to fetch {clean_repo}: {e.code} ({e.reason})")
-        return None
+            if response.status_code == 200:
+                data = response.json()
+                if isinstance(data, list):
+                    return data
+                return []
+            else:
+                print(f"   ❌ API Error {response.status_code}: {response.text}")
+                return []
+
     except Exception as e:
-        print(f"❌ Error {clean_repo}: {e}")
-        return None
+        print(f"   ❌ Network Error for {repo_slug}: {e}")
+        return []
 
 def main():
-    print("--- Starting Mirror Generator ---")
+    print("--- Starting Robust Mirror Generator ---")
     apps = get_apps()
     
-    # 1. Determine Strategy per Repo (Standardized)
-    repo_strategies = {} # Key: User/Repo, Value: 'latest' or 'list'
+    if not apps:
+        print("No apps found.")
+        return
 
-    print(f"🔍 Scanning {len(apps)} apps from apps.json...")
+    # 1. Analyze Apps & Determine Strategy per Repo
+    # We use a map: normalized_repo_key -> strategy
+    repo_strategies = {} 
+    # We also keep a map of original repo names to preserve casing for the output key
+    repo_display_names = {}
+
+    print(f"🔍 Scanning {len(apps)} apps configuration...")
 
     for app in apps:
         raw_repo = app.get('githubRepo')
         if not raw_repo:
             continue
             
-        repo = clean_repo_url(raw_repo)
-        keyword = app.get('releaseKeyword')
+        # Normalize: 'https://github.com/User/Repo' -> 'user/repo'
+        norm_key = normalize_repo(raw_repo)
         
-        # Default to latest if not seen yet
-        if repo not in repo_strategies:
-            repo_strategies[repo] = "latest"
-            
-        # If ANY app in this repo has a keyword, force the whole repo to 'list' mode
-        if keyword and str(keyword).strip():
-            if repo_strategies[repo] == "latest":
-                print(f"   -> 🔄 Upgrading {repo} to HISTORY mode (Reason: found keyword '{keyword}')")
-            repo_strategies[repo] = "list"
+        # Store a display version (User/Repo without https://)
+        if norm_key not in repo_display_names:
+            clean_display = raw_repo.replace("https://github.com/", "").replace("http://github.com/", "").strip().rstrip("/")
+            repo_display_names[norm_key] = clean_display
 
-    # 2. Fetch Data
-    mirror_data = {}
-    print("\n--- Fetching Data ---")
-    
-    for repo, strategy in repo_strategies.items():
-        data = fetch_github_data(repo, strategy)
+        # Check keyword
+        keyword = app.get('releaseKeyword')
+        has_keyword = bool(keyword and str(keyword).strip())
+
+        # Logic:
+        # If repo is new, default to 'latest'
+        # If repo exists and already 'list', keep 'list'
+        # If repo exists and is 'latest', but this app has keyword -> upgrade to 'list'
+        
+        current_strategy = repo_strategies.get(norm_key, 'latest')
+        
+        if has_keyword:
+            if current_strategy == 'latest' and norm_key in repo_strategies:
+                 print(f"   🔄 Upgrading {norm_key} to HISTORY mode (shared repo needs keyword search)")
+            repo_strategies[norm_key] = 'list'
+        else:
+            if norm_key not in repo_strategies:
+                repo_strategies[norm_key] = 'latest'
+
+    # 2. Fetch Data based on determined strategies
+    mirror_output = {}
+    print(f"\n--- Processing {len(repo_strategies)} unique repositories ---")
+
+    for norm_key, strategy in repo_strategies.items():
+        # Recover a nice display name for the key (e.g. "RookieEnough/Orion-Data")
+        display_name = repo_display_names[norm_key]
+        
+        data = fetch_github_data(display_name, strategy)
+        
         if data:
-            mirror_data[repo] = data
+            # Always store as the display name (User/Repo)
+            mirror_output[display_name] = data
 
-    # 3. Save Mirror
-    with open(MIRROR_JSON_FILE, 'w', encoding='utf-8') as f:
-        json.dump(mirror_data, f, indent=2)
-    
-    print(f"\n✅ Successfully mirrored {len(mirror_data)} repositories to {MIRROR_JSON_FILE}")
+    # 3. Save to mirror.json
+    print("\n--- Saving Data ---")
+    try:
+        with open(MIRROR_JSON_FILE, 'w', encoding='utf-8') as f:
+            json.dump(mirror_output, f, indent=2)
+        print(f"✅ Successfully wrote {len(mirror_output)} entries to {MIRROR_JSON_FILE}")
+    except Exception as e:
+        print(f"❌ Failed to write file: {e}")
 
 if __name__ == "__main__":
     main()
