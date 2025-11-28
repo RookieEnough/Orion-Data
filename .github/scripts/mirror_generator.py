@@ -1,103 +1,92 @@
 import json
 import os
-import requests
-import sys
+import urllib.request
+import urllib.error
 
 # Configuration
-APPS_FILE = 'apps.json'
-MIRROR_FILE = 'mirror.json'
-GITHUB_TOKEN = os.environ.get('GH_TOKEN')
+APPS_JSON_FILE = 'apps.json'
+MIRROR_JSON_FILE = 'mirror.json'
 
-def load_apps():
-    if not os.path.exists(APPS_FILE):
-        print(f"Error: {APPS_FILE} not found.")
+def get_apps():
+    if not os.path.exists(APPS_JSON_FILE):
+        print(f"Error: {APPS_JSON_FILE} not found.")
         return []
-    with open(APPS_FILE, 'r') as f:
+    with open(APPS_JSON_FILE, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def get_all_releases(repo_url):
-    # Extract "owner/repo" from full URL if necessary
-    if "github.com/" in repo_url:
-        repo_slug = repo_url.split("github.com/")[-1].strip("/")
-    else:
-        repo_slug = repo_url
-
-    # Fetch ALL releases, not just latest
-    api_url = f"https://api.github.com/repos/{repo_slug}/releases?per_page=100"
-    headers = {
-        "Accept": "application/vnd.github.v3+json",
-        "User-Agent": "Orion-Store-Bot"
-    }
-    if GITHUB_TOKEN:
-        headers["Authorization"] = f"token {GITHUB_TOKEN}"
-
-    try:
-        print(f"📦 Fetching ALL releases: {repo_slug}...")
-        response = requests.get(api_url, headers=headers)
-        if response.status_code == 200:
-            releases = response.json()
-            print(f"   ✅ Found {len(releases)} releases")
-            
-            # Debug: Show what we found
-            total_assets = sum(len(release.get('assets', [])) for release in releases)
-            print(f"   📊 Total assets: {total_assets}")
-            
-            # Show unique asset patterns
-            asset_names = []
-            for release in releases:
-                for asset in release.get('assets', []):
-                    asset_names.append(asset.get('name'))
-            
-            print(f"   📁 Sample assets: {asset_names[:5]}...")  # Show first 5
-            
-            return repo_slug, releases
-        else:
-            print(f"   ❌ Error {response.status_code}: {response.text}")
-    except Exception as e:
-        print(f"   ❌ Exception: {e}")
+def fetch_github_data(repo_input, strategy="list"):
+    # Normalize input
+    clean_repo = repo_input.replace("https://github.com/", "").rstrip("/")
     
-    return repo_slug, None
+    # Select Endpoint based on strategy
+    if strategy == "latest":
+        api_url = f"https://api.github.com/repos/{clean_repo}/releases/latest"
+        print(f"Fetching [LATEST]: {clean_repo}...")
+    else:
+        # Default to fetching a list of 20 to catch multiple apps in monorepos
+        api_url = f"https://api.github.com/repos/{clean_repo}/releases?per_page=20"
+        print(f"Fetching [HISTORY]: {clean_repo}...")
+    
+    req = urllib.request.Request(api_url)
+    
+    # Auth
+    token = os.environ.get('GITHUB_TOKEN')
+    if token:
+        req.add_header('Authorization', f'Bearer {token}')
+    
+    try:
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read())
+            
+            # Normalize to list for consistency in storage
+            if isinstance(data, dict):
+                return clean_repo, [data]
+            return clean_repo, data
+            
+    except urllib.error.HTTPError as e:
+        print(f"Failed to fetch {clean_repo}: {e.code} ({e.reason})")
+        return clean_repo, []
+    except Exception as e:
+        print(f"Error {clean_repo}: {e}")
+        return clean_repo, []
 
 def main():
-    apps = load_apps()
-    mirror_data = {}
+    apps = get_apps()
     
-    # Use a set to avoid fetching the same repo multiple times
-    processed_repos = set()
-
-    # Repositories that we know contain multiple apps
-    MULTI_APP_REPOS = [
-        "RookieEnough/Orion-Data"
-    ]
+    # 1. Determine Strategy per Repo
+    # Logic: If ANY app using a repo defines a 'releaseKeyword', we must fetch the list (history)
+    # to find that specific app. If NO app defines a keyword, we assume it's a single-app repo
+    # and we just want the absolute latest release.
+    repo_strategies = {}
 
     for app in apps:
         repo = app.get('githubRepo')
-        
-        # Skip if no repo or already processed
-        if not repo or repo in processed_repos:
+        if not repo:
             continue
-        
-        # For multi-app repos OR if app has releaseKeyword, fetch all releases
-        needs_all_releases = any(multi_repo in repo for multi_repo in MULTI_APP_REPOS)
-        
-        if needs_all_releases:
-            repo_slug, releases_data = get_all_releases(repo)
-        else:
-            # For single-app repos, you could use get_latest_release() here
-            # But let's fetch all for consistency
-            repo_slug, releases_data = get_all_releases(repo)
-        
-        if releases_data:
-            # Store all releases, not just latest
-            mirror_data[repo_slug] = releases_data
             
-        processed_repos.add(repo)
+        keyword = app.get('releaseKeyword')
+        
+        # If we haven't seen this repo, default to 'latest'
+        if repo not in repo_strategies:
+            repo_strategies[repo] = "latest"
+            
+        # If we see a keyword, upgrade this repo to 'list' strategy
+        # This ensures monorepos (like Orion-Data) always get full history scanned
+        if keyword and len(keyword.strip()) > 0:
+            repo_strategies[repo] = "list"
 
-    # Save to mirror.json
-    with open(MIRROR_FILE, 'w') as f:
+    # 2. Fetch Data
+    mirror_data = {}
+    for repo, strategy in repo_strategies.items():
+        key, data = fetch_github_data(repo, strategy)
+        if data:
+            mirror_data[key] = data
+
+    # 3. Save Mirror
+    with open(MIRROR_JSON_FILE, 'w', encoding='utf-8') as f:
         json.dump(mirror_data, f, indent=2)
     
-    print(f"\n✅ SUCCESS: Mirrored {len(mirror_data)} repositories to {MIRROR_FILE}")
+    print(f"Successfully mirrored {len(mirror_data)} repositories to {MIRROR_JSON_FILE}")
 
 if __name__ == "__main__":
     main()
