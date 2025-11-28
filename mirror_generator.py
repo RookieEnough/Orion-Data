@@ -2,12 +2,10 @@ import json
 import os
 import urllib.request
 import urllib.error
-import re
 
 # Configuration
 APPS_JSON_FILE = 'apps.json'
 MIRROR_JSON_FILE = 'mirror.json'
-MANIFEST_FILENAME = 'repo-manifest.json'
 
 def get_apps():
     if not os.path.exists(APPS_JSON_FILE):
@@ -16,152 +14,86 @@ def get_apps():
     with open(APPS_JSON_FILE, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def fetch_url(url):
-    """Generic URL fetcher with error handling"""
-    req = urllib.request.Request(url)
+def fetch_github_releases(repo):
+    """Fetch ALL releases for a repository"""
+    # Normalize repo name
+    clean_repo = repo.replace("https://github.com/", "").rstrip("/")
+    
+    # ALWAYS fetch full history for these repos
+    api_url = f"https://api.github.com/repos/{clean_repo}/releases?per_page=100"
+    print(f"📦 Fetching ALL releases: {clean_repo}...")
+    
+    req = urllib.request.Request(api_url)
+    
+    # Auth
     token = os.environ.get('GITHUB_TOKEN')
     if token:
         req.add_header('Authorization', f'Bearer {token}')
+    
+    # Add User-Agent header
     req.add_header('User-Agent', 'Mozilla/5.0')
     
     try:
         with urllib.request.urlopen(req) as response:
-            return json.loads(response.read())
+            data = json.loads(response.read())
+            print(f"   ✅ Found {len(data)} releases")
+            return clean_repo, data
     except Exception as e:
-        print(f"Failed to fetch {url}: {e}")
-        return None
-
-def fetch_repo_manifest(repo):
-    """Fetch repo-manifest.json from repository"""
-    manifest_url = f"https://raw.githubusercontent.com/{repo}/main/{MANIFEST_FILENAME}"
-    return fetch_url(manifest_url)
-
-def detect_repo_type(repo, releases):
-    """Detect if repo is single-app or multi-app"""
-    # Try to fetch manifest first
-    manifest = fetch_repo_manifest(repo)
-    if manifest and manifest.get('repoType') == 'multi-app':
-        return 'multi-app-with-manifest', manifest
-    
-    # Fallback: analyze release assets
-    unique_apps = set()
-    for release in releases[:5]:  # Check first 5 releases
-        for asset in release.get('assets', []):
-            asset_name = asset.get('name', '').lower()
-            # Simple heuristic: if we see multiple distinct app patterns
-            if 'capcut' in asset_name:
-                unique_apps.add('capcut')
-            if 'mx' in asset_name or 'mx-pro' in asset_name:
-                unique_apps.add('mx-player')
-            if 'revanced' in asset_name:
-                unique_apps.add('revanced')
-    
-    if len(unique_apps) > 1:
-        return 'multi-app-detected', None
-    else:
-        return 'single-app', None
-
-def fetch_github_data(repo):
-    """Fetch all releases for a repository"""
-    api_url = f"https://api.github.com/repos/{repo}/releases?per_page=50"
-    print(f"📦 Fetching: {repo}...")
-    
-    data = fetch_url(api_url)
-    if not data:
-        return repo, []
-    
-    # Detect repository type
-    repo_type, manifest = detect_repo_type(repo, data)
-    print(f"   Type: {repo_type}")
-    
-    # Add metadata to the repository data
-    enhanced_data = {
-        'repo_type': repo_type,
-        'manifest': manifest,
-        'releases': data
-    }
-    
-    return repo, enhanced_data
-
-def find_app_in_releases(app_id, release_keyword, repo_data):
-    """Find an app in repository releases using various strategies"""
-    releases = repo_data.get('releases', [])
-    manifest = repo_data.get('manifest')
-    
-    # Strategy 1: Use manifest if available
-    if manifest:
-        for app_def in manifest.get('apps', []):
-            if app_def.get('id') == app_id:
-                asset_pattern = app_def.get('assetPattern')
-                return find_by_pattern(releases, asset_pattern)
-    
-    # Strategy 2: Use releaseKeyword from apps.json
-    if release_keyword:
-        return find_by_keyword(releases, release_keyword)
-    
-    # Strategy 3: Fallback - use app_id
-    return find_by_keyword(releases, app_id)
-
-def find_by_pattern(releases, pattern):
-    """Find assets matching a pattern"""
-    for release in releases:
-        for asset in release.get('assets', []):
-            asset_name = asset.get('name', '')
-            if fnmatch(asset_name.lower(), pattern.lower()):
-                return asset
-    return None
-
-def find_by_keyword(releases, keyword):
-    """Find assets containing keyword"""
-    for release in releases:
-        for asset in release.get('assets', []):
-            asset_name = asset.get('name', '')
-            if keyword.lower() in asset_name.lower():
-                return asset
-    return None
-
-def fnmatch(name, pattern):
-    """Simple pattern matching (like *.apk)"""
-    pattern = pattern.replace('*', '.*')
-    return re.match(pattern, name, re.IGNORECASE) is not None
+        print(f"   ❌ Failed: {e}")
+        return clean_repo, []
 
 def main():
     apps = get_apps()
     
-    # Group apps by repository
-    repo_apps = {}
+    # List of repositories that need FULL history scanning
+    # Add any multi-app repositories here
+    FULL_HISTORY_REPOS = [
+        "RookieEnough/Orion-Data"
+        # Add more as needed
+    ]
+    
+    # Get unique repositories from apps.json
+    all_repos = set()
     for app in apps:
         repo = app.get('githubRepo')
         if repo:
-            if repo not in repo_apps:
-                repo_apps[repo] = []
-            repo_apps[repo].append(app)
+            all_repos.add(repo)
+    
+    print(f"Found {len(all_repos)} repositories in apps.json")
     
     # Fetch data for each repository
     mirror_data = {}
-    for repo, repo_apps_list in repo_apps.items():
-        key, data = fetch_github_data(repo)
+    for repo in all_repos:
+        # Check if this repo needs full history
+        needs_full_history = any(full_repo in repo for full_repo in FULL_HISTORY_REPOS)
+        
+        if needs_full_history:
+            key, data = fetch_github_releases(repo)
+        else:
+            # For single-app repos, use latest only (optional optimization)
+            key, data = fetch_github_releases(repo)  # Still fetch all for now
+        
         if data:
             mirror_data[key] = data
-    
-    # Save enhanced mirror data
+            
+            # Debug: Show what we found
+            total_assets = sum(len(release.get('assets', [])) for release in data)
+            print(f"   📊 Total assets: {total_assets}")
+            
+            # Show asset names from all releases
+            asset_names = []
+            for release in data:
+                for asset in release.get('assets', []):
+                    asset_names.append(asset.get('name'))
+            
+            print(f"   📁 Assets found: {asset_names}")
+
+    # Save to mirror.json
     with open(MIRROR_JSON_FILE, 'w', encoding='utf-8') as f:
         json.dump(mirror_data, f, indent=2)
     
-    print(f"\n✅ Successfully mirrored {len(mirror_data)} repositories")
-    
-    # Test: Try to find each app
-    print("\n=== APP DISCOVERY ===")
-    for app in apps:
-        repo = app.get('githubRepo')
-        app_id = app.get('id')
-        keyword = app.get('releaseKeyword', '')
-        
-        if repo in mirror_data:
-            asset = find_app_in_releases(app_id, keyword, mirror_data[repo])
-            status = "✅" if asset else "❌"
-            asset_name = asset.get('name', 'Not found') if asset else 'Not found'
-            print(f"{status} {app_id}: {asset_name}")
+    print(f"\n✅ SUCCESS: Mirrored {len(mirror_data)} repositories")
+    print(f"📁 Output: {MIRROR_JSON_FILE}")
 
 if __name__ == "__main__":
     main()
