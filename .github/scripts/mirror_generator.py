@@ -24,8 +24,10 @@ def normalize_repo(repo_input):
     if not repo_input:
         return None
     
-    # Remove the GitHub domain and strip trailing slashes
-    clean_repo = repo_input.replace("https://github.com/", "").rstrip("/")
+    # Remove the GitHub domain, strip trailing slashes, and force lowercase 
+    # for better set matching (GitHub repo names are case-insensitive but 
+    # consistency helps).
+    clean_repo = repo_input.replace("https://github.com/", "").rstrip("/").lower()
     return clean_repo if clean_repo else None
 
 
@@ -72,28 +74,29 @@ def main():
     apps = get_apps()
     unique_repos = set()
 
-    # 1. Identify unique, normalized repos from apps.json (FIXED)
-    # By normalizing here, we prevent duplicate API calls and key inconsistency.
+    # 1. Identify unique, normalized repos from apps.json (CRITICAL FIX HERE)
+    # We must normalize the repo string *before* adding it to the set to ensure 
+    # all apps pointing to the same repo are consolidated under one key.
     for app in apps:
-        if app.get('githubRepo'):
-            repo = app['githubRepo'].strip()
-            if repo:
-                clean_repo = normalize_repo(repo)
-                if clean_repo:
-                    unique_repos.add(clean_repo)
+        repo_raw = app.get('githubRepo')
+        if repo_raw:
+            clean_repo = normalize_repo(repo_raw.strip())
+            if clean_repo:
+                # Add the consistently normalized name to the set
+                unique_repos.add(clean_repo)
 
     print(f"Found {len(unique_repos)} unique repositories to mirror.")
 
     # 2. Fetch Data
     mirror_data = {}
     for repo in unique_repos:
-        # 'repo' here is already the cleaned, normalized name
+        # 'repo' here is already the cleaned, normalized name (e.g., 'rookieenough/orion-data')
         key, data = fetch_latest_releases(repo)
         
-        # CRITICAL FIX: We must check if the fetch succeeded (data is not None), 
-        # but we allow empty lists ([]) because a successful fetch might 
-        # return zero releases. The old 'if data:' failed on empty lists.
+        # Preservation of all methods: We check if the fetch succeeded (data is not None), 
+        # allowing empty lists ([]) for successful fetches with no releases.
         if data is not None:
+            # We use the normalized repo as the key in the mirror data
             mirror_data[key] = data
             print(f"✅ Success: {key}")
         
