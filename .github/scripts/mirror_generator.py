@@ -1,112 +1,93 @@
 import json
+import requests
 import os
-import urllib.request
-import urllib.error
-import time
 
-# Configuration
-APPS_JSON_FILE = 'apps.json'
-MIRROR_JSON_FILE = 'mirror.json'
+# Files are accessed from the project root in the workflow
+APPS_FILE = "apps.json"
+MIRROR_FILE = "mirror.json"
 
-def get_apps():
-    """Reads the applications list from apps.json."""
-    if not os.path.exists(APPS_JSON_FILE):
-        print(f"Error: {APPS_JSON_FILE} not found.")
-        return []
-    with open(APPS_JSON_FILE, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-def fetch_latest_releases(repo_input):
+def get_repos_from_apps():
     """
-    Fetches the latest releases for a given GitHub repository using the GitHub API.
-    
-    Args:
-        repo_input (str): The repository string (e.g., "User/Repo" or "https://github.com/User/Repo").
-        
-    Returns:
-        tuple: (clean_repo, data) where clean_repo is the key for mirror.json,
-               and data is the list of release objects, or None on failure.
+    Parses apps.json to find all GitHub repos we need to mirror.
+    Handles case-insensitive deduplication to prevent double fetching.
     """
-    # Normalize input to handle both "user/repo" and "https://github.com/user/repo"
-    # Removes trailing slashes and the domain if present.
-    clean_repo = repo_input.replace("https://github.com/", "").rstrip("/")
+    repos_map = {} # Stores normalized_key -> original_key
     
-    # URL to fetch the last 10 releases
-    api_url = f"https://api.github.com/repos/{clean_repo}/releases?per_page=10"
+    if os.path.exists(APPS_FILE):
+        try:
+            with open(APPS_FILE, "r", encoding="utf-8") as f:
+                apps = json.load(f)
+                for app in apps:
+                    if app.get("githubRepo"):
+                        # Clean the URL/String
+                        clean = app["githubRepo"]\
+                            .replace("https://github.com/", "")\
+                            .replace("http://github.com/", "")\
+                            .replace("https://www.github.com/", "")\
+                            .strip("/")
+                        
+                        # Use lowercase key for deduplication check
+                        # Store original casing as the value
+                        normalized = clean.lower()
+                        if normalized not in repos_map:
+                            repos_map[normalized] = clean
+                            
+        except Exception as e:
+            print(f"Warning: Could not parse {APPS_FILE}: {e}")
+    else:
+        print(f"Warning: {APPS_FILE} not found.")
     
-    print(f"Fetching releases for: {clean_repo}...")
-    
-    req = urllib.request.Request(api_url)
-    
-    # Use Token if available (injected by GitHub Actions)
-    token = os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN')
-    if token:
-        req.add_header('Authorization', f'Bearer {token}')
-    
-    # User Agent is often required by GitHub API
-    req.add_header('User-Agent', 'OrionStore-MirrorBot')
-    
-    try:
-        with urllib.request.urlopen(req) as response:
-            data = json.loads(response.read())
-        return clean_repo, data
-    except urllib.error.HTTPError as e:
-        print(f"Failed to fetch {clean_repo}: {e.code} {e.reason}")
-        return clean_repo, None
-    except Exception as e:
-        print(f"Error fetching {clean_repo}: {e}")
-        return clean_repo, None
+    # Return the list of original repo names
+    return list(repos_map.values())
 
-def main():
-    apps = get_apps()
-    
-    # V4 CHANGE: Use a dictionary to enforce case-insensitive uniqueness.
-    # The key is the lowercased, normalized repo name. The value is the 
-    # original (preferred) casing/format for the fetch URL and final key.
-    normalized_repos_map = {}
-
-    # 1. Identify unique repos from apps.json (Consolidated/Normalized)
-    for app in apps:
-        repo = app.get('githubRepo')
-        if repo:
-            repo_strip = repo.strip()
-            if repo_strip:
-                # Create a canonical, lowercase, clean key for uniqueness check
-                normalized_key = repo_strip.lower().replace("https://github.com/", "").rstrip("/")
-                
-                # Store the original, clean key (repo_strip) using the normalized key
-                # This ensures we use the correct case for fetching later.
-                if normalized_key not in normalized_repos_map:
-                    normalized_repos_map[normalized_key] = repo_strip
-    
-    # Convert the unique, case-insensitive values back into the set to be processed
-    unique_repos = set(normalized_repos_map.values())
-    
-    print(f"Found {len(unique_repos)} unique repositories to mirror.")
-
-    # 2. Fetch Data
+def generate_mirror():
+    repos = get_repos_from_apps()
     mirror_data = {}
-    for repo in unique_repos:
-        # repo here is the original, preferred, unique-by-casefold string
-        key, data = fetch_latest_releases(repo)
-        
-        # We store the repo name (without https://github.com/) as the key
-        # The data is now a LIST of releases, not just one object
-        if data:
-            mirror_data[key] = data
-            print(f"✅ Success: {key}")
-        
-        # Sleep briefly to be nice to API if running locally without token
-        if not os.environ.get('GH_TOKEN') and not os.environ.get('GITHUB_TOKEN'):
-            time.sleep(1)
+    
+    headers = {}
+    # Use the token from GitHub Actions for higher rate limits
+    if os.environ.get("GH_TOKEN"):
+        headers["Authorization"] = f"Bearer {os.environ.get('GH_TOKEN')}"
+    
+    # GitHub API Best Practice: Always send a User-Agent
+    headers["User-Agent"] = "OrionStore-MirrorBot"
 
-    # 3. Save Mirror
+    print(f"🔍 Found {len(repos)} unique repositories to mirror.")
+
+    for repo in repos:
+        print(f"--------------------------------")
+        print(f"📥 Fetching releases for: {repo}")
+        try:
+            # 1. Fetch up to 100 releases to catch apps that aren't at the very top (Fixes CapCut issue)
+            url = f"https://api.github.com/repos/{repo}/releases?per_page=100"
+            r = requests.get(url, headers=headers)
+            
+            if r.status_code == 200:
+                releases = r.json()
+                
+                # 2. CRITICAL FIX: Save the LIST of releases, not just the first one.
+                # This ensures App.tsx can loop through 100 items to find the correct matching app.
+                mirror_data[repo] = releases
+                
+                print(f"✅ Saved {len(releases)} releases.")
+            elif r.status_code == 404:
+                print(f"❌ Repo not found.")
+            elif r.status_code == 403:
+                print(f"⚠️ Rate limit exceeded.")
+            else:
+                print(f"⚠️ Failed with status: {r.status_code}")
+                
+        except Exception as e:
+            print(f"❌ Error: {e}")
+
+    # Write the new mirror.json
     try:
-        with open(MIRROR_JSON_FILE, 'w', encoding='utf-8') as f:
+        with open(MIRROR_FILE, "w", encoding="utf-8") as f:
             json.dump(mirror_data, f, indent=2)
-        print(f"\nSuccessfully saved mirror data to {MIRROR_JSON_FILE}")
+        print("--------------------------------")
+        print(f"🎉 Success! {MIRROR_FILE} generated.")
     except Exception as e:
-        print(f"Error saving file: {e}")
+        print(f"❌ Error writing file: {e}")
 
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    generate_mirror()
