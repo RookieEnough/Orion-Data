@@ -453,6 +453,31 @@
     ]
   },
   {
+    "id": "proton-vpn",
+    "name": "Proton VPN",
+    "description": "Proton VPN is a popular, privacy-focused VPN service known for its strong security features and the best free plan on the market with unlimited data and no ads.",
+    "icon": "https://img.utdstc.com/icon/00b/6d5/00b6d5cc4c624da15854d93a953c21b1d15ea40bfb4b8a1400e8e1abed363fd2:200",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ProtonVPN",
+    "githubRepo": "ProtonVPN/android-app",
+    "releaseKeyword": "Proton",
+    "packageName": "pl.solidexplorer2",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Proton VPN Team",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/PQbnTpZiohY2n9chAuD7SYFEaKGDoAxL63Xj77tExFRJtbRqcDWXgsldHQ_DZCBjHGby0Cbfr6UKvmLzHwWuKA=h300-rw",
+      "https://play-lh.googleusercontent.com/v10R4eeQfFilf5wAkVxB4D4M_skq4sk0sGbev9vP4S_BNXe2w3xZrwYoSPQM5y1iOw=h300-rw",
+      "https://play-lh.googleusercontent.com/Ol0KDbQf6B9DQ-kzd5z0mpsZC2SPOId4ky6-sSvai3N6c_X5G55G6FBoYYpspC08iOwe=h300-rw",
+      "https://play-lh.googleusercontent.com/WykPGYQGPoeP4xvP5Bql0FJx0wXgOA0EYh2G8hkJqcFMGmRVVTivrKJIvlMb7YbQ7Dtk=h300-rw",
+      "https://play-lh.googleusercontent.com/Z2YGL5HWYj5_JzHlnZuugu8PMagXLBL9Qcgez1DJ0TafPjnBB_vLEODM2A7m9B7-lB9r=h300-rw",
+      "https://play-lh.googleusercontent.com/-eNqwRyKJuO0BwxZOgBWq0ZcKCzFmUa4zD9WdvlRsCrjWrcioFfTcsNc3hNGeoUUY6P1=h300-rw"
+    ]
+  },
+  {
     "id": "strava-revanced",
     "name": "Strava",
     "description": "Subscription features unlocked. Access advanced performance analytics, route planning, and segment leaderboards.",
