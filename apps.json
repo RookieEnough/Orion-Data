@@ -1496,6 +1496,216 @@
     ]
   },
   {
+    "id": "keepassxc",
+    "name": "KeePassXC",
+    "description": "A modern, secure, and open-source password manager. It stores all your passwords in a single encrypted database, secured by a master password or key file, and supports auto-typing.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/KeePassXC.svg/1200px-KeePassXC.svg.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://keepassxc.org/download/",
+    "repoUrl": "https://github.com/keepassxreboot/keepassxc",
+    "githubRepo": "keepassxreboot/keepassxc",
+    "releaseKeyword": "win64",
+    "packageName": "KeePassXC",
+    "category": "Security/Utility",
+    "platform": "PC",
+    "size": "20MB",
+    "author": "KeePassXC Team",
+    "screenshots": [
+      "https://keepassxc.org/static/images/screenshot.png",
+      "https://keepassxc.org/static/images/screenshot_browser.png"
+    ]
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP",
+    "description": "The Free & Open Source Image Editor. It is a powerful, cross-platform tool for high-quality photo manipulation, retouching, original artwork creation, and graphic design elements. The best free alternative to Photoshop.",
+    "icon": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/67/The_GIMP_icon_-_v3.0.svg/1200px-The_GIMP_icon_-_v3.0.svg.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://www.gimp.org/downloads/",
+    "repoUrl": "https://gitlab.gnome.org/GNOME/gimp",
+    "githubRepo": "GNOME/gimp",
+    "releaseKeyword": "win64",
+    "packageName": "GIMP",
+    "category": "Creative/Design",
+    "platform": "PC",
+    "size": "300MB",
+    "author": "The GIMP Team",
+    "screenshots": [
+      "https://www.gimp.org/screenshots/gimp_2_10.png",
+      "https://www.gimp.org/screenshots/gimp-web-page.png"
+    ]
+  },
+  {
+    "id": "qbittorrent",
+    "name": "qBittorrent",
+    "description": "A free, open-source, and cross-platform BitTorrent client. It provides a clean, ad-free interface, integrated torrent search engine, and remote control capabilities, offering a superior and ethical torrenting experience.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://www.qbittorrent.org/download.php",
+    "repoUrl": "https://github.com/qbittorrent/qBittorrent",
+    "githubRepo": "qbittorrent/qBittorrent",
+    "releaseKeyword": "setup",
+    "packageName": "qBittorrent",
+    "category": "Utility/Networking",
+    "platform": "PC",
+    "size": "30MB",
+    "author": "Christophe Dumez",
+    "screenshots": [
+      "https://www.qbittorrent.org/img/qbittorrent_win10.png",
+      "https://www.qbittorrent.org/img/search_engine.png"
+    ]
+  },
+  {
+    "id": "crystaldiskinfo",
+    "name": "CrystalDiskInfo",
+    "description": "An essential open-source utility that monitors and displays the health status (via S.M.A.R.T. data) and temperature of your Hard Drives (HDD), Solid State Drives (SSD), and NVMe drives, helping you anticipate potential drive failures.",
+    "icon": "https://www.fosshub.com/media/img/project/icons/5c114527321e661847c030b6.png",
+    "version": "9.7.2 (Latest)",
+    "latestVersion": "9.7.2",
+    "downloadUrl": "https://crystalmark.info/en/software/crystaldiskinfo/",
+    "repoUrl": "https://github.com/hiyohiyo/crystaldiskinfo",
+    "githubRepo": "hiyohiyo/crystaldiskinfo",
+    "releaseKeyword": "StandardEdition",
+    "packageName": "CrystalDiskInfo",
+    "category": "System Monitoring/Utility",
+    "platform": "PC",
+    "size": "6MB",
+    "author": "hiyohiyo (Crystal Dew World)",
+    "screenshots": [
+      "https://crystalmark.info/images/software/ss-c_disk_info.png",
+      "https://crystalmark.info/images/software/ss-c_disk_info-en.png"
+    ]
+  },
+  {
+    "id": "coretemp",
+    "name": "Core Temp",
+    "description": "A compact, no-fuss program to monitor the temperature of each individual core of your processor (CPU) in real-time. Essential for diagnosing overheating, stability, and overclocking issues. It is freeware and frequently updated.",
+    "icon": "https://images.dwncdn.net/images/t_app-icon-l/p/2d182a54-96db-11e6-8de7-00163ec9f5fa/769180922/12565_4-75280179-logo",
+    "version": "1.19.5 (Latest)",
+    "latestVersion": "1.19.5",
+    "downloadUrl": "https://www.alcpu.com/CoreTemp/",
+    "repoUrl": "",
+    "githubRepo": "",
+    "releaseKeyword": "exe",
+    "packageName": "CoreTemp",
+    "category": "System Monitoring",
+    "platform": "PC",
+    "size": "2MB",
+    "author": "Arthur Liberman (Alcpu)",
+    "screenshots": [
+      "https://www.alcpu.com/CoreTemp/images/screenshot.gif",
+      "https://www.alcpu.com/CoreTemp/images/screenshot_settings.gif"
+    ]
+  },
+  {
+    "id": "shotcut",
+    "name": "Shotcut",
+    "description": "A free, open-source, cross-platform video editor. It supports a vast number of video, audio, and image formats and features a simple, modular interface with no paywalls or watermarks on exports.",
+    "icon": "https://www.shotcut.org/assets/img/media/shotcut-logo-512x512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://www.shotcut.org/download/",
+    "repoUrl": "https://github.com/mltframework/shotcut",
+    "githubRepo": "mltframework/shotcut",
+    "releaseKeyword": "installer",
+    "packageName": "9PLNFFL3P6LR",
+    "category": "Creative/Multimedia",
+    "platform": "PC",
+    "size": "100MB",
+    "author": "Meltytech, LLC",
+    "screenshots": [
+      "https://www.shotcut.org/assets/img/screenshot-v2405.png",
+      "https://www.shotcut.org/assets/img/screenshot-filters.png"
+    ]
+  },
+  {
+    "id": "thunderbird",
+    "name": "Thunderbird",
+    "description": "A free, open-source email, calendar, and contacts application developed by the Mozilla Foundation. It is focused on privacy, security, and giving users maximum control over their communications.",
+    "icon": "https://play-lh.googleusercontent.com/1KXrx11Eau8eZrNQz1irg2XHJZPqxDt2xhj6lGBjS9Kj-2aoGMp-NQw0ejNC3ePBwlQ",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://www.thunderbird.net/en-US/download/",
+    "repoUrl": "https://github.com/thunderbird",
+    "githubRepo": "thunderbird/thunderbird",
+    "releaseKeyword": "setup",
+    "packageName": "Mozilla.Thunderbird",
+    "category": "Productivity/Communications",
+    "platform": "PC",
+    "size": "150MB",
+    "author": "MZLA Technologies Corporation (Mozilla)",
+    "screenshots": [
+      "https://www.thunderbird.net/media/images/thunderbird/thunderbird-desktop.png",
+      "https://www.thunderbird.net/media/images/thunderbird/unified-inbox.png"
+    ]
+  },
+  {
+    "id": "winscp",
+    "name": "WinSCP",
+    "description": "A powerful and free SFTP, FTP, SCP, and S3 client for Windows. It is an essential tool for transferring files securely between a local computer and remote servers, featuring a dual-pane graphical interface.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4f/WinSCP_6_Logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://winscp.net/eng/download.php",
+    "repoUrl": "https://github.com/winscp/winscp",
+    "githubRepo": "winscp/winscp",
+    "releaseKeyword": "setup",
+    "packageName": "WinSCP",
+    "category": "Developer/Utility",
+    "platform": "PC",
+    "size": "10MB",
+    "author": "Martin Prikryl",
+    "screenshots": [
+      "https://winscp.net/eng/docs/screenshots/commander_large.png",
+      "https://winscp.net/eng/docs/screenshots/explorer_large.png"
+    ]
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "description": "A powerful, free, and open-source office suite—the spiritual successor to OpenOffice. It includes Writer (word processor), Calc (spreadsheet), Impress (presentations), and is compatible with Microsoft Office formats.",
+    "icon": "https://img.utdstc.com/icon/bea/1f2/bea1f28465d3238d2241cf384ef2346daca3e5572a5fb92acf2be63ed1480b51:200",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://www.libreoffice.org/download/download-libreoffice/",
+    "repoUrl": "https://www.libreoffice.org/get-help/source-code/",
+    "githubRepo": "LibreOffice/core",
+    "releaseKeyword": "win-x86_64",
+    "packageName": "LibreOffice",
+    "category": "Productivity",
+    "platform": "PC",
+    "size": "350MB",
+    "author": "The Document Foundation",
+    "screenshots": [
+      "https://www.libreoffice.org/assets/Uploads/calc_24.2.png",
+      "https://www.libreoffice.org/assets/Uploads/writer_24.2.png"
+    ]
+  },
+  {
+    "id": "vlc",
+    "name": "VLC Media Player",
+    "description": "The quintessential open-source media player. It plays virtually every multimedia file format imaginable, including DVDs, Audio CDs, VCDs, and various streaming protocols, with zero ads or spyware.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0d/VLC_for_iOS_Icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://www.videolan.org/vlc/",
+    "repoUrl": "https://code.videolan.org/videolan/vlc",
+    "githubRepo": "videolan/vlc",
+    "releaseKeyword": "win64",
+    "packageName": "VideoLAN.VLC",
+    "category": "Multimedia",
+    "platform": "PC",
+    "size": "40MB",
+    "author": "VideoLAN",
+    "screenshots": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/VLC_3.0.21_running_on_Debian_Linux_and_KDE_Plasma_6.png",
+      "https://www.videolan.org/assets/images/vlc-desktop.png"
+    ]
+  },
+  {
     "id": "everything",
     "name": "Everything",
     "description": "A lightning-fast open-source file search utility for Windows that indexes names instantly, unlocking sub-second searches across drives without heavy resource use.",
