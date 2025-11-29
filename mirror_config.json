@@ -14,12 +14,5 @@
     "mode": "scrape",
     "wait": 30000,
     "note": "Scraping from AN1 (ID: 2477)"
-  },
-   {
-    "id": "telegram-example",
-    "name": "Telegram (Direct Example)",
-    "downloadUrl": "https://telegram.org/dl/android/apk",
-    "mode": "direct",
-    "note": "Direct Link fallback"
   }
 ]
