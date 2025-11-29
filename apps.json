@@ -461,7 +461,7 @@
     "latestVersion": "Latest",
     "downloadUrl": "#",
     "repoUrl": "https://github.com/ProtonVPN",
-    "githubRepo": "https://github.com/ProtonVPN/android-app",
+    "githubRepo": "ProtonVPN/android-app",
     "releaseKeyword": "Proton",
     "packageName": "ch.protonvpn.android",
     "category": "Utility",
