@@ -1,0 +1,65 @@
+name: Auto APK Scraper
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      force_download:
+        description: 'Force download even if version matches'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  scrape-and-download:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # This is important for creating releases
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 pygithub
+    
+    - name: Run APK Scraper
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        if [ "${{ github.event.inputs.force_download }}" = "true" ]; then
+          echo "🔄 Running with force download..."
+          python scripts/main.py --auto --force
+        else
+          echo "🔍 Running normal check..."
+          python scripts/main.py --auto
+        fi
+    
+    - name: Debug - List all files
+      run: |
+        echo "📁 Complete directory structure:"
+        find . -type f -name "*.apk" -o -name "*.txt" -o -name "*.html" | head -20
+        echo ""
+        echo "📁 Downloads folder:"
+        ls -la downloads/ 2>/dev/null || echo "No downloads folder found"
+        echo ""
+        echo "📁 Root files:"
+        ls -la
+    
+    - name: Upload downloaded APKs as artifact
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: apk-downloads
+        path: downloads/
+        retention-days: 1

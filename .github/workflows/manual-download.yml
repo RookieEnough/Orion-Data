@@ -1,0 +1,44 @@
+name: Manual APK Download
+
+on:
+  workflow_dispatch:
+    inputs:
+      apk_url:
+        description: 'APK URL from GetModsApk'
+        required: true
+        type: string
+      release_tag:
+        description: 'Release tag name'
+        required: true
+        type: string
+      apk_name:
+        description: 'APK name'
+        required: true
+        type: string
+
+jobs:
+  manual-download:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 pygithub
+    
+    - name: Manual Download
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python scripts/main.py --manual \
+          --url "${{ github.event.inputs.apk_url }}" \
+          --tag "${{ github.event.inputs.release_tag }}" \
+          --name "${{ github.event.inputs.apk_name }}"
