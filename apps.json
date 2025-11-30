@@ -126,6 +126,31 @@
     ]
   },
   {
+    "id": "anilab-mod",
+    "name": "Anilab Mod",
+    "description": "Anilab Mod is a powerful AD FREE anime streaming app offering free access to thousands of subbed and dubbed titles in HD. With a user-friendly interface, daily updates, and offline viewing, it’s every anime lover’s go-to entertainment hub.",
+    "icon": "https://anilabanime.com/wp-content/uploads/2025/05/Anilab-Anime-Streaming-App.webp",
+    "version": "1.1.3",
+    "latestVersion": "1.1.3",
+    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/raw/refs/heads/main/APKs/Anilab.apk",
+    "repoUrl": "https://anilab.io",
+    "githubRepo": "RookieEnough/Orion-Data",
+    "releaseKeyword": "anilab",
+    "packageName": "com.anilab.android",
+    "category": "Entertainment",
+    "platform": "Android",
+    "size": "17.15 MB",
+    "author": "Anilab Team",
+    "screenshots": [
+      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-3-768x1536.webp",
+      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-2-768x1536.webp",
+      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-1-768x1536.webp",
+      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-5-768x1536.webp",
+      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-4.webp"
+    ]
+  },
+  {
+  {
     "id": "reddit-revanced",
     "name": "Reddit ReVanced",
     "description": "Ad-free Reddit client. Removes promoted posts, recommended subreddits, and general clutter for a pure browsing experience.",
