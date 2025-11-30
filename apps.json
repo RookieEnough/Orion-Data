@@ -52,7 +52,7 @@
     ]
   },
   {
-    "id": "tiktok-revanced",
+      "id": "tiktok-revanced",
     "name": "TikTok ReVanced",
     "description": "ReVanced for TikTok offers several enhancements, primarily focused on user experience and bypassing restrictions like Ads Removal, Region Spoofing, Enhanced downloading and More.",
     "icon": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA=w100-h100-rw",
@@ -72,6 +72,32 @@
       "https://image.winudf.com/p/aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9zb05qb3Q1LXFqc3hHaGM3YmpPZG9pVEVMMjU0dXlIcXNKMXlRZEFEZEZxcEpIZWEzZlkyeDFGRXg2XzFJRnQ5TE52UT1oODAw?k=dce879deb0a2743f94866d3d1171f4436930560d&.jpg",
       "https://image.winudf.com/p/aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS93V0FHUmhrUWdfTUsxM1U5SGZZV0dTNkxwMjNiVzZrLU9BV3JiTS1pY2VZR0s5MGNWeEdDN0kzU1dnMTNKU1pxWUtZPWg4MDA?k=2db9a86dfe37e608e5955241f646354a6930560d&.jpg",
       "https://image.winudf.com/p/aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9DWGpCcl9ET19lU3c2TkxkS3QzbjVsNW9rTC00UXZkUnZpWDNsS2RPX1NTSkxrTkVqckR0SjBFSzBEeUxITFBlUlE9aDgwMA?k=21f713ec9ce26e784f8ca51d6b6164926930560d&.jpg"
+    ]
+  },
+  {
+    "id": "netflix-mod",
+    "name": "Netflix Mod",
+    "description": "NetMirror – It is a clone version of Netflix that offers access to premium and exclusive content without ads. It is compatible with phone, TV and PC devices featuring Netflix like interface and all its advanced features, so instead of buying subscription plan, it is time to switch to Net Mirror App to watch Netflix original content library—now for free!",
+    "icon": "https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI=w100-h100-rw",
+    "version": "3.0",
+    "latestVersion": "3.0",
+    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/raw/refs/heads/main/APKs/NetMirrorapp.netmirror.netmirrornewv3.0.apk",
+    "repoUrl": "https://netmirror.app",
+    "githubRepo": "",
+    "releaseKeyword": "",
+    "packageName": "app.netmirror.newtv",
+    "category": "Entertainment",
+    "platform": "Android",
+    "size": "49.31 MB",
+    "author": "Netmirror Team",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Uev9_yBzAAhQJAxF2OH2chJM5ZtldwS2QLZuRna6Sxa-E8_V2DNTvhM1ErtO9Y-EovEW=h300-rw",
+      "https://play-lh.googleusercontent.com/a8-G95-qx-P7UQxguqYrRUYK4bscaHVnvW2EoOUDj95AT-rkYdsOcxxo0IfV56bF3w=h300-rw",
+      "https://play-lh.googleusercontent.com/kgPN0hxOygJ0BvBKO_MppY5ffCxgjVby_4I8qZVOG3ZP1LkZsk6yR6kiACfo1G_jX3FA=h300-rw",
+      "https://play-lh.googleusercontent.com/tSbDVho7SObiNUvIQNPOGo0Q1zdBK65N9GVM-kW9hf8X1LvSz7mD1uu0-rUIaM9NjQ=h300-rw",
+      "https://play-lh.googleusercontent.com/1wjoGWvKBtC0kUNXw4SCM9nfr6pIKJQ5zMm5tBZyTXOJRsuNv_cfrf0PbZ6ly-RUE4Ln=h300-rw",
+      "https://play-lh.googleusercontent.com/Y2aSQSiq9ITRBg7Fsau6DvjE9A4b0Thm_5Tze5Xi0ubwQPwvC1AzSwLfoJngktB8j_ab=h300-rw",
+      "https://play-lh.googleusercontent.com/GsAG3MXiMZivst9Y5nGh0cJvRbVm7tjtf4pQlaB0_Sh0UHh76lyKPd5TkFylLxFa2w=h300-rw"
     ]
   },
   {
