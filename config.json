@@ -3,7 +3,7 @@
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/mirror.json",
   "maintenanceMode": false,
   "maintenanceMessage": "We are currently updating the server. Please check back in 30 minutes.",
-  "announcement": "You can now support the app without spending a single penny. Latest version of Orion introduces ‘Fuel the Code' in the Dev tab!"
+  "announcement": "You can now support the app without spending a single penny. Latest version of Orion introduces Fuel the Code in the Dev tab!"
   "latestStoreVersion": "1.0.2",
   "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.2/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
