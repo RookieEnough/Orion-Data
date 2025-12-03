@@ -202,6 +202,30 @@
     ]
   },
   {
+    "id": "sd-maid-se",
+    "name": "SD Maid SE (System Cleaner)",
+    "description": "SD Maid 2/SE is Android's most thorough cleaning tool. It helps you manage files and apps, remove data from uninstalled apps (CorpseFinder), delete caches (AppCleaner), find duplicate files (Deduplicator), and remove superfluous system files. Optimized for newer Android versions. Open-source and FOSS-friendly.",
+    "icon": "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/icon.png?raw=true",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://play.google.com/store/apps/details?id=eu.darken.sdmse",
+    "githubRepo": "d4rken-org/sdmaid-se",
+    "releaseKeyword": "eu.darken.sdmse",
+    "packageName": "eu.darken.sdmse",
+    "category": "System/File Management",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Darken (Matthias Urhahn)",
+    "screenshots": [
+      "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true",
+      "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true",
+      "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true",
+      "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true",
+      "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true"
+    ]
+  },
+  {
     "id": "twitch-revanced",
     "name": "Twitch ReVanced",
     "description": "Ad-free Twitch experience. Blocks video ads, hides promoted content, and includes BTTV/7TV emote support.",
