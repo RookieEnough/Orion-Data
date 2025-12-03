@@ -286,7 +286,7 @@
   "version": "Latest",
   "latestVersion": "Latest",
   "downloadUrl": "#",
-  "repoUrl": "https://samolego.github.io/Canta/",
+  "repoUrl": "https://github.com/samolego/Canta",
   "githubRepo": "samolego/Canta",
   "releaseKeyword": "app-release",
   "packageName": "io.github.samolego.canta",
@@ -295,10 +295,11 @@
   "size": "Varies",
   "author": "samo_lego",
   "screenshots": [
-    "https://raw.githubusercontent.com/samolego/Canta/master/docs/screenshots/home.png",
-    "https://raw.githubusercontent.com/samolego/Canta/master/docs/screenshots/search.png",
-    "https://raw.githubusercontent.com/samolego/Canta/master/docs/screenshots/uninstall.png",
-    "https://raw.githubusercontent.com/samolego/Canta/master/docs/screenshots/descriptions.png",
+    "https://play-lh.googleusercontent.com/J3g8nRUJJvbEVclnZ6fWus3VkZmGiQPvAz7w3ypdMYLacbyFjlqWEK7xwYh6R-7fiJA=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/sLdtsw-McqcH5tCTzN3iEX_e0u87dnswMfCOCeK_eArJNALNsGQtg09z6xO3CrUc20Cd=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/46XUQvpqnSo8gQbDSIUoolAWg8DBxEBQ98LRUZtzF4rTPk1dEOFrx_Ur1TnZeTNms0Y=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/ORfFrQiiFPWoHAoVeEdt_1ZGSCN_TIi9VXzxJRjI2UcYm3YOgyv3E2oRHpmi5Z-aUeM=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/ZSjobUTNsicFRk1OH5JgTTW4J00YemC_GywxrN92UtqZFPatsy_Ovdk9U5pUREKzkA=w526-h296-rw",
     "https://play-lh.googleusercontent.com/od_xSk03j0AUKI25XqXSbSzDyuQNjuOzPUsjcCNslV_A_FrjJCllqgYKQGyVc1yANA=w526-h296-rw"
   ]
   },
