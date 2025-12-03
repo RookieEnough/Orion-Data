@@ -203,7 +203,7 @@
   },
   {
     "id": "sd-maid-se",
-    "name": "SD Maid SE (System Cleaner)",
+    "name": "SD Maid SE",
     "description": "SD Maid 2/SE is Android's most thorough cleaning tool. It helps you manage files and apps, remove data from uninstalled apps (CorpseFinder), delete caches (AppCleaner), find duplicate files (Deduplicator), and remove superfluous system files. Optimized for newer Android versions. Open-source and FOSS-friendly.",
     "icon": "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/icon.png?raw=true",
     "version": "Latest",
@@ -223,6 +223,128 @@
       "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true",
       "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true",
       "https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true"
+    ]
+  },
+  {
+  "id": "material-files",
+  "name": "Material Files",
+  "description": "An open-source Material Design file manager for Android with features like root access, FTP/SFTP/SMB/WebDAV support, custom themes, and Linux-aware functionality.",
+  "icon": "https://play.google.com/store/apps/details?id=me.zhanghai.android.files&hl=en&gl=US",  
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://f-droid.org/packages/me.zhanghai.android.files/",
+  "githubRepo": "zhanghai/MaterialFiles",
+  "releaseKeyword": "app-release-universal",
+  "packageName": "me.zhanghai.android.files",
+  "category": "System Utilities",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "Hai Zhang",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/8BOrCTZ0KtBMxUnULGlRjLxxxu-lfSjM15_ekDcCGpyizW5c5PhsCFgnjX7pUlgGadM=w1080-h608",
+    "https://play-lh.googleusercontent.com/SpdvkgTNR8JnPhYDuV8Jk4wFS_rI4FxxIMgcQfPP12D8zdbUkzi6L3wzc8VMTDGFhcMo=w1080-h608",
+    "https://play-lh.googleusercontent.com/-Ntp8Kkx8ty9atkJe98BuqJVli34BMiwy6rT1Z0BWYl_n_bwgQW6-CXMDqxvlM7EoA=w1080-h608",
+    "https://play-lh.googleusercontent.com/5U9hI3kzs_QXzimnjQENHe8LVURyez6eFj8pfg2yI0DtTfaM5zmNpdAXed2igEHuYcw=w1080-h608",
+    "https://play-lh.googleusercontent.com/TftlRoYKujFbYKkZhtU-p5gY1l0VFb3ZdLaW0SCkm-3YBO7yniOBDF-RlCpy8LyiQg=w1080-h608",
+    "https://play-lh.googleusercontent.com/TtEB5gQSQzdZ0eY3QJ0QT1uQqP5r280i9p2afsaasYyonVQ42XzG4nMInGdrGlbP2WE=w1080-h608"
+    ]
+  },
+  {
+  "id": "hail",
+  "name": "Hail",
+  "description": "An open-source app to disable / hide / suspend / uninstall Android apps (freeze apps) without root — works with Device Owner, Shizuku, Dhizuku, or Root. Developed by Aistra.",
+  "icon": "https://f-droid.org/repo/com.aistra.hail/en-US/icon_u7CvMjol4AxutWwPnkgLTgF6bDaYPwlp576Xa283b0M=.png",
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://github.com/aistra0528/Hail",
+  "githubRepo": "aistra0528/Hail",
+  "releaseKeyword": "Hail",
+  "packageName": "com.aistra.hail",
+  "category": "System Utilities",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "Aistra",
+  "screenshots": [
+    "https://f-droid.org/repo/com.aistra.hail/en-US/phoneScreenshots/1.png",
+    "https://f-droid.org/repo/com.aistra.hail/en-US/phoneScreenshots/2.png",
+    "https://f-droid.org/repo/com.aistra.hail/en-US/phoneScreenshots/3.png",
+    "https://f-droid.org/repo/com.aistra.hail/en-US/phoneScreenshots/4.png"
+    ]
+  },
+  {
+  "id": "app-manager",
+  "name": "AppManager",
+  "description": "An open-source app, full-featured package manager and viewer for Android",
+  "icon": "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/icon_0Na4ecQZhaD_xCtbJ9rEhuaUfjlqhu70S_-PiBGlIes=.png",
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://github.com/MuntashirAkon/AppManager",
+  "githubRepo": "MuntashirAkon/AppManager",
+  "releaseKeyword": "AppManager",
+  "packageName": "io.github.muntashirakon.AppManager",
+  "category": "Utility",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "MuntashirAkon",
+  "screenshots": [
+    "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/0.png",
+    "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/1.png",
+    "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/2.png",
+    "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/3.png",
+    "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/4.png",
+    "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/5.png"
+    ]
+  },
+  {
+  "id": "antisplit-m",
+  "name": "AntiSplit-M",
+  "description": "An open-source Android app to merge (AntiSplit) split-APKs (APKS / XAPK / APKM) into a regular .APK file.",
+  "icon": "https://img.utdstc.com/icon/e60/5cb/e605cb7a6c1f5f9c07a081e9f778aba8243db4dc81b291bf7c6fa23f5bfbb2c2:100",
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://github.com/AbdurazaaqMohammed/AntiSplit-M",
+  "githubRepo": "AbdurazaaqMohammed/AntiSplit-M",
+  "releaseKeyword": "AntiSplit-M",
+  "packageName": "com.abdurazaaqmohammed.AntiSplit",
+  "category": "Utility",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "Abdurazaaq Mohammed",
+  "screenshots": [
+    "https://img.utdstc.com/screen/c04/b34/c04b3443cd1b55537fd04e7294b65690c649f4757b09b5efbc6ff13e6b3a1d05:200",
+    "https://img.utdstc.com/screen/945/ab9/945ab97e206d798248094a136c5108d8a7223ec3eef432d1a7cb1a544d48c8ab:200",
+    "https://img.utdstc.com/screen/35b/ee2/35bee2367332e39920e7d1aca80af3b9e8aefa964b41d8a00a24c5bd2c0b2d94:200",
+    "https://img.utdstc.com/screen/efb/37b/efb37b9fedc89a8808f2afa60296bf1870c9c095e32e89c8885777b062e4e891:200",
+    "https://img.utdstc.com/screen/879/619/87961946a6ec0f7d259e18184fca043aa8008e78a9e11fbd0ff966f9cc60c606:200"
+    ]
+  },
+  {
+  "id": "obtainium",
+  "name": "Obtainium",
+  "description": "An open-source Android app to install and update apps directly from their release pages (GitHub / F-Droid / etc.), and get update notifications.",
+  "icon": "https://f-droid.org/repo/dev.imranr.obtainium.fdroid/en-US/icon_8o6Dm3kPEr-C-8U1QdRd9B6DrkXPqLJQ7or0KN7ut_4=.png",
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://github.com/ImranR98/Obtainium",
+  "githubRepo": "ImranR98/Obtainium",
+  "releaseKeyword": "fdroid-release",
+  "packageName": "dev.imranr.obtainium",
+  "category": "Utility",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "ImranR98",
+  "screenshots": [
+    "https://f-droid.org/repo/dev.imranr.obtainium.fdroid/en-US/phoneScreenshots/1.png",
+    "https://f-droid.org/repo/dev.imranr.obtainium.fdroid/en-US/phoneScreenshots/2.png",
+    "https://f-droid.org/repo/dev.imranr.obtainium.fdroid/en-US/phoneScreenshots/3.png",
+    "https://f-droid.org/repo/dev.imranr.obtainium.fdroid/en-US/phoneScreenshots/4.png",
+    "https://f-droid.org/repo/dev.imranr.obtainium.fdroid/en-US/phoneScreenshots/5.png",
+    "https://f-droid.org/repo/dev.imranr.obtainium.fdroid/en-US/phoneScreenshots/6.png"
     ]
   },
   {
@@ -325,7 +447,7 @@
     "https://play-lh.googleusercontent.com/ORfFrQiiFPWoHAoVeEdt_1ZGSCN_TIi9VXzxJRjI2UcYm3YOgyv3E2oRHpmi5Z-aUeM=w526-h296-rw",
     "https://play-lh.googleusercontent.com/ZSjobUTNsicFRk1OH5JgTTW4J00YemC_GywxrN92UtqZFPatsy_Ovdk9U5pUREKzkA=w526-h296-rw",
     "https://play-lh.googleusercontent.com/od_xSk03j0AUKI25XqXSbSzDyuQNjuOzPUsjcCNslV_A_FrjJCllqgYKQGyVc1yANA=w526-h296-rw"
-  ]
+    ]
   },
   {
     "id": "lingodeer",
@@ -404,7 +526,114 @@
       "https://image.winudf.com/v2/user/admin/YWRtaW5fMTEuamZpZl8xNzYzNzIwNzE0OTc0/screen-5.webp?fakeurl=1&type=.webp"
     ]
   },
-   {
+  {
+  "id": "adaway",
+  "name": "AdAway",
+  "description": "A free & open-source ad-blocker for Android — blocks ads and trackers by using hosts file or VPN (root or non-root).",
+  "icon": "https://raw.githubusercontent.com/AdAway/AdAway/master/Resources/icon.svg",
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://github.com/AdAway/AdAway",
+  "githubRepo": "AdAway/AdAway",
+  "releaseKeyword": "AdAway",
+  "packageName": "org.adaway",
+  "category": "Utility",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "AdAway contributors",
+  "screenshots": [
+    "https://adaway.org/assets/img/main_screen.jpg",
+    "https://adaway.org/assets/img/host_sources.jpg",
+    "https://adaway.org/assets/img/preferences.jpg",
+    "https://adaway.org/assets/img/update_screen.jpg",
+    "https://adaway.org/assets/img/root_blocker.jpg",
+    "https://adaway.org/assets/img/backup_restore.jpg",
+    "https://adaway.org/assets/img/dns_requests.jpg",
+    "https://adaway.org/assets/img/help_screen.jpg",
+    "https://adaway.org/assets/img/support_screen.jpg",
+    "https://adaway.org/assets/img/changelog_screen.jpg"
+    ]
+ },
+ {
+  "id": "pairdrop",
+  "name": "PairDrop",
+  "description": "Open-source cross-platform file-sharing app (web-based) — lets you transfer files, images, documents or text between devices over LAN or internet, without signup or setup. Inspired by AirDrop / Snapdrop.",  
+  "icon": "https://github.com/schlagmichdoch/PairDrop/blob/master/public/images/logo_blue_512x512.png",  
+  "version": "Latest",  
+  "latestVersion": "Latest",  
+  "downloadUrl": "#",  
+  "repoUrl": "https://github.com/schlagmichdoch/PairDrop",  
+  "githubRepo": "schlagmichdoch/PairDrop",  
+  "releaseKeyword": "PairDrop",  
+  "packageName": "",  
+  "category": "Utility",  
+  "platform": "Web / Android / iOS",  
+  "size": "Varies",  
+  "author": "schlagmichdoch",  
+  "screenshots": [
+    "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_1.png",
+    "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_2.png",
+    "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_3.png",
+    "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_4.png",
+    "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_5.png",
+    "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_6.png",
+    "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_7.png",
+    "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_8.png"
+   ] 
+ },
+  {
+  "id": "seal",
+  "name": "Seal",
+  "description": "Video/Audio Downloader for Android — uses yt-dlp under the hood to download media from supported platforms; supports playlist downloads, metadata embedding, subtitles, custom commands, and a Material-You UI.",
+  "icon": "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/icon.png",
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://github.com/JunkFood02/Seal",
+  "githubRepo": "JunkFood02/Seal",
+  "releaseKeyword": "Seal",
+  "packageName": "com.junkfood.seal",
+  "category": "Utility",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "JunkFood02",
+  "screenshots": [
+    "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+    "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+    "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+    "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+    "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+    "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
+    "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
+    "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg",
+    "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/9.jpg"
+  ]
+},
+  {
+  "id": "cloudstream",
+  "name": "CloudStream",
+  "description": "Open‑source Android app for streaming and downloading media (movies, TV shows, anime) — requires installing extensions / repositories to fetch sources.",  
+  "icon": "https://static.miraheze.org/cloudstreamwiki/4/48/CloudStream_logo_-_favicon.png",  
+  "version": "Latest",  
+  "latestVersion": "Latest",  
+  "downloadUrl": "#",  
+  "repoUrl": "https://github.com/recloudstream/cloudstream",  
+  "githubRepo": "recloudstream/cloudstream",  
+  "releaseKeyword": ".apk",  
+  "packageName": "com.lagradost.cloudstream3",  
+  "category": "Video/Streaming",  
+  "platform": "Android",  
+  "size": "Varies",  
+  "author": "recloudstream",  
+  "screenshots": [
+    "https://cloudstream-apk.com/wp-content/uploads/2025/02/Choose-Favorite-Content-461x1024.webp",
+    "https://cloudstream-apk.com/wp-content/uploads/2025/02/Select-App-Language-461x1024.webp",
+    "https://cloudstream-apk.com/wp-content/uploads/2025/02/Click-Play-and-Watch-461x1024.webp",
+    "https://cloudstream-apk.com/wp-content/uploads/2025/02/Select-Preferred-Media-Type-461x1024.webp"
+  ]
+},
+ {
     "id": "bilibili-mod",
     "name": "Bilibili Mod",
     "description": "Unlocked Bilibili client. Removes ads, unlocks region restrictions, and enables 4K playback.",
