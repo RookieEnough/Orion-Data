@@ -323,6 +323,33 @@
     ]
   },
   {
+  "id": "myfitnesspal",
+  "name": "MyFitnessPal Pro",
+  "description": "Myfitnesspal makes diet, exercise, and weight loss easy. Never before has progress monitoring been so powerful. Start your health and fitness adventure today! A revolutionary all-in-one health and wellness companion.",
+  "icon": "https://play-lh.googleusercontent.com/DtR_W1lA1tKsbrr2DUo3TLNzqi9qRyxPqDuCyJeGLU6OMJKqg7CEqs45btRqvDFNDI3Y",
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://www.myfitnesspal.com/",
+  "githubRepo": "RookieEnough/Orion-Data",
+  "releaseKeyword": "myfitnesspa",
+  "packageName": "com.abdurazaaqmohammed.AntiSplit",
+  "category": "Health",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "MyFitnessPal,Inc.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/YWOaaJBYhxv9ts9KMYHQ-Lcn_f-vnjrbt3lu1KD_8O73ANJ4YWqTr1lWvHpcaySp-_kaMYHKvNat1d7hMrkCqXc=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/XymsMSswcAp4b3Ep9OsKDP4ASL7-fk9ZruGWT67BaRfQrcgDRUkWSQ9kDuQdakoP7jet2jY1Ca4jwFPBmXNWMQ=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/KwIh-GpgyjTWh4oSxk14Yg4qjQJfPjnfkiWV8q1zY5W3-UfMXUHwXWMvFLRGHCw-i45gAAVUyitm8cxCOs-tjw=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/Xn_oVtISBU0uG0QxZIXT-ndtg8MxRzcOUzhsWYSyLdAYHTTRKITYFm_-HzySVV4h3KuBv1ZTwM2sHTKkH1Xtqg=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/JOfWY7ymXW0UExS7u2GX8EPnaNWhBrMbkUIWVDysjt8iPAsqXJ_hRP6tzrRRUEEnkSn9uCWOfX-Bq-wJFIn_=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/LI4roZymBeB29oJhgMRqJXQR3yzr5VIRfOyKEnhtz2MaJhdPPwUfg5S9P57j_ucKkhnzWfKOJFLhXYyNRBAe9og=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/_dSBzts54P6j3wAOcBSGg-yzqLYZPeTeH7judLf6Yf0WQj3gLZYBHZXb8xqlRbVzOJW6GK6HSCP0EQapYogx84g=w526-h296-rw",
+    "https://play-lh.googleusercontent.com/f6P1kOz_teLK1ARNZJYYGijWuNROWHoD5Fixutw33kxv5eJ24XV-OYPnb76gXbWCnOV5vl13RR6JaemSU_J3dlM=w526-h296-rw"
+    ]
+  },
+  {
   "id": "obtainium",
   "name": "Obtainium",
   "description": "An open-source Android app to install and update apps directly from their release pages (GitHub / F-Droid / etc.), and get update notifications.",
