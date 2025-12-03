@@ -373,7 +373,9 @@
   {
     "id": "mx-pro",
     "name": "MX Player Pro",
-    "description": "Powerful video player with hardware acceleration and no ads, All Pro features unlocked: HW+ decoder, kids lock, subtitles, everything. So download MX Player Pro Mod APK and enjoy premium for free",
+    "descrip
+    "icon": "https://play-lh.googleusercontent.com/e_rNLzyR9i3wwy8BwEsIS4uz0fFu29p5RoXoNZt2L0Ef7cJ2QhAcw1x_K51A19HpzQ=w240-h480-rw",
+    "versio download MX Player Pro Mod APK and enjoy premium for free",
     "icon": "https://play-lh.googleusercontent.com/e_rNLzyR9i3wwy8BwEsIS4uz0fFu29p5RoXoNZt2L0Ef7cJ2QhAcw1x_K51A19HpzQ=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -396,6 +398,31 @@
       "https://play-lh.googleusercontent.com/-JoYoBC1W5GvuFELCZJTDxe6co02PL3bTAUipUzJDXTxmtzwIDiZOhorZbzIObZBsGd_=h300-rw",
       "https://play-lh.googleusercontent.com/2eBycm79jchbZnhp6rYPyZ4JakHucUy6XlsG__MQtKJ5VSVQ4RBZrKtcVVoSUvXE9x4=h300-rw",
       "https://play-lh.googleusercontent.com/6WJeu6egIicIg91Vo0D8mUYkGsQtbdYpD2MBMtbgAL4lVAIqrG3fGFZfOxKZf-Fj5Wk=h300-rw"
+    ]
+  },
+  {
+    "id": "web-video-caster",
+    "name": "Web Video Caster Pro",
+    "description": "Web Video Caster Pro allows you to watch on your TV videos from your favorite websites including movies, TV shows, live streams of news, sports. It also lets you cast local videos stored on your phone. Photos and audio files are also supported. Subtitles are detected on the web.",
+    "icon": "https://play-lh.googleusercontent.com/4xUYWX2Z6LhCeyxjxfPl4d9v8DNGXiXJvR4gHcgTR3YCVoarhhGdfroTp1QvYI8pIQ=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://play.google.com/store/apps/details?id=com.instantbits.cast.webvideo&hl=en&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dweb+view+cast+app&pcampaignid=APPU_1_NEcwac2oFeOXseMPlsebkAY",
+    "githubRepo": "RookieEnough/Orion-Data",
+    "releaseKeyword": "web-view-cast",
+    "packageName": "com.instantbits.cast.webvideo",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "WebView Team",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/qjp-q8GtWtc0EAekT3oFfKa8a3ebhb0zVz9JPHpmSMXm0OpuIa3oRFdBkyLbQXKSUQNW=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/7w3i2TVMEK_A-1doDPoCbUzElacSoZrm0hBwDHK7eaBn7-fa822atMJUuCf0CIMEKOlP=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/wlZ19BYpAS2FqhvYl5_cK7xfuSaSFBWNOhlcOb4wMK0xw-cTDdpoutYBjrs7wdVdZQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/-nboj5g1JCJayf7dTrVSimkGh22NdS0RGEFOLtBL9Sbp3-si6bGEnjKTHvXZ5Osopw8=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/nYOhVCiaEKHFoa2-6iuTXD7NGCzwnZPEkuTkc9G3_vjjeYas_wwa_JymWeK0s1kvdg=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/o31qxLmgfJ4UIN49qo7Au-gWFKTHxcvmXp-nVMo-1LM_D7j_6N31n8DDc6uIXo1Cpso=w1052-h592-rw"
     ]
   },
   {
