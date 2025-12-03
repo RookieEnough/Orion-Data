@@ -279,6 +279,30 @@
     ]
   },
   {
+  "id": "canta-debloater",
+  "name": "Canta",
+  "description": "Uninstall any app (including pre-installed bloatware) without root by using Shizuku. Integrates community-powered recommendations (Universal Debloat List).",
+  "icon": "https://raw.githubusercontent.com/samolego/Canta/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://samolego.github.io/Canta/",
+  "githubRepo": "samolego/Canta",
+  "releaseKeyword": "app-release",
+  "packageName": "io.github.samolego.canta",
+  "category": "System",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "samo_lego",
+  "screenshots": [
+    "https://raw.githubusercontent.com/samolego/Canta/master/docs/screenshots/home.png",
+    "https://raw.githubusercontent.com/samolego/Canta/master/docs/screenshots/search.png",
+    "https://raw.githubusercontent.com/samolego/Canta/master/docs/screenshots/uninstall.png",
+    "https://raw.githubusercontent.com/samolego/Canta/master/docs/screenshots/descriptions.png",
+    "https://play-lh.googleusercontent.com/od_xSk03j0AUKI25XqXSbSzDyuQNjuOzPUsjcCNslV_A_FrjJCllqgYKQGyVc1yANA=w526-h296-rw"
+  ]
+  },
+  {
     "id": "lingodeer",
     "name": "Lingodeer Pro",
     "description": "Lingodeer Mod unlocks lifetime Plus membership for free, giving you unlimited hearts and lives, full offline access to all premium courses in 14+ Asian and European languages, instant removal of all ads, exclusive hidden story modes and travel phrasebooks that even paid users can’t access, plus built-in AI conversation practice with real-time pronunciation scoring — everything 100% unlocked and updated in one safe APK.",
