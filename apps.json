@@ -104,7 +104,7 @@
     "id": "google-photos-revanced",
     "name": "Photos ReVanced",
     "description": "Unlimited Cloud Storage patch for Google Photos. Backup your memories in original quality without using your storage quota (Pixel spoof).",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Photos_icon_%282020%29.svg/2048px-Google_Photos_icon_%282020%29.svg.png",
+    "icon": "https://play-lh.googleusercontent.com/y1yV7oGqfPvaEiA2-wGxj54g6pznm_dkWOISrn_ZuamPO-EsSwJpePLX1eHkDpEyrhk=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -229,7 +229,7 @@
   "id": "material-files",
   "name": "Material Files",
   "description": "An open-source Material Design file manager for Android with features like root access, FTP/SFTP/SMB/WebDAV support, custom themes, and Linux-aware functionality.",
-  "icon": "https://play.google.com/store/apps/details?id=me.zhanghai.android.files&hl=en&gl=US",  
+  "icon": "  https://play-lh.googleusercontent.com/vTV4Hpx3fZYmmQwdjXJgJHNx6O8iIvdwUEPWn8DaoG5Zs1enM06U2cekclkQiAdAbl59=w480-h960-rw",
   "version": "Latest",
   "latestVersion": "Latest",
   "downloadUrl": "#",
@@ -881,6 +881,31 @@
       "https://play-lh.googleusercontent.com/WykPGYQGPoeP4xvP5Bql0FJx0wXgOA0EYh2G8hkJqcFMGmRVVTivrKJIvlMb7YbQ7Dtk=h300-rw",
       "https://play-lh.googleusercontent.com/Z2YGL5HWYj5_JzHlnZuugu8PMagXLBL9Qcgez1DJ0TafPjnBB_vLEODM2A7m9B7-lB9r=h300-rw",
       "https://play-lh.googleusercontent.com/-eNqwRyKJuO0BwxZOgBWq0ZcKCzFmUa4zD9WdvlRsCrjWrcioFfTcsNc3hNGeoUUY6P1=h300-rw"
+    ]
+  },
+  {
+    "id": "nobook",
+    "name": "Nobook",
+    "description": "Nobook is an Open Source and a lightweight Android application to browse facebook.",
+    "icon": "https://github.com/ycngmn/Nobook/blob/main/images/nobook_github_cover.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ycngmn/Nobook",
+    "githubRepo": "ycngmn/Nobook",
+    "releaseKeyword": "Nobook",
+    "packageName": "com.ycngmn.nobook",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ycngmn",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/yfiXt48YfBfnt45hyfmxfjV613lD585vPJ_TdwP_Hck3cFBiQagjuvoOHFKR6rLKnsQx=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/h6zg_mYF-1pgrSrxIdrv_vWMebDm0e9QgEoa17Qd228EcKcuQgV0w4mLqTC5EiMJWjA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/iG_p-t3VdgyJQOEFxztSRbN2RBsXcCW5_JvCIB6PT3ZJPQOCk1RfL_TakS6-QaskSA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/M5i3lorVh50L4r32c9B0g0Uv_NSUBG2aS5ozzMz9OAeH-pD2cBtAhryw-D7btWwc1w8=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/xaR3KnO15NBYTZ0rcARHmyl4kRRuxxi-qRMs-qGoU2FbaCC4FTpqwFmB82AxgTYJubU=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/OKQgD9n84BhbrpNdOCchITkZQk-9ns4drZxi0bxlJJLzhnoKMbve_wet62Ksn1LQsg=w1052-h592-rw"
     ]
   },
   {
