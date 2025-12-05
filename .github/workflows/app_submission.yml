@@ -1,0 +1,118 @@
+
+name: Process App Submission
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  process-submission:
+    # Only run if the issue title implies a submission AND the label is 'approved'
+    if: startsWith(github.event.issue.title, 'App Submission') && github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Process Issue Body
+        id: process
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          # Create a script to parse the JSON
+          cat << 'EOF' > process.js
+          const fs = require('fs');
+          const issueBody = process.env.ISSUE_BODY;
+          
+          try {
+            // Extract JSON content between ```json and ```
+            const match = issueBody.match(/```json([\s\S]*?)```/);
+            if (!match) throw new Error("No JSON code block found in issue.");
+            
+            const newApps = JSON.parse(match[1].trim());
+            if (!Array.isArray(newApps)) throw new Error("JSON is not an array.");
+            
+            console.log(`Found ${newApps.length} new apps.`);
+            
+            // Read existing apps.json
+            const currentApps = JSON.parse(fs.readFileSync('apps.json', 'utf8'));
+            let addedCount = 0;
+            
+            newApps.forEach(app => {
+               // Check duplicates by repo URL or ID
+               const exists = currentApps.some(a => 
+                   (a.githubRepo && a.githubRepo.toLowerCase() === app.githubRepo.toLowerCase()) || 
+                   a.id === app.id
+               );
+               
+               if (!exists) {
+                   // Ensure critical fields match the store schema
+                   const cleanApp = {
+                       id: app.id,
+                       name: app.name,
+                       description: app.description || "No description provided",
+                       icon: app.icon || "default",
+                       version: "Latest",
+                       latestVersion: "Latest",
+                       downloadUrl: "#", // Auto-fetch handled by app frontend
+                       repoUrl: app.repoUrl,
+                       githubRepo: app.githubRepo,
+                       packageName: app.packageName,
+                       category: app.category || 'Utility',
+                       platform: app.platform || 'Android',
+                       size: "Varies",
+                       author: app.author || "Unknown",
+                       screenshots: app.screenshots || []
+                   };
+                   
+                   // Add releaseKeyword if provided
+                   if(app.releaseKeyword) cleanApp.releaseKeyword = app.releaseKeyword;
+                   
+                   currentApps.push(cleanApp);
+                   addedCount++;
+               }
+            });
+            
+            if (addedCount > 0) {
+               fs.writeFileSync('apps.json', JSON.stringify(currentApps, null, 2));
+               console.log(`Successfully added ${addedCount} unique apps.`);
+            } else {
+               console.log("No new unique apps found.");
+            }
+            
+          } catch (e) {
+            console.error("Error processing:", e.message);
+            process.exit(1);
+          }
+          EOF
+          
+          # Run the script
+          node process.js
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "Orion Bot"
+          git config --global user.email "bot@orion.store"
+          
+          if git diff --quiet apps.json; then
+            echo "No changes to commit."
+          else
+            git add apps.json
+            git commit -m "feat: Add approved apps from Issue #${{ github.event.issue.number }}"
+            git push
+          fi
+
+      - name: Close Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} --comment "✅ Submission Approved! The apps have been added to the store."
