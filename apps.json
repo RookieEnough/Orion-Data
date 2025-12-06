@@ -2735,5 +2735,28 @@
       "https://play-lh.googleusercontent.com/EJJpZQ0I8gG6JfBMnR_hPfdKYGhPW7zjH7hyuDGS5dEeh1SYs4-a1otltC3o7EsjSUM=w526-h296-rw",
       "https://play-lh.googleusercontent.com/DVuasFX5rY2dOx2ZplyllFRVNqJwhnlBFkWIg-6EIeRMZteVTMIhzZ25NcwjGI6kX0o=w526-h296-rw"
     ]
+  },
+  {
+    "id": "mihon",
+    "name": "Mihon",
+    "description": "Discover and read manga, webtoons, comics, and more – easier than ever on your Android device.",
+    "icon": "https://github.com/mihonapp/mihon/raw/main/.github/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mihonapp/mihon",
+    "githubRepo": "mihonapp/mihon",
+    "packageName": "app.mihon",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mihonapp",
+    "screenshots": [
+      "https://f-droid.org/repo/com.amanoteam.kahon/en-US/phoneScreenshots/1.jpg",
+      "https://f-droid.org/repo/com.amanoteam.kahon/en-US/phoneScreenshots/2.jpg",
+      "https://f-droid.org/repo/com.amanoteam.kahon/en-US/phoneScreenshots/3.jpg",
+      "https://f-droid.org/repo/com.amanoteam.kahon/en-US/phoneScreenshots/4.jpg"
+    ],
+    "releaseKeyword": "Mihon"
   }
 ]
