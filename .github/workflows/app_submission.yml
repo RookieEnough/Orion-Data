@@ -46,6 +46,7 @@ jobs:
             // Read existing apps.json
             const currentApps = JSON.parse(fs.readFileSync('apps.json', 'utf8'));
             let addedCount = 0;
+            let addedNames = [];
             
             newApps.forEach(app => {
                // Check duplicates by repo URL or ID
@@ -79,14 +80,18 @@ jobs:
                    
                    currentApps.push(cleanApp);
                    addedCount++;
+                   addedNames.push(app.name);
                }
             });
             
             if (addedCount > 0) {
                fs.writeFileSync('apps.json', JSON.stringify(currentApps, null, 2));
                console.log(`Successfully added ${addedCount} unique apps.`);
+               // Pass names to output for Discord step
+               fs.writeFileSync('added_apps.txt', addedNames.join(', '));
             } else {
                console.log("No new unique apps found.");
+               fs.writeFileSync('added_apps.txt', '');
             }
             
           } catch (e) {
@@ -116,3 +121,42 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue close ${{ github.event.issue.number }} --comment "✅ Submission Approved! The apps have been added to the store."
+
+      - name: Notify Discord of Success
+        uses: actions/github-script@v7
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        with:
+          script: |
+            const fs = require('fs');
+            const webhookUrl = process.env.DISCORD_WEBHOOK;
+            if (!webhookUrl) return;
+
+            let addedApps = "Unknown";
+            try { addedApps = fs.readFileSync('added_apps.txt', 'utf8'); } catch(e) {}
+
+            if (!addedApps) return; // Nothing added, don't notify success
+
+            const payload = {
+              username: "Orion Store Bot",
+              avatar_url: "https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/assets/orion_logo_512.png",
+              embeds: [
+                {
+                  title: `✅ Apps Successfully Added`,
+                  description: `The following apps are now live in the store:\n**${addedApps}**`,
+                  color: 5763719, // #57F287 (Green)
+                  url: process.env.ISSUE_URL,
+                  footer: {
+                    text: "Orion Store Automation"
+                  },
+                  timestamp: new Date().toISOString()
+                }
+              ]
+            };
+
+            await fetch(webhookUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            });
