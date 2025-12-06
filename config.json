@@ -3,9 +3,9 @@
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/mirror.json",
   "maintenanceMode": false,
   "maintenanceMessage": "We are currently updating the server. Please check back in 30 minutes.",
-  "announcement": "Thanks to everyone who continues to fuel the code! I’m working on a big update, so it might take a little time, but it’ll be released soon. Keep fueling the code, pal!",
+  "announcement": "Native download tracking, smart install detection, App Request, and a new Fuel the Code RPG! We stripped the fake stats for a cleaner interface and polished the core infrastructure.",
   "latestStoreVersion": "1.0.3",
-  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.3/app-release.apk",
+  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.4/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "socials": {
