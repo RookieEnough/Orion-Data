@@ -2688,5 +2688,30 @@
       "https://play-lh.googleusercontent.com/4V7sji-r66vhamsNv9Tie2YONvOgC5Ag_EqZLS6GTl_7tk3DfTbXntHAE1rRPdvDZck2=w526-h296-rw"
     ],
     "releaseKeyword": "phone"
+  },
+  {
+    "id": "ml.docilealligator.infinityforreddit",
+    "name": "Infinity",
+    "description": "Unofficial client or tool from Docile-Alligator",
+    "icon": "https://github.com/Docile-Alligator.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Docile-Alligator/Infinity-For-Reddit",
+    "githubRepo": "Docile-Alligator/Infinity-For-Reddit",
+    "packageName": "ml.docilealligator.infinityforreddit",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Docile-Alligator",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
+    ]
   }
 ]
