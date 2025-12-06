@@ -2661,5 +2661,32 @@
       "https://cdn.aptoide.com/imgs/c/4/3/c432544e017bab2d15c1a953136fb312_screen.png?w=102"
     ],
     "releaseKeyword": "another-widget"
+  },
+  {
+    "id": "phone",
+    "name": "Phone",
+    "description": "A handy phone call manager with phonebook, number blocking and multi-SIM support.",
+    "icon": "https://github.com/FossifyOrg/Phone/raw/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Phone",
+    "githubRepo": "FossifyOrg/Phone",
+    "packageName": "org.fossify.phone",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/nbK3Ou1vucUJpy2kM3V8WUByWPKGokTwJ5uGu__bvoV7hFafvZwGHC7v0v3Q4hSS2-78=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/2jSn8PjJYvQloYocz0XcL525Ncn3ZtjvIEBJUSjbqacKuyTqj7M9AwdSVq0SxKHAjNU=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/vNwx6nv5wHPnGR0C97BRAei2buS3LzvwW13njmkQLEO3WO-0yiqkmlJrKZ73gu9BcA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/dx95egUy78_z5dFUXC09oGQVtgzPIxfNTAWTAMPqPvKs4rMHMdwdADBe1yJMT0v1Ozs=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/Q7vcGyElfWtrvHYjBv6aUpNNHn-IB6YmB_BOeH2Kl-rqtvaXHsZJGKQkacqO4FakFJUb=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/BwcTu9ZA-zR1jbMyrYEjMAXVbyPp_XYLffhZBcWhA4wwCLQjBxH6S2Q99lN0clw1jYut=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/d2oj4eRd7MNgX7O5WOvQXaej7pQdJLI4afIT1znEIYLwlMFkXkDlQzRDavAJdYeleg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/4V7sji-r66vhamsNv9Tie2YONvOgC5Ag_EqZLS6GTl_7tk3DfTbXntHAE1rRPdvDZck2=w526-h296-rw"
+    ],
+    "releaseKeyword": "phone"
   }
 ]
