@@ -2746,7 +2746,7 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/mihonapp/mihon",
     "githubRepo": "mihonapp/mihon",
-    "packageName": "app.mihon",
+    "packageName": "app.mihon.foss",
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
