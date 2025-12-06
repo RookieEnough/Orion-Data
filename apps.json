@@ -1309,7 +1309,7 @@
     "repoUrl": "https://github.com/WSTxda/MicroG-RE",
     "githubRepo": "https://github.com/WSTxda/MicroG-RE",
     "releaseKeyword": "microg",
-    "packageName": "com.mgoogle.android.gms",
+    "packageName": "app.revanced.android.gms",
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
