@@ -3,6 +3,11 @@ name: Update Store Mirror
 
 on:
   workflow_dispatch:
+  # Trigger immediately after an app is approved and added
+  workflow_run:
+    workflows: ["Process App Submission"]
+    types:
+      - completed
   release:
     types: [published]
   schedule:
@@ -13,6 +18,8 @@ permissions:
 
 jobs:
   update-mirror:
+    # Only run if the triggering workflow succeeded (or if run manually/scheduled)
+    if: ${{ !github.event.workflow_run || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
