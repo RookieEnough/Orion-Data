@@ -2713,5 +2713,27 @@
       "https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
       "https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
     ]
+  },
+  {
+    "id": "app.lawnchair",
+    "name": "Lawnchair",
+    "description": "Unofficial client or tool from lawnchairlauncher",
+    "icon": "https://raw.githubusercontent.com/LawnchairLauncher/lawnchair/refs/heads/15-dev/lawnchair/res/drawable/ic_launcher_home_comp.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/lawnchairlauncher/lawnchair",
+    "githubRepo": "lawnchairlauncher/lawnchair",
+    "packageName": "app.lawnchair",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "lawnchairlauncher",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/dUfPyUoeOkr1usN-pyhyB6CSOrpaA7sv3XmvMqSU_A5JY2F37qp-d9kcHWM6xs_koaj_=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/Js1_XTzx3cwc6_ce2gDOvxnMEBAVcdhWRTzPx1l5oqsuvck8WnnN6e-iWkczzWvjpUE=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/EJJpZQ0I8gG6JfBMnR_hPfdKYGhPW7zjH7hyuDGS5dEeh1SYs4-a1otltC3o7EsjSUM=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/DVuasFX5rY2dOx2ZplyllFRVNqJwhnlBFkWIg-6EIeRMZteVTMIhzZ25NcwjGI6kX0o=w526-h296-rw"
+    ]
   }
 ]
