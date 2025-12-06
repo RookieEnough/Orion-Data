@@ -4,7 +4,7 @@
   "maintenanceMode": false,
   "maintenanceMessage": "We are currently updating the server. Please check back in 30 minutes.",
   "announcement": "Native download tracking, smart install detection, App Request, and a new Fuel the Code RPG! We stripped the fake stats for a cleaner interface and polished the core infrastructure.",
-  "latestStoreVersion": "1.0.3",
+  "latestStoreVersion": "1.0.4",
   "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.4/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
