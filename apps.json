@@ -2803,5 +2803,27 @@
       "https://github.com/theovilardo/PixelPlay/raw/master/assets/screenshot4.jpg"
     ],
     "releaseKeyword": "PixelPlay"
+  },
+  {
+    "id": "shizuku",
+    "name": "Shizuku",
+    "description": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+    "icon": "https://www.chip.de/downloads/Shizuku-Android-App_185200755.html",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RikkaApps/Shizuku",
+    "githubRepo": "RikkaApps/Shizuku",
+    "packageName": "moe.shizuku.privileged.api",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RikkaApps",
+    "screenshots": [
+      "https://img.utdstc.com/screen/d3f/472/d3f4729b77cd78a2487d9c7c8cd2eb36d9298d6efb98372458a7f1108e213042:300",
+      "https://img.utdstc.com/screen/ff5/9f8/ff59f84287d0c3849595b75c91eaaa4d80d4a21a85d429869466dda91a075b6f:300",
+      "https://img.utdstc.com/screen/ca5/3e1/ca53e11ae22762d28565310abf5584f06bacf08a581c63d06153f85933205ffa:300"
+    ],
+    "releaseKeyword": "shizuku"
   }
 ]
