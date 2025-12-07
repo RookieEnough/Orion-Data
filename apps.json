@@ -2825,5 +2825,27 @@
       "https://img.utdstc.com/screen/ca5/3e1/ca53e11ae22762d28565310abf5584f06bacf08a581c63d06153f85933205ffa:300"
     ],
     "releaseKeyword": "shizuku"
+  },
+  {
+    "id": "installerx-revived",
+    "name": "InstallerX revived",
+    "description": "Looking for a better app installer? Try InstallerX!\n\nMany customized Chinese ROMs come with subpar default installers. You can replace them with InstallerX Revived.\n\nCompared to stock installers, InstallerX Revived offers more installation features:\n\nRich installation types: APK, APKS, APKM, XAPK, APKs inside ZIP, and batch APKs.\nDialog-based installation\nNotification-based installation (Live Activity API supported)\nAutomatic installation\nInstaller declaration\nSetting install flags (can inherit Profile settings)\nInstall for specific user / all users\nDex2oat after successful installation\nBlock the installation of specific app's packageName or by sharedUID\nAuto-delete APK after installation\nNo shell commands, native API calls only",
+    "icon": "https://iconpusher.com/_next/image?url=https%3A%2F%2Fimg.iconpusher.com%2Fcom.rosan.installer.x%2F1.7.png&w=640&q=75",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/wxxsfxyzm/InstallerX-Revived",
+    "githubRepo": "wxxsfxyzm/InstallerX-Revived",
+    "packageName": "com.rosan.installer.x.revived",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "wxxsfxyzm",
+    "screenshots": [
+      "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fapp-shizuku-installerx-revived-v0-tap734d23tif1.jpg%3Fwidth%3D1800%26format%3Dpjpg%26auto%3Dwebp%26s%3D129eb70f44895c2dca05508915931e75c267ee30",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKW02oNk0ECl-55LKzTWwOyqyiBQvc-1SJGtezsnFxkw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSdY7FM8rN_KjdgJS8vFVSP2lHFrHxY2M7ClNCnZZUivBcpF3aEu2Dmq0&s=10"
+    ],
+    "releaseKeyword": "InstallerX"
   }
 ]
