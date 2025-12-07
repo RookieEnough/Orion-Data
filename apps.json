@@ -2780,5 +2780,28 @@
       "https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/6.png?raw=true"
     ],
     "releaseKeyword": "vivi"
+  },
+  {
+    "id": "pixelplay",
+    "name": "PixelPlay",
+    "description": "PixelPlay is a modern, offline-first music player for Android, built with Kotlin and Jetpack Compose. It's designed to provide a beautiful and seamless experience for listening to your LOCAL music library.",
+    "icon": "https://github.com/theovilardo/PixelPlay/raw/master/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/theovilardo/PixelPlay",
+    "githubRepo": "theovilardo/PixelPlay",
+    "packageName": "com.theveloper.pixelplay",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "theovilardo",
+    "screenshots": [
+      "https://github.com/theovilardo/PixelPlay/raw/master/assets/screenshot1.jpg",
+      "https://github.com/theovilardo/PixelPlay/raw/master/assets/screenshot2.jpg",
+      "https://github.com/theovilardo/PixelPlay/raw/master/assets/screenshot3.jpg",
+      "https://github.com/theovilardo/PixelPlay/raw/master/assets/screenshot4.jpg"
+    ],
+    "releaseKeyword": "PixelPlay "
   }
 ]
