@@ -2847,5 +2847,27 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSdY7FM8rN_KjdgJS8vFVSP2lHFrHxY2M7ClNCnZZUivBcpF3aEu2Dmq0&s=10"
     ],
     "releaseKeyword": "InstallerX"
+  },
+  {
+    "id": "lspatch",
+    "name": "LSPatch",
+    "description": "A non-root Xposed framework extending from LSPosed",
+    "icon": "https://img.utdstc.com/icon/c77/4da/c774da060e7882eb860b53cadb9bdc0c2508081df4c8bcc95b82de3038f4dda9:200",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/JingMatrix/LSPatch",
+    "githubRepo": "JingMatrix/LSPatch",
+    "packageName": "org.lsposed.lspatch",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "JingMatrix",
+    "screenshots": [
+      "https://img.utdstc.com/screen/055/757/055757921d9c48ae5f6fc36722b90207c3ecd15d3de78dca3e8fe32dbb48da1a:300",
+      "https://img.utdstc.com/screen/733/7db/7337db6eb4b8f81762b4600adac0f61c6c78c20728cd4a7027024ff5f73932eb:300",
+      "https://img.utdstc.com/screen/d1b/52d/d1b52ddd025d2f8370e64637e085aa715c823f01cf35b8471be7d05b1ceafe4e:300"
+    ],
+    "releaseKeyword": "manager"
   }
 ]
