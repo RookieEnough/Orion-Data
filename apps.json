@@ -2758,5 +2758,27 @@
       "https://f-droid.org/repo/com.amanoteam.kahon/en-US/phoneScreenshots/4.jpg"
     ],
     "releaseKeyword": "Mihon"
+  },
+  {
+    "id": "vivi-music",
+    "name": "VIVI Music ",
+    "description": "VIVI isn't just another music player — it's a complete audio experience designed for music lovers who demand more. With a sleek Material You-inspired design, intelligent features, and deep personalization, VIVI redefines how you connect with your music.\n\nFrom stunning visual effects to smooth, intuitive controls, every element is crafted to match your vibe and elevate every beat. Stream from YouTube, enjoy synced lyrics, share songs via QR codes, and experience your music library like never before.",
+    "icon": "https://github.com/vivizzz007/vivi-music/blob/main/fastlane/metadata/android/en-US/images/icon-playstore.png.png?raw=true",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/vivizzz007/vivi-music",
+    "githubRepo": "vivizzz007/vivi-music",
+    "packageName": "com.vivi.vivimusic",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "vivizzz007",
+    "screenshots": [
+      "https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/8.png?raw=true",
+      "https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/1.png?raw=true",
+      "https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/6.png?raw=true"
+    ],
+    "releaseKeyword": "VIVI Music"
   }
 ]
