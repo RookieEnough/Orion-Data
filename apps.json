@@ -2935,5 +2935,27 @@
       "https://mblogthumb-phinf.pstatic.net/MjAyNDA5MjFfMTIg/MDAxNzI2ODg0Nzg0OTc2.p9qcLlxWkL5WD7Ly2hwEo1KnnLc_ekPBvXktmZsT0hYg.9nD3ZDOhrSgGICU5vuuSogeUloFCJ0h_PhVnTtvT8Jkg.JPEG/Screenshot%EF%BC%BF20240921%EF%BC%BF111147%EF%BC%BFAndroid_System.jpg?type=w800"
     ],
     "releaseKeyword": "revenge"
+  },
+  {
+    "id": "org.proninyaroslav.libretorrent",
+    "name": "LibreTorrent",
+    "description": "Foss torrenting app for android. \n",
+    "icon": "https://github.com/proninyaroslav/libretorrent/blob/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/proninyaroslav/libretorrent",
+    "githubRepo": "proninyaroslav/libretorrent",
+    "packageName": "org.proninyaroslav.libretorrent",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "proninyaroslav",
+    "screenshots": [
+      "https://github.com/proninyaroslav/libretorrent/blob/master/art/screenshots/phone.png",
+      "https://github.com/proninyaroslav/libretorrent/blob/master/art/screenshots/phone_dark.png",
+      "https://github.com/proninyaroslav/libretorrent/blob/master/art/screenshots/create_torrent.png",
+      "https://github.com/proninyaroslav/libretorrent/blob/master/art/screenshots/rss.png"
+    ]
   }
 ]
