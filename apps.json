@@ -2891,5 +2891,27 @@
       "https://play-lh.googleusercontent.com/fHMzsF14Tyow5bjlk025DyOyhbQjB9azoXYaCfhpj4lBBUZK7iYVulcaHA9n5qMyfAgzK_8RAenl5KO68kE2Lw=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/VGZgJRDRi9iS-QnjAj53rn8trCizVvWSLw6XUcigQ3Swpa0t9HE7nGFnojA9xvhJdbaYJVg_Q-bPcARfTYogGN0=w1052-h592-rw"
     ]
+  },
+  {
+    "id": "revanced-manger",
+    "name": "ReVanced Manger",
+    "description": "ReVanced Manager is an application that uses ReVanced Patcher to patch Android apps.",
+    "icon": "https://raw.githubusercontent.com/ReVanced/revanced-manager/main/assets/revanced-headline/revanced-headline-vertical-dark.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ReVanced/revanced-manager",
+    "githubRepo": "ReVanced/revanced-manager",
+    "packageName": "app.revanced.manager.flutter",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReVanced",
+    "screenshots": [
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4vmWobQn9SPMwqpmLNk9vFC8miCcYQLVkGX2nJeHUfTMkc3dpCuZBIAl1kqQUwVjgnT6rPuJpSUqbLl2YsQfY8D7JJU0ftY5yCSyDlrD67MloZq0huuwm7oKHrOrYRGmnREfqbONcbVkVvn3x0vJ5zkyu7X8tilyv4On5XZ_IWO1BhL8Vb8edP4k0XJVV/s1422/que-es-revanced-manager.jpg",
+      "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Frevanced-manager-needs-to-download-necessary-files-to-work-v0-chly92f5umnc1.png%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D1d4b0cdc0609869c7a93edcbe2c41320b396dfb3",
+      "https://revanced.app/_app/immutable/assets/manager.NF7ogg-s.png"
+    ],
+    "releaseKeyword": "revanced"
   }
 ]
