@@ -2940,7 +2940,7 @@
     "id": "org.proninyaroslav.libretorrent",
     "name": "LibreTorrent",
     "description": "Foss torrenting app for android. \n",
-    "icon": "https://github.com/proninyaroslav/libretorrent/blob/master/fastlane/metadata/android/en-US/images/icon.png",
+    "icon": "https://play-lh.googleusercontent.com/Oc3dBMCzOpVE1hD31o-_8Ywnuh7pV_AVbm7Dm55DmJ406zSjiKVohnssX_XcJ6S9FQ=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -2952,10 +2952,11 @@
     "size": "Varies",
     "author": "proninyaroslav",
     "screenshots": [
-      "https://github.com/proninyaroslav/libretorrent/blob/master/art/screenshots/phone.png",
-      "https://github.com/proninyaroslav/libretorrent/blob/master/art/screenshots/phone_dark.png",
-      "https://github.com/proninyaroslav/libretorrent/blob/master/art/screenshots/create_torrent.png",
-      "https://github.com/proninyaroslav/libretorrent/blob/master/art/screenshots/rss.png"
+      "https://play-lh.googleusercontent.com/hglXtm7SEQHNZVFWRcZmlwFRQUMVSmK0szrDJWY2dDD8nhY9vTgimUlprX3Sek4vqwy3zm8EsKLXgSH7Es_J=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/3kxVjmbwMpmmlfQgep7apepfgGrkuwetVlJk7hB_1nKMV9dOqJNJYErNUKOwRf9nOTMaJk91jAMN1DCev10YdQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/306cx71wAaqcPqjKHcFbfRDyQFDYt0dQ4B5_5fJYmJ0OWP-CpQg967cazaRgOk8TqCUapy_XKlTr86Xx-8giBA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/MYEEQFh9Xl_VgepjkX_NCFjctpkQCVmx8ffvsffB-lJ_Fp7PT3xlf17eWgq03PDrG8Lstey-0rFtiypjR2d-=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/5HQeA3iCxv-84sFzn8re4mPg3nvd-3zbRJf2Ot-A-lHCtiOj3abyziKA4o1C56DMgfrNG0Ebn4vfKEzTXYE5Z6c=w1052-h592-rw"
     ]
   }
 ]
