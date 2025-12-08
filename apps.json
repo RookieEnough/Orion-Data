@@ -2869,5 +2869,26 @@
       "https://img.utdstc.com/screen/d1b/52d/d1b52ddd025d2f8370e64637e085aa715c823f01cf35b8471be7d05b1ceafe4e:300"
     ],
     "releaseKeyword": "manager"
+  },
+  {
+    "id": "io.anytype.app",
+    "name": "Anytype",
+    "description": "Note taking app. Open source alternative for Obsidian. Also has a desktop client. \n",
+    "icon": "https://obsidian.md/images/obsidian-logo-gradient.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/anyproto/anytype-kotlin",
+    "githubRepo": "anyproto/anytype-kotlin",
+    "packageName": "io.anytype.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "anyproto",
+    "screenshots": [
+      "https://logo.svgcdn.com/simple-icons/anytype-dark.svg",
+      "https://www.svgrepo.com/download/514694/anytype.png",
+      "https://www.svgrepo.com/download/514694/anytype.png"
+    ]
   }
 ]
