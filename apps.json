@@ -2893,8 +2893,8 @@
     ]
   },
   {
-    "id": "revanced-manger",
-    "name": "ReVanced Manger",
+    "id": "revanced-manager",
+    "name": "ReVanced Manager",
     "description": "ReVanced Manager is an application that uses ReVanced Patcher to patch Android apps.",
     "icon": "https://raw.githubusercontent.com/ReVanced/revanced-manager/main/assets/revanced-headline/revanced-headline-vertical-dark.svg",
     "version": "Latest",
