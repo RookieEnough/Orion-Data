@@ -2913,5 +2913,27 @@
       "https://revanced.app/_app/immutable/assets/manager.NF7ogg-s.png"
     ],
     "releaseKeyword": "revanced"
+  },
+  {
+    "id": "revenge-manager",
+    "name": "Revenge Manager",
+    "description": "Revenge Manager is an application that installs and updates a modification for Discord.\n\na fork of bunny and vendetta",
+    "icon": "https://avatars.githubusercontent.com/u/159218871?s=200&v=4",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/revenge-mod/revenge-manager",
+    "githubRepo": "revenge-mod/revenge-manager",
+    "packageName": "app.revenge.manager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "revenge-mod",
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8i-2cweqF2fuiADvmW3cWm1_mm8BGNqI8FraghVMVgtbk349XfdGjAPU&s=10",
+      "https://mblogthumb-phinf.pstatic.net/MjAyNDA5MjFfMjA4/MDAxNzI2ODc5OTIzNTg4.H84ND-yagMfW277R_F-VpKqMyv_yba2qy4_Tx87FTM0g.p5hxlJWu9gaYT4Iwipkjk7C5wW9xBHxmQb6JS9a8ORkg.JPEG/Screenshot%EF%BC%BF20240921%EF%BC%BF095054%EF%BC%BFRevenge_Manager.jpg?type=w800",
+      "https://mblogthumb-phinf.pstatic.net/MjAyNDA5MjFfMTIg/MDAxNzI2ODg0Nzg0OTc2.p9qcLlxWkL5WD7Ly2hwEo1KnnLc_ekPBvXktmZsT0hYg.9nD3ZDOhrSgGICU5vuuSogeUloFCJ0h_PhVnTtvT8Jkg.JPEG/Screenshot%EF%BC%BF20240921%EF%BC%BF111147%EF%BC%BFAndroid_System.jpg?type=w800"
+    ],
+    "releaseKeyword": "revenge"
   }
 ]
