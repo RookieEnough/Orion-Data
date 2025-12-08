@@ -2873,8 +2873,8 @@
   {
     "id": "io.anytype.app",
     "name": "Anytype",
-    "description": "Note taking app. Open source alternative for Obsidian. Also has a desktop client. \n",
-    "icon": "https://obsidian.md/images/obsidian-logo-gradient.svg",
+    "description": "Anytype brings your conversations, docs, notes and databases together in one private app – offering powerful, local-first collaboration.Everything you create is end-to-end encrypted, accessible offline, synced securely across devices – and always yours.",
+    "icon": "https://play-lh.googleusercontent.com/UNWS6sICanBYvKtRxHeRbjMTow69iA102EjduIKm8f85mBZxp8c5td2yoCeJKLCWzHLSvvEHfwpi-_5_3ehu=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -2886,9 +2886,10 @@
     "size": "Varies",
     "author": "anyproto",
     "screenshots": [
-      "https://logo.svgcdn.com/simple-icons/anytype-dark.svg",
-      "https://www.svgrepo.com/download/514694/anytype.png",
-      "https://www.svgrepo.com/download/514694/anytype.png"
+      "https://play-lh.googleusercontent.com/uzONA1mMGhzyEHxqN1wyxoNHBpARnZ0uI06HjRXULFAtj9p18PrvUPQK0FXDpuBMO6h6w7iNlISbC6XXwYgLBg=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/lIw0I-8LaMCjMmhfWhJ40Kg4y77EyTiBtyP6RPekXI3me0kGlJ5wUmpwm7cBtZuQzEm4VBHxwjQvZKFEsR5I3g=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/fHMzsF14Tyow5bjlk025DyOyhbQjB9azoXYaCfhpj4lBBUZK7iYVulcaHA9n5qMyfAgzK_8RAenl5KO68kE2Lw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/VGZgJRDRi9iS-QnjAj53rn8trCizVvWSLw6XUcigQ3Swpa0t9HE7nGFnojA9xvhJdbaYJVg_Q-bPcARfTYogGN0=w1052-h592-rw"
     ]
   }
 ]
