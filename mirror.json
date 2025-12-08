@@ -1304,13 +1304,13 @@
       "immutable": false,
       "prerelease": false,
       "created_at": "2025-12-06T00:45:54Z",
-      "updated_at": "2025-12-08T02:09:04Z",
+      "updated_at": "2025-12-08T06:18:06Z",
       "published_at": "2025-12-06T06:14:09Z",
       "assets": [
         {
-          "url": "https://api.github.com/repos/RookieEnough/Orion-Data/releases/assets/325694817",
-          "id": 325694817,
-          "node_id": "RA_kwDOQZcB_M4TabVh",
+          "url": "https://api.github.com/repos/RookieEnough/Orion-Data/releases/assets/325782380",
+          "id": 325782380,
+          "node_id": "RA_kwDOQZcB_M4Tawts",
           "name": "myfitnesspal-pro-v25.47.0.apk",
           "label": "myfitnesspal-pro-v25.47.0.apk",
           "uploader": {
@@ -1338,9 +1338,9 @@
           "state": "uploaded",
           "size": 161222169,
           "digest": "sha256:2174b0826d88c18fe9537a4425814bd5004075bec9e80e84915bac2c16a17777",
-          "download_count": 5,
-          "created_at": "2025-12-08T02:09:00Z",
-          "updated_at": "2025-12-08T02:09:04Z",
+          "download_count": 0,
+          "created_at": "2025-12-08T06:18:02Z",
+          "updated_at": "2025-12-08T06:18:06Z",
           "browser_download_url": "https://github.com/RookieEnough/Orion-Data/releases/download/MyFitnessPal/myfitnesspal-pro-v25.47.0.apk"
         }
       ],
@@ -1383,13 +1383,13 @@
       "immutable": false,
       "prerelease": false,
       "created_at": "2025-12-03T14:16:47Z",
-      "updated_at": "2025-12-08T02:09:09Z",
+      "updated_at": "2025-12-08T06:18:11Z",
       "published_at": "2025-12-03T14:18:51Z",
       "assets": [
         {
-          "url": "https://api.github.com/repos/RookieEnough/Orion-Data/releases/assets/325694862",
-          "id": 325694862,
-          "node_id": "RA_kwDOQZcB_M4TabWO",
+          "url": "https://api.github.com/repos/RookieEnough/Orion-Data/releases/assets/325782400",
+          "id": 325782400,
+          "node_id": "RA_kwDOQZcB_M4TawuA",
           "name": "web-video-cast-v5.12.8.apk",
           "label": "web-video-cast-v5.12.8.apk",
           "uploader": {
@@ -1417,9 +1417,9 @@
           "state": "uploaded",
           "size": 50173084,
           "digest": "sha256:7a18c33c33e7dbec53afdb64146c20d821e696d6fb7cf166ce57d603d764cc3b",
-          "download_count": 1,
-          "created_at": "2025-12-08T02:09:08Z",
-          "updated_at": "2025-12-08T02:09:09Z",
+          "download_count": 0,
+          "created_at": "2025-12-08T06:18:10Z",
+          "updated_at": "2025-12-08T06:18:11Z",
           "browser_download_url": "https://github.com/RookieEnough/Orion-Data/releases/download/WebVideo-Cast/web-video-cast-v5.12.8.apk"
         }
       ],
@@ -1620,13 +1620,13 @@
       "immutable": false,
       "prerelease": false,
       "created_at": "2025-11-29T09:57:06Z",
-      "updated_at": "2025-12-08T02:08:56Z",
+      "updated_at": "2025-12-08T06:17:58Z",
       "published_at": "2025-11-29T09:57:47Z",
       "assets": [
         {
-          "url": "https://api.github.com/repos/RookieEnough/Orion-Data/releases/assets/325694667",
-          "id": 325694667,
-          "node_id": "RA_kwDOQZcB_M4TabTL",
+          "url": "https://api.github.com/repos/RookieEnough/Orion-Data/releases/assets/325782359",
+          "id": 325782359,
+          "node_id": "RA_kwDOQZcB_M4TawtX",
           "name": "lingodeer-v2.99.375.apk",
           "label": "lingodeer-v2.99.375.apk",
           "uploader": {
@@ -1654,9 +1654,9 @@
           "state": "uploaded",
           "size": 74653523,
           "digest": "sha256:c2750dcee0fa8c24141af74741fccbcea757273d7add417ab06d410236e6ea09",
-          "download_count": 1,
-          "created_at": "2025-12-08T02:08:54Z",
-          "updated_at": "2025-12-08T02:08:56Z",
+          "download_count": 0,
+          "created_at": "2025-12-08T06:17:55Z",
+          "updated_at": "2025-12-08T06:17:58Z",
           "browser_download_url": "https://github.com/RookieEnough/Orion-Data/releases/download/Lingodeer-Mod/lingodeer-v2.99.375.apk"
         }
       ],
@@ -178862,7 +178862,7 @@
           "state": "uploaded",
           "size": 31262914,
           "digest": "sha256:a1f418e644b76d7c5d31913815440e06ae709e97529fbe6dfdbee1750991c48d",
-          "download_count": 3600,
+          "download_count": 3604,
           "created_at": "2025-12-04T13:46:47Z",
           "updated_at": "2025-12-04T13:46:56Z",
           "browser_download_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v2.6.6/WeatherMaster.2.6.6.arm64-v8a.apk"
@@ -227149,7 +227149,7 @@
           "state": "uploaded",
           "size": 20173855,
           "digest": "sha256:5c42cf511e73718eb76790f003fb00279451d866fe98f2e07c03dd778f9081fb",
-          "download_count": 301,
+          "download_count": 302,
           "created_at": "2025-11-30T15:04:57Z",
           "updated_at": "2025-11-30T15:04:58Z",
           "browser_download_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.7.1/app-x86_64-release.apk"
@@ -247593,7 +247593,7 @@
           "state": "uploaded",
           "size": 214149911,
           "digest": "sha256:8cfeb545fd5c0b71a12e2d25943b2cabca2f6c8a66fb5225d951a184e12256de",
-          "download_count": 19889,
+          "download_count": 19891,
           "created_at": "2025-09-11T06:56:23Z",
           "updated_at": "2025-09-11T06:56:32Z",
           "browser_download_url": "https://github.com/crimera/twitter-apk/releases/download/11.20.0-release.0/x-piko-material-you-v11.20.0-release.0.apk"
@@ -272198,7 +272198,7 @@
           "state": "uploaded",
           "size": 3116471,
           "digest": null,
-          "download_count": 11756,
+          "download_count": 11757,
           "created_at": "2024-03-23T00:27:10Z",
           "updated_at": "2024-03-23T00:27:12Z",
           "browser_download_url": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.12/AutoHotkey_2.0.12.zip"
@@ -308334,7 +308334,7 @@
           "state": "uploaded",
           "size": 1531036,
           "digest": "sha256:bff9e69b6ca73a5b8715d7623870a39dc90ad6ce1f4d1070685843987af1af9b",
-          "download_count": 317,
+          "download_count": 318,
           "created_at": "2025-07-05T14:34:00Z",
           "updated_at": "2025-07-05T14:34:01Z",
           "browser_download_url": "https://github.com/ip7z/7zip/releases/download/25.00/7z2500-src.tar.xz"
@@ -314574,7 +314574,7 @@
           "state": "uploaded",
           "size": 5719711,
           "digest": "sha256:8588631118f8e613bf09029f08592102bd7d1b4b0444916c735c70b157a34ce7",
-          "download_count": 1062,
+          "download_count": 1063,
           "created_at": "2025-11-18T17:10:45Z",
           "updated_at": "2025-11-18T17:11:03Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.8/npp.8.8.8.portable.arm64.7z"
@@ -314646,7 +314646,7 @@
           "state": "uploaded",
           "size": 8055445,
           "digest": "sha256:1c13c9efb697320aab6b33cf6884e8509a19d976c92ff2505fab87ca775be073",
-          "download_count": 2917,
+          "download_count": 2918,
           "created_at": "2025-11-18T17:11:03Z",
           "updated_at": "2025-11-18T17:11:25Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.8/npp.8.8.8.portable.arm64.zip"
@@ -314718,7 +314718,7 @@
           "state": "uploaded",
           "size": 3801017,
           "digest": "sha256:1b525bacf4965e39694459c6ba209da41d0176d14da72530e1e362fa445a33a5",
-          "download_count": 1585,
+          "download_count": 1586,
           "created_at": "2025-11-18T17:11:25Z",
           "updated_at": "2025-11-18T17:11:36Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.8/npp.8.8.8.portable.minimalist.7z"
@@ -314790,7 +314790,7 @@
           "state": "uploaded",
           "size": 3823700,
           "digest": "sha256:218897b54072d18f6f75c856039f8b1dd095809688bf1d7d39977154940330f4",
-          "download_count": 840,
+          "download_count": 841,
           "created_at": "2025-11-18T17:11:37Z",
           "updated_at": "2025-11-18T17:11:47Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.8/npp.8.8.8.portable.minimalist.arm64.7z"
@@ -314862,7 +314862,7 @@
           "state": "uploaded",
           "size": 4029163,
           "digest": "sha256:e2c84b3a0f0e700a7acc651210680c1e5033a5046082220a321ec69222edc7dc",
-          "download_count": 3257,
+          "download_count": 3258,
           "created_at": "2025-11-18T17:11:47Z",
           "updated_at": "2025-11-18T17:11:58Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.8/npp.8.8.8.portable.minimalist.x64.7z"
@@ -321349,7 +321349,7 @@
           "state": "uploaded",
           "size": 6646576,
           "digest": null,
-          "download_count": 324989,
+          "download_count": 324990,
           "created_at": "2025-04-28T15:31:48Z",
           "updated_at": "2025-04-28T15:31:49Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8/npp.8.8.Installer.exe"
@@ -325889,7 +325889,7 @@
           "state": "uploaded",
           "size": 5771027,
           "digest": null,
-          "download_count": 10346,
+          "download_count": 10347,
           "created_at": "2025-01-28T07:40:11Z",
           "updated_at": "2025-01-28T07:40:26Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.6/npp.8.7.6.portable.x64.7z"
@@ -327367,7 +327367,7 @@
           "state": "uploaded",
           "size": 6652296,
           "digest": null,
-          "download_count": 2873714,
+          "download_count": 2873715,
           "created_at": "2024-12-05T02:18:10Z",
           "updated_at": "2024-12-05T02:18:11Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.4/npp.8.7.4.Installer.x64.exe"
@@ -356214,7 +356214,7 @@
           "state": "uploaded",
           "size": 4518024,
           "digest": null,
-          "download_count": 1967633,
+          "download_count": 1967634,
           "created_at": "2022-06-03T16:35:55Z",
           "updated_at": "2022-06-03T16:35:58Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.2/npp.8.4.2.Installer.x64.exe"
@@ -373079,7 +373079,7 @@
           "state": "uploaded",
           "size": 4234832,
           "digest": null,
-          "download_count": 250214,
+          "download_count": 250215,
           "created_at": "2021-03-15T00:58:22Z",
           "updated_at": "2021-03-15T01:00:44Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.4/npp.7.9.4.Installer.x64.exe"
@@ -385500,7 +385500,7 @@
           "state": "uploaded",
           "size": 111180280,
           "digest": "sha256:b82b080504d62f7bd2a13a386385dd1bc76a97c32f353a77da41586e0d5f4669",
-          "download_count": 2453,
+          "download_count": 2455,
           "created_at": "2025-12-04T18:14:54Z",
           "updated_at": "2025-12-04T18:16:23Z",
           "browser_download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.6/audacity-linux-3.7.6-x64-22.04.AppImage"
@@ -408102,7 +408102,7 @@
           "state": "uploaded",
           "size": 343436680,
           "digest": "sha256:b4bfd22e7a467ab07be8388648c8b084b67669ff6f3db80b2b9b56ad95eb7a12",
-          "download_count": 623822,
+          "download_count": 623823,
           "created_at": "2025-11-19T06:16:41Z",
           "updated_at": "2025-11-19T06:17:07Z",
           "browser_download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.96.0/PowerToysUserSetup-0.96.0-x64.exe"
@@ -410215,7 +410215,7 @@
           "state": "uploaded",
           "size": 417697856,
           "digest": "sha256:279886e446d96c3816d5d478d0a31f0458e336afc0fd6d230064f2a72ff14421",
-          "download_count": 1969005,
+          "download_count": 1969007,
           "created_at": "2025-07-07T21:40:12Z",
           "updated_at": "2025-07-07T21:40:22Z",
           "browser_download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.92.1/PowerToysUserSetup-0.92.1-x64.exe"
@@ -472503,7 +472503,7 @@
           "state": "uploaded",
           "size": 488,
           "digest": "sha256:707653767d0a39541a8cd388ba75417bcecb5c662687b7d6eb70ce209993f6f7",
-          "download_count": 1116,
+          "download_count": 1117,
           "created_at": "2025-11-25T00:44:52Z",
           "updated_at": "2025-11-25T00:44:53Z",
           "browser_download_url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-1-x86_64.AppImage.sig"
@@ -530046,7 +530046,7 @@
           "state": "uploaded",
           "size": 154993699,
           "digest": null,
-          "download_count": 31363,
+          "download_count": 31364,
           "created_at": "2023-07-29T19:49:12Z",
           "updated_at": "2023-07-29T19:49:40Z",
           "browser_download_url": "https://github.com/mltframework/shotcut/releases/download/v23.07.29/shotcut-win64-230729.zip"
@@ -593416,7 +593416,7 @@
           "state": "uploaded",
           "size": 122601472,
           "digest": null,
-          "download_count": 178057,
+          "download_count": 178058,
           "created_at": "2022-10-02T00:27:05Z",
           "updated_at": "2022-10-02T00:27:15Z",
           "browser_download_url": "https://github.com/obsproject/obs-studio/releases/download/28.0.3/OBS-Studio-28.0.3-Full-Installer-x64.exe"
@@ -596218,7 +596218,7 @@
           "state": "uploaded",
           "size": 90657320,
           "digest": null,
-          "download_count": 125197,
+          "download_count": 125198,
           "created_at": "2022-08-03T00:24:14Z",
           "updated_at": "2022-08-03T00:24:21Z",
           "browser_download_url": "https://github.com/obsproject/obs-studio/releases/download/27.1.3/OBS-Studio-27.1.3-Full-Installer-x64.exe"
@@ -604570,7 +604570,7 @@
           "state": "uploaded",
           "size": 15680742,
           "digest": "sha256:2690e3ad13d5101172f19215b918ac19f7e2c5b7daabc5239c6476b5d4b61955",
-          "download_count": 6031,
+          "download_count": 6034,
           "created_at": "2025-11-12T03:45:18Z",
           "updated_at": "2025-11-12T03:50:27Z",
           "browser_download_url": "https://github.com/Docile-Alligator/Infinity-For-Reddit/releases/download/v8.0.8/Infinity%2B-v8.0.8.apk"
@@ -615672,7 +615672,7 @@
           "state": "uploaded",
           "size": 4252894,
           "digest": null,
-          "download_count": 165417,
+          "download_count": 165418,
           "created_at": "2018-07-23T19:13:13Z",
           "updated_at": "2018-07-23T19:13:13Z",
           "browser_download_url": "https://github.com/LawnchairLauncher/lawnchair/releases/download/1.2.0.1884/Lawnchair-1.2.0.1884.apk"
@@ -617568,7 +617568,7 @@
           "state": "uploaded",
           "size": 63329298,
           "digest": "sha256:7a9e7a73ab91d9209903f2e4616c4c7e576c6172e240a0ffaa4f72a505eaeb1b",
-          "download_count": 2796,
+          "download_count": 2797,
           "created_at": "2025-11-07T13:22:16Z",
           "updated_at": "2025-11-07T13:22:18Z",
           "browser_download_url": "https://github.com/mihonapp/mihon/releases/download/v0.19.3/mihon-v0.19.3-foss.apk"
