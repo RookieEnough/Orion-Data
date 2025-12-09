@@ -3005,5 +3005,26 @@
       "https://github.com/maxrave-dev/SimpMusic/raw/main/asset/screenshot/14.png?raw=true"
     ],
     "releaseKeyword": "SimpMusic"
+  },
+  {
+    "id": "io.element.android.x",
+    "name": "element-x-android",
+    "description": "Android matrix client from element, they also have an ios and a web client. Matrix is a decentralized end to end encrypted instant messaging standard. \n",
+    "icon": "https://play-lh.googleusercontent.com/v96nDNhxSbkUoSLFD9QH0dnI8hqEgD0ta2kMtogZaL8i1QuB4bJ4CZFPpr02QJ8Ikw=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/element-hq/element-x-android",
+    "githubRepo": "element-hq/element-x-android",
+    "packageName": "io.element.android.x",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "element-hq",
+    "screenshots": [
+      "https://f-droid.org/repo/io.element.android.x/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/io.element.android.x/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/io.element.android.x/en-US/phoneScreenshots/3.png"
+    ]
   }
 ]
