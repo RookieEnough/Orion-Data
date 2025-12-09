@@ -2979,5 +2979,31 @@
       "https://f-droid.org/repo/sushi.hardcore.droidfs/en-US/phoneScreenshots/2.png",
       "https://f-droid.org/repo/sushi.hardcore.droidfs/en-US/phoneScreenshots/3.png"
     ]
+  },
+  {
+    "id": "simpmusic",
+    "name": "SimpMusic",
+    "description": "A FOSS YouTube Music client for Android and Desktop with many features from\r\nSpotify, SponsorBlock, ReturnYouTubeDislike using Compose Multiplatform to develop.",
+    "icon": "https://f-droid.org/repo/com.maxrave.simpmusic/en-US/icon_NyVM4inJWSfXS6E9jGgs44E0SjRGG5FlWy-EWV6XlEo=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/maxrave-dev/SimpMusic",
+    "githubRepo": "maxrave-dev/SimpMusic",
+    "packageName": "com.maxrave.simpmusic",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "maxrave-dev",
+    "screenshots": [
+      "https://github.com/maxrave-dev/SimpMusic/raw/main/asset/screenshot/03.png?raw=true",
+      "https://github.com/maxrave-dev/SimpMusic/raw/main/asset/screenshot/04.png?raw=true",
+      "https://github.com/maxrave-dev/SimpMusic/raw/main/asset/screenshot/05.png?raw=true",
+      "https://github.com/maxrave-dev/SimpMusic/raw/main/asset/screenshot/07.png?raw=true",
+      "https://github.com/maxrave-dev/SimpMusic/raw/main/asset/screenshot/08.png?raw=true",
+      "https://github.com/maxrave-dev/SimpMusic/raw/main/asset/screenshot/09.png?raw=true",
+      "https://github.com/maxrave-dev/SimpMusic/raw/main/asset/screenshot/14.png?raw=true"
+    ],
+    "releaseKeyword": "SimpMusic"
   }
 ]
