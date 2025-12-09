@@ -3026,5 +3026,28 @@
       "https://f-droid.org/repo/io.element.android.x/en-US/phoneScreenshots/2.png",
       "https://f-droid.org/repo/io.element.android.x/en-US/phoneScreenshots/3.png"
     ]
+  },
+  {
+    "id": "redomi",
+    "name": "Redomi",
+    "description": "Don't you hate when you receive music links from friends who use different platforms than you, and you can't tap and play them in your favourite music service????\r\nThis app is here to solve that problem!\r\nAnd you can also share the songs you want to anyone by converting the link to their preferred platform.\r\n\r\nAll of this is done like it's integrated into your system!",
+    "icon": "https://github.com/acszo/Redomi/raw/master/preview/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/acszo/Redomi",
+    "githubRepo": "acszo/Redomi",
+    "packageName": "com.acszo.redomi",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "acszo",
+    "screenshots": [
+      "https://github.com/acszo/Redomi/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.png",
+      "https://github.com/acszo/Redomi/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.png",
+      "https://github.com/acszo/Redomi/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.png",
+      "https://github.com/acszo/Redomi/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.png"
+    ],
+    "releaseKeyword": "redomi"
   }
 ]
