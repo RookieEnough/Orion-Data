@@ -2958,5 +2958,26 @@
       "https://play-lh.googleusercontent.com/MYEEQFh9Xl_VgepjkX_NCFjctpkQCVmx8ffvsffB-lJ_Fp7PT3xlf17eWgq03PDrG8Lstey-0rFtiypjR2d-=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/5HQeA3iCxv-84sFzn8re4mPg3nvd-3zbRJf2Ot-A-lHCtiOj3abyziKA4o1C56DMgfrNG0Ebn4vfKEzTXYE5Z6c=w1052-h592-rw"
     ]
+  },
+  {
+    "id": "sushi.hardcore.droidfs",
+    "name": "DroidFS",
+    "description": "Encrypt files on your device. \n",
+    "icon": "https://avatars.githubusercontent.com/u/68192412?v=4",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/hardcore-sushi/DroidFS",
+    "githubRepo": "hardcore-sushi/DroidFS",
+    "packageName": "sushi.hardcore.droidfs",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hardcore-sushi",
+    "screenshots": [
+      "https://f-droid.org/repo/sushi.hardcore.droidfs/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/sushi.hardcore.droidfs/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/sushi.hardcore.droidfs/en-US/phoneScreenshots/3.png"
+    ]
   }
 ]
