@@ -109,7 +109,7 @@
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "RookieEnough/Revanced-Orion",
     "releaseKeyword": "photos",
-    "packageName": "com.google.android.apps.photos",
+    "packageName": "app.revanced.android.photos",
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
