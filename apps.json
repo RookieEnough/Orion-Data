@@ -3049,5 +3049,29 @@
       "https://github.com/acszo/Redomi/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.png"
     ],
     "releaseKeyword": "redomi"
+  },
+  {
+    "id": "io.ente.photos.independent",
+    "name": "Ente Photos",
+    "description": "A private, end-to-end encrypted storage for your photos and videos. Privacy-friendly alternative to Google Photos. \n",
+    "icon": "https://play-lh.googleusercontent.com/CfFyMjEYUJEnYKBy1h13-qlLa0Xn2o5Jsh7hIUNOygaH71a57Y2XLrLwQx6V4V3JrLU=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ente-io/ente",
+    "githubRepo": "ente-io/ente",
+    "packageName": "io.ente.photos.independent",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ente-io",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/CD0lx-pRib0rTK4jdXChnm56i0RJgJkNKTx1yX1poUlVIY8SxCLbkwXJUMYLs8UlBw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/1r15rCbyzdjTIOL2zHQHrRv2DehJacmYbx9vFaJd7tKa8vluch2qtAr3lQaNbaO-e5U=w1052-h592-rw",
+      "https://f-droid.org/repo/io.ente.photos/en-US/phoneScreenshots/2.png",
+      "https://play-lh.googleusercontent.com/rZjKFEctY_qFLFb0iQOh3AErv6bH5iW3UeWn0BVqPcayqqg3sjNB4cOH_ywCYC5Pw8HF=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/XFqwbiZlkb2GxvmyC4LYLikKHOfRBfLIpD3wE2--gObeAzPt2ezpBakZyJ3rgtROyuE=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/BhXDqzlEOlB6XIHG5y-5FgEafI2gv3YYAr4NcI0gecNU5d3jNt2REU1OFCyN2TixY9g=w1052-h592-rw"
+    ]
   }
 ]
