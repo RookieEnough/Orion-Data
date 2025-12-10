@@ -3098,5 +3098,26 @@
       "https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpeg"
     ],
     "releaseKeyword": "aShellYou"
+  },
+  {
+    "id": "io.filen.app",
+    "name": "Filen",
+    "description": "Zero knowledge end-to-end encrypted cloud storage, redefined. \n",
+    "icon": "https://play-lh.googleusercontent.com/BOd2Wz4teXCKZK9teO9zz1sL75AslsdQCcCEl5meRQHZoNb9XhWJW-4nbyE9DJPKGX4",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FilenCloudDienste/filen-mobile",
+    "githubRepo": "FilenCloudDienste/filen-mobile",
+    "packageName": "io.filen.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FilenCloudDienste",
+    "screenshots": [
+      "https://f-droid.org/repo/com.filen.filendesktop/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.filen.filendesktop/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.filen.filendesktop/en-US/phoneScreenshots/3.png"
+    ]
   }
 ]
