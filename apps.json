@@ -3073,5 +3073,30 @@
       "https://play-lh.googleusercontent.com/XFqwbiZlkb2GxvmyC4LYLikKHOfRBfLIpD3wE2--gObeAzPt2ezpBakZyJ3rgtROyuE=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/BhXDqzlEOlB6XIHG5y-5FgEafI2gv3YYAr4NcI0gecNU5d3jNt2REU1OFCyN2TixY9g=w1052-h592-rw"
     ]
+  },
+  {
+    "id": "ashell-you",
+    "name": "aShell You",
+    "description": "aShell You is a fully-featured Android shell utility app with Material Design 3 UI, letting you run ADB, root and shell commands on your device or others via OTG/wireless, packed in a beautiful and smart interface and packed with Material You Theme.",
+    "icon": "https://f-droid.org/repo/in.sunilpaulmathew.ashell/en-US/icon_05BVWmrTXADMBGd-HrOqI7i2uRN6IB7kWF-i-iqhpp0=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/DP-Hridayan/aShellYou",
+    "githubRepo": "DP-Hridayan/aShellYou",
+    "packageName": "com.c691bfa",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "DP-Hridayan",
+    "screenshots": [
+      "https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpeg",
+      "https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpeg",
+      "https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpeg",
+      "https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpeg",
+      "https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpeg",
+      "https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpeg"
+    ],
+    "releaseKeyword": "aShellYou"
   }
 ]
