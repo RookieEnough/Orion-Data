@@ -3119,5 +3119,28 @@
       "https://f-droid.org/repo/com.filen.filendesktop/en-US/phoneScreenshots/2.png",
       "https://f-droid.org/repo/com.filen.filendesktop/en-US/phoneScreenshots/3.png"
     ]
+  },
+  {
+    "id": "org.futo.inputmethod.latin",
+    "name": "android-keyboard",
+    "description": "A good modern keyboard that stays offline and doesn't spy on you. Very customizable. \n",
+    "icon": "https://play-lh.googleusercontent.com/sTw82I2n6RI1SIT18FXcsYvgtPdMTEa37sYOsguCDQcbIRJy7gBTpjL2BdYIOjNSgaw=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/futo-org/android-keyboard",
+    "githubRepo": "futo-org/android-keyboard",
+    "packageName": "org.futo.inputmethod.latin",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "futo-org",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/zsbtfM8TIy9JqAzBmgS-US5skRbpBowWmMslYIclfXkR6dthnffBlFcb9zS4U71DpfF-=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/sbyiCfCK5YMuSMGck3KVAK_qu1QhXp7B_BqUW2T1foE4zavRdCAZhpoeSRDUdoNFcmSQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/nDroMD1FxKywkmgdwSMW-DZDaQ5fLU-8BjRt2rhYBHN3y2wjFXFbfpW4xw9-5Gvj3RY=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/4vgm9PwlHkYtnNaWbraWgrw5tDesNBDWSZsuRYxwBKCPodVD10PhreAomvaz8lrlzQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/TAtbxE_wkdXvk_wuAXTbUkaTw9Hd0fQ-Ee7eyrZyFBM513ueQ_6w0AAohueKccA7XaA=w1052-h592-rw"
+    ]
   }
 ]
