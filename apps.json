@@ -3142,5 +3142,29 @@
       "https://play-lh.googleusercontent.com/4vgm9PwlHkYtnNaWbraWgrw5tDesNBDWSZsuRYxwBKCPodVD10PhreAomvaz8lrlzQ=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/TAtbxE_wkdXvk_wuAXTbUkaTw9Hd0fQ-Ee7eyrZyFBM513ueQ_6w0AAohueKccA7XaA=w1052-h592-rw"
     ]
+  },
+  {
+    "id": "chrono",
+    "name": "Chrono",
+    "description": "A modern and powerful clock, alarms, timer and stopwatch app for Android!",
+    "icon": "https://github.com/vicolo-dev/chrono/raw/master/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/vicolo-dev/chrono",
+    "githubRepo": "vicolo-dev/chrono",
+    "packageName": "com.vicolo.chrono",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "vicolo-dev",
+    "screenshots": [
+      "https://f-droid.org/repo/com.vicolo.chrono/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.vicolo.chrono/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.vicolo.chrono/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.vicolo.chrono/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.vicolo.chrono/en-US/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "chrono"
   }
 ]
