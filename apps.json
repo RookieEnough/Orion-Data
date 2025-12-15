@@ -3166,5 +3166,28 @@
       "https://f-droid.org/repo/com.vicolo.chrono/en-US/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "chrono"
+  },
+  {
+    "id": "ffshare",
+    "name": "FFShare",
+    "description": "An android app to compress image, video and audio files through ffmpeg before sharing them.",
+    "icon": "https://github.com/caydey/ffshare/raw/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/caydey/ffshare",
+    "githubRepo": "caydey/ffshare",
+    "packageName": "com.caydey.ffshare",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "caydey",
+    "screenshots": [
+      "https://github.com/caydey/ffshare/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://github.com/caydey/ffshare/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://github.com/caydey/ffshare/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://github.com/caydey/ffshare/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "FFShare"
   }
 ]
