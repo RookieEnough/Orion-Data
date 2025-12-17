@@ -3189,5 +3189,32 @@
       "https://github.com/caydey/ffshare/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "FFShare"
+  },
+  {
+    "id": "ytdlnis",
+    "name": "YTDLnis",
+    "description": "YTDLnis is a free and open source video/audio downloader using yt-dlp for Android 7.0 and above.",
+    "icon": "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/deniscerri/ytdlnis",
+    "githubRepo": "deniscerri/ytdlnis",
+    "packageName": "com.deniscerri.ytdl",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "deniscerri",
+    "screenshots": [
+      "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+      "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+      "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/07.png",
+      "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/09.png",
+      "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/12.png",
+      "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/11.png"
+    ],
+    "releaseKeyword": "YTDLnis"
   }
 ]
