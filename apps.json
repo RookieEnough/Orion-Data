@@ -3216,5 +3216,30 @@
       "https://github.com/deniscerri/ytdlnis/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/11.png"
     ],
     "releaseKeyword": "YTDLnis"
+  },
+  {
+    "id": "eu.artectrex.bunny",
+    "name": "Bunny Media Editor",
+    "description": "Bunny Media Editor is a free (as in freedom) Android media editor, letting you edit images and videos on your phone.",
+    "icon": "https://gitlab.shinice.net/uploads/-/system/project/avatar/109/mascot.png?width=48",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://gitlab.shinice.net/pixeldroid/bunny",
+    "githubRepo": "",
+    "packageName": "eu.artectrex.bunny",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "pixeldroid",
+    "screenshots": [
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot01.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot02.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot03.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot04.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot05.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot06.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot07.png"
+    ]
   }
 ]
