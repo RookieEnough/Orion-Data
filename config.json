@@ -3,7 +3,7 @@
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/mirror.json",
   "maintenanceMode": false,
   "maintenanceMessage": "We are currently updating the server. Please check back in 30 minutes.",
-  "announcement": "Native download tracking, smart install detection, and App Requests are now available along with a new Fuel the Code RPG experience! We invite users to submit more apps to help expand and enrich the Orion Library.",
+  "announcement": "The release of version 1.0.6 is scheduled soon. Development experienced a delay due to health related circumstances. Thank you for your patience, and Merry Christmas.",
   "latestStoreVersion": "1.0.5",
   "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.5/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
