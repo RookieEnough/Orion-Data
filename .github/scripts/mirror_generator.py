@@ -1,91 +1,115 @@
+
 import json
 import requests
 import os
+import urllib.parse # Required for GitLab path encoding
 
 # Files are accessed from the project root in the workflow
 APPS_FILE = "apps.json"
 MIRROR_FILE = "mirror.json"
 
-def get_repos_from_apps():
-    """
-    Parses apps.json to find all GitHub repos we need to mirror.
-    Handles case-insensitive deduplication to prevent double fetching.
-    """
-    repos_map = {} # Stores normalized_key -> original_key
-    
-    if os.path.exists(APPS_FILE):
-        try:
-            with open(APPS_FILE, "r", encoding="utf-8") as f:
-                apps = json.load(f)
-                for app in apps:
-                    if app.get("githubRepo"):
-                        # Clean the URL/String
-                        clean = app["githubRepo"]\
-                            .replace("https://github.com/", "")\
-                            .replace("http://github.com/", "")\
-                            .replace("https://www.github.com/", "")\
-                            .strip("/")
-                        
-                        # Use lowercase key for deduplication check
-                        # Store original casing as the value
-                        normalized = clean.lower()
-                        if normalized not in repos_map:
-                            repos_map[normalized] = clean
-                            
-        except Exception as e:
-            print(f"Warning: Could not parse {APPS_FILE}: {e}")
-    else:
-        print(f"Warning: {APPS_FILE} not found.")
-    
-    # Return the list of original repo names
-    return list(repos_map.values())
-
 def generate_mirror():
-    repos = get_repos_from_apps()
     mirror_data = {}
     
-    headers = {}
-    # Use the token from GitHub Actions for higher rate limits
+    # Setup GitHub Headers
+    gh_headers = {}
     if os.environ.get("GH_TOKEN"):
-        headers["Authorization"] = f"Bearer {os.environ.get('GH_TOKEN')}"
-    
-    # GitHub API Best Practice: Always send a User-Agent
-    headers["User-Agent"] = "OrionStore-MirrorBot"
+        gh_headers["Authorization"] = f"Bearer {os.environ.get('GH_TOKEN')}"
+    gh_headers["User-Agent"] = "OrionStore-MirrorBot"
 
-    print(f"🔍 Found {len(repos)} unique repositories to mirror.")
+    if not os.path.exists(APPS_FILE):
+        print(f"Warning: {APPS_FILE} not found.")
+        return
 
-    for repo in repos:
-        print(f"--------------------------------")
-        print(f"📥 Fetching releases for: {repo}")
-        try:
-            # 1. Fetch up to 100 releases to catch apps that aren't at the very top (Fixes CapCut issue)
-            url = f"https://api.github.com/repos/{repo}/releases?per_page=100"
-            r = requests.get(url, headers=headers)
+    try:
+        with open(APPS_FILE, "r", encoding="utf-8") as f:
+            apps = json.load(f)
+    except Exception as e:
+        print(f"Error reading apps.json: {e}")
+        return
+
+    # Deduplication Sets
+    processed_github = set()
+    processed_gitlab = set()
+
+    print(f"🔍 Scanning {len(apps)} apps for repositories...")
+
+    for app in apps:
+        # ---------------------------
+        # GITHUB HANDLER
+        # ---------------------------
+        if app.get("githubRepo"):
+            # Clean the URL/String
+            clean_gh = app["githubRepo"]\
+                .replace("https://github.com/", "")\
+                .replace("http://github.com/", "")\
+                .replace("https://www.github.com/", "")\
+                .strip("/")
             
-            if r.status_code == 200:
-                releases = r.json()
-                
-                # 2. CRITICAL FIX: Save the LIST of releases, not just the first one.
-                # This ensures App.tsx can loop through 100 items to find the correct matching app.
-                mirror_data[repo] = releases
-                
-                print(f"✅ Saved {len(releases)} releases.")
-            elif r.status_code == 404:
-                print(f"❌ Repo not found.")
-            elif r.status_code == 403:
-                print(f"⚠️ Rate limit exceeded.")
-            else:
-                print(f"⚠️ Failed with status: {r.status_code}")
-                
-        except Exception as e:
-            print(f"❌ Error: {e}")
+            if clean_gh.lower() not in processed_github:
+                print(f"--------------------------------")
+                print(f"📥 Fetching GitHub: {clean_gh}")
+                try:
+                    url = f"https://api.github.com/repos/{clean_gh}/releases?per_page=50"
+                    r = requests.get(url, headers=gh_headers)
+                    
+                    if r.status_code == 200:
+                        mirror_data[clean_gh] = r.json() # Save using clean name (Owner/Repo)
+                        processed_github.add(clean_gh.lower())
+                        print(f"✅ Saved {len(r.json())} releases.")
+                    elif r.status_code == 404:
+                        print(f"❌ Repo not found.")
+                    elif r.status_code == 403:
+                        print(f"⚠️ Rate limit exceeded.")
+                    else:
+                        print(f"⚠️ Failed: {r.status_code}")
+                except Exception as e:
+                    print(f"❌ Error: {e}")
 
-    # Write the new mirror.json
+        # ---------------------------
+        # GITLAB HANDLER
+        # ---------------------------
+        if app.get("gitlabRepo"):
+            # GitLab uses URL Encoded paths (e.g. user%2Frepo)
+            raw_path = app["gitlabRepo"].strip("/")
+            
+            # Check for custom domain (Obtainium style)
+            domain = app.get("gitlabDomain", "gitlab.com")
+            
+            # Unique key for deduplication
+            unique_key = f"{domain}::{raw_path}".lower()
+
+            if unique_key not in processed_gitlab:
+                print(f"--------------------------------")
+                print(f"🦊 Fetching GitLab: {raw_path} ({domain})")
+                
+                try:
+                    # Encode path: pixeldroid/bunny -> pixeldroid%2Fbunny
+                    encoded_path = urllib.parse.quote(raw_path, safe='')
+                    
+                    # API: https://gitlab.example.com/api/v4/projects/{id}/releases
+                    url = f"https://{domain}/api/v4/projects/{encoded_path}/releases"
+                    
+                    # Note: GitLab usually doesn't require auth for public repos, 
+                    # but might rate limit on gitlab.com.
+                    r = requests.get(url, timeout=20)
+                    
+                    if r.status_code == 200:
+                        # IMPORTANT: Frontend expects data keyed by the repo path string
+                        mirror_data[raw_path] = r.json() 
+                        processed_gitlab.add(unique_key)
+                        print(f"✅ Saved {len(r.json())} releases.")
+                    else:
+                        print(f"❌ Failed: {r.status_code} - {r.text[:50]}")
+                except Exception as e:
+                    print(f"❌ Error: {e}")
+
+    # Write result
     try:
         with open(MIRROR_FILE, "w", encoding="utf-8") as f:
             json.dump(mirror_data, f, indent=2)
         print("--------------------------------")
-        print(f"🎉 Success! {MIRROR_FILE} generated.")
+        print(f"🎉 Success! {MIRROR_FILE} generated with {len(mirror_data)} repos.")
     except Exception as e:
         print(f"❌ Error writing file: {e}")
 
