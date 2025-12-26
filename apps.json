@@ -3226,7 +3226,7 @@
     "latestVersion": "Latest",
     "downloadUrl": "#",
     "repoUrl": "https://gitlab.shinice.net/pixeldroid/bunny",
-    "githubRepo": "",
+    "githubRepo": "https://gitlab.shinice.net/pixeldroid/bunny",
     "packageName": "eu.artectrex.bunny",
     "category": "Utility",
     "platform": "Android",
