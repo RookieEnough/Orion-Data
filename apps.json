@@ -331,7 +331,7 @@
     "repoUrl": "https://www.myfitnesspal.com/",
     "githubRepo": "RookieEnough/Orion-Data",
     "releaseKeyword": "myfitnesspa",
-    "packageName": "com.abdurazaaqmohammed.AntiSplit",
+    "packageName": "com.myfitnesspal.android",
     "category": "Health",
     "platform": "Android",
     "size": "Varies",
