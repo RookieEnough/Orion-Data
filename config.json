@@ -3,7 +3,7 @@
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/mirror.json",
   "maintenanceMode": false,
   "maintenanceMessage": "We are currently updating the server. Please check back in 30 minutes.",
-  "announcement": "The release of version 1.0.6 is scheduled soon. Development experienced a delay due to health related circumstances. Thank you for your patience, and Merry Christmas.",
+  "announcement": "Version 1.0.6 has now been released. Users are strongly encouraged to explore and test the new Settings options and share their feedback.",
   "latestStoreVersion": "1.0.6",
   "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.6/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
