@@ -3243,5 +3243,27 @@
       "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot06.png",
       "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot07.png"
     ]
+  },
+  {
+    "id": "smarttube",
+    "name": "SmartTube",
+    "description": "SmartTube is a free and open-source advanced media player for Android TVs and TV boxes. It allows you to play content from various public sources ( adfree youtube ) ",
+    "icon": "https://image2url.com/r2/bucket2/images/1766836823292-646448e1-251e-4163-a9e7-aea5625c4a33.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "",
+    "githubRepo": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "yuliskov",
+    "screenshots": [
+      "https://smarttubeapp.github.io/images/screens/smartyoutubetv_screenshot_01.jpg",
+      "https://smarttubeapp.github.io/images/screens/smartyoutubetv_screenshot_02.jpg",
+      "https://smarttubeapp.github.io/images/screens/smartyoutubetv_screenshot_03.jpg",
+      "https://smarttubeapp.github.io/images/screens/smartyoutubetv_screenshot_04.jpg"
+    ]
   }
 ]
