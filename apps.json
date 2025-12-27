@@ -3265,5 +3265,30 @@
       "https://smarttubeapp.github.io/images/screens/smartyoutubetv_screenshot_03.jpg",
       "https://smarttubeapp.github.io/images/screens/smartyoutubetv_screenshot_04.jpg"
     ]
+  },
+  {
+    "id": "tizentube-cobalt",
+    "name": "TizenTube Cobalt",
+    "description": "TizenTube Cobalt is an app based on Cobalt that enhances your favourite streaming website ( YT) viewing experience by removing ads, adding SponsorBlock support, and providing useful features like video speed control.",
+    "icon": "https://4pda.to/s/qirtlUyvAxfv1ij5aDI2hrz26kk9z0yQZTCz2s.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/reisxd/TizenTubeCobalt",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "reisxd",
+    "officialSite": "https://github.com/reisxd/TizenTubeCobalt",
+    "screenshots": [
+      "https://troypoint.com/wp-content/uploads/2025/08/TizenTube-9.jpg",
+      "https://troypoint.com/wp-content/uploads/2025/08/TizenTube-11.jpg",
+      "https://troypoint.com/wp-content/uploads/2025/08/TizenTube-14.jpg",
+      "https://troypoint.com/wp-content/uploads/2025/08/TizenTube-15.jpg"
+    ]
   }
 ]
