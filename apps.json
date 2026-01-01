@@ -3327,6 +3327,7 @@
     "githubRepo": "AumGupta/BoostX",
     "gitlabRepo": "",
     "gitlabDomain": "",
+    "releaseKeyword": "app-release",
     "packageName": "com.example.boostx",
     "category": "Utility",
     "platform": "Android",
