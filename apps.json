@@ -3290,5 +3290,29 @@
       "https://troypoint.com/wp-content/uploads/2025/08/TizenTube-14.jpg",
       "https://troypoint.com/wp-content/uploads/2025/08/TizenTube-15.jpg"
     ]
+  },
+  {
+    "id": "com.buzbuz.smartautoclicker",
+    "name": "Klick'r",
+    "description": "Automating clicks based on what is displayed.",
+    "icon": "https://github.com/Nain57/SmartAutoClicker/blob/master/smartautoclicker%2Fsrc%2Fmain%2Fic_smart_auto_clicker-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Nain57/Smart-AutoClicker",
+    "githubRepo": "Nain57/Smart-AutoClicker",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.buzbuz.smartautoclicker",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Nain57",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/user-attachments/assets/1f27715e-5cb8-410b-9b0e-d2134e662a99",
+      "https://github.com/user-attachments/assets/203490be-69a3-499a-9203-d003571d38b0",
+      "https://github.com/user-attachments/assets/3de36e63-7229-48e6-9198-03430cb98fcf"
+    ]
   }
 ]
