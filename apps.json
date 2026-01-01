@@ -3314,5 +3314,29 @@
       "https://github.com/user-attachments/assets/203490be-69a3-499a-9203-d003571d38b0",
       "https://github.com/user-attachments/assets/3de36e63-7229-48e6-9198-03430cb98fcf"
     ]
+  },
+  {
+    "id": "com.example.boostx",
+    "name": "BoostX",
+    "description": "BoostX is a minimal yet powerful sound enhancement tool that allows users to boost audio levels beyond system limits with sliders for fine adjustments, and real-time audio device insights.",
+    "icon": "https://raw.githubusercontent.com/AumGupta/BoostX/master/docs/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/AumGupta/BoostX",
+    "githubRepo": "AumGupta/BoostX",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.boostx",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "AumGupta",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/AumGupta/BoostX/master/docs/assets/screenshots/4.png",
+      "https://raw.githubusercontent.com/AumGupta/BoostX/master/docs/assets/screenshots/3.png",
+      "https://raw.githubusercontent.com/AumGupta/BoostX/master/docs/assets/screenshots/1.png"
+    ]
   }
 ]
