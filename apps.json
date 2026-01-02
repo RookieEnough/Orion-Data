@@ -3339,5 +3339,29 @@
       "https://raw.githubusercontent.com/AumGupta/BoostX/master/docs/assets/screenshots/3.png",
       "https://raw.githubusercontent.com/AumGupta/BoostX/master/docs/assets/screenshots/1.png"
     ]
+  },
+  {
+    "id": "streamflix-reborn",
+    "name": "Streamflix Reborn",
+    "description": "Streamflix Reborn is an independent continuation of the original Streamflix project created by Lory-Stan TANASI. This reborn version maintains the same educational purpose and functionality while ensuring continued development and support.\n\nIt is an open-source Android TV and mobile app that provides a user interface for accessing publicly available streaming content from various third-party providers.\n\nThe interface aggregates content from multiple sources and provides a convenient way to browse available streaming options.\n\n    • Open-source and ad-free interface\n    • Aggregates content from multiple       third-party providers\n    • No account required for the app interface\n    • Educational and personal use only\n    • Optimized UI & UX\n    • Multiple providers\n    • Resume from last playback position\n    • In-app update",
+    "icon": "https://github.com/streamflix-reborn/streamflix/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "github.com/streamflix-reborn/streamflix",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "Streamflix Reborn Community Project",
+    "officialSite": "github.com/streamflix-reborn/streamflix",
+    "screenshots": [
+      "https://github.com/streamflix-reborn/streamflix/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
+      "https://troypoint.com/wp-content/uploads/2025/01/How-to-Install-Streamflix-10.jpg",
+      "https://cdn.tarnkappe.info/wp-content/uploads/streamflix-reborn-watch-free.jpg"
+    ]
   }
 ]
