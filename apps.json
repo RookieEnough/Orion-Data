@@ -3388,5 +3388,30 @@
       "https://raw.githubusercontent.com/martinmimigames/little-file-explorer/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
       "https://raw.githubusercontent.com/martinmimigames/little-file-explorer/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ]
+  },
+  {
+    "id": "org.maintainteam.hypatia",
+    "name": "Hypatia",
+    "description": "Hypatia is the world's first FOSS malware scanner for Android. It is powered by ClamAV style signature databases.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/org.maintainteam.hypatia/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MaintainTeam/Hypatia",
+    "githubRepo": "MaintainTeam/Hypatia",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.maintainteam.hypatia",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MaintainTeam",
+    "officialSite": "",
+    "screenshots": [
+      "https://ibb.co/sJmQ65Pq",
+      "https://ibb.co/ZpKNY76Y",
+      "https://ibb.co/ymrx7Sb0"
+    ],
+    "releaseKeyword": "hypatia"
   }
 ]
