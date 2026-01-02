@@ -3413,5 +3413,30 @@
       "https://ibb.co/ymrx7Sb0"
     ],
     "releaseKeyword": "hypatia"
+  },
+  {
+    "id": "com.kieronquinn.app.darq",
+    "name": "DarQ",
+    "description": "DarQ provides a per-app selectable force dark option for Android 10 and above.",
+    "icon": "https://ibb.co/jPHtRjsM",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/KieronQuinn/DarQ",
+    "githubRepo": "KieronQuinn/DarQ",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.kieronquinn.app.darq",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "KieronQuinn",
+    "officialSite": "",
+    "screenshots": [
+      "https://ibb.co/ZRJnqgvH",
+      "https://ibb.co/6cHcZqY2",
+      "https://ibb.co/S46HBmjG"
+    ],
+    "releaseKeyword": "DarQ"
   }
 ]
