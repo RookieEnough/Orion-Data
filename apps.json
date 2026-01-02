@@ -3363,5 +3363,29 @@
       "https://troypoint.com/wp-content/uploads/2025/01/How-to-Install-Streamflix-10.jpg",
       "https://cdn.tarnkappe.info/wp-content/uploads/streamflix-reborn-watch-free.jpg"
     ]
+  },
+  {
+    "id": "com.martinmimigames.simplefileexplorer",
+    "name": "Little File Explorer",
+    "description": "A small, simple file explorer, designed with compatibility in mind.",
+    "icon": "https://raw.githubusercontent.com/martinmimigames/little-file-explorer/main/docs/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/martinmimigames/little-file-explorer",
+    "githubRepo": "martinmimigames/little-file-explorer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.martinmimigames.simplefileexplorer",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "martinmimigames",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/martinmimigames/little-file-explorer/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/martinmimigames/little-file-explorer/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/martinmimigames/little-file-explorer/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ]
   }
 ]
