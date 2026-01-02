@@ -3375,6 +3375,7 @@
     "repoUrl": "https://github.com/martinmimigames/little-file-explorer",
     "githubRepo": "martinmimigames/little-file-explorer",
     "gitlabRepo": "",
+    "releaseKeyword": "little.file",
     "gitlabDomain": "",
     "packageName": "com.martinmimigames.simplefileexplorer",
     "category": "Utility",
