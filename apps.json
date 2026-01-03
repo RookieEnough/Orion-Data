@@ -3438,5 +3438,30 @@
       "https://ibb.co/S46HBmjG"
     ],
     "releaseKeyword": "DarQ-v"
+  },
+  {
+    "id": "com.legendsayantan.adbtools",
+    "name": "ShizuTools",
+    "description": "Contains some easy-to-use tools to go beyond the level of control allowed by Android System.",
+    "icon": "https://iconpusher.com/_next/image?url=https%3A%2F%2Fimg.iconpusher.com%2Fcom.legendsayantan.adbtools%2F1.4.6.png&w=640&q=75",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/legendsayantan/ShizuTools",
+    "githubRepo": "legendsayantan/ShizuTools",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.legendsayantan.adbtools",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "legendsayantan",
+    "officialSite": "",
+    "screenshots": [
+      "https://ibb.co/84NQPb0y",
+      "https://ibb.co/p6QcMdT7",
+      "https://ibb.co/CK4pmFXF"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
