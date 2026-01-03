@@ -3512,5 +3512,30 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiLjJp2IN6apQUrIVPmFVo0vq-p-tDHHdC-5WxTw1Xs7Q2W3_dhoBBND8&s=10",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQswFW1UCy0TsSpXTlR84-l7zio04XDoCWzE0K_1FVTEw&s=10"
     ]
+  },
+  {
+    "id": "aniyomi",
+    "name": "Aniyomi",
+    "description": "Full-featured player and reader, based on Tachiyomi Mihon. Discover and watch anime, cartoons, series, and more – easier than ever on your Android device.",
+    "icon": "https://github.com/aniyomiorg/aniyomi/raw/main/.github/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/aniyomiorg/aniyomi",
+    "githubRepo": "aniyomiorg/aniyomi",
+    "releaseKeyword": "aniyomi",
+    "packageName": "xyz.jmir.tachiyomi.mi",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "aniyomiorg",
+    "screenshots": [
+      "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-1.jpg",
+      "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-3.jpg",
+      "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-7.jpg",
+      "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-10.jpg",
+      "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-11.jpg",
+      "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-13.jpg",
+    ]
   }
-]
+  ]
