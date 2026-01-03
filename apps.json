@@ -3463,5 +3463,30 @@
       "https://ibb.co/CK4pmFXF"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "org.woheller69.gptassist",
+    "name": "gptAssist",
+    "description": "gptAssist is a simple WebView wrapper for ChatGPT. It blocks all URLs which are not essential. It does not support login via Apple, Microsoft or Google account. Please use a web browser for initial sign up.",
+    "icon": "https://f-droid.org/repo/org.woheller69.gptassist/en-US/icon_K3SmX4z6CrgPDrCUtL_XECtz-g8Oo8xkVZhqeUkeEQM=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/woheller69/gptAssist",
+    "githubRepo": "woheller69/gptAssist",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.woheller69.gptassist",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "woheller69",
+    "officialSite": "",
+    "screenshots": [
+      "https://ibb.co/5hXR4d0c",
+      "https://ibb.co/CpQNxmwk",
+      "https://ibb.co/s9cZpGvc"
+    ],
+    "releaseKeyword": "org.woheller69"
   }
 ]
