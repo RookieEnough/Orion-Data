@@ -3559,4 +3559,26 @@
       "https://d107mjio2rjf74.cloudfront.net/sites/res/newHome/tick/features/playback/mobile/matrix.jpg",
       "https://d107mjio2rjf74.cloudfront.net/sites/res/newHome/tick/features/playback/mobile/kanban.jpg"
     ]
+  },
+  {
+    "id": "flauncher",
+    "name": "FLauncher",
+    "description": "FLauncher is an open-source alternative launcher for Android TV, built with Flutter.",
+    "icon": "https://raw.githubusercontent.com/svrooij/flauncher/master/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://gitlab.com/flauncher/flauncher/-/releases",
+    "repoUrl": "https://gitlab.com/flauncher/flauncher",
+    "releaseKeyword": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "svrooij",
+    "officialSite": "https://gitlab.com/flauncher/flauncher",
+    "screenshots": [
+      "https://raw.githubusercontent.com/svrooij/flauncher/master/screenshots/Screenshot_1624378896.png",
+      "https://raw.githubusercontent.com/svrooij/flauncher/master/screenshots/Screenshot_1624378921.png",
+      "https://raw.githubusercontent.com/svrooij/flauncher/master/screenshots/Screenshot_1624378938.png"
+    ]
   }
