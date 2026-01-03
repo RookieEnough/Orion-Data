@@ -3537,5 +3537,26 @@
       "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-11.jpg",
       "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-13.jpg",
     ]
+  },
+  {
+    "id": "premium-ticktick-windows-client",
+    "name": "Premium TickTick Windows Client",
+    "description": "Premium TickTick Windows Client",
+    "icon": "https://i.postimg.cc/C5PfPLSG/ticktick-Logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/yazdipour/unlimited-ticktick-windows/releases",
+    "repoUrl": "https://github.com/yazdipour/unlimited-ticktick-windows",
+    "releaseKeyword": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "yazdipour",
+    "officialSite": "https://github.com/yazdipour/unlimited-ticktick-windows",
+    "screenshots": [
+      "https://d107mjio2rjf74.cloudfront.net/sites/res/newFeatures/tick/feature4/month.png",
+      "https://d107mjio2rjf74.cloudfront.net/sites/res/newHome/tick/features/playback/mobile/matrix.jpg",
+      "https://d107mjio2rjf74.cloudfront.net/sites/res/newHome/tick/features/playback/mobile/kanban.jpg"
+    ]
   }
-  ]
