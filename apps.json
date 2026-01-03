@@ -3488,5 +3488,29 @@
       "https://ibb.co/s9cZpGvc"
     ],
     "releaseKeyword": "org.woheller69"
+  },
+  {
+    "id": "genp",
+    "name": "GenP",
+    "description": "Free Adobe apps",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaNPqZ-Wf_4xu_FtCk38G1v47yjP2RUIqMvvLI4W-jlQ&s",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://gen.paramore.su",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Unknown",
+    "officialSite": "https://gen.paramore.su",
+    "screenshots": [
+      "https://hdegy.net/wp-content/uploads/2025/02/Genp-3.4.3-1024x662.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiLjJp2IN6apQUrIVPmFVo0vq-p-tDHHdC-5WxTw1Xs7Q2W3_dhoBBND8&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQswFW1UCy0TsSpXTlR84-l7zio04XDoCWzE0K_1FVTEw&s=10"
+    ]
   }
 ]
