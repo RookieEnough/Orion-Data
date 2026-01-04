@@ -3523,12 +3523,14 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/aniyomiorg/aniyomi",
     "githubRepo": "aniyomiorg/aniyomi",
-    "releaseKeyword": "aniyomi",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
     "packageName": "xyz.jmir.tachiyomi.mi",
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "aniyomiorg",
+    "officialSite": "",
     "screenshots": [
       "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-1.jpg",
       "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-3.jpg",
@@ -3536,7 +3538,8 @@
       "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-10.jpg",
       "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-11.jpg",
       "https://imag.malavida.com/mvimgbig/download-fs/aniyomi-40302-13.jpg"
-    ]
+    ],
+    "releaseKeyword": "aniyomi"
   },
   {
     "id": "premium-ticktick-windows-client",
@@ -3547,6 +3550,10 @@
     "latestVersion": "Latest",
     "downloadUrl": "https://github.com/yazdipour/unlimited-ticktick-windows/releases",
     "repoUrl": "https://github.com/yazdipour/unlimited-ticktick-windows",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
@@ -3569,6 +3576,10 @@
     "latestVersion": "Latest",
     "downloadUrl": "https://gitlab.com/flauncher/flauncher/-/releases",
     "repoUrl": "https://gitlab.com/flauncher/flauncher",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
