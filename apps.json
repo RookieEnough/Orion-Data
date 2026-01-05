@@ -3590,5 +3590,28 @@
       "https://raw.githubusercontent.com/svrooij/flauncher/master/screenshots/Screenshot_1624378921.png",
       "https://raw.githubusercontent.com/svrooij/flauncher/master/screenshots/Screenshot_1624378938.png"
     ]
+  },
+  {
+    "id": "ai-hub",
+    "name": "AI Hub",
+    "description": "AI Hub is a simple Android app that lets you use multiple AI tools in one place by disabling unnecessary connections for better privacy. It includes a clean tab layout and built-in browser views, making it easy to switch between AI assistants safely and efficiently.",
+    "icon": "https://raw.githubusercontent.com/SilentCoderHere/aihub/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/SilentCoderHere/aihub",
+    "githubRepo": "SilentCoderHere/aihub",
+    "releaseKeyword": "app-release",
+    "packageName": "com.foss.aihub",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Silent Coder",
+    "screenshots": [
+      "https://raw.githubusercontent.com/SilentCoderHere/aihub/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/SilentCoderHere/aihub/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/SilentCoderHere/aihub/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/SilentCoderHere/aihub/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+    ]
   }
 ]
