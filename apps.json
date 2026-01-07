@@ -3637,5 +3637,32 @@
       "https://private-user-images.githubusercontent.com/42808385/531928143-11b92964-2547-4d50-b197-b2eddbb43164.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njc2MTM1MjUsIm5iZiI6MTc2NzYxMzIyNSwicGF0aCI6Ii80MjgwODM4NS81MzE5MjgxNDMtMTFiOTI5NjQtMjU0Ny00ZDUwLWIxOTctYjJlZGRiYjQzMTY0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTA1VDExNDAyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFiNmJmNTRjOTIwNTFhMDdjMWU1M2U2ODZmYThiMWI2OTdiNjEyYzk0MmJiMDU2ZDE4MDYxMDk2OTQwMDRjNzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.k1sO5qCcfWfQTezlAa4A_kUjh9dvZBkC55sj5tomJSU",
       "https://private-user-images.githubusercontent.com/42808385/531928272-3b0dcb6c-1189-4e69-b4ec-e31cf526f98f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njc2MTM1MjUsIm5iZiI6MTc2NzYxMzIyNSwicGF0aCI6Ii80MjgwODM4NS81MzE5MjgyNzItM2IwZGNiNmMtMTE4OS00ZTY5LWI0ZWMtZTMxY2Y1MjZmOThmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTA1VDExNDAyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk5NzhjMWI1YzBjMTZlOTZkZjllZWZmYmZiMmJjMGE2Y2U5ZTMyNzU3NDlhNzlhOGY4ZTY4MDI3NjA2ZmMzYzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.1hu2Q1QwZCgaHtY3RfGd1WHu7ZITvZN2DVFWzhf39KQ"
     ]
+  },
+  {
+    "id": "urlcheck",
+    "name": "URLCheck",
+    "description": "URLCheck acts as an amazingly customizable and powerful intermediary when opening url links, allowing, among other things: to remove trackers, affiliate links, unnecessary elements, check Hosts, facilitating link holding and sharing, protecting against certain phishing techniques and many more...",
+    "icon": "https://f-droid.org/repo/com.trianguloy.urlchecker/en-US/icon_rZsKdOLVtJ8ntxqmPOAu37uqpFBryzGzV7uWWeicfL4=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/TrianguloY/URLCheck",
+    "githubRepo": "TrianguloY/URLCheck",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.trianguloy.urlchecker",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "TrianguloY",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1-title.png",
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2-dialog.png",
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7modules.png",
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3-dialog.png",
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/enUS/images/phoneScreenshots/6-modules.png"
+    ],
+    "releaseKeyword": "URLCheck"
   }
 ]
