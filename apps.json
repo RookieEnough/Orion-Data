@@ -3715,5 +3715,29 @@
       "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Mobile/main/assets/images/4.jpg"
     ],
     "releaseKeyword": "SpotiFLAC"
+  },
+  {
+    "id": "com.ichi2.anki",
+    "name": "AnkiDroid",
+    "description": "A semi-official port of the open source Anki spaced repetition flashcard system to Android. Memorize anything with AnkiDroid!",
+    "icon": "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/docs/graphics/logos/ankidroid_logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ankidroid/Anki-Android",
+    "githubRepo": "ankidroid/Anki-Android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ichi2.anki",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ankidroid",
+    "officialSite": "",
+    "screenshots": [
+      "https://ankidroid.org/docs/img/1-decks.png",
+      "https://ankidroid.org/docs/img/2-navigation_drawer.png",
+      "https://ankidroid.org/docs/img/4-reviewer.png"
+    ]
   }
 ]
