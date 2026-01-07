@@ -3613,5 +3613,29 @@
       "https://raw.githubusercontent.com/SilentCoderHere/aihub/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
       "https://raw.githubusercontent.com/SilentCoderHere/aihub/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ]
+  },
+  {
+    "id": "phantom-scripter",
+    "name": "Phantom Scripter",
+    "description": "A simple scripting tool that lets you launch files or open websites based on your input, no matter where you type. ",
+    "icon": "https://raw.githubusercontent.com/StormTersteeg/phantom-scripter/refs/heads/main/resources/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/StormTersteeg/phantom-scripter/releases/tag/1.01",
+    "repoUrl": "https://github.com/StormTersteeg/phantom-scripter",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Storm-Julian Tersteeg",
+    "officialSite": "https://github.com/StormTersteeg/phantom-scripter",
+    "screenshots": [
+      "https://private-user-images.githubusercontent.com/42808385/413548611-2aa742e9-9b7b-4d3e-ad5b-cddfb1c74fe7.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njc2MTM1MjUsIm5iZiI6MTc2NzYxMzIyNSwicGF0aCI6Ii80MjgwODM4NS80MTM1NDg2MTEtMmFhNzQyZTktOWI3Yi00ZDNlLWFkNWItY2RkZmIxYzc0ZmU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTA1VDExNDAyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTczMDMwYWFjYmNhYTA1YWRkNTI0ZWExNjk4Y2UzM2Q0ODMwZTE4YmE0ZGUwYTg1MjJjZmI2MjNkNmY0ZGJiZDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ybpqyGx3a8tRN4QS-0z9DZTAqUBPsTKeN01sanaie5U",
+      "https://private-user-images.githubusercontent.com/42808385/531928143-11b92964-2547-4d50-b197-b2eddbb43164.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njc2MTM1MjUsIm5iZiI6MTc2NzYxMzIyNSwicGF0aCI6Ii80MjgwODM4NS81MzE5MjgxNDMtMTFiOTI5NjQtMjU0Ny00ZDUwLWIxOTctYjJlZGRiYjQzMTY0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTA1VDExNDAyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFiNmJmNTRjOTIwNTFhMDdjMWU1M2U2ODZmYThiMWI2OTdiNjEyYzk0MmJiMDU2ZDE4MDYxMDk2OTQwMDRjNzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.k1sO5qCcfWfQTezlAa4A_kUjh9dvZBkC55sj5tomJSU",
+      "https://private-user-images.githubusercontent.com/42808385/531928272-3b0dcb6c-1189-4e69-b4ec-e31cf526f98f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njc2MTM1MjUsIm5iZiI6MTc2NzYxMzIyNSwicGF0aCI6Ii80MjgwODM4NS81MzE5MjgyNzItM2IwZGNiNmMtMTE4OS00ZTY5LWI0ZWMtZTMxY2Y1MjZmOThmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTA1VDExNDAyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk5NzhjMWI1YzBjMTZlOTZkZjllZWZmYmZiMmJjMGE2Y2U5ZTMyNzU3NDlhNzlhOGY4ZTY4MDI3NjA2ZmMzYzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.1hu2Q1QwZCgaHtY3RfGd1WHu7ZITvZN2DVFWzhf39KQ"
+    ]
   }
 ]
