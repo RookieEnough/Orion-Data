@@ -3689,5 +3689,31 @@
       "https://raw.githubusercontent.com/PranshulGG/RecordMaster/master/prev/prev_3.png"
     ],
     "releaseKeyword": "RecordMaster"
+  },
+  {
+    "id": "spotiflac-mobile",
+    "name": "SpotiFLAC-Mobile",
+    "description": "Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music - no account required.",
+    "icon": "https://github.com/zarzet/SpotiFLAC-Mobile/raw/main/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/zarzet/SpotiFLAC-Mobile",
+    "githubRepo": "zarzet/SpotiFLAC-Mobile",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.zarz.spotiflac",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "zarzet",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Mobile/main/assets/images/1.jpg",
+      "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Mobile/main/assets/images/2.jpg",
+      "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Mobile/main/assets/images/3.jpg",
+      "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Mobile/main/assets/images/4.jpg"
+    ],
+    "releaseKeyword": "SpotiFLAC"
   }
 ]
