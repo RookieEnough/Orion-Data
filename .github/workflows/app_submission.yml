@@ -7,8 +7,8 @@ on:
 
 jobs:
   process-submission:
-    # Only run if the issue title implies a submission AND the label is 'approved'
-    if: startsWith(github.event.issue.title, 'App Submission') && github.event.label.name == 'approved'
+    # Only run if the issue title implies a submission AND the label is 'approved' (case-insensitive check)
+    if: startsWith(github.event.issue.title, 'App Submission') && (github.event.label.name == 'approved' || github.event.label.name == 'Approved')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -34,17 +34,44 @@ jobs:
           const issueBody = process.env.ISSUE_BODY;
           
           try {
-            // Extract JSON content between ```json and ```
-            const match = issueBody.match(/```json([\s\S]*?)```/);
-            if (!match) throw new Error("No JSON code block found in issue.");
+            let jsonStr = "";
             
-            const newApps = JSON.parse(match[1].trim());
+            // Strategy 1: Look for ```json block
+            const jsonMatch = issueBody.match(/```json([\s\S]*?)```/);
+            
+            // Strategy 2: Look for generic ``` block
+            const genericMatch = issueBody.match(/```([\s\S]*?)```/);
+            
+            if (jsonMatch) {
+                jsonStr = jsonMatch[1].trim();
+            } else if (genericMatch) {
+                jsonStr = genericMatch[1].trim();
+            } else {
+                // Strategy 3: Fallback - Look for raw JSON array
+                const start = issueBody.indexOf('[');
+                const end = issueBody.lastIndexOf(']');
+                if (start !== -1 && end !== -1) {
+                    jsonStr = issueBody.substring(start, end + 1).trim();
+                }
+            }
+
+            if (!jsonStr) throw new Error("No JSON code block or array found in issue body.");
+            
+            console.log("Parsing content:", jsonStr.substring(0, 100) + "...");
+
+            const newApps = JSON.parse(jsonStr);
             if (!Array.isArray(newApps)) throw new Error("JSON is not an array.");
             
             console.log(`Found ${newApps.length} new apps.`);
             
             // Read existing apps.json
-            const currentApps = JSON.parse(fs.readFileSync('apps.json', 'utf8'));
+            let currentApps = [];
+            try {
+                currentApps = JSON.parse(fs.readFileSync('apps.json', 'utf8'));
+            } catch (e) {
+                console.log("apps.json not found or empty, starting new.");
+            }
+
             let addedCount = 0;
             let addedNames = [];
             
