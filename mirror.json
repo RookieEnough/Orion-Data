@@ -177,7 +177,7 @@
           "state": "uploaded",
           "size": 64205011,
           "digest": "sha256:6426c398d24ac279c8946e3ef4f428c82edb6fe2aa7fd8c6c8210c117f466601",
-          "download_count": 2228,
+          "download_count": 2230,
           "created_at": "2025-12-31T13:18:39Z",
           "updated_at": "2025-12-31T13:18:41Z",
           "browser_download_url": "https://github.com/RookieEnough/Revanced-Orion/releases/download/all/facebook-arm64-v8a-revanced-v490.0.0.63.82.apk"
@@ -2259,7 +2259,7 @@
           "state": "uploaded",
           "size": 63593463,
           "digest": "sha256:0d59233aca9c245843f806580aa2a1508a27adc76220537e17b9305f5a1c2c0b",
-          "download_count": 509,
+          "download_count": 511,
           "created_at": "2026-01-02T07:22:15Z",
           "updated_at": "2026-01-02T07:22:18Z",
           "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/26.01.02/music-revanced-extended-v8.30.54-arm-v7a.apk"
@@ -2367,7 +2367,7 @@
           "state": "uploaded",
           "size": 123248329,
           "digest": "sha256:a5f3e41a205a35f212041f38c5228b462fea8bdf58c02dce58f9b08bbb147bad",
-          "download_count": 748,
+          "download_count": 749,
           "created_at": "2026-01-02T07:22:03Z",
           "updated_at": "2026-01-02T07:22:07Z",
           "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/26.01.02/youtube-revanced-extended-v20.05.46-all.apk"
@@ -2566,7 +2566,7 @@
           "state": "uploaded",
           "size": 174272736,
           "digest": "sha256:9572cfd87381c71f4e68b4c239a036ed6aa6dfa21c0878e3b25d615a9606ddc6",
-          "download_count": 5271,
+          "download_count": 5273,
           "created_at": "2025-12-31T10:42:59Z",
           "updated_at": "2025-12-31T10:43:06Z",
           "browser_download_url": "https://github.com/krvstek/rvx-apks/releases/download/25.12.31-pre/x-piko-v11.49.1-release.0-all.apk"
@@ -4244,7 +4244,7 @@
           "state": "uploaded",
           "size": 10462637,
           "digest": "sha256:fb08abbf69224c35e2b779b805fed1313a37eee8a974c0e5790ee778da9b38c2",
-          "download_count": 33020,
+          "download_count": 33025,
           "created_at": "2025-12-17T13:10:44Z",
           "updated_at": "2025-12-17T13:10:45Z",
           "browser_download_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.5.7-rc0/eu.darken.sdmse-v1.5.7-rc0-10507000-FOSS-RELEASE.apk"
@@ -16113,7 +16113,7 @@
           "state": "uploaded",
           "size": 27027749,
           "digest": "sha256:19d8adc99d22cd9ebc08786b7982744be94daccc9b3f1725812a776789278f0d",
-          "download_count": 110326,
+          "download_count": 110330,
           "created_at": "2025-07-28T08:59:43Z",
           "updated_at": "2025-07-28T08:59:54Z",
           "browser_download_url": "https://github.com/MuntashirAkon/AppManager/releases/download/v4.0.5/AppManager_v4.0.5.apk"
@@ -27303,7 +27303,7 @@
           "state": "uploaded",
           "size": 24215171,
           "digest": "sha256:0048811386587eb84f9447adbd4ba63d6380404e363be34b96d696e3ea45efff",
-          "download_count": 128725,
+          "download_count": 128742,
           "created_at": "2025-12-07T09:06:52Z",
           "updated_at": "2025-12-07T09:06:54Z",
           "browser_download_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.2.9/app-arm64-v8a-release.apk"
@@ -96761,7 +96761,7 @@
           "state": "uploaded",
           "size": 144991600,
           "digest": null,
-          "download_count": 150035,
+          "download_count": 150040,
           "created_at": "2024-10-16T17:02:25Z",
           "updated_at": "2024-10-16T17:04:49Z",
           "browser_download_url": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-universal-release.apk"
@@ -96797,7 +96797,7 @@
           "state": "uploaded",
           "size": 44364789,
           "digest": null,
-          "download_count": 14212,
+          "download_count": 14213,
           "created_at": "2024-10-16T17:05:31Z",
           "updated_at": "2024-10-16T17:06:18Z",
           "browser_download_url": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-x86-release.apk"
@@ -98987,7 +98987,7 @@
           "state": "uploaded",
           "size": 35416800,
           "digest": null,
-          "download_count": 477018,
+          "download_count": 477020,
           "created_at": "2024-01-22T10:04:26Z",
           "updated_at": "2024-01-22T10:04:35Z",
           "browser_download_url": "https://github.com/JunkFood02/Seal/releases/download/v1.11.3/Seal-1.11.3-arm64-v8a-release.apk"
@@ -108028,7 +108028,7 @@
           "state": "uploaded",
           "size": 42929474,
           "digest": null,
-          "download_count": 36031,
+          "download_count": 36033,
           "created_at": "2025-02-20T01:20:14Z",
           "updated_at": "2025-02-20T01:20:28Z",
           "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-android-google-play.apk"
@@ -125709,7 +125709,7 @@
           "state": "uploaded",
           "size": 17617575,
           "digest": "sha256:1216f0de6712b04f910496b00ccd530bd7780082b5cfc494810615718f63df38",
-          "download_count": 25445,
+          "download_count": 25448,
           "created_at": "2025-09-20T21:52:27Z",
           "updated_at": "2025-09-20T21:52:29Z",
           "browser_download_url": "https://github.com/KieronQuinn/Smartspacer/releases/download/1.10.1/Smartspacer-v1.10.1.apk"
@@ -128595,7 +128595,7 @@
           "state": "uploaded",
           "size": 86060407,
           "digest": "sha256:c214f4bf971bd2a6037ee12781c11304145c9e255bf473ab9e03548cdfd599bc",
-          "download_count": 219,
+          "download_count": 220,
           "created_at": "2026-01-06T20:50:31Z",
           "updated_at": "2026-01-06T20:50:35Z",
           "browser_download_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.4/mpvEx-universal-v1.2.4.apk"
@@ -128831,7 +128831,7 @@
           "state": "uploaded",
           "size": 86052215,
           "digest": "sha256:4a2665956574720de66bfb6f14db3c3417d006845326c29bc4d2990c0c3291f3",
-          "download_count": 753,
+          "download_count": 754,
           "created_at": "2026-01-04T18:49:19Z",
           "updated_at": "2026-01-04T18:49:23Z",
           "browser_download_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.3/mpvEx-universal-v1.2.3.apk"
@@ -132533,7 +132533,7 @@
           "state": "uploaded",
           "size": 69358844,
           "digest": "sha256:01b4f754c3aff5383871d72ad143759e589a927e83a99f9d5803250e66e65d3d",
-          "download_count": 4790,
+          "download_count": 4796,
           "created_at": "2025-12-27T09:53:16Z",
           "updated_at": "2025-12-27T09:53:21Z",
           "browser_download_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.5.2/image-toolbox-3.5.2-arm64-v8a.apk"
@@ -149838,7 +149838,7 @@
           "state": "uploaded",
           "size": 21519596,
           "digest": "sha256:51bc643fda120bbd0ba2a8d368e6bb0d4e90239e1dde8b0b2a1b6b25896472e4",
-          "download_count": 439,
+          "download_count": 440,
           "created_at": "2025-12-30T16:03:41Z",
           "updated_at": "2025-12-30T16:03:42Z",
           "browser_download_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.8.1/app-x86-release.apk"
@@ -169550,7 +169550,7 @@
           "state": "uploaded",
           "size": 1650102,
           "digest": "sha256:2de278a00056bfe7f378b79e1ccde54137e6a7e1fa4ae048ad980ec1358b6eb2",
-          "download_count": 10834,
+          "download_count": 10837,
           "created_at": "2025-11-12T21:23:51Z",
           "updated_at": "2025-11-12T21:23:51Z",
           "browser_download_url": "https://github.com/ycngmn/Nobook/releases/download/v0.1.1/Nobook_v0.1.1.apk"
@@ -173700,7 +173700,7 @@
           "state": "uploaded",
           "size": 96856576,
           "digest": "sha256:1095597b0ef946027c2faff1750fb736ab7abdaa811a5b9081a17b38ce46999e",
-          "download_count": 60297,
+          "download_count": 60303,
           "created_at": "2025-11-20T11:11:37Z",
           "updated_at": "2025-11-20T11:11:45Z",
           "browser_download_url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v2.0.3/Flow-Launcher-Setup.exe"
@@ -188416,7 +188416,7 @@
           "state": "uploaded",
           "size": 106629514,
           "digest": "sha256:b17abff39d194588cd632769dd1f0dd04779224e915f543741dbf3611ead2dad",
-          "download_count": 14114,
+          "download_count": 14115,
           "created_at": "2025-08-12T02:41:00Z",
           "updated_at": "2025-08-12T02:41:03Z",
           "browser_download_url": "https://github.com/ShareX/ShareX/releases/download/v18.0.0/ShareX-18.0.0-setup.exe"
@@ -188543,7 +188543,7 @@
           "state": "uploaded",
           "size": 54104051,
           "digest": null,
-          "download_count": 1038646,
+          "download_count": 1038647,
           "created_at": "2025-05-25T23:56:22Z",
           "updated_at": "2025-05-25T23:56:23Z",
           "browser_download_url": "https://github.com/ShareX/ShareX/releases/download/v17.1.0/ShareX-17.1.0-setup.exe"
@@ -188670,7 +188670,7 @@
           "state": "uploaded",
           "size": 45438484,
           "digest": null,
-          "download_count": 1558750,
+          "download_count": 1558751,
           "created_at": "2025-01-08T02:16:29Z",
           "updated_at": "2025-01-08T02:16:30Z",
           "browser_download_url": "https://github.com/ShareX/ShareX/releases/download/v17.0.0/ShareX-17.0.0-setup.exe"
@@ -188797,7 +188797,7 @@
           "state": "uploaded",
           "size": 41055033,
           "digest": null,
-          "download_count": 2047793,
+          "download_count": 2047794,
           "created_at": "2024-05-09T03:49:29Z",
           "updated_at": "2024-05-09T03:49:30Z",
           "browser_download_url": "https://github.com/ShareX/ShareX/releases/download/v16.1.0/ShareX-16.1.0-setup.exe"
@@ -194341,7 +194341,7 @@
           "state": "uploaded",
           "size": 148917720,
           "digest": "sha256:4d93016570f982326eebdfc9068e924ff21f6448534ea32672bb4c1d52a8193b",
-          "download_count": 13095,
+          "download_count": 13096,
           "created_at": "2025-12-08T20:30:15Z",
           "updated_at": "2025-12-08T20:30:31Z",
           "browser_download_url": "https://github.com/ramensoftware/windhawk/releases/download/v1.7.3/windhawk_setup_offline.exe"
@@ -204304,7 +204304,7 @@
           "state": "uploaded",
           "size": 320614,
           "digest": null,
-          "download_count": 52704,
+          "download_count": 52705,
           "created_at": "2025-04-17T09:23:31Z",
           "updated_at": "2025-04-17T09:23:32Z",
           "browser_download_url": "https://github.com/builtbybel/TidyOS/releases/download/0.62/TidyOS.zip"
@@ -210547,7 +210547,7 @@
           "state": "uploaded",
           "size": 1571044,
           "digest": "sha256:4ca3b7c6f2f67866b92622818b58233dc70367be2f36b498eb0bdeaaa44b53f4",
-          "download_count": 30497,
+          "download_count": 30498,
           "created_at": "2025-08-03T11:18:38Z",
           "updated_at": "2025-08-03T11:18:38Z",
           "browser_download_url": "https://github.com/ip7z/7zip/releases/download/25.01/7z2501-linux-x64.tar.xz"
@@ -211358,7 +211358,7 @@
           "state": "uploaded",
           "size": 1641049,
           "digest": "sha256:7b67375b2b303e05d2989f23e986126eda67435c71231fa4b0bdaeb7a619a0a6",
-          "download_count": 4572545,
+          "download_count": 4572553,
           "created_at": "2025-07-05T14:34:01Z",
           "updated_at": "2025-07-05T14:34:01Z",
           "browser_download_url": "https://github.com/ip7z/7zip/releases/download/25.00/7z2500-x64.exe"
@@ -211394,7 +211394,7 @@
           "state": "uploaded",
           "size": 1991680,
           "digest": "sha256:b48e905ed02c530638e6173f2d743668e63561aac1914d2723fbee5690792272",
-          "download_count": 1891248,
+          "download_count": 1891256,
           "created_at": "2025-07-05T14:34:01Z",
           "updated_at": "2025-07-05T14:34:02Z",
           "browser_download_url": "https://github.com/ip7z/7zip/releases/download/25.00/7z2500-x64.msi"
@@ -212656,7 +212656,7 @@
           "state": "uploaded",
           "size": 1971200,
           "digest": null,
-          "download_count": 5471695,
+          "download_count": 5471700,
           "created_at": "2024-08-12T12:00:13Z",
           "updated_at": "2024-08-12T12:00:43Z",
           "browser_download_url": "https://github.com/ip7z/7zip/releases/download/24.08/7z2408-x64.msi"
@@ -213323,7 +213323,7 @@
           "state": "uploaded",
           "size": 1331365,
           "digest": null,
-          "download_count": 635994,
+          "download_count": 635997,
           "created_at": "2024-06-19T10:42:53Z",
           "updated_at": "2024-06-19T10:43:10Z",
           "browser_download_url": "https://github.com/ip7z/7zip/releases/download/24.07/7z2407.exe"
@@ -213882,7 +213882,7 @@
           "state": "uploaded",
           "size": 1619556,
           "digest": null,
-          "download_count": 3049146,
+          "download_count": 3049147,
           "created_at": "2024-05-27T07:53:29Z",
           "updated_at": "2024-05-27T07:53:49Z",
           "browser_download_url": "https://github.com/ip7z/7zip/releases/download/24.06/7z2406-x64.exe"
@@ -215288,7 +215288,7 @@
           "state": "uploaded",
           "size": 584704,
           "digest": null,
-          "download_count": 65562,
+          "download_count": 65563,
           "created_at": "2023-12-17T10:18:34Z",
           "updated_at": "2023-12-17T10:18:42Z",
           "browser_download_url": "https://github.com/ip7z/7zip/releases/download/23.01/7zr.exe"
@@ -217166,7 +217166,7 @@
           "state": "uploaded",
           "size": 566,
           "digest": "sha256:01e82b10062a28d5507c3921cd92fa550012492d84e760e249e55d57a4c7cbf5",
-          "download_count": 1154,
+          "download_count": 1158,
           "created_at": "2025-12-27T18:17:50Z",
           "updated_at": "2025-12-27T18:17:51Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9/npp.8.9.checksums.sha256.sig"
@@ -217310,7 +217310,7 @@
           "state": "uploaded",
           "size": 566,
           "digest": "sha256:e9e7d324e0a5c3ff2edf2c86cca4903f912dc8d9b2c6bbdeb7c07a81cb93e76f",
-          "download_count": 1214,
+          "download_count": 1217,
           "created_at": "2025-12-27T18:17:33Z",
           "updated_at": "2025-12-27T18:17:34Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9/npp.8.9.Installer.exe.sig"
@@ -220048,7 +220048,7 @@
           "state": "uploaded",
           "size": 6017669,
           "digest": "sha256:51454878c3c3bece8e8f77ef2d88e750c18a74e47f5784180167bb1f50f55329",
-          "download_count": 12185,
+          "download_count": 12187,
           "created_at": "2025-11-18T17:11:58Z",
           "updated_at": "2025-11-18T17:12:15Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.8/npp.8.8.8.portable.x64.7z"
@@ -222301,7 +222301,7 @@
           "state": "uploaded",
           "size": 1150,
           "digest": "sha256:46a75e47994649d9fd5560bf16eab515346611ec9c60f752fca20357b5d4a4fb",
-          "download_count": 206202,
+          "download_count": 206203,
           "created_at": "2025-08-13T23:37:00Z",
           "updated_at": "2025-08-13T23:37:01Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.5/npp.8.8.5.checksums.sha256"
@@ -222445,7 +222445,7 @@
           "state": "uploaded",
           "size": 6722640,
           "digest": "sha256:05abc57952974d08feafa399d6fdb37945a3fd0a10f37833dd837a5788e421d5",
-          "download_count": 1520261,
+          "download_count": 1520264,
           "created_at": "2025-08-13T23:37:15Z",
           "updated_at": "2025-08-13T23:37:25Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.5/npp.8.8.5.Installer.exe"
@@ -240409,7 +240409,7 @@
           "state": "uploaded",
           "size": 4850760,
           "digest": null,
-          "download_count": 1197103,
+          "download_count": 1197109,
           "created_at": "2024-05-09T23:49:09Z",
           "updated_at": "2024-05-09T23:49:19Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.6/npp.8.6.6.Installer.x64.exe"
@@ -259346,7 +259346,7 @@
           "state": "uploaded",
           "size": 4533912,
           "digest": null,
-          "download_count": 2188278,
+          "download_count": 2188279,
           "created_at": "2022-07-15T16:21:59Z",
           "updated_at": "2022-07-15T16:22:02Z",
           "browser_download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.4/npp.8.4.4.Installer.x64.exe"
@@ -264267,7 +264267,7 @@
           "state": "uploaded",
           "size": 64575292,
           "digest": "sha256:1574688e54009b40faeffe5752b5f822ff251e2d4228e8ec60ec0f99f3423cda",
-          "download_count": 1999,
+          "download_count": 2000,
           "created_at": "2025-12-11T19:09:30Z",
           "updated_at": "2025-12-11T19:10:09Z",
           "browser_download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-sources-3.7.7.tar.gz"
@@ -264483,7 +264483,7 @@
           "state": "uploaded",
           "size": 26203265,
           "digest": "sha256:44681b410f490084bef671ce824798fa18d37be6fe37fe007f6893ca1bc84953",
-          "download_count": 3167,
+          "download_count": 3170,
           "created_at": "2025-12-11T19:11:45Z",
           "updated_at": "2025-12-11T19:12:03Z",
           "browser_download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-win-3.7.7-arm64.zip"
@@ -265207,7 +265207,7 @@
           "state": "uploaded",
           "size": 48332800,
           "digest": "sha256:8f1bf39042bcf0f0de19dfbfee403147ef171eab2549aeb5a71bc92c138029e0",
-          "download_count": 20440,
+          "download_count": 20443,
           "created_at": "2025-12-03T08:03:26Z",
           "updated_at": "2025-12-03T08:05:34Z",
           "browser_download_url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.0-alpha-2/Audacity-4.0.0.253031630.f3e3e3b.-x86_64.msi"
@@ -265623,7 +265623,7 @@
           "state": "uploaded",
           "size": 16574912,
           "digest": "sha256:ee0bcad98c38084510858bf6eea3315986096af850c1d0b1edd951879c3185d3",
-          "download_count": 650404,
+          "download_count": 650407,
           "created_at": "2025-08-07T15:06:53Z",
           "updated_at": "2025-08-07T15:06:56Z",
           "browser_download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.5/audacity-win-3.7.5-32bit.exe"
@@ -278433,7 +278433,7 @@
           "state": "uploaded",
           "size": 14336008,
           "digest": null,
-          "download_count": 750409,
+          "download_count": 750410,
           "created_at": "2022-12-06T18:24:59Z",
           "updated_at": "2022-12-06T18:25:00Z",
           "browser_download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.2.2/audacity-win-3.2.2-x64.exe"
@@ -285048,7 +285048,7 @@
           "state": "uploaded",
           "size": 1274,
           "digest": "sha256:3683a2ca5eb4576982c48daf7d697d6ba6440def6789ac748fca8cf1776f8dfc",
-          "download_count": 2016,
+          "download_count": 2017,
           "created_at": "2025-12-29T01:27:21Z",
           "updated_at": "2025-12-29T01:27:22Z",
           "browser_download_url": "https://github.com/Raphire/Win11Debloat/releases/download/2025.12.29/MigrateSavedSettings.ps1"
@@ -286424,7 +286424,7 @@
           "state": "uploaded",
           "size": 8120,
           "digest": "sha256:a2a2d3dab1f43f2f722f091701a802fd39df0077913dbb2714d563995a5cf37a",
-          "download_count": 3946,
+          "download_count": 3949,
           "created_at": "2025-11-26T06:37:09Z",
           "updated_at": "2025-11-26T06:37:10Z",
           "browser_download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.96.1/GroupPolicyObjectFiles-0.96.1.zip"
@@ -287417,7 +287417,7 @@
           "state": "uploaded",
           "size": 331421592,
           "digest": "sha256:967b0e6c47752702472a6c731cd4bb053d9216159a2b6becaa76466f3cd987d8",
-          "download_count": 654031,
+          "download_count": 654032,
           "created_at": "2025-10-15T23:14:13Z",
           "updated_at": "2025-10-15T23:14:26Z",
           "browser_download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.95.0/PowerToysSetup-0.95.0-x64.exe"
@@ -288031,7 +288031,7 @@
           "state": "uploaded",
           "size": 319273856,
           "digest": "sha256:e83ff71f951c32218f4f271cd3c01f8b354fddca16cae74d36025d2d41296c8a",
-          "download_count": 457333,
+          "download_count": 457334,
           "created_at": "2025-09-17T12:04:46Z",
           "updated_at": "2025-09-17T12:05:13Z",
           "browser_download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.94.1/PowerToysSetup-0.94.1-x64.exe"
@@ -288338,7 +288338,7 @@
           "state": "uploaded",
           "size": 319163736,
           "digest": "sha256:55d5b07aec402d504aed8101bf4f3fba79310198f004a4d74326f951fa7bc7a0",
-          "download_count": 1029446,
+          "download_count": 1029447,
           "created_at": "2025-09-02T10:01:45Z",
           "updated_at": "2025-09-02T10:02:48Z",
           "browser_download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.94.0/PowerToysSetup-0.94.0-x64.exe"
@@ -288645,7 +288645,7 @@
           "state": "uploaded",
           "size": 358818400,
           "digest": "sha256:87ad002128903949ef4b2e377865c3880cf2435e196dea5520698af9860d6201",
-          "download_count": 1203366,
+          "download_count": 1203367,
           "created_at": "2025-08-12T13:32:32Z",
           "updated_at": "2025-08-12T13:33:00Z",
           "browser_download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.93.0/PowerToysSetup-0.93.0-x64.exe"
@@ -288916,7 +288916,7 @@
           "state": "uploaded",
           "size": 417696512,
           "digest": "sha256:b5b263c259a5eb40d76e564dbdd095bf878593924e61761e8eb70b8351622e62",
-          "download_count": 1883520,
+          "download_count": 1883521,
           "created_at": "2025-07-07T21:39:58Z",
           "updated_at": "2025-07-07T21:40:12Z",
           "browser_download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.92.1/PowerToysSetup-0.92.1-x64.exe"
@@ -295794,7 +295794,7 @@
           "state": "uploaded",
           "size": 269910376,
           "digest": null,
-          "download_count": 360622,
+          "download_count": 360625,
           "created_at": "2024-05-21T08:58:47Z",
           "updated_at": "2024-05-21T08:59:13Z",
           "browser_download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.81.0/PowerToysUserSetup-0.81.0-x64.exe"
@@ -312631,7 +312631,7 @@
           "state": "uploaded",
           "size": 793634,
           "digest": "sha256:c0d945b4c23366620de18f65bd992e6208bf83671761e708dd5b1f21d3bd5ba8",
-          "download_count": 586298,
+          "download_count": 586301,
           "created_at": "2025-11-17T19:38:43Z",
           "updated_at": "2025-11-17T19:38:43Z",
           "browser_download_url": "https://github.com/ChrisTitusTech/winutil/releases/download/25.11.17/winutil.ps1"
@@ -314931,7 +314931,7 @@
           "state": "uploaded",
           "size": 10775617,
           "digest": "sha256:f61ec427c31cef202403c81b27f76e95dc9ee85db3fb8b15076afb02ee753c0d",
-          "download_count": 16356,
+          "download_count": 16357,
           "created_at": "2025-08-27T10:31:18Z",
           "updated_at": "2025-08-27T10:31:18Z",
           "browser_download_url": "https://github.com/Blinue/Magpie/releases/download/v0.12.1/Magpie-v0.12.1-ARM64.zip"
@@ -315774,7 +315774,7 @@
           "state": "uploaded",
           "size": 9909098,
           "digest": null,
-          "download_count": 213172,
+          "download_count": 213173,
           "created_at": "2024-06-22T13:33:52Z",
           "updated_at": "2024-06-22T13:33:53Z",
           "browser_download_url": "https://github.com/Blinue/Magpie/releases/download/v0.11.1/Magpie-v0.11.1-x64.zip"
@@ -318700,7 +318700,7 @@
           "state": "uploaded",
           "size": 276,
           "digest": "sha256:26d88ecc2a4885cdca2a10a3ea6ece253b9f2b629b18f6524a3f9a1fd9bd74af",
-          "download_count": 1465,
+          "download_count": 1466,
           "created_at": "2025-12-21T13:04:07Z",
           "updated_at": "2025-12-21T13:04:09Z",
           "browser_download_url": "https://github.com/ventoy/Ventoy/releases/download/v1.1.10/sha256.txt"
@@ -320744,7 +320744,7 @@
           "state": "uploaded",
           "size": 19976935,
           "digest": null,
-          "download_count": 254175,
+          "download_count": 254178,
           "created_at": "2024-06-08T09:30:49Z",
           "updated_at": "2024-06-08T09:32:14Z",
           "browser_download_url": "https://github.com/ventoy/Ventoy/releases/download/v1.0.99/ventoy-1.0.99-linux.tar.gz"
@@ -321142,7 +321142,7 @@
           "state": "uploaded",
           "size": 19964906,
           "digest": null,
-          "download_count": 112018,
+          "download_count": 112020,
           "created_at": "2024-01-24T07:03:50Z",
           "updated_at": "2024-01-24T07:04:03Z",
           "browser_download_url": "https://github.com/ventoy/Ventoy/releases/download/v1.0.97/ventoy-1.0.97-linux.tar.gz"
@@ -324326,7 +324326,7 @@
           "state": "uploaded",
           "size": 276,
           "digest": null,
-          "download_count": 14179,
+          "download_count": 14180,
           "created_at": "2022-07-28T11:54:31Z",
           "updated_at": "2022-07-28T11:54:33Z",
           "browser_download_url": "https://github.com/ventoy/Ventoy/releases/download/v1.0.79/sha256.txt"
@@ -327892,7 +327892,7 @@
           "state": "uploaded",
           "size": 1754408,
           "digest": null,
-          "download_count": 157718,
+          "download_count": 157725,
           "created_at": "2025-04-23T22:13:29Z",
           "updated_at": "2025-04-23T22:13:29Z",
           "browser_download_url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2025.1/TranslucentTB-portable-x64.zip"
@@ -331871,7 +331871,7 @@
           "state": "uploaded",
           "size": 488,
           "digest": "sha256:1765342391c54a0d03d66409f6854885cee47824ece25ea5e7c273d2d3fd1fb8",
-          "download_count": 3652,
+          "download_count": 3654,
           "created_at": "2025-11-25T00:44:40Z",
           "updated_at": "2025-11-25T00:44:40Z",
           "browser_download_url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-1-arm64.dmg.sig"
@@ -332843,7 +332843,7 @@
           "state": "uploaded",
           "size": 499,
           "digest": "sha256:e16e8284736947bc3c76e4e6e102964928d363a8d921545ecb5aac422447f5d6",
-          "download_count": 3639,
+          "download_count": 3640,
           "created_at": "2025-11-24T00:08:25Z",
           "updated_at": "2025-11-24T00:08:25Z",
           "browser_download_url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-Win64.zip.sig"
@@ -375141,7 +375141,7 @@
           "state": "uploaded",
           "size": 192500669,
           "digest": "sha256:a1383f35584265c71c85b64f80aed449617cfe4d988e131c0ae0c4bfa5b7e4ce",
-          "download_count": 2048,
+          "download_count": 2051,
           "created_at": "2026-01-01T01:13:18Z",
           "updated_at": "2026-01-01T01:13:49Z",
           "browser_download_url": "https://github.com/mltframework/shotcut/releases/download/v25.12.31/shotcut-win64-25.12.31.zip"
@@ -401734,7 +401734,7 @@
           "state": "uploaded",
           "size": 541003,
           "digest": "sha256:d7c2230b7f964795cba38eb846ec00b5644d4a941cb276ab5eee7a0abc423213",
-          "download_count": 6180,
+          "download_count": 6181,
           "created_at": "2025-09-10T23:54:29Z",
           "updated_at": "2025-09-10T23:54:30Z",
           "browser_download_url": "https://github.com/dev47apps/droidcam-obs-plugin/releases/download/2.4.1/droidcam_obs_2.4.1_linux_x86_64.zip"
@@ -456832,7 +456832,7 @@
           "state": "uploaded",
           "size": 4566039,
           "digest": "sha256:db964cd9e2e2cd5c1c34b19cddf6a880dcf3156ed0dc90866e483fc002a908b4",
-          "download_count": 4275,
+          "download_count": 4281,
           "created_at": "2025-12-30T13:06:28Z",
           "updated_at": "2025-12-30T13:06:28Z",
           "browser_download_url": "https://github.com/wxxsfxyzm/InstallerX-Revived/releases/download/v2.3.1/InstallerX-Revived-offline-v2.3.1.apk"
@@ -456868,7 +456868,7 @@
           "state": "uploaded",
           "size": 4689664,
           "digest": "sha256:05350c0535e0055517566080c043ffe765159a5bcc3c116646c721cc0c71afef",
-          "download_count": 3798,
+          "download_count": 3801,
           "created_at": "2025-12-30T13:06:28Z",
           "updated_at": "2025-12-30T13:06:28Z",
           "browser_download_url": "https://github.com/wxxsfxyzm/InstallerX-Revived/releases/download/v2.3.1/InstallerX-Revived-online-v2.3.1.apk"
@@ -456960,7 +456960,7 @@
           "state": "uploaded",
           "size": 5134718,
           "digest": "sha256:e1ff96ebd2dedb43b057929d69db815127f3c67a3e552fc3f4f28b03afc92950",
-          "download_count": 13906,
+          "download_count": 13907,
           "created_at": "2025-11-07T09:22:18Z",
           "updated_at": "2025-11-07T09:22:18Z",
           "browser_download_url": "https://github.com/wxxsfxyzm/InstallerX-Revived/releases/download/v2.3.0/InstallerX-Revived-offline-v2.3.0.apk"
@@ -483392,7 +483392,7 @@
           "state": "uploaded",
           "size": 151518746,
           "digest": "sha256:57b920681d3e42dd638fcf12d12583e43e62106ce32ebf2542b73513db009bf5",
-          "download_count": 9581,
+          "download_count": 9585,
           "created_at": "2025-12-24T03:54:07Z",
           "updated_at": "2025-12-24T03:54:36Z",
           "browser_download_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v1.0.1-hf/SimpMusic-foss-universal-release.apk"
@@ -538675,7 +538675,7 @@
           "state": "uploaded",
           "size": 47059864,
           "digest": "sha256:6b21ec54bdeb7445f9a48396706417fede19b26feea2d3d3cabedade94e49516",
-          "download_count": 231607,
+          "download_count": 231608,
           "created_at": "2025-10-12T13:36:35Z",
           "updated_at": "2025-10-12T13:36:46Z",
           "browser_download_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.6/YTDLnis-1.8.6-arm64-v8a-release.apk"
@@ -560823,7 +560823,7 @@
           "state": "uploaded",
           "size": 55736717,
           "digest": "sha256:f68a7c7c68aeb7b6b7afbec38a6ea48e7a1d9d0fea775e1782ccc3f961ff1bc3",
-          "download_count": 9485,
+          "download_count": 9487,
           "created_at": "2025-10-28T22:00:13Z",
           "updated_at": "2025-10-28T22:00:15Z",
           "browser_download_url": "https://github.com/aniyomiorg/aniyomi/releases/download/v0.18.1.2/aniyomi-armeabi-v7a-v0.18.1.2.apk"
@@ -569995,6 +569995,190 @@
         "hooray": 1,
         "confused": 0,
         "heart": 1,
+        "rocket": 0,
+        "eyes": 0
+      }
+    }
+  ],
+  "PranshulGG/RecordMaster": [
+    {
+      "url": "https://api.github.com/repos/PranshulGG/RecordMaster/releases/267772864",
+      "assets_url": "https://api.github.com/repos/PranshulGG/RecordMaster/releases/267772864/assets",
+      "upload_url": "https://uploads.github.com/repos/PranshulGG/RecordMaster/releases/267772864/assets{?name,label}",
+      "html_url": "https://github.com/PranshulGG/RecordMaster/releases/tag/v1.0.0",
+      "id": 267772864,
+      "author": {
+        "login": "PranshulGG",
+        "id": 134786144,
+        "node_id": "U_kgDOCAisYA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/134786144?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PranshulGG",
+        "html_url": "https://github.com/PranshulGG",
+        "followers_url": "https://api.github.com/users/PranshulGG/followers",
+        "following_url": "https://api.github.com/users/PranshulGG/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PranshulGG/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PranshulGG/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PranshulGG/subscriptions",
+        "organizations_url": "https://api.github.com/users/PranshulGG/orgs",
+        "repos_url": "https://api.github.com/users/PranshulGG/repos",
+        "events_url": "https://api.github.com/users/PranshulGG/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PranshulGG/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOQUu4VM4P9ePA",
+      "tag_name": "v1.0.0",
+      "target_commitish": "master",
+      "name": "RecordMaster v1.0.0",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2025-12-05T14:04:42Z",
+      "updated_at": "2025-12-05T14:09:39Z",
+      "published_at": "2025-12-05T14:09:39Z",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/PranshulGG/RecordMaster/releases/assets/324765855",
+          "id": 324765855,
+          "node_id": "RA_kwDOQUu4VM4TW4if",
+          "name": "RecordMaster.v1.0.0.apk",
+          "label": null,
+          "uploader": {
+            "login": "PranshulGG",
+            "id": 134786144,
+            "node_id": "U_kgDOCAisYA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/134786144?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/PranshulGG",
+            "html_url": "https://github.com/PranshulGG",
+            "followers_url": "https://api.github.com/users/PranshulGG/followers",
+            "following_url": "https://api.github.com/users/PranshulGG/following{/other_user}",
+            "gists_url": "https://api.github.com/users/PranshulGG/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/PranshulGG/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/PranshulGG/subscriptions",
+            "organizations_url": "https://api.github.com/users/PranshulGG/orgs",
+            "repos_url": "https://api.github.com/users/PranshulGG/repos",
+            "events_url": "https://api.github.com/users/PranshulGG/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/PranshulGG/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "content_type": "application/vnd.android.package-archive",
+          "state": "uploaded",
+          "size": 9093407,
+          "digest": "sha256:a419bda9933f3df9da6455536e0af76b60f005f93b0900a2a8886b13a8a95238",
+          "download_count": 381,
+          "created_at": "2025-12-05T14:09:02Z",
+          "updated_at": "2025-12-05T14:09:36Z",
+          "browser_download_url": "https://github.com/PranshulGG/RecordMaster/releases/download/v1.0.0/RecordMaster.v1.0.0.apk"
+        }
+      ],
+      "tarball_url": "https://api.github.com/repos/PranshulGG/RecordMaster/tarball/v1.0.0",
+      "zipball_url": "https://api.github.com/repos/PranshulGG/RecordMaster/zipball/v1.0.0",
+      "body": "### \ud83c\udf89 First Stable Release\r\n\r\n- \ud83d\udcc4 **Added:** Option to view file info  \r\n- \ud83d\udd20 **Fixed:** Encoding issues  \r\n- \ud83d\uddbc\ufe0f **Fixed:** Missing icon issues  \r\n- \u2699\ufe0f **Improved:** Fine-tuned a few features  \r\n",
+      "reactions": {
+        "url": "https://api.github.com/repos/PranshulGG/RecordMaster/releases/267772864/reactions",
+        "total_count": 6,
+        "+1": 3,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 2,
+        "confused": 0,
+        "heart": 1,
+        "rocket": 0,
+        "eyes": 0
+      }
+    },
+    {
+      "url": "https://api.github.com/repos/PranshulGG/RecordMaster/releases/261997384",
+      "assets_url": "https://api.github.com/repos/PranshulGG/RecordMaster/releases/261997384/assets",
+      "upload_url": "https://uploads.github.com/repos/PranshulGG/RecordMaster/releases/261997384/assets{?name,label}",
+      "html_url": "https://github.com/PranshulGG/RecordMaster/releases/tag/v1.0.0-beta.1",
+      "id": 261997384,
+      "author": {
+        "login": "PranshulGG",
+        "id": 134786144,
+        "node_id": "U_kgDOCAisYA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/134786144?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PranshulGG",
+        "html_url": "https://github.com/PranshulGG",
+        "followers_url": "https://api.github.com/users/PranshulGG/followers",
+        "following_url": "https://api.github.com/users/PranshulGG/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PranshulGG/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PranshulGG/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PranshulGG/subscriptions",
+        "organizations_url": "https://api.github.com/users/PranshulGG/orgs",
+        "repos_url": "https://api.github.com/users/PranshulGG/repos",
+        "events_url": "https://api.github.com/users/PranshulGG/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PranshulGG/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOQUu4VM4PncNI",
+      "tag_name": "v1.0.0-beta.1",
+      "target_commitish": "master",
+      "name": "RecordMaster v1.0.0-beta.1",
+      "draft": false,
+      "immutable": false,
+      "prerelease": true,
+      "created_at": "2025-11-13T06:06:55Z",
+      "updated_at": "2025-11-18T12:27:07Z",
+      "published_at": "2025-11-13T06:18:16Z",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/PranshulGG/RecordMaster/releases/assets/315846533",
+          "id": 315846533,
+          "node_id": "RA_kwDOQUu4VM4S02-F",
+          "name": "RecordMaster.v1.0.0-beta.1.apk",
+          "label": null,
+          "uploader": {
+            "login": "PranshulGG",
+            "id": 134786144,
+            "node_id": "U_kgDOCAisYA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/134786144?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/PranshulGG",
+            "html_url": "https://github.com/PranshulGG",
+            "followers_url": "https://api.github.com/users/PranshulGG/followers",
+            "following_url": "https://api.github.com/users/PranshulGG/following{/other_user}",
+            "gists_url": "https://api.github.com/users/PranshulGG/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/PranshulGG/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/PranshulGG/subscriptions",
+            "organizations_url": "https://api.github.com/users/PranshulGG/orgs",
+            "repos_url": "https://api.github.com/users/PranshulGG/repos",
+            "events_url": "https://api.github.com/users/PranshulGG/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/PranshulGG/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "content_type": "application/vnd.android.package-archive",
+          "state": "uploaded",
+          "size": 9091931,
+          "digest": "sha256:7d79b6cf4aa4a81f0c5d1f39f0f71541f4dcb522a2f7bd2a2cf2fd3a54f35a0c",
+          "download_count": 301,
+          "created_at": "2025-11-13T06:16:46Z",
+          "updated_at": "2025-11-13T06:16:52Z",
+          "browser_download_url": "https://github.com/PranshulGG/RecordMaster/releases/download/v1.0.0-beta.1/RecordMaster.v1.0.0-beta.1.apk"
+        }
+      ],
+      "tarball_url": "https://api.github.com/repos/PranshulGG/RecordMaster/tarball/v1.0.0-beta.1",
+      "zipball_url": "https://api.github.com/repos/PranshulGG/RecordMaster/zipball/v1.0.0-beta.1",
+      "body": "### \ud83c\udf99\ufe0f First Release\r\n\r\n- \ud83c\udfa7 **Added:** Option to record audio  \r\n- \u25b6\ufe0f **Added:** Play saved recordings  \r\n- \ud83d\udcbe **Added:** Save recordings locally  \r\n- \ud83d\udce4 **Added:** Share recordings  \r\n- \u270f\ufe0f **Added:** Rename recordings  \r\n- \u2699\ufe0f **Included:** A few basic features  \r\n",
+      "reactions": {
+        "url": "https://api.github.com/repos/PranshulGG/RecordMaster/releases/261997384/reactions",
+        "total_count": 11,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 5,
+        "confused": 0,
+        "heart": 6,
         "rocket": 0,
         "eyes": 0
       }
