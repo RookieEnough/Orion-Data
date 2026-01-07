@@ -3764,5 +3764,30 @@
       "https://docs.rainmeter.net/manual/img/installing-rainmeter/Install02.png",
       "https://docs.rainmeter.net/manual/img/getting-started/ur-manage.png"
     ]
+  },
+  {
+    "id": "animestream",
+    "name": "Animestream",
+    "description": "A Flutter project made to stream and download Anime both for Android and PC with Anilist tracking , Adfree , Fast etc.. ",
+    "icon": "https://github.com/frostnova721/animestream/raw/master/lib/assets/icons/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/frostnova721/animestream",
+    "githubRepo": "frostnova721/animestream",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.animestream",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "frostnova721",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/bucket2/images/1767809934962-04174bf0-76f5-4842-b45a-d1412be07117.png",
+      "https://image2url.com/r2/bucket1/images/1767810113264-015d2bfc-69e4-43c9-aa01-7fab8d98f8ba.png",
+      "https://image2url.com/r2/bucket2/images/1767810134754-bab55694-7dd8-427b-baab-3b40407e3895.png"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
