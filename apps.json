@@ -3740,5 +3740,29 @@
       "https://ankidroid.org/docs/img/4-reviewer.png"
     ],
     "releaseKeyword": "AnkiDroid"
+  },
+  {
+    "id": "rainmeter",
+    "name": "Rainmeter",
+    "description": "Rainmeter is a desktop customization tool for Windows. For more information and downloads, visit rainmeter.net.",
+    "icon": "https://raw.githubusercontent.com/rainmeter/rainmeter/master/Application/Rainmeter.ico",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/rainmeter/rainmeter/releases",
+    "repoUrl": "https://github.com/rainmeter/rainmeter",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "rainmeter",
+    "officialSite": "https://www.rainmeter.net/",
+    "screenshots": [
+      "https://docs.rainmeter.net/manual/img/getting-started/index-ui.png",
+      "https://docs.rainmeter.net/manual/img/installing-rainmeter/Install02.png",
+      "https://docs.rainmeter.net/manual/img/getting-started/ur-manage.png"
+    ]
   }
 ]
