@@ -3664,5 +3664,30 @@
       "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/enUS/images/phoneScreenshots/6-modules.png"
     ],
     "releaseKeyword": "URLCheck"
+  },
+  {
+    "id": "recordmaster",
+    "name": "RecordMaster",
+    "description": "Material expressive Record app for android: inspired by the Google Pixel Recorder app",
+    "icon": "https://github.com/PranshulGG/RecordMaster/raw/master/prev/main_app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/PranshulGG/RecordMaster",
+    "githubRepo": "PranshulGG/RecordMaster",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.pranshulgg.recordmaster",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "PranshulGG",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/PranshulGG/RecordMaster/master/prev/prev_1.png",
+      "https://raw.githubusercontent.com/PranshulGG/RecordMaster/master/prev/prev_2.png",
+      "https://raw.githubusercontent.com/PranshulGG/RecordMaster/master/prev/prev_3.png"
+    ],
+    "releaseKeyword": "RecordMaster"
   }
 ]
