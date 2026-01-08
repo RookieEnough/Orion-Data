@@ -3865,5 +3865,32 @@
       "https://image2url.com/r2/bucket2/images/1767882455947-6f203d86-7aa3-4d9b-a2d3-8db43f100043.png",
       "https://image2url.com/r2/bucket2/images/1767882506063-a9b69bd4-1efb-4665-9fac-dffa59d3d53f.png"
     ]
+  },
+  {
+    "id": "circletosearch",
+    "name": "Circle To Search",
+    "description": "Ever wanted to search for something you see on your phone screen? Circle To Search brings that power to your fingertips on any Android device. Simply draw a circle around what you're looking for, and instantly get results from your favorite search engine. Think of it as having Google Lens, Bing Visual Search, Yandex, and TinEye all in one place and it works everywhere.",
+    "icon": "https://github.com/AKS-Labs/CircleToSearch/raw/main/app/src/main/res/drawable/circletosearch.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/AKS-Labs/CircleToSearch",
+    "githubRepo": "AKS-Labs/CircleToSearch",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.akslabs.circletosearch",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "AKS-Labs",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/AKS-Labs/CircleToSearch/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://github.com/AKS-Labs/CircleToSearch/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://github.com/AKS-Labs/CircleToSearch/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://github.com/AKS-Labs/CircleToSearch/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+      "https://github.com/AKS-Labs/CircleToSearch/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
