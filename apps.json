@@ -3789,5 +3789,30 @@
       "https://image2url.com/r2/bucket2/images/1767810134754-bab55694-7dd8-427b-baab-3b40407e3895.png"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "com.rajarsheechatterjee.LNReader",
+    "name": "LNReader",
+    "description": "LNReader is a free and open source light novel/ Web novel reader for Android, inspired by Tachiyomi.",
+    "icon": "https://github.com/lnreader/lnreader/blob/master/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/lnreader/lnreader",
+    "githubRepo": "lnreader/lnreader",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.rajarsheechatterjee.LNReader",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "lnreader",
+    "officialSite": "",
+    "screenshots": [
+      "https://img.utdstc.com/screen/57e/954/57e954103e4c30ea5abdf4edcd2a66544d0b6b19b0f415fb4eebc401df330334:800",
+      "https://img.utdstc.com/screen/b3a/b9e/b3ab9e4af43a43a9ca74591dec3f3894ef477e3a06be5a338b4f9a77a23b953b:800",
+      "https://github.com/lnreader/lnreader/blob/master/.github/readme-images/screenshots.png"
+    ],
+    "releaseKeyword": "LNReader"
   }
 ]
