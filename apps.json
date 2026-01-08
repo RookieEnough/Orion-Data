@@ -3814,5 +3814,32 @@
       "https://github.com/lnreader/lnreader/blob/master/.github/readme-images/screenshots.png"
     ],
     "releaseKeyword": "LNReader"
+  },
+  {
+    "id": "purrfectsnap",
+    "name": "PurrfectSnap",
+    "description": "A fork of Snapenhance made to meow your Snapchat experience. 😉",
+    "icon": "https://raw.githubusercontent.com/particle-box/PurrfectSnap/dev/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/particle-box/PurrfectSnap",
+    "githubRepo": "particle-box/PurrfectSnap",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.eternal.purrfectsnap",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "particle-box",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/bucket1/images/1767860706985-46b5f2c2-1dc1-41d0-913b-4cd6c78ce377.png",
+      "https://image2url.com/r2/bucket2/images/1767860695786-6f974cde-8518-4069-9dc2-095da8ba4d58.png",
+      "https://image2url.com/r2/bucket1/images/1767860682515-391b41ca-3a1b-4664-97d8-e94592f99c4a.png",
+      "https://image2url.com/r2/bucket2/images/1767860671555-7ae5689a-e740-444d-a8ca-9efc236cbdb9.png",
+      "https://image2url.com/r2/bucket1/images/1767860528996-efeda662-7fb6-4053-ad76-aa400e26c014.png"
+    ],
+    "releaseKeyword": "purrfectsnap"
   }
 ]
