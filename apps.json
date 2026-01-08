@@ -3841,5 +3841,29 @@
       "https://image2url.com/r2/bucket1/images/1767860528996-efeda662-7fb6-4053-ad76-aa400e26c014.png"
     ],
     "releaseKeyword": "purrfectsnap"
+  },
+  {
+    "id": "distracted",
+    "name": "Distracted ",
+    "description": "An extension to block websites that distract you ! Do mini tasks to get them back.\r\r\n(all data stays local on your device)",
+    "icon": "https://image2url.com/r2/bucket1/images/1767882261357-d36dc2a6-a2c1-4af3-9e68-8c3497821aa9.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/f1shy-dev/distracted",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "f1shy-dev",
+    "officialSite": "https://github.com/f1shy-dev/distracted",
+    "screenshots": [
+      "https://raw.githubusercontent.com/f1shy-dev/distracted/main/packages/extension/public/readme-banner.png",
+      "https://image2url.com/r2/bucket2/images/1767882455947-6f203d86-7aa3-4d9b-a2d3-8db43f100043.png",
+      "https://image2url.com/r2/bucket2/images/1767882506063-a9b69bd4-1efb-4665-9fac-dffa59d3d53f.png"
+    ]
   }
 ]
