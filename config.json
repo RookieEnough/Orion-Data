@@ -1,10 +1,10 @@
 {
   "appsJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/apps.json",
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/mirror.json",
-  "maintenanceMode": false,
+  "maintenanceMode": true,
   "maintenanceMessage": "We are currently updating the server. Please check back in 30 minutes.",
   "announcement": "Version 1.0.8 has been released. This update is the smallest patch to date and primarily focuses on resolving issues related to MicroG pop-up notifications, improving overall stability and user experience.",
-  "latestStoreVersion": "1.0.8",
+  "latestStoreVersion": "1.1.0",
   "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.8/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
