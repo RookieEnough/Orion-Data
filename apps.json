@@ -707,30 +707,6 @@
     ]
   },
   {
-    "id": "echo",
-    "name": "Echo",
-    "description": "An Extension-based Music Player for Android, designed with a clean and intuitive UI.",
-    "icon": "https://raw.githubusercontent.com/brahmkshatriya/echo/refs/heads/main/app/src/main/ic_launcher-playstore.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/brahmkshatriya/echo",
-    "githubRepo": "iad1tya/Echo-Music",
-    "releaseKeyword": "Echo",
-    "packageName": "iad1tya.echo.music",
-    "category": "utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "iad1tya",
-    "screenshots": [
-      "https://echomusic.fun/Assets/Screenshot/sc_5.png",
-      "https://echomusic.fun/Assets/Screenshot/sc_4.png",
-      "https://echomusic.fun/Assets/Screenshot/sc_3.png",
-      "https://echomusic.fun/Assets/Screenshot/sc_2.png",
-      "https://echomusic.fun/Assets/Screenshot/sc_1.png"
-    ]
-  },
-  {
     "id": "colorblendr",
     "name": "ColorBlendr",
     "description": "ColorBlendr is an application to modify Material You colors of your device. Elevate your creativity with effortless material customization. Instantly tweak colors for a personalized touch in just a few taps.",
@@ -3917,5 +3893,30 @@
       "https://play-lh.googleusercontent.com/Nz7dxrXtxWCzH2cjZ7Kk9cgdNQirRXH-Pefmkp-3OhPZ7XBfT2dJZnqle9tXnc9wyxTH=w1052-h592-rw"
     ],
     "releaseKeyword": "UniPatcher"
+  },
+  {
+    "id": "echo-music",
+    "name": "Echo Music",
+    "description": "Echo Music is designed to provide a seamless and premium music listening experience. It leverages the vast library of YouTube Music while eliminating advertisements and adding powerful features such as offline downloads, real-time lyrics, and environment-aware music recognition.",
+    "icon": "https://github.com/iad1tya/Echo-Music/raw/main/assets/Echo_github.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/iad1tya/Echo-Music",
+    "githubRepo": "iad1tya/Echo-Music",
+    "releaseKeyword": "Echo",
+    "packageName": "iad1tya.echo.music",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "iad1tya",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_1.png",
+      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_2.png",
+      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_4.png",
+      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_5.png",
+      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_3.png"
+    ]
   }
 ]
