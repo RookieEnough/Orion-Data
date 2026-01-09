@@ -1299,7 +1299,7 @@
     ]
   },
   {
-    "id": "mircoG-re",
+    "id": "microG-re",
     "name": "MicroG-RE",
     "description": "A free, open-source implementation of Google Play Services. Required to sign into Google accounts on ReVanced apps.",
     "icon": "https://downloadr2.apkmirror.com/wp-content/uploads/2024/04/MicroG_round.png",
