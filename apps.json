@@ -3794,7 +3794,7 @@
     "id": "com.rajarsheechatterjee.LNReader",
     "name": "LNReader",
     "description": "LNReader is a free and open source light novel/ Web novel reader for Android, inspired by Tachiyomi.",
-    "icon": "https://github.com/lnreader/lnreader/blob/master/assets/logo.png",
+    "icon": "https://raw.githubusercontent.com/lnreader/lnreader/master/.github/readme-images/icon_new.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -3897,7 +3897,7 @@
     "id": "unipatcher",
     "name": "UniPatcher",
     "description": "A game console ROM patcher for Android",
-    "icon": "https://github.com/btimofeev/UniPatcher/blob/master/google-play%2Fic_launcher-web.png",
+    "icon": "https://play-lh.googleusercontent.com/KDvoTgXEQ6mK5Fr7MIDP1cd_FiwYVLFgyrH3qI6Q87TBhZ8xasCVPHOgpOpmg6WZpcE=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -3912,11 +3912,9 @@
     "author": "btimofeev",
     "officialSite": "",
     "screenshots": [
-      "https://github.com/user-attachments/assets/981a6d80-edab-4c71-857b-532a5721e86a",
-      "https://github.com/user-attachments/assets/c62b8579-64c2-4b8d-9ea9-f4d8721a4b28",
-      "https://github.com/user-attachments/assets/846f5503-7ae7-42fa-9577-8b020eed1fe6",
-      "https://github.com/user-attachments/assets/f84c2dcd-dd6a-4841-af27-30940699e519",
-      "https://github.com/user-attachments/assets/9239c1fe-d38a-49b8-8f29-9923633f106a"
+      "https://play-lh.googleusercontent.com/Zvw3-eeJTO_LLco3SzWcQi1LtTj0kuHqt2FnrMcaFPja7y6FDOUbWMwB3sQL0X8loA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/xFaJv4L259d9No4fBgQYdCu6WbTgBLNvySGg_QsVcrKOkUAVXJwvqwdU2pQViA9niws=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/Nz7dxrXtxWCzH2cjZ7Kk9cgdNQirRXH-Pefmkp-3OhPZ7XBfT2dJZnqle9tXnc9wyxTH=w1052-h592-rw"
     ],
     "releaseKeyword": "UniPatcher"
   }
