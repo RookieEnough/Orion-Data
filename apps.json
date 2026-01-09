@@ -3892,5 +3892,32 @@
       "https://github.com/AKS-Labs/CircleToSearch/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "unipatcher",
+    "name": "UniPatcher",
+    "description": "A game console ROM patcher for Android",
+    "icon": "https://github.com/btimofeev/UniPatcher/blob/master/google-play%2Fic_launcher-web.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/btimofeev/UniPatcher",
+    "githubRepo": "btimofeev/UniPatcher",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.emunix.unipatcher",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "btimofeev",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/user-attachments/assets/981a6d80-edab-4c71-857b-532a5721e86a",
+      "https://github.com/user-attachments/assets/c62b8579-64c2-4b8d-9ea9-f4d8721a4b28",
+      "https://github.com/user-attachments/assets/846f5503-7ae7-42fa-9577-8b020eed1fe6",
+      "https://github.com/user-attachments/assets/f84c2dcd-dd6a-4841-af27-30940699e519",
+      "https://github.com/user-attachments/assets/9239c1fe-d38a-49b8-8f29-9923633f106a"
+    ],
+    "releaseKeyword": "UniPatcher"
   }
 ]
