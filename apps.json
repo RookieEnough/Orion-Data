@@ -3971,5 +3971,29 @@
       "https://compote.slate.com/images/accbb97d-d467-4859-80dc-9a425265c1c6.jpg"
     ],
     "releaseKeyword": "FlappyBird"
+  },
+  {
+    "id": "chainner",
+    "name": "chaiNNer",
+    "description": "ChaiNNer is a cross-platform, node-based image processing GUI that simplifies chaining image processing tasks. Originally designed for AI IMAGE UPSCALING.  \nit has evolved into a flexible and powerful application that allows users to create complex image processing workflows by connecting nodes together.",
+    "icon": "https://chainner.app/assets/128x128.da537210.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/chaiNNer-org/chaiNNer",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "chaiNNer-org",
+    "officialSite": "https://github.com/chaiNNer-org/chaiNNer",
+    "screenshots": [
+      "https://github.com/chaiNNer-org/chaiNNer/raw/main/docs/assets/simple_screenshot.png",
+      "https://github.com/chaiNNer-org/chaiNNer/raw/main/docs/assets/screenshot.png",
+      "https://github.com/chaiNNer-org/chaiNNer/raw/main/docs/assets/banner.png"
+    ]
   }
 ]
