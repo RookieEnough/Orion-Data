@@ -3918,31 +3918,5 @@
       "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_5.png",
       "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_3.png"
     ]
-  },
-  {
-    "id": "pixelplayer",
-    "name": "PixelPlayer",
-    "description": "A beautiful, feature-rich music player for Android Built with Jetpack Compose and Material Design 3",
-    "icon": "https://raw.githubusercontent.com/theovilardo/PixelPlayer/master/assets/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/theovilardo/PixelPlayer",
-    "githubRepo": "theovilardo/PixelPlayer",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.theveloper.pixelplay",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "theovilardo",
-    "officialSite": "",
-    "screenshots": [
-      "https://github.com/theovilardo/PixelPlayer/blob/master/assets%2Fscreenshot1.jpg",
-      "https://github.com/theovilardo/PixelPlayer/blob/master/assets%2Fscreenshot2.jpg",
-      "https://github.com/theovilardo/PixelPlayer/blob/master/assets%2Fscreenshot3.jpg",
-      "https://github.com/theovilardo/PixelPlayer/blob/master/assets%2Fscreenshot4.jpg"
-    ],
-    "releaseKeyword": "PixelPlayer"
   }
 ]
