@@ -3946,5 +3946,30 @@
       "https://user-images.githubusercontent.com/5564499/189541127-7adf5bfa-0652-461c-80f1-076b7179eb6c.png",
       "https://user-images.githubusercontent.com/5564499/189541040-7cab633e-be4c-40b2-a2c6-890a15edf805.png"
     ]
+  },
+  {
+    "id": "flappybird",
+    "name": "FlappyBird",
+    "description": "A 64-bit Flappy Bird recreation for Android, faithfully preserving the original experience while introducing a range of enhancements.",
+    "icon": "https://github.com/user-attachments/assets/fd685be8-0166-4b06-a90b-afc2388b7258",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FlappyRecreator/FlappyB64bitAndroid",
+    "githubRepo": "FlappyRecreator/FlappyB64bitAndroid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.flappybird.recreation",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FlappyRecreator",
+    "officialSite": "",
+    "screenshots": [
+      "https://cdn.mobygames.com/screenshots/12165230-flappy-bird-android-instructions.png",
+      "https://www.google.com/url?q=https://cdn.mobygames.com/screenshots/12165630-flappy-bird-iphone-navigating-through-pipes.jpg&opi=89978449&sa=U&ved=0ahUKEwilvvP064CSAxUUoScCHcHgAu4Q5hMIBQ&usg=AOvVaw0KZzdeOIquoPSpOUi_0Hun",
+      "https://compote.slate.com/images/accbb97d-d467-4859-80dc-9a425265c1c6.jpg"
+    ],
+    "releaseKeyword": "FlappyBird"
   }
 ]
