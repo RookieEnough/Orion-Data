@@ -3918,5 +3918,33 @@
       "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_5.png",
       "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_3.png"
     ]
+  },
+  {
+    "id": "ivy-wallet",
+    "name": "Ivy Wallet",
+    "description": "The Ivy Wallet is an open source expense manager with clean UI and lots of customisation",
+    "icon": "https://share.google/images/u3VqulgBhRpd69f1D",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Ivy-Apps/ivy-wallet.git",
+    "githubRepo": "Ivy-Apps/ivy-wallet",
+    "releaseKeyword": "Ivy-Wallet",
+    "packageName": "com.ivy.wallet",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Ivy-Apps",
+    "officialSite": "",
+    "screenshots": [
+      "https://user-images.githubusercontent.com/5564499/189540998-4d6cdcd3-ab4d-40f7-85d4-c82fe8a017d1.png",
+      "https://user-images.githubusercontent.com/5564499/189541011-1ebbd8b6-50fe-432a-91e2-59206efe99ce.png",
+      "https://user-images.githubusercontent.com/5564499/189541023-35e7f163-d639-4466-9a91-c56890d5a28e.png",
+      "https://user-images.githubusercontent.com/5564499/189541027-d352314c-fd5c-43eb-82ad-4aba14c7b0fa.png",
+      "https://user-images.githubusercontent.com/5564499/189541030-1a0d7948-33af-420b-b126-936d0211c93f.png",
+      "https://user-images.githubusercontent.com/5564499/189541035-621c4511-5ec7-4d3f-b08e-925d8da95472.png",
+      "https://user-images.githubusercontent.com/5564499/189541127-7adf5bfa-0652-461c-80f1-076b7179eb6c.png",
+      "https://user-images.githubusercontent.com/5564499/189541040-7cab633e-be4c-40b2-a2c6-890a15edf805.png"
+    ]
   }
 ]
