@@ -4081,5 +4081,30 @@
       "https://raw.githubusercontent.com/anilbeesetti/nextplayer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
     ],
     "releaseKeyword": "nextplayer-v0.14.1"
+  },
+  {
+    "id": "organic-maps",
+    "name": "Organic Maps",
+    "description": "Organic Maps is a fast, detailed offline map and GPS navigation app for travel, hiking, trekking, and cycling adventures. Plan, import, and record routes, and enjoy smooth guidance without draining your battery or using an internet connection. Explore places and navigate safely during your outdoor adventures and travels around the world. The app offers unlimited map downloads and biweekly updates. OpenStreetMap-based, volunteer-made, privacy-first, 100% offline, and 100% free.",
+    "icon": "https://github.com/organicmaps/organicmaps/blob/master/qt/res/logo.png?raw=true",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/organicmaps/organicmaps",
+    "githubRepo": "organicmaps/organicmaps",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "apps.organicmaps",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "organicmaps",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg?raw=true",
+      "https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/4.jpg?raw=true",
+      "https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg?raw=true"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
