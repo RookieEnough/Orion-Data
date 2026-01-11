@@ -4023,5 +4023,35 @@
       "https://github.com/Gabriel2392/ErosFlashTool/blob/main/img%2Fscreens%2F6.jpg"
     ],
     "releaseKeyword": "Eros-REL"
+  },
+  {
+    "id": "morphe",
+    "name": "Morphe",
+    "description": "Morphe app patcher for Android",
+    "icon": "https://morphe.software/images/morphe_logo_with_frame.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MorpheApp/morphe-manager",
+    "githubRepo": "MorpheApp/morphe-manager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.morphe.manager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MorpheApp",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/bucket1/images/1768102209014-6da0417f-01fb-4903-8270-10ee173ec5f7.jpg",
+      "https://image2url.com/r2/bucket2/images/1768102256461-cc0d7023-ee2d-43b7-b4c2-90bbc38369b5.jpg",
+      "https://image2url.com/r2/bucket1/images/1768102281879-bc3e29e4-bc05-404e-96fc-6cb744accbe4.jpg",
+      "https://image2url.com/r2/bucket1/images/1768102304948-170ae6b1-9c1a-4697-b11f-d8ea13e47f0c.jpg",
+      "https://image2url.com/r2/bucket1/images/1768102324954-9ca7d46a-d999-476c-8476-5fdbd974ed2e.jpg",
+      "https://image2url.com/r2/bucket2/images/1768102347574-ffdaee5f-2acd-4af0-91d4-1b58a6ce5f94.jpg",
+      "https://image2url.com/r2/bucket3/images/1768102370031-0491cf68-6ce2-47be-888b-74bb183d126d.jpg",
+      "https://image2url.com/r2/bucket3/images/1768102394799-c1b02df7-c36f-4408-a3e6-7a775b52359a.jpg"
+    ],
+    "releaseKeyword": "morphe-manager-"
   }
 ]
