@@ -4106,5 +4106,33 @@
       "https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg?raw=true"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "geto",
+    "name": "Geto",
+    "description": "The only reason I created this app is to turn off that damn Developer Options when using a banking app. The only annoying thing about it is you have to go to the Settings app. When you turn off that switch button, your Developer Options configurations will be reset to default. The good thing is that when you modify your settings through its Shared Preferences, you won't lose all your settings once the Developer Options is modified.\nInshort , make your dev settings not detect by banking apps and etc..",
+    "icon": "https://github.com/JackEblan/Geto/raw/master/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/JackEblan/Geto",
+    "githubRepo": "JackEblan/Geto",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.android.geto",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "JackEblan",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/JackEblan/Geto/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://github.com/JackEblan/Geto/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://github.com/JackEblan/Geto/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://github.com/JackEblan/Geto/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+      "https://github.com/JackEblan/Geto/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
+      "https://github.com/JackEblan/Geto/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg"
+    ],
+    "releaseKeyword": "geto"
   }
 ]
