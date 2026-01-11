@@ -4053,5 +4053,33 @@
       "https://image2url.com/r2/bucket3/images/1768102394799-c1b02df7-c36f-4408-a3e6-7a775b52359a.jpg"
     ],
     "releaseKeyword": "morphe-manager-"
+  },
+  {
+    "id": "nextplayer",
+    "name": "NextPlayer",
+    "description": "Next Player is an Android native video player written in Kotlin. It provides a simple and easy-to-use interface for users to play videos on their Android devices",
+    "icon": "https://raw.githubusercontent.com/anilbeesetti/nextplayer/refs/heads/main/fastlane/metadata/android/en-US/images/featureGraphic.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/anilbeesetti/nextplayer",
+    "githubRepo": "anilbeesetti/nextplayer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.anilbeesetti.nextplayer",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "anilbeesetti",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/anilbeesetti/nextplayer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/anilbeesetti/nextplayer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/anilbeesetti/nextplayer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/anilbeesetti/nextplayer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/anilbeesetti/nextplayer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/anilbeesetti/nextplayer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
+    ],
+    "releaseKeyword": "nextplayer-v0.14.1"
   }
 ]
