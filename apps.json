@@ -3995,5 +3995,33 @@
       "https://github.com/chaiNNer-org/chaiNNer/raw/main/docs/assets/screenshot.png",
       "https://github.com/chaiNNer-org/chaiNNer/raw/main/docs/assets/banner.png"
     ]
+  },
+  {
+    "id": "eros",
+    "name": "Eros",
+    "description": "Non-Root Alternative to Odin/Heimdall.",
+    "icon": "https://image2url.com/r2/bucket2/images/1768101779494-9f2be348-a4e7-4a54-8988-a7d6a996df8e.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Gabriel2392/ErosFlashTool",
+    "githubRepo": "Gabriel2392/ErosFlashTool",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.oops.eros",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Gabriel2392",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/Gabriel2392/ErosFlashTool/blob/main/img%2Fscreens%2F1.jpg",
+      "https://github.com/Gabriel2392/ErosFlashTool/blob/main/img%2Fscreens%2F2.jpg",
+      "https://github.com/Gabriel2392/ErosFlashTool/blob/main/img%2Fscreens%2F3.jpg",
+      "https://github.com/Gabriel2392/ErosFlashTool/blob/main/img%2Fscreens%2F4.jpg",
+      "https://github.com/Gabriel2392/ErosFlashTool/blob/main/img%2Fscreens%2F5.jpg",
+      "https://github.com/Gabriel2392/ErosFlashTool/blob/main/img%2Fscreens%2F6.jpg"
+    ],
+    "releaseKeyword": "Eros-REL"
   }
 ]
