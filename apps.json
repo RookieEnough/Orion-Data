@@ -4164,5 +4164,30 @@
       "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen2.png"
     ],
     "releaseKeyword": "KeePassDX-4.3.1-libre"
+  },
+  {
+    "id": "namida",
+    "name": "Namida",
+    "description": "A Beautiful and Feature-rich Music & Video Player with Youtube Support, Built in Flutter.",
+    "icon": "https://raw.githubusercontent.com/namidaco/namida/main/some%20stuff/namida.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/namidaco/namida",
+    "githubRepo": "namidaco/namida",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.msob7y.namida",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "namidaco",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/namidaco/namida/main/screens/collection_light_1.jpg",
+      "https://raw.githubusercontent.com/namidaco/namida/main/screens/collection_dark_1.jpg",
+      "https://raw.githubusercontent.com/namidaco/namida/main/screens/collection_dark_2.jpg"
+    ],
+    "releaseKeyword": "namida-v5.6.1"
   }
 ]
