@@ -4134,5 +4134,35 @@
       "https://github.com/JackEblan/Geto/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg"
     ],
     "releaseKeyword": "geto"
+  },
+  {
+    "id": "keepassdx",
+    "name": "KeePassDX",
+    "description": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
+    "icon": "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/art/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Kunzisoft/KeePassDX",
+    "githubRepo": "Kunzisoft/KeePassDX",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.kunzisoft.keepass.libre",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Kunzisoft",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/art/screen.jpg",
+      "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen3.png",
+      "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen5.png",
+      "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen6.png",
+      "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen7.png",
+      "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen8.png",
+      "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen1.png",
+      "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen2.png"
+    ],
+    "releaseKeyword": "KeePassDX-4.3.1-libre"
   }
 ]
