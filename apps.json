@@ -4244,7 +4244,7 @@
     "id": "nuvio",
     "name": "Nuvio",
     "description": "Nuvio Media Hub is a cross‑platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
-    "icon": "https://github.com/tapframe/NuvioStreaming/blob/main/assets/titlelogo.png",
+    "icon": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/main/assets/titlelogo.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
