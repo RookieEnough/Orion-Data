@@ -4239,5 +4239,36 @@
       "https://image2url.com/r2/default/images/1768228427119-588bc9f2-8a30-4893-b40d-3684a9bc140e.png"
     ],
     "releaseKeyword": "universal-revanced-manager "
+  },
+  {
+    "id": "nuvio",
+    "name": "Nuvio",
+    "description": "Nuvio Media Hub is a cross‑platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
+    "icon": "https://github.com/tapframe/NuvioStreaming/blob/main/assets/titlelogo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/tapframe/NuvioStreaming",
+    "githubRepo": "tapframe/NuvioStreaming",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nuvio.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "tapframe",
+    "officialSite": "",
+    "screenshots": [
+      "https://i.imgur.com/0MztmoF.jpeg",
+      "https://i.imgur.com/06ghq1E.jpeg",
+      "https://i.imgur.com/W1vD5ld.jpeg",
+      "https://i.imgur.com/FkysNty.jpeg",
+      "https://i.imgur.com/zwSo69g.png",
+      "https://i.imgur.com/4ir2A6Y.png",
+      "https://i.imgur.com/qTqyBge.jpeg",
+      "https://i.imgur.com/tZW75rR.jpeg",
+      "https://i.imgur.com/evoykjJ.jpeg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
