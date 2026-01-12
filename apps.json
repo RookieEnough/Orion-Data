@@ -4213,5 +4213,31 @@
       "https://camo.githubusercontent.com/c446f6d38f96aa31c1737d5a9b1a6404e41efd4922942b70976045b090959864/68747470733a2f2f62336c6f6766696c652e636f6d2f66696c652f323032352f31312f66656174757265352d312d37444a536645502e706e67",
       "https://camo.githubusercontent.com/fbce48b281ebc786d5f7a5875c6a3e945c3938e102cdd8d1c251d8a681acbd0c/68747470733a2f2f62336c6f6766696c652e636f6d2f66696c652f323032332f30352f53695975616e5f417263682d536775387658542e706e67"
     ]
+  },
+  {
+    "id": "urv-manager",
+    "name": "URV Manager",
+    "description": "A beginner‑friendly Android tool to patch apps using ReVanced Patcher. It supports inbuilt split‑APK patching, third‑party patch bundles, custom bundle names, smarter patch selection, bundle organization, and an improved UI — offering more flexibility than the official manager.",
+    "icon": "https://github.com/Jman-Github/Universal-ReVanced-Manager/raw/main/assets/icons/icon-circle.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Jman-Github/Universal-ReVanced-Manager",
+    "githubRepo": "Jman-Github/Universal-ReVanced-Manager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.universal.revanced.manager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Jman-Github",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1768228323379-3112fb71-ae21-4078-a281-a5aa59d7ab82.png",
+      "https://image2url.com/r2/default/images/1768228394443-abd62bfd-2297-45b7-80c3-ef4f1e160340.png",
+      "https://image2url.com/r2/default/images/1768228411643-d8f7c434-bd83-476b-9cec-f494b7657ce6.png",
+      "https://image2url.com/r2/default/images/1768228427119-588bc9f2-8a30-4893-b40d-3684a9bc140e.png"
+    ],
+    "releaseKeyword": "universal-revanced-manager "
   }
 ]
