@@ -4189,5 +4189,29 @@
       "https://raw.githubusercontent.com/namidaco/namida/main/screens/collection_dark_2.jpg"
     ],
     "releaseKeyword": "namida-v5.6.1"
+  },
+  {
+    "id": "siyuan",
+    "name": "SiYuan",
+    "description": "SiYuan is a privacy-first personal knowledge management system, support fine-grained block-level reference and Markdown WYSIWYG.",
+    "icon": "https://camo.githubusercontent.com/69bc714c39202bd579097606a815d106916b73422d627236eb1243fe20c0ee8e/68747470733a2f2f62336c6f672e6f72672f696d616765732f6272616e642f73697975616e2d3132382e706e67",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/siyuan-note/siyuan",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "siyuan-note",
+    "officialSite": "https://github.com/siyuan-note/siyuan",
+    "screenshots": [
+      "https://camo.githubusercontent.com/7806f6c6d78dc2270e4a0363b01b14875348ae6c76b61922821b20f0b1bf9beb/68747470733a2f2f62336c6f6766696c652e636f6d2f66696c652f323032352f31312f66656174757265302d476662684571662e706e67",
+      "https://camo.githubusercontent.com/c446f6d38f96aa31c1737d5a9b1a6404e41efd4922942b70976045b090959864/68747470733a2f2f62336c6f6766696c652e636f6d2f66696c652f323032352f31312f66656174757265352d312d37444a536645502e706e67",
+      "https://camo.githubusercontent.com/fbce48b281ebc786d5f7a5875c6a3e945c3938e102cdd8d1c251d8a681acbd0c/68747470733a2f2f62336c6f6766696c652e636f6d2f66696c652f323032332f30352f53695975616e5f417263682d536775387658542e706e67"
+    ]
   }
 ]
