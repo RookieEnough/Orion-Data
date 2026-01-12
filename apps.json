@@ -4268,5 +4268,33 @@
       "https://tapframe.github.io/NuvioStreaming/screenshots/search-portrait.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "torrent-search",
+    "name": "Torrent Search ",
+    "description": "A modern Material 3 designed Android app for searching and downloading torrents from multiple providers.",
+    "icon": "https://raw.githubusercontent.com/prajwalch/TorrentSearch/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/prajwalch/TorrentSearch",
+    "githubRepo": "prajwalch/TorrentSearch",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.prajwatch.torrentsearch",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "prajwalch",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1768244688013-d42e8693-2a43-4359-8084-c34a8914b60a.jpg",
+      "https://image2url.com/r2/default/images/1768244745271-0f6566f9-e7c6-436f-b02e-304c862fe2ad.jpg",
+      "https://image2url.com/r2/default/images/1768244771196-608623be-2d40-41f3-a777-3f484b074c0a.jpg",
+      "https://image2url.com/r2/default/images/1768244792475-3b851253-6ef0-41bf-a5f2-49aac8f67056.jpg",
+      "https://image2url.com/r2/default/images/1768244816646-9bff7614-53d2-4ec1-8751-40ab2b2fb28f.jpg",
+      "https://image2url.com/r2/default/images/1768244840670-7fa15863-c3e2-41d3-9cb2-334122fdd780.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
