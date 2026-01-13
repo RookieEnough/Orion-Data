@@ -4321,5 +4321,31 @@
       "https://image2url.com/r2/default/images/1768268841463-92a8fe07-dedd-4e76-b859-1e07360b644b.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "wall-you",
+    "name": "Wall You",
+    "description": "Privacy focused wallpaper app built with MD3",
+    "icon": "https://raw.githubusercontent.com/you-apps/WallYou/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/you-apps/WallYou",
+    "githubRepo": "you-apps/WallYou",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.bnyro.wallpaper",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "you-apps",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/you-apps/WallYou/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1-home.png",
+      "https://raw.githubusercontent.com/you-apps/WallYou/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2-filter.png",
+      "https://raw.githubusercontent.com/you-apps/WallYou/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3-option.png",
+      "https://raw.githubusercontent.com/you-apps/WallYou/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4-about.png"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
