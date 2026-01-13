@@ -4372,5 +4372,30 @@
       "https://github.com/libre-tube/LibreTube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_4.jpg",
       "https://github.com/libre-tube/LibreTube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_9.jpg"
     ]
+  },
+  {
+    "id": "pano-scrobbler",
+    "name": "Pano Scrobbler",
+    "description": "Feature packed cross-platform  MUSIC TRACKER for Last.fm, ListenBrainz, Libre.fm, Pleroma and other compatible services. Must for musicophiles.",
+    "icon": "https://github.com/kawaiiDango/pano-scrobbler/raw/main/composeApp/src/commonMain/composeResources/drawable/ic_launcher_with_bg.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/kawaiiDango/pano-scrobbler",
+    "githubRepo": "kawaiiDango/pano-scrobbler",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.arn.scrobble",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "kawaiiDango",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/kawaiiDango/pano-scrobbler/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3-friends-mobile.jpg",
+      "https://github.com/kawaiiDango/pano-scrobbler/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4-details-mobile.jpg",
+      "https://github.com/kawaiiDango/pano-scrobbler/raw/main/desktop-screenshots/1-scrobbles-desktop.jpg"
+    ],
+    "releaseKeyword": "pano-scrobbler"
   }
-  ]
+]
