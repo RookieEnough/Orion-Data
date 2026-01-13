@@ -4347,5 +4347,30 @@
       "https://raw.githubusercontent.com/you-apps/WallYou/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4-about.png"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "libre-tube",
+    "name": "Libre Tube",
+    "description": "An alternative frontend for YouTube, for Android. ",
+    "icon": "https://raw.githubusercontent.com/libre-tube/LibreTube/refs/heads/master/assets/icons/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/libre-tube/LibreTube",
+    "githubRepo": "libre-tube/LibreTube",
+    "releaseKeyword": "apk",
+    "packageName": "com.github.libretube",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "libre-tube",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/libre-tube/LibreTube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1.jpg",
+      "https://github.com/libre-tube/LibreTube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2.jpg",
+      "https://github.com/libre-tube/LibreTube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_3.jpg",
+      "https://github.com/libre-tube/LibreTube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_4.jpg",
+      "https://github.com/libre-tube/LibreTube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_9.jpg"
+    ]
   }
-]
+  ]
