@@ -4397,5 +4397,31 @@
       "https://github.com/kawaiiDango/pano-scrobbler/raw/main/desktop-screenshots/1-scrobbles-desktop.jpg"
     ],
     "releaseKeyword": "pano-scrobbler"
+  },
+  {
+    "id": "noutube",
+    "name": "NouTube",
+    "description": "YouTube and YouTube Music in a single app. No ads. Plays in the background. Allow hide shorts. Sponsorblock and much more.",
+    "icon": "https://f-droid.org/repo/jp.nonbili.noutube/en-US/icon_A1nC0BkAzsvNhws7y1thjfhF8LJJReXVUORApHsstDE=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nonbili/NouTube",
+    "githubRepo": "nonbili/NouTube",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "jp.nonbili.noutube",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nonbili",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/nonbili/NouTube/raw/main/metadata/en-US/images/phoneScreenshots/1.jpg",
+      "https://i.postimg.cc/rF5NWKfK/Screenshot-20260113-203821-(1).png",
+      "https://github.com/nonbili/NouTube/raw/main/metadata/en-US/images/phoneScreenshots/2.jpg",
+      "https://github.com/nonbili/NouTube/raw/main/metadata/en-US/images/phoneScreenshots/3.jpg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
