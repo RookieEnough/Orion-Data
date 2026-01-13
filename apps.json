@@ -4423,5 +4423,31 @@
       "https://github.com/nonbili/NouTube/raw/main/metadata/en-US/images/phoneScreenshots/3.jpg"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "social-saver",
+    "name": "Social Saver",
+    "description": "Social Saver is a free, user-friendly desktop application for Windows, macOS, and Linux that simplifies saving online media. Powered by the robust yt-dlp and gallery-dl engines, it allows you to easily download videos, audio tracks, entire playlists, and full image galleries for offline access.",
+    "icon": "https://raw.githubusercontent.com/VishalKaleria/social-saver/refs/heads/main/public/icons/png/512x512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/VishalKaleria/social-saver",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "chaiNNer-org",
+    "officialSite": "https://socialsaver.site/",
+    "screenshots": [
+      "https://files.catbox.moe/8q7cuz.png",
+      "https://files.catbox.moe/vcbsfv.png",
+      "https://files.catbox.moe/fo5vzo.png",
+      "https://files.catbox.moe/1njcpf.png",
+      "https://files.catbox.moe/9iyjpy.png"
+    ]
   }
 ]
