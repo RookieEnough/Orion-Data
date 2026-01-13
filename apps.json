@@ -4296,5 +4296,30 @@
       "https://image2url.com/r2/default/images/1768244840670-7fa15863-c3e2-41d3-9cb2-334122fdd780.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "komikku",
+    "name": "Komikku",
+    "description": "A free and open source manga reader which is based off TachiyomiSY & Mihon/Tachiyomi. This fork is meant to provide new & useful features while regularly take features/updates from Mihon or other forks like SY, J2K and Neko...",
+    "icon": "https://raw.githubusercontent.com/komikku-app/komikku/master/.github/readme-images/app-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/komikku-app/komikku?tab=readme-ov-file",
+    "githubRepo": "komikku-app/komikku?tab=readme-ov-file",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.komikku",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "komikku-app",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1768268781473-38faaba2-cd61-4462-ba3b-a147b47ac932.jpg",
+      "https://image2url.com/r2/default/images/1768268827163-9d3cdbf2-a7d0-4817-8ff5-9a45d8833ec9.jpg",
+      "https://image2url.com/r2/default/images/1768268841463-92a8fe07-dedd-4e76-b859-1e07360b644b.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
