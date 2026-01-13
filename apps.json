@@ -4449,5 +4449,35 @@
       "https://files.catbox.moe/1njcpf.png",
       "https://files.catbox.moe/9iyjpy.png"
     ]
+  },
+  {
+    "id": "aegis-authenticator",
+    "name": "Aegis Authenticator",
+    "description": "Aegis Authenticator is a free, secure and open source 2FA app for Android. It aims to provide a secure authenticator for your online services, while also including some features missing in existing authenticator apps, like proper encryption and backups. Aegis supports HOTP and TOTP, making it compatible with thousands of services.",
+    "icon": "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/beemdevelopment/Aegis",
+    "githubRepo": "beemdevelopment/Aegis",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.beemdevelopment.aegis",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "beemdevelopment",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/beemdevelopment/Aegis/blob/master/metadata/en-US/images/phoneScreenshots/screenshot1.png?raw=true",
+      "https://github.com/beemdevelopment/Aegis/blob/master/metadata/en-US/images/phoneScreenshots/screenshot2.png?raw=true",
+      "https://github.com/beemdevelopment/Aegis/blob/master/metadata/en-US/images/phoneScreenshots/screenshot3.png?raw=true",
+      "https://github.com/beemdevelopment/Aegis/blob/master/metadata/en-US/images/phoneScreenshots/screenshot4.png?raw=true",
+      "https://github.com/beemdevelopment/Aegis/blob/master/metadata/en-US/images/phoneScreenshots/screenshot5.png?raw=true",
+      "https://github.com/beemdevelopment/Aegis/blob/master/metadata/en-US/images/phoneScreenshots/screenshot6.png?raw=true",
+      "https://github.com/beemdevelopment/Aegis/blob/master/metadata/en-US/images/phoneScreenshots/screenshot7.png?raw=true",
+      "https://github.com/beemdevelopment/Aegis/blob/master/metadata/en-US/images/phoneScreenshots/screenshot8.png?raw=true"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
