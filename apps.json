@@ -4479,5 +4479,36 @@
       "https://github.com/beemdevelopment/Aegis/blob/master/metadata/en-US/images/phoneScreenshots/screenshot8.png?raw=true"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "android-code-studio",
+    "name": "Android code studio ",
+    "description": "Android Code Studio is an IDE for Android to develop full featured Android apps. ",
+    "icon": "https://avatars.githubusercontent.com/u/234419170?s=400&u=43571ebf481969baafb8399813ad57f46c19eb95&v=4",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/AndroidCSOfficial/android-code-studio/",
+    "githubRepo": "AndroidCSOfficial/android-code-studio",
+    "releaseKeyword": "apk",
+    "packageName": "com.tom.rv2ide",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "AndroidCSOfficial",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1768371087133-4bc8c33b-e0b8-40a0-991a-537e343ebf80.jpg",
+      "https://image2url.com/r2/default/images/1768371109286-82e98e91-0b1e-4d8e-9e2c-c5bbf6a63dfc.jpg",
+      "https://image2url.com/r2/default/images/1768371149785-c9ec9862-04f8-4ce4-97d1-e844ffe6f3b4.jpg",
+      "https://image2url.com/r2/default/images/1768376725392-f8a2b72d-ebfc-4894-9a03-03f2e782865f.jpg",
+      "https://image2url.com/r2/default/images/1768376759563-dff4ecac-2a76-4cf2-99d4-88df78ba9dcf.jpg",
+      "https://image2url.com/r2/default/images/1768376969012-d42f3c98-9897-4d59-90d6-b33824bd9ba0.jpg",
+      "https://image2url.com/r2/default/images/1768377020153-042ea578-7361-4c70-9cfb-d4847ac34db2.jpg",
+      "https://image2url.com/r2/default/images/1768377056459-35584489-2b72-492c-af90-deb25bd02407.jpg",
+      "https://image2url.com/r2/default/images/1768377082695-f698bb8c-5616-4eeb-b5b0-efd44039a66c.jpg",
+      "https://image2url.com/r2/default/images/1768377113614-7f83d563-db17-4d7f-9602-79446f905e3c.jpg"
+
+    ]
   }
 ]
