@@ -45,11 +45,12 @@ jobs:
           git config --global user.name "Orion Bot"
           git config --global user.email "bot@orion.store"
           
-          # 1. Stash generated data safely
-          mkdir -p temp_ghost
-          cp mirror.json temp_ghost/ 2>/dev/null || :
-          cp updates.bin temp_ghost/ 2>/dev/null || :
-          cp -r mirrors temp_ghost/ 2>/dev/null || :
+          echo "📦 Stashing data..."
+          # 1. Stash generated data OUTSIDE the git workspace (../) to survive 'git clean'
+          mkdir -p ../temp_ghost
+          cp mirror.json ../temp_ghost/ 2>/dev/null || echo "⚠️ mirror.json missing"
+          cp updates.bin ../temp_ghost/ 2>/dev/null || echo "⚠️ updates.bin missing"
+          cp -r mirrors ../temp_ghost/ 2>/dev/null || echo "⚠️ mirrors/ missing"
           
           # 2. Switch to Orphan Branch
           # This disconnects from main history
@@ -59,13 +60,16 @@ jobs:
           git rm -rf .
           git clean -fdx
           
-          # 4. Restore Data
-          cp temp_ghost/mirror.json . 2>/dev/null || :
-          cp temp_ghost/updates.bin . 2>/dev/null || :
-          cp -r temp_ghost/mirrors . 2>/dev/null || :
-          rm -rf temp_ghost
+          echo "♻️ Restoring data..."
+          # 4. Restore Data from outside stash
+          cp ../temp_ghost/mirror.json . 2>/dev/null || :
+          cp ../temp_ghost/updates.bin . 2>/dev/null || :
+          cp -r ../temp_ghost/mirrors . 2>/dev/null || :
+          rm -rf ../temp_ghost
           
           # 5. Commit & Force Push
           git add mirror.json updates.bin mirrors/
+          
+          # Only commit if there are changes
           git commit -m "Update Mirror Data (Ghost Protocol) [skip ci]"
           git push origin data --force
