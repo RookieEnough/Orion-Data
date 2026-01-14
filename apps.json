@@ -4508,7 +4508,33 @@
       "https://image2url.com/r2/default/images/1768377056459-35584489-2b72-492c-af90-deb25bd02407.jpg",
       "https://image2url.com/r2/default/images/1768377082695-f698bb8c-5616-4eeb-b5b0-efd44039a66c.jpg",
       "https://image2url.com/r2/default/images/1768377113614-7f83d563-db17-4d7f-9602-79446f905e3c.jpg"
-
     ]
+  },
+  {
+    "id": "refreezer",
+    "name": "ReFreezer",
+    "description": "An alternative Deezer music streaming & downloading client, based on Freezer.",
+    "icon": "https://raw.githubusercontent.com/DJDoubleD/refreezer/refs/heads/master/assets/icons/DefaultIcon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/DJDoubleD/refreezer",
+    "githubRepo": "DJDoubleD/refreezer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "r.r.refreezer",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "DJDoubleD",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/Login.jpg",
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/Home.jpg",
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/Player.jpg",
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/Lyrics.jpg",
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/SearchResults.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
