@@ -1,8 +1,8 @@
 {
   "appsJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/apps.json",
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/mirror.json",
-  "maintenanceMode": false,
-  "maintenanceMessage": "We are currently updating the server. Please check back in 30 minutes.",
+  "maintenanceMode": true,
+  "maintenanceMessage": "We are currently updating the server. Please check back in a while.",
   "announcement": "Version V1.0.9 is now live! This release fixes major issues such as package parsing, adds progress export support, and includes additional improvements for a more stable and reliable experience.",
   "latestStoreVersion": "1.0.9",
   "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.9/app-release.apk",
