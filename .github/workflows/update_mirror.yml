@@ -24,35 +24,48 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Install Requests
-        run: pip install requests
+      - name: Install Dependencies
+        run: pip install requests msgpack
 
-      - name: Generate Mirror JSON
+      - name: Generate Mirror Data
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/scripts/mirror_generator.py
 
-      - name: Commit and Push
+      - name: Deploy to Ghost Branch (Data)
         run: |
           git config --global user.name "Orion Bot"
           git config --global user.email "bot@orion.store"
           
-          git add mirror.json
+          # 1. Stash generated data safely
+          mkdir -p temp_ghost
+          cp mirror.json temp_ghost/ 2>/dev/null || :
+          cp updates.bin temp_ghost/ 2>/dev/null || :
+          cp -r mirrors temp_ghost/ 2>/dev/null || :
           
-          # Check if there are changes
-          if git diff --staged --quiet; then
-            echo "No changes to mirror.json"
-            exit 0
-          fi
+          # 2. Switch to Orphan Branch
+          # This disconnects from main history
+          git checkout --orphan data
           
-          git commit -m "Update mirror.json [skip ci]"
+          # 3. Nuke everything (Clean State)
+          git rm -rf .
+          git clean -fdx
           
-          # SAFETY: Pull changes from remote before pushing to avoid conflicts
-          git pull --rebase origin main
-          git push
+          # 4. Restore Data
+          cp temp_ghost/mirror.json . 2>/dev/null || :
+          cp temp_ghost/updates.bin . 2>/dev/null || :
+          cp -r temp_ghost/mirrors . 2>/dev/null || :
+          rm -rf temp_ghost
+          
+          # 5. Commit & Force Push
+          git add mirror.json updates.bin mirrors/
+          git commit -m "Update Mirror Data (Ghost Protocol) [skip ci]"
+          git push origin data --force
