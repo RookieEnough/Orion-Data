@@ -4596,9 +4596,9 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/HydeYYHH/litube/",
+    "repoUrl": "https://github.com/HydeYYHH/litube",
     "githubRepo": "HydeYYHH/litube",
-    "releaseKeyword": "app-release",
+    "releaseKeyword": "apk",
     "packageName": "com.hhst.litube",
     "category": "Media",
     "platform": "Android",
@@ -4606,10 +4606,10 @@
     "author": "HydeYYHH",
     "officialSite": "",
     "screenshots": [
-      "https://github.com/HydeYYHH/litube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
-      "https://github.com/HydeYYHH/litube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
-      "https://github.com/HydeYYHH/litube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
-      "https://github.com/HydeYYHH/litube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg"
+      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
     ]
   }
   ]
