@@ -4563,5 +4563,29 @@
       "https://f-droid.org/repo/com.axiel7.anihyou/en-US/phoneScreenshots/5_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "stremio",
+    "name": "Stremio",
+    "description": "A video streaming application, that allows you to watch and organize video content from different services accross multiple devices. \n\nStremio integrates with a large number of popular video sources, such as Netflix, Amazon Prime Video, Hulu, YouTube, and many more.",
+    "icon": "https://www.stremio.com/website/stremio-logo-small.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://www.stremio.com/downloads",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "TheTVDB",
+    "officialSite": "https://www.stremio.com/downloads",
+    "screenshots": [
+      "https://www.stremio.com/website/discover-front@2x.png?last=1752833702",
+      "https://www.stremio.com/website/devices-home-mobile@2x.png?last=1752833702",
+      "https://web.stremio.com/images/calendar_placeholder.png"
+    ]
   }
 ]
