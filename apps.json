@@ -4587,5 +4587,29 @@
       "https://www.stremio.com/website/devices-home-mobile@2x.png?last=1752833702",
       "https://web.stremio.com/images/calendar_placeholder.png"
     ]
+  },
+  {
+    "id": "litube",
+    "name": "Litube",
+    "description": "Litube, a free, open-source Android app that acts as an advanced, ad-blocking YouTube client by using a webview wrapper, offering features like background play, video downloads, Picture-in-Picture (PiP), and full Google account login for a YouTube Premium-like experience without ads.",
+    "icon": "https://raw.githubusercontent.com/HydeYYHH/litube/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/HydeYYHH/litube/",
+    "githubRepo": "HydeYYHH/litube",
+    "releaseKeyword": "app-release",
+    "packageName": "com.hhst.litube",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "HydeYYHH",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/HydeYYHH/litube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+      "https://github.com/HydeYYHH/litube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://github.com/HydeYYHH/litube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://github.com/HydeYYHH/litube/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg"
+    ]
   }
-]
+  ]
