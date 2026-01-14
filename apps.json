@@ -4536,5 +4536,32 @@
       "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/SearchResults.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "anihyou",
+    "name": "AniHyou",
+    "description": "Another unofficial Android AniList client. AniHyou is your perfect app to track and discover Anime & Manga! You can create lists to organise your series, view user ratings, reviews and official streaming sites.",
+    "icon": "https://f-droid.org/repo/com.axiel7.anihyou/en-US/icon_6GZJ21qQfat7t4NRo5CLeZotLvnaCPsyrwiM6Qt_9Ts=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/axiel7/AniHyou-android",
+    "githubRepo": "axiel7/AniHyou-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.axiel7.anihyou",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "axiel7",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.axiel7.anihyou/en-US/phoneScreenshots/1_en-US.png",
+      "https://f-droid.org/repo/com.axiel7.anihyou/en-US/phoneScreenshots/2_en-US.png",
+      "https://f-droid.org/repo/com.axiel7.anihyou/en-US/phoneScreenshots/3_en-US.png",
+      "https://f-droid.org/repo/com.axiel7.anihyou/en-US/phoneScreenshots/4_en-US.png",
+      "https://f-droid.org/repo/com.axiel7.anihyou/en-US/phoneScreenshots/5_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
