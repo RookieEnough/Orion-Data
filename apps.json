@@ -4305,7 +4305,7 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/komikku-app/komikku?tab=readme-ov-file",
+    "repoUrl": "https://github.com/komikku-app/komikku",
     "githubRepo": "komikku-app/komikku?tab=readme-ov-file",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -4320,7 +4320,7 @@
       "https://image2url.com/r2/default/images/1768268827163-9d3cdbf2-a7d0-4817-8ff5-9a45d8833ec9.jpg",
       "https://image2url.com/r2/default/images/1768268841463-92a8fe07-dedd-4e76-b859-1e07360b644b.jpg"
     ],
-    "releaseKeyword": "Komikku-v"
+    "releaseKeyword": "Komikku"
   },
   {
     "id": "wall-you",
@@ -4598,7 +4598,7 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/HydeYYHH/litube",
     "githubRepo": "HydeYYHH/litube",
-    "releaseKeyword": "app-release.apk",
+    "releaseKeyword": "app-release",
     "packageName": "com.hhst.litube",
     "category": "Media",
     "platform": "Android",
@@ -4612,4 +4612,4 @@
       "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
     ]
   }
-  ]
+]
