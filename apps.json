@@ -4573,7 +4573,8 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/HydeYYHH/litube",
     "githubRepo": "HydeYYHH/litube",
-    "releaseKeyword": "app-release",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
     "packageName": "com.hhst.litube",
     "category": "Media",
     "platform": "Android",
@@ -4581,11 +4582,13 @@
     "author": "HydeYYHH",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
-      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
-      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
-      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
-    ]
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/Login.jpg",
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/Home.jpg",
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/Player.jpg",
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/Lyrics.jpg",
+      "https://raw.githubusercontent.com/DJDoubleD/refreezer/master/assets/screenshots/SearchResults.jpg"
+    ],
+    "releaseKeyword": "app-release"
   },
   {
     "id": "komikku",
@@ -4597,7 +4600,8 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/komikku-app/komikku",
     "githubRepo": "komikku-app/komikku",
-    "releaseKeyword": "Komikku",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
     "packageName": "app.komikku",
     "category": "Utility",
     "platform": "Android",
@@ -4608,6 +4612,7 @@
       "https://image2url.com/r2/default/images/1768268781473-38faaba2-cd61-4462-ba3b-a147b47ac932.jpg",
       "https://image2url.com/r2/default/images/1768268827163-9d3cdbf2-a7d0-4817-8ff5-9a45d8833ec9.jpg",
       "https://image2url.com/r2/default/images/1768268841463-92a8fe07-dedd-4e76-b859-1e07360b644b.jpg"
-    ]
+    ],
+    "releaseKeyword": "Komikku"
   }
 ]
