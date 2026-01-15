@@ -4298,31 +4298,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "komikku",
-    "name": "Komikku",
-    "description": "A free and open source manga reader which is based off TachiyomiSY & Mihon/Tachiyomi. This fork is meant to provide new & useful features while regularly take features/updates from Mihon or other forks like SY, J2K and Neko...",
-    "icon": "https://raw.githubusercontent.com/komikku-app/komikku/master/.github/readme-images/app-icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/komikku-app/komikku",
-    "githubRepo": "komikku-app/komikku",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "app.komikku",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "komikku-app",
-    "officialSite": "",
-    "screenshots": [
-      "https://image2url.com/r2/default/images/1768268781473-38faaba2-cd61-4462-ba3b-a147b47ac932.jpg",
-      "https://image2url.com/r2/default/images/1768268827163-9d3cdbf2-a7d0-4817-8ff5-9a45d8833ec9.jpg",
-      "https://image2url.com/r2/default/images/1768268841463-92a8fe07-dedd-4e76-b859-1e07360b644b.jpg"
-    ],
-    "releaseKeyword": "Komikku"
-  },
-  {
     "id": "wall-you",
     "name": "Wall You",
     "description": "Privacy focused wallpaper app built with MD3",
@@ -4586,30 +4561,6 @@
       "https://www.stremio.com/website/discover-front@2x.png?last=1752833702",
       "https://www.stremio.com/website/devices-home-mobile@2x.png?last=1752833702",
       "https://web.stremio.com/images/calendar_placeholder.png"
-    ]
-  },
-  {
-    "id": "litube",
-    "name": "Litube",
-    "description": "Litube, a free, open-source Android app that acts as an advanced, ad-blocking YouTube client by using a webview wrapper, offering features like background play, video downloads, Picture-in-Picture (PiP), and full Google account login for a YouTube Premium-like experience without ads.",
-    "icon": "https://raw.githubusercontent.com/HydeYYHH/litube/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/HydeYYHH/litube",
-    "githubRepo": "HydeYYHH/litube",
-    "releaseKeyword": "app-release",
-    "packageName": "com.hhst.litube",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "HydeYYHH",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
-      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
-      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
-      "https://raw.githubusercontent.com/HydeYYHH/litube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
     ]
   }
 ]
