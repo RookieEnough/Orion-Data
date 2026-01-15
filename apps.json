@@ -4751,5 +4751,32 @@
       "https://image2url.com/r2/default/files/1768494142980-0a0675b2-793b-449b-9e50-a8852bedc93c.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "xtra",
+    "name": "Xtra",
+    "description": "\nXtra is a Twitch player and browser for Android.",
+    "icon": "https://raw.githubusercontent.com/AndreyAsadchy/Xtra/197ba90cac879abd2a5645393ce361847f12fa0b/app/src/main/ic_launcher-web.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/crackededed/Xtra",
+    "githubRepo": "crackededed/Xtra",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.github.andreyasadchy.xtra",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "crackededed",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
