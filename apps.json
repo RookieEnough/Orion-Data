@@ -4695,5 +4695,34 @@
       "https://github.com/rikkahub/rikkahub/raw/master/docs/img/assistants.png"
     ],
     "releaseKeyword": "rikkahub"
+  },
+  {
+    "id": "amaze-file-manager",
+    "name": "Amaze File Manager",
+    "description": "Simple and attractive Material Design file manager for Android.",
+    "icon": "https://raw.githubusercontent.com/TeamAmaze/AmazeFileManager/release/4.0/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/TeamAmaze/AmazeFileManager",
+    "githubRepo": "TeamAmaze/AmazeFileManager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.amaze.filemanager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "TeamAmaze",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.amaze.filemanager/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.amaze.filemanager/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.amaze.filemanager/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.amaze.filemanager/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.amaze.filemanager/en-US/phoneScreenshots/5.png",
+      "https://f-droid.org/repo/com.amaze.filemanager/en-US/phoneScreenshots/6.png",
+      "https://f-droid.org/repo/com.amaze.filemanager/en-US/phoneScreenshots/7.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
