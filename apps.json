@@ -1369,7 +1369,7 @@
   {
     "id": "MiCTS",
     "name": "MiCTS",
-    "description": "Trigger Circle to Search on any Android 9–15 devicem, without any ROOT.",
+    "description": "Trigger Circle to Search on any Android 9–15 device, without ROOT Permissions.",
     "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7buSxm_wG49ExQQuaYtsuCsGfL6BBEQ1RIg&usqp=CAU",
     "version": "Latest",
     "latestVersion": "Latest",
