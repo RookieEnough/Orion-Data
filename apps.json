@@ -4306,7 +4306,7 @@
     "latestVersion": "Latest",
     "downloadUrl": "#",
     "repoUrl": "https://github.com/komikku-app/komikku",
-    "githubRepo": "komikku-app/komikku?tab=readme-ov-file",
+    "githubRepo": "komikku-app/komikku",
     "gitlabRepo": "",
     "gitlabDomain": "",
     "packageName": "app.komikku",
