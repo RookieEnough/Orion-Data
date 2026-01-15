@@ -4614,5 +4614,31 @@
       "https://image2url.com/r2/default/images/1768268841463-92a8fe07-dedd-4e76-b859-1e07360b644b.jpg"
     ],
     "releaseKeyword": "Komikku"
+  },
+  {
+    "id": "bt-remote",
+    "name": "BT Remote",
+    "description": "Turn your smartphone into a Bluetooth remote control to easily navigate and interact with your Android TV.  No advertising and Open Source.",
+    "icon": "https://gitlab.com/Atharok/BtRemote/-/raw/main/assets/icon_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://gitlab.com/Atharok/BtRemote",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "Atharok",
+    "officialSite": "https://gitlab.com/Atharok/BtRemote",
+    "screenshots": [
+      "https://gitlab.com/Atharok/BtRemote/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+      "https://gitlab.com/Atharok/BtRemote/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png",
+      "https://gitlab.com/Atharok/BtRemote/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/08.png",
+      "https://gitlab.com/Atharok/BtRemote/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://gitlab.com/Atharok/BtRemote/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png"
+    ]
   }
 ]
