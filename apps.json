@@ -4669,5 +4669,31 @@
       "https://f-droid.org/repo/com.kin.athena/en-US/phoneScreenshots/7.png"
     ],
     "releaseKeyword": "Athena"
+  },
+  {
+    "id": "rikkahub",
+    "name": "RikkaHub",
+    "description": "A native Android LLM chat client that supports switching between different providers for conversations.",
+    "icon": "https://raw.githubusercontent.com/rikkahub/rikkahub/master/docs/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/rikkahub/rikkahub",
+    "githubRepo": "rikkahub/rikkahub",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.rerere.rikkahub",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rikkahub",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/rikkahub/rikkahub/raw/master/docs/img/chat.png",
+      "https://github.com/rikkahub/rikkahub/raw/master/docs/img/models.png",
+      "https://github.com/rikkahub/rikkahub/raw/master/docs/img/providers.png",
+      "https://github.com/rikkahub/rikkahub/raw/master/docs/img/assistants.png"
+    ],
+    "releaseKeyword": "rikkahub"
   }
 ]
