@@ -4778,5 +4778,32 @@
       "https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "lotus",
+    "name": "Lotus",
+    "description": "Offline Music player for Android. \n( Though PixelPlayer is much better in term of UI and updates , search on Orion) .",
+    "icon": "https://raw.githubusercontent.com/dn0ne/lotus/master/fastlane/metadata/android/en-US/images/icon-fit.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dn0ne/lotus",
+    "githubRepo": "dn0ne/lotus",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.dn0ne.lotus",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dn0ne",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/dn0ne/lotus/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://github.com/dn0ne/lotus/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://github.com/dn0ne/lotus/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://github.com/dn0ne/lotus/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://github.com/dn0ne/lotus/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png"
+    ],
+    "releaseKeyword": "lotus"
   }
 ]
