@@ -158,15 +158,60 @@ def generate_mirror():
                 else:
                     minified_data = minify_release(data)
                 
+                # Check if empty list returned (repo exists but no releases)
+                if not minified_data:
+                    print(f"   ⚠️ Repo exists but has NO RELEASES: {repo_path}")
+                
                 repo_cache[u_key] = minified_data
                 repo_cache[repo_path] = minified_data 
 
         except Exception as e:
             print(f"   ❌ Network Error: {e}")
 
+    # --- NEW: MISSING APPS AUDIT REPORT ---
+    print("\n" + "="*50)
+    print("🕵️  MISSING APPS AUDIT REPORT")
+    print("="*50)
+    
+    missing_count = 0
+    
+    for app in apps:
+        app_id = app.get('id', 'unknown')
+        app_name = app.get('name', 'Unknown')
+        unique_key = app_to_repo_map.get(app_id)
+        
+        status = "OK"
+        reason = ""
+        
+        if not unique_key:
+            status = "MISSING"
+            reason = "Could not parse repoUrl or githubRepo from apps.json"
+        elif unique_key not in repo_cache:
+            status = "MISSING"
+            reason = "API Request Failed (404 Not Found, 403 Rate Limit, or Network Error)"
+        elif not repo_cache[unique_key]:
+            status = "MISSING"
+            reason = "Repo fetched successfully, but it has ZERO releases."
+            
+        if status == "MISSING":
+            missing_count += 1
+            print(f"❌ {app_name} (ID: {app_id})")
+            print(f"   Reason: {reason}")
+            print(f"   Target: {app.get('githubRepo') or app.get('repoUrl')}")
+            print("-" * 30)
+
+    if missing_count == 0:
+        print("✅ PERFECT RUN! All apps accounted for.")
+    else:
+        print(f"\n⚠️  TOTAL MISSING: {missing_count}/{len(apps)}")
+        print("   Apps listed above will display 'Varies' or 'Latest' in the store.")
+        print("   Action: Check repo URLs, verify Releases exist, or check GitHub Status.")
+    print("="*50 + "\n")
+    # --------------------------------------
+
     # 4. Generate Monolithic File (Legacy)
     print("💾 Saving legacy mirror.json...")
-    legacy_data = {k: v for k, v in repo_cache.items() if "::" not in k} 
+    legacy_data = {k: v for k, v in repo_cache.items() if "::" not in k and v} 
     try:
         with open(MIRROR_FILE, "w", encoding="utf-8") as f:
             json.dump(legacy_data, f, indent=None, separators=(',', ':'))
@@ -190,7 +235,7 @@ def generate_mirror():
         # Determine latest version for Manifest
         # Priority: Live Data > Config Data > Fallback
         live_version = None
-        if unique_key and unique_key in repo_cache:
+        if unique_key and unique_key in repo_cache and repo_cache[unique_key]:
             cached_data = repo_cache[unique_key]
             # Write Shard
             identifier = app.get('packageName') or app.get('id')
