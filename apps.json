@@ -4805,5 +4805,29 @@
       "https://github.com/dn0ne/lotus/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png"
     ],
     "releaseKeyword": "lotus"
+  },
+  {
+    "id": "playtorrio",
+    "name": "PlayTorrio",
+    "description": "PlayTorrio is an all-in-one media center application that brings together streaming, torrenting, and media management in a beautiful, easy-to-use interface.",
+    "icon": "https://d4.alternativeto.net/G6ogd30wbi6XgiF05lvL_GhuZVarL9N2hIw-tkdyqSI/rs:fit:140:140:0/g:ce:0:0/exar:1/YWJzOi8vZGlzdC9pY29ucy9wbGF5dG9ycmlvXzI2MjQ1Mi5wbmc.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://playtorrio.xyz/",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "ayman708-UX",
+    "officialSite": "https://playtorrio.xyz/",
+    "screenshots": [
+      "https://playtorrio.xyz/images/photo.png",
+      "https://playtorrio.com/wp-content/uploads/2025/12/PlayTorrio-Overview.webp",
+      "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fmajor-upgrade-playtorrio-is-now-on-a-whole-new-level-v0-gj9rzilkq15g1.png%3Fwidth%3D2559%26format%3Dpng%26auto%3Dwebp%26s%3D62f7fa9365a655ac97a2e1c214a07c4a0a85fe4f"
+    ]
   }
 ]
