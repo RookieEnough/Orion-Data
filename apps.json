@@ -4640,5 +4640,34 @@
       "https://gitlab.com/Atharok/BtRemote/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
       "https://gitlab.com/Atharok/BtRemote/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png"
     ]
+  },
+  {
+    "id": "athena",
+    "name": "Athena",
+    "description": "Athena is a Material You firewall and Ad blocker that works seamlessly on both rooted and non-rooted devices.",
+    "icon": "https://camo.githubusercontent.com/1c5648128897fb39419da9c7a6610295d77aa312a04fdcc4208aafd36dc5ed67/68747470733a2f2f692e6962622e636f2f70765174527150502f617468656e612d6c6f676f2e706e67",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Kin69/Athena",
+    "githubRepo": "Kin69/Athena",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.kin.athena",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Kin69",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.kin.athena/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.kin.athena/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.kin.athena/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.kin.athena/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.kin.athena/en-US/phoneScreenshots/5.png",
+      "https://f-droid.org/repo/com.kin.athena/en-US/phoneScreenshots/6.png",
+      "https://f-droid.org/repo/com.kin.athena/en-US/phoneScreenshots/7.png"
+    ],
+    "releaseKeyword": "Athena"
   }
 ]
