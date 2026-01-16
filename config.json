@@ -3,17 +3,17 @@
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/data/mirror.json",
   "maintenanceMode": false,
   "maintenanceMessage": "We are currently updating the server. Please check back in a while.",
-  "announcement": "I rebuilt the Orion Store backend to fix GitHub scaling limits. It now supports 90,000+ apps smoothly instead of just 200 without a sweat. V1.1.0 will be released soon",
+  "announcement": "I rebuilt the Orion Store backend to fix GitHub scaling limits. It now supports 90,000+ apps smoothly instead of just 200 without a sweat. V1.1.0 is live now!",
   
   "notice": {
     "show": true,
-    "id": "notice-v1.1-welcome",
-    "title": "Welcome to Orion v1.1.0",
-    "message": "We've completely rewritten the engine!\n\n• Silent Installs (Shizuku)\n• 100x Faster Loading\n• Identity Backup\n\nEnjoy the new speed!"
+    "id": "notice-v1.1.0-welcome",
+    "title": "Orion Store v1.1.0 is Here",
+    "message": "Orion has been completely re-engineered for infinite scale.\n\n⚡ Silent Install: Update apps instantly via Shizuku.\n🧬 Smart Versions: Choose between Stable & Beta builds.\n🚀 Turbo Media: Instant icons and zero-lag browsing.\n\nThis update represents hundreds of hours of hard work. If you love Orion, please Star the Repo or 'Fuel the Code' ☕ in the Dev tab to keep the servers running!"
   },
 
-  "latestStoreVersion": "1.0.9",
-  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.9/app-release.apk",
+  "latestStoreVersion": "1.1.0",
+  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.1.0/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "socials": {
@@ -38,6 +38,16 @@
       "answer": "Yes. I personally review and mod them using tools available on their official repositories to ensure they are safe, functional, and privacy-respecting before they land here.",
       "icon": "fa-check-double"
     },
+    {
+     "question": "Are ReVanced builds safe?",
+     "answer": "Yes. These builds are automated via GitHub Actions bots, not manually patched. They use the official ReVanced CLI and patches on APKs sourced from APKMirror, Uptodown, and APKPure. The process runs daily at 6 AM. The entire build pipeline is transparent and open-source: https://github.com/RookieEnough/Revanced-AutoBuilds",
+     "icon": "fa-robot"
+  },
+  {
+    "question": "Installation failed?",
+    "answer": "If you see 'App not installed' or 'Package conflicts', it's likely a signature mismatch. You cannot install a modded app over the original Play Store version or a different mod. Uninstall the existing app first, then install the one from Orion.",
+    "icon": "fa-file-signature"
+  },
     {
       "question": "Download not working?",
       "answer": "Don't panic! Just head to the app's detail page and click the 'Report' icon (⚠️) in the top right corner. It will pre-fill an email so I can fix it ASAP.",
