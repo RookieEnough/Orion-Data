@@ -1123,7 +1123,7 @@
     "id": "nobook",
     "name": "Nobook",
     "description": "Nobook is an Open Source and a lightweight Android application to browse facebook.",
-    "icon": "https://github.com/ycngmn/Nobook/blob/main/app/src/main/ic_launcher-playstore.png",
+    "icon": "https://raw.githubusercontent.com/ycngmn/Nobook/main/images/nobook_github_cover.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
