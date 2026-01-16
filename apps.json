@@ -4912,5 +4912,29 @@
       "https://private-user-images.githubusercontent.com/28412477/313155456-39511ad3-aa9a-4f8c-8947-1cce286a46ad.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg1NjQ5ODMsIm5iZiI6MTc2ODU2NDY4MywicGF0aCI6Ii8yODQxMjQ3Ny8zMTMxNTU0NTYtMzk1MTFhZDMtYWE5YS00ZjhjLTg5NDctMWNjZTI4NmE0NmFkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE2VDExNTgwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNmMjY5YjQzNjg5ZWExMDE3ZGQxZjM3YzA2NTBiNTU4ZTBkZDYwZWZiMGVmNjY2YTU1NGQzM2E1MDlhMzY5OWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.1Sdlql6UEUsxGOHBrjCHJGtKsExi3g-Yw_ZnC2w-06Q",
       "https://private-user-images.githubusercontent.com/28412477/313155470-db82d4e7-c4bc-4823-8e6f-6af7eadf7651.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg1NjQ5ODMsIm5iZiI6MTc2ODU2NDY4MywicGF0aCI6Ii8yODQxMjQ3Ny8zMTMxNTU0NzAtZGI4MmQ0ZTctYzRiYy00ODIzLThlNmYtNmFmN2VhZGY3NjUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE2VDExNTgwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkxNzg4NmM5MDMwMmU4YTQ1OWZhNmYxNDdiZDE4NmIwOTA1M2E0ZTA0M2NmMjFhMjgyY2FlMWUzYjlkMmY2M2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.I_2yZsYOWIgGA2fXh2O9JK78toMtTpVfHjfkxNmi4iI"
     ]
+  },
+  {
+    "id": "streamed",
+    "name": "streamed",
+    "description": "The Ultimate ALL-IN-ONE Streaming App (Movies, TV Shows & Hi-Fi Music)",
+    "icon": "https://raw.githubusercontent.com/chandradev28/streamed.app/main/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/chandradev28/streamed.app",
+    "githubRepo": "chandradev28/streamed.app",
+    "releaseKeyword": "application",
+    "packageName": "com.fantomthief1999.streamed",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "chandradev28",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/chandradev28/streamed.app/main/assets/demo-home.jpg",
+      "https://raw.githubusercontent.com/chandradev28/streamed.app/main/assets/demo-playlist.jpg",
+      "https://raw.githubusercontent.com/chandradev28/streamed.app/main/assets/demo-music.jpg",
+      "https://raw.githubusercontent.com/chandradev28/streamed.app/main/assets/demo-torboxers.jpg"
+    ]
   }
-]
+ ]
