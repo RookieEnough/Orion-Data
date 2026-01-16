@@ -1104,7 +1104,7 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/revanced",
     "githubRepo": "RookieEnough/Revanced-AutoBuilds",
-    "releaseKeyword": "Proton",
+    "releaseKeyword": "Proton-vpn",
     "packageName": "ch.protonvpn.android",
     "category": "Utility",
     "platform": "Android",
