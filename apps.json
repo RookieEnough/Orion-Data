@@ -1341,7 +1341,7 @@
       "https://play-lh.googleusercontent.com/Yo4rveHbCMcw4KEESy7mNvE2JongkNoW1QN2G4sQrGbsS39zbJ5OZlhDnS_WSQkAiIwG=w526-h296-rw",
       "https://play-lh.googleusercontent.com/OZS5mD4_BrY4pvATogFvkl2pz2KQLnASCauvi0Xu2RUnPC27p93vZ8dxeBwaNIURK418=w526-h296-rw",
       "https://play-lh.googleusercontent.com/PveCRaVQaU6sRDTD3bnZMP6w8HYR6wpov43rxhHdxN2KG8Jg33aR-R0UaDu_2IvVFQ=w526-h296-rw"
-    ] 
+    ]
   },
   {
     "id": "twitter-revanced",
@@ -4888,5 +4888,29 @@
       "https://raw.githubusercontent.com/Acclorite/book-story/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "rustdesk",
+    "name": "RustDesk",
+    "description": "Yet another remote desktop solution, written in Rust. Works out of the box with no configuration required. You have full control of your data, with no concerns about security.",
+    "icon": "https://avatars.githubusercontent.com/u/71636191?v=4",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/rustdesk/rustdesk",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "rustdesk",
+    "officialSite": "https://github.com/rustdesk/rustdesk",
+    "screenshots": [
+      "https://private-user-images.githubusercontent.com/28412477/313155467-78e8708f-e87e-4570-8373-1360033ea6c5.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg1NjQ5ODMsIm5iZiI6MTc2ODU2NDY4MywicGF0aCI6Ii8yODQxMjQ3Ny8zMTMxNTU0NjctNzhlODcwOGYtZTg3ZS00NTcwLTgzNzMtMTM2MDAzM2VhNmM1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE2VDExNTgwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBhODIyZTg2ZWRjYTI3ODMzMzQ1Njg0YWU4Y2E3M2MzMTAzMGFkMDk4MmVjZDRiOTg3MzliNzI4YWYzMjUzMGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LrI7V21BHRk9_SYxFyuXCSayybEgVHJ4-RtsTLxZePY",
+      "https://private-user-images.githubusercontent.com/28412477/313155456-39511ad3-aa9a-4f8c-8947-1cce286a46ad.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg1NjQ5ODMsIm5iZiI6MTc2ODU2NDY4MywicGF0aCI6Ii8yODQxMjQ3Ny8zMTMxNTU0NTYtMzk1MTFhZDMtYWE5YS00ZjhjLTg5NDctMWNjZTI4NmE0NmFkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE2VDExNTgwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNmMjY5YjQzNjg5ZWExMDE3ZGQxZjM3YzA2NTBiNTU4ZTBkZDYwZWZiMGVmNjY2YTU1NGQzM2E1MDlhMzY5OWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.1Sdlql6UEUsxGOHBrjCHJGtKsExi3g-Yw_ZnC2w-06Q",
+      "https://private-user-images.githubusercontent.com/28412477/313155470-db82d4e7-c4bc-4823-8e6f-6af7eadf7651.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg1NjQ5ODMsIm5iZiI6MTc2ODU2NDY4MywicGF0aCI6Ii8yODQxMjQ3Ny8zMTMxNTU0NzAtZGI4MmQ0ZTctYzRiYy00ODIzLThlNmYtNmFmN2VhZGY3NjUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE2VDExNTgwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkxNzg4NmM5MDMwMmU4YTQ1OWZhNmYxNDdiZDE4NmIwOTA1M2E0ZTA0M2NmMjFhMjgyY2FlMWUzYjlkMmY2M2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.I_2yZsYOWIgGA2fXh2O9JK78toMtTpVfHjfkxNmi4iI"
+    ]
   }
 ]
