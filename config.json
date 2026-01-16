@@ -4,6 +4,14 @@
   "maintenanceMode": false,
   "maintenanceMessage": "We are currently updating the server. Please check back in a while.",
   "announcement": "I rebuilt the Orion Store backend to fix GitHub scaling limits. It now supports 90,000+ apps smoothly instead of just 200 without a sweat. V1.1.0 will be released soon",
+  
+  "notice": {
+    "show": true,
+    "id": "notice-v1.1-welcome",
+    "title": "Welcome to Orion v1.1.0",
+    "message": "We've completely rewritten the engine!\n\n• Silent Installs (Shizuku)\n• 100x Faster Loading\n• Identity Backup\n\nEnjoy the new speed!"
+  },
+
   "latestStoreVersion": "1.0.9",
   "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.0.9/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
