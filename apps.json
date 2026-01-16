@@ -4829,5 +4829,30 @@
       "https://playtorrio.com/wp-content/uploads/2025/12/PlayTorrio-Overview.webp",
       "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fmajor-upgrade-playtorrio-is-now-on-a-whole-new-level-v0-gj9rzilkq15g1.png%3Fwidth%3D2559%26format%3Dpng%26auto%3Dwebp%26s%3D62f7fa9365a655ac97a2e1c214a07c4a0a85fe4f"
     ]
+  },
+  {
+    "id": "book-s-story",
+    "name": "Book's Story",
+    "description": "Book's Story — Material You eBook reader built with Jetpack Compose. Free & Open source & Ad-free, with extensive customization options and support for multiple file formats.",
+    "icon": "https://raw.githubusercontent.com/Acclorite/book-story/master/fastlane/metadata/android/en-US/images/icon_2.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Acclorite/book-story",
+    "githubRepo": "Acclorite/book-story",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "ua.acclorite.book_story",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Acclorite",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/Acclorite/book-story/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://github.com/Acclorite/book-story/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://github.com/Acclorite/book-story/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
