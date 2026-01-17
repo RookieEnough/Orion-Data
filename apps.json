@@ -4936,5 +4936,35 @@
       "https://raw.githubusercontent.com/chandradev28/streamed.app/main/assets/demo-music.jpg",
       "https://raw.githubusercontent.com/chandradev28/streamed.app/main/assets/demo-torboxers.jpg"
     ]
+  },
+  {
+    "id": "spotube",
+    "name": "Spotube",
+    "description": "🎧 Open source music streaming app! Available for both desktop & mobile!",
+    "icon": "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/icon_4QSSIXwcrFRF_Ng5DE6xDL2cV5QFCiKDtR6QecUrmdA=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/KRTirtho/spotube",
+    "githubRepo": "KRTirtho/spotube",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "oss.krtirtho.spotube",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "KRTirtho",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/phoneScreenshots/android-1.jpg",
+      "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/phoneScreenshots/android-2.jpg",
+      "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/phoneScreenshots/android-3.jpg",
+      "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/phoneScreenshots/android-4.jpg",
+      "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/phoneScreenshots/android-5.jpg",
+      "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/phoneScreenshots/screenshot-player-view.jpg",
+      "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/phoneScreenshots/screenshot-home-dark.jpg",
+      "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/phoneScreenshots/android-6.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
- ]
+]
