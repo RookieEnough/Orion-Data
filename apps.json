@@ -5020,5 +5020,31 @@
       "https://raw.githubusercontent.com/Kotatsu-Redo/Kotatsu-Redo/devel/metadata/en-US/images/phoneScreenshots/6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "method-call",
+    "name": "Method Call",
+    "description": "Method Call is an Android automation application that works specifically by mapping phone numbers to a defined list of actions.\n\nFeatures\n\nPersistent i.e.: application can be killed or phone restarted and would not interfere with automations.\n\nActions\n\nLaunch an app\n\nToggle flashlight\n\nShutdown\n\nRestart\n\nSend sms\n\nSet ringer mode\n\nSet screen brightness\n\nToggle airplane mode\n\nOpen Url\n\nPlay notification sound\n\nToggle mobile data\n\nLaunch activity with action\n\nSet volume\n\nTake screenshot\n\nToggle auto rotate\n\nToggle nfc",
+    "icon": "https://raw.githubusercontent.com/coleblvck/MethodCall/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/coleblvck/MethodCall",
+    "githubRepo": "coleblvck/MethodCall",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.coleblvck.methodcall",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "coleblvck",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/com.coleblvck.methodcall/en-US/phoneScreenshots/1.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.coleblvck.methodcall/en-US/phoneScreenshots/2.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.coleblvck.methodcall/en-US/phoneScreenshots/3.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.coleblvck.methodcall/en-US/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
