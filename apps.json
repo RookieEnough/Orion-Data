@@ -4992,5 +4992,33 @@
       "https://raw.githubusercontent.com/t895/DNSNet/a-couple-updates/metadata/en-US/images/phoneScreenshots/dns.png"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "kotatsu-redo",
+    "name": "Kotatsu redo",
+    "description": "A simple and convenient mulitlingual open source manga reader for Android from and for the community, where you can find and read your favorite manga easier than ever.",
+    "icon": "https://f-droid.org/repo/org.koitharu.kotatsu/en-US/icon_7Hu29GlIVNiZarIdStGlHhc9APnWHtRJMPc1J-H1f30=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Kotatsu-Redo/Kotatsu-Redo",
+    "githubRepo": "Kotatsu-Redo/Kotatsu-Redo",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.kotatsuredo.kotatsu",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Kotatsu-Redo",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Kotatsu-Redo/Kotatsu-Redo/devel/metadata/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Kotatsu-Redo/Kotatsu-Redo/devel/metadata/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Kotatsu-Redo/Kotatsu-Redo/devel/metadata/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/Kotatsu-Redo/Kotatsu-Redo/devel/metadata/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/Kotatsu-Redo/Kotatsu-Redo/devel/metadata/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/Kotatsu-Redo/Kotatsu-Redo/devel/metadata/en-US/images/phoneScreenshots/6.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
