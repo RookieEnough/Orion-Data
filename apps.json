@@ -5118,5 +5118,30 @@
       "https://blogger.googleusercontent.com/img/a/AVvXsEitg4ibB9ePCBkan0HvSByY-n5iEsp6Tgls8N8tJ1eHrUX0V2wNZFR7rvi6iCjMLjRT0Ddem9-NhBjhx-gIV25HUf0TLAXUCbX9Gmo2igtdtmXW7pz15vqUhuXZkPy8bbBlCwUPl981FFevuvAH6qK5h3AzNsbsxVXjfgyoScQQqHR_eoAdPARyFwneDtUO=s16000",
       "https://i.ytimg.com/vi/0umBBfDdRIU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDIuDkeuh70V_GS4jgHAdafF-TWCg"
     ]
+  },
+  {
+    "id": "moe.shizuku.privileged.api",
+    "name": "Shizuku",
+    "description": "Shizuku Fork - More Updated and Advance Features of Shizuku\nhttps://github.com/thedjchi/Shizuku#added-features",
+    "icon": "https://raw.githubusercontent.com/thedjchi/Shizuku/refs/heads/master/manager/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/thedjchi/Shizuku",
+    "githubRepo": "thedjchi/Shizuku",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "moe.shizuku.privileged.api",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "thedjchi",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/thedjchi/Shizuku/refs/heads/master/manager/src/main/res/mipmap-xhdpi/banner.png",
+      "https://raw.githubusercontent.com/thedjchi/Shizuku/refs/heads/master/manager/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "https://raw.githubusercontent.com/thedjchi/Shizuku/refs/heads/master/manager/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    ],
+    "releaseKeyword": "Shizuku Fork"
   }
 ]
