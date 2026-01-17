@@ -5094,5 +5094,29 @@
       "https://play-lh.googleusercontent.com/BDAEQ1Dx5ThWSn1nyUKui3GIvJqtFkj6A7FmccMISQcfTMv5cR47XGMobNoJKoGMSb4b5MeVfaNnMZjIHYvt1g=w1052-h592-rw"
     ],
     "releaseKeyword": "Lawnicons"
+  },
+  {
+    "id": "librewolf-browser",
+    "name": "LibreWolf Browser",
+    "description": "This project is a custom and independent version of Firefox, with the primary goals of privacy, security and user freedom.\n\nLibreWolf is designed to increase protection against tracking and fingerprinting techniques, while also including a few security improvements. This is achieved through our privacy and security oriented settings and patches. LibreWolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like DRM.",
+    "icon": "https://librewolf.net/icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://librewolf.net/installation/",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "LibreWolf Community",
+    "officialSite": "https://librewolf.net/installation/",
+    "screenshots": [
+      "https://www.linuxadictos.com/wp-content/uploads/librewolf_197896_full.jpg",
+      "https://blogger.googleusercontent.com/img/a/AVvXsEitg4ibB9ePCBkan0HvSByY-n5iEsp6Tgls8N8tJ1eHrUX0V2wNZFR7rvi6iCjMLjRT0Ddem9-NhBjhx-gIV25HUf0TLAXUCbX9Gmo2igtdtmXW7pz15vqUhuXZkPy8bbBlCwUPl981FFevuvAH6qK5h3AzNsbsxVXjfgyoScQQqHR_eoAdPARyFwneDtUO=s16000",
+      "https://i.ytimg.com/vi/0umBBfDdRIU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDIuDkeuh70V_GS4jgHAdafF-TWCg"
+    ]
   }
 ]
