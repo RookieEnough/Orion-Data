@@ -4966,5 +4966,31 @@
       "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/phoneScreenshots/android-6.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "dnsnet",
+    "name": "DNSNet",
+    "description": "Based on DNS66, DNSNet aims to continue the goals of the original app with modern Android development practices.\n\nThis is a DNS-based host blocker for Android. In the default configuration, several widely-respected host files are used to block ads, malware, and other weird stuff.",
+    "icon": "http://f-droid.org/repo/dev.clombardo.dnsnet/en-US/icon_fhCVKoWU7Pt7LRWLY1AnhB0NBR0Xu-rHlqxruXIJ9Us=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/t895/DNSNet",
+    "githubRepo": "t895/DNSNet",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.clombardo.dnsnet",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "t895",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/t895/DNSNet/a-couple-updates/metadata/en-US/images/phoneScreenshots/start.png",
+      "https://raw.githubusercontent.com/t895/DNSNet/a-couple-updates/metadata/en-US/images/phoneScreenshots/filters.png",
+      "https://raw.githubusercontent.com/t895/DNSNet/a-couple-updates/metadata/en-US/images/phoneScreenshots/apps.png",
+      "https://raw.githubusercontent.com/t895/DNSNet/a-couple-updates/metadata/en-US/images/phoneScreenshots/dns.png"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
