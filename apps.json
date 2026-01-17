@@ -5118,5 +5118,36 @@
       "https://blogger.googleusercontent.com/img/a/AVvXsEitg4ibB9ePCBkan0HvSByY-n5iEsp6Tgls8N8tJ1eHrUX0V2wNZFR7rvi6iCjMLjRT0Ddem9-NhBjhx-gIV25HUf0TLAXUCbX9Gmo2igtdtmXW7pz15vqUhuXZkPy8bbBlCwUPl981FFevuvAH6qK5h3AzNsbsxVXjfgyoScQQqHR_eoAdPARyFwneDtUO=s16000",
       "https://i.ytimg.com/vi/0umBBfDdRIU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDIuDkeuh70V_GS4jgHAdafF-TWCg"
     ]
+  },
+  {
+    "id": "anymex",
+    "name": "AnymeX",
+    "description": "AnymeX is a multiservice tracking client designed exclusively for managing and tracking anime and manga progress across AniList, MyAnimeList, and Simkl.",
+    "icon": "https://raw.githubusercontent.com/RyanYuuki/AnymeX/v3.0.3/assets/images/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RyanYuuki/AnymeX/tree/v3.0.3",
+    "githubRepo": "RyanYuuki/AnymeX",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ryan.anymex",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RyanYuuki",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1768679588021-ae13b2d9-5f5c-4e3b-af61-e85d21ced9d3.jpg",
+      "https://image2url.com/r2/default/images/1768679635588-9f269749-2f08-4899-8838-3f2080432dff.jpg",
+      "https://image2url.com/r2/default/images/1768679656997-23a267b6-c1b8-4b4e-9eab-e10eed4b0da4.jpg",
+      "https://image2url.com/r2/default/images/1768679681723-a3848d7c-bdfe-48e2-9ecb-7bd3f570738b.jpg",
+      "https://image2url.com/r2/default/images/1768679702568-a5905acb-2dbf-4c17-9a37-83ad6f7a9850.jpg",
+      "https://image2url.com/r2/default/images/1768679718331-ea085693-1f81-4096-b073-1f352785f194.jpg",
+      "https://image2url.com/r2/default/images/1768679739547-626d000f-1ef8-45e8-9d2a-a8b51da2c7b2.jpg",
+      "https://image2url.com/r2/default/images/1768679791745-ddb63db9-59b2-4404-8385-87dd0c47fe00.jpg",
+      "https://image2url.com/r2/default/images/1768679814384-aedb0f83-a10d-4b09-a7a3-d08fd5e9ee4a.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
