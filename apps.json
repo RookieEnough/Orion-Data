@@ -5149,5 +5149,34 @@
       "https://image2url.com/r2/default/images/1768679814384-aedb0f83-a10d-4b09-a7a3-d08fd5e9ee4a.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "google-ai-edge-gallery",
+    "name": "Google AI Edge Gallery",
+    "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.\n\nExplore, Experience, and Evaluate the Future of On-Device Generative AI with Google AI Edge.\n\nThe Google AI Edge Gallery is an experimental app that puts the power of cutting-edge Generative AI models directly into your hands, running entirely on your Android (available now) and iOS (available now via TestFlight) devices. Dive into a world of creative and practical AI use cases, all running locally, without needing an internet connection once the model is loaded. Experiment with different models, chat, ask questions with images and audio clip, explore prompts, and more!",
+    "icon": "https://play-lh.googleusercontent.com/jyeso0hR4_KYjjgP-7nkmm764G_3V7MeN7_SiHWjfXb5WV1Q_TvDG-G42FC6ifliU9hciNVB1oCGTwduqwlmFgs=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/google-ai-edge/gallery",
+    "githubRepo": "google-ai-edge/gallery",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.google.aiedge.gallery",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "google-ai-edge",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/sVpjHA8pIE-ewpcOCPDvAQX4PnA4TCAKli2zXMRnU9vgDhp8e41XUg1RmA2zg1Kekw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/48uGkey1egefAIgi-95KEErSbzcVmk9CfbuyyCqEaPWE1fFmhGLyOOi_eNbz0ynTMjs=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/NdE7VLHz_CpINvE6gXNFETzAC5TVB-y6A8gz36O7ehHOptZmxyJJO-c2W4Ox-0-7Au_P=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/lmPwH--RX30v6P4hX3EI535GeYTED1pHe4Mq7dMABM2Zc9xFzNPDawRqvT69eAwp4klZ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/-Ys-P51YyCQRyKkYHIFOwtJM1siz_ng4jrjxbNL8ClKLvv1wrL1GLyZWahoKW-jWzg=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/egKlVs0N0sGAtGeUWcEZAdmO-FC79wh6ht1INyYrEp95blbxwYem8O6cKsRGUZDxewk=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/pBtXYoJsDLsvYmR7DSnYNWbu9Wq8f4mIGlY0ElgwG9inOp4y0WH4KV19auEQo9g9ovGm=w1052-h592-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
