@@ -5178,5 +5178,33 @@
       "https://play-lh.googleusercontent.com/pBtXYoJsDLsvYmR7DSnYNWbu9Wq8f4mIGlY0ElgwG9inOp4y0WH4KV19auEQo9g9ovGm=w1052-h592-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "nxsha",
+    "name": "Nxsha",
+    "description": "Movies, TV Shows, Anime, K-Drama, and more – All in One Place. Enjoy seamless streaming on your phone, tablet, or even big screen Android TVs. One of the best entertainment platforms, now in your pocket.",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEdElEQVR4AZ2XRbAjNxCGPRqNx/IyMzONN4z3e/ASZk7uFbxfnZzCyYMwMzPTsh9Wrrks7x6n0y3365K2x052VfVVi6b7n5askWvdkmiry1JjzO3IgDHprjRNDyHAHML+XTbLBrIsu73ZbC5FH5GXqBUPqBINosMLMcBLPpAhDAfVWGsB50/xUmazCyUIUR2kZ5c1adqOgxgwJqhXCbAUPKJdSxKrc9Gn1PN6gSn9C51GAbttE7YjbMYZUNi/6vV60T/lSXcss/ZSdHYY0YFEgH57vQSEtIF8ovtLg3C6Uq/nBSo9TA8oAZwJGqNAnowtg8/2IfciKBMqEdyyzrm/XKNBzvQmM0xqVIqtZYuCXMNBo9FQYGCek/1FsVR8DN7myeSQgkqaZ83MoPP5KmHki9VdvlwNHalPtdf49oJ5TQ7uIgG8SdunBr+QJjkWEGbgglYTHrp3HsDEBqFk6xknpF/GHn1gAVx8ziyY8puTgHhfXCgLgZNe6qoVAfLmD92DwUc3IpvYCtJXxv3S99j9C2E+ZkIyIEvl7UteAJ1aNEEy4EQAdD5cA9DZqBmJ66Was0ns2MdrRYCVJejSnIYnZp7nt1NQWS9EBLy/Bsr96EyxBeDkPoDJywEOSL/Uw2fGPhQBsgQkhOu313BgAIF6jgQ2SRLovLsWYM9mgN0IWmHvVvDln8dRxPW+r0SggrH311Ew8ll1fA/QBtzl39452bE0iFsDOm+jgF1bKtgGUo7/Qm3u14y+s+6UoCY81HbhsZsfivZAKOCtdQB/bI0oyf65XeKXbKkvnrvN29G31nNAjcGvaI2DMqEAXII31gP8vg1Bh78F/L5DIos9ipno3EDjEaNv9BUAtW76JXicgVc3APy8DYSf2P5SSGTJwJFfcRPeyHO3yjOjr20IAuqlqOW8BA4J90BCAl5GAT9u7/IDWWIHUoAq1MdzS7bE6CsbJFiE8faQbEIMrjMwvAng+x0VtEDKYXzz71rReMkWvtsBoy9t1MEZulnV+BqlPqH0MxwZRAHfFJ6SrefbneDL308A7LqJ+0NaTAFjQ5vkKxphvR2o0T2PU6I2SOdFFPBVC0oEviq6fN1CUMCxfbjJrqZxRRnURwc2y11BNjzvuzyv3+4vm71uOJ3nNwN83lKUZD/TdWkz1D/6ggiINrpDptHllQpfOtUmmT09g4evWwzw6c4z4tHrlpAPJYB5ST7HfPOFKs7fMh0euXYJwMdnnRYU/AJ8ljNLax4JoCtAdB3DSW3TQ8RMfIvRp/FQeQp5ehuMTfEU2RiaQ8yZnqn7YhC8Xaso1pj0r/jA0GC21Fqy9W+pnzGxAOeCK5kuRWrM4czaXiKqL5y5WDXfBMIRvpQmff+dXGpQxOlmgAhu0wrySb5VvEopic/EX8qJFkBoATo4pb3Q0frLsLQxqzLg1AfM9RPQ7rnmCRG3VYIs/zk17NByBkIBrjoDL/HNVwVVMqpEVP89T2+n85s+YLlcZPyResi5xq4sswN0tNPc0FGS9Pb/L6bpl88XOjZeAAAAAElFTkSuQmCC",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dev-alessiorizzo/nxsha-apk",
+    "githubRepo": "dev-alessiorizzo/nxsha-apk",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nxsha",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dev-alessiorizzo",
+    "officialSite": "",
+    "screenshots": [
+      "https://i.imgur.com/eD0AE1U.jpeg",
+      "https://i.imgur.com/LFfC4ff.jpeg",
+      "https://i.imgur.com/mSTebzJ.jpeg",
+      "https://i.imgur.com/0QBasmt.jpeg",
+      "https://i.imgur.com/Ujdj3Ey.jpeg",
+      "https://i.imgur.com/0rMgFv2.jpeg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
