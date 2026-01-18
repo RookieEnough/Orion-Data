@@ -7,13 +7,13 @@
   
   "notice": {
     "show": true,
-    "id": "notice-v1.1.0-welcome",
-    "title": "Orion Store v1.1.0 is Here",
+    "id": "notice-v1.1.1-welcome",
+    "title": "Orion Store v1.1.1 Hotfix is Here",
     "message": "Orion has been completely re-engineered for infinite scale.\n\n⚡ Silent Install: Update apps instantly via Shizuku.\n🧬 Smart Versions: Choose between Stable & Beta builds.\n🚀 Turbo Media: Instant icons and zero-lag browsing.\n\nThis update represents hundreds of hours of hard work. If you love Orion, please Star the Repo or 'Fuel the Code' ☕ in the Dev tab to keep the servers running!"
   },
 
-  "latestStoreVersion": "1.1.0",
-  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.1.0/app-release.apk",
+  "latestStoreVersion": "1.1.1",
+  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.1.1/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "socials": {
