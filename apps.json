@@ -5542,5 +5542,30 @@
       "https://image2url.com/r2/default/images/1768754824350-0492bc4c-ae8f-4ab1-aabf-e17e64cc7ca1.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "mangayomi",
+    "name": "Mangayomi",
+    "description": "Mangayomi is an open-source Flutter app for reading manga, novels, and watching animes across multiple platforms.",
+    "icon": "https://raw.githubusercontent.com/kodjodevf/mangayomi/main/assets/app_icons/icon-red.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/kodjodevf/mangayomi",
+    "githubRepo": "kodjodevf/mangayomi",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.kodjodevf.mangayomi",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "kodjodevf",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1768755135413-cda3ea8e-b81f-4def-94f4-a218bac6e61f.jpeg",
+      "https://image2url.com/r2/default/images/1768755174856-12040504-e1f5-4be6-99e4-f8048cc6f0c7.jpeg",
+      "https://image2url.com/r2/default/images/1768755203344-9782be15-e7b7-46ec-b7ce-8990f8903fcb.jpeg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
