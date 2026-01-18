@@ -5322,5 +5322,33 @@
       "https://f-droid.org/repo/de.mm20.launcher2.release/en-US/phoneScreenshots/screenshot06.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fossify-notes",
+    "name": "Fossify Notes",
+    "description": "Introducing Fossify Notes – your ultimate tool for effortless note-taking, organization, and planning. Simplify your life with this intuitive organizer designed to streamline your tasks and ideas effortlessly.",
+    "icon": "https://play-lh.googleusercontent.com/qD-hPvQmz6eKqwoxYlfwjcq3AHvpPEwKyrmF-OVvLfsdkyuT2FQm0AjPSnVXKDnfDHA=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Notes",
+    "githubRepo": "FossifyOrg/Notes",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.fossify.notes",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/WJmkYxIq08ds1avil18D2CH3I9kexKtyAFooOE83acX6tcNiNB0bdreHuNlkcQCObQ=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/p2PCrP8kEYYl7j1Roc0T1YACCsLTdk6lzsV1rL-eUp8ooitqijS-fKQY4iJlf1QS87DD=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/ctIqrRMN0sLZBNKnmSvp_FjBYjbEe1e9meTFuLBYk0GZuG8n6WAkPSeVCMmCk83DSw=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/23LGEqWK2ezxKPMobK-SFBJ1TiInCHBUp_DzfJlPrI4_eHP0VVg9AAUuJrnyHEvFYg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/23LGEqWK2ezxKPMobK-SFBJ1TiInCHBUp_DzfJlPrI4_eHP0VVg9AAUuJrnyHEvFYg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/QJDx580GuBxg4qfMRMuVadIv-yqOZSXRxXWLjcj9d5ayZCWXAOO6md6cWTxbsg9ZHOXg=w526-h296-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
