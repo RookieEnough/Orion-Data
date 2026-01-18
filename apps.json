@@ -5517,5 +5517,30 @@
       "https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg"
     ],
     "releaseKeyword": "Musify"
+  },
+  {
+    "id": "org.strigate.ferrot",
+    "name": "Ferrot",
+    "description": "Ferrot is a clean and minimal downloader for video and audio on Android.\n\nWhen viewing a video or post on social media or in your browser, tap Share and choose Ferrot. Ferrot will try to download it straight to your device.",
+    "icon": "https://image2url.com/r2/default/images/1768754786876-15d09cb2-9508-4f56-b220-192169b25ed3.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/strigate/ferrot",
+    "githubRepo": "strigate/ferrot",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.strigate.ferrot",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "strigate",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1768754803061-baeabe7e-9cc8-4e18-8e29-c92ac0f8fcb7.png",
+      "https://image2url.com/r2/default/images/1768754814096-f7a5c0d4-704a-427b-bcc8-03272c24969c.png",
+      "https://image2url.com/r2/default/images/1768754824350-0492bc4c-ae8f-4ab1-aabf-e17e64cc7ca1.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
