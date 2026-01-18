@@ -5463,5 +5463,33 @@
       "https://raw.githubusercontent.com/breezy-weather/breezy-weather/main/fastlane/metadata/android/en-US/images/phoneScreenshots/07-details.png"
     ],
     "releaseKeyword": "breezy-weather"
+  },
+  {
+    "id": "amarok",
+    "name": "Amarok",
+    "description": "Amarok is a lightweight Android privacy tool that shields your files and apps from prying eyes without the overhead of encryption.Traditional encryption tools are secure but slow — decrypting a large movie file or unlocking an app takes time. Amarok acts instantly. It conceals files by obfuscating signatures or adjusting permissions, and hides apps by disabling them or using Xposed hooks. This makes your content invisible to casual snoopers without any performance penalty.",
+    "icon": "https://f-droid.org/repo/deltazero.amarok.foss/en-US/icon_nyBsozCF19DxPPeK3OSO-Aqw9qsckNSMymntDVZ-5-4=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/deltazefiro/Amarok-Hider",
+    "githubRepo": "deltazefiro/Amarok-Hider",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "deltazero.amarok",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "deltazefiro",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/5.png",
+      "https://private-user-images.githubusercontent.com/41465688/257083503-a2016488-0c13-4144-93ed-5ca35179df79.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg3MzQyNDMsIm5iZiI6MTc2ODczMzk0MywicGF0aCI6Ii80MTQ2NTY4OC8yNTcwODM1MDMtYTIwMTY0ODgtMGMxMy00MTQ0LTkzZWQtNWNhMzUxNzlkZjc5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE4VDEwNTkwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjMTc4NTc4NGVkMjE3MGJkZDEwZTBkMzViZDQ5ODQ5Mjc4NjU0YmNjODg1OTdmZTA1NWYyNTQ2YWM1OTg2Y2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._g-N0AE5Dv_oLt9wXYmzKxOwFcdk5P7K0B3EFKjeqyM"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
