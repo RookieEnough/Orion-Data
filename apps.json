@@ -5567,5 +5567,31 @@
       "https://image2url.com/r2/default/images/1768755203344-9782be15-e7b7-46ec-b7ce-8990f8903fcb.jpeg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "apex",
+    "name": "Apex",
+    "description": "A minimalist, high-precision utility for motorcyclists. Apex is a \"Flight Recorder\" for the road and a \"Digital Garage\" for the machine.",
+    "icon": "https://raw.githubusercontent.com/Purukitto/apex-app/main/public/apex-logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Purukitto/apex-app",
+    "githubRepo": "Purukitto/apex-app",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.purukitto.apex",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Purukitto",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Purukitto/apex-app/main/docs/screenshots/garage.jpg",
+      "https://raw.githubusercontent.com/Purukitto/apex-app/blob/main/docs%2Fscreenshots%2Fgarage.jpg",
+      "https://raw.githubusercontent.com/Purukitto/apex-app/blob/main/docs%2Fscreenshots%2Frecorder.jpg",
+      "https://raw.githubusercontent.com/Purukitto/apex-app/main/docs/screenshots/dashboard.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
