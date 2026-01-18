@@ -5593,5 +5593,33 @@
       "https://raw.githubusercontent.com/Purukitto/apex-app/main/docs/screenshots/dashboard.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "shizuwall",
+    "name": "ShizuWall",
+    "description": "A lightweight, privacy focused Android firewall application that blocks network connections for selected apps without requiring root access or VPN. ShizuWall leverages Shizuku and libADB to provide powerful network control capabilities. Requires Android 11 (API 30) or higher.",
+    "icon": "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/refs/heads/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/AhmetCanArslan/ShizuWall",
+    "githubRepo": "AhmetCanArslan/ShizuWall",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.arslan.shizuwall",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "AhmetCanArslan",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/main/assets/screenShots/v4.0/1.png",
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/main/assets/screenShots/v4.0/2.png",
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/main/assets/screenShots/v4.0/3.png",
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/main/assets/screenShots/v4.0/4.png",
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/main/assets/screenShots/v4.0/5.png",
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/main/assets/screenShots/v4.0/6.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
