@@ -5434,5 +5434,34 @@
       "https://image2url.com/r2/default/images/1768735383217-37ec15f0-6f39-4ab1-9a5e-b498c7c117de.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "breezy-weather",
+    "name": "Breezy Weather",
+    "description": "Breezy Weather is a feature-rich free and open source Material 3 Expressive weather app with well-though-out visualizations, supporting forecast, observations, nowcasting, air quality, pollen, alerts, from more than 50 weather sources.",
+    "icon": "https://raw.githubusercontent.com/breezy-weather/breezy-weather/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/breezy-weather/breezy-weather",
+    "githubRepo": "breezy-weather/breezy-weather",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.breezyweather",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "breezy-weather",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/breezy-weather/breezy-weather/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01-main-header-light.png",
+      "https://raw.githubusercontent.com/breezy-weather/breezy-weather/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02-main-header-dark.png",
+      "https://raw.githubusercontent.com/breezy-weather/breezy-weather/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03-main-blocks-1.png",
+      "https://raw.githubusercontent.com/breezy-weather/breezy-weather/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04-main-blocks-2.png",
+      "https://raw.githubusercontent.com/breezy-weather/breezy-weather/main/fastlane/metadata/android/en-US/images/phoneScreenshots/05-settings.png",
+      "https://raw.githubusercontent.com/breezy-weather/breezy-weather/main/fastlane/metadata/android/en-US/images/phoneScreenshots/06-sources.png",
+      "https://raw.githubusercontent.com/breezy-weather/breezy-weather/main/fastlane/metadata/android/en-US/images/phoneScreenshots/07-details.png"
+    ],
+    "releaseKeyword": "breezy-weather"
   }
 ]
