@@ -5206,5 +5206,32 @@
       "https://i.imgur.com/0rMgFv2.jpeg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "quicknovel",
+    "name": "QuickNovel",
+    "description": "Adfree FOSS Android app for downloading novels. It also functions as an Epub reader.",
+    "icon": "https://raw.githubusercontent.com/LagradOst/QuickNovel/refs/heads/master/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/LagradOst/QuickNovel",
+    "githubRepo": "LagradOst/QuickNovel",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.lagradost.quicknovel",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "LagradOst",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/LagradOst/QuickNovel/master/.github/home.jpg",
+      "https://raw.githubusercontent.com/LagradOst/QuickNovel/master/.github/search.jpg",
+      "https://raw.githubusercontent.com/LagradOst/QuickNovel/master/.github/downloads.jpg",
+      "https://raw.githubusercontent.com/LagradOst/QuickNovel/master/.github/result.jpg",
+      "https://raw.githubusercontent.com/LagradOst/QuickNovel/master/.github/reader.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
