@@ -5491,5 +5491,31 @@
       "https://private-user-images.githubusercontent.com/41465688/257083503-a2016488-0c13-4144-93ed-5ca35179df79.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg3MzQyNDMsIm5iZiI6MTc2ODczMzk0MywicGF0aCI6Ii80MTQ2NTY4OC8yNTcwODM1MDMtYTIwMTY0ODgtMGMxMy00MTQ0LTkzZWQtNWNhMzUxNzlkZjc5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE4VDEwNTkwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjMTc4NTc4NGVkMjE3MGJkZDEwZTBkMzViZDQ5ODQ5Mjc4NjU0YmNjODg1OTdmZTA1NWYyNTQ2YWM1OTg2Y2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._g-N0AE5Dv_oLt9wXYmzKxOwFcdk5P7K0B3EFKjeqyM"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "musify",
+    "name": "Musify",
+    "description": "Unlock the full potential of music: Stream effortlessly with one app!\nMusify is an app for streaming music. Its features include:\n\n* Online song search with suggestions\n* Offline listening support\n* Import & export your data and never lose it\n* Add custom playlists with link\n* Optimized sound experience\n* SponsorBlock support\n* Lyrics support\n* No ads\n* No subscriptions\n* 22 supported languages\n* Material UI & accent colors & dynamic colors (Android 12+)",
+    "icon": "https://f-droid.org/repo/com.gokadzev.musify.fdroid/en-US/icon_ruBgK4a5depu6_TrF8PW1_y1sJYeQQFW97ZdAF6hgEU=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/gokadzev/Musify",
+    "githubRepo": "gokadzev/Musify",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.gokadzev.musify",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "gokadzev",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+      "https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+      "https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg",
+      "https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg"
+    ],
+    "releaseKeyword": "Musify"
   }
 ]
