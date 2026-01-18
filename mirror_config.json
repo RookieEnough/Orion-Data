@@ -1,12 +1,4 @@
 [
-  {
-    "id": "capcut-premium",
-    "name": "CapCut Pro",
-    "downloadUrl": "https://an1.com/7029-capcut-video-editor-apk.html",
-    "mode": "scrape",
-    "wait": 30000,
-    "note": "Scraping from AN1 (ID: 7029)"
-  },
    {
     "id": "Mx-pro",
     "name": "MX Player Pro",
