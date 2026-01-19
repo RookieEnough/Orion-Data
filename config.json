@@ -7,9 +7,9 @@
   
   "notice": {
     "show": true,
-    "id": "notice-v1.1.1-welcome",
-    "title": "Orion Store v1.1.1 Hotfix is Here",
-    "message": "Orion has been completely re-engineered for infinite scale.\n\n⚡ Silent Install: Update apps instantly via Shizuku.\n🧬 Smart Versions: Choose between Stable & Beta builds.\n🚀 Turbo Media: Instant icons and zero-lag browsing.\n\nThis update represents hundreds of hours of hard work. If you love Orion, please Star the Repo or 'Fuel the Code' ☕ in the Dev tab to keep the servers running!"
+    "id": "notice-payment",
+    "title": "I've switched to Gumroad from Ko-Fi",
+    "message": "Now users can show support through coffees, Buy me a coffee ☕ to support development. What's new in V1.1.0?\n\n⚡ Silent Install: Update apps instantly via Shizuku.\n🧬 Smart Versions: Choose between Stable & Beta builds.\n🚀 Turbo Media: Instant icons and zero-lag browsing.\n\nThis update represents hundreds of hours of hard work. If you love Orion, please Star the Repo or 'Fuel the Code' in the Dev tab to keep the servers running!"
   },
 
   "latestStoreVersion": "1.1.1",
