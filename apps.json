@@ -5621,5 +5621,36 @@
       "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/main/assets/screenShots/v4.0/6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "gramophone",
+    "name": "Gramophone",
+    "description": "A sane music player built with media3 and material design library that is following android's standard strictly.",
+    "icon": "https://f-droid.org/repo/org.akanework.gramophone/en-US/icon_q32XcwSxM3lfYpJEXZ2s7fPEw9TLnmrzyuZsrcQaaVU=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FoedusProgramme/Gramophone",
+    "githubRepo": "FoedusProgramme/Gramophone",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.akanework.gramophone",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FoedusProgramme",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.jpg",
+      "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_2.jpg",
+      "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.jpg",
+      "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.jpg",
+      "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.jpg",
+      "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_6.jpg",
+      "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_7.jpg",
+      "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_8.jpg",
+      "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/screenshot_9.jpg"
+    ],
+    "releaseKeyword": "Gramophone"
   }
 ]
