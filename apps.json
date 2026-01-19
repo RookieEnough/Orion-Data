@@ -5687,5 +5687,36 @@
       "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/screenshots/adaptive.jpg"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "gallery",
+    "name": "Gallery ",
+    "description": "An Android Gallery app built with Jetpack Compose.\n\nThe goal of this project is to create and bring the Gallery app everyone wants, with the features everyone needs. FOSS",
+    "icon": "https://f-droid.org/repo/com.dot.gallery/en-US/icon_EkrKeTKezFQEYmeiF-cixwfwxnMD6aUotlhisDHWcng=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/IacobIonut01/Gallery",
+    "githubRepo": "IacobIonut01/Gallery",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.dot.gallery",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "IacobIonut01",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/5.png",
+      "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/6.png",
+      "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/7.png",
+      "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/8.png",
+      "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/9.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
