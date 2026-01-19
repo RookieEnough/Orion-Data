@@ -5809,5 +5809,30 @@
       "https://img.utdstc.com/screen/a75/92b/a7592bfbfe892672856b96bf2f37a4f5cf6c32294771235969a8d3e933dfcaca:1080"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "livemedia",
+    "name": "LiveMedia",
+    "description": "LiveMedia uses promoted ongoing notifications to create a \"Live Activity\" effect, bringing controls and track information directly to the screen.",
+    "icon": "https://raw.githubusercontent.com/RossSihovsk/LiveMedia/refs/heads/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RossSihovsk/LiveMedia",
+    "githubRepo": "RossSihovsk/LiveMedia",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ross.livemedia",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RossSihovsk",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/user-attachments/assets/0bc8ef28-6fc6-432d-aa42-2b44055e45b7",
+      "https://github.com/user-attachments/assets/2d900e9f-c115-4865-b7f7-8ce6baa799e0",
+      "https://github.com/user-attachments/assets/923c0059-350d-47f4-938e-d202ba7ac369"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
