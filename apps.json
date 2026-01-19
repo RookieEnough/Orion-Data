@@ -5652,5 +5652,40 @@
       "https://raw.githubusercontent.com/FoedusProgramme/Gramophone/beta/fastlane/screenshot_9.jpg"
     ],
     "releaseKeyword": "Gramophone"
+  },
+  {
+    "id": "retro-music-player",
+    "name": "Retro Music Player",
+    "description": "Best Material You Design music player for Android",
+    "icon": "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/app/src/main/ic_launcher-web.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RetroMusicPlayer/RetroMusicPlayer",
+    "githubRepo": "RetroMusicPlayer/RetroMusicPlayer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "code.name.monkey.retromusic",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RetroMusicPlayer",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/screenshots/synced_over_black.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/screenshots/synced_over_dark.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/screenshots/synced_replace_dark.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/screenshots/material.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/RetroMusicPlayer/RetroMusicPlayer/dev/screenshots/adaptive.jpg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
