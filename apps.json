@@ -5754,5 +5754,30 @@
       "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_14.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "local-desktop",
+    "name": "Local Desktop",
+    "description": "Local Desktop helps you run a desktop Linux environment on your Android device.",
+    "icon": "https://localdesktop.github.io/img/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/localdesktop/localdesktop",
+    "githubRepo": "localdesktop/localdesktop",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.polarbear",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "localdesktop",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/localdesktop/localdesktop/main/assets/docs/proof-of-concept.png",
+      "https://localdesktop.github.io/assets/images/onboard-16df26dab32d3b35168975b868febfa7.webp",
+      "https://localdesktop.github.io/assets/images/kde-614050f2bb1f13b4c43dce713ef2eb01.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
