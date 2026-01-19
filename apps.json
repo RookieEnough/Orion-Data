@@ -5718,5 +5718,41 @@
       "https://f-droid.org/repo/com.dot.gallery/en-US/phoneScreenshots/9.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "open-tune",
+    "name": "Open Tune",
+    "description": "OpenTune is an open-source YouTube Music client designed for Android devices. It offers a superior user experience with a modern interface that implements Material Design 3, providing advanced features for browsing, playing, and managing music content without the limitations of the official app.",
+    "icon": "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/icon_boJWsrcLyCHsETB5Ti9wC90B4PZ-seBQ-7I7s7PGFqg=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Arturo254/OpenTune",
+    "githubRepo": "Arturo254/OpenTune",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.Arturo254.opentune",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Arthur Dev Studio",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_1.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_2.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_3.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_4.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_5.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_6.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_7.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_8.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_9.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_10.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_11.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_12.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_13.png",
+      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_14.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
