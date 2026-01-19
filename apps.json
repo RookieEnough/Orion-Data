@@ -5780,7 +5780,7 @@
   },
   {
     "id": "440156478",
-    "name": "Releases",
+    "name": "Eden",
     "description": "Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind. It is written in C++ with cross-platform support for Windows, Linux, FreeBSD, Solaris, OpenBSD, and Android.",
     "icon": "https://avatars.githubusercontent.com/u/205540286?s=200&v=4",
     "version": "Latest",
