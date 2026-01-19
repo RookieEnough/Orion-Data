@@ -5777,5 +5777,37 @@
       "https://localdesktop.github.io/assets/images/kde-614050f2bb1f13b4c43dce713ef2eb01.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "440156478",
+    "name": "Releases",
+    "description": "Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind. It is written in C++ with cross-platform support for Windows, Linux, FreeBSD, Solaris, OpenBSD, and Android.",
+    "icon": "https://avatars.githubusercontent.com/u/205540286?s=200&v=4",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/eden-emulator/Releases",
+    "githubRepo": "eden-emulator/Releases",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.eden.eden_emulator",
+    "category": "Emulator",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "eden-emulator",
+    "officialSite": "",
+    "screenshots": [
+      "https://img.utdstc.com/screen/9b6/8f9/9b68f97ed5ae82983ddd964124b685822713d022731368257b74f56c124992d9:1080",
+      "https://img.utdstc.com/screen/769/ba7/769ba7e5398c85f7db965cd28c12bdd9b686832e3c7cf71f31175354bb17cc8d:1080",
+      "https://img.utdstc.com/screen/c00/c56/c00c56ebe54e8f89409ffd76e4916838b82c939f2ae1afcafe109f0e412022ca:1080",
+      "https://img.utdstc.com/screen/d51/e0f/d51e0f67fe106e804d1dc28d5c39e020935e003ea614fc114389db9c8d5d84e5:1080",
+      "https://img.utdstc.com/screen/5eb/298/5eb2987bf866cd1308b04ecc674292ff4f3d7ab7253f437d23065569ecd86537:1080",
+      "https://img.utdstc.com/screen/08a/fba/08afbade378b8afac57da695de3a7e8d528f88c6aaaaafc8533648219cf97671:1080",
+      "https://img.utdstc.com/screen/d84/b4a/d84b4a8ef1f0085a7cb5c2b89376e122e8102f4970d1ba70cfde9c4949ec1a01:1080",
+      "https://img.utdstc.com/screen/9fb/104/9fb104134fb5366e8c4c115c0efd46c6480f4226f1091fbc3a468379ec6e9fb3:1080",
+      "https://img.utdstc.com/screen/c7f/950/c7f9505563d0b79694ebf4dca492b71d467ea5aadb6488bfd9e89399deb3c21e:1080",
+      "https://img.utdstc.com/screen/a75/92b/a7592bfbfe892672856b96bf2f37a4f5cf6c32294771235969a8d3e933dfcaca:1080"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
