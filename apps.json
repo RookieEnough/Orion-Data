@@ -5888,5 +5888,35 @@
       "https://raw.githubusercontent.com/yazdipour/unlimited-ticktick-windows/main/docs/screenshots/habit_tracker.png",
       "https://raw.githubusercontent.com/yazdipour/unlimited-ticktick-windows/main/docs/screenshots/calendar_view.png"
     ]
+  },
+  {
+    "id": "rhythm",
+    "name": "Rhythm",
+    "description": "Rhythm is a modern, feature-rich Android music player built with Jetpack Compose and Material 3 design principles. It offers a beautiful user interface combined with powerful audio playback capabilities using Media3.",
+    "icon": "https://raw.githubusercontent.com/cromaguy/Rhythm/main/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/cromaguy/Rhythm",
+    "githubRepo": "cromaguy/Rhythm",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "chromahub.rhythm.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "cromaguy",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/refs/heads/main/assets/ScreenShots/Home.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/main/assets/ScreenShots/Player.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/main/assets/ScreenShots/Player_Lyrics.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/main/assets/ScreenShots/Library_Songs.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/main/assets/ScreenShots/Queue.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/main/assets/ScreenShots/Search.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/main/assets/ScreenShots/Settings.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/main/assets/ScreenShots/Artist.png"
+    ],
+    "releaseKeyword": "Rhythm"
   }
 ]
