@@ -3,7 +3,7 @@
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/data/mirror.json",
   "maintenanceMode": false,
   "maintenanceMessage": "We are currently updating the server. Please check back in a while.",
-  "announcement": "I rebuilt the Orion Store backend to fix GitHub scaling limits. It now supports 90,000+ apps smoothly instead of just 200 without a sweat. V1.1.0 is live now!",
+  "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
   "notice": {
     "show": true,
