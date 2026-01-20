@@ -5864,5 +5864,29 @@
       "https://img.utdstc.com/screen/45a/297/45a297567bc99347c8e02bc2c5c6cad33e156ecf799cee19d7e031ea9a02814b:1080"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "unlimited-ticktick",
+    "name": "Unlimited Ticktick ",
+    "description": "Premium TickTick Windows Client \n",
+    "icon": "https://raw.githubusercontent.com/yazdipour/unlimited-ticktick-windows/main/Resources/icon.ico",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/yazdipour/unlimited-ticktick-windows",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "yazdipour",
+    "officialSite": "https://github.com/yazdipour/unlimited-ticktick-windows",
+    "screenshots": [
+      "https://raw.githubusercontent.com/yazdipour/unlimited-ticktick-windows/main/docs/screenshots/theme",
+      "https://raw.githubusercontent.com/yazdipour/unlimited-ticktick-windows/main/docs/screenshots/habit_tracker.png",
+      "https://raw.githubusercontent.com/yazdipour/unlimited-ticktick-windows/main/docs/screenshots/calendar_view.png"
+    ]
   }
 ]
