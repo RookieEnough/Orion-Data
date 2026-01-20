@@ -5834,5 +5834,35 @@
       "https://github.com/user-attachments/assets/923c0059-350d-47f4-938e-d202ba7ac369"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "azahar",
+    "name": "Azahar",
+    "description": "Azahar is an open-source 3DS emulator project based on Citra.\n\nIt was created from the merging of PabloMK7's Citra fork and the Lime3DS project, both of which emerged shortly after Citra was taken down.",
+    "icon": "https://img.utdstc.com/icon/376/5df/3765dfea826020a7370639abe29f7f026f4c3123d4d5b18dac323c4035cba87a:200",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/azahar-emu/azahar",
+    "githubRepo": "azahar-emu/azahar",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.lime3ds.android",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "azahar-emu",
+    "officialSite": "",
+    "screenshots": [
+      "https://img.utdstc.com/screen/12b/f2e/12bf2e96d305de04db6cfe7d33d1be6b76f4842b2909b0bb6f7d71bb08b019a9:1080",
+      "https://img.utdstc.com/screen/a3d/97c/a3d97cecd77b77aee7f00d2b21ec3a14bc2c50ae58fdc0866f8dbf6a6bea8177:1080",
+      "https://img.utdstc.com/screen/0f6/fa6/0f6fa66a104177a3614ba062dba53ad9a514076958d9c4fded079043cab47da0:1080",
+      "https://img.utdstc.com/screen/4b1/18e/4b118e3cae9fa67a2d731f3736213d85aff60873eff62b42903a64dd61956782:1080",
+      "https://img.utdstc.com/screen/a83/f5e/a83f5ee7e230b5e4aac8eb9639f02d560befdf50b639a463d8a0660de5963ba0:1080",
+      "https://img.utdstc.com/screen/7a4/3c7/7a43c7573ac8b286fb0064df61cfdbfa334803593a97aac4fa93e1ac58afd0e6:1080",
+      "https://img.utdstc.com/screen/2cd/368/2cd368ed02d6c455413708e8712a63dcb35ab07de5a501c241dbdb8642d41036:1080",
+      "https://img.utdstc.com/screen/45a/297/45a297567bc99347c8e02bc2c5c6cad33e156ecf799cee19d7e031ea9a02814b:1080"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
