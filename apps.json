@@ -6856,5 +6856,29 @@
       "https://f-droid.org/repo/com.maazm7d.termuxhub/en-US/phoneScreenshots/ScreenShot_4.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "privacy-flip",
+    "name": "Privacy Flip",
+    "description": "Automatic lock/unlock privacy control for Android devices 🔐📱✨PrivacyFlip automatically manages your Android device's privacy features based on lock/unlock state. When you lock your device, it can disable Wi-Fi, Bluetooth, mobile data, location services, NFC, and even camera/microphone sensors. When you unlock, it intelligently restores the features you want back on.",
+    "icon": "https://f-droid.org/repo/io.github.dorumrr.privacyflip/en-US/icon_BSCWtcVzqrd0Wm1YvxBLBqt8dO2Km7qnQl65Cz88x_E=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dorumrr/privacyFlip",
+    "githubRepo": "dorumrr/privacyFlip",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.dormurr.privacyflip",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dorumrr",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/io.github.dorumrr.privacyflip/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/io.github.dorumrr.privacyflip/en-US/phoneScreenshots/2.png"
+    ],
+    "releaseKeyword": "PrivacyFlip"
   }
 ]
