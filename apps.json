@@ -6776,5 +6776,33 @@
       "https://image2url.com/r2/default/images/1768939510824-657c20b0-9800-49ea-b2f2-3665ae70790b.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "skystream",
+    "name": "SkyStream",
+    "description": "SkyStream is a modern, media streaming client. It draws inspiration from the versatile architecture of CloudStream but implements a custom, cross-platform JavaScript engine for extensions, enabling support for Android, iOS, and Desktop from a single codebase.Get extension from dev telegram or discord.",
+    "icon": "https://raw.githubusercontent.com/akashdh11/skystream/refs/heads/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/akashdh11/skystream",
+    "githubRepo": "akashdh11/skystream",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.akash.skystream",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "akashdh11",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1768999293226-0cd9b892-c6b9-4c8b-81bd-c6f6c18776dd.jpg",
+      "https://image2url.com/r2/default/images/1768999349594-cb1fbf88-3f7e-4d68-9b03-63c5264e792e.jpg",
+      "https://image2url.com/r2/default/images/1768999368053-05bfb6b3-6c76-4986-9bf9-fe30be4c4a2d.jpg",
+      "https://image2url.com/r2/default/images/1768999384593-6748f096-8a8f-4ec0-bf5f-38b16a0accb3.jpg",
+      "https://image2url.com/r2/default/images/1768999401146-683415dc-fc64-4c1b-82d8-3e18a273e4a5.jpg",
+      "https://image2url.com/r2/default/images/1768999414897-5a5c1ad7-2c39-4263-b69e-9fddf563ab79.jpg"
+    ],
+    "releaseKeyword": "skystream"
   }
 ]
