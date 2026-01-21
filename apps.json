@@ -6749,5 +6749,32 @@
       "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/main/docs/images/Screenshot6.png"
     ],
     "releaseKeyword": "HeliboardL"
+  },
+  {
+    "id": "wapp",
+    "name": "Wapp",
+    "description": "Native Android app for streaming anime in English & Spanish on Mobile & TV. Features AniList sync, offline downloads, and is 100% ad-free.",
+    "icon": "https://camo.githubusercontent.com/5934df2c5c6d874e3cf0714e5e4906f4d7c9c60a4087d4955fc2ec1e1c527d66/68747470733a2f2f692e706f7374696d672e63632f6b474477547976642f574150502e706e67",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/wawoide1/Wapp",
+    "githubRepo": "wawoide1/Wapp",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.wawoide.wapp",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "wawoide1",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1768939385304-c482ad2a-03bd-4179-b944-7e725c485e9d.png",
+      "https://image2url.com/r2/default/images/1768939448172-5f58dda6-5552-4a54-acff-5f19a1d6b707.png",
+      "https://image2url.com/r2/default/images/1768939468416-96d8a038-b8f2-4915-bc0c-dd8645cab8e9.png",
+      "https://image2url.com/r2/default/images/1768939491344-da79ad80-30e8-49b4-9f0d-511db1106364.png",
+      "https://image2url.com/r2/default/images/1768939510824-657c20b0-9800-49ea-b2f2-3665ae70790b.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
