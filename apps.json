@@ -6880,5 +6880,31 @@
       "https://f-droid.org/repo/io.github.dorumrr.privacyflip/en-US/phoneScreenshots/2.png"
     ],
     "releaseKeyword": "PrivacyFlip"
+  },
+  {
+    "id": "shonenx",
+    "name": "ShonenX",
+    "description": "A modern anime streaming app built with Flutter featuring HD playback, genre browsing, offline support, and a beautiful UI. Watch your favorite anime in style!",
+    "icon": "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/assets/icons/app_icon-modified-2.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/roshancodespace/ShonenX",
+    "githubRepo": "roshancodespace/ShonenX",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.shonenx.anime",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "roshancodespace",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/home.jpg",
+      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/details.jpg",
+      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/anilist.jpg",
+      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/search.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
