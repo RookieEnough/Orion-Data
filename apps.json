@@ -6830,5 +6830,31 @@
       "https://f-droid.org/repo/de.schliweb.makeacopy/en-US/phoneScreenshots/4_en-US.png"
     ],
     "releaseKeyword": "MakeACopy"
+  },
+  {
+    "id": "termuxhub",
+    "name": "TermuxHub",
+    "description": "Termux Hub is a lightweight, metadata-driven Android app that catalogs , Termux-related tools using a transparent and reproducible data pipeline.",
+    "icon": "https://f-droid.org/repo/com.maazm7d.termuxhub/en-US/icon_Lp1RYNMhrCOBiI2aMvasCE6-P2zsn9tM29hC4O1CLKo=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/maazm7d/TermuxHub",
+    "githubRepo": "maazm7d/TermuxHub",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.maazm7d.termuxhub",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "maazm7d",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.maazm7d.termuxhub/en-US/phoneScreenshots/ScreenShot_1.png",
+      "https://f-droid.org/repo/com.maazm7d.termuxhub/en-US/phoneScreenshots/ScreenShot_2.png",
+      "https://f-droid.org/repo/com.maazm7d.termuxhub/en-US/phoneScreenshots/ScreenShot_3.png",
+      "https://f-droid.org/repo/com.maazm7d.termuxhub/en-US/phoneScreenshots/ScreenShot_4.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
