@@ -6466,6 +6466,34 @@
       "https://play-lh.googleusercontent.com/lG6zl4AFMLVIok8gGdiLeuMxI-c00uHlkGaIcOCp-ARkaSAmIBEJKzyrm1tt8HnHS48=w526-h296-rw"
     ],
     "releaseKeyword": "viber"
+  },
+  {
+    "id": "clockmaster",
+    "name": "ClockMaster",
+    "description": "Material Expressive clock app for android 🕛⏰",
+    "icon": "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/PranshulGG/ClockMaster",
+    "githubRepo": "PranshulGG/ClockMaster",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.pranshulgg.clockmaster",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "PranshulGG",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/thumbnail.png",
+      "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/prev_1.png",
+      "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/prev_2.png",
+      "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/prev_3.png",
+      "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/prev_4.png",
+      "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/prev_5.png",
+      "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/prev_6.png"
+    ],
+    "releaseKeyword": "ClockMaster"
   }
-  
 ]
