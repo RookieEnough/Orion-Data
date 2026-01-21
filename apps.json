@@ -6666,7 +6666,7 @@
     ],
     "releaseKeyword": "lingory"
   },
-    {
+  {
     "id": "ttmik-stories-revanced",
     "name": "TTMIK Stories Revanced",
     "description": "TTMIK Stories ReVanced unlocks premium stories and removes ads for an uninterrupted reading experience. It enhances usability by bypassing limitations and improving overall performance. Enjoy learning Korean through stories with a clean and distraction free interface.",
@@ -6721,5 +6721,33 @@
       "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/prev_6.png"
     ],
     "releaseKeyword": "ClockMaster"
+  },
+  {
+    "id": "heliboardl",
+    "name": "HeliboardL",
+    "description": "Privacy-focused Android keyboard with Gemini AI enhancements. Based on HeliBoard/AOSP.",
+    "icon": "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/LeanBitLab/HeliboardL",
+    "githubRepo": "LeanBitLab/HeliboardL",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "helium314.keyboardl",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "LeanBitLab",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/main/docs/images/Screenshot1.png",
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/main/docs/images/Screenshot2.png",
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/main/docs/images/Screenshot3.png",
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/main/docs/images/Screenshot4.png",
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/main/docs/images/Screenshot5.png",
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/main/docs/images/Screenshot6.png"
+    ],
+    "releaseKeyword": "HeliboardL"
   }
 ]
