@@ -6804,5 +6804,31 @@
       "https://image2url.com/r2/default/images/1768999414897-5a5c1ad7-2c39-4263-b69e-9fddf563ab79.jpg"
     ],
     "releaseKeyword": "skystream"
+  },
+  {
+    "id": "makeacopy",
+    "name": "MakeACopy",
+    "description": "MakeACopy is an open-source document scanner app for Android that allows you to digitize paper documents with OCR functionality. The app is designed to be privacy-friendly, working completely offline without any cloud connection or tracking.",
+    "icon": "https://f-droid.org/repo/de.schliweb.makeacopy/en-US/icon_71l-uam0SrF5CIReiMYE5fX3-A6LwZcS2v6-apO8T-o=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/egdels/makeacopy",
+    "githubRepo": "egdels/makeacopy",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.schliweb.makeacopy",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "egdels",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/de.schliweb.makeacopy/en-US/phoneScreenshots/1_en-US.png",
+      "https://f-droid.org/repo/de.schliweb.makeacopy/en-US/phoneScreenshots/2_en-US.png",
+      "https://f-droid.org/repo/de.schliweb.makeacopy/en-US/phoneScreenshots/3_en-US.png",
+      "https://f-droid.org/repo/de.schliweb.makeacopy/en-US/phoneScreenshots/4_en-US.png"
+    ],
+    "releaseKeyword": "MakeACopy"
   }
 ]
