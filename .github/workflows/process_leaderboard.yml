@@ -57,13 +57,16 @@ jobs:
               if (payload.submissionCount > payload.adWatchCount * 2) heroClass = "Scribe";
               else if (payload.adWatchCount > payload.submissionCount * 2) heroClass = "Warrior";
 
+              // Use provided avatarUrl or fallback to GitHub if missing
+              const avatar = payload.avatarUrl || `https://github.com/${payload.username}.png`;
+
               const entry = {
                   username: payload.username,
                   xp: payload.xp,
                   level: payload.level,
                   title: payload.level > 20 ? "Legend" : payload.level > 10 ? "Veteran" : "Rookie",
                   class: heroClass,
-                  avatar_url: `https://github.com/${payload.username}.png`, // Auto-fetch GitHub Avatar
+                  avatar_url: avatar, 
                   last_updated: Date.now()
               };
 
