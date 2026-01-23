@@ -7055,7 +7055,7 @@
     "id": "taison",
     "name": "taison",
     "description": "Taison is fork of Mihon, the open source manga reader for Android. It keeps pace with upstream while adding polished quality-of-life upgrades, each chosen to give you more control and oversight without weighing down the interface.",
-    "icon": "https://github.com/Gent8/Taison/blob/main/docs/images/iconCropped.png",
+    "icon": "https://raw.githubusercontent.com/Gent8/Taison/main/docs/images/iconCropped.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
