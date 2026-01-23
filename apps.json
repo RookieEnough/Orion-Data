@@ -7050,5 +7050,30 @@
       "https://image2url.com/r2/default/images/1769093657252-5742b777-b34c-4d5a-be36-c240c65d2978.png"
     ],
     "releaseKeyword": "web-to-app"
+  },
+  {
+    "id": "taison",
+    "name": "taison",
+    "description": "Taison is fork of Mihon, the open source manga reader for Android. It keeps pace with upstream while adding polished quality-of-life upgrades, each chosen to give you more control and oversight without weighing down the interface.",
+    "icon": "https://github.com/Gent8/Taison/blob/main/docs/images/iconCropped.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Gent8/Taison",
+    "githubRepo": "Gent8/Taison",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.gent8.taison",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Gent8",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Gent8/Taison/refs/heads/main/docs/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Gent8/Taison/refs/heads/main/docs/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Gent8/Taison/refs/heads/main/docs/images/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
