@@ -7020,5 +7020,35 @@
       "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/search.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "webtoapp",
+    "name": "WebToApp",
+    "description": "A native Android application that converts any website URL into a standalone Android App with many many features. Check its repo to see all features.",
+    "icon": "https://image2url.com/r2/default/images/1769092748527-7bf84cd3-a0cc-4ecf-b72f-b14e157ebf4f.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/shiahonb777/web-to-app",
+    "githubRepo": "shiahonb777/web-to-app",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.webtoapp",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "shiahonb777",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1769093200811-c01cfcb4-2c2c-45fb-ba21-592cc785183e.png",
+      "https://image2url.com/r2/default/images/1769093567996-e69fcc05-29c5-4400-ad10-d1b4c57a1ddc.png",
+      "https://image2url.com/r2/default/images/1769093582824-eaa46ccb-a0d2-40e9-8651-c717a6a640dd.png",
+      "https://image2url.com/r2/default/images/1769093597101-1340b863-beed-4848-a2e6-06074974fa9e.png",
+      "https://image2url.com/r2/default/images/1769093612599-87080c92-178f-4ac2-975e-394df4c91a8a.png",
+      "https://image2url.com/r2/default/images/1769093628018-d93b852f-1434-4264-ae7a-079a606904eb.png",
+      "https://image2url.com/r2/default/images/1769093642362-9da2b117-e5cf-4ca4-bde5-87482ab49cd0.png",
+      "https://image2url.com/r2/default/images/1769093657252-5742b777-b34c-4d5a-be36-c240c65d2978.png"
+    ],
+    "releaseKeyword": "web-to-app"
   }
 ]
