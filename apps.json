@@ -7099,5 +7099,30 @@
       "https://image2url.com/r2/default/images/1769278124364-ea680505-5f38-4e61-a398-94ed83f5ad8d.png",
       "https://image2url.com/r2/default/images/1769278141399-1253f548-a51d-4c5b-bd6c-2fe02e134ca4.png"
     ]
+  },
+  {
+    "id": "axmanager",
+    "name": "AxManager",
+    "description": "AxManager is an Android application designed to provide deeper control over apps and the system. Unlike tools such as KernelSU or other root-based Managers, AxManager is dedicated to ADB/Non-Root mode — while still allowing execution with Root access if available.",
+    "icon": "https://image2url.com/r2/default/files/1769281938626-eeaa9f84-53f9-4706-aa1a-83842fd081fe.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/fahrez182/AxManager",
+    "githubRepo": "fahrez182/AxManager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "frb.axeron.manager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "fahrez182",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769282351580-7e3d5706-3943-4fa5-a0c1-70be68f833ea.png",
+      "https://image2url.com/r2/default/files/1769282367605-04977b38-27e4-4dad-84a5-7e7d29282413.png",
+      "https://image2url.com/r2/default/files/1769282380259-b47a6c77-904c-49f9-b0b4-ebf4af367215.png"
+    ],
+    "releaseKeyword": "AxManager"
   }
 ]
