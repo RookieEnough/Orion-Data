@@ -7075,5 +7075,29 @@
       "https://raw.githubusercontent.com/Gent8/Taison/refs/heads/main/docs/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "cpu-info",
+    "name": "CPU Info",
+    "description": "CPU Info provides comprehensive information about your device's hardware and software for your Android TV , ios , wear os , android , desktop.",
+    "icon": "https://raw.githubusercontent.com/kamgurgul/cpu-info/master/info/icon_glow.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/kamgurgul/cpu-info",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "jean-voila",
+    "officialSite": "https://github.com/kamgurgul/cpu-info",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1769278104954-fe99cff2-168f-4e5f-89aa-0e075c8d2c0e.png",
+      "https://image2url.com/r2/default/images/1769278124364-ea680505-5f38-4e61-a398-94ed83f5ad8d.png",
+      "https://image2url.com/r2/default/images/1769278141399-1253f548-a51d-4c5b-bd6c-2fe02e134ca4.png"
+    ]
   }
 ]
