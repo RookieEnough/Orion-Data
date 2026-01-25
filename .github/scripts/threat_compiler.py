@@ -43,31 +43,44 @@ def fetch_and_parse():
 
             # PARSE THE LINES
             if decoded_lines:
-                # Filter out comments
-                rows = [line for line in decoded_lines if not line.startswith('#')]
+                # Filter out comments and empty lines
+                rows = [line for line in decoded_lines if line.strip() and not line.startswith('#')]
                 
                 reader = csv.reader(rows)
                 count = 0
+                seen_types = set()
                 
-                # CSV Structure: 
-                # 0:date, 1:sha256, ... 6:file_type, ... 8:signature, 10:tags
+                # CSV Structure (Based on Header): 
+                # 0:date, 1:sha256, 2:md5, 3:sha1, 4:reporter, 5:filename, 6:file_type, 7:mime, 8:signature, ...
                 
                 for row in reader:
                     if len(row) < 9: continue
                     
                     sha256 = row[1]
+                    filename = row[5].lower()
                     file_type = row[6].lower()
-                    signature = row[8]
-                    tags = row[10] if len(row) > 10 else ""
+                    mime = row[7].lower()
+                    signature = row[8].lower()
                     
-                    # Filter for Android/APK
-                    is_android = 'apk' in file_type or 'android' in tags.lower() or 'android' in signature.lower()
+                    # Debug: Log first few types found
+                    if len(seen_types) < 5:
+                        seen_types.add(file_type)
+
+                    # Enhanced Filter for Android/APK
+                    is_android = (
+                        'apk' in file_type or 
+                        'android' in signature or 
+                        'android' in mime or
+                        filename.endswith('.apk')
+                    )
                     
                     if is_android and sha256 and len(sha256) == 64:
-                        name = signature if signature and signature != "n/a" else "Android.Malware.Generic"
+                        # Normalize signature name
+                        name = row[8] if row[8] and row[8] != "n/a" else "Android.Malware.Generic"
                         threats.add((sha256, name, "MalwareBazaar"))
                         count += 1
-                        
+                
+                print(f"   ℹ️  Sample file types found: {list(seen_types)}")        
                 print(f"   ✅ Parsed {count} Android threats from CSV")
             else:
                 print("   ⚠️ No readable content found in response.")
