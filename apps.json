@@ -7230,5 +7230,32 @@
       "https://raw.githubusercontent.com/knighthat/Kreate/main/fastlane/metadata/android/en-US/images/phoneScreenshots/9.png"
     ],
     "releaseKeyword": "Kreate"
+  },
+  {
+    "id": "paperize",
+    "name": "Paperize",
+    "description": "Paperize is a modern fully offline dynamic wallpaper changer application built for Android using Kotlin, Jetpack Compose, and Material 3 with many features such as Dynamic wall changer, static & live wall, wallpaper effects etc.",
+    "icon": "https://f-droid.org/repo/com.anthonyla.paperize/en-US/icon_3rPxpSan5IXdJQsMi8n6Ax1-XKI2_q7cwFGHFrzOX8w=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Anthonyy232/Paperize",
+    "githubRepo": "Anthonyy232/Paperize",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.anthonyla.paperize",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Anthonyy232",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.anthonyla.paperize/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.anthonyla.paperize/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.anthonyla.paperize/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.anthonyla.paperize/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.anthonyla.paperize/en-US/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "paperize"
   }
 ]
