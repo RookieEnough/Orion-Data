@@ -7257,5 +7257,32 @@
       "https://f-droid.org/repo/com.anthonyla.paperize/en-US/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "paperize"
+  },
+  {
+    "id": "alternate",
+    "name": "Alternate",
+    "description": "A privacy-focused React Native app that helps you identify unknown callers without cluttering your device's main contact list. Perfect for temporary number storage when you need to know who's calling but don't want the number to appear in WhatsApp, Telegram, or other messaging apps.",
+    "icon": "https://raw.githubusercontent.com/BioHazard786/Alternate/main/assets/icon/ios-tinted.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/BioHazard786/Alternate",
+    "githubRepo": "BioHazard786/Alternate",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.lulu786.Alternate",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "BioHazard786",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/BioHazard786/Alternate/main/mockups/image1.png",
+      "https://raw.githubusercontent.com/BioHazard786/Alternate/main/mockups/image2.png",
+      "https://raw.githubusercontent.com/BioHazard786/Alternate/main/mockups/image3.png",
+      "https://raw.githubusercontent.com/BioHazard786/Alternate/main/mockups/image4.png",
+      "https://raw.githubusercontent.com/BioHazard786/Alternate/main/mockups/image5.png"
+    ],
+    "releaseKeyword": "alternate"
   }
 ]
