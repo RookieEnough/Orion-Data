@@ -7392,5 +7392,35 @@
       "https://raw.githubusercontent.com/cvzi/Lyrics/refs/heads/master/screenshot.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "superx",
+    "name": "SuperX",
+    "description": "Video & Audio downloader for Android with web browser and player. M3U8 and MPD supported, live stream supported, using youtube-dlp and custom mp4/mp3/m3u8/mpd downloader, cookies supported, HTTP & SOCKS proxy chains supported, encrypted DNS",
+    "icon": "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/alexch33/super-video-downloader",
+    "githubRepo": "alexch33/super-video-downloader",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.myAllVideoBrowser",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "alexch33",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+      "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
