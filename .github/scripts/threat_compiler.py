@@ -3,38 +3,53 @@ import json
 import requests
 import hashlib
 
-# Sources
-SOURCES = [
-    # MalwareBazaar (Recent Android Malware - SHA256)
-    {"url": "https://bazaar.abuse.ch/export/txt/sha256/recent/", "type": "text", "filter": "android"},
-    # URLHaus (Malicious URLs, usually not file hashes but good to have if we expand)
-    # Keeping it simple: Only file hashes for now.
-]
-
 OUTPUT_FILE = "sentinel.json"
 
 def fetch_and_parse():
     threats = set()
     
     print("🛡️ Orion Sentinel Compiler")
+    print("   Targeting: Android/APK Signatures")
     
-    # 1. Fetch MalwareBazaar
+    # 1. Fetch by TAG: "android" (Specific Android Malware)
     try:
-        print("⬇️ Fetching MalwareBazaar...")
-        r = requests.post("https://bazaar.abuse.ch/api/1/", data={"query": "get_recent", "selector": "100"}) # Limit for demo
+        print("⬇️ Fetching MalwareBazaar (Tag: Android)...")
+        r = requests.post("https://bazaar.abuse.ch/api/1/", data={"query": "get_taginfo", "tag": "android", "limit": "1000"})
         if r.status_code == 200:
             data = r.json()
             if data.get("query_status") == "ok":
                 for sample in data.get("data", []):
-                    # Filter for Android
-                    tags = sample.get("tags", [])
-                    file_type = sample.get("file_type", "")
-                    if "apk" in file_type or "android" in tags or "apk" in tags:
-                        threats.add((sample["sha256_hash"], sample.get("signature", "Unknown"), "MalwareBazaar"))
+                    sig = sample.get("signature") or "Android.Malware.Generic"
+                    if sample.get("sha256_hash"):
+                        threats.add((sample["sha256_hash"], sig, "MalwareBazaar"))
+            else:
+                print(f"   ⚠️ API Query Status: {data.get('query_status')}")
+        else:
+            print(f"   ⚠️ HTTP Error: {r.status_code}")
     except Exception as e:
-        print(f"❌ Error fetching MalwareBazaar: {e}")
+        print(f"❌ Error fetching Android Tag: {e}")
 
-    # 2. Compile List
+    # 2. Fetch by FILE TYPE: "apk" (Broad Search)
+    try:
+        print("⬇️ Fetching MalwareBazaar (Type: APK)...")
+        r = requests.post("https://bazaar.abuse.ch/api/1/", data={"query": "get_file_type", "file_type": "apk", "limit": "1000"})
+        if r.status_code == 200:
+            data = r.json()
+            if data.get("query_status") == "ok":
+                for sample in data.get("data", []):
+                    sig = sample.get("signature") or "Android.Malware.Generic"
+                    if sample.get("sha256_hash"):
+                        threats.add((sample["sha256_hash"], sig, "MalwareBazaar"))
+    except Exception as e:
+        print(f"❌ Error fetching APK Type: {e}")
+
+    # 3. Add Manual Test Signatures (Safe for testing)
+    # EICAR Test File (Standard AV Test)
+    threats.add(("275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f", "EICAR-Test-Signature", "Manual"))
+    # A common test hash for Android malware debug
+    threats.add(("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8", "Orion-Test-Virus", "Manual"))
+
+    # Compile List
     final_list = []
     for h, name, src in threats:
         final_list.append({
