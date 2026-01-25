@@ -6,14 +6,12 @@ import io
 
 OUTPUT_FILE = "sentinel.json"
 
-# --- DATA SOURCES (UPDATED BY USER) ---
+# --- DATA SOURCES ---
 
 # 1. ThreatFox (Abuse.ch) - Recent IOCs (CSV)
-# Contains recent malware hashes. We filter for Android-specific tags.
 THREATFOX_CSV_URL = "https://threatfox.abuse.ch/export/csv/recent/"
 
 # 2. Echap Stalkerware (JSON format for TinyCheck)
-# This aggregates stalkerware indicators from multiple sources (including Kaspersky).
 ECHAP_TINYCHECK_URL = "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/indicators-for-tinycheck.json"
 
 def fetch_threatfox_data():
@@ -22,36 +20,56 @@ def fetch_threatfox_data():
     try:
         r = requests.get(THREATFOX_CSV_URL, timeout=30)
         if r.status_code == 200:
-            # Filter comment lines (lines starting with #)
+            # Filter comment lines
             lines = [line for line in r.text.splitlines() if not line.startswith('#')]
-            reader = csv.reader(lines)
+            reader = csv.reader(lines, quotechar='"', delimiter=',', skipping_skipinitialspace=True)
             
-            # ThreatFox CSV Column Index:
-            # 2: ioc_value (The Hash/URL)
-            # 3: ioc_type (sha256_hash, ip:port, etc)
-            # 5: malware (Name)
-            # 11: tags (android, rat, etc)
-            
+            count = 0
             for row in reader:
-                if len(row) < 12: continue
+                # Debug print first row to check columns
+                if count == 0:
+                    print(f"      ℹ️ First Row Sample: {row}")
+                count += 1
+
+                if len(row) < 4: continue
                 
+                # Standard Layout:
+                # 0: date, 1: id, 2: ioc_value, 3: ioc_type, 4: threat_type, 
+                # 5: malware, 6: alias, 7: printable, ..., 11: tags
+                
+                # Flexible Column Finding (Basic fallback)
                 ioc_value = row[2].strip().lower()
-                ioc_type = row[3].strip()
-                malware_name = row[5]
-                tags = row[11].lower()
+                ioc_type = row[3].strip().lower()
                 
-                # Filter for Android SHA256 Hashes
+                # Grab malware name (try column 5, else 'unknown')
+                malware_name = row[5].lower() if len(row) > 5 else "unknown"
+                
+                # Grab tags (try column 11, else empty)
+                tags = row[11].lower() if len(row) > 11 else ""
+                
+                # Filter for SHA256 Hashes ONLY
                 if ioc_type == 'sha256_hash':
-                    # We check tags OR if the malware name implies Android
-                    if 'android' in tags or 'apk' in tags or 'spyware' in tags or \
-                       'hydra' in malware_name.lower() or 'cerberus' in malware_name.lower() or \
-                       'joker' in malware_name.lower():
+                    # Heuristic Filter for Android
+                    # 1. Check explicit tags
+                    # 2. Check malware names known for Android
+                    # 3. Check if hash looks like an APK (rare in raw csv but possible context)
+                    
+                    is_android = False
+                    
+                    android_keywords = ['android', 'apk', 'spyware', 'rat', 'banker', 'sms', 'stealer']
+                    if any(k in tags for k in android_keywords):
+                        is_android = True
+                    elif any(k in malware_name for k in ['hydra', 'cerberus', 'joker', 'alien', 'ermac', 'flu', 'teabot', 'anubis', 'hiddad']):
+                        is_android = True
+                    
+                    if is_android:
                         threats.append({
                             "hash": ioc_value,
                             "name": f"{malware_name} (ThreatFox)",
                             "source": "ThreatFox"
                         })
-            print(f"      ✅ Parsed {len(threats)} Android threats from ThreatFox.")
+                        
+            print(f"      ✅ Parsed {len(threats)} Android threats from {count} total rows.")
         else:
             print(f"      ❌ ThreatFox HTTP Error: {r.status_code}")
     except Exception as e:
@@ -64,19 +82,40 @@ def fetch_echap_json():
     try:
         r = requests.get(ECHAP_TINYCHECK_URL, timeout=30)
         if r.status_code == 200:
-            data = r.json()
-            
-            # TinyCheck format usually has an "iocs" array
+            try:
+                data = r.json()
+            except:
+                print("      ❌ Failed to parse Echap JSON text.")
+                return []
+
+            # Structure detection
             iocs = []
-            if isinstance(data, dict) and "iocs" in data:
-                iocs = data["iocs"]
-            elif isinstance(data, list):
+            if isinstance(data, list):
+                print("      ℹ️ Detected List structure")
                 iocs = data
-            
+            elif isinstance(data, dict):
+                print(f"      ℹ️ Detected Dict structure. Keys: {list(data.keys())}")
+                if "iocs" in data:
+                    iocs = data["iocs"]
+                elif "indicators" in data:
+                    iocs = data["indicators"]
+                else:
+                    # Try to find any list in values
+                    for k, v in data.items():
+                        if isinstance(v, list):
+                            iocs.extend(v)
+
             for entry in iocs:
                 # Structure: { "type": "sha256", "value": "...", "comment": "..." }
+                # Be defensive with keys
+                if not isinstance(entry, dict): continue
+                
                 ioc_type = entry.get("type", "").lower()
                 ioc_value = entry.get("value", "").lower().strip()
+                # Some formats use 'indicator' instead of 'value'
+                if not ioc_value:
+                    ioc_value = entry.get("indicator", "").lower().strip()
+
                 comment = entry.get("comment", "Stalkerware")
                 
                 if ioc_type == "sha256" and len(ioc_value) == 64:
@@ -94,7 +133,7 @@ def fetch_echap_json():
     return threats
 
 def run_compiler():
-    print("🛡️ Orion Sentinel Compiler (v2.2 - User Links)")
+    print("🛡️ Orion Sentinel Compiler (v2.3 - Robust Parsing)")
     
     final_list = []
     seen_hashes = set()
@@ -113,7 +152,7 @@ def run_compiler():
             final_list.append(t)
             seen_hashes.add(t['hash'])
 
-    # 3. Manual Test Signatures (Always included for testing)
+    # 3. Manual Test Signatures (Always included)
     manual_tests = [
         ("275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f", "EICAR-Test-Signature", "Manual"),
         ("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8", "Orion-Test-Virus", "Manual"),
@@ -127,6 +166,7 @@ def run_compiler():
 
     print(f"\n✅ Compiled {len(final_list)} unique signatures.")
     
+    # Save to file
     with open(OUTPUT_FILE, "w") as f:
         json.dump(final_list, f, indent=None)
 
