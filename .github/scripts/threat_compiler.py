@@ -6,7 +6,6 @@ import zipfile
 import csv
 
 OUTPUT_FILE = "sentinel.json"
-# Use the Daily CSV Dump (Stable, No API Key needed)
 DUMP_URL = "https://bazaar.abuse.ch/export/csv/recent/"
 
 def fetch_and_parse():
@@ -17,71 +16,69 @@ def fetch_and_parse():
     
     try:
         print("⬇️ Downloading database dump...")
-        # Add User-Agent to avoid 403 Forbidden / HTML response
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "application/zip,application/octet-stream"
         }
         r = requests.get(DUMP_URL, headers=headers, stream=True, timeout=120)
         
         if r.status_code == 200:
             content_bytes = r.content
-            
-            # Verify ZIP Header (Magic Bytes: PK..)
+            decoded_lines = []
+
+            # CHECK 1: Is it a ZIP file? (Magic Bytes 'PK')
             if content_bytes.startswith(b'PK'):
-                print("   📦 Extracting and parsing...")
+                print("   📦 Detected ZIP format. Extracting...")
                 with zipfile.ZipFile(io.BytesIO(content_bytes)) as z:
-                    # The zip contains one file usually named 'recent.csv'
-                    # We search for it dynamically
                     filename = next((n for n in z.namelist() if n.endswith('.csv')), None)
-                    
                     if filename:
                         with z.open(filename) as f:
-                            # Decode bytes to string
-                            content = io.TextIOWrapper(f, encoding='utf-8', errors='replace')
-                            
-                            # Iterate manually to skip comment lines starting with #
-                            rows = []
-                            for line in content:
-                                if not line.startswith('#'):
-                                    rows.append(line)
-                            
-                            reader = csv.reader(rows)
-                            count = 0
-                            
-                            # CSV Structure: 
-                            # 0:date, 1:sha256, 2:md5, 3:sha1, 4:reporter, 5:filename, 6:file_type, 7:mime, 8:signature, ...
-                            
-                            for row in reader:
-                                if len(row) < 9: continue
-                                
-                                sha256 = row[1]
-                                file_type = row[6].lower()
-                                signature = row[8]
-                                tags = row[10] if len(row) > 10 else ""
-                                
-                                # Filter for Android/APK
-                                is_android = 'apk' in file_type or 'android' in tags.lower() or 'android' in signature.lower()
-                                
-                                if is_android and sha256 and len(sha256) == 64:
-                                    # Use signature if available, else generic name
-                                    name = signature if signature and signature != "n/a" else "Android.Malware.Generic"
-                                    threats.add((sha256, name, "MalwareBazaar"))
-                                    count += 1
-                                    
-                            print(f"   ✅ Parsed {count} Android threats from CSV")
-                    else:
-                        print("   ⚠️ No CSV found inside the ZIP.")
+                            content_str = io.TextIOWrapper(f, encoding='utf-8', errors='replace').read()
+                            decoded_lines = content_str.splitlines()
+            
+            # CHECK 2: Is it Raw Text/CSV? (Starts with # or ")
             else:
-                print("   ⚠️ Downloaded file is NOT a ZIP (likely HTML error page).")
-                print(f"   First 50 bytes: {content_bytes[:50]}")
+                print("   📄 Detected Raw CSV format. Parsing directly...")
+                content_str = content_bytes.decode('utf-8', errors='replace')
+                decoded_lines = content_str.splitlines()
+
+            # PARSE THE LINES
+            if decoded_lines:
+                # Filter out comments
+                rows = [line for line in decoded_lines if not line.startswith('#')]
+                
+                reader = csv.reader(rows)
+                count = 0
+                
+                # CSV Structure: 
+                # 0:date, 1:sha256, ... 6:file_type, ... 8:signature, 10:tags
+                
+                for row in reader:
+                    if len(row) < 9: continue
+                    
+                    sha256 = row[1]
+                    file_type = row[6].lower()
+                    signature = row[8]
+                    tags = row[10] if len(row) > 10 else ""
+                    
+                    # Filter for Android/APK
+                    is_android = 'apk' in file_type or 'android' in tags.lower() or 'android' in signature.lower()
+                    
+                    if is_android and sha256 and len(sha256) == 64:
+                        name = signature if signature and signature != "n/a" else "Android.Malware.Generic"
+                        threats.add((sha256, name, "MalwareBazaar"))
+                        count += 1
+                        
+                print(f"   ✅ Parsed {count} Android threats from CSV")
+            else:
+                print("   ⚠️ No readable content found in response.")
+
         else:
             print(f"   ❌ HTTP Error: {r.status_code}")
             
     except Exception as e:
         print(f"   ❌ Dump processing failed: {e}")
 
-    # 3. Add Manual Test Signatures (Safe for testing)
+    # 3. Add Manual Test Signatures
     threats.add(("275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f", "EICAR-Test-Signature", "Manual"))
     threats.add(("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8", "Orion-Test-Virus", "Manual"))
 
