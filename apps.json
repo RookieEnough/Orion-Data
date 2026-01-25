@@ -7367,5 +7367,30 @@
       "https://raw.githubusercontent.com/estiaksoyeb/TypeAssist/master/screenshots/6.png"
     ],
     "releaseKeyword": "TypeAssist"
+  },
+  {
+    "id": "lyrics",
+    "name": "Lyrics",
+    "description": "📑 Android app that shows lyrics from the Genius.com-API 🎵",
+    "icon": "https://raw.githubusercontent.com/cvzi/Lyrics/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/cvzi/Lyrics",
+    "githubRepo": "cvzi/Lyrics",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "sexy.lyrics",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "cvzi",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/cvzi/Lyrics/refs/heads/master/screenshot.png",
+      "https://raw.githubusercontent.com/cvzi/Lyrics/refs/heads/master/screenshot.png",
+      "https://raw.githubusercontent.com/cvzi/Lyrics/refs/heads/master/screenshot.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
