@@ -17,47 +17,64 @@ def fetch_and_parse():
     
     try:
         print("⬇️ Downloading database dump...")
-        r = requests.get(DUMP_URL, stream=True, timeout=60)
+        # Add User-Agent to avoid 403 Forbidden / HTML response
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "application/zip,application/octet-stream"
+        }
+        r = requests.get(DUMP_URL, headers=headers, stream=True, timeout=120)
         
         if r.status_code == 200:
-            print("   📦 Extracting and parsing...")
-            with zipfile.ZipFile(io.BytesIO(r.content)) as z:
-                # The zip contains one file usually named 'recent.csv'
-                filename = z.namelist()[0]
-                with z.open(filename) as f:
-                    # Decode bytes to string
-                    content = io.TextIOWrapper(f, encoding='utf-8', errors='replace')
+            content_bytes = r.content
+            
+            # Verify ZIP Header (Magic Bytes: PK..)
+            if content_bytes.startswith(b'PK'):
+                print("   📦 Extracting and parsing...")
+                with zipfile.ZipFile(io.BytesIO(content_bytes)) as z:
+                    # The zip contains one file usually named 'recent.csv'
+                    # We search for it dynamically
+                    filename = next((n for n in z.namelist() if n.endswith('.csv')), None)
                     
-                    # Iterate manually to skip comment lines starting with #
-                    rows = []
-                    for line in content:
-                        if not line.startswith('#'):
-                            rows.append(line)
-                    
-                    reader = csv.reader(rows)
-                    count = 0
-                    
-                    # CSV Structure: 
-                    # 0:date, 1:sha256, 2:md5, 3:sha1, 4:reporter, 5:filename, 6:file_type, 7:mime, 8:signature, ...
-                    
-                    for row in reader:
-                        if len(row) < 9: continue
-                        
-                        sha256 = row[1]
-                        file_type = row[6].lower()
-                        signature = row[8]
-                        tags = row[10] if len(row) > 10 else ""
-                        
-                        # Filter for Android/APK
-                        is_android = 'apk' in file_type or 'android' in tags.lower() or 'android' in signature.lower()
-                        
-                        if is_android and sha256 and len(sha256) == 64:
-                            # Use signature if available, else generic name
-                            name = signature if signature and signature != "n/a" else "Android.Malware.Generic"
-                            threats.add((sha256, name, "MalwareBazaar"))
-                            count += 1
+                    if filename:
+                        with z.open(filename) as f:
+                            # Decode bytes to string
+                            content = io.TextIOWrapper(f, encoding='utf-8', errors='replace')
                             
-                    print(f"   ✅ Parsed {count} Android threats from CSV")
+                            # Iterate manually to skip comment lines starting with #
+                            rows = []
+                            for line in content:
+                                if not line.startswith('#'):
+                                    rows.append(line)
+                            
+                            reader = csv.reader(rows)
+                            count = 0
+                            
+                            # CSV Structure: 
+                            # 0:date, 1:sha256, 2:md5, 3:sha1, 4:reporter, 5:filename, 6:file_type, 7:mime, 8:signature, ...
+                            
+                            for row in reader:
+                                if len(row) < 9: continue
+                                
+                                sha256 = row[1]
+                                file_type = row[6].lower()
+                                signature = row[8]
+                                tags = row[10] if len(row) > 10 else ""
+                                
+                                # Filter for Android/APK
+                                is_android = 'apk' in file_type or 'android' in tags.lower() or 'android' in signature.lower()
+                                
+                                if is_android and sha256 and len(sha256) == 64:
+                                    # Use signature if available, else generic name
+                                    name = signature if signature and signature != "n/a" else "Android.Malware.Generic"
+                                    threats.add((sha256, name, "MalwareBazaar"))
+                                    count += 1
+                                    
+                            print(f"   ✅ Parsed {count} Android threats from CSV")
+                    else:
+                        print("   ⚠️ No CSV found inside the ZIP.")
+            else:
+                print("   ⚠️ Downloaded file is NOT a ZIP (likely HTML error page).")
+                print(f"   First 50 bytes: {content_bytes[:50]}")
         else:
             print(f"   ❌ HTTP Error: {r.status_code}")
             
