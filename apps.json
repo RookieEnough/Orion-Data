@@ -7284,5 +7284,32 @@
       "https://raw.githubusercontent.com/BioHazard786/Alternate/main/mockups/image5.png"
     ],
     "releaseKeyword": "alternate"
+  },
+  {
+    "id": "nothingland",
+    "name": "NothingLand",
+    "description": "NothingLand is a project that recreates a Dynamic Island–style interactive bubble that appears around the front camera area and reacts to system events. It provides animated pop-ups for actions such as charging, music playback, timers, and notifications, emphasizing minimal, dot-matrix-style visuals. The project focuses on smooth animations, lightweight overlays, and customization of behavior and appearance to create a distinctive, playful user experience inspired by “Nothing”-style design elements.",
+    "icon": "https://image2url.com/r2/default/files/1769280110681-952538f9-038e-4ee9-8af3-798490d5b085.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/TheSerphh/NothingLand",
+    "githubRepo": "TheSerphh/NothingLand",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.theglitchh.NothingLand",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "TheSerphh",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769280217021-f3c4bb99-ea6e-4441-99dd-621e59782d27.jpg",
+      "https://image2url.com/r2/default/files/1769280229265-c218a799-9657-432c-b775-adbf74c04195.jpg",
+      "https://image2url.com/r2/default/files/1769280229265-c218a799-9657-432c-b775-adbf74c04195.jpg",
+      "https://image2url.com/r2/default/files/1769280252287-7e2e6ef7-5f16-4d2b-bde2-5dc01fb2a1a4.jpg",
+      "https://image2url.com/r2/default/files/1769280264347-cb1ae81a-68f3-4d74-9bba-cc6bdb8867a6.jpg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
