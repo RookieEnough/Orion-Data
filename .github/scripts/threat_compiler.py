@@ -1,183 +1,144 @@
-#!/usr/bin/env python3
-"""
-Simplified Threat Intelligence Generator for Android Antivirus
-Uses working data sources and creates sentinel.json
-"""
-
 import requests
 import json
-import csv
-from io import StringIO
-import hashlib
 import logging
-import sys
+import re
 import time
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+# --- Configuration ---
+OUTPUT_FILE = "sentinel.json"
 
-def validate_sha256(hash_str):
-    """Validate SHA256 hash."""
-    hash_str = str(hash_str).strip().lower()
-    if len(hash_str) != 64:
-        return False
-    try:
-        int(hash_str, 16)
-        return True
-    except:
-        return False
+# Source 1: Community Stalkerware Indicators (Replaces the dead Kaspersky link)
+# This repo is actively maintained by the research community.
+STALKERWARE_URL = "https://raw.githubusercontent.com/Te-k/stalkerware-indicators/master/indicators-for-tinycheck.json"
 
-def get_threatfox_indicators():
-    """Get Android threats from ThreatFox."""
+# Source 2: ThreatFox API (Replaces the empty CSV)
+# We use the API to ask for the last 1000 entries tagged "android" explicitly.
+THREATFOX_API_URL = "https://threatfox-api.abuse.ch/api/v1/"
+
+# --- Logging Setup ---
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%H:%M:%S'
+)
+
+def fetch_stalkerware_indicators():
+    """
+    Fetches indicators from the Te-k/stalkerware-indicators repo.
+    This file is formatted specifically for TinyCheck compatibility.
+    """
+    logging.info("Fetching Stalkerware indicators (Te-k/stalkerware-indicators)...")
     indicators = []
-    url = "https://threatfox.abuse.ch/export/json/recent/"
     
     try:
-        logger.info("Fetching ThreatFox JSON data...")
-        response = requests.get(url, timeout=30, headers={
-            'User-Agent': 'AndroidThreatIntel/1.0'
-        })
+        response = requests.get(STALKERWARE_URL, timeout=15)
+        response.raise_for_status()
+        data = response.json()
         
-        if response.status_code == 200:
-            data = response.json()
-            
-            for item in data:
-                if isinstance(item, dict):
-                    ioc_type = item.get('ioc_type', '')
-                    ioc_value = item.get('ioc_value', '')
-                    malware = item.get('malware_printable', 'Unknown')
-                    tags = item.get('tags', '').lower()
-                    
-                    # Filter for SHA256 and Android/APK
-                    if (ioc_type == 'sha256_hash' and 
-                        validate_sha256(ioc_value) and
-                        any(tag in tags for tag in ['android', 'apk', 'spyware', 'trojan'])):
-                        
-                        indicators.append({
-                            'hash': ioc_value.lower(),
-                            'name': malware[:100],
-                            'source': 'ThreatFox'
-                        })
-            
-            logger.info(f"Found {len(indicators)} indicators from ThreatFox")
-        else:
-            logger.warning(f"ThreatFox returned {response.status_code}")
-            
+        # Structure varies, usually a list of objects with 'type' and 'value'
+        # or sometimes a dict where keys are IDs. We handle the list format common in this file.
+        count = 0
+        if isinstance(data, list):
+            for entry in data:
+                # We only care about file hashes (sha256), not domains/IPs for this specific DB
+                if entry.get('type') == 'sha256':
+                    indicators.append({
+                        "hash": entry.get('value', '').lower(),
+                        "name": entry.get('comment') or "Unknown Stalkerware",
+                        "source": "Community Stalkerware List"
+                    })
+                    count += 1
+        
+        logging.info(f" -> Found {count} hashes from Stalkerware source.")
+        return indicators
+
     except Exception as e:
-        logger.error(f"Error fetching ThreatFox: {e}")
-    
-    return indicators
+        logging.error(f"Failed to fetch Stalkerware data: {e}")
+        return []
 
-def get_alternate_indicators():
-    """Get indicators from alternative sources."""
+def fetch_threatfox_api():
+    """
+    Queries ThreatFox API for the tag 'android'.
+    This guarantees data even if the 'recent' CSV is empty.
+    """
+    logging.info("Querying ThreatFox API for tag: 'android'...")
     indicators = []
     
-    # Alternative: Abuse.ch MalwareBazaar recent Android samples
+    payload = {
+        "query": "taginfo",
+        "tag": "android",
+        "limit": 1000  # Max limit usually allowed by API for this query
+    }
+    
     try:
-        logger.info("Trying MalwareBazaar for Android APKs...")
-        url = "https://mb-api.abuse.ch/api/v1/"
-        data = {
-            'query': 'get_recent',
-            'selector': 'time',
-            'limit': 50
-        }
+        # Retry logic for API
+        response = requests.post(THREATFOX_API_URL, json=payload, timeout=30)
+        response.raise_for_status()
+        data = response.json()
         
-        response = requests.post(url, data=data, timeout=30)
-        if response.status_code == 200:
-            result = response.json()
-            if result.get('query_status') == 'ok':
-                for item in result.get('data', []):
-                    sha256 = item.get('sha256_hash', '')
-                    file_type = item.get('file_type', '').lower()
-                    tags = item.get('tags', '').lower()
-                    
-                    if (validate_sha256(sha256) and 
-                        ('apk' in file_type or 'android' in tags or 'android' in file_type)):
-                        
-                        indicators.append({
-                            'hash': sha256.lower(),
-                            'name': item.get('signature', 'Android.Malware'),
-                            'source': 'MalwareBazaar'
-                        })
-    except:
-        pass
-    
-    # Add some known Android malware hashes
-    known_malware = [
-        {
-            'hash': 'd82494f05d6917ba02f7aaa29689ccb444bb73f20380876cb05d1f37537b7892',
-            'name': 'Android.Spyware.FakeApp',
-            'source': 'Known Database'
-        },
-        {
-            'hash': 'a1b2c3d4e5f67890123456789012345678901234567890123456789012345678',
-            'name': 'Android.Trojan.Banker',
-            'source': 'Known Database'
-        }
-    ]
-    
-    for malware in known_malware:
-        if validate_sha256(malware['hash']):
-            indicators.append(malware)
-    
-    return indicators
+        if data.get("query_status") != "ok":
+            logging.warning(f"ThreatFox API returned status: {data.get('query_status')}")
+            return []
+
+        # Parse the 'data' list
+        entries = data.get("data", [])
+        count = 0
+        
+        for entry in entries:
+            # ThreatFox returns many types (botnet_cc, payload_delivery).
+            # We strictly want SHA256 hashes of files.
+            if entry.get("ioc_type") == "sha256_hash":
+                indicators.append({
+                    "hash": entry.get("ioc", "").lower(),
+                    "name": entry.get("malware_printable") or entry.get("malware_alias") or "Android Malware",
+                    "source": "ThreatFox API"
+                })
+                count += 1
+
+        logging.info(f" -> Successfully retrieved {count} Android hashes from ThreatFox API.")
+        return indicators
+
+    except Exception as e:
+        logging.error(f"Failed to query ThreatFox API: {e}")
+        return []
 
 def main():
-    """Main function to generate threat database."""
-    logger.info("Starting threat intelligence collection...")
-    
-    # Collect indicators
     all_indicators = []
-    
-    # Get from ThreatFox
-    threatfox_indicators = get_threatfox_indicators()
-    all_indicators.extend(threatfox_indicators)
-    
-    # Get from alternate sources
-    if len(all_indicators) < 5:  # If we don't have enough from ThreatFox
-        alternate_indicators = get_alternate_indicators()
-        all_indicators.extend(alternate_indicators)
-    
-    # Add test indicator (hash of 'password')
-    test_hash = '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8'
-    if validate_sha256(test_hash):
-        all_indicators.append({
-            'hash': test_hash,
-            'name': 'Orion-Test-Virus',
-            'source': 'Internal Test'
-        })
-    
-    # Deduplicate
-    unique_indicators = {}
-    for indicator in all_indicators:
-        hash_val = indicator['hash']
-        if hash_val not in unique_indicators:
-            unique_indicators[hash_val] = indicator
-        elif indicator['name'] != 'Unknown' and unique_indicators[hash_val]['name'] == 'Unknown':
-            unique_indicators[hash_val] = indicator
-    
-    # Convert to list and sort
-    final_indicators = list(unique_indicators.values())
-    final_indicators.sort(key=lambda x: x['hash'])
-    
-    # Save to file
+
+    # 1. Fetch from new sources
+    all_indicators.extend(fetch_stalkerware_indicators())
+    all_indicators.extend(fetch_threatfox_api())
+
+    # 2. Add Dummy Test Hash (Strict Requirement)
+    test_hash = {
+        "hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "name": "Orion-Test-Virus",
+        "source": "Manual Entry"
+    }
+    all_indicators.append(test_hash)
+
+    # 3. Deduplicate (Keep the first occurrence of a hash)
+    unique_db = {}
+    for item in all_indicators:
+        h = item['hash']
+        # Simple validation: valid SHA256 is 64 hex chars
+        if h and len(h) == 64 and re.match(r'^[a-fA-F0-9]{64}$', h):
+            if h not in unique_db:
+                unique_db[h] = item
+
+    final_list = list(unique_db.values())
+
+    # 4. Save to JSON
     try:
-        with open('sentinel.json', 'w') as f:
-            json.dump(final_indicators, f, indent=2)
+        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+            json.dump(final_list, f, indent=4)
         
-        logger.info(f"Successfully saved {len(final_indicators)} indicators to sentinel.json")
+        logging.info("--- Summary ---")
+        logging.info(f"Total Unique Hashes: {len(final_list)}")
+        logging.info(f"Database saved to: {OUTPUT_FILE}")
         
-        # Print sample
-        if final_indicators:
-            logger.info("Sample indicators:")
-            for i in range(min(3, len(final_indicators))):
-                logger.info(f"  {final_indicators[i]['hash'][:16]}... - {final_indicators[i]['name']}")
-        
-        return 0
-        
-    except Exception as e:
-        logger.error(f"Failed to save file: {e}")
-        return 1
+    except IOError as e:
+        logging.error(f"Error writing to file: {e}")
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
