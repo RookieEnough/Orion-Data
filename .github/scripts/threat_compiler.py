@@ -2,18 +2,18 @@ import requests
 import json
 import logging
 import re
-import time
 
 # --- Configuration ---
 OUTPUT_FILE = "sentinel.json"
 
-# Source 1: Community Stalkerware Indicators (Replaces the dead Kaspersky link)
-# This repo is actively maintained by the research community.
-STALKERWARE_URL = "https://raw.githubusercontent.com/Te-k/stalkerware-indicators/master/indicators-for-tinycheck.json"
+# Source 1: AssoEchap Stalkerware (The active repo, replaces Te-k)
+STALKERWARE_URL = "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/indicators-for-tinycheck.json"
 
-# Source 2: ThreatFox API (Replaces the empty CSV)
-# We use the API to ask for the last 1000 entries tagged "android" explicitly.
-THREATFOX_API_URL = "https://threatfox-api.abuse.ch/api/v1/"
+# Source 2: ThreatFox Public Export (Bypasses API Key / 401 errors)
+THREATFOX_EXPORT_URL = "https://threatfox.abuse.ch/export/json/recent/"
+
+# Source 3: MalwareBazaar Recent (Supplementary source for APKs)
+MALWAREBAZAAR_URL = "https://mb-api.abuse.ch/api/v1/"
 
 # --- Logging Setup ---
 logging.basicConfig(
@@ -24,30 +24,26 @@ logging.basicConfig(
 
 def fetch_stalkerware_indicators():
     """
-    Fetches indicators from the Te-k/stalkerware-indicators repo.
-    This file is formatted specifically for TinyCheck compatibility.
+    Fetches indicators from AssoEchap (Community Stalkerware).
     """
-    logging.info("Fetching Stalkerware indicators (Te-k/stalkerware-indicators)...")
+    logging.info("Fetching Stalkerware indicators (AssoEchap)...")
     indicators = []
-    
     try:
         response = requests.get(STALKERWARE_URL, timeout=15)
         response.raise_for_status()
         data = response.json()
         
-        # Structure varies, usually a list of objects with 'type' and 'value'
-        # or sometimes a dict where keys are IDs. We handle the list format common in this file.
+        # This JSON is a list of objects.
         count = 0
-        if isinstance(data, list):
-            for entry in data:
-                # We only care about file hashes (sha256), not domains/IPs for this specific DB
-                if entry.get('type') == 'sha256':
-                    indicators.append({
-                        "hash": entry.get('value', '').lower(),
-                        "name": entry.get('comment') or "Unknown Stalkerware",
-                        "source": "Community Stalkerware List"
-                    })
-                    count += 1
+        for entry in data:
+            # We strictly want file hashes, not domains/IPs
+            if entry.get('type') == 'sha256':
+                indicators.append({
+                    "hash": entry.get('value', '').lower(),
+                    "name": entry.get('comment') or "Stalkerware (Community)",
+                    "source": "AssoEchap Stalkerware"
+                })
+                count += 1
         
         logging.info(f" -> Found {count} hashes from Stalkerware source.")
         return indicators
@@ -56,58 +52,106 @@ def fetch_stalkerware_indicators():
         logging.error(f"Failed to fetch Stalkerware data: {e}")
         return []
 
-def fetch_threatfox_api():
+def fetch_threatfox_export():
     """
-    Queries ThreatFox API for the tag 'android'.
-    This guarantees data even if the 'recent' CSV is empty.
+    Fetches the Public JSON Export from ThreatFox.
+    Client-side filters for 'android' tags to avoid API auth issues.
     """
-    logging.info("Querying ThreatFox API for tag: 'android'...")
+    logging.info("Fetching ThreatFox Public JSON Export...")
     indicators = []
-    
-    payload = {
-        "query": "taginfo",
-        "tag": "android",
-        "limit": 1000  # Max limit usually allowed by API for this query
-    }
+    target_tags = {'android', 'apk', 'spyware', 'rat', 'bankbot'}
     
     try:
-        # Retry logic for API
-        response = requests.post(THREATFOX_API_URL, json=payload, timeout=30)
+        response = requests.get(THREATFOX_EXPORT_URL, timeout=30)
         response.raise_for_status()
         data = response.json()
         
-        if data.get("query_status") != "ok":
-            logging.warning(f"ThreatFox API returned status: {data.get('query_status')}")
-            return []
-
-        # Parse the 'data' list
-        entries = data.get("data", [])
+        # The export is a dict { "query_status": "ok", "data": [...] }
+        entries = data.get('data', [])
         count = 0
         
         for entry in entries:
-            # ThreatFox returns many types (botnet_cc, payload_delivery).
-            # We strictly want SHA256 hashes of files.
-            if entry.get("ioc_type") == "sha256_hash":
-                indicators.append({
-                    "hash": entry.get("ioc", "").lower(),
-                    "name": entry.get("malware_printable") or entry.get("malware_alias") or "Android Malware",
-                    "source": "ThreatFox API"
-                })
-                count += 1
-
-        logging.info(f" -> Successfully retrieved {count} Android hashes from ThreatFox API.")
+            # Filter 1: Must be SHA256
+            if entry.get('ioc_type') != 'sha256_hash':
+                continue
+            
+            # Filter 2: Must match Android tags
+            tags = entry.get('tags')
+            if tags:
+                # Convert list of tags to lowercase set
+                entry_tags = set(t.lower() for t in tags)
+                if not entry_tags.isdisjoint(target_tags):
+                    indicators.append({
+                        "hash": entry.get('ioc', '').lower(),
+                        "name": entry.get('malware_printable') or "Android Malware",
+                        "source": "ThreatFox Export"
+                    })
+                    count += 1
+                    
+        logging.info(f" -> Found {count} Android hashes in ThreatFox Export.")
         return indicators
 
     except Exception as e:
-        logging.error(f"Failed to query ThreatFox API: {e}")
+        logging.error(f"Failed to fetch ThreatFox Export: {e}")
+        return []
+
+def fetch_malwarebazaar_recent():
+    """
+    Fetches recent Android samples from MalwareBazaar.
+    Useful fallback if ThreatFox is empty.
+    """
+    logging.info("Querying MalwareBazaar for recent Android APKs...")
+    indicators = []
+    
+    # MalwareBazaar 'query' API is public for recent additions
+    payload = {"query": "get_recent", "selector": "time"}
+    
+    try:
+        response = requests.post(MALWAREBAZAAR_URL, data=payload, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        
+        if data.get('query_status') != 'ok':
+            return []
+
+        entries = data.get('data', [])
+        count = 0
+        
+        for entry in entries:
+            # Filter for APK file type or Android tags
+            file_type = entry.get('file_type', '').lower()
+            tags = entry.get('tags') or []
+            is_android = False
+            
+            if file_type == 'apk':
+                is_android = True
+            elif tags:
+                tag_set = set(t.lower() for t in tags)
+                if 'android' in tag_set or 'apk' in tag_set:
+                    is_android = True
+            
+            if is_android and entry.get('sha256_hash'):
+                indicators.append({
+                    "hash": entry.get('sha256_hash', '').lower(),
+                    "name": entry.get('signature') or "Unknown Android Sample",
+                    "source": "MalwareBazaar"
+                })
+                count += 1
+                
+        logging.info(f" -> Found {count} hashes from MalwareBazaar.")
+        return indicators
+
+    except Exception as e:
+        logging.error(f"Failed to fetch MalwareBazaar: {e}")
         return []
 
 def main():
     all_indicators = []
 
-    # 1. Fetch from new sources
+    # 1. Fetch from robust sources
     all_indicators.extend(fetch_stalkerware_indicators())
-    all_indicators.extend(fetch_threatfox_api())
+    all_indicators.extend(fetch_threatfox_export())
+    all_indicators.extend(fetch_malwarebazaar_recent())
 
     # 2. Add Dummy Test Hash (Strict Requirement)
     test_hash = {
@@ -117,18 +161,18 @@ def main():
     }
     all_indicators.append(test_hash)
 
-    # 3. Deduplicate (Keep the first occurrence of a hash)
+    # 3. Deduplicate
     unique_db = {}
     for item in all_indicators:
         h = item['hash']
-        # Simple validation: valid SHA256 is 64 hex chars
+        # Strict Hex Validation (64 chars)
         if h and len(h) == 64 and re.match(r'^[a-fA-F0-9]{64}$', h):
             if h not in unique_db:
                 unique_db[h] = item
 
     final_list = list(unique_db.values())
 
-    # 4. Save to JSON
+    # 4. Save
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(final_list, f, indent=4)
