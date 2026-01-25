@@ -7151,5 +7151,30 @@
       "https://raw.githubusercontent.com/kaleedtc/Privacium/refs/heads/main/assets/screenshots/privacium_light_mode.png"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "nora",
+    "name": "Nora",
+    "description": "Facebook, Instagram, Reddit, Threads and X in a single app without any ads. Nora provides a clean experience by wrapping SNS websites in a secure Android webview and injecting specialized code to block all advertisements.",
+    "icon": "https://f-droid.org/repo/jp.nonbili.nora/en-US/icon_-mUDuis5wj0XRSw4vn3dZH-bqHF6L5TtdTH62O8ZcEY=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nonbili/Nora",
+    "githubRepo": "nonbili/Nora",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "jp.nonbili.nora",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nonbili",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nonbili/Nora/main/metadata/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/nonbili/Nora/refs/heads/main/metadata/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/nonbili/Nora/refs/heads/main/metadata/en-US/images/phoneScreenshots/3.jpg"
+    ],
+    "releaseKeyword": "release"
   }
 ]
