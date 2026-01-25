@@ -6,15 +6,15 @@ import io
 
 OUTPUT_FILE = "sentinel.json"
 
-# --- DATA SOURCES ---
+# --- DATA SOURCES (UPDATED BY USER) ---
 
-# 1. ThreatFox (Abuse.ch) - Free, Daily Malware List
-# We will download the recent CSV and filter for Android threats.
+# 1. ThreatFox (Abuse.ch) - Recent IOCs (CSV)
+# Contains recent malware hashes. We filter for Android-specific tags.
 THREATFOX_CSV_URL = "https://threatfox.abuse.ch/export/csv/recent/"
 
-# 2. Kaspersky TinyCheck (GitHub) - Stable Stalkerware List
-# Maintained by Kaspersky Lab, specifically for stalkerware/spyware.
-TINYCHECK_URL = "https://raw.githubusercontent.com/KasperskyLab/tinycheck/main/assets/iocs.json"
+# 2. Echap Stalkerware (JSON format for TinyCheck)
+# This aggregates stalkerware indicators from multiple sources (including Kaspersky).
+ECHAP_TINYCHECK_URL = "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/indicators-for-tinycheck.json"
 
 def fetch_threatfox_data():
     print("   🔎 Fetching ThreatFox (Abuse.ch)...")
@@ -22,11 +22,11 @@ def fetch_threatfox_data():
     try:
         r = requests.get(THREATFOX_CSV_URL, timeout=30)
         if r.status_code == 200:
-            # Filter comment lines
+            # Filter comment lines (lines starting with #)
             lines = [line for line in r.text.splitlines() if not line.startswith('#')]
             reader = csv.reader(lines)
             
-            # ThreatFox CSV Column Index (Standard):
+            # ThreatFox CSV Column Index:
             # 2: ioc_value (The Hash/URL)
             # 3: ioc_type (sha256_hash, ip:port, etc)
             # 5: malware (Name)
@@ -40,10 +40,9 @@ def fetch_threatfox_data():
                 malware_name = row[5]
                 tags = row[11].lower()
                 
-                # Filter for SHA256 Hashes ONLY
+                # Filter for Android SHA256 Hashes
                 if ioc_type == 'sha256_hash':
                     # We check tags OR if the malware name implies Android
-                    # Common Android malware families: hydra, cerberus, alien, joker, hiddad
                     if 'android' in tags or 'apk' in tags or 'spyware' in tags or \
                        'hydra' in malware_name.lower() or 'cerberus' in malware_name.lower() or \
                        'joker' in malware_name.lower():
@@ -59,31 +58,43 @@ def fetch_threatfox_data():
         print(f"      ❌ Failed to fetch ThreatFox: {e}")
     return threats
 
-def fetch_tinycheck_data():
-    print("   🔎 Fetching Kaspersky TinyCheck (GitHub)...")
+def fetch_echap_json():
+    print("   🔎 Fetching Echap Stalkerware (TinyCheck JSON)...")
     threats = []
     try:
-        r = requests.get(TINYCHECK_URL, timeout=30)
+        r = requests.get(ECHAP_TINYCHECK_URL, timeout=30)
         if r.status_code == 200:
             data = r.json()
-            # Structure: "iocs": [ { "type": "sha256", "value": "...", "comment": "..." } ]
-            if "iocs" in data:
-                for entry in data["iocs"]:
-                    if entry.get("type") == "sha256":
-                        threats.append({
-                            "hash": entry.get("value", "").lower().strip(),
-                            "name": entry.get("comment", "Stalkerware.Generic"),
-                            "source": "Kaspersky/TinyCheck"
-                        })
+            
+            # TinyCheck format usually has an "iocs" array
+            iocs = []
+            if isinstance(data, dict) and "iocs" in data:
+                iocs = data["iocs"]
+            elif isinstance(data, list):
+                iocs = data
+            
+            for entry in iocs:
+                # Structure: { "type": "sha256", "value": "...", "comment": "..." }
+                ioc_type = entry.get("type", "").lower()
+                ioc_value = entry.get("value", "").lower().strip()
+                comment = entry.get("comment", "Stalkerware")
+                
+                if ioc_type == "sha256" and len(ioc_value) == 64:
+                    threats.append({
+                        "hash": ioc_value,
+                        "name": comment,
+                        "source": "Echap"
+                    })
+            
             print(f"      ✅ Parsed {len(threats)} Stalkerware signatures.")
         else:
-            print(f"      ❌ TinyCheck HTTP Error: {r.status_code}")
+            print(f"      ❌ Echap HTTP Error: {r.status_code}")
     except Exception as e:
-        print(f"      ❌ Failed to fetch TinyCheck: {e}")
+        print(f"      ❌ Failed to fetch Echap JSON: {e}")
     return threats
 
 def run_compiler():
-    print("🛡️ Orion Sentinel Compiler (v2.1)")
+    print("🛡️ Orion Sentinel Compiler (v2.2 - User Links)")
     
     final_list = []
     seen_hashes = set()
@@ -95,20 +106,17 @@ def run_compiler():
             final_list.append(t)
             seen_hashes.add(t['hash'])
 
-    # 2. Fetch TinyCheck (Kaspersky)
-    tc_threats = fetch_tinycheck_data()
-    for t in tc_threats:
+    # 2. Fetch Echap
+    ec_threats = fetch_echap_json()
+    for t in ec_threats:
         if t['hash'] not in seen_hashes and len(t['hash']) == 64:
             final_list.append(t)
             seen_hashes.add(t['hash'])
 
-    # 3. Always add Manual Test Signatures (So app works even if network fails)
+    # 3. Manual Test Signatures (Always included for testing)
     manual_tests = [
-        # EICAR Test File (Standard Anti-Virus Test String)
         ("275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f", "EICAR-Test-Signature", "Manual"),
-        # Orion Test Hash (For debugging)
         ("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8", "Orion-Test-Virus", "Manual"),
-        # A common generic malware hash for testing UI
         ("8a39875e63821733393933393339333933393339333933393339333933393339", "Generic.Trojan.Dropper", "Manual")
     ]
     
