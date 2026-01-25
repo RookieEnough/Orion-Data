@@ -4,6 +4,8 @@ import requests
 import hashlib
 
 OUTPUT_FILE = "sentinel.json"
+# CORRECTED API ENDPOINT
+API_URL = "https://mb-api.abuse.ch/api/v1/"
 
 def fetch_and_parse():
     threats = set()
@@ -14,7 +16,7 @@ def fetch_and_parse():
     # 1. Fetch by TAG: "android" (Specific Android Malware)
     try:
         print("⬇️ Fetching MalwareBazaar (Tag: Android)...")
-        r = requests.post("https://bazaar.abuse.ch/api/1/", data={"query": "get_taginfo", "tag": "android", "limit": "1000"})
+        r = requests.post(API_URL, data={"query": "get_taginfo", "tag": "android", "limit": "1000"}, timeout=30)
         if r.status_code == 200:
             data = r.json()
             if data.get("query_status") == "ok":
@@ -22,17 +24,18 @@ def fetch_and_parse():
                     sig = sample.get("signature") or "Android.Malware.Generic"
                     if sample.get("sha256_hash"):
                         threats.add((sample["sha256_hash"], sig, "MalwareBazaar"))
+                print(f"   ✅ Parsed entries from Tag Source")
             else:
-                print(f"   ⚠️ API Query Status: {data.get('query_status')}")
+                print(f"   ⚠️ API Query Status (Tag): {data.get('query_status')}")
         else:
-            print(f"   ⚠️ HTTP Error: {r.status_code}")
+            print(f"   ⚠️ HTTP Error (Tag): {r.status_code}")
     except Exception as e:
         print(f"❌ Error fetching Android Tag: {e}")
 
     # 2. Fetch by FILE TYPE: "apk" (Broad Search)
     try:
         print("⬇️ Fetching MalwareBazaar (Type: APK)...")
-        r = requests.post("https://bazaar.abuse.ch/api/1/", data={"query": "get_file_type", "file_type": "apk", "limit": "1000"})
+        r = requests.post(API_URL, data={"query": "get_file_type", "file_type": "apk", "limit": "1000"}, timeout=30)
         if r.status_code == 200:
             data = r.json()
             if data.get("query_status") == "ok":
@@ -40,6 +43,9 @@ def fetch_and_parse():
                     sig = sample.get("signature") or "Android.Malware.Generic"
                     if sample.get("sha256_hash"):
                         threats.add((sample["sha256_hash"], sig, "MalwareBazaar"))
+                print(f"   ✅ Parsed entries from Type Source")
+            else:
+                print(f"   ⚠️ API Query Status (Type): {data.get('query_status')}")
     except Exception as e:
         print(f"❌ Error fetching APK Type: {e}")
 
