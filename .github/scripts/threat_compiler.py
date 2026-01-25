@@ -1,58 +1,71 @@
 
 import json
 import requests
-import hashlib
+import io
+import zipfile
+import csv
 
 OUTPUT_FILE = "sentinel.json"
-# CORRECTED API ENDPOINT
-API_URL = "https://mb-api.abuse.ch/api/v1/"
+# Use the Daily CSV Dump (Stable, No API Key needed)
+DUMP_URL = "https://bazaar.abuse.ch/export/csv/recent/"
 
 def fetch_and_parse():
     threats = set()
     
     print("🛡️ Orion Sentinel Compiler")
-    print("   Targeting: Android/APK Signatures")
+    print("   Source: MalwareBazaar Daily CSV Dump")
     
-    # 1. Fetch by TAG: "android" (Specific Android Malware)
     try:
-        print("⬇️ Fetching MalwareBazaar (Tag: Android)...")
-        r = requests.post(API_URL, data={"query": "get_taginfo", "tag": "android", "limit": "1000"}, timeout=30)
+        print("⬇️ Downloading database dump...")
+        r = requests.get(DUMP_URL, stream=True, timeout=60)
+        
         if r.status_code == 200:
-            data = r.json()
-            if data.get("query_status") == "ok":
-                for sample in data.get("data", []):
-                    sig = sample.get("signature") or "Android.Malware.Generic"
-                    if sample.get("sha256_hash"):
-                        threats.add((sample["sha256_hash"], sig, "MalwareBazaar"))
-                print(f"   ✅ Parsed entries from Tag Source")
-            else:
-                print(f"   ⚠️ API Query Status (Tag): {data.get('query_status')}")
+            print("   📦 Extracting and parsing...")
+            with zipfile.ZipFile(io.BytesIO(r.content)) as z:
+                # The zip contains one file usually named 'recent.csv'
+                filename = z.namelist()[0]
+                with z.open(filename) as f:
+                    # Decode bytes to string
+                    content = io.TextIOWrapper(f, encoding='utf-8', errors='replace')
+                    
+                    # Iterate manually to skip comment lines starting with #
+                    rows = []
+                    for line in content:
+                        if not line.startswith('#'):
+                            rows.append(line)
+                    
+                    reader = csv.reader(rows)
+                    count = 0
+                    
+                    # CSV Structure: 
+                    # 0:date, 1:sha256, 2:md5, 3:sha1, 4:reporter, 5:filename, 6:file_type, 7:mime, 8:signature, ...
+                    
+                    for row in reader:
+                        if len(row) < 9: continue
+                        
+                        sha256 = row[1]
+                        file_type = row[6].lower()
+                        signature = row[8]
+                        tags = row[10] if len(row) > 10 else ""
+                        
+                        # Filter for Android/APK
+                        is_android = 'apk' in file_type or 'android' in tags.lower() or 'android' in signature.lower()
+                        
+                        if is_android and sha256 and len(sha256) == 64:
+                            # Use signature if available, else generic name
+                            name = signature if signature and signature != "n/a" else "Android.Malware.Generic"
+                            threats.add((sha256, name, "MalwareBazaar"))
+                            count += 1
+                            
+                    print(f"   ✅ Parsed {count} Android threats from CSV")
         else:
-            print(f"   ⚠️ HTTP Error (Tag): {r.status_code}")
+            print(f"   ❌ HTTP Error: {r.status_code}")
+            
     except Exception as e:
-        print(f"❌ Error fetching Android Tag: {e}")
-
-    # 2. Fetch by FILE TYPE: "apk" (Broad Search)
-    try:
-        print("⬇️ Fetching MalwareBazaar (Type: APK)...")
-        r = requests.post(API_URL, data={"query": "get_file_type", "file_type": "apk", "limit": "1000"}, timeout=30)
-        if r.status_code == 200:
-            data = r.json()
-            if data.get("query_status") == "ok":
-                for sample in data.get("data", []):
-                    sig = sample.get("signature") or "Android.Malware.Generic"
-                    if sample.get("sha256_hash"):
-                        threats.add((sample["sha256_hash"], sig, "MalwareBazaar"))
-                print(f"   ✅ Parsed entries from Type Source")
-            else:
-                print(f"   ⚠️ API Query Status (Type): {data.get('query_status')}")
-    except Exception as e:
-        print(f"❌ Error fetching APK Type: {e}")
+        print(f"   ❌ Dump processing failed: {e}")
 
     # 3. Add Manual Test Signatures (Safe for testing)
-    # EICAR Test File (Standard AV Test)
     threats.add(("275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f", "EICAR-Test-Signature", "Manual"))
-    # A common test hash for Android malware debug
     threats.add(("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8", "Orion-Test-Virus", "Manual"))
 
     # Compile List
@@ -64,7 +77,7 @@ def fetch_and_parse():
             "source": src
         })
     
-    print(f"✅ Compiled {len(final_list)} signatures.")
+    print(f"✅ Compiled {len(final_list)} total signatures.")
     
     with open(OUTPUT_FILE, "w") as f:
         json.dump(final_list, f)
