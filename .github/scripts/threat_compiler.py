@@ -44,9 +44,10 @@ def fetch_and_parse():
             # PARSE THE LINES
             if decoded_lines:
                 # Filter out comments and empty lines
-                rows = [line for line in decoded_lines if line.strip() and not line.startswith('#')]
+                rows = [line.strip() for line in decoded_lines if line.strip() and not line.startswith('#')]
                 
-                reader = csv.reader(rows)
+                # skipinitialspace=True helps with "value", "value" formats
+                reader = csv.reader(rows, skipinitialspace=True)
                 count = 0
                 seen_types = set()
                 
@@ -56,31 +57,32 @@ def fetch_and_parse():
                 for row in reader:
                     if len(row) < 9: continue
                     
-                    sha256 = row[1]
-                    filename = row[5].lower()
-                    file_type = row[6].lower()
-                    mime = row[7].lower()
-                    signature = row[8].lower()
+                    # CLEANUP: Crucial step - remove quotes that wrap the values
+                    sha256 = row[1].replace('"', '').strip()
+                    filename = row[5].replace('"', '').strip().lower()
+                    file_type = row[6].replace('"', '').strip().lower()
+                    mime = row[7].replace('"', '').strip().lower()
                     
-                    # Debug: Log first few types found
-                    if len(seen_types) < 5:
+                    # Debug: Log first few unique types found (cleaned)
+                    if len(seen_types) < 8:
                         seen_types.add(file_type)
 
                     # Enhanced Filter for Android/APK
+                    # We check multiple fields because malware often hides its true type
                     is_android = (
-                        'apk' in file_type or 
-                        'android' in signature or 
+                        file_type == 'apk' or 
                         'android' in mime or
                         filename.endswith('.apk')
                     )
                     
                     if is_android and sha256 and len(sha256) == 64:
                         # Normalize signature name
-                        name = row[8] if row[8] and row[8] != "n/a" else "Android.Malware.Generic"
+                        final_name = row[8].replace('"', '').strip()
+                        name = final_name if final_name and final_name != "n/a" else "Android.Malware.Generic"
                         threats.add((sha256, name, "MalwareBazaar"))
                         count += 1
                 
-                print(f"   ℹ️  Sample file types found: {list(seen_types)}")        
+                print(f"   ℹ️  File types seen in dump: {list(seen_types)}")        
                 print(f"   ✅ Parsed {count} Android threats from CSV")
             else:
                 print("   ⚠️ No readable content found in response.")
