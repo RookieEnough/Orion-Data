@@ -7201,5 +7201,34 @@
       "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/main/assets/docs/lyricsscrn.png"
     ],
     "releaseKeyword": "universal"
+  },
+  {
+    "id": "kreate",
+    "name": "Kreate",
+    "description": "Kreate is a multilingual YouTube Music frontend for Android, built for speed and customization. 🎵 Play music online or offline with caching and downloads 🎨 Switch between RiMusic and ViMusic styles, customize themes, and enjoy audio visualizers 📊 Track listening stats, manage playlists, and share with friends 📺 Works with Android Auto, Android TV, and supports YouTube videos ⚙️ Includes lyrics editing/translation, sleep timer, widgets, and auto‑update.",
+    "icon": "https://f-droid.org/repo/me.knighthat.kreate/en-US/icon_Cda6Z-jISXHZzgFgFuRKUauWI2ohdHXgux_5hNU6lG4=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/knighthat/Kreate",
+    "githubRepo": "knighthat/Kreate",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.knighthat.kreate",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "knighthat",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/knighthat/Kreate/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/knighthat/Kreate/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/knighthat/Kreate/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/knighthat/Kreate/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/knighthat/Kreate/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/knighthat/Kreate/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/knighthat/Kreate/main/fastlane/metadata/android/en-US/images/phoneScreenshots/9.png"
+    ],
+    "releaseKeyword": "Kreate"
   }
 ]
