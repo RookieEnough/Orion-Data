@@ -7124,5 +7124,32 @@
       "https://image2url.com/r2/default/files/1769282380259-b47a6c77-904c-49f9-b0b4-ebf4af367215.png"
     ],
     "releaseKeyword": "AxManager"
+  },
+  {
+    "id": "privacium",
+    "name": "Privacium",
+    "description": "A simple app for discovering tools that respects your privacy.",
+    "icon": "https://raw.githubusercontent.com/kaleedtc/Privacium/refs/heads/main/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/kaleedtc/Privacium",
+    "githubRepo": "kaleedtc/Privacium",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.kaleedtc.privacium",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "kaleedtc",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/kaleedtc/Privacium/refs/heads/main/assets/screenshots/privacium_dark_2.png",
+      "https://raw.githubusercontent.com/kaleedtc/Privacium/refs/heads/main/assets/screenshots/privacium_dark_mode.png",
+      "https://raw.githubusercontent.com/kaleedtc/Privacium/refs/heads/main/assets/screenshots/privacium_light_1.png",
+      "https://raw.githubusercontent.com/kaleedtc/Privacium/refs/heads/main/assets/screenshots/privacium_light_2.png",
+      "https://raw.githubusercontent.com/kaleedtc/Privacium/refs/heads/main/assets/screenshots/privacium_light_mode.png"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
