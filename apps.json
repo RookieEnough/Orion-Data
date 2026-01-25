@@ -7311,5 +7311,33 @@
       "https://image2url.com/r2/default/files/1769280264347-cb1ae81a-68f3-4d74-9bba-cc6bdb8867a6.jpg"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "varisankya",
+    "name": "Varisankya",
+    "description": "Varisankya is a modern, high-performance Android application designed to help users track and manage their recurring subscriptions with ease. Built with a focus on the Material 3 Expressive (M3E) design language, it offers a tactile, personalized, and visually stunning experience.",
+    "icon": "https://image2url.com/r2/default/images/1769279770153-975838d0-fbd1-4f39-8edb-843157f23087.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/aarshps/varisankya-android",
+    "githubRepo": "aarshps/varisankya-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.hora.varisankya",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "aarshps",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769279813854-703ade7c-52b7-40b6-805f-58f90ed7af97.jpg",
+      "https://image2url.com/r2/default/files/1769279828681-de317578-0511-406a-a888-c69af936b759.jpg",
+      "https://image2url.com/r2/default/files/1769279840770-76d08c5e-76ae-451a-99e4-beb9ccb6ac0f.jpg",
+      "https://image2url.com/r2/default/files/1769279865987-42b73019-0bcd-4e36-953c-7e57a9bad8d4.jpg",
+      "https://image2url.com/r2/default/files/1769279878362-07e4797f-f84b-4e16-8b27-952230a60c80.jpg",
+      "https://image2url.com/r2/default/files/1769279889346-1416ef2a-012e-44fb-857c-8f48c4229ad0.jpg"
+    ],
+    "releaseKeyword": "varisankya"
   }
 ]
