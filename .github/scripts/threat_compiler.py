@@ -2,26 +2,16 @@
 import json
 import requests
 import re
-import time
-
-OUTPUT_FILE = "sentinel.json"
+import os
 
 # --- DATA SOURCES ---
-
-# 1. ThreatFox (Abuse.ch) - High Confidence Recent IOCs
 THREATFOX_URLS = ["https://threatfox.abuse.ch/export/csv/recent/"]
-
-# 2. MalwareBazaar (Abuse.ch) - Recent Verified Malware
 MALWARE_BAZAAR_URLS = ["https://bazaar.abuse.ch/export/txt/sha256/recent/"]
-
-# 3. Malware Hash Database (Aaryan Londhe) - Massive Historical Archive
-# We iterate through files 1 to 6.
 AARYAN_BASE_URL = "https://raw.githubusercontent.com/aaryanrlondhe/Malware-Hash-Database/main/SHA256/sha256_hashes_{}.txt"
 
 # Regex for SHA256 (64 hex chars)
 HASH_PATTERN = re.compile(r'\b[a-fA-F0-9]{64}\b')
 
-# Browser Headers
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "text/plain,text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
@@ -48,85 +38,91 @@ def fetch_simple_source(name, urls):
 def fetch_archive_source():
     print(f"   🔎 Fetching Malware Hash Archive (1-6)...")
     all_hashes = set()
-    
-    # Loop through files 1 to 6
     for i in range(1, 7):
         url = AARYAN_BASE_URL.format(i)
         try:
             print(f"      ...Downloading Part {i}")
             r = requests.get(url, headers=HEADERS, timeout=60)
             if r.status_code == 200:
-                # Optimized line-by-line processing for large files
                 count = 0
                 for line in r.iter_lines(decode_unicode=True):
                     if line:
                         clean = line.strip().lower()
-                        # Quick validation length check before regex
                         if len(clean) == 64:
                             all_hashes.add(clean)
                             count += 1
-                print(f"      ✅ Part {i}: {count} signatures added.")
+                print(f"      ✅ Part {i}: {count} signatures.")
             else:
                 print(f"      ⚠️ Part {i} Missing ({r.status_code})")
         except Exception as e:
             print(f"      ❌ Part {i} Failed: {str(e)[:50]}")
-            
     return all_hashes
 
 def run():
-    print("🛡️ Orion Sentinel Compiler")
+    print("🛡️ Orion Sentinel Compiler (v13.0 - Atomic Sharding)")
     
-    final_list = []
-    unique_hashes = set()
-
-    # 1. Fetch Live Feeds
+    # 1. Fetch
     tf_hashes = fetch_simple_source("ThreatFox", THREATFOX_URLS)
     mb_hashes = fetch_simple_source("MalwareBazaar", MALWARE_BAZAAR_URLS)
-    
-    # 2. Fetch Deep Archive
     archive_hashes = fetch_archive_source()
 
-    # 3. Compile
-    # Priority: ThreatFox > Bazaar > Archive
-    all_sets = [
-        (tf_hashes, "Recent Threat (ThreatFox)"),
-        (mb_hashes, "Confirmed Malware (Bazaar)"),
-        (archive_hashes, "Known Virus (Archive)")
-    ]
+    # 2. Compile into Buckets (0-9, a-f)
+    print("\n   ⚙️  Sharding Database into 16 buckets...")
+    
+    # Initialize 16 buckets
+    buckets = {hex(i)[2:]: [] for i in range(16)}
+    
+    processed_hashes = set()
 
-    print("\n   ⚙️  Compiling Database...")
-    for hash_set, label in all_sets:
+    # Priority Helper
+    def add_to_bucket(hash_set, label):
         for h in hash_set:
-            if h not in unique_hashes:
-                # Optimization: For the massive archive, we just store the hash.
-                # The label is applied generically during scan to save JSON size.
-                entry = {"hash": h.lower()}
-                # Only add name if it's a specific high-priority source to save space
-                if "Archive" not in label:
-                    entry["name"] = label
+            if h not in processed_hashes:
+                # Determine bucket char (first char of hash)
+                bucket_char = h[0]
                 
-                final_list.append(entry)
-                unique_hashes.add(h)
+                entry = {"h": h} # Minimal key 'h' for hash
+                if "Archive" not in label:
+                    entry["n"] = label # Minimal key 'n' for name
+                
+                buckets[bucket_char].append(entry)
+                processed_hashes.add(h)
 
-    # Manual Keys (Test Viruses)
+    # Process in Priority Order
+    add_to_bucket(tf_hashes, "ThreatFox")
+    add_to_bucket(mb_hashes, "MalwareBazaar")
+    add_to_bucket(archive_hashes, "Archive")
+
+    # Manual Keys
     manual = [
-        ("275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f", "EICAR-Test-Signature"),
-        ("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8", "Orion-Test-Virus"),
+        ("275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f", "EICAR-Test"),
+        ("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8", "Orion-Test"),
     ]
     for h, n in manual:
-        if h not in unique_hashes:
-            final_list.append({"hash": h, "name": n})
-            unique_hashes.add(h)
+        if h not in processed_hashes:
+            bucket_char = h[0]
+            buckets[bucket_char].append({"h": h, "n": n})
+            processed_hashes.add(h)
 
-    # 4. Sort (Crucial for GZIP Compression efficiency)
-    print("   ✨ Sorting Hashes...")
-    final_list.sort(key=lambda x: x['hash'])
+    # 3. Write Shards
+    total_count = 0
+    if not os.path.exists("sentinel"):
+        os.makedirs("sentinel")
 
-    print(f"\n📦 Total Unique Signatures: {len(final_list)}")
-    
-    # Save compacted JSON
-    with open(OUTPUT_FILE, "w") as f:
-        json.dump(final_list, f, separators=(',', ':'))
+    print("\n   💾 Saving Shards...")
+    for char, data in buckets.items():
+        # Sort for better GZIP compression downstream
+        data.sort(key=lambda x: x['h'])
+        
+        filename = f"sentinel/shard_{char}.json"
+        with open(filename, "w") as f:
+            # Separators remove whitespace for smaller size
+            json.dump(data, f, separators=(',', ':'))
+        
+        print(f"      📦 {filename}: {len(data)} entries")
+        total_count += len(data)
+
+    print(f"\n📦 Total Unique Signatures: {total_count}")
 
 if __name__ == "__main__":
     run()
