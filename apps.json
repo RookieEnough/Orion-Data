@@ -7176,5 +7176,30 @@
       "https://raw.githubusercontent.com/nonbili/Nora/refs/heads/main/metadata/en-US/images/phoneScreenshots/3.jpg"
     ],
     "releaseKeyword": "release"
+  },
+  {
+    "id": "bloomee",
+    "name": "Bloomee",
+    "description": "🌸Bloomee is a cross-platform music app designed to bring you ad-free tunes from various sources. 🌼🎵",
+    "icon": "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/refs/heads/main/assets/icons/BloomeeTunes4ZoomedOut2.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/HemantKArya/BloomeeTunes",
+    "githubRepo": "HemantKArya/BloomeeTunes",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "ls.bloomee.musicplayer",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "HemantKArya",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/main/assets/docs/banner2BloomeScrnShot.png",
+      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/main/assets/docs/bloomeetunes_new_banner.png",
+      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/main/assets/docs/lyricsscrn.png"
+    ],
+    "releaseKeyword": "universal"
   }
 ]
