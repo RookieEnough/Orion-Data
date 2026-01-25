@@ -7339,5 +7339,33 @@
       "https://image2url.com/r2/default/files/1769279889346-1416ef2a-012e-44fb-857c-8f48c4229ad0.jpg"
     ],
     "releaseKeyword": "varisankya"
+  },
+  {
+    "id": "typeassist",
+    "name": "TypeAssist",
+    "description": "TypeAssist is a powerful Android Accessibility Service that acts as an intelligent layer over your existing keyboard. It integrates cutting-edge AI (Google Gemini, Cloudflare Workers AI) and a suite of offline utility tools directly into any text input field on your device.\n\nNo more switching apps to fix grammar, translate text, or calculate math. TypeAssist is always just a trigger away.",
+    "icon": "https://raw.githubusercontent.com/estiaksoyeb/TypeAssist/master/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/estiaksoyeb/TypeAssist",
+    "githubRepo": "estiaksoyeb/TypeAssist",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.typeassist.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "estiaksoyeb",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/estiaksoyeb/TypeAssist/master/screenshots/1.png",
+      "https://raw.githubusercontent.com/estiaksoyeb/TypeAssist/master/screenshots/2.png",
+      "https://raw.githubusercontent.com/estiaksoyeb/TypeAssist/master/screenshots/3.png",
+      "https://raw.githubusercontent.com/estiaksoyeb/TypeAssist/master/screenshots/4.png",
+      "https://raw.githubusercontent.com/estiaksoyeb/TypeAssist/master/screenshots/5.png",
+      "https://raw.githubusercontent.com/estiaksoyeb/TypeAssist/master/screenshots/6.png"
+    ],
+    "releaseKeyword": "TypeAssist"
   }
 ]
