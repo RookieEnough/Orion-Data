@@ -7589,5 +7589,33 @@
       "https://play-lh.googleusercontent.com/Nn1WyePD1LuRzNWy2hj-1RChOQ-N23MejQX2Y96ggrffeXYUIl6HtmR-skKbKeOUDmc=w526-h296-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "flicky",
+    "name": "Flicky",
+    "description": " FDroid Client for mainly wide screen / TV friendly. ",
+    "icon": "https://raw.githubusercontent.com/mlm-games/flicky/kotlin/assets/banner.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/mlm-games/flicky",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "mlm-games",
+    "officialSite": "https://github.com/mlm-games/flicky",
+    "screenshots": [
+      "https://f-droid.org/repo/app.flicky/en-US/tvScreenshots/Screenshot_20250816_134815.png",
+      "https://f-droid.org/repo/app.flicky/en-US/tvScreenshots/Screenshot_20250816_134943.png",
+      "https://f-droid.org/repo/app.flicky/en-US/tvScreenshots/Screenshot_20250816_135001.png",
+      "https://f-droid.org/repo/app.flicky/en-US/tvScreenshots/Screenshot_20250816_135021.png",
+      "https://f-droid.org/repo/app.flicky/en-US/tvScreenshots/Screenshot_20250816_135029.png",
+      "https://f-droid.org/repo/app.flicky/en-US/tvScreenshots/Screenshot_20250816_135041.png",
+      "https://f-droid.org/repo/app.flicky/en-US/tvScreenshots/Screenshot_20250816_135316.png"
+    ]
   }
 ]
