@@ -7503,5 +7503,35 @@
       "https://raw.githubusercontent.com/PersonX-46/CryptX/refs/heads/main/screenshots/HomeScreen.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "key-mapper",
+    "name": "Key Mapper",
+    "description": "Make custom macros on your keyboard or gamepad, make on-screen buttons in any app, and unlock new functionality from your volume buttons! ✨",
+    "icon": "https://raw.githubusercontent.com/keymapperorg/KeyMapper/refs/heads/master/app/src/main/ic_launcher-web.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/keymapperorg/KeyMapper",
+    "githubRepo": "keymapperorg/KeyMapper",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.sds100.keymapper",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "keymapperorg",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/5.png",
+      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/6.png",
+      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/7.png",
+      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/8.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
