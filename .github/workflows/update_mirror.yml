@@ -45,31 +45,53 @@ jobs:
           git config --global user.name "Orion Bot"
           git config --global user.email "bot@orion.store"
           
-          echo "📦 Stashing data..."
-          # 1. Stash generated data OUTSIDE the git workspace (../) to survive 'git clean'
+          echo "📦 Stashing new mirror data..."
+          # 1. Stash generated data OUTSIDE the git workspace
           mkdir -p ../temp_ghost
           cp mirror.json ../temp_ghost/ 2>/dev/null || echo "⚠️ mirror.json missing"
           cp updates.bin ../temp_ghost/ 2>/dev/null || echo "⚠️ updates.bin missing"
           cp -r mirrors ../temp_ghost/ 2>/dev/null || echo "⚠️ mirrors/ missing"
           
-          # 2. Switch to Orphan Branch
-          # This disconnects from main history
-          git checkout --orphan data
+          echo "🛡️ Checking for existing Sentinel data..."
+          # 2. Fetch existing data branch to preserve 'sentinel' folder
+          # We use || true to prevent failure if the branch doesn't exist yet
+          git fetch origin data:data || echo "Data branch not found on remote."
           
-          # 3. Nuke everything (Clean State)
+          # Check if data branch exists locally now
+          if git show-ref --verify --quiet refs/heads/data; then
+            git checkout data
+            if [ -d "sentinel" ]; then
+               echo "✅ Preserving Sentinel directory..."
+               cp -r sentinel ../temp_ghost/
+            else
+               echo "ℹ️ No Sentinel directory found to preserve."
+            fi
+          fi
+          
+          # 3. Create fresh orphan state (Ghost Protocol)
+          # We use a temp branch name to ensure clean slate
+          git checkout --orphan ghost_data
+          
+          # 4. Nuke everything
           git rm -rf .
           git clean -fdx
           
+          # 5. Restore All Data
           echo "♻️ Restoring data..."
-          # 4. Restore Data from outside stash
           cp ../temp_ghost/mirror.json . 2>/dev/null || :
           cp ../temp_ghost/updates.bin . 2>/dev/null || :
           cp -r ../temp_ghost/mirrors . 2>/dev/null || :
+          
+          if [ -d "../temp_ghost/sentinel" ]; then
+             cp -r ../temp_ghost/sentinel .
+          fi
+          
           rm -rf ../temp_ghost
           
-          # 5. Commit & Force Push
-          git add mirror.json updates.bin mirrors/
+          # 6. Commit & Force Push
+          git add .
+          git commit -m "Update Data (Mirror + Sentinel) [skip ci]"
           
-          # Only commit if there are changes
-          git commit -m "Update Mirror Data (Ghost Protocol) [skip ci]"
+          # Rename to data and push
+          git branch -M data
           git push origin data --force
