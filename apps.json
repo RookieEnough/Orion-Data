@@ -7561,5 +7561,33 @@
       "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/6.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "easynotes",
+    "name": "EasyNotes",
+    "description": "EasyNotes: Jetpack Compose MVVM for seamless note-taking. Effortless creation, editing, and organization.",
+    "icon": "https://play-lh.googleusercontent.com/Egwg5r3LNskYzcGYtycl0W0D8aqoeoKwjph6JvJ4D6XzkegVvYrhP-p0mMS9n2mI1w=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Kin69/EasyNotes",
+    "githubRepo": "Kin69/EasyNotes",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.easyapps.easynotes",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Kin69",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/yglT0Aew5iYlBppW4vpGYqW_Rm88L3OPjTo3QhnB9eeNOuboNKXtZi9dSLrMtjdKHA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/lfQLWkb-QCTei5wy1-BospktBbH_qQN5GQ71msNqxjlbxTpe9VT3lLXFaVlBTPGicLA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/Hm4C1bKF_r-L9FmJsiZglU3oDMxj-bKxP0Hvta-0CBOtpMLcYQpg9yBx-55ESHvFhK1r=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/fIzUoqjOx1LRrjjy06ZZHqslXSFJOfaU-mOJOUAIwfDVQIdOyZy5pHArRgZT_VxC3mU=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/yfP4cBeE1rNX28OmgbVZo7OeHJklLzMGvLWEWKWtOTn7vl8zFQayRZFWuRG22bsO6XQO=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/Nn1WyePD1LuRzNWy2hj-1RChOQ-N23MejQX2Y96ggrffeXYUIl6HtmR-skKbKeOUDmc=w526-h296-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
