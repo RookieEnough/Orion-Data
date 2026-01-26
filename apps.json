@@ -7723,5 +7723,32 @@
       "https://image2url.com/r2/default/files/1769448736775-5b73f1c5-0834-42dc-90f1-9866a7aaae7e.jpg"
     ],
     "releaseKeyword": "comine"
+  },
+  {
+    "id": "scanly",
+    "name": "Scanly",
+    "description": "AI-powered scanner that extracts text from images and PDFs, works offline, and offers smart QR/Barcode actions — all in a smooth Material 3 design.",
+    "icon": "https://image2url.com/r2/default/files/1769451632532-5aed7299-e2f1-48d6-8a7c-903c09140ae2.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Azyrn/Scanly",
+    "githubRepo": "Azyrn/Scanly",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.skeler.scanely",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Azyrn",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769451839711-78e6dd09-6d7b-43be-8737-97f855d64090.jpg",
+      "https://image2url.com/r2/default/files/1769451849767-8538ee8c-4fa2-4bd2-b8bf-b6d3d6713e18.jpg",
+      "https://image2url.com/r2/default/files/1769451859587-5e1a78f6-b572-414c-b8dc-2bd4c52a11d0.jpg",
+      "https://image2url.com/r2/default/files/1769451869923-884c052d-8a0a-43c6-be72-788af1f634f3.jpg",
+      "https://image2url.com/r2/default/files/1769451897143-90950a6f-54fa-4b05-9405-fc9741b87e3a.jpg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
