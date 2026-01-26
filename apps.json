@@ -7750,5 +7750,31 @@
       "https://image2url.com/r2/default/files/1769451897143-90950a6f-54fa-4b05-9405-fc9741b87e3a.jpg"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "sdk-monitor",
+    "name": "SDK Monitor",
+    "description": "SDK Monitor shows you which Android API levels your installed apps are targeting. Since 2017 Google requires apps to target recent API levels for better security and privacy, this tool helps you see how up-to-date your apps really are.",
+    "icon": "https://image2url.com/r2/default/files/1769450382007-50d562b5-1785-43ff-a4da-2af402a53cc7.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/bernaferrari/SDKMonitor",
+    "githubRepo": "bernaferrari/SDKMonitor",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.bernaferrari.sdkmonitor",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "bernaferrari",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/bernaferrari/SDKMonitor/refs/heads/master/assets/main.png",
+      "https://raw.githubusercontent.com/bernaferrari/SDKMonitor/refs/heads/master/assets/logs.png",
+      "https://raw.githubusercontent.com/bernaferrari/SDKMonitor/refs/heads/master/assets/details.png",
+      "https://raw.githubusercontent.com/bernaferrari/SDKMonitor/refs/heads/master/assets/settings.png"
+    ],
+    "releaseKeyword": "sdk"
   }
 ]
