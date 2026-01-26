@@ -7828,5 +7828,33 @@
       "https://raw.githubusercontent.com/simple-login/Simple-Login-Android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "hydrotracker",
+    "name": "HydroTracker",
+    "description": "A modern, intelligent water intake tracking application-No Ads, No Subscription, No Nonsense",
+    "icon": "https://raw.githubusercontent.com/Econ01/HydroTracker/refs/heads/master/screenshots/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Econ01/HydroTracker",
+    "githubRepo": "Econ01/HydroTracker",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.cemcakmak.hydrotracker",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Econ01",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Econ01/HydroTracker/refs/heads/master/screenshots/onboarding.png",
+      "https://raw.githubusercontent.com/Econ01/HydroTracker/refs/heads/master/screenshots/home-screen.png",
+      "https://raw.githubusercontent.com/Econ01/HydroTracker/refs/heads/master/screenshots/notification.png",
+      "https://raw.githubusercontent.com/Econ01/HydroTracker/refs/heads/master/screenshots/analytics.png",
+      "https://raw.githubusercontent.com/Econ01/HydroTracker/refs/heads/master/screenshots/dark.png",
+      "https://raw.githubusercontent.com/Econ01/HydroTracker/refs/heads/master/screenshots/add-water.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
