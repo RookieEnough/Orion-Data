@@ -7801,5 +7801,32 @@
       "https://image2url.com/r2/default/files/1769450143983-f7f08554-52f0-40e2-ad95-1c5970382a6c.png"
     ],
     "releaseKeyword": "volume"
+  },
+  {
+    "id": "simplelogin",
+    "name": "SimpleLogin",
+    "description": "SimpleLogin is an open source solution to protect your email inbox. This repository contains source code of SimpleLogin Android client.",
+    "icon": "https://raw.githubusercontent.com/simple-login/Simple-Login-Android/refs/heads/master/SimpleLogin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/simple-login/Simple-Login-Android",
+    "githubRepo": "simple-login/Simple-Login-Android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.simplelogin.android.fdroid",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "simple-login",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/simple-login/Simple-Login-Android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/simple-login/Simple-Login-Android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/simple-login/Simple-Login-Android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/simple-login/Simple-Login-Android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/simple-login/Simple-Login-Android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
