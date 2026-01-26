@@ -7533,5 +7533,33 @@
       "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "maid",
+    "name": "maid",
+    "description": "Maid is a cross-platform Flutter app for interfacing with GGUF / llama.cpp models locally, and with Ollama and OpenAI models remotely. It allows you to chat with AI models privately on your device. 🤖",
+    "icon": "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/refs/heads/main/images/logo-combined.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Mobile-Artificial-Intelligence/maid",
+    "githubRepo": "Mobile-Artificial-Intelligence/maid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.danemadsen.maid",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Mobile-Artificial-Intelligence",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/1.jpg",
+      "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/2.jpg",
+      "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/3.jpg",
+      "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/4.jpg",
+      "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/5.jpg",
+      "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/6.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
