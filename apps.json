@@ -7617,5 +7617,30 @@
       "https://f-droid.org/repo/app.flicky/en-US/tvScreenshots/Screenshot_20250816_135041.png",
       "https://f-droid.org/repo/app.flicky/en-US/tvScreenshots/Screenshot_20250816_135316.png"
     ]
+  },
+  {
+    "id": "whatsappcleaner",
+    "name": "WhatsAppCleaner",
+    "description": "Cleaner for WhatsApp - Clean WhatsApp's Redundant Media Files from Storage.",
+    "icon": "https://raw.githubusercontent.com/VishnuSanal/WhatsAppCleaner/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/VishnuSanal/WhatsAppCleaner",
+    "githubRepo": "VishnuSanal/WhatsAppCleaner",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.vishnu.whatsappcleaner",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "VishnuSanal",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/VishnuSanal/WhatsAppCleaner/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/VishnuSanal/WhatsAppCleaner/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/VishnuSanal/WhatsAppCleaner/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "whatsapp-cleaner"
   }
 ]
