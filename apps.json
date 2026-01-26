@@ -7856,5 +7856,36 @@
       "https://raw.githubusercontent.com/Econ01/HydroTracker/refs/heads/master/screenshots/add-water.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "newpipe",
+    "name": "NewPipe",
+    "description": "A libre lightweight streaming front-end for Android. Supported services:\n- YouTube and YouTube Music\n- PeerTube and all its instances\n- Bandcamp\n- SoundCloud\n- media.ccc.de",
+    "icon": "https://newpipe.net/img/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/TeamNewPipe/NewPipe",
+    "githubRepo": "TeamNewPipe/NewPipe",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.schabi.newpipe",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "TeamNewPipe",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/00.png",
+      "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+      "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+      "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png",
+      "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png",
+      "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/07.png",
+      "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/08.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
