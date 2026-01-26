@@ -7475,5 +7475,33 @@
       "https://raw.githubusercontent.com/deckerst/aves_extra/main/screenshots/play/en/5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "cryptx",
+    "name": "CryptX",
+    "description": "✨ A lightweight personal Android toolkit for experimenting with cryptography, steganography, and hashing — all built with curiosity & Jetpack Compose!",
+    "icon": "https://raw.githubusercontent.com/PersonX-46/CryptX/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/PersonX-46/CryptX",
+    "githubRepo": "PersonX-46/CryptX",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.personx.cryptx",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "PersonX-46",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/PersonX-46/CryptX/refs/heads/main/screenshots/DecryptScreen.png",
+      "https://raw.githubusercontent.com/PersonX-46/CryptX/refs/heads/main/screenshots/EncryptScreen.png",
+      "https://raw.githubusercontent.com/PersonX-46/CryptX/refs/heads/main/screenshots/FileSteg.png",
+      "https://raw.githubusercontent.com/PersonX-46/CryptX/refs/heads/main/screenshots/HashDetector.png",
+      "https://raw.githubusercontent.com/PersonX-46/CryptX/refs/heads/main/screenshots/HashGenerator.png",
+      "https://raw.githubusercontent.com/PersonX-46/CryptX/refs/heads/main/screenshots/HomeScreen.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
