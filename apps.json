@@ -7697,5 +7697,31 @@
       "https://raw.githubusercontent.com/LinkoraApp/Linkora/refs/heads/master/assets/m8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "comine",
+    "name": "Comine",
+    "description": "A powerful, open-source cross-platform downloader for media files and videos. Perfect for content creators and enthusiasts needing reliable, ad-free downloads without browser hassles. It simplifies grabbing content from sites like YouTube, Bilibili, and more. ",
+    "icon": "https://image2url.com/r2/default/files/1769448471542-b553e28c-f65a-4426-bb62-6807b33f56f6.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nichind/comine",
+    "githubRepo": "nichind/comine",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nichind.comine",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nichind",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769448572278-bc68701f-0d33-41a2-b1d7-2f73c7b585f0.png",
+      "https://image2url.com/r2/default/files/1769448621815-8aa6cb43-1a55-43eb-8c8e-fbdab2474aea.jpg",
+      "https://image2url.com/r2/default/files/1769448674718-f0f74ae9-8465-4d3a-9efc-07199fb587ba.jpg",
+      "https://image2url.com/r2/default/files/1769448736775-5b73f1c5-0834-42dc-90f1-9866a7aaae7e.jpg"
+    ],
+    "releaseKeyword": "comine"
   }
 ]
