@@ -7448,5 +7448,32 @@
       "https://raw.githubusercontent.com/koiverse/ArchiveTune/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "aves",
+    "name": "Aves",
+    "description": "Aves is a gallery and metadata explorer app, built for Android with Flutter. Aves can handle all sorts of images and videos, including your typical JPEGs and MP4s, but also more exotic things like multi-page TIFFs, SVGs, old AVIs and more! 📷",
+    "icon": "https://raw.githubusercontent.com/deckerst/aves/develop/aves_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/deckerst/aves",
+    "githubRepo": "deckerst/aves",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "deckers.thibault.aves",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "deckerst",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/deckerst/aves_extra/main/screenshots/play/en/1.png",
+      "https://raw.githubusercontent.com/deckerst/aves_extra/main/screenshots/play/en/2.png",
+      "https://raw.githubusercontent.com/deckerst/aves_extra/main/screenshots/play/en/3.png",
+      "https://raw.githubusercontent.com/deckerst/aves_extra/main/screenshots/play/en/4.png",
+      "https://raw.githubusercontent.com/deckerst/aves_extra/main/screenshots/play/en/5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
