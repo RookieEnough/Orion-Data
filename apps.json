@@ -7776,5 +7776,30 @@
       "https://raw.githubusercontent.com/bernaferrari/SDKMonitor/refs/heads/master/assets/settings.png"
     ],
     "releaseKeyword": "sdk"
+  },
+  {
+    "id": "volume-manager",
+    "name": "Volume Manager",
+    "description": "Control each app's volume independently. Shizuku is used to access privileged APIs.",
+    "icon": "https://image2url.com/r2/default/files/1769450010805-9f18aac9-53d8-44c1-a4d4-33074c79045e.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/yume-chan/VolumeManager",
+    "githubRepo": "yume-chan/VolumeManager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "moe.chensi.volume",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "yume-chan",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/yume-chan/VolumeManager/refs/heads/main/screenshot.png",
+      "https://image2url.com/r2/default/files/1769450124380-e57bf0c2-4176-417e-a257-9f272d424e04.png",
+      "https://image2url.com/r2/default/files/1769450143983-f7f08554-52f0-40e2-ad95-1c5970382a6c.png"
+    ],
+    "releaseKeyword": "volume"
   }
 ]
