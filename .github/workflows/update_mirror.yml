@@ -52,24 +52,41 @@ jobs:
           cp updates.bin ../temp_ghost/ 2>/dev/null || echo "⚠️ updates.bin missing"
           cp -r mirrors ../temp_ghost/ 2>/dev/null || echo "⚠️ mirrors/ missing"
           
-          echo "🛡️ Checking for existing Sentinel data..."
+          # CRITICAL FIX: Clean generated files from working tree to prevent git checkout conflict
+          echo "🧹 Cleaning workspace before checkout..."
+          rm -f mirror.json updates.bin
+          rm -rf mirrors
+
+          echo "🛡️ Fetching existing Data branch..."
           # 2. Fetch existing data branch to preserve 'sentinel' folder
-          # We use || true to prevent failure if the branch doesn't exist yet
-          git fetch origin data:data || echo "Data branch not found on remote."
+          # We perform a full fetch to ensure we can see the branch
+          git fetch origin data:data || echo "Remote data branch not found."
           
           # Check if data branch exists locally now
           if git show-ref --verify --quiet refs/heads/data; then
+            echo "✅ Data branch found. Checking for Sentinel..."
+            
+            # Checkout the data branch to a temporary worktree/state to grab files
+            # Note: We don't switch fully because we want to stay on main for the 'checkout --orphan' step later
+            # Instead, we just checkout the specific folder if possible, or checkout branch then switch back
+            
             git checkout data
+            
             if [ -d "sentinel" ]; then
-               echo "✅ Preserving Sentinel directory..."
+               echo "✅ Sentinel directory found! Backing up..."
                cp -r sentinel ../temp_ghost/
             else
-               echo "ℹ️ No Sentinel directory found to preserve."
+               echo "ℹ️ No Sentinel directory found in existing data branch."
             fi
+            
+            # Switch back to main state or just proceed to orphan
+          else
+            echo "ℹ️ Data branch does not exist yet. Skipping backup."
           fi
           
           # 3. Create fresh orphan state (Ghost Protocol)
           # We use a temp branch name to ensure clean slate
+          echo "👻 Initiating Ghost Protocol (Wipe History)..."
           git checkout --orphan ghost_data
           
           # 4. Nuke everything
@@ -83,6 +100,7 @@ jobs:
           cp -r ../temp_ghost/mirrors . 2>/dev/null || :
           
           if [ -d "../temp_ghost/sentinel" ]; then
+             echo "🛡️ Restoring Sentinel Data..."
              cp -r ../temp_ghost/sentinel .
           fi
           
