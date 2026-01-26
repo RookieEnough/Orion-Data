@@ -7667,5 +7667,35 @@
       "https://image2url.com/r2/default/files/1769448146968-cee9ac45-6b0a-4d28-b063-d6c5dddb3227.png"
     ],
     "releaseKeyword": "battarang"
+  },
+  {
+    "id": "linkora",
+    "name": "Linkora",
+    "description": "Save, organize, and sync your links between Android and desktop. Whether you're quickly bookmarking something or managing a structured folder hierarchy with tags, Linkora handles it all with optional self-hosted sync.",
+    "icon": "https://f-droid.org/repo/com.sakethh.linkora/en-US/icon_OSuFIQpltdjDLo803DuSEeM7-snUxkTpZFSHwi042i0=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/LinkoraApp/Linkora",
+    "githubRepo": "LinkoraApp/Linkora",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.sakethh.linkora",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Saketh Pathike",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/LinkoraApp/Linkora/refs/heads/master/assets/m1.png",
+      "https://raw.githubusercontent.com/LinkoraApp/Linkora/refs/heads/master/assets/m2.png",
+      "https://raw.githubusercontent.com/LinkoraApp/Linkora/refs/heads/master/assets/m3.png",
+      "https://raw.githubusercontent.com/LinkoraApp/Linkora/refs/heads/master/assets/m4.png",
+      "https://raw.githubusercontent.com/LinkoraApp/Linkora/refs/heads/master/assets/m5.png",
+      "https://raw.githubusercontent.com/LinkoraApp/Linkora/refs/heads/master/assets/m6.png",
+      "https://raw.githubusercontent.com/LinkoraApp/Linkora/refs/heads/master/assets/m7.png",
+      "https://raw.githubusercontent.com/LinkoraApp/Linkora/refs/heads/master/assets/m8.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
