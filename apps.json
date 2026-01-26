@@ -7642,5 +7642,30 @@
       "https://raw.githubusercontent.com/VishnuSanal/WhatsAppCleaner/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "whatsapp-cleaner"
+  },
+  {
+    "id": "battarang",
+    "name": "Battarang",
+    "description": " 🔔🔋 Sync battery notifications across devices 🔔 Get notified on another device when your android's battery is low or full.",
+    "icon": "https://image2url.com/r2/default/files/1769447971535-732a48ca-2bf4-4375-85b2-96f2bbcd34a8.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ni554n/battarang-notifier-android",
+    "githubRepo": "ni554n/battarang-notifier-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.anissan.battarang",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ni554n",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ni554n/battarang-notifier-android/main/.docs/features.png",
+      "https://image2url.com/r2/default/files/1769448131400-5fd80d41-d935-42ba-b914-6197adc465b2.png",
+      "https://image2url.com/r2/default/files/1769448146968-cee9ac45-6b0a-4d28-b063-d6c5dddb3227.png"
+    ],
+    "releaseKeyword": "battarang"
   }
 ]
