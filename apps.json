@@ -7887,5 +7887,32 @@
       "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/08.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "deepr",
+    "name": "Deepr",
+    "description": "Deepr is a native Android application designed to streamline the management and testing of links. It provides a simple and efficient way to store, organize, and launch links.",
+    "icon": "https://raw.githubusercontent.com/yogeshpaliyal/Deepr/refs/heads/master/app_logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/yogeshpaliyal/Deepr",
+    "githubRepo": "yogeshpaliyal/Deepr",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.yogeshpaliyal.deepr",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Yogesh Paliyal",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/p16IWjNoMQ1nk9-SP4E1kxqF33nHHGlLfRJThhYMQ6zMALZR-YoRCE5ala7JWo3bYpMAJhw8C7UuldAzUfDbdg=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/JTXYvhTZ-S3xGNm6pu5tjaI1nO8ElPjBL8WW71g9wb216Z2bM0vNzvyp2cPLdqPuf92xbAe8rJ-ME_Fgnvev=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/gFK0tQHpb_cQYAjEK0QjmkyOFluDBisFDKY7riSaJqOPzQu6YcjjZlH6tmAhsYjDQOkur_U9n1iGQjdnzKd-=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/ALo-lFtnlu5sA6ZRQUOr_CI2aQy6vT7FSTHuZBZ-PF2NAiaF0ZYDOT6YHlXJYY2M4cZhZ02XH80afr6Iso2evg=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/1O63hnq1bs1Ved-feg0a09493M4z5k7gw-WU8mfDcagMPnlvkpVyGWYeXxXu7Qmz_cpvkjQYLhieio4BCYcm4A=w5120-h2880-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
