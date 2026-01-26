@@ -7422,5 +7422,31 @@
       "https://raw.githubusercontent.com/alexch33/super-video-downloader/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "archivetune",
+    "name": "ArchiveTune",
+    "description": "🎼 The cutest Material 3 Expressive music streaming client for Android, built for performance and extensibility. 🎧",
+    "icon": "https://raw.githubusercontent.com/koiverse/ArchiveTune/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/koiverse/ArchiveTune",
+    "githubRepo": "koiverse/ArchiveTune",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "moe.koiverse.archivetune",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "koiverse",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/koiverse/ArchiveTune/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.jpg",
+      "https://raw.githubusercontent.com/koiverse/ArchiveTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_2.jpg",
+      "https://raw.githubusercontent.com/koiverse/ArchiveTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.jpg",
+      "https://raw.githubusercontent.com/koiverse/ArchiveTune/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
