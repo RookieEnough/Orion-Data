@@ -328,7 +328,7 @@
     "name": "MyFitnessPal Pro",
     "description": "Myfitnesspal makes diet, exercise, and weight loss easy. Never before has progress monitoring been so powerful. Start your health and fitness adventure today! A revolutionary all-in-one health and wellness companion.",
     "icon": "https://play-lh.googleusercontent.com/DtR_W1lA1tKsbrr2DUo3TLNzqi9qRyxPqDuCyJeGLU6OMJKqg7CEqs45btRqvDFNDI3Y",
-    "version": "Latest",
+    "version": "25.47.0",
     "latestVersion": "Latest",
     "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/MyFitnessPal/myfitnesspal-pro-v26.2.0.apk",
     "repoUrl": "https://www.myfitnesspal.com/",
@@ -337,7 +337,7 @@
     "packageName": "com.myfitnesspal.android",
     "category": "Health",
     "platform": "Android",
-    "size": "25.47.0",
+    "size": "157 MB",
     "author": "MyFitnessPal,Inc.",
     "screenshots": [
       "https://play-lh.googleusercontent.com/YWOaaJBYhxv9ts9KMYHQ-Lcn_f-vnjrbt3lu1KD_8O73ANJ4YWqTr1lWvHpcaySp-_kaMYHKvNat1d7hMrkCqXc=w526-h296-rw",
