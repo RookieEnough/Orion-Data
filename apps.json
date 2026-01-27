@@ -7914,5 +7914,41 @@
       "https://play-lh.googleusercontent.com/1O63hnq1bs1Ved-feg0a09493M4z5k7gw-WU8mfDcagMPnlvkpVyGWYeXxXu7Qmz_cpvkjQYLhieio4BCYcm4A=w5120-h2880-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "librepods",
+    "name": "Librepods",
+    "description": "LibrePods unlocks Apple's exclusive AirPods features on non-Apple devices. Get access to noise control modes, adaptive transparency, ear detection, hearing aid, customized transparency mode, battery status, and more - all the premium features you paid for but Apple locked to their ecosystem.",
+    "icon": "https://raw.githubusercontent.com/kavishdevar/librepods/main/imgs/banner.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/kavishdevar/librepods",
+    "githubRepo": "kavishdevar/librepods",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.kavishdevar.librepods",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "kavishdevar",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/accessibility.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/customizations-1.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/customizations-2.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/head-tracking-and-gestures.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/hearing-aid-adjustments.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/hearing-aid.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/hearing-test.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/long-press.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/notification-and-qs.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/popup.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/settings-1.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/settings-2.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/transparency.png",
+      "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/widget.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
