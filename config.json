@@ -7,13 +7,13 @@
   
   "notice": {
     "show": true,
-    "id": "notice-payment",
-    "title": "I've switched to Gumroad from Ko-Fi",
-    "message": "Now users can show support through coffees, Buy me a coffee ☕ to support development. What's new in V1.1.0?\n\n⚡ Silent Install: Update apps instantly via Shizuku.\n🧬 Smart Versions: Choose between Stable & Beta builds.\n🚀 Turbo Media: Instant icons and zero-lag browsing.\n\nThis update represents hundreds of hours of hard work. If you love Orion, please Star the Repo or 'Fuel the Code' in the Dev tab to keep the servers running!"
+    "id": "notice-update",
+    "title": "Orion 1.2.0 is now live",
+    "message": "Get ready for a massive upgrade. Orion is now more powerful, faster, and more secure than ever before. Here are the highlights:\n\n🛡️ Orion Guardian & Sentinel Suite\nYour new security dashboard. Scan for threats, manage app permissions, and debloat your system with new Shizuku-powered tools.\n\n🧠 Smart Updates & Stream Locking\nInstall a \"Beta\" or \"Nightly\" build once, and Orion now locks onto that update channel automatically. No more accidental downgrades to stable.\n\n🏆 The Hall of Fame\nA new global leaderboard is live. Contribute to the project by watching ads or submitting apps to earn XP, level up, and claim your rank among the legends.\n\n❤️ Favorites System\nMark your most-used apps with a heart for quick access. A new filter allows you to see only your favorite apps instantly..\n\nThis update represents hundreds of hours of hard work. If you love Orion, please Star the Repo or 'Fuel the Code' in the Dev tab to keep the servers running!"
   },
 
-  "latestStoreVersion": "1.1.1",
-  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.1.1/app-release.apk",
+  "latestStoreVersion": "1.2.0",
+  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.2.0/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "socials": {
