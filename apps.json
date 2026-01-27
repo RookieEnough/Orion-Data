@@ -8046,7 +8046,7 @@
     "id": "ab-download-manager",
     "name": "ab download manager",
     "description": "A Download Manager that speeds up your downloads. ",
-    "icon": "https://abdownloadmanager.com/",
+    "icon": "https://raw.githubusercontent.com/amir1376/ab-download-manager/master/assets/logo/app_logo_with_background.svg",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
