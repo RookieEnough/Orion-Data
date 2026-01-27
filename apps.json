@@ -7984,5 +7984,36 @@
       "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/12.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "lavender-photos",
+    "name": "Lavender Photos",
+    "description": "This is Lavender Photos, a no non-sense, smooth, and performant gallery app for Android!",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/com.kaii.photos/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/kaii-lb/LavenderPhotos",
+    "githubRepo": "kaii-lb/LavenderPhotos",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.kaii.photos",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "kaii-lb",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/Albums.png",
+      "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/Cloud.png",
+      "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/Favourites.png",
+      "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/LookAndFeel.png",
+      "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/Main.png",
+      "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/Privacy.png",
+      "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/Search.png",
+      "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/Secure.png",
+      "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/Trash.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
