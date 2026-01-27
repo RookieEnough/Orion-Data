@@ -8066,5 +8066,31 @@
       "https://raw.githubusercontent.com/amir1376/ab-download-manager/master/assets/screenshots/app-download_dark.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "lifedots",
+    "name": "LifeDots",
+    "description": "A beautiful live wallpaper that visualizes your year, one dot at a time. LifeDots transforms your home screen into a meaningful reminder of time's passage. Each dot represents a day — filled dots are days lived, empty dots are days yet to come, and today pulses with possibility. Inspired by the concept of time visualization and mindful living, LifeDots helps you appreciate each day while keeping perspective on the year as a whole.",
+    "icon": "https://play-lh.googleusercontent.com/Civ11iJRtK4kcUlPlQkxhbNYDvNJNtTOTNeOUg6ywIweqDK1BJFJqWI6vTD0ACKQBNc=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/humonious17/LifeDots",
+    "githubRepo": "humonious17/LifeDots",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.lifedots",
+    "category": "Wallpaper",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "humonious17",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1769556644769-e1920f4b-e706-4594-8912-a7ef6e7540b6.png",
+      "https://image2url.com/r2/default/images/1769556688866-963b6911-181a-4af9-b073-f9a34a5d3a5d.png",
+      "https://image2url.com/r2/default/images/1769556726782-2d289aca-d849-4158-a14e-69595f483278.png",
+      "https://image2url.com/r2/default/images/1769556775335-beba6672-a32a-4e77-bfdb-43ead2119ce1.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
