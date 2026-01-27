@@ -8041,5 +8041,30 @@
       "https://raw.githubusercontent.com/JoshAtticus/Compressor/refs/heads/main/assets/done.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ab-download-manager",
+    "name": "ab download manager",
+    "description": "A Download Manager that speeds up your downloads. ",
+    "icon": "https://abdownloadmanager.com/",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/amir1376/ab-download-manager",
+    "githubRepo": "amir1376/ab-download-manager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.abdownloadmanager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "amir1376",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/amir1376/ab-download-manager/master/assets/screenshots/app-home_dark.png",
+      "https://raw.githubusercontent.com/amir1376/ab-download-manager/master/assets/screenshots/app-download_dark.png",
+      "https://raw.githubusercontent.com/amir1376/ab-download-manager/master/assets/screenshots/app-download_dark.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
