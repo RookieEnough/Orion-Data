@@ -8015,5 +8015,31 @@
       "https://raw.githubusercontent.com/kaii-lb/LavenderPhotos/main/assets/images/Trash.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "compressor",
+    "name": "Compressor",
+    "description": "Lightning fast, ad free, super lightweight native video compressor for Android.",
+    "icon": "https://raw.githubusercontent.com/JoshAtticus/Compressor/refs/heads/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/JoshAtticus/Compressor",
+    "githubRepo": "JoshAtticus/Compressor",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "compress.joshattic.us",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "JoshAtticus",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/JoshAtticus/Compressor/refs/heads/main/assets/select.png",
+      "https://raw.githubusercontent.com/JoshAtticus/Compressor/refs/heads/main/assets/settings.png",
+      "https://raw.githubusercontent.com/JoshAtticus/Compressor/refs/heads/main/assets/compressing.png",
+      "https://raw.githubusercontent.com/JoshAtticus/Compressor/refs/heads/main/assets/done.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
