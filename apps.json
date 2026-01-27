@@ -8121,5 +8121,33 @@
       "https://raw.githubusercontent.com/Crustack/NotallyX/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
       "https://raw.githubusercontent.com/Crustack/NotallyX/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png"
     ]
+  },
+  {
+    "id": "com.trudido.app",
+    "name": "trudido",
+    "description": "A new app discovered via Obtainium.",
+    "icon": "https://raw.githubusercontent.com/dominikmuellr/trudido/refs/heads/main/assets/icon/2.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dominikmuellr/trudido",
+    "githubRepo": "dominikmuellr/trudido",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.trudido.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dominikmuellr",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dominikmuellr/trudido/main/assets/imagefiles/1.png",
+      "https://raw.githubusercontent.com/dominikmuellr/trudido/main/assets/imagefiles/2.png",
+      "https://raw.githubusercontent.com/dominikmuellr/trudido/main/assets/imagefiles/3.png",
+      "https://raw.githubusercontent.com/dominikmuellr/trudido/main/assets/imagefiles/4.png",
+      "https://raw.githubusercontent.com/dominikmuellr/trudido/main/assets/imagefiles/5.png",
+      "https://raw.githubusercontent.com/dominikmuellr/trudido/main/assets/imagefiles/6.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
