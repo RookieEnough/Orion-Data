@@ -7950,5 +7950,39 @@
       "https://raw.githubusercontent.com/kavishdevar/librepods/main/android/imgs/widget.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "kanade",
+    "name": "Kanade",
+    "description": "Kanade is a simple app that allows you to extract apk from your apps list. Fully open-source, zero-ads and no-tracking.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/alexcmgit/kanade",
+    "githubRepo": "alexcmgit/kanade",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.alexrintt.kanade",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "alexcmgit",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/01.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/02.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/03.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/04.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/05.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/06.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/07.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/08.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/09.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/10.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/11.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/io.alexrintt.kanade/en-US/phoneScreenshots/12.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
