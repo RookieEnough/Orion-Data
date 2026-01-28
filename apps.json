@@ -8207,5 +8207,34 @@
       "https://raw.githubusercontent.com/Maloy-Android/Muzza/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "sozo",
+    "name": "Sozo",
+    "description": "Sozo is crafted with a perfect blend of simplicity and state-of-the-art elegance for your Smart TV. It is designed as an Anilist only client, offering users the ability to Stream and Download their favorite Anime, Manga, Movies, and TV Shows.\nDue to DMCA restrictions, the apk is avail on thier telegram channel, link avail on the repo.",
+    "icon": "https://image2url.com/r2/default/files/1769589945895-f464196f-72db-48a6-92d8-cf645df54bbb.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/Sozo-app/Sozo",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "Szozo-app",
+    "officialSite": "https://github.com/Sozo-app/Sozo",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769590095665-46b257fb-4c1c-4d12-adfe-fc0f335dbd54.jpg",
+      "https://image2url.com/r2/default/files/1769590109718-635dee21-8f72-4225-b5e5-26f938343440.jpg",
+      "https://image2url.com/r2/default/files/1769590121337-9aad7815-2d90-4208-b07e-d177449d699b.jpg",
+      "https://image2url.com/r2/default/files/1769590133345-ff4480d5-d079-4516-8897-238086667f77.jpg",
+      "https://image2url.com/r2/default/files/1769590145644-5487001b-b44e-4b2d-9436-f19923c83d5b.jpg",
+      "https://image2url.com/r2/default/files/1769590157603-2b5d06e6-ba5b-4494-be93-f0058e0a55c1.jpg",
+      "https://image2url.com/r2/default/files/1769590171782-a4a09da7-83d6-4bbc-a498-c31c4768afe0.jpg",
+      "https://image2url.com/r2/default/files/1769590185555-4ae9dbfe-0323-49da-ac47-06d9cd12963f.jpg"
+    ]
   }
 ]
