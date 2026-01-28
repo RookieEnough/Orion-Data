@@ -8615,5 +8615,30 @@
       "https://raw.githubusercontent.com/Visual-Code-Space/Visual-Code-Space/refs/heads/main/images/vcspace_9.jpg"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "app.gamenative",
+    "name": "GameNative",
+    "description": "Play your favorite PC games directly on your Android device. Just log in to Steam, install your game, and start playing, with full cloud save support.",
+    "icon": "https://gamenative.app/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/utkarshdalal/GameNative",
+    "githubRepo": "utkarshdalal/GameNative",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.gamenative",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "utkarshdalal",
+    "officialSite": "",
+    "screenshots": [
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.r_9FCUig7zrTvdu_SM0IEAHaEo%3Fpid%3DApi&f=1&ipt=93bc4749df32502d476ea0d5455e15fe67bc8f4da2da0598557188d53f1d0e88&ipo=images",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.W_f-apmCFGoHZcN_nqbG8AHaG7%3Fpid%3DApi&f=1&ipt=e24232c02978362ef432512d352683509ea1a39b60fcc173f51d5d78ab1a0df6&ipo=images",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.DdoIGym6-AQTx8a1d5SCpgHaDt%3Fpid%3DApi&f=1&ipt=1ee7c29d129b76ad03ddfedfce9a40e4c0f084e80ffd5d2218eb93d2449a525b&ipo=images"
+    ],
+    "releaseKeyword": "Releases"
   }
 ]
