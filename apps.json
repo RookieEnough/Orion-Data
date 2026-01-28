@@ -8503,5 +8503,36 @@
       "https://image2url.com/r2/default/files/1769623005492-893ad79b-0b18-46b8-bfde-61ace0fedc7b.jpg"
     ],
     "releaseKeyword": "com"
+  },
+  {
+    "id": "anx-reader",
+    "name": "Anx Reader",
+    "description": "Anx Reader, a thoughtfully crafted e-book reader for book lovers plus its Cross-Platform. Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused. With its modern interface design, we're committed to delivering pure reading pleasure.",
+    "icon": "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/Anx-logo.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Anxcye/anx-reader",
+    "githubRepo": "Anxcye/anx-reader",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.anxcye.anx_reader",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Anxcye",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/mobile1.png",
+      "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/wide1.png",
+      "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/mobile2.png",
+      "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/wide2.png",
+      "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/mobile4.png",
+      "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/wide3.png",
+      "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/mobile7.png",
+      "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/mobile8.png",
+      "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/mobile9.png"
+    ],
+    "releaseKeyword": "Anx"
   }
 ]
