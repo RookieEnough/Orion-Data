@@ -8640,5 +8640,33 @@
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.DdoIGym6-AQTx8a1d5SCpgHaDt%3Fpid%3DApi&f=1&ipt=1ee7c29d129b76ad03ddfedfce9a40e4c0f084e80ffd5d2218eb93d2449a525b&ipo=images"
     ],
     "releaseKeyword": "Releases"
+  },
+  {
+    "id": "com.raival.compose.file.explorer",
+    "name": "Prism File Explorer",
+    "description": "A new app discovered via Obtainium.",
+    "icon": "https://github.com/Raival-e/Prism-File-Explorer/blob/master/assets/app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Raival-e/Prism-File-Explorer",
+    "githubRepo": "Raival-e/Prism-File-Explorer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.raival.compose.file.explorer",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Raival-e",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/refs/heads/master/assets/image1.png",
+      "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/refs/heads/master/assets/image2.png",
+      "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/refs/heads/master/assets/image3.png",
+      "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/refs/heads/master/assets/image4.png",
+      "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/refs/heads/master/assets/image5.png",
+      "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/refs/heads/master/assets/image6.png",
+      "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/refs/heads/master/assets/image7.png"
+    ]
   }
 ]
