@@ -8587,5 +8587,33 @@
       "https://image2url.com/r2/default/files/1769618076814-a6810a2f-b031-4e53-a9f1-3e4b39ca3660.jpg"
     ],
     "releaseKeyword": "anyapk"
+  },
+  {
+    "id": "visual-code-space",
+    "name": "Visual Code Space",
+    "description": "A cutting-edge code editor meticulously crafted for Android devices. It empowers you to code on the go with a seamless and efficient environment.",
+    "icon": "https://raw.githubusercontent.com/Visual-Code-Space/Visual-Code-Space/refs/heads/main/images/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Visual-Code-Space/Visual-Code-Space",
+    "githubRepo": "Visual-Code-Space/Visual-Code-Space",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.teixeira.vcspace",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Visual-Code-Space",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Visual-Code-Space/Visual-Code-Space/refs/heads/main/images/vcspace_1.jpg",
+      "https://raw.githubusercontent.com/Visual-Code-Space/Visual-Code-Space/refs/heads/main/images/vcspace_2.jpg",
+      "https://raw.githubusercontent.com/Visual-Code-Space/Visual-Code-Space/refs/heads/main/images/vcspace_6.jpg",
+      "https://raw.githubusercontent.com/Visual-Code-Space/Visual-Code-Space/refs/heads/main/images/vcspace_7.jpg",
+      "https://raw.githubusercontent.com/Visual-Code-Space/Visual-Code-Space/refs/heads/main/images/vcspace_8.jpg",
+      "https://raw.githubusercontent.com/Visual-Code-Space/Visual-Code-Space/refs/heads/main/images/vcspace_9.jpg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
