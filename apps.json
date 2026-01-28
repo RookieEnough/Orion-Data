@@ -8451,5 +8451,30 @@
       "https://image2url.com/r2/default/files/1769623921011-e560a8a3-5389-4e0f-815c-977e3273b04e.jpg"
     ],
     "releaseKeyword": "cleansweep"
+  },
+  {
+    "id": "medium-unlocker",
+    "name": "Medium Unlocker",
+    "description": "Medium Unlocker is a lightweight Android app that lets you bypass paywalls instantly using the native Share menu. Stop manually copy-pasting links into browsers. Just share and read.",
+    "icon": "https://raw.githubusercontent.com/inulute/medium-unlocker/8cfb08873838b588593e319e2606c4c505999d84/assets/medium_unlock_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/inulute/medium-unlocker",
+    "githubRepo": "inulute/medium-unlocker",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.inulute.mediumunlocker",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "inulute",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769623351250-0d2b7b3d-26d0-4800-940c-445ffd4e4769.jpg",
+      "https://image2url.com/r2/default/files/1769623379270-18d02c2b-8189-4d64-a5b8-d45493c8526a.jpg",
+      "https://image2url.com/r2/default/files/1769623392656-6a5372e0-67e3-49a9-b15a-c35958aaceb7.jpg"
+    ],
+    "releaseKeyword": "MediumUnlocker"
   }
 ]
