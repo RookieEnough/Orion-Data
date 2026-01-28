@@ -8236,5 +8236,34 @@
       "https://image2url.com/r2/default/files/1769590171782-a4a09da7-83d6-4bbc-a498-c31c4768afe0.jpg",
       "https://image2url.com/r2/default/files/1769590185555-4ae9dbfe-0323-49da-ac47-06d9cd12963f.jpg"
     ]
+  },
+  {
+    "id": "applock",
+    "name": "AppLock",
+    "description": "AppLock is a modern, open-source Android app locker designed to protect your privacy and sensitive data. Lock any app, prevent unauthorized access, and enjoy a seamless Material You experience. No root required.",
+    "icon": "https://raw.githubusercontent.com/PranavPurwar/AppLock/master/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/PranavPurwar/AppLock",
+    "githubRepo": "PranavPurwar/AppLock",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.pranav.applock",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "PranavPurwar",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/PranavPurwar/AppLock/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/PranavPurwar/AppLock/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/PranavPurwar/AppLock/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/PranavPurwar/AppLock/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/PranavPurwar/AppLock/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/PranavPurwar/AppLock/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/PranavPurwar/AppLock/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
