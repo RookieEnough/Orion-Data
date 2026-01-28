@@ -8344,5 +8344,31 @@
       "https://image2url.com/r2/default/files/1769582200838-84c24d87-3cdf-452a-b4e8-1fbd3a47f35f.png",
       "https://image2url.com/r2/default/files/1769582211204-456fe31e-ae82-418a-a930-ca1407e76b6b.jpg"
     ]
+  },
+  {
+    "id": "me.magnum.melonds",
+    "name": "melonDS",
+    "description": " melonDS aims at providing fast and accurate Nintendo DS emulation",
+    "icon": "https://raw.githubusercontent.com/Arisotura/melonDS/master/res/icon/melon_128x128.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://raw.githubusercontent.com/rafaelvcaetano/melonDS-android/master/",
+    "githubRepo": "rafaelvcaetano/melonDS-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.magnum.melonds",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rafaelvcaetano",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/rafaelvcaetano/melonDS-android/master/.github/images/screenshot_mobile0.png",
+      "https://raw.githubusercontent.com/rafaelvcaetano/melonDS-android/master/.github/images/screenshot_mobile1.png",
+      "https://raw.githubusercontent.com/rafaelvcaetano/melonDS-android/master/.github/images/screenshot_mobile2.png",
+      "https://raw.githubusercontent.com/rafaelvcaetano/melonDS-android/master/.github/images/screenshot_mobile3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
