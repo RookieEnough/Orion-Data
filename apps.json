@@ -8395,5 +8395,34 @@
       "https://raw.githubusercontent.com/shibaFoss/AIO-Video-Downloader/master/others/graphics/screenshots/3.0.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "rush",
+    "name": "Rush",
+    "description": "✨ Rush is a simple android app to search, view, save and share lyrics for your favorite songs.",
+    "icon": "https://f-droid.org/repo/com.shub39.rush/en-US/icon_ZxKhsswHqz8ySBuMuIJgCU4a9djWMYgQLFyYG9DYlRA=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/shub39/Rush",
+    "githubRepo": "shub39/Rush",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.shub39.rush",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "shub39",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/shub39/Rush/raw/master/fastlane/metadata/android/en-US/images/featureGraphic.png",
+      "https://raw.githubusercontent.com/shub39/Rush/refs/heads/master/fastlane/metadata/android/en-US/images/featureGraphic.png",
+      "https://raw.githubusercontent.com/shub39/Rush/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/shub39/Rush/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/shub39/Rush/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/shub39/Rush/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/shub39/Rush/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
