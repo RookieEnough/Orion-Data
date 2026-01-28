@@ -8290,5 +8290,31 @@
       "https://image2url.com/r2/default/files/1769583470861-9ef57b4a-1708-406e-8971-0c8ab08edca8.png",
       "https://image2url.com/r2/default/files/1769583484815-2eb4db8e-26b3-4103-a681-3d2c19b419ae.png"
     ]
+  },
+  {
+    "id": "nagi",
+    "name": "Nagi",
+    "description": "Rediscover your local music collection. A fast, private, and modern music player for Windows. Nagi is a music player focused on speed, simplicity, and privacy. Featuring a resizable mini-player, interactive lyrics, and wide format support. It's beautiful, efficient, and respects your privacy.",
+    "icon": "https://raw.githubusercontent.com/Anthonyy232/Nagi/fd07d2a7d0f0750c272b9fbd1c49cc7b9d3eda41/media/AppLogo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/Anthonyy232/Nagi",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Anthonyy232",
+    "officialSite": "https://github.com/Anthonyy232/Nagi",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Anthonyy232/Nagi/refs/heads/master/media/banner.png",
+      "https://raw.githubusercontent.com/Anthonyy232/Nagi/refs/heads/master/media/4.png",
+      "https://raw.githubusercontent.com/Anthonyy232/Nagi/refs/heads/master/media/1.png",
+      "https://raw.githubusercontent.com/Anthonyy232/Nagi/refs/heads/master/media/3.png",
+      "https://raw.githubusercontent.com/Anthonyy232/Nagi/refs/heads/master/media/2.png"
+    ]
   }
 ]
