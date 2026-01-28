@@ -8534,5 +8534,33 @@
       "https://raw.githubusercontent.com/Anxcye/anx-reader/refs/heads/develop/docs/images/mobile9.png"
     ],
     "releaseKeyword": "Anx"
+  },
+  {
+    "id": "nothingk",
+    "name": "NothingK",
+    "description": "A digital vault for storing passwords with symmetric cryptography. NothingK uses AES256/GCM. NothingK also includes a password generator, encrypted logs and a file export and import system.",
+    "icon": "https://raw.githubusercontent.com/cuadratico/NothingK/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/cuadratico/NothingK",
+    "githubRepo": "cuadratico/NothingK",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nothingsecure",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "cuadratico",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/cuadratico/NothingK/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image_1.png",
+      "https://raw.githubusercontent.com/cuadratico/NothingK/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image_2.png",
+      "https://raw.githubusercontent.com/cuadratico/NothingK/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image_3.png",
+      "https://raw.githubusercontent.com/cuadratico/NothingK/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image_4.png",
+      "https://raw.githubusercontent.com/cuadratico/NothingK/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image_5.png",
+      "https://raw.githubusercontent.com/cuadratico/NothingK/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image_6.png"
+    ],
+    "releaseKeyword": "NothingK"
   }
 ]
