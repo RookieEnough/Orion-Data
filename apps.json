@@ -8424,5 +8424,32 @@
       "https://raw.githubusercontent.com/shub39/Rush/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "cleansweep",
+    "name": "CleanSweep",
+    "description": "CleanSweep is a powerful and private application for Android that helps you reclaim storage space and organize your photos and videos with a fun, simple, Tinder-like interface. Swipe right to keep, swipe left to delete. It's that easy.",
+    "icon": "https://raw.githubusercontent.com/loopotto/CleanSweep/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/loopotto/CleanSweep",
+    "githubRepo": "loopotto/CleanSweep",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.cleansweep",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "loopotto",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769623860872-a4269c9b-ae20-4c11-ba95-c448d82211dc.jpg",
+      "https://image2url.com/r2/default/files/1769623872983-0f08c90e-b0d4-4d6d-ab31-5f1f69e0a41b.jpg",
+      "https://image2url.com/r2/default/files/1769623887252-0544b6cd-8c10-4a66-a665-560eb97a103c.jpg",
+      "https://image2url.com/r2/default/files/1769623901330-43a2f36d-88d7-4978-ba7b-da89984a1b1c.jpg",
+      "https://image2url.com/r2/default/files/1769623921011-e560a8a3-5389-4e0f-815c-977e3273b04e.jpg"
+    ],
+    "releaseKeyword": "cleansweep"
   }
 ]
