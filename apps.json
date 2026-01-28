@@ -8265,5 +8265,30 @@
       "https://raw.githubusercontent.com/PranavPurwar/AppLock/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "reddit-enhancer",
+    "name": "Reddit Enhancer",
+    "description": "Enhance your Reddit experience with Reddit Enhancer! A browser extension that allows you to customise your Reddit page with just a few clicks. Supports the Old and Latest versions of Reddit.",
+    "icon": "https://image2url.com/r2/default/files/1769583306044-3e00d35a-fba2-4e28-8237-2d0a2fbb39b6.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/joelacus/RedditEnhancer",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Social",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "joelacus",
+    "officialSite": "https://github.com/joelacus/RedditEnhancer",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769583442907-95956a43-064d-4887-aecb-ca41acdd742d.png",
+      "https://image2url.com/r2/default/files/1769583459060-75c835b5-447f-4bc4-a6d4-191c5b1d9a73.png",
+      "https://image2url.com/r2/default/files/1769583470861-9ef57b4a-1708-406e-8971-0c8ab08edca8.png",
+      "https://image2url.com/r2/default/files/1769583484815-2eb4db8e-26b3-4103-a681-3d2c19b419ae.png"
+    ]
   }
 ]
