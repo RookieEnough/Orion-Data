@@ -8644,8 +8644,8 @@
   {
     "id": "com.raival.compose.file.explorer",
     "name": "Prism File Explorer",
-    "description": "A new app discovered via Obtainium.",
-    "icon": "https://github.com/Raival-e/Prism-File-Explorer/blob/master/assets/app_icon.png",
+    "description": "A modern, feature-rich, and lightweight file manager for Android, built entirely with Kotlin and Jetpack Compose.",
+    "icon": "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/master/assets/app_icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
