@@ -8476,5 +8476,32 @@
       "https://image2url.com/r2/default/files/1769623392656-6a5372e0-67e3-49a9-b15a-c35958aaceb7.jpg"
     ],
     "releaseKeyword": "MediumUnlocker"
+  },
+  {
+    "id": "material-photo-widget",
+    "name": "Material Photo Widget",
+    "description": "Material Photo Widget is as simple as it can be: an Android home screen widget to display your favorite photos. It is a free, no-ads, open source alternative for people who want to customize their home screen.",
+    "icon": "https://raw.githubusercontent.com/fibelatti/photo-widget/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/fibelatti/photo-widget",
+    "githubRepo": "fibelatti/photo-widget",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.fibelatti.photowidget",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "fibelatti",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769622946732-0fc69354-eb58-4320-a950-95d5ab31630a.jpg",
+      "https://image2url.com/r2/default/files/1769622957027-73c21769-ba00-4287-88e1-285e67bc37c7.jpg",
+      "https://image2url.com/r2/default/files/1769622968209-8bb717a9-dd7d-440f-841b-0c6272073ebc.jpg",
+      "https://image2url.com/r2/default/files/1769622989827-ad1d177a-6ee6-4e3d-99b2-4deaf26ec4c8.jpg",
+      "https://image2url.com/r2/default/files/1769623005492-893ad79b-0b18-46b8-bfde-61ace0fedc7b.jpg"
+    ],
+    "releaseKeyword": "com"
   }
 ]
