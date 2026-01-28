@@ -8668,5 +8668,32 @@
       "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/refs/heads/master/assets/image6.png",
       "https://raw.githubusercontent.com/Raival-e/Prism-File-Explorer/refs/heads/master/assets/image7.png"
     ]
+  },
+  {
+    "id": "com.sadellie.unitto",
+    "name": "Taschenrechner",
+    "description": "A new app discovered via Obtainium.",
+    "icon": "https://sadellie.github.io/_app/immutable/assets/unitto-logo.12c4dca9.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sadellie/unitto",
+    "githubRepo": "sadellie/unitto",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.sadellie.unitto",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sadellie",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/sadellie/unitto/master/content/featureGraphic.png",
+      "https://raw.githubusercontent.com/sadellie/unitto/master/content/phone1.png",
+      "https://raw.githubusercontent.com/sadellie/unitto/master/content/phone2.png",
+      "https://raw.githubusercontent.com/sadellie/unitto/master/content/phone3.png",
+      "https://raw.githubusercontent.com/sadellie/unitto/master/content/phone4.png",
+      "https://raw.githubusercontent.com/sadellie/unitto/master/content/phone5.png"
+    ]
   }
 ]
