@@ -8316,5 +8316,33 @@
       "https://raw.githubusercontent.com/Anthonyy232/Nagi/refs/heads/master/media/3.png",
       "https://raw.githubusercontent.com/Anthonyy232/Nagi/refs/heads/master/media/2.png"
     ]
+  },
+  {
+    "id": "sefirah",
+    "name": "Sefirah",
+    "description": "Sefirah is an opinionated phone link alternative designed to enhance your workflow with seamless clipboard , notification sharing , media controlling , file transfer etc. between your Windows PC and Android device. It's tailored for users who want a straightforward and efficient way to keep their devices in sync. \nCheck its repo for installation steps..",
+    "icon": "https://raw.githubusercontent.com/shrimqy/Sefirah/3efd80bcf0097a37ed092e495b0027d0717397dd/src/Sefirah/Assets/Icons/icon_foreground.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/shrimqy/Sefirah",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "shrimqy",
+    "officialSite": "https://github.com/shrimqy/Sefirah",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769582091258-791bc571-adf4-405b-898a-481f67788f92.png",
+      "https://image2url.com/r2/default/files/1769582116249-b56952f4-76d6-4ef9-891a-70acffeefa06.png",
+      "https://image2url.com/r2/default/files/1769582134043-ab1236ab-10e1-4d7c-9035-6a197c724250.png",
+      "https://image2url.com/r2/default/files/1769582156124-c86f8cb3-681a-4af9-8cdc-ffb5a0e017ae.png",
+      "https://image2url.com/r2/default/files/1769582181152-a56d8864-ae31-4bd7-b4cd-414d170a1f15.png",
+      "https://image2url.com/r2/default/files/1769582200838-84c24d87-3cdf-452a-b4e8-1fbd3a47f35f.png",
+      "https://image2url.com/r2/default/files/1769582211204-456fe31e-ae82-418a-a930-ca1407e76b6b.jpg"
+    ]
   }
 ]
