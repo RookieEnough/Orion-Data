@@ -8179,5 +8179,33 @@
       "https://image2url.com/r2/default/images/1769561415193-dffcd097-7d7a-43c0-9ed9-5905ab68d843.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "muzza",
+    "name": "Muzza",
+    "description": "A Material 3 YouTube Music client for Android",
+    "icon": "https://raw.githubusercontent.com/Maloy-Android/Muzza/main/assets/Muzza-icon.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Maloy-Android/Muzza",
+    "githubRepo": "Maloy-Android/Muzza",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.maloy.muzza",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Maloy-Android",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Maloy-Android/Muzza/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/Maloy-Android/Muzza/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://raw.githubusercontent.com/Maloy-Android/Muzza/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+      "https://raw.githubusercontent.com/Maloy-Android/Muzza/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+      "https://raw.githubusercontent.com/Maloy-Android/Muzza/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png",
+      "https://raw.githubusercontent.com/Maloy-Android/Muzza/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
