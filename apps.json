@@ -8150,5 +8150,34 @@
       "https://raw.githubusercontent.com/dominikmuellr/trudido/main/assets/imagefiles/6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ireader",
+    "name": "IReader",
+    "description": "Free and open source novel reader for Android and Desktop. A cross-platform novel reader with support for multiple sources through extensions and JavaScript plugins. Read your favorite web novels offline with a customizable reading experience.",
+    "icon": "https://raw.githubusercontent.com/IReaderorg/IReader/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/IReaderorg/IReader",
+    "githubRepo": "IReaderorg/IReader",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "ir.kazemcodes.infinityreader",
+    "category": "Novel Reader",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "IReaderorg",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1769561173102-bda10b48-71bf-4590-acf4-4532b382e5ee.png",
+      "https://image2url.com/r2/default/images/1769561194840-310fd8ed-26d2-4d96-8020-02405fffdba5.png",
+      "https://image2url.com/r2/default/images/1769561218170-42685db6-31ce-4b4e-99dc-3424279138a7.png",
+      "https://image2url.com/r2/default/images/1769561248469-f208ba0f-1fc5-4735-bc0f-73e465a015b7.png",
+      "https://image2url.com/r2/default/images/1769561343847-50659812-fe55-4594-9f15-0cc990ef213f.png",
+      "https://image2url.com/r2/default/images/1769561373091-026b6c3b-3ae0-420a-ae19-1b9df4fe6073.png",
+      "https://image2url.com/r2/default/images/1769561415193-dffcd097-7d7a-43c0-9ed9-5905ab68d843.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
