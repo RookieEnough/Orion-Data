@@ -8370,5 +8370,30 @@
       "https://raw.githubusercontent.com/rafaelvcaetano/melonDS-android/master/.github/images/screenshot_mobile3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "aio-video-downloader",
+    "name": "AIO Video Downloader",
+    "description": "Powerful Video/Audio Downloader for Android — Open Source, Ad-Free, and Built on yt-dlp for a Seamless, User-Centric Experience. ",
+    "icon": "https://raw.githubusercontent.com/shibaFoss/AIO-Video-Downloader/master/app/src/main/res/drawable/ic_launcher_logo_v4.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/shibaFoss/AIO-Video-Downloader",
+    "githubRepo": "shibaFoss/AIO-Video-Downloader",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.aio.video_downloader",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "shibaFoss",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/shibaFoss/AIO-Video-Downloader/master/others/graphics/screenshots/4.0.jpg",
+      "https://raw.githubusercontent.com/shibaFoss/AIO-Video-Downloader/master/others/graphics/screenshots/2.0.jpg",
+      "https://raw.githubusercontent.com/shibaFoss/AIO-Video-Downloader/master/others/graphics/screenshots/3.0.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
