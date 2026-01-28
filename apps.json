@@ -8562,5 +8562,30 @@
       "https://raw.githubusercontent.com/cuadratico/NothingK/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image_6.png"
     ],
     "releaseKeyword": "NothingK"
+  },
+  {
+    "id": "anyapk",
+    "name": "Anyapk",
+    "description": "The free and open-source app Anyapk facilitates sideloading and manual installation of apps on Android devices, bypassing Google's security restrictions.",
+    "icon": "https://raw.githubusercontent.com/sam1am/anyapk/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sam1am/anyapk",
+    "githubRepo": "sam1am/anyapk",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.anyapk.installer",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sam1am",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769618049438-775f14be-b6e3-40b7-af94-3c424ef8efee.jpg",
+      "https://image2url.com/r2/default/files/1769618062310-2ec454c1-fe5e-4547-8e9a-3f7e0f051db0.jpg",
+      "https://image2url.com/r2/default/files/1769618076814-a6810a2f-b031-4e53-a9f1-3e4b39ca3660.jpg"
+    ],
+    "releaseKeyword": "anyapk"
   }
 ]
