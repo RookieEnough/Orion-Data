@@ -8695,5 +8695,30 @@
       "https://raw.githubusercontent.com/sadellie/unitto/master/content/phone4.png",
       "https://raw.githubusercontent.com/sadellie/unitto/master/content/phone5.png"
     ]
+  },
+  {
+    "id": "com.swordfish.lemuroid",
+    "name": "Lemuroid",
+    "description": "Lemuroid is an open-source emulation project for Android based on Libretro. Its main goal is ease of use, good Android integration and a great user experience.\n\nSupported Systems:\n\nAtari 2600 (A26) (stella)\nAtari 7800 (A78) (prosystem)\nAtari Lynx (Lynx) (handy)\nNintendo (NES) (fceumm)\nSuper Nintendo (SNES) (snes9x)\nGame Boy (GB) (gambatte)\nGame Boy Color (GBC) (gambatte)\nGame Boy Advance (GBA) (mgba)\nSega Genesis (aka Megadrive) (genesis_plus_gx)\nSega CD (aka Mega CD) (genesis_plus_gx)\nSega Master System (SMS) (genesis_plus_gx)\nSega Game Gear (GG) (genesis_plus_gx)\nNintendo 64 (N64) (mupen64plus)\nPlayStation (PSX) (PCSX-ReARMed)\nPlayStation Portable (PSP) (ppsspp)\nFinalBurn Neo (Arcade) (fbneo)\nNintendo DS (NDS) (desmume/MelonDS)\nNEC PC Engine (PCE) (beetle_pce_fast)\nNeo Geo Pocket (NGP) (mednafen_ngp)\nNeo Geo Pocket Color (NGC) (mednafen_ngp)\nWonderSwan (WS) (beetle_cygne)\nWonderSwan Color (WSC) (beetle_cygne)\nNintendo 3DS (3DS) (citra)",
+    "icon": "https://play-lh.googleusercontent.com/2qI4_dJX2OAp1cJi0puGbVCjQfYseEU7iHUi3HxPpF5vT8aErQ6Z6fPn_4SG-FWEwvk=w480-h960",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Swordfish90/Lemuroid",
+    "githubRepo": "Swordfish90/Lemuroid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.swordfish.lemuroid",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Swordfish90",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Swordfish90/Lemuroid/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/Swordfish90/Lemuroid/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/Swordfish90/Lemuroid/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
