@@ -8720,5 +8720,30 @@
       "https://play-lh.googleusercontent.com/_dSBzts54P6j3wAOcBSGg-yzqLYZPeTeH7judLf6Yf0WQj3gLZYBHZXb8xqlRbVzOJW6GK6HSCP0EQapYogx84g=w526-h296-rw",
       "https://play-lh.googleusercontent.com/f6P1kOz_teLK1ARNZJYYGijWuNROWHoD5Fixutw33kxv5eJ24XV-OYPnb76gXbWCnOV5vl13RR6JaemSU_J3dlM=w526-h296-rw"
     ]
+  },
+  {
+    "id": "pokecardex",
+    "name": "Pokecardex Revanced",
+    "description": "Easily and quickly manage your Pokémon card collection with our app. Our database allows you to browse over 23,000 cards listed in more than 230 series, from the latest to the oldest, including promotional sets.\n\nPatches Applied:\n- Increase scan limit\n- Disable scan counter"
+    "icon": "https://play-lh.googleusercontent.com/cBp30ymDIOIbuLkU4z8TSwiaXoLpgVqVM4v8ZnO3j9MTPm306wjbmVp_q5XofDY0_is=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Revanced-AutoBuilds",
+    "githubRepo": "RookieEnough/Revanced-AutoBuilds",
+    "releaseKeyword": "pokecardex",
+    "packageName": "com.application.pokecardex",
+    "category": "Entertainment",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Revanced",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Yh6J9413Fmcn2j3JtfKxRNsAQf5VKdtz4VPZ2qRVM9x_lK2sMK-2QWJyx5uq4yfk3e18=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/7FGAjer8cm1CWfjxQ-0-VuS23kCsJApQ1S0-oWDeNnfFBsga2ydD0BBGi-xQG3iT1bs=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/547KExqBTdqZc7S_zrxJOV7lDs-UWuozMcN35Ok8mOi7Ml7AkZ8JWaJC8bD1zEqJ3bo=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/3XrySIU58CzyNIY-B6Rj3VqEJxNjGSlxtQUiHXTN9qMMqFd7B2Qym-K-5atuxy-4nss=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/llkAD7CsBHodblvFwPKOov9jp5aNvuVTxcOcu28PWaSFyktUZcqT-Y9vqK360sWfLA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/aTTM_zpUemsiB1v_9VVEnd7aWLA9kBofALqSdBDcbVhbH58-nlXuUachawEksER_eeY=w526-h296-rw"
+    ]
   }
 ]
