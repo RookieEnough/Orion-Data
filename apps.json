@@ -9196,5 +9196,34 @@
       "https://image2url.com/r2/default/files/1769875023386-8590db4c-e103-4a19-9897-f24320c13e2f.png",
       "https://image2url.com/r2/default/files/1769875037861-8a7ef1b8-26c4-44cc-95c7-7866dc6fccaa.png"
     ]
+  },
+  {
+    "id": "cherrygram",
+    "name": "Cherrygram",
+    "description": "Cherrygram is a third-party Telegram client with not many but useful modifications. Check its repo to see all features. Also for LATEST release, join its telegram channel. ",
+    "icon": "https://raw.githubusercontent.com/arsLan4k1390/Cherrygram/refs/heads/main/TMessagesProj/src/main/res-cherrygram/mipmap-xxxhdpi/icon_launcher_cherry.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/arsLan4k1390/Cherrygram",
+    "githubRepo": "arsLan4k1390/Cherrygram",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "uz.unnarsx.cherrygram",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "arsLan4k1390",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769863769939-256c14da-561c-438d-870f-72be5f71e2d3.png",
+      "https://image2url.com/r2/default/files/1769863794207-2c870471-7463-4dbf-9663-ffe26ef8d6d0.png",
+      "https://image2url.com/r2/default/files/1769863809525-495029ab-ebd4-479d-819a-0b85c22619f7.png",
+      "https://image2url.com/r2/default/files/1769863820321-7c62d8cb-20a6-4b4f-9e8b-d0e635ed48c6.png",
+      "https://image2url.com/r2/default/files/1769863831341-ebc427e4-3f33-4a5f-82a2-78120c499ff7.png",
+      "https://image2url.com/r2/default/files/1769863841909-9c253545-b5b2-4080-b5f2-663096310a95.png",
+      "https://image2url.com/r2/default/files/1769863857627-c669a20e-bb78-4910-bd65-003776362d56.png"
+    ],
+    "releaseKeyword": "Cherrygram"
   }
 ]
