@@ -9038,5 +9038,31 @@
       "https://image2url.com/r2/default/files/1769879457304-a79caf2a-7232-4813-8c3b-f910fca099bf.jpg",
       "https://image2url.com/r2/default/files/1769879475428-f35e5a63-5987-476e-bb10-faaa85b63513.jpg"
     ]
+  },
+  {
+    "id": "free-ai-video-upscaler",
+    "name": "Free AI Video Upscaler",
+    "description": "A simple, quick and free no-nonsense tool for upscaling video with AI upscaling algorithms like Anime4K right in your browser- no signups, no downloads just choose a video and download your upscaled video after it's done processing.",
+    "icon": "https://raw.githubusercontent.com/sb2702/free-ai-video-upscaler/4a7cb714d5e750cc9854df3c82045fcad5f2f519/src/img/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/sb2702/free-ai-video-upscaler",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "sb2702",
+    "officialSite": "https://github.com/sb2702/free-ai-video-upscaler",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769878638166-b81adf9d-0641-40f2-9ce2-62df2c46bf20.png",
+      "https://image2url.com/r2/default/files/1769878681931-eeb460f5-b1ba-473f-b65d-68c716ad257b.jpg",
+      "https://image2url.com/r2/default/files/1769878703599-c311f22a-1d7a-47aa-b85c-3f85f7edfe66.png",
+      "https://image2url.com/r2/default/files/1769878729971-88da81f3-cd8a-4c7b-bc23-c387b7bac8ac.jpg",
+      "https://image2url.com/r2/default/files/1769878745573-3ba4519f-68a6-41a2-ae01-a75877a0522e.png"
+    ]
   }
 ]
