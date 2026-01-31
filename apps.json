@@ -8822,5 +8822,32 @@
       "https://image2url.com/r2/default/files/1769862340705-d65c10f3-c74e-4ccf-adb8-b41e47eb6687.png"
     ],
     "releaseKeyword": "Nagram"
+  },
+  {
+    "id": "adbkit",
+    "name": "ADBKit",
+    "description": "A simple, modern GUI for ADB and Fastboot. Built with Wails (Go + React) for speed, lightweight resource usage, and native performance.",
+    "icon": "https://image2url.com/r2/default/files/1769873010288-77dd64d7-e966-4b2a-bed0-693aeee4baff.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/Drenzzz/adb-gui-kit",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Drenzzz",
+    "officialSite": "https://github.com/Drenzzz/adb-gui-kit",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Drenzzz/adb-gui-kit/refs/heads/main/screenshots/screenshot1.png",
+      "https://raw.githubusercontent.com/Drenzzz/adb-gui-kit/refs/heads/main/screenshots/screenshot2.png",
+      "https://raw.githubusercontent.com/Drenzzz/adb-gui-kit/refs/heads/main/screenshots/screenshot3.png",
+      "https://raw.githubusercontent.com/Drenzzz/adb-gui-kit/refs/heads/main/screenshots/screenshot4.png",
+      "https://raw.githubusercontent.com/Drenzzz/adb-gui-kit/refs/heads/main/screenshots/screenshot5.png",
+      "https://raw.githubusercontent.com/Drenzzz/adb-gui-kit/refs/heads/main/screenshots/screenshot6.png"
+    ]
   }
 ]
