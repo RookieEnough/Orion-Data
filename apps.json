@@ -9170,5 +9170,31 @@
       "https://image2url.com/r2/default/files/1769875365477-65da2737-5dc9-45e3-af2c-ea604683403c.jpg",
       "https://image2url.com/r2/default/files/1769875376653-713542fa-4cb0-4376-9a8f-95e60082ed88.jpg"
     ]
+  },
+  {
+    "id": "mynt",
+    "name": "MYNT",
+    "description": "MYNT: Material You New Tab is a versatile browser extension that personalizes your New Tab page with customizable themes, a welcoming message, and various handy tools, all while integrating seamlessly with your preferred search engine.  Check its REPO for Features.",
+    "icon": "https://raw.githubusercontent.com/prem-k-r/MaterialYouNewTab/refs/heads/main/favicon/icon128.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/prem-k-r/MaterialYouNewTab",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "prem-k-r",
+    "officialSite": "https://github.com/prem-k-r/MaterialYouNewTab",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769874717842-694e43bc-6e1b-454a-883d-5e19af9efda0.png",
+      "https://image2url.com/r2/default/files/1769874983610-85164617-41e1-476e-b3ac-d1f3af4bd9f3.png",
+      "https://image2url.com/r2/default/files/1769874998828-1f40eb5e-9aa2-4aac-af4c-487084e54a31.png",
+      "https://image2url.com/r2/default/files/1769875023386-8590db4c-e103-4a19-9897-f24320c13e2f.png",
+      "https://image2url.com/r2/default/files/1769875037861-8a7ef1b8-26c4-44cc-95c7-7866dc6fccaa.png"
+    ]
   }
 ]
