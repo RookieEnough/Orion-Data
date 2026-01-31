@@ -9118,5 +9118,31 @@
       "https://image2url.com/r2/default/files/1769876597631-2f3736eb-265e-4773-9274-f95110dad893.png",
       "https://image2url.com/r2/default/files/1769876608840-169fcb7f-70b3-480a-b2db-19fd282db476.png"
     ]
+  },
+  {
+    "id": "phantom-lens",
+    "name": "Phantom Lens",
+    "description": "PhantomLens is a privacy-first, open-source AI (artificial intelligence) assistant that operates silently across your screen. 😏 It understands what’s on your display, responds contextually, and stays out of sight — no overlays, no interruptions, no telemetry abuse. 🦾 Built for people who value speed, discretion, and control.",
+    "icon": "https://raw.githubusercontent.com/inulute/phantom-lens/b2d7d4d3a3637d8425ffd324695408ab8da5d852/public/assets/icons/phantomlens_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/inulute/phantom-lens",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "inulute",
+    "officialSite": "https://github.com/inulute/phantom-lens",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769875814567-8fd75424-f7d7-4ee7-b561-446180deab1f.jpg",
+      "https://image2url.com/r2/default/files/1769875827029-64b247b5-cc5b-4be1-8d5f-2af24948472a.jpg",
+      "https://image2url.com/r2/default/files/1769875836048-c5ad7aaf-4a1e-4e85-b807-8a3f6955fc6c.jpg",
+      "https://image2url.com/r2/default/files/1769875846600-c497ffb1-0368-47ff-8eb1-5c6f05decd42.jpg",
+      "https://image2url.com/r2/default/files/1769875857284-7f422447-553a-4a44-9828-9006c7d5dbb0.jpg"
+    ]
   }
 ]
