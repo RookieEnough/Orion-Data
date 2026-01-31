@@ -9144,5 +9144,31 @@
       "https://image2url.com/r2/default/files/1769875846600-c497ffb1-0368-47ff-8eb1-5c6f05decd42.jpg",
       "https://image2url.com/r2/default/files/1769875857284-7f422447-553a-4a44-9828-9006c7d5dbb0.jpg"
     ]
+  },
+  {
+    "id": "polyuploader",
+    "name": "PolyUploader",
+    "description": "Upload your files remotely to different hosts. Check its REPO for Features and the Sites it support.",
+    "icon": "https://raw.githubusercontent.com/spel987/PolyUploader/refs/heads/main/src-tauri/icons/128x128%402x.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/spel987/PolyUploader",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "spel987",
+    "officialSite": "https://github.com/spel987/PolyUploader",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769875331947-e1a2a8de-d2fd-4eeb-bb93-9cbc1c90cfd8.jpg",
+      "https://image2url.com/r2/default/files/1769875343843-9569c8af-840b-40ed-bfd7-06ac7e4c4584.jpg",
+      "https://image2url.com/r2/default/files/1769875354945-f0fc0835-eea4-46f8-ae32-90241424d742.jpg",
+      "https://image2url.com/r2/default/files/1769875365477-65da2737-5dc9-45e3-af2c-ea604683403c.jpg",
+      "https://image2url.com/r2/default/files/1769875376653-713542fa-4cb0-4376-9a8f-95e60082ed88.jpg"
+    ]
   }
 ]
