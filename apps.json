@@ -8767,5 +8767,33 @@
       "https://play-lh.googleusercontent.com/EEJON51K6ems2ygYMPnW802ckw0VzngX0VXG_9f_FdCn2tDsbP2swXaxb-MxPr2P5AmqOrToZz9eiosULhGXdLA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/HnirFluyDboZWGqd__I6yRCVqBriCsJFdGiWVdp2nYl-nq6t6_hvl-ZKRMLh4C8ZwB866mH8t_NfZ1qsrNEJbLk=w526-h296-rw"
     ]
+  },
+  {
+    "id": "nagramx",
+    "name": "NagramX",
+    "description": "A variant of Nagram with additional features.. Check its repo to see all features. Also for LATEST release, join its telegram channel. ",
+    "icon": "https://raw.githubusercontent.com/risin42/NagramX/refs/heads/dev/TMessagesProj/src/main/ic_launcher_nagram_block_round-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/risin42/NagramX",
+    "githubRepo": "risin42/NagramX",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "nu.gpu.nagram",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "risin42",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769862947147-ab7d662c-1ab4-45ef-bd72-2eb238d4db46.png",
+      "https://image2url.com/r2/default/files/1769862962090-05cf1e73-99d3-49d0-81e4-b6a3e23fea02.png",
+      "https://image2url.com/r2/default/files/1769862976950-1bc0edaf-7004-4580-82f4-41acfb92d74f.png",
+      "https://image2url.com/r2/default/files/1769862988431-85694144-6c4b-4694-b6f4-fad8541e07f4.png",
+      "https://image2url.com/r2/default/files/1769863001698-9c740044-2f02-4a56-8e7e-ed731f0353e5.png",
+      "https://image2url.com/r2/default/files/1769863015108-1a93340f-5c51-4822-8b93-d63682a4f8cd.png"
+    ],
+    "releaseKeyword": "NagramX"
   }
 ]
