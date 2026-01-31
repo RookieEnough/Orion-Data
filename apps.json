@@ -8795,5 +8795,32 @@
       "https://image2url.com/r2/default/files/1769863015108-1a93340f-5c51-4822-8b93-d63682a4f8cd.png"
     ],
     "releaseKeyword": "NagramX"
+  },
+  {
+    "id": "nagram",
+    "name": "Nagram",
+    "description": "Third party Telegram Client with tons of features. \nCheck its repo to see all features.\nALSO for LATEST release , join its telegram channel. ",
+    "icon": "https://raw.githubusercontent.com/NextAlone/Nagram/refs/heads/main/TMessagesProj/src/main/res/mipmap-xxxhdpi/ic_launcher_nagram_blue_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nextalone/nagram",
+    "githubRepo": "nextalone/nagram",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "xyz.nextalone.nagram",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nextalone",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769862276511-48e72bd6-e2eb-4c2e-8d0a-92357ea6fa3d.png",
+      "https://image2url.com/r2/default/files/1769862294869-1934055e-6a67-42b4-accb-5083e9f14e54.png",
+      "https://image2url.com/r2/default/files/1769862311002-dbd42213-07a4-47e3-b3d9-ab8454237ae0.png",
+      "https://image2url.com/r2/default/files/1769862326264-4a66cebf-6487-4aaf-9fd3-b19c625be7e0.png",
+      "https://image2url.com/r2/default/files/1769862340705-d65c10f3-c74e-4ccf-adb8-b41e47eb6687.png"
+    ],
+    "releaseKeyword": "Nagram"
   }
 ]
