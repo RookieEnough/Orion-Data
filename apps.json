@@ -9011,5 +9011,32 @@
       "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/9.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fadesktop",
+    "name": "FADesktop",
+    "description": "FAgram Desktop - is a custom Desktop Telegram client with tons of features. Check its REPO for features and join its telegram channel for latest release.",
+    "icon": "https://raw.githubusercontent.com/fagramdesktop/fadesktop/refs/heads/dev/Telegram/Resources/art/icon512%402x.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/fagramdesktop/fadesktop",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Social",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "fagramdesktop",
+    "officialSite": "https://github.com/fagramdesktop/fadesktop",
+    "screenshots": [
+      "https://raw.githubusercontent.com/fagramdesktop/fadesktop/refs/heads/dev/docs/assets/preview.png",
+      "https://image2url.com/r2/default/files/1769879305287-5b061217-a9a7-4fc5-96b2-d532e62a7d0e.jpg",
+      "https://image2url.com/r2/default/files/1769879327789-846191d8-76ab-45ed-a6d4-4492e5cc385c.jpg",
+      "https://image2url.com/r2/default/files/1769879440767-8d3a71e0-b7e6-477a-b50d-06afe077d225.jpg",
+      "https://image2url.com/r2/default/files/1769879457304-a79caf2a-7232-4813-8c3b-f910fca099bf.jpg",
+      "https://image2url.com/r2/default/files/1769879475428-f35e5a63-5987-476e-bb10-faaa85b63513.jpg"
+    ]
   }
 ]
