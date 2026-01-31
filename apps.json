@@ -8956,5 +8956,30 @@
       "https://image2url.com/r2/default/files/1769865157742-430ca360-7e18-4be0-bd3d-a5268b5b1763.png"
     ],
     "releaseKeyword": "OctoGram"
+  },
+  {
+    "id": "fork-client",
+    "name": "Fork Client",
+    "description": "Fork Client is a fork of the official Telegram for Android application. Check its repo to see all features. Also for LATEST release, join its telegram channel. ",
+    "icon": "https://raw.githubusercontent.com/forkgram/TelegramAndroid/refs/heads/dev/TMessagesProj/src/main/res/mipmap-xxhdpi/icon_01_launcher_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/forkgram/TelegramAndroid",
+    "githubRepo": "forkgram/TelegramAndroid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.forkclient.messenger.beta",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "forkgram",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769864262202-dcf70b9e-c132-430b-9b75-100a27688be5.png",
+      "https://image2url.com/r2/default/files/1769864276662-f0d6e9fd-a83a-497b-a97f-16195cdab46b.png",
+      "https://image2url.com/r2/default/files/1769864288275-6c02e0c0-5d41-4a6b-a200-762f27eb5ba0.png"
+    ],
+    "releaseKeyword": "ForkClient"
   }
 ]
