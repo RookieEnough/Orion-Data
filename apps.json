@@ -9225,5 +9225,31 @@
       "https://image2url.com/r2/default/files/1769863857627-c669a20e-bb78-4910-bd65-003776362d56.png"
     ],
     "releaseKeyword": "Cherrygram"
+  },
+  {
+    "id": "ayugramdesktop",
+    "name": "AyuGramDesktop",
+    "description": "Ayugram Desktop - Desktop Telegram client with good customization , features and Ghost mode. Check its REPO for features and join its telegram channel for latest release. It also have android version , which i use for its plugin system.",
+    "icon": "https://raw.githubusercontent.com/AyuGram/AyuGramDesktop/refs/heads/dev/.github/AyuGram.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/AyuGram/AyuGramDesktop",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Social",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "AyuGram",
+    "officialSite": "https://github.com/AyuGram/AyuGramDesktop",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769880544414-28fdf322-e9ad-45f0-8be7-fcac98087859.png",
+      "https://image2url.com/r2/default/files/1769880586954-b6038e8d-33d0-4ff2-94a6-3ff9ace0108e.png",
+      "https://image2url.com/r2/default/files/1769880598527-4bc2c9f5-61bc-4d25-9268-b9435dc5353f.png",
+      "https://image2url.com/r2/default/files/1769880610301-caae14e7-c1a1-4037-a1c7-73d0df6be6ba.png",
+      "https://image2url.com/r2/default/files/1769880622240-b56441a5-d159-41c2-99b2-75b1313c4b13.png"
+    ]
   }
 ]
