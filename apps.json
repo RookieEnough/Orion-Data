@@ -8849,5 +8849,32 @@
       "https://raw.githubusercontent.com/Drenzzz/adb-gui-kit/refs/heads/main/screenshots/screenshot5.png",
       "https://raw.githubusercontent.com/Drenzzz/adb-gui-kit/refs/heads/main/screenshots/screenshot6.png"
     ]
+  },
+  {
+    "id": "adb-device-manager",
+    "name": "ADB Device Manager",
+    "description": "Connect Android & Windows into one seamless control system.\r\n\rBuilt for power users, developers, and Android enthusiasts.  \nCheck its REPO for features and installation guide.",
+    "icon": "https://raw.githubusercontent.com/Shrey113/Adb-Device-Manager-2/refs/heads/main/images/app_png.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/Shrey113/Adb-Device-Manager-2",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Shrey113",
+    "officialSite": "https://github.com/Shrey113/Adb-Device-Manager-2",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769872524444-31f5e5f3-5653-498a-a196-bc21f02704db.png",
+      "https://image2url.com/r2/default/files/1769872546324-39dca6f4-6a24-4b80-b450-388264c5851f.png",
+      "https://image2url.com/r2/default/files/1769872577054-2c48dc43-ff59-49ab-98fa-b9d70c4dcf15.png",
+      "https://image2url.com/r2/default/files/1769872602825-bd7196a1-195d-4474-9686-36a95418aa1f.png",
+      "https://image2url.com/r2/default/files/1769872623388-85d52285-e9c7-4e0c-bfc6-cad2b2ba0595.png",
+      "https://image2url.com/r2/default/files/1769872712467-109e4edc-d728-450e-9fb9-b74d8cbe50d9.png"
+    ]
   }
 ]
