@@ -8745,5 +8745,27 @@
       "https://play-lh.googleusercontent.com/llkAD7CsBHodblvFwPKOov9jp5aNvuVTxcOcu28PWaSFyktUZcqT-Y9vqK360sWfLA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/aTTM_zpUemsiB1v_9VVEnd7aWLA9kBofALqSdBDcbVhbH58-nlXuUachawEksER_eeY=w526-h296-rw"
     ]
+  },
+  {
+    "id": "gamehub",
+    "name": "GameHub Revanced",
+    "description": "GameHub is a versatile gaming platform that supports PC emulators, cloud gaming, and game streaming. It allows users to play games using controllers or touch controls, providing flexibility for all gaming preferences.\n\nPatches Applied:\n- Enable debugging\n- Fix email login\n- Front-end Export",
+    "icon": "https://play-lh.googleusercontent.com/Mk2KpvFE11d4XbD3_A8yBIyiCEv2-gszIB_jOIVMHFM4A_RKjE62QygkWKxRQkCPsT0=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Revanced-AutoBuilds",
+    "githubRepo": "RookieEnough/Revanced-AutoBuilds",
+    "releaseKeyword": "gamehub",
+    "packageName": "com.xiaoji.egggame",
+    "category": "Entertainment",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Revanced",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/4VWLJas4ICaC8XtF-HPpG9RqyrZWCDlLXKJctjjBVTQozb8he8jnBcxXMyy4LjB0laJe9Sd_JLj0iV4kXjpdD1o=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/EEJON51K6ems2ygYMPnW802ckw0VzngX0VXG_9f_FdCn2tDsbP2swXaxb-MxPr2P5AmqOrToZz9eiosULhGXdLA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/HnirFluyDboZWGqd__I6yRCVqBriCsJFdGiWVdp2nYl-nq6t6_hvl-ZKRMLh4C8ZwB866mH8t_NfZ1qsrNEJbLk=w526-h296-rw"
+    ]
   }
 ]
