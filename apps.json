@@ -9064,5 +9064,34 @@
       "https://image2url.com/r2/default/files/1769878729971-88da81f3-cd8a-4c7b-bc23-c387b7bac8ac.jpg",
       "https://image2url.com/r2/default/files/1769878745573-3ba4519f-68a6-41a2-ae01-a75877a0522e.png"
     ]
+  },
+  {
+    "id": "flow-browser",
+    "name": "Flow Browser",
+    "description": "Flow Browser is a lightweight, feature-rich web browser that combines the power of Chromium with a clean, modern interface. Built on Electron, it offers full support for Chrome extensions, making it a versatile alternative to mainstream browsers.",
+    "icon": "https://raw.githubusercontent.com/MultiboxLabs/flow-browser/refs/heads/main/build/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/MultiboxLabs/flow-browser",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "MultiboxLabs",
+    "officialSite": "https://github.com/MultiboxLabs/flow-browser",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MultiboxLabs/flow-browser/refs/heads/main/docs/assets/screenshots/beta-onboarding-1.png",
+      "https://raw.githubusercontent.com/MultiboxLabs/flow-browser/refs/heads/main/docs/assets/screenshots/beta-newtab-1.png",
+      "https://raw.githubusercontent.com/MultiboxLabs/flow-browser/refs/heads/main/docs/assets/screenshots/beta-settings-1.png",
+      "https://image2url.com/r2/default/files/1769877133371-84c78c5d-3384-4313-bf74-541fbb7c9694.jpg",
+      "https://image2url.com/r2/default/files/1769877151228-ab31bd6c-95cf-4d87-b982-2622fc9e5c6b.jpg",
+      "https://image2url.com/r2/default/files/1769877165749-1ff50928-5dc3-45e4-a2d9-f903dc3d38ac.jpg",
+      "https://image2url.com/r2/default/files/1769877179144-0fa49c02-8573-4e56-b265-5c41e9ebfaa3.jpg",
+      "https://image2url.com/r2/default/files/1769877192290-a9de505a-f915-4b32-9a60-cfe61982f1e1.jpg"
+    ]
   }
 ]
