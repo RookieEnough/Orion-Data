@@ -8876,5 +8876,31 @@
       "https://image2url.com/r2/default/files/1769872623388-85d52285-e9c7-4e0c-bfc6-cad2b2ba0595.png",
       "https://image2url.com/r2/default/files/1769872712467-109e4edc-d728-450e-9fb9-b74d8cbe50d9.png"
     ]
+  },
+  {
+    "id": "whatsapstatussaver",
+    "name": "WhatsApStatusSaver",
+    "description": "An Android application for viewing, saving, and sharing WhatsApp status media files. The application operates entirely offline without transmitting data to external servers.",
+    "icon": "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/vinithreddybanda/WhatsapStatusSaver",
+    "githubRepo": "vinithreddybanda/WhatsapStatusSaver",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.vinithreddybanda.whatsapstatus",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "vinithreddybanda",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/metadata/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/metadata/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/metadata/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/metadata/en-US/images/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "Status"
   }
 ]
