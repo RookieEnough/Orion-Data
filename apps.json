@@ -8902,5 +8902,30 @@
       "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/metadata/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "Status"
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee",
+    "description": "This Android app allows you to keep the display awake without having to change the device settings. It can be toggled at various places :\r\n\r(1) A tile in the quick settings, the place that holds the toggles for e.g. Wi-Fi and Bluetooth. Requires Android 7 or higher.\r\n(2)A button in the app itself\r\n(3)A shortcut on your home screen. It can be created in the app, if your launcher supports it.",
+    "icon": "https://f-droid.org/repo/com.github.muellerma.coffee/en-US/icon_646z4JXrnIG1eXxQhKGiH4GhZU_U24W7MvZ_PDpUB3E=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mueller-ma/Coffee",
+    "githubRepo": "mueller-ma/Coffee",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.github.muellerma.coffee",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mueller-ma",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769868955993-9cd91ccb-eb5b-4b32-b00c-39ab45bd02e6.png",
+      "https://image2url.com/r2/default/files/1769868969155-3bf4a421-85cb-4486-8e5f-6368fcc1ab2e.png",
+      "https://image2url.com/r2/default/files/1769868981848-a7fb4b77-65df-42cf-aa97-1d569423f6d8.png"
+    ],
+    "releaseKeyword": "coffee"
   }
 ]
