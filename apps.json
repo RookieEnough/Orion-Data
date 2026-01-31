@@ -9093,5 +9093,30 @@
       "https://image2url.com/r2/default/files/1769877179144-0fa49c02-8573-4e56-b265-5c41e9ebfaa3.jpg",
       "https://image2url.com/r2/default/files/1769877192290-a9de505a-f915-4b32-9a60-cfe61982f1e1.jpg"
     ]
+  },
+  {
+    "id": "helium",
+    "name": "Helium",
+    "description": "Best privacy focused and unbiased ad-blocking by default. Handy features like native !bangs and split view. No adware, no bloat, no noise. Made for people, by people. Fully open source.",
+    "icon": "https://raw.githubusercontent.com/imputnet/helium/refs/heads/main/resources/branding/app_icon/raw.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/imputnet/helium",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "imputnet",
+    "officialSite": "https://github.com/imputnet/helium",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769876569694-1ef6d2f5-4760-44bf-951c-c170644df158.jpg",
+      "https://image2url.com/r2/default/files/1769876581917-7ce9de61-b70f-4f44-96ed-91154d58a04c.jpg",
+      "https://image2url.com/r2/default/files/1769876597631-2f3736eb-265e-4773-9274-f95110dad893.png",
+      "https://image2url.com/r2/default/files/1769876608840-169fcb7f-70b3-480a-b2db-19fd282db476.png"
+    ]
   }
 ]
