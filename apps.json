@@ -8981,5 +8981,35 @@
       "https://image2url.com/r2/default/files/1769864288275-6c02e0c0-5d41-4a6b-a200-762f27eb5ba0.png"
     ],
     "releaseKeyword": "ForkClient"
+  },
+  {
+    "id": "sealplus",
+    "name": "Sealplus",
+    "description": "Seal Plus is a powerful, premium video and audio downloader for Android. Built on the solid foundation of Seal by JunkFood02, this enhanced version features exclusive premium UI themes, advanced functionality, and cutting-edge Material Design 3 implementation.",
+    "icon": "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MaheshTechnicals/Sealplus",
+    "githubRepo": "MaheshTechnicals/Sealplus",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "Com.junkfood.sealplus",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MaheshTechnicals",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
+      "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
+      "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg",
+      "https://raw.githubusercontent.com/MaheshTechnicals/Sealplus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/9.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
