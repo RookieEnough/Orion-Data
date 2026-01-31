@@ -8927,5 +8927,34 @@
       "https://image2url.com/r2/default/files/1769868981848-a7fb4b77-65df-42cf-aa97-1d569423f6d8.png"
     ],
     "releaseKeyword": "coffee"
+  },
+  {
+    "id": "octogram",
+    "name": "OctoGram",
+    "description": "OctoGram is an unofficial messaging app that uses Telegram's API. Check its repo/site to see all features. Also for LATEST release, join its telegram channel.",
+    "icon": "https://raw.githubusercontent.com/OctoGramApp/OctoGram/refs/heads/main/TMessagesProj/src/main/res/mipmap-xxhdpi/ic_launcher_new.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/OctoGramApp/OctoGram",
+    "githubRepo": "OctoGramApp/OctoGram",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "it.octogram.android",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "OctoGramApp",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1769865053264-e575ed28-73e6-4d86-9287-a93be3e75b73.png",
+      "https://image2url.com/r2/default/files/1769865065593-bc48c0ff-65e5-43cd-bb7d-ea186da491ac.png",
+      "https://image2url.com/r2/default/files/1769865076800-f3557428-9ac0-49ef-a2df-bddd647b7308.png",
+      "https://image2url.com/r2/default/files/1769865099445-6dec354b-bf5a-4a11-af3d-656c23c515bb.png",
+      "https://image2url.com/r2/default/files/1769865124724-aa084ab3-ec49-4273-be67-52767d7dc88c.png",
+      "https://image2url.com/r2/default/files/1769865140612-b4f86a43-0a7d-4afd-8734-1ca6f691d7ca.png",
+      "https://image2url.com/r2/default/files/1769865157742-430ca360-7e18-4be0-bd3d-a5268b5b1763.png"
+    ],
+    "releaseKeyword": "OctoGram"
   }
 ]
