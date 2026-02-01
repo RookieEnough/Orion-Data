@@ -9335,5 +9335,31 @@
       "https://image2url.com/r2/default/images/1769961028373-2ce3989b-c74d-480b-ba6f-e6b6fe03958f.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "librefind",
+    "name": "Librefind",
+    "description": "LibreFind is a free and lightweight Android app that scans your device, identifies proprietary software, and recommends Free and Open Source Software (FOSS) alternatives. It uses Supabase data as its knowledge base for proprietary app detection and FOSS alternative recommendations.",
+    "icon": "https://raw.githubusercontent.com/jksalcedo/librefind/main/metadata/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/jksalcedo/librefind",
+    "githubRepo": "jksalcedo/librefind",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.jksalcedo.librefind",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "jksalcedo",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/jksalcedo/librefind/main/metadata/en-US/images/phoneScreenshots/dashboard.jpg",
+      "https://raw.githubusercontent.com/jksalcedo/librefind/main/metadata/en-US/images/phoneScreenshots/alternative_list.jpg",
+      "https://raw.githubusercontent.com/jksalcedo/librefind/main/metadata/en-US/images/phoneScreenshots/submission.jpg",
+      "https://raw.githubusercontent.com/jksalcedo/librefind/main/metadata/en-US/images/phoneScreenshots/profile.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
