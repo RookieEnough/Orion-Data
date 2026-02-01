@@ -9251,5 +9251,33 @@
       "https://image2url.com/r2/default/files/1769880610301-caae14e7-c1a1-4037-a1c7-73d0df6be6ba.png",
       "https://image2url.com/r2/default/files/1769880622240-b56441a5-d159-41c2-99b2-75b1313c4b13.png"
     ]
+  },
+  {
+    "id": "home-medicine-cabinet",
+    "name": "Home Medicine Cabinet",
+    "description": "Home Medicine Cabinet is an application designed to conveniently store and manage your medications.",
+    "icon": "https://github.com/pewaru-333/HomeMedkit-App/raw/master/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/pewaru-333/HomeMedkit-App",
+    "githubRepo": "pewaru-333/HomeMedkit-App",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "ru.application.homemedkit",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "pewaru-333",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/01.jpg",
+      "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/01.png",
+      "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/02.jpg",
+      "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/02.png",
+      "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/03.png",
+      "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/04.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
