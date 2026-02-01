@@ -7,13 +7,13 @@
   
   "notice": {
     "show": true,
-    "id": "notice-update0",
-    "title": "Orion 1.2.0 is now live",
-    "message": "Get ready for a massive upgrade. Orion is now more powerful, faster, and more secure than ever before. Here are the highlights:\n\n🛡️ Orion Guardian & Sentinel Suite\nYour new security dashboard\n\n🏆 The Hall of Fame\nA new global leaderboard is live.\n\n❤️ Favorites System\nMark your most-used apps with a heart for quick access.\n\nThis update represents hundreds of hours of hard work. If you love Orion, please Star the Repo or 'Fuel the Code' in the Dev tab to keep the servers running!"
+    "id": "notice-update3",
+    "title": "Orion 1.2.1 Hotfix",
+    "message": "A Powerful Hotfix for 1.2.0. Here are the highlights:\n\n🛡️ Debolater\nIts now more powerful and accurate\n\n🛠️ Minor Bug Fixes\nFaster App Syncing\nSmarter Release Parsing\nBalanced Cooldowns\nUI Lock Fix\n\nIf you love Orion, please Star the Repo or 'Fuel the Code' in the Dev tab to keep the servers running!"
   },
 
-  "latestStoreVersion": "1.2.0",
-  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.2.0/app-release.apk",
+  "latestStoreVersion": "1.2.1",
+  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.2.1/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "socials": {
