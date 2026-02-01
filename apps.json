@@ -9279,5 +9279,34 @@
       "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/04.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "aneko-reborn",
+    "name": "ANeko Reborn",
+    "description": "ANeko Reborn is a modern version of the classic ANeko app.\n\nIt features a cute cat animation that follows your finger on the Android screen, inspired by apps like nekoDA, xneko, oneko, and more.",
+    "icon": "https://github.com/pass-with-high-score/ANeko/blob/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/pass-with-high-score/ANeko",
+    "githubRepo": "pass-with-high-score/ANeko",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.nqmgaming.aneko",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "pass-with-high-score",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/1.jpg",
+      "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/2.jpg",
+      "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/3.jpg",
+      "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
