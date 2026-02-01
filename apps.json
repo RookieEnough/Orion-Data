@@ -9308,5 +9308,32 @@
       "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "waller",
+    "name": "Waller",
+    "description": "Gradient wallpaper generator ",
+    "icon": "https://raw.githubusercontent.com/Pankaj-Meharchandani/Waller/refs/heads/master/app/src/main/res/drawable/ic_launcher_playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Pankaj-Meharchandani/Waller",
+    "githubRepo": "Pankaj-Meharchandani/Waller",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.waller",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Pankaj-Meharchandani",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1769960941643-6733d2c0-7980-402a-b91c-a4ae7dcc0d5a.jpg",
+      "https://image2url.com/r2/default/images/1769960968195-f3c84265-9bd7-41f8-bb62-541e9e90e010.jpg",
+      "https://image2url.com/r2/default/images/1769960986282-01a7ac40-1a77-4b73-b3f3-d776fe1a5640.jpg",
+      "https://image2url.com/r2/default/images/1769961006074-29dec17f-6501-488e-ab8e-9b78f5436a84.jpg",
+      "https://image2url.com/r2/default/images/1769961028373-2ce3989b-c74d-480b-ba6f-e6b6fe03958f.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
