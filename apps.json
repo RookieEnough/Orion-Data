@@ -9284,7 +9284,7 @@
     "id": "aneko-reborn",
     "name": "ANeko Reborn",
     "description": "ANeko Reborn is a modern version of the classic ANeko app.\n\nIt features a cute cat animation that follows your finger on the Android screen, inspired by apps like nekoDA, xneko, oneko, and more.",
-    "icon": "https://github.com/pass-with-high-score/ANeko/blob/main/fastlane/metadata/android/en-US/images/icon.png",
+    "icon": "https://raw.githubusercontent.com/pass-with-high-score/ANeko/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
