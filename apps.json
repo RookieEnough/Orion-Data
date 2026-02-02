@@ -9361,5 +9361,32 @@
       "https://raw.githubusercontent.com/jksalcedo/librefind/main/metadata/en-US/images/phoneScreenshots/profile.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "rustdesk-android",
+    "name": "RustDesk",
+    "description": "Open-source remote desktop software. RustDesk is a full-featured open source remote control alternative for self-hosting and security with no configuration required.",
+    "icon": "https://avatars.githubusercontent.com/u/71636191?v=4",
+    "version": "1.4.5",
+    "latestVersion": "1.4.5",
+    "downloadUrl": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-universal-signed.apk",
+    "repoUrl": "https://github.com/rustdesk/rustdesk",
+    "githubRepo": "rustdesk/rustdesk",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.carriez.rustdesk",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RustDesk",
+    "officialSite": "https://rustdesk.com",
+    "screenshots": [
+      "https://f-droid.org/repo/com.carriez.flutter_hbb/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.carriez.flutter_hbb/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.carriez.flutter_hbb/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.carriez.flutter_hbb/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.carriez.flutter_hbb/en-US/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "aarch64-signed.apk"
   }
 ]
