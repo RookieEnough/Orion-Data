@@ -9499,5 +9499,33 @@
       "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "weread",
+    "name": "WeRead",
+    "description": "Weread is a web content read-it-later app that allows users to save articles, blog posts, and other web content for a better reading experience.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/cyou.sk5s.app.weread/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sk5s/weread",
+    "githubRepo": "sk5s/weread",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "cyou.sk5s.app.weread",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sk5s",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/cyou.sk5s.app.weread/en-US/phoneScreenshots/1.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/cyou.sk5s.app.weread/en-US/phoneScreenshots/2.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/cyou.sk5s.app.weread/en-US/phoneScreenshots/3.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/cyou.sk5s.app.weread/en-US/phoneScreenshots/4.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/cyou.sk5s.app.weread/en-US/phoneScreenshots/5.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/cyou.sk5s.app.weread/en-US/phoneScreenshots/6.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
