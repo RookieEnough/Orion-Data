@@ -9604,5 +9604,30 @@
       "https://raw.githubusercontent.com/SF-FLAM/ElixirBrowser/main/assets/Screenshot_2_Elixir_Browser.png"
     ],
     "releaseKeyword": ".apk"
+  },
+  {
+    "id": "readest",
+    "name": "Readest",
+    "description": "Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.",
+    "icon": "https://raw.githubusercontent.com/readest/readest/main/apps/readest-app/src-tauri/icons/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/readest/readest",
+    "githubRepo": "readest/readest",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.bilingify.readest",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "readest",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/8MzY8MvOutiE9aaoG3EY00SaQlv0nJpm2Z9Fggl7xDxUDQL0gLfRKDBIPB84lPu8ZQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/ASYe_eQQ3uQSjI21nX0CPwujKqvpJlhXIjsrqNmGCdJAfSQt3Pr-IZ6og5vdoQr5U_tV=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/VVzodXbJcJOjDu7NIAIBc-TcDDDYenpXfBuNeubwa8_nk33HIEYxubu-gI8N6nLOt0s=w5120-h2880-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
