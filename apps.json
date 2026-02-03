@@ -9527,5 +9527,31 @@
       "https://apt.izzysoft.de/fdroid/repo/cyou.sk5s.app.weread/en-US/phoneScreenshots/6.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "piliplus",
+    "name": "PiliPlus",
+    "description": "BiliBili third-party client developed with Flutter",
+    "icon": "https://raw.githubusercontent.com/QuserH/Pic/main/2026/01/16/PiliPlus.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/bggRGjQaUbCoE/PiliPlus",
+    "githubRepo": "bggRGjQaUbCoE/PiliPlus",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.piliplus",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "bggRGjQaUbCoE",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/510shots_so.png",
+      "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/174shots_so.png",
+      "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/850shots_so.png",
+      "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
+    ],
+    "releaseKeyword": "universal"
   }
 ]
