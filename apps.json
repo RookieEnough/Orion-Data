@@ -9553,5 +9553,31 @@
       "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
     ],
     "releaseKeyword": "universal"
+  },
+  {
+    "id": "healthy-battery-charging",
+    "name": "Healthy Battery Charging",
+    "description": "Make your smartphone or tablet battery last longer!\n\nGood range to aim for when charging a Li-ion battery is from about 40 to 80 percent in one go. A bunch of tiny charges throughout the day is your second best bet, and going from zero to 100 and then 100 to zero on a regular basis will put the most strain on your lithium-ion battery.\n\nHealthy Battery Charging notifies you when to plug or unplug your phone from the charger in order to improve the battery life. The app itself is optimized for low battery consumption, running in the background and checking the battery level every 15 minutes (configurable). The exact timing of these checks depends on the Android OS, which might schedule them alongside other tasks or delay them when in sleep mode. As a result, the battery level may slightly exceed the high threshold while charging or drop slightly below the low threshold while discharging before you receive a notification.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/biz.binarysolutions.healthybatterycharging/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/vbresan/HealthyBatteryCharging",
+    "githubRepo": "vbresan/HealthyBatteryCharging",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "biz.binarysolutions.healthybatterycharging",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "vbresan",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/biz.binarysolutions.healthybatterycharging/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/biz.binarysolutions.healthybatterycharging/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/biz.binarysolutions.healthybatterycharging/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/biz.binarysolutions.healthybatterycharging/en-US/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
