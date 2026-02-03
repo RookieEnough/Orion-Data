@@ -1,0 +1,22 @@
+[
+  {
+    "version": "v1.3.0",
+    "date": "Upcoming",
+    "title": "The Cloud Update",
+    "changes": [
+      "NEW: Added remote release notes support!",
+      "FIX: Resolved issue with scrolling on small screens.",
+      "IMP: Improved loading speed by 20%.",
+      "HOT: Fixed critical crash on Samsung devices."
+    ]
+  },
+  {
+    "version": "v1.2.2",
+    "date": "Current",
+    "title": "The Patch Notes Update",
+    "changes": [
+      "NEW: Added release notes button in Dev tab.",
+      "FIX: Optimized memory usage."
+    ]
+  }
+]
