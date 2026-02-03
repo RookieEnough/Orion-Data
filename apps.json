@@ -9579,5 +9579,30 @@
       "https://f-droid.org/repo/biz.binarysolutions.healthybatterycharging/en-US/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "elixer-browser",
+    "name": "Elixer Browser",
+    "description": "Elixir is a Chromium-based browser with full extension support for Android.\nInspired by Kiwi Browser, this project focuses on providing extension compatibility, unique UI improvements, and refining inefficient behaviors.",
+    "icon": "https://raw.githubusercontent.com/SF-FLAM/ElixirBrowser/main/assets/Elixir-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/SF-FLAM/ElixirBrowser",
+    "githubRepo": "SF-FLAM/ElixirBrowser",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.elixir.browser",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "SF-FLAM",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/SF-FLAM/ElixirBrowser/main/assets/Screenshot_0_Elixir_Browser.png",
+      "https://raw.githubusercontent.com/SF-FLAM/ElixirBrowser/main/assets/Screenshot_1_Elixir_Browser.png",
+      "https://raw.githubusercontent.com/SF-FLAM/ElixirBrowser/main/assets/Screenshot_2_Elixir_Browser.png"
+    ],
+    "releaseKeyword": ".apk"
   }
 ]
