@@ -9418,5 +9418,34 @@
       "https://apt.izzysoft.de/fdroid/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/03.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pipepipe",
+    "name": "PipePipe",
+    "description": "NewPipe, reimagined: faster, more stable, and packed with more features.\n\n** Beyond NewPipe **\n\n* SponsorBlock (YouTube & BiliBili)\n* ReturnYouTubeDislike\n* Bullet comments / Live Chats\n* Search filters\n* Search & sort in local playlists\n* Filter out unwanted items by keywords/channels/...\n* Music player mode & Background playing\n* Sleep timer\n* Fullscreen gestures\n* Login to watch restricted / premium contents\n* ... and many minor improvements",
+    "icon": "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/icon_CWQFN3-pZavxIDWYPYl4GHg-v7k6uCvk6PkmD9S8gSo=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/InfinityLoop1308/PipePipe",
+    "githubRepo": "InfinityLoop1308/PipePipe",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "InfinityLoop1309.NewPipeEnhanced",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "InfinityLoop1308",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/00-v2.png",
+      "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/01-v3.png",
+      "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/02-v3.png",
+      "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/03-v3.png",
+      "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/04-v3.png",
+      "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/05-v3.png",
+      "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/06-v3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
