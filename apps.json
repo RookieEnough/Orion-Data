@@ -9361,5 +9361,34 @@
       "https://raw.githubusercontent.com/jksalcedo/librefind/main/metadata/en-US/images/phoneScreenshots/profile.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "punch-hole-download-progress",
+    "name": "Punch hole download progress",
+    "description": "Xposed module that displays download progress as an animated ring around the camera cutout.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/hxreborn/punch-hole-download-progress",
+    "githubRepo": "hxreborn/punch-hole-download-progress",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "eu.hxreborn.phdp",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hxreborn",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/01_progress_early.png",
+      "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/02_progress_mid.png",
+      "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/03_progress_late.png",
+      "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/04_progress_complete.png",
+      "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/05_settings_appearance.png",
+      "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/06_settings_behavior.png",
+      "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/07_settings_about.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
