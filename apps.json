@@ -9472,5 +9472,32 @@
       "https://raw.githubusercontent.com/QuserH/Pic/main/Screenshot_20260203_040120_com.example.hikerview.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "messages",
+    "name": "Messages ",
+    "description": "Messages is an open source replacement to the stock messaging app on Android. It is a continuation of QKSMS.\n\nFeatures:-\n• Intuitive UI\n• Scheduled Messages\n• Message Backup\n• Message Blocking and Archiving\n• Voice Messages\n• Attachments of any type of file\n• Message Sorting\n• Delayed Sending\n• Automatic OTP Detection",
+    "icon": "https://f-droid.org/repo/org.prauga.messages/en-US/icon_nJgfQfBecFGupswkBxCJHE2IxpYgwMZZcHA0Ub8LyJE=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/PVOT-OSS/Messages",
+    "githubRepo": "PVOT-OSS/Messages",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.prauga.messages",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "PVOT-OSS",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/1.jpg",
+      "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/2.jpg",
+      "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/3.jpg",
+      "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
