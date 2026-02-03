@@ -9390,5 +9390,33 @@
       "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/07_settings_about.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "cutecalc",
+    "name": "CuteCalc",
+    "description": "CuteCalc is a cute and elegant calculator app for Android !",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/com.sosauce.cutecalc/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sosauce/CuteCalc",
+    "githubRepo": "sosauce/CuteCalc",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.sosauce.cutecalc",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sosauce",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/01.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/01.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/02.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/02.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/03.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/03.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
