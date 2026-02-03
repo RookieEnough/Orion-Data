@@ -9736,5 +9736,31 @@
       "https://raw.githubusercontent.com/gedoor/gedoor.github.io/master/static/img/legado/%E9%98%85%E8%AF%BB%E7%AE%80%E4%BB%8B6.jpg"
     ],
     "releaseKeyword": "universal"
+  },
+  {
+    "id": "skyemu",
+    "name": "SkyEmu",
+    "description": "SkyEmu is a low level GameBoy, GameBoy Color, Game Boy Advance, and DS emulator. Its primary focus is to preserve these great systems for future generations while providing a good user experience through a good mixture of tradeoffs of accuracy, performance, features and usability.",
+    "icon": "https://preview.redd.it/como-conecto-minha-conta-no-skyemu-v0-e0xm0j35ad0f1.png?width=512&format=png&auto=webp&s=b0929360752a694375d35ec28449d6c8a0a42be6",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/skylersaleh/SkyEmu",
+    "githubRepo": "skylersaleh/SkyEmu",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.sky.SkyEmu",
+    "category": "Emulator",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "skylersaleh",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/skylersaleh/SkyEmu/dev/tools/images/phone-portrait/select.png",
+      "https://raw.githubusercontent.com/skylersaleh/SkyEmu/dev/tools/images/phone-portrait/features.png",
+      "https://raw.githubusercontent.com/skylersaleh/SkyEmu/dev/tools/images/phone-portrait/controller.png",
+      "https://raw.githubusercontent.com/skylersaleh/SkyEmu/dev/tools/images/phone-portrait/features.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
