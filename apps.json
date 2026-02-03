@@ -9654,5 +9654,33 @@
       "https://raw.githubusercontent.com/aload0/Reef/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png"
     ],
     "releaseKeyword": "apk"
+  },
+    {
+    "id": "smart-launcher-revanced",
+    "name": "Smart Launcher Revanced",
+    "description": "Smart Launcher 6 is a launcher that has been working on improving its features since its original release in 2012 and has won numerous awards for the best app of the year in different years. With this prestige, the app allows you to enjoy your Android device like never before, thanks to a carefully customized experience for each user.\n\nPatches Applied:\n- Disable signature check\n- Enable Pro",
+    "icon": "https://play-lh.googleusercontent.com/LTjl2Y9zfla8bfoExjehM-aTGQW7ggO300Xy0PRTuczsnX2s-3w_PHTEURne9aQ1dVrz=s48-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Revanced-AutoBuilds",
+    "githubRepo": "RookieEnough/Revanced-AutoBuilds",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "ginlemon.flowerfree",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Revanced",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/B5--gd-ZrE_p9G-hAmMbwecscOeccyS-zOt6R0Yp9dMf5olqA4YQVD1q9ZH5vLfYUw=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/GICXRJQjv61iEcMPHbWCEiohbwXkPXsJCL2Rdmb9Q4Ui8CCyGBjFy_XBYA-P7eMyb5o=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/PWTmlLMY-pWxGMbYH3U63vfVJhxUEPjLM_AFYePS4aGDzhu-wX-GELblj2s4NOBW0rY=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/UC8nR7CskqGAeUmBFb6oW2kOzpE3dgEFyXd4mp3EVVCf_JlOACE_haywzrchxzo2nssL=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/Z1vVYfYmcT-NnykTqJsBiPS6aoHu8oCOL4kD_dJCXY12Bpsb21AW4sv97TCifEE6yZUI=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/kAmy8pNN4KYfrd553nnB8QIdZru6Uqa8u3jjOCdvLfRKATIgLxY0jsIg9IdcG3-yvl8=w526-h296-rw"
+    ],
+    "releaseKeyword": "smart_launcher"
   }
 ]
