@@ -9629,5 +9629,30 @@
       "https://play-lh.googleusercontent.com/VVzodXbJcJOjDu7NIAIBc-TcDDDYenpXfBuNeubwa8_nk33HIEYxubu-gI8N6nLOt0s=w5120-h2880-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "reef",
+    "name": "Reef",
+    "description": "Reef is an open-source Android app designed to help you reclaim your focus and build healthier digital habits. Block distracting apps, track your screen time with detailed analytics, and use proven productivity techniques like Pomodoro all wrapped in a beautiful Material You design.",
+    "icon": "https://raw.githubusercontent.com/aload0/Reef/main/Reef/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/aload0/Reef",
+    "githubRepo": "aload0/Reef",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.pranav.reef",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "aload0",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/aload0/Reef/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/aload0/Reef/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://raw.githubusercontent.com/aload0/Reef/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
