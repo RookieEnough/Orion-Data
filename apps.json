@@ -9447,5 +9447,30 @@
       "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/06-v3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "legado-with-md3",
+    "name": "Legado-with-MD3",
+    "description": "Legado with MD3 is a Material Design 3–styled refactor based on the open-source project 👉 Legado (阅读).",
+    "icon": "https://raw.githubusercontent.com/QuserH/Pic/main/2026/01/16/阅读.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/HapeLee/legado-with-MD3/tree/main",
+    "githubRepo": "HapeLee/legado-with-MD3",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.legato.kazusa",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "HapeLee",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/QuserH/Pic/main/Screenshot_20260203_035827_com.example.hikerview.jpg",
+      "https://raw.githubusercontent.com/QuserH/Pic/main/Screenshot_20260203_040110_com.example.hikerview.jpg",
+      "https://raw.githubusercontent.com/QuserH/Pic/main/Screenshot_20260203_040120_com.example.hikerview.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
