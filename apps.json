@@ -9709,5 +9709,32 @@
       "https://raw.githubusercontent.com/jay3-yy/BiliPai/main/docs/images/screenshot_preview_5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "sigma",
+    "name": "阅读Sigma",
+    "description": "Legado is a free and open source novel reader for Android.",
+    "icon": "https://raw.githubusercontent.com/gedoor/legado/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Luoyacheng/legado",
+    "githubRepo": "Luoyacheng/legado",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.legado.app.release",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Luoyacheng",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/gedoor/gedoor.github.io/master/static/img/legado/%E9%98%85%E8%AF%BB%E7%AE%80%E4%BB%8B1.jpg",
+      "https://raw.githubusercontent.com/gedoor/gedoor.github.io/master/static/img/legado/%E9%98%85%E8%AF%BB%E7%AE%80%E4%BB%8B2.jpg",
+      "https://raw.githubusercontent.com/gedoor/gedoor.github.io/master/static/img/legado/%E9%98%85%E8%AF%BB%E7%AE%80%E4%BB%8B3.jpg",
+      "https://raw.githubusercontent.com/gedoor/gedoor.github.io/master/static/img/legado/%E9%98%85%E8%AF%BB%E7%AE%80%E4%BB%8B4.jpg",
+      "https://raw.githubusercontent.com/gedoor/gedoor.github.io/master/static/img/legado/%E9%98%85%E8%AF%BB%E7%AE%80%E4%BB%8B6.jpg"
+    ],
+    "releaseKeyword": "universal"
   }
 ]
