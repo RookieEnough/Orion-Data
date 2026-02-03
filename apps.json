@@ -9655,7 +9655,7 @@
     ],
     "releaseKeyword": "apk"
   },
-    {
+  {
     "id": "smart-launcher-revanced",
     "name": "Smart Launcher Revanced",
     "description": "Smart Launcher 6 is a launcher that has been working on improving its features since its original release in 2012 and has won numerous awards for the best app of the year in different years. With this prestige, the app allows you to enjoy your Android device like never before, thanks to a carefully customized experience for each user.\n\nPatches Applied:\n- Disable signature check\n- Enable Pro",
@@ -9682,5 +9682,32 @@
       "https://play-lh.googleusercontent.com/kAmy8pNN4KYfrd553nnB8QIdZru6Uqa8u3jjOCdvLfRKATIgLxY0jsIg9IdcG3-yvl8=w526-h296-rw"
     ],
     "releaseKeyword": "smart_launcher"
+  },
+  {
+    "id": "bilipai",
+    "name": "BiliPai",
+    "description": "Native, Pure, Extensible — Redefining your Bilibili experience",
+    "icon": "https://raw.githubusercontent.com/QuserH/Pic/main/2026/01/16/BiliPai.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/jay3-yy/BiliPai/releases",
+    "repoUrl": "https://github.com/jay3-yy/BiliPai",
+    "githubRepo": "jay3-yy/BiliPai",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.android.purebilibili",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "jay3-yy",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/jay3-yy/BiliPai/main/docs/images/screenshot_preview_1.png",
+      "https://raw.githubusercontent.com/jay3-yy/BiliPai/main/docs/images/screenshot_preview_2.png",
+      "https://raw.githubusercontent.com/jay3-yy/BiliPai/main/docs/images/screenshot_preview_3.png",
+      "https://raw.githubusercontent.com/jay3-yy/BiliPai/main/docs/images/screenshot_preview_4.png",
+      "https://raw.githubusercontent.com/jay3-yy/BiliPai/main/docs/images/screenshot_preview_5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
