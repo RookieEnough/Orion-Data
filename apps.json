@@ -9690,7 +9690,7 @@
     "icon": "https://raw.githubusercontent.com/QuserH/Pic/main/2026/01/16/BiliPai.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "https://github.com/jay3-yy/BiliPai/releases",
+    "downloadUrl": "#",
     "repoUrl": "https://github.com/jay3-yy/BiliPai",
     "githubRepo": "jay3-yy/BiliPai",
     "gitlabRepo": "",
@@ -9735,7 +9735,7 @@
       "https://raw.githubusercontent.com/gedoor/gedoor.github.io/master/static/img/legado/%E9%98%85%E8%AF%BB%E7%AE%80%E4%BB%8B4.jpg",
       "https://raw.githubusercontent.com/gedoor/gedoor.github.io/master/static/img/legado/%E9%98%85%E8%AF%BB%E7%AE%80%E4%BB%8B6.jpg"
     ],
-    "releaseKeyword": "universal"
+    "releaseKeyword": "apk"
   },
   {
     "id": "skyemu",
@@ -9762,5 +9762,33 @@
       "https://raw.githubusercontent.com/skylersaleh/SkyEmu/dev/tools/images/phone-portrait/features.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ibs-paint-revanced",
+    "name": "Ibs Paint Revanced ",
+    "description": "ibis Paint is a popular and versatile drawing app downloaded more than 460 million times in total as a series, which provides over 47000 brushes, over 27000 materials, over 2100 fonts, 84 filters, 46 screentones, 27 blending modes, recording drawing processes, stroken\nPatches Applied:\n- Disabled change package name\n- Enable Prime membership",
+    "icon": "https://play-lh.googleusercontent.com/QcfhlXm32JDnj3WM2-TSL78ad99x4slovX4OzCSLSPU3uRN-mGXpKyM_yeXiewhz0Lk=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Revanced-AutoBuilds",
+    "githubRepo": "RookieEnough/Revanced-AutoBuilds",
+    "releaseKeyword": "ibs_paint",
+    "packageName": "jp.ne.ibis.ibispaintx.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Revanced ",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/KjfgitN0PxaWIc9SR0y3cebP0Jd_e_G60uZE_NSXpqnrzWMfa5bTlExxaTV47B9nrWEYb1jpBQJObIfMcX-xRpQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/1ykLwPhWJP_1CRoEfeVsV7sRN6YQV28Vm0fUIT3FuWinAfiJJPZLtgmm3o3yGu00klbLoWUKL13BFTSKPAgBP00=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/kHNr82olZY2GTW7W6LV76rkU0edTfIovoErKaU4mk-cRdxchgtNbmtW57qdhOHwxXhALJSHJdsUZB15bS9CKmGI=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/ezqj65P6eqUeNPyokehwU471iuKUzErRr9hiIExQom5fRl4qgu2FFonvG2w25j2KxmvZxHHlIzJ27wQ3R4AUVpw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/52oC3ZJvG6rubJ84QhDAkCfX3YUOEDj2KlkbyOuWOo3iXA6M5GkQdLfANrwGrnFis1z-9lTrxfzoV5TxCNKw2ZU=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/JZw2b4Ffi9fLGwCdvOyBRSh-oKLJhwNA6asjWG5ZmSxA17YmTubxkFQyoCRnWUncgpFqHX6axEVEeGDvx4VpKgE=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/5lAykUR6o2vYW6dExj1_MKJOLQ9lTIq3UH2BPr6WRt6M35N1YExMNS1kXOpChaVpTyvTw7DHulhh97_yyIPI=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/hlNbZMbLGwvwQVg2H-Nv0gjgSx1ggvPrXAm90HqXi1450fzyEklc3Xc33d1UrTbKcOnjyJ50VLn-_xiNcMeu=w1052-h592-rw"
+    ]
   }
 ]
