@@ -9790,5 +9790,39 @@
       "https://play-lh.googleusercontent.com/5lAykUR6o2vYW6dExj1_MKJOLQ9lTIq3UH2BPr6WRt6M35N1YExMNS1kXOpChaVpTyvTw7DHulhh97_yyIPI=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/hlNbZMbLGwvwQVg2H-Nv0gjgSx1ggvPrXAm90HqXi1450fzyEklc3Xc33d1UrTbKcOnjyJ50VLn-_xiNcMeu=w1052-h592-rw"
     ]
+  },
+  {
+    "id": "simple-keyboard",
+    "name": "Simple keyboard ",
+    "description": "An app for those who only need a keyboard and nothing more\nThis keyboard is created for those who only need a keyboard and nothing more.\n\nTo enable the keyboard:\n\n* Open \"Simple Keyboard\" from your launcher\n* Enable the Simple Keyboard (default system warning about tracking will be shown)\n* Switch to Simple Keyboard from current Input Method (differs between keyboards, usually long-press space)\n* To edit Simple Keyboard settings long-press \",\" or open system Settings, Languages & Input, Simple Keyboard.\n* You can enable/disable all the input methods in Settings, Languages & Input, Manage Keyboards (differs between phones)\n\nFeatures:\n\n* Small size (<1MB)\n* Adjustable keyboard height for more screen space\n* Number row\n* Swipe space to move pointer\n* Delete swipe\n* Custom theme colors\n* Minimal permissions (only Vibrate)\n* Ads-free\n\nFeatures it doesn’t have and probably will never have:\n\n* Emojis\n* GIFs\n* Spell checker\n* Swipe typing",
+    "icon": "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/icon_T5pp0k_s8W4dOKUnC7tidpw27SzS0186ruJ782IwcPc=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/rkkr/simple-keyboard",
+    "githubRepo": "rkkr/simple-keyboard",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "rkr.simplekeyboard.inputmethod",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rkkr",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/phoneScreenshots/01.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/phoneScreenshots/02.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/phoneScreenshots/03.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/phoneScreenshots/04.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/phoneScreenshots/05.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/phoneScreenshots/06.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/sevenInchScreenshots/08.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/sevenInchScreenshots/09.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/sevenInchScreenshots/10.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/tenInchScreenshots/06.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/tenInchScreenshots/07.png",
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/tenInchScreenshots/08.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
