@@ -10045,5 +10045,31 @@
       "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/Screenshot_9.jpg"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "audire",
+    "name": "Audire",
+    "description": "Identify music playing around you.",
+    "icon": "https://raw.githubusercontent.com/alexmercerind/audire/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/alexmercerind/audire",
+    "githubRepo": "alexmercerind/audire",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.alexmercerind.audire",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "alexmercerind",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/alexmercerind/audire/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+      "https://raw.githubusercontent.com/alexmercerind/audire/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+      "https://raw.githubusercontent.com/alexmercerind/audire/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg",
+      "https://raw.githubusercontent.com/alexmercerind/audire/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
