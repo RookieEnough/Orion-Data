@@ -9882,5 +9882,31 @@
       "https://raw.githubusercontent.com/inventory69/simple-notes-sync/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "hyper-bridge",
+    "name": "Hyper Bridge ",
+    "description": "Hyper Bridge bridges standard Android notifications into the pill-shaped UI around the camera cutout, offering a seamless, iOS-like experience on Xiaomi phones. Now with full theme customization and widget support.",
+    "icon": "https://raw.githubusercontent.com/D4vidDf/HyperBridge/master/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/D4vidDf/HyperBridge",
+    "githubRepo": "D4vidDf/HyperBridge",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.d4viddf.hyperbridge",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "D4vidDf",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/D4vidDf/HyperBridge/master/screenshots/home.png",
+      "https://raw.githubusercontent.com/D4vidDf/HyperBridge/master/screenshots/island_example.png",
+      "https://raw.githubusercontent.com/D4vidDf/HyperBridge/master/screenshots/theme_creator.png",
+      "https://raw.githubusercontent.com/D4vidDf/HyperBridge/master/screenshots/widget_picker.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
