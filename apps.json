@@ -9854,5 +9854,33 @@
       "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/mobile/Video.jpg",
       "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/mobile/Manga.jpg"
     ]
+  },
+  {
+    "id": "simple-notes-sync",
+    "name": "Simple Notes Sync",
+    "description": "Clean, offline-first notes with intelligent sync - simplicity meets smart synchronization.",
+    "icon": "https://raw.githubusercontent.com/inventory69/simple-notes-sync/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/inventory69/simple-notes-sync",
+    "githubRepo": "inventory69/simple-notes-sync",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.dettmer.simplenotes",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "inventory69",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/inventory69/simple-notes-sync/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/inventory69/simple-notes-sync/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/inventory69/simple-notes-sync/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/inventory69/simple-notes-sync/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/inventory69/simple-notes-sync/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/inventory69/simple-notes-sync/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
