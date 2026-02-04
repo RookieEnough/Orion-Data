@@ -9908,5 +9908,31 @@
       "https://raw.githubusercontent.com/D4vidDf/HyperBridge/master/screenshots/widget_picker.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "quick-upi",
+    "name": "Quick UPI",
+    "description": "Quick UPI ⚡\nStop fumbling. Start receiving.\n\nQuick UPI is the fastest way to request payments on Android. No more opening heavy banking apps, navigating three menus, and waiting for the \"Server Down\" message just to show your QR code.\n\nTwo ways to speed:\n\nTap the App Icon for standard access.\nSwipe down and tap the Quick Settings Tile for instant access anywhere.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/com.biohazard786.quickupi/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/BioHazard786/quick-upi",
+    "githubRepo": "BioHazard786/quick-upi",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.biohazard786.quickupi",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "BioHazard786",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/com.biohazard786.quickupi/en-US/phoneScreenshots/1.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.biohazard786.quickupi/en-US/phoneScreenshots/2.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.biohazard786.quickupi/en-US/phoneScreenshots/3.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.biohazard786.quickupi/en-US/phoneScreenshots/4.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
