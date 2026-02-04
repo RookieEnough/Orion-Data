@@ -10014,5 +10014,36 @@
       "https://raw.githubusercontent.com/RBN-Apps/Quick-Tile-Settings/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
     ],
     "releaseKeyword": "quick"
+  },
+  {
+    "id": "calculator-hide-files",
+    "name": "Calculator Hide Files",
+    "description": "The Calculator Hide File App is an innovative Android file-hiding app that disguises itself as a fully functional calculator. It helps you securely store private files and protect them with a hidden passcode. Photo , video , audio , documents HIDE under calculator.",
+    "icon": "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Binondi/Calculator-Hide-Files",
+    "githubRepo": "Binondi/Calculator-Hide-Files",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "devs.org.calculator",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Binondi",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/banner.png",
+      "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/Screenshot_1.jpg",
+      "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/Screenshot_2.jpg",
+      "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/Screenshot_3.jpg",
+      "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/Screenshot_4.jpg",
+      "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/Screenshot_5.jpg",
+      "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/Screenshot_6.jpg",
+      "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/Screenshot_7.jpg",
+      "https://raw.githubusercontent.com/Binondi/Calculator-Hide-Files/refs/heads/master/media/Screenshot_9.jpg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
