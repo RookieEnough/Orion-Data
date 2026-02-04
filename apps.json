@@ -9934,5 +9934,33 @@
       "https://apt.izzysoft.de/fdroid/repo/com.biohazard786.quickupi/en-US/phoneScreenshots/4.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "quick-search",
+    "name": "Quick Search",
+    "description": "A fast & powerful Android app that lets you search across apps, contacts, device files, device settings, web, and basic calculations from a single screen. Built with Kotlin and Jetpack Compose using Material 3 design.",
+    "icon": "https://raw.githubusercontent.com/teja2495/quick-search/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/teja2495/quick-search",
+    "githubRepo": "teja2495/quick-search",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.tk.quicksearch",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "teja2495",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/teja2495/quick-search/refs/heads/main/screenshots/image1.png",
+      "https://raw.githubusercontent.com/teja2495/quick-search/refs/heads/main/screenshots/image2.png",
+      "https://raw.githubusercontent.com/teja2495/quick-search/refs/heads/main/screenshots/image3.png",
+      "https://raw.githubusercontent.com/teja2495/quick-search/refs/heads/main/screenshots/image5.png",
+      "https://raw.githubusercontent.com/teja2495/quick-search/refs/heads/main/screenshots/image6.png",
+      "https://raw.githubusercontent.com/teja2495/quick-search/refs/heads/main/screenshots/image7.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
