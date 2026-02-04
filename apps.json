@@ -9824,5 +9824,35 @@
       "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/tenInchScreenshots/08.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "strumok",
+    "name": "Strumok",
+    "description": "A modern, CROSS-PLATFORM media streaming application that aggregates content from multiple sources into a single, high-performance interface. It offers an ad-free experience with a clean Material UI, focusing on speed and intuitive navigation.",
+    "icon": "https://raw.githubusercontent.com/strumok-app/strumok/18bed480b949cdd80a49a4600a7f7971f2155814/data/icons/app.cloud_hook.Strumok.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/strumok-app/strumok",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "strumok-app",
+    "officialSite": "https://github.com/strumok-app/strumok",
+    "screenshots": [
+      "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/desktop/Home.png",
+      "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/desktop/Collection.png",
+      "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/desktop/Details.png",
+      "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/desktop/Video.png",
+      "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/desktop/Manga.png",
+      "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/mobile/Home.jpg",
+      "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/mobile/Details.jpg",
+      "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/mobile/Video.jpg",
+      "https://raw.githubusercontent.com/strumok-app/strumok/refs/heads/main/data/screenshoots/mobile/Manga.jpg"
+    ]
   }
 ]
