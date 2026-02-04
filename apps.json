@@ -10071,5 +10071,30 @@
       "https://raw.githubusercontent.com/alexmercerind/audire/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "just-video-player",
+    "name": "Just (Video) Player",
+    "description": "Android video player based on Media3 (formerly ExoPlayer), compatible with Android 6+ and Android TV.\r\n\r\nIt uses ExoPlayer's ffmpeg extension with all its audio formats enabled (it can handle even special formats like AC3, EAC3, DTS, DTS HD, TrueHD etc.).\r\n\r\nIt properly syncs audio with video track when using Bluetooth earphones/speaker.",
+    "icon": "https://raw.githubusercontent.com/moneytoo/Player/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/moneytoo/Player",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "moneytoo",
+    "officialSite": "https://github.com/moneytoo/Player",
+    "screenshots": [
+      "https://raw.githubusercontent.com/moneytoo/Player/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/moneytoo/Player/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/moneytoo/Player/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://image2url.com/r2/default/files/1770224656720-46e1a64d-cf4f-4e28-a827-715a0b2ff71b.png"
+    ]
   }
 ]
