@@ -9962,5 +9962,31 @@
       "https://raw.githubusercontent.com/teja2495/quick-search/refs/heads/main/screenshots/image7.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "coon-gallery",
+    "name": "Coon Gallery",
+    "description": "Privacy-focused Android gallery with smart search support powered by metadata files and many other features. ",
+    "icon": "https://raw.githubusercontent.com/BOTPanzer/Coon-Gallery/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/BOTPanzer/Coon-Gallery",
+    "githubRepo": "BOTPanzer/Coon-Gallery",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.botpa.turbophotos",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "BOTPanzer",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/BOTPanzer/Coon-Gallery/refs/heads/main/screenshots/home.png",
+      "https://raw.githubusercontent.com/BOTPanzer/Coon-Gallery/refs/heads/main/screenshots/search.png",
+      "https://raw.githubusercontent.com/BOTPanzer/Coon-Gallery/refs/heads/main/screenshots/settings.png",
+      "https://raw.githubusercontent.com/BOTPanzer/Coon-Gallery/refs/heads/main/screenshots/sync.png"
+    ],
+    "releaseKeyword": "coon"
   }
 ]
