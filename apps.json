@@ -9988,5 +9988,31 @@
       "https://raw.githubusercontent.com/BOTPanzer/Coon-Gallery/refs/heads/main/screenshots/sync.png"
     ],
     "releaseKeyword": "coon"
+  },
+  {
+    "id": "quick-tile-settings",
+    "name": "Quick-Tile Settings",
+    "description": "Quick-Tile Settings is an Android application that provides customizable Quick Settings tiles for managing Private DNS and USB Debugging. It allows users to quickly toggle these settings and configure the behavior of each tile, including an auto-revert feature.\nIN SHORT - its for dns users , it allows users to stop dns with a tile in notification panel and also enable it in single click. ",
+    "icon": "https://raw.githubusercontent.com/RBN-Apps/Quick-Tile-Settings/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RBN-Apps/Quick-Tile-Settings",
+    "githubRepo": "RBN-Apps/Quick-Tile-Settings",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.rbn.qtsettings",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RBN-Apps",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/RBN-Apps/Quick-Tile-Settings/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/RBN-Apps/Quick-Tile-Settings/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/RBN-Apps/Quick-Tile-Settings/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/RBN-Apps/Quick-Tile-Settings/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
+    ],
+    "releaseKeyword": "quick"
   }
 ]
