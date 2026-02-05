@@ -10151,5 +10151,32 @@
       "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/7.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "astra-crypt",
+    "name": "Astra Crypt",
+    "description": "AstraCrypt - is a free, powerful and open-source encryption app that has everything you need to keep your data safe and secure.",
+    "icon": "https://raw.githubusercontent.com/gromif/AstraCrypt/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/gromif/AstraCrypt",
+    "githubRepo": "gromif/AstraCrypt",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nevidimka655.astracrypt",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "gromif",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/gromif/AstraCrypt/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/gromif/AstraCrypt/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/gromif/AstraCrypt/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/gromif/AstraCrypt/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/gromif/AstraCrypt/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "astracrypt"
   }
 ]
