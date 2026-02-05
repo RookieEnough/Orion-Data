@@ -10178,5 +10178,31 @@
       "https://raw.githubusercontent.com/gromif/AstraCrypt/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "astracrypt"
+  },
+  {
+    "id": "fluffy",
+    "name": "Fluffy",
+    "description": "A fast, modern file manager with powerful archive support and an Android TV–friendly UI.\n\nFeatures\n•Browse internal storage or any SAF folder\n•Create ZIP/7z; extract ZIP, 7z, TAR, TGZ, TBZ2, TXZ, APK/JAR\n•Encrypted archives: ZIP (AES) and 7z\n•Open archives like folders; extract selected paths\n•Background tasks\n•Android TV layout with DPAD/keyboard support\n•Compose UI, Material 3\nPermissions",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/app.fluffy/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/mlm-games/Fluffy",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "MLM Games",
+    "officialSite": "https://github.com/mlm-games/Fluffy",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/app.fluffy/en-US/phoneScreenshots/1.png",
+      "https://apt.izzysoft.de/fdroid/repo/app.fluffy/en-US/phoneScreenshots/2.png",
+      "https://apt.izzysoft.de/fdroid/repo/app.fluffy/en-US/phoneScreenshots/3.png",
+      "https://apt.izzysoft.de/fdroid/repo/app.fluffy/en-US/phoneScreenshots/4.png",
+      "https://apt.izzysoft.de/fdroid/repo/app.fluffy/en-US/phoneScreenshots/5.png"
+    ]
   }
 ]
