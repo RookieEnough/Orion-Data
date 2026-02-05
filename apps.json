@@ -10122,5 +10122,34 @@
       "https://apt.izzysoft.de/fdroid/repo/com.apkupdater/en-US/phoneScreenshots/04.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "goals-tracker-24-7-timeto-me",
+    "name": "Goals Tracker 24/7 - timeto.me",
+    "description": "The main feature of this app is goals.\n\nTap a goal to start a timer with the remaining time for that goal.\n\nTimer is running all the time, 24/7, even for sleep or breakfast. No stop option! To stop the current goal, you have to start the next one.\n\nYou can add a checklist for goals. Useful for morning/evening routines, work, exercises, etc.\n\nThis way I control my time and don't forget anything.\n\nTry to adapt it to your life.\n\nBest regards,\n\nIvan",
+    "icon": "https://f-droid.org/repo/me.timeto.app/en-US/icon_0ucTHMrHBG9WlfuTd20-8I9zNjbJdUO4oxYtIKv6nhU=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Medvedev91/timeto.me",
+    "githubRepo": "Medvedev91/timeto.me",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.timeto.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Medvedev91",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/1.jpg",
+      "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/2.jpg",
+      "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/3.jpg",
+      "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/4.jpg",
+      "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/5.jpg",
+      "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/6.jpg",
+      "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/7.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
