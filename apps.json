@@ -10096,5 +10096,31 @@
       "https://raw.githubusercontent.com/moneytoo/Player/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
       "https://image2url.com/r2/default/files/1770224656720-46e1a64d-cf4f-4e28-a827-715a0b2ff71b.png"
     ]
+  },
+  {
+    "id": "apk-updater",
+    "name": "Apk Updater",
+    "description": "APKUpdater is an open source tool that simplifies the process of finding updates for your installed apps.\nIt provides similar functionality to an app store, but instead of depending on a single source, it aggregates the results from APKMirror, Aptoide, F-Droid, IzzyOnDroid, APKPure, GitLab and GitHub.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/com.apkupdater/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/rumboalla/apkupdater",
+    "githubRepo": "rumboalla/apkupdater",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.apkupdater",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rumboalla",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/com.apkupdater/en-US/phoneScreenshots/01.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.apkupdater/en-US/phoneScreenshots/02.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.apkupdater/en-US/phoneScreenshots/03.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.apkupdater/en-US/phoneScreenshots/04.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
