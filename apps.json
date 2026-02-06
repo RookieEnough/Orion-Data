@@ -10204,5 +10204,30 @@
       "https://apt.izzysoft.de/fdroid/repo/app.fluffy/en-US/phoneScreenshots/4.png",
       "https://apt.izzysoft.de/fdroid/repo/app.fluffy/en-US/phoneScreenshots/5.png"
     ]
+  },
+  {
+    "id": "autodnd",
+    "name": "AutoDND",
+    "description": "Just a simple tool to turn on/off DND(Do Not Disturb) automatically when using specified apps.\r\n\r\nEver feel disturbed by notifications and maybe phone calls during gameplays?\r\n\r\nThis app could be your savior! It uses Android accessibility service to be aware of the current app that you're using, and turn on DND automatically, now you don't have to toggle DND by yourself every time you want to be undisturbed!",
+    "icon": "https://f-droid.org/repo/moe.dic1911.autodnd/en-US/icon_S14jNtZPiTRVVH4V6v42X-3NVF9yRKmfocKNTtxfkr8=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dic1911/android_AutoDND",
+    "githubRepo": "dic1911/android_AutoDND",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "moe.dic1911.autodnd",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dic1911",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/moe.dic1911.autodnd/en-US/phoneScreenshots/1.jpg",
+      "https://f-droid.org/repo/moe.dic1911.autodnd/en-US/phoneScreenshots/2.jpg",
+      "https://f-droid.org/repo/moe.dic1911.autodnd/en-US/phoneScreenshots/3.jpg"
+    ],
+    "releaseKeyword": "AutoDND"
   }
 ]
