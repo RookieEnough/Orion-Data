@@ -10229,5 +10229,33 @@
       "https://f-droid.org/repo/moe.dic1911.autodnd/en-US/phoneScreenshots/3.jpg"
     ],
     "releaseKeyword": "AutoDND"
+  },
+  {
+    "id": "libre-sudoku",
+    "name": "Libre Sudoku",
+    "description": "LibreSudoku - Sudoku app for android built with Kotlin + Jetpack Compose + Material3",
+    "icon": "https://raw.githubusercontent.com/kaajjo/LibreSudoku/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/kaajjo/LibreSudoku",
+    "githubRepo": "kaajjo/LibreSudoku",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.kaajjo.libresudoku",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "kaajjo",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/kaajjo/LibreSudoku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/kaajjo/LibreSudoku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/kaajjo/LibreSudoku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/kaajjo/LibreSudoku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/kaajjo/LibreSudoku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+      "https://raw.githubusercontent.com/kaajjo/LibreSudoku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg"
+    ],
+    "releaseKeyword": "libresudoku"
   }
 ]
