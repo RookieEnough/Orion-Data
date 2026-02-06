@@ -10257,5 +10257,33 @@
       "https://raw.githubusercontent.com/kaajjo/LibreSudoku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg"
     ],
     "releaseKeyword": "libresudoku"
+  },
+  {
+    "id": "paranoids-pal-privacy-lock",
+    "name": "Paranoid's Pal - Privacy Lock",
+    "description": "It’s important to lock your Android device when you aren’t using it so that nobody else can get access to your apps and data. Features such as - instant lock with shake , quick tile settings , shortcuts ,modern UI , works offline and respects your privacy.",
+    "icon": "https://f-droid.org/repo/com.paranoid.privacylock/en-US/icon_0hxjUaIglXNwYsZ2ctIcTb8Eo-3E2tQEcQa7-F2nKNw=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock",
+    "githubRepo": "hardalgorithm/ParanoidsPal-PrivacyLock",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.paranoid.privacylock",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hardalgorithm",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/refs/heads/master/images/banners/feature.png",
+      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/refs/heads/master/images/screens/image1.png",
+      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/refs/heads/master/images/screens/image2.png",
+      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/refs/heads/master/images/screens/image3.png",
+      "https://f-droid.org/repo/com.paranoid.privacylock/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.paranoid.privacylock/en-US/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
