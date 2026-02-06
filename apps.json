@@ -10285,5 +10285,31 @@
       "https://f-droid.org/repo/com.paranoid.privacylock/en-US/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "photok",
+    "name": "Photok",
+    "description": "Photok is a free and open-source gallery app for Android. Imported media files are encrypted on the device using AES-256 encryption and are only decrypted in memory when the app is in use. This distinguishes Photok from other encrypted gallery apps.",
+    "icon": "https://raw.githubusercontent.com/leonlatsch/Photok/refs/heads/develop/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/leonlatsch/Photok",
+    "githubRepo": "leonlatsch/Photok",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.leonlatsch.photok",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "leonlatsch",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/leonlatsch/Photok/refs/heads/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/leonlatsch/Photok/refs/heads/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/leonlatsch/Photok/refs/heads/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/leonlatsch/Photok/refs/heads/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg"
+    ],
+    "releaseKeyword": "photok"
   }
 ]
