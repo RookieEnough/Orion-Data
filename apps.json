@@ -10311,5 +10311,32 @@
       "https://raw.githubusercontent.com/leonlatsch/Photok/refs/heads/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg"
     ],
     "releaseKeyword": "photok"
+  },
+  {
+    "id": "de1984",
+    "name": "De1984",
+    "description": "De1984 is a powerful Firewall and Package Manager for Android devices with multiple backend support and features for maximum flexibility and performance.",
+    "icon": "https://f-droid.org/repo/io.github.dorumrr.de1984/en-US/icon_Sg3uYmdLGUExU-rYZ_PbLpmDjOFqHBsyq_MlT2yBQXc=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dorumrr/de1984",
+    "githubRepo": "dorumrr/de1984",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.dorumrr.de1984",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dorumrr",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dorumrr/de1984/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/dorumrr/de1984/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/dorumrr/de1984/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/dorumrr/de1984/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/dorumrr/de1984/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "de1984"
   }
 ]
