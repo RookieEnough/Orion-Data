@@ -10558,5 +10558,33 @@
       "https://github.com/komikku-app/anikku/blob/master/.github/readme-images/screens.png"
     ],
     "releaseKeyword": "Anikku"
+  },
+  {
+    "id": "koler",
+    "name": "Koler",
+    "description": "A dialer, but it's simple and looks pretty good honestly!\n\nA phone dialer app with unique, clean, simple, functional and minimal design.\n\nCopylefted libre MVVM Android app.\nDesigned with the user in mind.\nBelieve us we want to make it good, we use it ourselves.\",",
+    "icon": "https://raw.githubusercontent.com/Chooloo/koler/master/koler/src/main/ic_launcher-web.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Chooloo/koler",
+    "githubRepo": "Chooloo/koler",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.chooloo.www.koler",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Roei Edri",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1770482879292-779a1a30-870a-4067-899e-0903a039021f.png",
+      "https://image2url.com/r2/default/images/1770482909140-fe72cd47-ebd5-4c3d-8413-adb9b87287b8.png",
+      "https://image2url.com/r2/default/images/1770482934488-312ed8a1-254b-4e1b-86d7-e9997d763cb1.png",
+      "https://image2url.com/r2/default/images/1770482962856-b3896358-5bd6-4e38-931c-d792e6580dc1.png",
+      "https://image2url.com/r2/default/images/1770482985573-86286c0c-8f3f-4c1d-b79c-cd75297aefbd.png",
+      "https://image2url.com/r2/default/images/1770482768306-4af53576-f83c-4396-aa04-33d0af808709.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
