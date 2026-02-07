@@ -10367,5 +10367,33 @@
       "https://image2url.com/r2/default/files/1770399246183-dcba4ac6-a825-4c8e-85fd-f2f1a41d446d.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "lumo",
+    "name": "Lumo",
+    "description": "Lumo is the privacy-first AI assistant created by Proton, the team behind encrypted email, VPN, password manager, and cloud storage trusted by over 100 million people. Lumo helps you stay productive, curious, and informed — without ever compromising your privacy.",
+    "icon": "https://play-lh.googleusercontent.com/4Bhm86glDwIkBQmAJfoUkEJNiZ9oWfmkv_fP4bhUzRvZ_1aaxGVwywzwVNJ3u87w41Y=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ProtonLumo/android-lumo",
+    "githubRepo": "ProtonLumo/android-lumo",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.proton.android.lumo",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Proton",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/jZoMEoO1uYCrTy_pCfutCaUk957QJoYibXV-VqozztPgogx5n5_rvBdFTYDJR9RCy5E=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/pILco9GfeFm0DEtlLfm9fQAOY_aJVTky6-C9o96YLdcNbgR0uj6zlpVG3xosiCBmDhvP=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/DocHy6e9Q8YY246YFCQpwisUd6U6OvVSKaGYLYdn3EteALv4o8dJZm-l4hngURSM5A=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/pT6lcDx4Yb2f33AWa9V-RkJ_ivcCE5k__GKt5gEUTWP8tQkkgsweCZmU8tf7bBpk5ePM=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/tapq3FIvNrS0bjWLT27tsbpIsElG8aP9aTKmLXkm7fx_ExmOUBOHdUJNgKJkCoqGR0Fu=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/r1DRS5ks5WBKIu7TpCOBGEl1JU7sit8LugfRGQwDfQNT9t6596C3BT1GMXpq-wUbxjI=w5120-h2880-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
