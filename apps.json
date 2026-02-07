@@ -10451,5 +10451,29 @@
       "https://raw.githubusercontent.com/CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "min-browser",
+    "name": "Min Browser",
+    "description": "Min is a fast, minimal browser that protects your privacy. It includes an interface designed to minimize distractions, and features such as:\n\n- Full-text search for visited pages\n- Ad and tracker blocking\n- Automatic reader view\n- Tasks (tab groups)\n- Bookmark tagging\n- Password manager integration\n- Dark theme",
+    "icon": "https://github.com/minbrowser/min/blob/master/icons/icon256.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/minbrowser/min",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "PalmerAL",
+    "officialSite": "https://github.com/minbrowser/min",
+    "screenshots": [
+      "https://camo.githubusercontent.com/be975dd21a9ad0365cc99a48932b34e8c7c65c3c80181f951ca6dc1713ef45f8/687474703a2f2f6d696e62726f777365722e6f72672f746f75722f696d672f7365617263686261725f6475636b6475636b676f5f616e73776572732e706e67",
+      "https://camo.githubusercontent.com/55d9a21ebd06fb371ba7b95eaad860812d41fb33434d6faeda43f107bc617177/687474703a2f2f6d696e62726f777365722e6f72672f746f75722f696d672f7461736b732e706e67",
+      "https://user-images.githubusercontent.com/10314059/53312382-67ca7d80-387a-11e9-9ccc-88ac592c9b1c.png"
+    ]
   }
 ]
