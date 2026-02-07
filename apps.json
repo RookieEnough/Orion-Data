@@ -10475,5 +10475,35 @@
       "https://camo.githubusercontent.com/55d9a21ebd06fb371ba7b95eaad860812d41fb33434d6faeda43f107bc617177/687474703a2f2f6d696e62726f777365722e6f72672f746f75722f696d672f7461736b732e706e67",
       "https://user-images.githubusercontent.com/10314059/53312382-67ca7d80-387a-11e9-9ccc-88ac592c9b1c.png"
     ]
+  },
+  {
+    "id": "photon-camera",
+    "name": "Photon camera",
+    "description": "Android Camera that uses Enhanced Image Processing.\n\nPhotonCamera uses advanced algorithms for capturing and processing raw images which give unmatched HDR outputs. PhotonCamera is currently in beta stage and is having rapid development.\n\n",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/eszdman/PhotonCamera",
+    "githubRepo": "eszdman/PhotonCamera",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.particlesdevs.photoncamera",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Particles devs",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/phoneScreenshots/00.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/phoneScreenshots/01.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/phoneScreenshots/02.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/phoneScreenshots/03.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/phoneScreenshots/04.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/phoneScreenshots/05.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/phoneScreenshots/06.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/phoneScreenshots/07.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
