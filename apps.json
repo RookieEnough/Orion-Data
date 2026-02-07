@@ -10423,5 +10423,33 @@
       "https://raw.githubusercontent.com/FoedusProgramme/Omni/refs/heads/master/assets/screenshot_6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "passwords",
+    "name": "Passwords",
+    "description": "A Materiel 3 Password Manager. Import your CSV Passwords and your passwords are getting imported. You can copy usernames and passwords. You can access the app via biometric authentication or by entering your master password.",
+    "icon": "https://raw.githubusercontent.com/CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive",
+    "githubRepo": "CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.css_apps_m3.password_manager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "CodeSpire-Solutions",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://raw.githubusercontent.com/CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+      "https://raw.githubusercontent.com/CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+      "https://raw.githubusercontent.com/CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png",
+      "https://raw.githubusercontent.com/CodeSpire-Solutions/Password-Manager-Materiel-3-Expressive/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
