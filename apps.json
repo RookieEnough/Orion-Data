@@ -10338,5 +10338,34 @@
       "https://raw.githubusercontent.com/dorumrr/de1984/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "de1984"
+  },
+  {
+    "id": "weblibre",
+    "name": "WebLibre",
+    "description": "WebLibre is an independent PRIVACY-FOCUSED BROWSER for Android built on Mozilla's Gecko Engine and Mozilla Android Components. It offers a fully-featured web browser with extension support, enhanced by powerful privacy features, local AI assistance (opt-in), and advanced tab organization tools.",
+    "icon": "https://f-droid.org/repo/eu.weblibre.gecko/en-US/icon_lKf8iNqwl8plVz8TXhh8GUUtXw5-P9ENLWy8WGjfXQc=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FaFre/WebLibre",
+    "githubRepo": "FaFre/WebLibre",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "eu.weblibre.gecko",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FaFre",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1770399162701-585bb53c-1316-49e3-9521-a581562ba54f.png",
+      "https://image2url.com/r2/default/files/1770399177472-c2b19b18-97a2-42ae-9123-b8c21799a205.png",
+      "https://image2url.com/r2/default/files/1770399197337-4583786d-bf5d-46d1-a77f-6975a95fd772.png",
+      "https://image2url.com/r2/default/files/1770399207564-00108ba9-1fd7-4d10-b5dd-ee4d1800a68a.png",
+      "https://image2url.com/r2/default/files/1770399216973-72b81b93-0490-43d7-8839-5581eaa1d887.png",
+      "https://image2url.com/r2/default/files/1770399227802-23a25a2c-362b-4f29-a457-821c46ee73c9.png",
+      "https://image2url.com/r2/default/files/1770399246183-dcba4ac6-a825-4c8e-85fd-f2f1a41d446d.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
