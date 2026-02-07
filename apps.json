@@ -10532,5 +10532,31 @@
       "https://f-droid.org/repo/com.sosauce.cutemusic/en-US/phoneScreenshots/screenshot4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "anikku",
+    "name": "Anikku",
+    "description": "Free and open source anime watcher for Android\nFull-featured player, based on Aniyomi.\nDiscover and watch anime, cartoons, series, and more – easier than ever on your Android device.",
+    "icon": "https://raw.githubusercontent.com/komikku-app/anikku/refs/heads/master/.idea/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/komikku-app/anikku",
+    "githubRepo": "komikku-app/anikku",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.anikku",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "komikku-app",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1770494753067-ee68164c-764b-4678-9359-5bef4afa88fd.jpg",
+      "https://image2url.com/r2/default/images/1770494790942-d8bcce45-a589-414c-a882-7b8067377be6.jpg",
+      "https://image2url.com/r2/default/images/1770494813862-e0795e4b-9120-4cac-8e48-c9271bbd3fde.jpg",
+      "https://github.com/komikku-app/anikku/blob/master/.github/readme-images/screens.png"
+    ],
+    "releaseKeyword": "Anikku"
   }
 ]
