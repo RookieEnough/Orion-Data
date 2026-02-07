@@ -10395,5 +10395,33 @@
       "https://play-lh.googleusercontent.com/r1DRS5ks5WBKIu7TpCOBGEl1JU7sit8LugfRGQwDfQNT9t6596C3BT1GMXpq-wUbxjI=w5120-h2880-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "omni",
+    "name": "Omni",
+    "description": "A useful and handy Android minimalist toolbox.\n• Features :\n- Up-to-date Material 3 design\n- Lightweight, no spyware or bloat\n- Compass with latitude & longitude\n- Spirit Level\n- Ruler\n- Strength adjustable flashlight",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/uk.akane.omni/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FoedusProgramme/Omni",
+    "githubRepo": "FoedusProgramme/Omni",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "uk.akane.omni",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Akane foundation",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/FoedusProgramme/Omni/refs/heads/master/assets/Cover.png",
+      "https://raw.githubusercontent.com/FoedusProgramme/Omni/refs/heads/master/assets/screenshot_1.png",
+      "https://raw.githubusercontent.com/FoedusProgramme/Omni/refs/heads/master/assets/screenshot_2.png",
+      "https://raw.githubusercontent.com/FoedusProgramme/Omni/refs/heads/master/assets/screenshot_3.png",
+      "https://raw.githubusercontent.com/FoedusProgramme/Omni/refs/heads/master/assets/screenshot_4.png",
+      "https://raw.githubusercontent.com/FoedusProgramme/Omni/refs/heads/master/assets/screenshot_6.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
