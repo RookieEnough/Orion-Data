@@ -10505,5 +10505,32 @@
       "https://apt.izzysoft.de/fdroid/repo/com.particlesdevs.photoncamera/en-US/phoneScreenshots/07.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "cutemusic",
+    "name": "CuteMusic",
+    "description": "CuteMusic is a cute and powerful offline music player for Android!\nPlay any song from anywhere just by sharing the audio file to the app without downloading it!\nEasy search across all your music/albums/artists!\nVery fast and snappy!\nNo unnecessary permissions needed!\nMaterial 3 Expressive deisgn!\nBlacklist Folders!\nBeautiful landscape UI!\nTag Editor!\nPlaylists support!\nLoad and persist songs from anywhere using Android's S.A.F!\nPart of the CuteApps ecosystem!\nMakes you a cutie!",
+    "icon": "https://raw.githubusercontent.com/sosauce/CuteMusic/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sosauce/CuteMusic",
+    "githubRepo": "sosauce/CuteMusic",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.sosauce.cutemusic",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sosauce",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.sosauce.cutemusic/en-US/phoneScreenshots/screenshot0.png",
+      "https://f-droid.org/repo/com.sosauce.cutemusic/en-US/phoneScreenshots/screenshot1.png",
+      "https://f-droid.org/repo/com.sosauce.cutemusic/en-US/phoneScreenshots/screenshot2.png",
+      "https://f-droid.org/repo/com.sosauce.cutemusic/en-US/phoneScreenshots/screenshot3.png",
+      "https://f-droid.org/repo/com.sosauce.cutemusic/en-US/phoneScreenshots/screenshot4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
