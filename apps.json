@@ -10613,5 +10613,32 @@
       "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/refs/heads/master/screenshots/favDeals.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "shiru",
+    "name": "Shiru",
+    "description": "Manage your personal media library, organize your collection, and stream your content in real time, no waiting required!\n\nShiru is designed to enhance your personal media experience with a feature-rich environment and full mobile support. It provides a seamless way to organize, track, and play content you legally own.\n\nShiru lets you enjoy your collection in real time, with fast playback, high-quality video, and a clean, ad-free interface.",
+    "icon": "https://raw.githubusercontent.com/RockinChaos/Shiru/refs/heads/master/.github/docs/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RockinChaos/Shiru",
+    "githubRepo": "RockinChaos/Shiru",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "watch.shiru",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RockinChaos",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1770528335405-f701015b-911e-4506-867c-0dad9a3cdfb7.jpg",
+      "https://image2url.com/r2/default/images/1770528352426-1f675693-cdc0-4efd-811e-fe71d87dec54.jpg",
+      "https://image2url.com/r2/default/images/1770528368325-a5c13c92-d832-4154-8d21-f2742f1bde9f.jpg",
+      "https://image2url.com/r2/default/images/1770528384147-467174ed-5b25-48f2-8167-5e2616d4bce7.jpg",
+      "https://image2url.com/r2/default/images/1770528397756-4de3b45c-5b03-4aa2-ba51-d6ee473837cc.jpg"
+    ],
+    "releaseKeyword": "android-Shiru"
   }
 ]
