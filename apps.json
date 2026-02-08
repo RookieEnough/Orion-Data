@@ -10586,5 +10586,32 @@
       "https://image2url.com/r2/default/images/1770482768306-4af53576-f83c-4396-aa04-33d0af808709.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "g-dealz",
+    "name": "G Dealz",
+    "description": "An ad-free, open-source app to help gamers discover the best PC game deals and free game giveaways across popular stores like Steam, Epic Games Store, GOG, Fanatical, and more.",
+    "icon": "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/refs/heads/master/actual_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Rajkumarbhakta/GDealz",
+    "githubRepo": "Rajkumarbhakta/GDealz",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.rkbapps.gdealz",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Rajkumarbhakta",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/refs/heads/master/screenshots/home.png",
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/refs/heads/master/screenshots/freeGames.png",
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/refs/heads/master/screenshots/search.png",
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/refs/heads/master/screenshots/gameDetails.png",
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/refs/heads/master/screenshots/favDeals.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
