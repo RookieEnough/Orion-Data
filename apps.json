@@ -10456,7 +10456,7 @@
     "id": "min-browser",
     "name": "Min Browser",
     "description": "Min is a fast, minimal browser that protects your privacy. It includes an interface designed to minimize distractions, and features such as:\n\n- Full-text search for visited pages\n- Ad and tracker blocking\n- Automatic reader view\n- Tasks (tab groups)\n- Bookmark tagging\n- Password manager integration\n- Dark theme",
-    "icon": "https://github.com/minbrowser/min/blob/master/icons/icon256.png",
+    "icon": "https://raw.githubusercontent.com/minbrowser/min/refs/heads/master/icons/icon256.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "https://github.com/minbrowser/min",
@@ -10670,5 +10670,31 @@
       "https://play-lh.googleusercontent.com/5ZoLREmmgGdO2RNF2Nm1MY0C1BXuBUbDqYy0z1u5Gi7x4VqWUwxOC4Xp9aXuUCFk7h4=w5120-h2880-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "podcast-addict",
+    "name": "Podcast Addict",
+    "description": "Welcome to Podcast Addict, the ultimate podcast player designed specifically for Android users! Our app is here to revolutionize your podcast listening experience, offering unparalleled features and powerful tools to make discovering, organizing, and enjoying podcasts a breeze.\n\nPatches Applied : Enable Premium.",
+    "icon": "https://play-lh.googleusercontent.com/m6FeLOkUfP8qTZNXKFSSI8_exI-SlGJRcIArl3gRm3-VninL7l1RdYlPkkf2CfbBnA=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Revanced-AutoBuilds",
+    "githubRepo": "RookieEnough/Revanced-AutoBuilds",
+    "releaseKeyword": "podcast",
+    "packageName": "com.bambuna.podcastaddict",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Revanced",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/wL0N-cUO8IxYlXavTL1hvX6ektCEjEzNsZy9gw5fFZ2_y0plU0cYnJI6ndJQ8Q-d8ZxD=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/jzqvj2rA_sggHhlx8JoECTscLuA_XfV142jkFR75l69CP1fCDXJ-tvdHt2nYBOGZcCw=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/qyjH7b85aN0jsJwnHSp-9b448oDPth6wcqdATEAmyeAFEYB9B8U1ZSN_VDZFGH5_gAs=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/uS_nEkJ81U6178K56voxY5ZVlbesYEfUNRg4OXpTlOtG8OVnIhpHyVViiaaCv3lw8Vk=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/kOWBc4EQmjpiZNFtdhCbZGDilD19lV_bxPXJwuO0ITzuzW6BuLSz1tbmdUpaC6z8xTg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/1inuP4wvClptjI5R0bomy8V6dy_J5pS8phSORqSfbHuBE-Nqd7wqH6E-xXF6cO77_f3R=w526-h296-rw"
+    ]
   }
 ]
