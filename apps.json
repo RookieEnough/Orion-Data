@@ -10640,5 +10640,35 @@
       "https://image2url.com/r2/default/images/1770528397756-4de3b45c-5b03-4aa2-ba51-d6ee473837cc.jpg"
     ],
     "releaseKeyword": "android-Shiru"
+  },
+  {
+    "id": "notesnook",
+    "name": "Notesnook",
+    "description": "A fully open source & end-to-end encrypted note taking app.\n\nNotesnook is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. To ensure zero knowledge principles, Notesnook encrypts everything on your device using XChaCha20-Poly1305 & Argon2.\n\nNotesnook is our proof that privacy does not (always) have to come at the cost of convenience. We aim to provide users peace of mind & 100% confidence that their notes are safe and secure. The decision to go fully open source is one of the most crucial steps towards that.",
+    "icon": "https://raw.githubusercontent.com/streetwriters/notesnook/refs/heads/master/resources/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/streetwriters/notesnook",
+    "githubRepo": "streetwriters/notesnook",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.streetwriters.notesnook",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Streetwriters",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/24gw1OMwuc4Hd7z2w0bxStoW3ercjMFITMzU-V2UngNXOh-c0QYo-zJCZd1bRbELMQ=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/tNPblQZfyhBKPcQy_TNAnCN3NIKMzRYh_2tZl4uXlfRe_IrhvZJddhNTwz4orhk-0O5e=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/06vyfGZxBthfOs-1JB6e1aXlpHwXI-bW6MDA2juPTYt6ZlpSy9oJud9fPW-QU1vf5cI=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/9wEYRwJRE0ceZQ_Pnaxx3oZ_WKMhpLmqyGTey4zp80YFZj1jF3PC_wMrUuR0lkoyHNE=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/D4PjdUee5VgRAb3YsYHjpFaRuyHuk-KhIMLamicVCm8nLmres_yS-_hc9o7SNRrt7q-F=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/I6SrzCfGuCKXwcGMNZWFnAPWwOScGfC_yns9Dzp1adSGad-JMMBsVzMYW4OyBjQT3gQ=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/ha6c5wHceiuyC7vhz9WRIIGZ_IKBgW3Ez46uK0xdG9iVce01B-pdVDhbDS89X89QEvc=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/5ZoLREmmgGdO2RNF2Nm1MY0C1BXuBUbDqYy0z1u5Gi7x4VqWUwxOC4Xp9aXuUCFk7h4=w5120-h2880-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
