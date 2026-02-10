@@ -10721,5 +10721,30 @@
       "https://camo.githubusercontent.com/27f697c2ca3f657512f68ca0c91fb66e01c9263f5f170691cacf88eeb45c9ebd/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f637a456e347554334a61382f322e6a7067"
     ],
     "releaseKeyword": "arm64"
+  },
+  {
+    "id": "studylog",
+    "name": "StudyLog",
+    "description": "StudyLog is a comprehensive Android application designed to help students manage their academic life. It represents the perfect synergy of robust functionality and sleek, modern design.\nFeatures:\n\nCourse Management: Organize your academic schedule by adding and managing courses. Keep track of course details and related materials in one place.\nAssignment & Note Tracking: Create and view notes and tasks linked to specific courses. Never miss a deadline or forget an important detail.\nGrade Tracking: Record your grades and monitor your academic performance over time with the Stats dashboard.\nFocus Timer: Built-in Pomodoro timer to help you stay focused during study sessions. Run focus timers in the background with persistent notifications.\nScreen Time Tracker: Monitor your device usage to ensure you are maintaining a healthy balance between study and leisure.\nCalendar Integration: Seamlessly syncs with your device calendar to keep your schedule up to date.\nSmart Reminders: Schedule exact alarm notifications to remind you of upcoming tasks and study sessions.\nCustomizable Tweaks: Personalize the app appearance with dynamic color palettes and theme settings.\nHome Screen Widgets: Access your schedule and quick stats directly from your home screen using Glance widgets.\nCloud Sync: Secure authentication via Google Sign-In and data synchronization using Firebase.",
+    "icon": "https://raw.githubusercontent.com/Tareq4322/StudyLog-Releases/c15f434e791ae47f87ac690639b9a028093277ab/Icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Tareq4322/StudyLog-Releases",
+    "githubRepo": "Tareq4322/StudyLog-Releases",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.tareq.studylog",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Tareq4322",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Tareq4322/StudyLog-Releases/c15f434e791ae47f87ac690639b9a028093277ab/app_preview.png",
+      "https://raw.githubusercontent.com/Tareq4322/StudyLog-Releases/c15f434e791ae47f87ac690639b9a028093277ab/app_preview.png",
+      "https://raw.githubusercontent.com/Tareq4322/StudyLog-Releases/c15f434e791ae47f87ac690639b9a028093277ab/app_preview.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
