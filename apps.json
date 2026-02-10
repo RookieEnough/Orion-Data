@@ -10746,5 +10746,31 @@
       "https://raw.githubusercontent.com/Tareq4322/StudyLog-Releases/c15f434e791ae47f87ac690639b9a028093277ab/app_preview.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "gloom",
+    "name": "Gloom",
+    "description": "Material You Github client\nGitHub reimagined with Material You\nForked version of https://github.com/MateriiApps/Gloom\nOriginal version doesn't have any release. It had artifacts, however, those are unavailable now. Which is why I just released a pre release version. ",
+    "icon": "https://raw.githubusercontent.com/ifritraen/Gloom/refs/heads/main/app/desktop/resources/icon-windows.ico",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ifritraen/Gloom",
+    "githubRepo": "ifritraen/Gloom",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.materii.gloom",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ifritraen",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ifritraen/Gloom/main/.github/images/Home.png",
+      "https://raw.githubusercontent.com/ifritraen/Gloom/main/.github/images/Explore.png",
+      "https://raw.githubusercontent.com/ifritraen/Gloom/main/.github/images/Profile.png",
+      "https://raw.githubusercontent.com/ifritraen/Gloom/main/.github/images/Repo.png"
+    ],
+    "releaseKeyword": "Gloom"
   }
 ]
