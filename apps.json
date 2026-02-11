@@ -10772,5 +10772,30 @@
       "https://raw.githubusercontent.com/ifritraen/Gloom/main/.github/images/Repo.png"
     ],
     "releaseKeyword": "Gloom"
+  },
+  {
+    "id": "yukimi",
+    "name": "Yukimi",
+    "description": "Yet Another Manga reader app on Android. Continuing the success of Kotatsu; everything is free, freedom!\nYAKA (Yet Another Kotatsu App) is an application for Android 6.0  devices, based on the original Nightly application under the project name \"Yumemi\". It was created from the need to use Android phone to read Manga / Comic / Doujinshi",
+    "icon": "https://raw.githubusercontent.com/YakaTeam/.github/main/profile/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/YakaTeam/artifacts",
+    "githubRepo": "YakaTeam/artifacts",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.koitharu.kotatsu.nightly",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "YakaTeam",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1770738602301-846625ea-efc1-473a-9860-b25ef37cf7d0.jpg",
+      "https://image2url.com/r2/default/images/1770738621178-117c5868-e474-4943-8af8-ab5194f6c6ea.jpg",
+      "https://image2url.com/r2/default/images/1770738637149-f8a5ad5d-3796-4c4e-8c84-784b8b1e2a2c.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
