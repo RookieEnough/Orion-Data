@@ -10934,5 +10934,37 @@
       "https://image2url.com/r2/default/images/1770809820280-628b3009-6259-4189-a78d-f1788634f4f7.jpg"
     ],
     "releaseKeyword": "betteropenwith"
+  },
+  {
+    "id": "birday",
+    "name": "birday",
+    "description": "An open source app to remember birthdays and events without having to rely on apps like Facebook or Google Calendar or set alarms manually.",
+    "icon": "https://f-droid.org/repo/com.minar.birday/en-US/icon_9dUPtWnTfw6DIgLXF5NWD3F7npS89-CJ7N_sIdwZ0oo=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/m-i-n-a-r/birday",
+    "githubRepo": "m-i-n-a-r/birday",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app:Birday package:com.minar.birday Launcher:com.minar.birday.activities.MainActivity",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "m-i-n-a-r",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png",
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png",
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/07.png",
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/08.png",
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/09.png",
+      "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/10.png"
+    ],
+    "releaseKeyword": "Universal"
   }
 ]
