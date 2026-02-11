@@ -10904,5 +10904,35 @@
       "https://raw.githubusercontent.com/davidtakac/prognoza/refs/heads/dev/images/widgets_light.png"
     ],
     "releaseKeyword": "prognoza"
+  },
+  {
+    "id": "betteropenwith",
+    "name": "BetterOpenWith",
+    "description": "Better Open With makes Android's \"Complete action using\" dialog smarter.\n\nWith so many great Android apps available, Better Open With saves you from having to choose a single default app handler or constantly picking between \"Only once\" and \"Always\".\n\nDesigned to mimic Android's default dialog, Better Open With shows a familiar popup whenever you open a link, image, PDF, or other file type. All compatible apps are listed, just like the system dialog.\n\nThe difference is that the popup only appears for a short time (5 seconds by default and fully customizable). If you do nothing, your preferred app automatically opens. If you want something else, simply tap another app before the timer runs out.\n\nUnlike similar apps, no extra clicks are required. Just wait for your preferred app to launch or select a different one if needed. Set Better Open With as the default handler for the file types you want and let it work for you.\n\nCustomization options include:\n\n• Grid or list view\n• Adjustable text size\n• Icon only mode\n• Light and dark themes\n• More options planned\n\nBetter Open With is useful if:\n\n• You switch between browsers but usually have a preferred one\n• You mostly view PDFs, photos, or files with one app but occasionally edit them with another\n• You want video links to open in a player, but sometimes prefer apps for downloading or Chromecast\n\nBetter Open With is completely free, contains no ads, and requires no permissions.",
+    "icon": "https://play-lh.googleusercontent.com/O7_xOajvxy8jiDVDrQDtDdPMFb5Vh4YmJKULiZw9iKkoRJw39vFJRq0YlohvAU0UwA=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ifritraen/BetterOpenWith",
+    "githubRepo": "ifritraen/BetterOpenWith",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.aboutmycode.betteropenwith",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Giorgi Dalakishvili",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1770809753854-0307f47b-4ea4-49aa-ab48-7272ad79bf81.jpg",
+      "https://image2url.com/r2/default/images/1770809766023-ee3dd525-7d01-4427-85bd-f99acbc8dfd1.jpg",
+      "https://image2url.com/r2/default/images/1770809776077-abf3070a-7a05-432f-9832-49ea36cace65.jpg",
+      "https://image2url.com/r2/default/images/1770809786653-21387460-82ea-4992-9bda-0a768c46c790.jpg",
+      "https://image2url.com/r2/default/images/1770809796382-e82f3cfd-a175-4d0f-a59e-d1981c6ec94f.jpg",
+      "https://image2url.com/r2/default/images/1770809804049-dfce07e7-14bc-4410-9c91-5a28c09972e9.jpg",
+      "https://image2url.com/r2/default/images/1770809811451-d9508be6-4423-4d17-bd07-2b1158684878.jpg",
+      "https://image2url.com/r2/default/images/1770809820280-628b3009-6259-4189-a78d-f1788634f4f7.jpg"
+    ],
+    "releaseKeyword": "betteropenwith"
   }
 ]
