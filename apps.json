@@ -10965,7 +10965,7 @@
       "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/09.png",
       "https://raw.githubusercontent.com/m-i-n-a-r/birday/master/fastlane/metadata/android/en-US/images/phoneScreenshots/10.png"
     ],
-    "releaseKeyword": "Universal"
+    "releaseKeyword": "apk"
   },
   {
     "id": "harmoni",
@@ -10995,6 +10995,6 @@
       "https://github.com/user-attachments/assets/f91072ab-298a-48a6-8459-1eee994081bb",
       "https://github.com/user-attachments/assets/6ad0c64b-559b-4d13-b1db-0841b5b96e80"
     ],
-    "releaseKeyword": "Universal "
+    "releaseKeyword": "apk"
   }
 ]
