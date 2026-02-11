@@ -10876,5 +10876,33 @@
       "https://image2url.com/r2/default/files/1770795752626-680ead5e-e6f8-4e2e-82b5-5bfeb2fd0447.jpg"
     ],
     "releaseKeyword": "Med"
+  },
+  {
+    "id": "prognoza",
+    "name": "Prognoza",
+    "description": "Libre weather app with widgets and offline support.\n\nFeatures:\r\nMultiple weather data providers\r\nWeather for today and coming days\r\nApp color based on:\r\nCurrent weather\r\n(Android 12+) System color\r\nDark and light theme\r\nMultiple measurement units\r\nWidgets\r\nWorks offline\r\nDoes not access your location.",
+    "icon": "https://raw.githubusercontent.com/davidtakac/prognoza/refs/heads/dev/images/app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/davidtakac/prognoza",
+    "githubRepo": "davidtakac/prognoza",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "hr.dtakac.prognoza",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "davidtakac",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/davidtakac/prognoza/refs/heads/dev/images/rain_dark.png",
+      "https://raw.githubusercontent.com/davidtakac/prognoza/refs/heads/dev/images/cloudy_dark.png",
+      "https://raw.githubusercontent.com/davidtakac/prognoza/refs/heads/dev/images/widgets_dark.png",
+      "https://raw.githubusercontent.com/davidtakac/prognoza/refs/heads/dev/images/rain_light.png",
+      "https://raw.githubusercontent.com/davidtakac/prognoza/refs/heads/dev/images/cloudy_light.png",
+      "https://raw.githubusercontent.com/davidtakac/prognoza/refs/heads/dev/images/widgets_light.png"
+    ],
+    "releaseKeyword": "prognoza"
   }
 ]
