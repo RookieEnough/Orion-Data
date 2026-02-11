@@ -10797,5 +10797,31 @@
       "https://image2url.com/r2/default/images/1770738637149-f8a5ad5d-3796-4c4e-8c84-784b8b1e2a2c.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "colai",
+    "name": "ColAI",
+    "description": "ColAI is an AI hub that provides unified access to leading AI services (ChatGPT, Claude, DeepSeek, Grok, Gemini, Perplexity) with a focus on speed, privacy, and true multi-account isolation.",
+    "icon": "https://s6.imgcdn.dev/Y7twaw.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Ujwal223/ColAI",
+    "githubRepo": "Ujwal223/ColAI",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ujwal.colai",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Ujwal",
+    "officialSite": "",
+    "screenshots": [
+      "https://s6.imgcdn.dev/Y7fpQB.jpg",
+      "https://s6.imgcdn.dev/Y7tDSu.jpg",
+      "https://s6.imgcdn.dev/Y7tYeL.jpg",
+      "https://s6.imgcdn.dev/Y7tjca.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
