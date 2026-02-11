@@ -10851,5 +10851,30 @@
       "https://image2url.com/r2/default/files/1770796993665-2d841771-882d-4aec-9dfb-34c41ba5c86b.png"
     ],
     "releaseKeyword": "remind"
+  },
+  {
+    "id": "med",
+    "name": "med",
+    "description": "Med helps you keep track of your medicines and medical history with ease. You can create fixed custom events via Quick Actions for immediate logging or save specific custom events when needed. The scheduling is highly flexible, allowing you to save medicines with recurrence set to daily, specific days of the week, or a fully custom schedule. The setup process is intuitive and fast. Additionally, Med includes an integrated in-app update system to ensure you are always running the latest version.",
+    "icon": "https://raw.githubusercontent.com/FeDeveloper95/Med/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FeDeveloper95/Med",
+    "githubRepo": "FeDeveloper95/Med",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.fedeveloper95.med",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FeDeveloper95",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1770795752626-680ead5e-e6f8-4e2e-82b5-5bfeb2fd0447.jpg",
+      "https://image2url.com/r2/default/files/1770795734636-ee1d8ba8-e517-40d0-80d7-ff947e8a5e85.jpg",
+      "https://image2url.com/r2/default/files/1770795752626-680ead5e-e6f8-4e2e-82b5-5bfeb2fd0447.jpg"
+    ],
+    "releaseKeyword": "Med"
   }
 ]
