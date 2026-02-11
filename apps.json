@@ -10823,5 +10823,33 @@
       "https://s6.imgcdn.dev/Y7tjca.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "remindme",
+    "name": "RemindMe!",
+    "description": "Have you found yourself in a situation where you wanted a strong reminder to something someday in the future?!\nA reminder wouldn't really do since it would just give you a notification, an e-mail, or a small pling which can get lost in the abyss of notifications we receive every day.\nHave you thought, 'Wish I could set an alarm for a future day/time'?\n\nDon't worry, RemindMe! Got you covered.",
+    "icon": "https://raw.githubusercontent.com/VishnuSanal/RemindMe/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/VishnuSanal/RemindMe",
+    "githubRepo": "VishnuSanal/RemindMe",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.vishnu.remindme",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "VishnuSanal",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/VishnuSanal/RemindMe/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/VishnuSanal/RemindMe/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.vishnu.remindme/en-US/phoneScreenshots/3.png",
+      "https://image2url.com/r2/default/files/1770796959317-729249a5-ef1f-4c72-89b7-943f7f18c091.png",
+      "https://image2url.com/r2/default/files/1770796977223-8178ad1e-8c42-4feb-857d-1b76fd16ba6e.png",
+      "https://image2url.com/r2/default/files/1770796993665-2d841771-882d-4aec-9dfb-34c41ba5c86b.png"
+    ],
+    "releaseKeyword": "remind"
   }
 ]
