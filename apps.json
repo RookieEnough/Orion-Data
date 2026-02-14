@@ -10996,5 +10996,35 @@
       "https://github.com/user-attachments/assets/6ad0c64b-559b-4d13-b1db-0841b5b96e80"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "nl.jknaapen.fladder",
+    "name": "Fladder",
+    "description": "A cross-platform Jellyfin Frontend built on top of Flutter.",
+    "icon": "https://raw.githubusercontent.com/DonutWare/Fladder/e6a01cb9c84788fe27bba70225f4af911606ca41/icons/fladder_icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/DonutWare/Fladder",
+    "githubRepo": "DonutWare/Fladder",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "nl.jknaapen.fladder",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "DonutWare",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/5C3WC533ZYDB3fgxpkyr2lBsF7t2TT7Xgv_jllPiLb0CoFewgwcIBAq3T0dryUQP3YRory4mGpl9iCJV06KYYw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/cEa_k8YbEjkReTCTgY0Q-xgLtKCs7RRbrTvNFM0mKHGxJ9KY81SmRLddynL-OaXG4MEsBGmJHj2YtM9H1g19HQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/woIwap-H9e8dka4v6aRQ42CTT-IyZe2xhNGsHlqk8yuB6oMzGg1F3MJzL00Oh0W_J0-k6uPRa0N3PQ_L0VWyScg=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/LL9vL8wjIcRiBD9gJwHHlwD2tyeERTjfe8ntQ6fmcq7-OV1rLp5x3T6Oql7eWWKmp2SoCTku2sOd4Kyvsx3a65Y=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/Kl-ldbNKQgNpy5Px1NTQT7KU4UzOuGLHja1s_A_ZlN8pq_T_1fjyuX_NSoAu8g4esjiF8QRKpEF62HPJvkh2Ng=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/x-7aMebutPdhzRGRy1bTvWh09ukY7EmbWy2ZA-eoT782N60KXFnO8qDrggtG5lRdagml_zU25xag8M8WVI-Y1g=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/ZXm34k9Jl5OlAhY0o8F9_TzVf-RrSivOw_BYQryrx3SKfgilwiur_dgWwMqA9Trz29cRBjjnQsTbTVqyGKOGwA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/poLyB-Tbku9dxdfhHMQHVd8KtriTzB95lL1fDm9d4lDob6TQBwZnogdrrv2vg2gEtd3hvvRElVwPj-IhXj5L=w1052-h592-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
