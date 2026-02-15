@@ -11026,5 +11026,30 @@
       "https://play-lh.googleusercontent.com/poLyB-Tbku9dxdfhHMQHVd8KtriTzB95lL1fDm9d4lDob6TQBwZnogdrrv2vg2gEtd3hvvRElVwPj-IhXj5L=w1052-h592-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "mussifly",
+    "name": "Mussifly ",
+    "description": "🎻 Mussifly v4.4.0stable Update 🚀\n\n🔍liquid glass theme is stable !\n\n⚙️Added Theme\nCustomisation \n\n👤Added Profile tab in bottom bar.\n⚙️Added short cuts..\n⚙️Fixed lyrics issues (beta)\n☁️ Cloud Playlist Sync – Your\n playlists are safely stored in the cloud. Log in anytime and get your music back, even after data loss.\n\n🔐 Google Sign-In (Firebase) – Secure and fast login with reliable cloud backup.\n\n🎧 Synced Downloads – Downloads stay linked to your account, offline songs remain playable after re-login.\n\n📶 Offline Playback – Enjoy your music without internet.\n\n⚡ More Stable Streaming – Smoother playback and better performance.\n\n💯Added 3 theme style and player layout.\n\nUpdate now & keep your music safe forever ",
+    "icon": "https://raw.githubusercontent.com/skhub-tech/mussifly/main/public/logo_bg.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/skhub-tech/mussifly",
+    "githubRepo": "skhub-tech/mussifly",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "Com.musifly.android",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Sahitya",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/skhub-tech/mussifly/main/public/screenshot-center.jpg",
+      "https://raw.githubusercontent.com/skhub-tech/mussifly/main/public/screenshot-left.jpg",
+      "https://raw.githubusercontent.com/skhub-tech/mussifly/main/public/screenshot-right.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
