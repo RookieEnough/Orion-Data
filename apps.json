@@ -6356,7 +6356,7 @@
   {
     "id": "proton-mail-revanced",
     "name": "Proton Mail Revanced",
-    "description": "Proton VPN ReVanced refers to a modified or patched version of the official Proton VPN Android app, created using the ReVanced framework, which aims to unlock premium features (like ad-blocking with NetShield, multiple server locations) for free on Android devices.\n\nPatches Applied:\n- Remove 'Sent from' signature\n- Remove free accounts limit",
+    "description": "Keep your conversations private. Proton Mail is encrypted email from Switzerland. Used by millions worldwide, our all-new email app protects your communications and has everything you need to easily manage your inbox. Proton Mail offers encrypted email, which makes it virtually impossible for anyone to read it except the sender and the recipient.\n\nPatches Applied:\n- Remove 'Sent from' signature\n- Remove free accounts limit",
     "icon": "https://play-lh.googleusercontent.com/lTYn9-xTiMjcbklN0bHBnNs17ChOkWP5SVU5se-GC7XWBLph_o4Ne7U2IMyu14GLIHFM=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
