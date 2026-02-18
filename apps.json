@@ -6356,7 +6356,7 @@
   {
     "id": "proton-mail-revanced",
     "name": "Proton Mail Revanced",
-    "description": "Proton Mail ReVanced is a patched version of the official Proton Mail app (package ch.protonmail.android), using official ReVanced patches. It applies two main patches: Remove 'Sent from' signature (eliminates the automatic 'Sent from Proton Mail Android' footer in outgoing emails) and Remove free accounts limit (removes the restriction allowing only 2 free accounts to be logged in simultaneously, enabling more concurrent logins). These are the confirmed, actively maintained patches—no ad removal or premium unlock (such as unlimited storage, custom domains, or advanced features) is available, as Proton Mail has no ads in the free tier and premium is server-side enforced.Key Limitations and Risks",
+    "description": "Proton VPN ReVanced refers to a modified or patched version of the official Proton VPN Android app, created using the ReVanced framework, which aims to unlock premium features (like ad-blocking with NetShield, multiple server locations) for free on Android devices.\n\nPatches Applied:\n- Remove 'Sent from' signature\n- Remove free accounts limit",
     "icon": "https://play-lh.googleusercontent.com/lTYn9-xTiMjcbklN0bHBnNs17ChOkWP5SVU5se-GC7XWBLph_o4Ne7U2IMyu14GLIHFM=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
