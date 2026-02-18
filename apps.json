@@ -11078,5 +11078,31 @@
       "https://play-lh.googleusercontent.com/Xdbl6Jjrv4wSjnatl-UqFy2_s_k0hsceniQNJ360RXAZETWxUHoaO17OOS5wJUvo8AEP=w526-h296-rw",
       "https://play-lh.googleusercontent.com/1JBdsIj_uYsAH3Vx6Ihbi2cxjuyJvMLzkzs8TwxqBmrYrYNnwXvvSX0lGqCMm4uKzBU=w526-h296-rw"
     ]
+  },
+  {
+    "id": "com.termux",
+    "name": "Termux",
+    "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+    "icon": "https://play-lh.googleusercontent.com/m3oqSZCwmitiZ-Im-CQu_rqT5eLHilOp5IudBynv3COJUumFzuQaP2dgTDxRL_03f4x2=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/termux/termux-app",
+    "githubRepo": "termux/termux-app",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.termux",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "termux",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/6bceRPjMRf_boUzYdY0HN-UeV_yhnwN2fKDxTgOc4AX0zXc6Xjq0ZALZv5ubem3GODk=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/efc4QE6HxgB_C4um7R5C9vCh_NpLeyXGf_PeKamJidVdcmmbGRIEuhwW2ZLIEJT4Tw=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/zt7oMyeenTfaKbhaThIxpfmRyV0gKfa_982e7Prb9e4gEIHU8u7SyKJM28ghU0XUHJjY=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/kf55rCMJMIWMZAvHIoINyWR6aN7xpenJEIsTktEJ03lYa_bDDnEqIWLw9xXnWn83ZBQ=w526-h296-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
