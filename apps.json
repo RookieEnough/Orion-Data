@@ -1070,7 +1070,7 @@
   {
     "id": "proton-vpn",
     "name": "ProtonVPN Revanced",
-    "description": "Proton VPN ReVanced refers to a modified or patched version of the official Proton VPN Android app, created using the ReVanced framework, which aims to unlock premium features (like ad-blocking with NetShield, multiple server locations) for free on Android devices.",
+    "description": "Proton VPN ReVanced refers to a modified or patched version of the official Proton VPN Android app, created using the ReVanced framework, which aims to unlock premium features (like ad-blocking with NetShield, multiple server locations) for free on Android devices.\n\nPatches Applied:\n- Unlock Split Tunneling\n- Remove server change delay",
     "icon": "https://img.utdstc.com/icon/00b/6d5/00b6d5cc4c624da15854d93a953c21b1d15ea40bfb4b8a1400e8e1abed363fd2:200",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -11051,5 +11051,32 @@
       "https://raw.githubusercontent.com/skhub-tech/mussifly/main/public/screenshot-right.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "wps-office",
+    "name": "WPS Office Revanced",
+    "description": "WPS Office is a powerful office suite designed to help you create, edit, read and manage documents efficiently. It supports Word documents, PDF files, Excel spreadsheets and PowerPoint presentations, making it a reliable document editor and document reader for work, school, and business.\n\nPatches Applied:\n- Disable anti-tamper checks\n- Enable Pro",
+    "icon": "https://play-lh.googleusercontent.com/DUohbTj-FKR_48Dav1c-1QZTSo6D0CzVNSO28RYhC2AH8_3B93AO3lTF3S2PKPQHeQY=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Revanced-AutoBuilds",
+    "githubRepo": "RookieEnough/Revanced-AutoBuilds",
+    "releaseKeyword": "wps",
+    "packageName": "cn.wps.moffice_eng",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Revanced",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/RRmxJhrhFQTxcXyQiA17OoWb_fGQvaXp0BSOXftu85genfmHPUKKytOQWdQYrt0e-cCE=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/eOZ10YLXKgxJe4IyiRYHIbIa8oh21YZFAqrDklDFZFDwwdosYEG-g1h1UetSCMBWbVU=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/WT7R5-7SSOKSmIyuqrrR44NfG4aJalJlNLRraOKQsfXgNwB2QAYRQ39PZIluI2rQWw=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/IaXCxkUDk5TthrYFPzrkrKWb81CedUeztoY79G1i3Ou9LExlBehYqzjD5YZvwdulJOTK=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/sdkOvdDbbJ5bXOFAqjMwiMuBkg-8okF8w2k_FqzJVEYHBTe0rzK3QSkeeNYyLpbTjz_E=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/AXxFO5M8_NwfF4DiAX3hUTgUpD1zYiIi4x4wK1ayNmozzXiQMiqUzPaMAiaqN1AUZT0=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/Xdbl6Jjrv4wSjnatl-UqFy2_s_k0hsceniQNJ360RXAZETWxUHoaO17OOS5wJUvo8AEP=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/1JBdsIj_uYsAH3Vx6Ihbi2cxjuyJvMLzkzs8TwxqBmrYrYNnwXvvSX0lGqCMm4uKzBU=w526-h296-rw"
+    ]
   }
 ]
