@@ -10701,7 +10701,7 @@
     "id": "winlator",
     "name": "Winlator",
     "description": "Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64",
-    "icon": "https://github.com/brunodev85/winlator/blob/main/logo.png",
+    "icon": "https://static.wikia.nocookie.net/logo_editing/images/5/50/Winlator.webp/revision/latest?cb=20260107033101",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -10720,7 +10720,7 @@
       "https://camo.githubusercontent.com/2ff63a684eebdf0d3644f0d03239be04bf458b9f7dab158ee8ef575eb77024ae/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f394534776e4b66324f73492f322e6a7067",
       "https://camo.githubusercontent.com/27f697c2ca3f657512f68ca0c91fb66e01c9263f5f170691cacf88eeb45c9ebd/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f637a456e347554334a61382f322e6a7067"
     ],
-    "releaseKeyword": "arm64"
+    "releaseKeyword": "apk"
   },
   {
     "id": "studylog",
