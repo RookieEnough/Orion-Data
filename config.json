@@ -6,14 +6,14 @@
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
   "notice": {
-    "show": true,
-    "id": "notice-update3",
-    "title": "Orion 1.2.1 Hotfix",
-    "message": "A Powerful Hotfix for 1.2.0. Here are the highlights:\n\n🛡️ Debolater\nIts now more powerful and accurate\n\n🛠️ Minor Bug Fixes\nFaster App Syncing\nSmarter Release Parsing\nBalanced Cooldowns\nUI Lock Fix\n\nIf you love Orion, please Star the Repo or 'Fuel the Code' in the Dev tab to keep the servers running!"
+    "id": "notice-v1.2.2",
+    "title": "Orion v1.2.2 Live 🚀",
+    "message": "Performance & Infrastructure Update. Here are the highlights:\n\n⚡ Nuclear Performance\nDebounced Search\nThrottled Polling\nFaster Startup\n\n🏗️ Modern Core\nGradle 8 & Java 17\nOptimized Memory\n\n🛠️ Critical Fixes\nQueue Integrity\nSmart Cleanup\nNotification Deep-Links\n\nIf you love Orion, please Star the Repo or 'Fuel the Code' in the Dev tab!",
+    "show": true
   },
 
-  "latestStoreVersion": "1.2.1",
-  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.2.1/app-release.apk",
+  "latestStoreVersion": "1.2.2",
+  "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.2.2/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "socials": {
