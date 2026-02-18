@@ -1,22 +1,27 @@
 [
   {
-    "version": "v1.3.0",
-    "date": "Upcoming",
-    "title": "The Cloud Update",
-    "changes": [
-      "NEW: Added remote release notes support!",
-      "FIX: Resolved issue with scrolling on small screens.",
-      "IMP: Improved loading speed by 20%.",
-      "HOT: Fixed critical crash on Samsung devices."
-    ]
-  },
-  {
     "version": "v1.2.2",
     "date": "Current",
-    "title": "The Patch Notes Update",
+    "title": "Performance & Stability Update",
     "changes": [
-      "NEW: Added release notes button in Dev tab.",
-      "FIX: Optimized memory usage."
+      "NEW: Added Release Notes history button in Developer Menu.",
+      "IMP: Enhanced VPN/AdBlock detection feedback in Donation Hub.",
+      "FIX: Notification tap now opens the correct app (stale closure fix).",
+      "FIX: Version comparison now correctly handles prerelease tags (e.g. beta.1).",
+      "FIX: File cleanup only forgets successfully deleted files, preventing data loss on failure.",
+      "FIX: Download polling no longer uses stale callback references.",
+      "FIX: Auto-update no longer re-triggers downloads for already-queued apps.",
+      "FIX: isMounted ref is now properly cleared on native platform unmount.",
+      "FIX: Removed redundant condition in verification loop.",
+      "FIX: Platform tab visibility guard now correctly prevents hiding all tabs.",
+      "FIX: Build code versions no longer incorrectly split into dotted format.",
+      "FIX: Haptic feedback only triggers on native platforms, preventing web errors.",
+      "IMP: Removed unused String.prototype.hashCode polyfill from AppDetail.",
+      "IMP: Added security documentation for client-side HMAC salt.",
+      "IMP: Implemented debounced worker filtering for smoother search typing.",
+      "IMP: Throttled download polling interval to 1500ms for better CPU/Battery efficiency.",
+      "IMP: Added manual Vite chunking for vendor and capacitor libraries to speed up initial load.",
+      "IMP: Memoized global modal state and stabilized key hook references in App.tsx."
     ]
   }
 ]
