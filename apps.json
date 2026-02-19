@@ -11104,5 +11104,32 @@
       "https://play-lh.googleusercontent.com/kf55rCMJMIWMZAvHIoINyWR6aN7xpenJEIsTktEJ03lYa_bDDnEqIWLw9xXnWn83ZBQ=w526-h296-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "cromite",
+    "name": "Cromite",
+    "description": "Cromite a Bromite fork with ad blocking and privacy enhancements; take back your browser!\nCromite is available for Android arm64-v8a, arm32-v7a and x86_64, Android 10 and above, Windows and Linux 64bit.",
+    "icon": "https://image2url.com/r2/default/files/1771514632297-5afdb980-8488-46fe-bff1-69cfa1ef5fb4.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/uazo/cromite",
+    "githubRepo": "uazo/cromite",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.cromite.cromite",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "uazo",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771514751775-8acc264b-862b-4fa8-936b-3385c21a9a7e.png",
+      "https://image2url.com/r2/default/files/1771514770385-0cd4ceb6-e50a-4873-837d-3549accbcc05.png",
+      "https://image2url.com/r2/default/files/1771514782863-0f380031-92fe-4107-88fc-f9ec4dd79877.png",
+      "https://image2url.com/r2/default/files/1771514794821-649f72f9-c539-4975-8916-008eca70cbd6.png",
+      "https://image2url.com/r2/default/files/1771514808198-f110e5cd-2264-4b09-8233-ee4f4fca33b1.png"
+    ],
+    "releaseKeyword": "ChromePublic"
   }
 ]
