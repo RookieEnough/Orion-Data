@@ -11239,5 +11239,32 @@
       "https://raw.githubusercontent.com/MathieuDvv/Nboard/refs/heads/main/docs/promo/emoji-keyboard.png"
     ],
     "releaseKeyword": "NBoard"
+  },
+  {
+    "id": "astronia",
+    "name": "Astronia",
+    "description": "Astronia is a lightweight and modern M3U8 video player for Android, built with Material Design 3. It provides a clean and intuitive interface for watching IPTV live streams anytime, anywhere.",
+    "icon": "https://raw.githubusercontent.com/antoniegil/Astronia/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/antoniegil/Astronia",
+    "githubRepo": "antoniegil/Astronia",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.antoniegil.astronia",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "antoniegil",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/antoniegil/Astronia/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/antoniegil/Astronia/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/antoniegil/Astronia/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/antoniegil/Astronia/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/antoniegil/Astronia/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "Astronia "
   }
 ]
