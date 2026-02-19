@@ -11346,5 +11346,30 @@
       "https://image2url.com/r2/default/files/1771507752840-0c2f45e9-4216-44ea-99c8-786c2043d1e0.jpg"
     ],
     "releaseKeyword": "paperknife"
+  },
+  {
+    "id": "dns-xs",
+    "name": "DNS XS",
+    "description": "DNS XS is a modern Android application that allows you to test and compare the performance of various DNS servers. Find the fastest and most reliable DNS servers for your internet connection with ease.",
+    "icon": "https://raw.githubusercontent.com/code3-dev/DNS-XS/refs/heads/master/app/src/main/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/code3-dev/DNS-XS",
+    "githubRepo": "code3-dev/DNS-XS",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.pira.dnsxs",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "code3-dev",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771508515523-8950fd24-ad66-4306-85ec-29d744bbd08f.png",
+      "https://image2url.com/r2/default/files/1771508527566-83a97a0b-d7bb-4086-b6c1-d059a0815a84.png",
+      "https://image2url.com/r2/default/files/1771508537280-24e5811c-8dda-4cd2-bcc5-9f56e78ee357.png"
+    ],
+    "releaseKeyword": "DNSXS"
   }
 ]
