@@ -11187,5 +11187,31 @@
       "https://image2url.com/r2/default/files/1771512081492-b1d46912-c80a-4edf-8570-bdf85da36583.jpg"
     ],
     "releaseKeyword": "Molly"
+  },
+  {
+    "id": "npatch",
+    "name": "NPatch",
+    "description": "Rootless implementation of LSPosed framework, integrating Xposed API by inserting dex and so into the target APK. Fork of LSPatch. Join its telegram group for more information and updates.",
+    "icon": "https://image2url.com/r2/default/files/1771512605569-52e99798-079b-4188-9c86-ec43ae293be1.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/7723mod/NPatch",
+    "githubRepo": "7723mod/NPatch",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.lsposed.npatch",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "7723mod",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771512682282-7eb87eba-df2e-4d11-886b-d802b96155fa.jpg",
+      "https://image2url.com/r2/default/files/1771512702317-43670241-d390-4f8e-98fa-8c5708fb7c6f.jpg",
+      "https://image2url.com/r2/default/files/1771512752708-7aebde0b-ce82-41ae-a359-ef23f33e174f.jpg",
+      "https://image2url.com/r2/default/files/1771512766155-b04d5ce3-9f68-4b76-a62d-514df6660ce7.jpg"
+    ],
+    "releaseKeyword": "NPatch"
   }
 ]
