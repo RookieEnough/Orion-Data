@@ -11160,5 +11160,32 @@
       "https://raw.githubusercontent.com/BKK31/budgetlens/refs/heads/main/budgetlens/assets/wants_transaction.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "molly",
+    "name": "Molly",
+    "description": "Enhanced and security-focused fork of Signal with Material You for Android.",
+    "icon": "https://image2url.com/r2/default/files/1771512001564-0efb896d-3985-4d98-8b3e-fd586fb04f2e.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mollyim/mollyim-android",
+    "githubRepo": "mollyim/mollyim-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "im.molly.app",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mollyim",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771512108884-bea76786-0c5d-4dc5-ad3a-b0e9c6e9932a.png",
+      "https://image2url.com/r2/default/files/1771512045464-468491df-d480-44f2-a5dc-e71be98bf59e.jpg",
+      "https://image2url.com/r2/default/files/1771512060767-87aa74e1-e162-41c4-a186-4c75d492edbc.jpg",
+      "https://image2url.com/r2/default/files/1771512070099-b23e3010-c0d6-4b90-bcb4-9e36b78c627f.jpg",
+      "https://image2url.com/r2/default/files/1771512081492-b1d46912-c80a-4edf-8570-bdf85da36583.jpg"
+    ],
+    "releaseKeyword": "Molly"
   }
 ]
