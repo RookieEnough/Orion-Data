@@ -11427,5 +11427,36 @@
       "https://raw.githubusercontent.com/iamlooper/Lumi-AI/refs/heads/main/assets/screenshots/5.webp"
     ],
     "releaseKeyword": "lumi"
+  },
+  {
+    "id": "telephoto",
+    "name": "Telephoto",
+    "description": "A lightweight, privacy-first alternative to Google Photos — powered by Telegram. Unlimited backups, Zero subscriptions, Your data, your control.",
+    "icon": "https://image2url.com/r2/default/files/1771510547973-b0af26f7-4985-4569-a825-837fa7678ff5.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ASRumon/Telephoto",
+    "githubRepo": "ASRumon/Telephoto",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.asrumon.telephoto",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ASRumon",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771510817120-15be9153-34c4-4a9a-bb96-9c325a86e14a.jpg",
+      "https://image2url.com/r2/default/files/1771510827323-43444cc4-0739-4a23-b985-8ee0c43e012b.jpg",
+      "https://image2url.com/r2/default/files/1771510838060-4de609cc-0e0a-42ec-a474-189022c2e683.jpg",
+      "https://image2url.com/r2/default/files/1771510849225-a5add0ec-cfac-42ed-a43e-e880b87c46df.jpg",
+      "https://image2url.com/r2/default/files/1771510860750-ec6b584b-2ab0-4ee9-8603-f7e6ac713610.jpg",
+      "https://image2url.com/r2/default/files/1771510875078-17cfac35-e56c-4e15-92e0-f1a02816c2c9.jpg",
+      "https://image2url.com/r2/default/files/1771510885223-abac2715-969f-466f-83b1-3524ccf86f06.jpg",
+      "https://image2url.com/r2/default/files/1771510895586-beec6936-1ec6-479c-9cf8-72a74fe3248a.jpg",
+      "https://image2url.com/r2/default/files/1771510914729-a733cbf5-7f51-4d79-bf9c-1d8fac3bebe2.jpg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
