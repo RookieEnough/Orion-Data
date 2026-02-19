@@ -11213,5 +11213,31 @@
       "https://image2url.com/r2/default/files/1771512766155-b04d5ce3-9f68-4b76-a62d-514df6660ce7.jpg"
     ],
     "releaseKeyword": "NPatch"
+  },
+  {
+    "id": "nboard",
+    "name": "Nboard",
+    "description": "Minimal Android keyboard with AI tools, clipboard power features, emoji search, and fast typing UX. Built for Nothing Phone users who wanted a keyboard matching their device's minimal aesthetic — works great on any Android phone.",
+    "icon": "https://raw.githubusercontent.com/MathieuDvv/Nboard/refs/heads/main/docs/media/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MathieuDvv/Nboard",
+    "githubRepo": "MathieuDvv/Nboard",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nboard.ime",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MathieuDvv",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MathieuDvv/Nboard/refs/heads/main/docs/promo/keyboard.png",
+      "https://raw.githubusercontent.com/MathieuDvv/Nboard/refs/heads/main/docs/promo/ai-tools.png",
+      "https://raw.githubusercontent.com/MathieuDvv/Nboard/refs/heads/main/docs/promo/clipboard.png",
+      "https://raw.githubusercontent.com/MathieuDvv/Nboard/refs/heads/main/docs/promo/emoji-keyboard.png"
+    ],
+    "releaseKeyword": "NBoard"
   }
 ]
