@@ -11291,5 +11291,31 @@
       "https://image2url.com/r2/default/files/1771507061052-fd2d9ec0-98a7-4e95-ad0e-9f9b3aff4489.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "sudoku",
+    "name": "Sudoku",
+    "description": "A minimalist and feature-rich Sudoku app designed with Samsung's Material-based One UI aesthetic. It offers thousands of puzzles, daily challenges, and deep integration with Google Play Games for achievements and competitive leaderboards, all optimized for easy one-handed use.",
+    "icon": "https://raw.githubusercontent.com/Lemkinator/Sudoku/refs/heads/main/img/Sudoku_squircle.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Lemkinator/Sudoku",
+    "githubRepo": "Lemkinator/Sudoku",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.lemke.sudoku",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Lemkinator",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Lemkinator/Sudoku/refs/heads/main/img/mobile1.png",
+      "https://raw.githubusercontent.com/Lemkinator/Sudoku/refs/heads/main/img/mobile2.png",
+      "https://raw.githubusercontent.com/Lemkinator/Sudoku/refs/heads/main/img/mobile3.png",
+      "https://raw.githubusercontent.com/Lemkinator/Sudoku/refs/heads/main/img/mobile4.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
