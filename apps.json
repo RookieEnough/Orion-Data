@@ -11131,5 +11131,34 @@
       "https://image2url.com/r2/default/files/1771514808198-f110e5cd-2264-4b09-8233-ee4f4fca33b1.png"
     ],
     "releaseKeyword": "ChromePublic"
+  },
+  {
+    "id": "budgetlens",
+    "name": "BudgetLens",
+    "description": "BudgetLens is a smart personal budgeting application designed to help you manage your finances with a dynamic daily spending allowance. Unlike traditional budgeting apps with fixed daily limits, BudgetLens adapts to your spending patterns by recalculating your allowance based on your remaining budget and days left in the cycle.\n\nThe app leverages Material You dynamic theming to seamlessly adapt to your device's wallpaper colors, providing a personalized and modern user experience. All your financial data stays private and is stored locally on your device.",
+    "icon": "https://image2url.com/r2/default/files/1771513083628-cd26dbbb-a4cf-4fcf-aa52-155a86709d88.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/BKK31/budgetlens",
+    "githubRepo": "BKK31/budgetlens",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.budget.lens",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "BKK31",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771513153906-b7e252ab-b238-4813-8451-347f07df67d3.png",
+      "https://raw.githubusercontent.com/BKK31/budgetlens/refs/heads/main/budgetlens/assets/for_today.png",
+      "https://raw.githubusercontent.com/BKK31/budgetlens/refs/heads/main/budgetlens/assets/all_transactions.png",
+      "https://raw.githubusercontent.com/BKK31/budgetlens/refs/heads/main/budgetlens/assets/budget_analysis.png",
+      "https://raw.githubusercontent.com/BKK31/budgetlens/refs/heads/main/budgetlens/assets/settings_screen.png",
+      "https://raw.githubusercontent.com/BKK31/budgetlens/refs/heads/main/budgetlens/assets/needs_transaction.png",
+      "https://raw.githubusercontent.com/BKK31/budgetlens/refs/heads/main/budgetlens/assets/wants_transaction.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
