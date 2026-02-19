@@ -11400,5 +11400,32 @@
       "https://image2url.com/r2/default/files/1771509040831-0ea527ea-ec1a-4cdd-b537-b3414e9b0631.jpg"
     ],
     "releaseKeyword": "Calculator"
+  },
+  {
+    "id": "lumi-ai",
+    "name": "Lumi AI",
+    "description": "A friendly and highly customizable AI chatbot powered by Google's Gemini models. Designed with a human-like personality and a privacy-first local storage model, Lumi features advanced message branching and 'thinking' budgets that let you control exactly how deeply the assistant reasons through your prompts.",
+    "icon": "https://raw.githubusercontent.com/iamlooper/Lumi-AI/69e10eb853388278d7782530694c6bfa8603af68/src/assets/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/iamlooper/Lumi-AI",
+    "githubRepo": "iamlooper/Lumi-AI",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.iamlooper.lumiai",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "iamlooper",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/iamlooper/Lumi-AI/refs/heads/main/assets/screenshots/1.webp",
+      "https://raw.githubusercontent.com/iamlooper/Lumi-AI/refs/heads/main/assets/screenshots/2.webp",
+      "https://raw.githubusercontent.com/iamlooper/Lumi-AI/refs/heads/main/assets/screenshots/3.webp",
+      "https://raw.githubusercontent.com/iamlooper/Lumi-AI/refs/heads/main/assets/screenshots/4.webp",
+      "https://raw.githubusercontent.com/iamlooper/Lumi-AI/refs/heads/main/assets/screenshots/5.webp"
+    ],
+    "releaseKeyword": "lumi"
   }
 ]
