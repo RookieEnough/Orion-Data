@@ -1,4 +1,3 @@
-
 import json
 import requests
 import os
@@ -68,6 +67,10 @@ def generate_mirror():
     gh_headers = {}
     if os.environ.get("GH_TOKEN"):
         gh_headers["Authorization"] = f"Bearer {os.environ.get('GH_TOKEN')}"
+        print("🔑 GH_TOKEN detected. Using authenticated requests.")
+    else:
+        print("⚠️ No GH_TOKEN. Running in unauthenticated mode (60 req/hr limit).")
+
     gh_headers["User-Agent"] = "OrionStore-Nuclear/1.1"
 
     if not os.path.exists(APPS_FILE):
@@ -83,6 +86,7 @@ def generate_mirror():
 
     # 2. Fetch Data (Deduplicated)
     repo_cache = {} 
+    fetch_errors = {} # Store specific errors per repo key
     unique_repos = set()
     app_to_repo_map = {} 
 
@@ -139,8 +143,12 @@ def generate_mirror():
                     data = r.json()
                 elif r.status_code == 404:
                     print(f"   ⚠️ Repo not found: {repo_path}")
+                    fetch_errors[u_key] = f"404 Not Found (Check if {repo_path} exists and is Public)"
                 elif r.status_code == 403:
                     print(f"   ⚠️ Rate limit exceeded for {repo_path}")
+                    fetch_errors[u_key] = "403 Rate Limit (Try adding GH_TOKEN)"
+                else:
+                    fetch_errors[u_key] = f"HTTP Error {r.status_code}"
             
             elif s_type == 'gitlab':
                 encoded_path = urllib.parse.quote(repo_path, safe='')
@@ -150,8 +158,9 @@ def generate_mirror():
                     data = r.json()
                 else:
                     print(f"   ⚠️ GitLab Error {r.status_code}: {repo_path}")
+                    fetch_errors[u_key] = f"GitLab Error {r.status_code}"
 
-            if data:
+            if data is not None:
                 # APPLY THIN MIRROR PROTOCOL
                 if isinstance(data, list):
                     minified_data = [minify_release(r) for r in data]
@@ -161,12 +170,16 @@ def generate_mirror():
                 # Check if empty list returned (repo exists but no releases)
                 if not minified_data:
                     print(f"   ⚠️ Repo exists but has NO RELEASES: {repo_path}")
-                
-                repo_cache[u_key] = minified_data
-                repo_cache[repo_path] = minified_data 
+                    # We store an empty list so we know we fetched it successfully, but it's empty
+                    repo_cache[u_key] = []
+                    repo_cache[repo_path] = []
+                else:
+                    repo_cache[u_key] = minified_data
+                    repo_cache[repo_path] = minified_data 
 
         except Exception as e:
             print(f"   ❌ Network Error: {e}")
+            fetch_errors[u_key] = f"Exception: {str(e)}"
 
     # --- NEW: MISSING APPS AUDIT REPORT ---
     print("\n" + "="*50)
@@ -186,12 +199,15 @@ def generate_mirror():
         if not unique_key:
             status = "MISSING"
             reason = "Could not parse repoUrl or githubRepo from apps.json"
+        elif unique_key in fetch_errors:
+            status = "MISSING"
+            reason = f"API Error: {fetch_errors[unique_key]}"
         elif unique_key not in repo_cache:
             status = "MISSING"
-            reason = "API Request Failed (404 Not Found, 403 Rate Limit, or Network Error)"
+            reason = "Skipped/Unknown Error during fetch phase"
         elif not repo_cache[unique_key]:
             status = "MISSING"
-            reason = "Repo fetched successfully, but it has ZERO releases."
+            reason = "Repo fetched successfully, but it has ZERO releases (Tags/APKs)."
             
         if status == "MISSING":
             missing_count += 1
