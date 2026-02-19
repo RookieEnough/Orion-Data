@@ -11483,5 +11483,31 @@
       "https://raw.githubusercontent.com/guardianproject/orbot-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/E-more_screen.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "installwithoptions",
+    "name": "InstallWithOptions",
+    "description": "An app with a simple purpose: more advanced app installs without needing to use ADB.\n\nInstall with Options uses Shizuku to run with shell permissions, allowing you to install test-only apps, bypass Android 14's target SDK limit, downgrade certain packages, and more, all without leaving your phone (at least on Android 11 and later).\n\nIt also supports installing split APKs or batch-installing multiple separate apps.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/dev.zwander.installwithoptions/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/zacharee/InstallWithOptions",
+    "githubRepo": "zacharee/InstallWithOptions",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.zwander.installwithoptions",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "zacharee",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/dev.zwander.installwithoptions/en-US/phoneScreenshots/01.png",
+      "https://apt.izzysoft.de/fdroid/repo/dev.zwander.installwithoptions/en-US/phoneScreenshots/02.png",
+      "https://apt.izzysoft.de/fdroid/repo/dev.zwander.installwithoptions/en-US/phoneScreenshots/03.png",
+      "https://apt.izzysoft.de/fdroid/repo/dev.zwander.installwithoptions/en-US/phoneScreenshots/04.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
