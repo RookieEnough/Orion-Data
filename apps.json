@@ -11458,5 +11458,30 @@
       "https://image2url.com/r2/default/files/1771510914729-a733cbf5-7f51-4d79-bf9c-1d8fac3bebe2.jpg"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "orbot",
+    "name": "Orbot",
+    "description": "Orbot is a free VPN and proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world.",
+    "icon": "https://orbot.app/",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/guardianproject/orbot-android",
+    "githubRepo": "guardianproject/orbot-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.torproject.android",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "guardianproject",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/guardianproject/orbot-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/A-orbot_connected.png",
+      "https://raw.githubusercontent.com/guardianproject/orbot-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/B-choose-how.png",
+      "https://raw.githubusercontent.com/guardianproject/orbot-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/E-more_screen.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
