@@ -11265,7 +11265,7 @@
       "https://raw.githubusercontent.com/antoniegil/Astronia/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
       "https://raw.githubusercontent.com/antoniegil/Astronia/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
-    "releaseKeyword": "Astronia "
+    "releaseKeyword": "apk"
   },
   {
     "id": "toolkit-tiles",
@@ -11463,7 +11463,7 @@
     "id": "orbot",
     "name": "Orbot",
     "description": "Orbot is a free VPN and proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world.",
-    "icon": "https://orbot.app/",
+    "icon": "https://play-lh.googleusercontent.com/2vkwZrqD2khU1xOx_OG_ijPL7Trndjfr7BMKJpKBoEGYXIjaGmCZIdSCsWZwd_BwUWQRKUiWEDljgL1_U9g-zg",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
