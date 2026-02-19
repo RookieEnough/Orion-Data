@@ -11317,5 +11317,34 @@
       "https://raw.githubusercontent.com/Lemkinator/Sudoku/refs/heads/main/img/mobile4.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "paperknife",
+    "name": "PaperKnife",
+    "description": "Privacy-first PDF utility (Zero-Server Architecture). Merge, split, compress, and edit PDFs 100% locally on your device. No uploads, no servers, no tracking. (There is two version - lite and normal on release page).",
+    "icon": "https://raw.githubusercontent.com/potatameister/PaperKnife/4fc51c51ba5df035baa22ca07b0c7419120e9fbf/public/icons/logo-github.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/potatameister/PaperKnife",
+    "githubRepo": "potatameister/PaperKnife",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.paperknife.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "potatameister",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/potatameister/PaperKnife/refs/heads/main/assets/preview/screenshot1.jpg",
+      "https://raw.githubusercontent.com/potatameister/PaperKnife/refs/heads/main/assets/preview/screenshot2.jpg",
+      "https://image2url.com/r2/default/files/1771507689230-ee06cf3a-b734-4f40-a444-9cc8fd0c92f4.jpg",
+      "https://image2url.com/r2/default/files/1771507702446-7a0b09aa-819c-41eb-871a-fcee03eb8955.jpg",
+      "https://image2url.com/r2/default/files/1771507714591-300145e4-f01e-4423-97b3-83503dc6103b.jpg",
+      "https://image2url.com/r2/default/files/1771507738884-b8681c52-01e0-4045-8c98-cc0bc1e3f835.jpg",
+      "https://image2url.com/r2/default/files/1771507752840-0c2f45e9-4216-44ea-99c8-786c2043d1e0.jpg"
+    ],
+    "releaseKeyword": "paperknife"
   }
 ]
