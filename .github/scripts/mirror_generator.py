@@ -141,6 +141,16 @@ def generate_mirror():
                 r = requests.get(url, headers=gh_headers)
                 if r.status_code == 200:
                     data = r.json()
+                    # --- FALLBACK STRATEGY ---
+                    # If list is empty, try forcing a check for 'latest' tag
+                    # This fixes issues where /releases returns [] but /releases/tags/latest exists
+                    if not data:
+                        print(f"   ⚠️ Release list empty. Trying fallback: /tags/latest...")
+                        fallback_url = f"https://api.github.com/repos/{repo_path}/releases/tags/latest"
+                        r_fallback = requests.get(fallback_url, headers=gh_headers)
+                        if r_fallback.status_code == 200:
+                            print(f"   ✅ Fallback success! Found 'latest' tag.")
+                            data = [r_fallback.json()] # Wrap in list to match expected structure
                 elif r.status_code == 404:
                     print(f"   ⚠️ Repo not found: {repo_path}")
                     fetch_errors[u_key] = f"404 Not Found (Check if {repo_path} exists and is Public)"
