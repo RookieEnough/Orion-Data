@@ -11266,5 +11266,30 @@
       "https://raw.githubusercontent.com/antoniegil/Astronia/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "Astronia "
+  },
+  {
+    "id": "toolkit-tiles",
+    "name": "Toolkit Tiles",
+    "description": "An open-source utility for Android that expands your Quick Settings with a collection of powerful system tiles. It provides easy access to advanced developer tools, display settings, and system-level toggles that are normally hidden deep within the OS.",
+    "icon": "https://image2url.com/r2/default/files/1771507001666-de7e09a8-ffd6-44a0-8c5e-c05612dfb13b.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/WSTxda/Toolkit-Tiles",
+    "githubRepo": "WSTxda/Toolkit-Tiles",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.wstxda.toolkit",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "WSTxda",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771507028320-b5c6300e-264a-42df-95fb-2ef95e03772c.png",
+      "https://raw.githubusercontent.com/WSTxda/Toolkit-Tiles/main/images/Banner.svg",
+      "https://image2url.com/r2/default/files/1771507061052-fd2d9ec0-98a7-4e95-ad0e-9f9b3aff4489.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
