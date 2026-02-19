@@ -11371,5 +11371,34 @@
       "https://image2url.com/r2/default/files/1771508537280-24e5811c-8dda-4cd2-bcc5-9f56e78ee357.png"
     ],
     "releaseKeyword": "DNSXS"
+  },
+  {
+    "id": "calculator",
+    "name": "Calculator",
+    "description": "Material You Calculator , An elegant, Android-native calculator and currency converter app and many more features , built with Jetpack Compose and styled using Material You (Monet) theming. The app adapts dynamically to your system colors and offers a clean, modern experience for daily calculations and conversions.",
+    "icon": "https://raw.githubusercontent.com/metzger100/calculator/153783afc0577ccf9bee1767cd621910c6c603ba/svg/ic_logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/metzger100/calculator",
+    "githubRepo": "metzger100/calculator",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.metzger100.calculator",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "metzger100",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771508854700-f56a8afe-a19e-43f5-85d8-febbbb59d1c7.png",
+      "https://image2url.com/r2/default/files/1771508952051-a987f22b-e9f7-4c0b-aa49-ac25d7c74454.jpg",
+      "https://image2url.com/r2/default/files/1771508969183-6910ca69-dbe0-454e-885c-2c66a59facaa.jpg",
+      "https://image2url.com/r2/default/files/1771508981358-338e58f1-2b97-40f3-be65-8482b56eb05c.jpg",
+      "https://image2url.com/r2/default/files/1771509005985-7123037f-980a-437e-9f84-35e3b4dba637.jpg",
+      "https://image2url.com/r2/default/files/1771509017167-cdc9f2ba-b1fa-4b9d-a2fd-f02bbdc77fec.jpg",
+      "https://image2url.com/r2/default/files/1771509040831-0ea527ea-ec1a-4cdd-b537-b3414e9b0631.jpg"
+    ],
+    "releaseKeyword": "Calculator"
   }
 ]
