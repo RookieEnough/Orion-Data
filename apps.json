@@ -11567,5 +11567,30 @@
       "https://raw.githubusercontent.com/skepsun/Kototoro/devel/metadata/en-US/images/tabletScreenshots/8.jpg"
     ],
     "releaseKeyword": "Kototoro"
+  },
+  {
+    "id": "anizen",
+    "name": "Anizen",
+    "description": "AniZen is a high-performance, ultra-refined modification of Anikku. While the official app provides a baseline, AniZen transforms it into a professional-grade media center with a focus on Extreme Performance, Audiophile-grade Video, and Premium Tactile Feedback.",
+    "icon": "https://raw.githubusercontent.com/salmanbappi/AniZen/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/salmanbappi/AniZen",
+    "githubRepo": "salmanbappi/AniZen",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.anizen",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "salmanbappi",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1771616513073-63ca65e6-1442-41a6-ae76-d7665803fea1.jpg",
+      "https://image2url.com/r2/default/images/1771616528604-fcfd1ace-ccba-41ef-b33a-ff8f6d5971c7.jpg",
+      "https://image2url.com/r2/default/images/1771616537100-cf525462-7157-4d7b-9a23-8e30f0df09ee.jpg"
+    ],
+    "releaseKeyword": "AniZen"
   }
 ]
