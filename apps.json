@@ -11537,5 +11537,35 @@
       "https://play-lh.googleusercontent.com/eNHA0jXVtx6ir60G6P2jnuoI4WyllRoowUVELuO-L2LPoMGVOjjXJnWsH_thyt3fEwa1jQtJGEPGJI88dWYv8A=w526-h296-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "kototoro",
+    "name": "Kototoro",
+    "description": "Kototoro is an unofficial fork project based on Kotatsu, focused on providing a better manga, novel, and video reading/playing experience",
+    "icon": "https://raw.githubusercontent.com/skepsun/Kototoro/e3a315bcc8cf434148abd6b5c2d0bf0fc6dc3347/.idea/icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/skepsun/Kototoro",
+    "githubRepo": "skepsun/Kototoro",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.skepsun.kototoro",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "skepsun",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/skepsun/Kototoro/devel/metadata/en-US/images/tabletScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/skepsun/Kototoro/devel/metadata/en-US/images/tabletScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/skepsun/Kototoro/devel/metadata/en-US/images/tabletScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/skepsun/Kototoro/devel/metadata/en-US/images/tabletScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/skepsun/Kototoro/devel/metadata/en-US/images/tabletScreenshots/5.jpg",
+      "https://raw.githubusercontent.com/skepsun/Kototoro/devel/metadata/en-US/images/tabletScreenshots/6.jpg",
+      "https://raw.githubusercontent.com/skepsun/Kototoro/devel/metadata/en-US/images/tabletScreenshots/7.jpg",
+      "https://raw.githubusercontent.com/skepsun/Kototoro/devel/metadata/en-US/images/tabletScreenshots/8.jpg"
+    ],
+    "releaseKeyword": "Kototoro"
   }
 ]
