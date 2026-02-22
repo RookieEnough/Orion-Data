@@ -11695,5 +11695,30 @@
       "https://raw.githubusercontent.com/devohmycode/SuperFlux/refs/heads/master/src-tauri/icons/shot-04.png",
       "https://raw.githubusercontent.com/devohmycode/SuperFlux/refs/heads/master/src-tauri/icons/shot-05.png"
     ]
+  },
+  {
+    "id": "ytdownloader",
+    "name": "ytDownloader",
+    "description": "Desktop App for downloading Videos and Audios from hundreds of sites.",
+    "icon": "https://raw.githubusercontent.com/aandrew-me/ytDownloader/refs/heads/main/resources/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/aandrew-me/ytDownloader",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "aandrew-me",
+    "officialSite": "https://github.com/aandrew-me/ytDownloader",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771774868411-9da6f822-27be-4220-a774-3cff8bc86e25.png",
+      "https://image2url.com/r2/default/files/1771774879663-db50c365-28d8-493d-a196-7c06589baf92.png",
+      "https://image2url.com/r2/default/files/1771774891930-9059123c-0738-45ce-8f61-fbdcc394a45b.png",
+      "https://image2url.com/r2/default/files/1771774903788-79f54f31-c0aa-471c-800d-134f620819ab.png"
+    ]
   }
 ]
