@@ -11641,5 +11641,33 @@
       "https://image2url.com/r2/default/files/1771783177817-cb0d728c-cfbb-4e06-ba5d-c15d59e31e84.jpg"
     ],
     "releaseKeyword": "disky"
+  },
+  {
+    "id": "grit",
+    "name": "Grit",
+    "description": "Grit is a To Do List and habit tracker app that lets you visualize your progress.\n\nA simple yet powerful todo list and habit tracker designed for the modern Android experience. Grit combines the functionality of a task manager with deep habit analytics, all wrapped in a clean Material 3 design that focuses on helping you visualize your daily progress without the bloat of mainstream apps.",
+    "icon": "https://raw.githubusercontent.com/shub39/Grit/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/shub39/Grit",
+    "githubRepo": "shub39/Grit",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.shub39.grit",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "shub39",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/shub39/Grit/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/shub39/Grit/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/shub39/Grit/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/shub39/Grit/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/shub39/Grit/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/shub39/Grit/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
