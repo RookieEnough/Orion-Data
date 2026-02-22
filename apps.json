@@ -11747,5 +11747,30 @@
       "https://image2url.com/r2/default/files/1771773442881-9ffcbd0e-a54c-4cfc-b718-59fabdf8e630.jpg",
       "https://image2url.com/r2/default/files/1771773464268-c5b7e7e3-6e93-4cdb-b537-85ef4c163d07.jpg"
     ]
+  },
+  {
+    "id": "winhance",
+    "name": "Winhance",
+    "description": "A C# application designed to debloat, optimize and customize your Windows experience. From software management to system optimizations and customization, Winhance provides everything you need to enhance Windows 10 and 11 systems.",
+    "icon": "https://raw.githubusercontent.com/memstechtips/Winhance/refs/heads/main/src/Winhance.UI/Assets/AppIcons/winhance-rocket.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/memstechtips/Winhance",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "memstechtips",
+    "officialSite": "https://github.com/memstechtips/Winhance",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771773119013-cc20b7c9-156b-4c29-894d-fbe7295c2505.jpg",
+      "https://image2url.com/r2/default/files/1771773129347-63d583f7-3a6e-41c8-91b9-16d410bbf103.jpg",
+      "https://image2url.com/r2/default/files/1771773138808-453086c1-0b16-4c00-80ca-d270eb7c02c7.jpg",
+      "https://image2url.com/r2/default/files/1771773148427-399bb609-d500-41ac-9e8b-ab0735d3a661.jpg"
+    ]
   }
 ]
