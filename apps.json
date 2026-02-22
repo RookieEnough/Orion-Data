@@ -11614,5 +11614,32 @@
       "https://raw.githubusercontent.com/Moderpach/Extinguish/master/doc/screenshot_external_en.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "disky",
+    "name": "Disky",
+    "description": "An open-source filesystem analyzer that can show you the usage of your storage with a beautiful UI.",
+    "icon": "https://raw.githubusercontent.com/newhinton/disky/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/newhinton/disky",
+    "githubRepo": "newhinton/disky",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.felixnuesse.disky",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "newhinton",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/newhinton/disky/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/newhinton/disky/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/newhinton/disky/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://image2url.com/r2/default/files/1771783077659-3bd4a58a-c34b-4bfb-b3c8-a97f92aaa25e.jpg",
+      "https://image2url.com/r2/default/files/1771783177817-cb0d728c-cfbb-4e06-ba5d-c15d59e31e84.jpg"
+    ],
+    "releaseKeyword": "disky"
   }
 ]
