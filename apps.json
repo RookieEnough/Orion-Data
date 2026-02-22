@@ -11669,5 +11669,31 @@
       "https://raw.githubusercontent.com/shub39/Grit/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "superflux",
+    "name": "SuperFlux",
+    "description": "A fast, native desktop RSS reader with a resizable 3-panel layout, built-in Reddit comments, AI summaries, text-to-speech, and a collapsible bar mode.",
+    "icon": "https://raw.githubusercontent.com/devohmycode/SuperFlux/refs/heads/master/src-tauri/icons/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/devohmycode/SuperFlux",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Social",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "devohmycode",
+    "officialSite": "https://github.com/devohmycode/SuperFlux",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devohmycode/SuperFlux/refs/heads/master/src-tauri/icons/shot-01.png",
+      "https://raw.githubusercontent.com/devohmycode/SuperFlux/refs/heads/master/src-tauri/icons/shot-02.png",
+      "https://raw.githubusercontent.com/devohmycode/SuperFlux/refs/heads/master/src-tauri/icons/shot-03.png",
+      "https://raw.githubusercontent.com/devohmycode/SuperFlux/refs/heads/master/src-tauri/icons/shot-04.png",
+      "https://raw.githubusercontent.com/devohmycode/SuperFlux/refs/heads/master/src-tauri/icons/shot-05.png"
+    ]
   }
 ]
