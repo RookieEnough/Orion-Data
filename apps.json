@@ -11720,5 +11720,32 @@
       "https://image2url.com/r2/default/files/1771774891930-9059123c-0738-45ce-8f61-fbdcc394a45b.png",
       "https://image2url.com/r2/default/files/1771774903788-79f54f31-c0aa-471c-800d-134f620819ab.png"
     ]
+  },
+  {
+    "id": "sucrose",
+    "name": "Sucrose",
+    "description": "Sucrose is a free and open-source wallpaper engine that lets you create and use interactive, dynamic wallpapers with full support for all screen resolutions and multi-monitor setups. It offers light and dark themes, media-responsive and system-aware wallpapers, web-based wallpapers, and a community store to share and discover creations. Optimized for performance, Sucrose minimizes CPU and GPU usage, pauses wallpapers during fullscreen apps or games, and includes a power-saving mode for laptops.",
+    "icon": "https://raw.githubusercontent.com/Taiizor/Sucrose/refs/heads/develop/.images/Logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/Taiizor/Sucrose",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Taiizor",
+    "officialSite": "https://github.com/Taiizor/Sucrose",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771773406109-345b33fa-bc96-4b98-b713-20feab6b6eff.jpg",
+      "https://image2url.com/r2/default/files/1771773415768-16e33ccb-e5a2-44e4-8715-a644e619b7d4.jpg",
+      "https://image2url.com/r2/default/files/1771773424269-1906a34b-1431-4e9c-8442-2cb8cf9fc26d.jpg",
+      "https://image2url.com/r2/default/files/1771773433642-febba9e9-c472-49dd-9a47-0737ed725b0c.jpg",
+      "https://image2url.com/r2/default/files/1771773442881-9ffcbd0e-a54c-4cfc-b718-59fabdf8e630.jpg",
+      "https://image2url.com/r2/default/files/1771773464268-c5b7e7e3-6e93-4cdb-b537-85ef4c163d07.jpg"
+    ]
   }
 ]
