@@ -11589,5 +11589,30 @@
       "https://raw.githubusercontent.com/walterlow/freecut/refs/heads/master/public/assets/landing/keyframe.png",
       "https://raw.githubusercontent.com/walterlow/freecut/refs/heads/master/public/assets/landing/export.png"
     ]
+  },
+  {
+    "id": "extinguish",
+    "name": "Extinguish",
+    "description": "Extinguish helps you run any android apps as if the screen is on while it is off with the help of Shizuku or lowering the device brightness to - 1.",
+    "icon": "https://raw.githubusercontent.com/Moderpach/Extinguish/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Moderpach/Extinguish",
+    "githubRepo": "Moderpach/Extinguish",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.felixnuesse.disky",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Moderpach",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Moderpach/Extinguish/master/doc/screenshot_home_en.png",
+      "https://raw.githubusercontent.com/Moderpach/Extinguish/master/doc/screenshot_solution_en.png",
+      "https://raw.githubusercontent.com/Moderpach/Extinguish/master/doc/screenshot_external_en.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
