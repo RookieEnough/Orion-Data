@@ -11846,5 +11846,32 @@
       "https://raw.githubusercontent.com/Klocman/Bulk-Crap-Uninstaller/refs/heads/gh-pages/assets/3.png",
       "https://raw.githubusercontent.com/Klocman/Bulk-Crap-Uninstaller/refs/heads/gh-pages/assets/4.png"
     ]
+  },
+  {
+    "id": "sparkle",
+    "name": "Sparkle",
+    "description": "Sparkle is a modern, open-source Windows optimization utility designed to debloat and speed up your PC with a clean, user-friendly interface. It aggregates powerful system tweaks, privacy controls, and cleaning tools into a single dashboard, making it easy to reclaim resources and improve system responsiveness on Windows 10 and 11.",
+    "icon": "https://raw.githubusercontent.com/thedogecraft/sparkle/refs/heads/v2/resources/sparklelogo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/thedogecraft/sparkle",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "thedogecraft",
+    "officialSite": "https://github.com/thedogecraft/sparkle",
+    "screenshots": [
+      "https://raw.githubusercontent.com/thedogecraft/sparkle/refs/heads/v2/images/appshowcase.png",
+      "https://image2url.com/r2/default/files/1771774450430-35ba0d52-daac-4a98-9cc6-e008935b3d61.png",
+      "https://image2url.com/r2/default/files/1771774462603-456696da-d20d-4fef-a465-b4b3a3f16203.png",
+      "https://image2url.com/r2/default/files/1771774472797-7357a4de-f8c3-4ee5-8c67-c3627e07c556.png",
+      "https://image2url.com/r2/default/files/1771774481964-f9404318-b4f8-4430-81b6-7b9e8e46d593.png",
+      "https://image2url.com/r2/default/files/1771774499268-903d84cc-a4e2-4618-a0bf-e208cb560fd1.png"
+    ]
   }
 ]
