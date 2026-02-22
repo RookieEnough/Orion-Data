@@ -11820,5 +11820,31 @@
       "https://image2url.com/r2/default/files/1771772853755-9b41d176-92aa-44aa-ad7c-cf4fa6696625.png",
       "https://image2url.com/r2/default/files/1771772835529-b1b0f827-ae85-4155-a906-495fa01039c7.png"
     ]
+  },
+  {
+    "id": "bulk-crap-uninstaller",
+    "name": "Bulk Crap Uninstaller",
+    "description": "Bulk Crap Uninstaller (BCUninstaller) is a powerful and open-source software removal tool for Windows designed to clean up your system efficiently. It excels at removing large numbers of applications with minimal user effort, detecting leftovers, and managing software that standard uninstallers often miss.",
+    "icon": "https://raw.githubusercontent.com/Klocman/Bulk-Crap-Uninstaller/refs/heads/gh-pages/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/Klocman/Bulk-Crap-Uninstaller",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Klocman",
+    "officialSite": "https://github.com/Klocman/Bulk-Crap-Uninstaller",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Klocman/Bulk-Crap-Uninstaller/refs/heads/master/doc/Preview.png",
+      "https://raw.githubusercontent.com/Klocman/Bulk-Crap-Uninstaller/refs/heads/gh-pages/assets/1.png",
+      "https://raw.githubusercontent.com/Klocman/Bulk-Crap-Uninstaller/refs/heads/gh-pages/assets/2.png",
+      "https://raw.githubusercontent.com/Klocman/Bulk-Crap-Uninstaller/refs/heads/gh-pages/assets/3.png",
+      "https://raw.githubusercontent.com/Klocman/Bulk-Crap-Uninstaller/refs/heads/gh-pages/assets/4.png"
+    ]
   }
 ]
