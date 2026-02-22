@@ -11564,5 +11564,30 @@
       "https://image2url.com/r2/default/images/1771616537100-cf525462-7157-4d7b-9a23-8e30f0df09ee.jpg"
     ],
     "releaseKeyword": "AniZen"
+  },
+  {
+    "id": "freecut",
+    "name": "FreeCut",
+    "description": "FreeCut is a professional-grade video editor that runs entirely in your browser. Professional video editing, zero installation. Create stunning videos with multi-track editing, keyframe animations, real-time preview, and high-quality exports.\n\nFreeCut is a browser-based multi-track video editor. No installation, no uploads — everything runs locally in your browser using WebCodecs, OPFS, and the File System Access API.",
+    "icon": "https://raw.githubusercontent.com/walterlow/freecut/83b8c9c147bdca306abce847c14e11502c98183e/public/favicon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/walterlow/freecut",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "walterlow",
+    "officialSite": "https://github.com/walterlow/freecut",
+    "screenshots": [
+      "https://raw.githubusercontent.com/walterlow/freecut/refs/heads/master/public/assets/landing/projects.png",
+      "https://raw.githubusercontent.com/walterlow/freecut/refs/heads/master/public/assets/landing/timeline.png",
+      "https://raw.githubusercontent.com/walterlow/freecut/refs/heads/master/public/assets/landing/keyframe.png",
+      "https://raw.githubusercontent.com/walterlow/freecut/refs/heads/master/public/assets/landing/export.png"
+    ]
   }
 ]
