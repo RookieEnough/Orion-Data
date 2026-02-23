@@ -12009,5 +12009,29 @@
       "https://play-lh.googleusercontent.com/fVkjYQlhhl0UglRXnMDHbLiryw8PiGtA4gidd9Jf1hVNtjmJ9g7Xv-b81zItqCO4qqlnBToCP0GGtBRzyqEh7g=w526-h296-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "nuvio-tv",
+    "name": "Nuvio tv",
+    "description": "NuvioTV is a modern media player designed specifically for Android TV.\n\nIt acts as a client-side playback interface that can integrate with the Stremio addon ecosystem for content discovery and source resolution through user-installed extensions.\n\nBuilt with Kotlin and optimized for a TV-first viewing experience.",
+    "icon": "nuvioapp.space",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/tapframe/NuvioTV",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "Tapframe",
+    "officialSite": "https://github.com/tapframe/NuvioTV",
+    "screenshots": [
+      "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fnuvio-tv-beta-0-3-0-released-trakt-integration-landscape-v0-h34hxty5k4jg1.png%3Fwidth%3D1942%26format%3Dpng%26auto%3Dwebp%26s%3Dde0683a3a1bee40c6300f3784b092272be291e64",
+      "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fnuvio-tv-beta-0-3-0-released-trakt-integration-landscape-v0-yo9gi4q7k4jg1.png%3Fwidth%3D1930%26format%3Dpng%26auto%3Dwebp%26s%3D23789b7b20e85492ac90840c1056480aeea85ecd",
+      "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fnews-for-android-tv-users-v0-ijz1pbv2mwgg1.png%3Fwidth%3D1946%26format%3Dpng%26auto%3Dwebp%26s%3Da010ce53b69df2d9ce576198a3e889901d4caff0"
+    ]
   }
 ]
