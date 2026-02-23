@@ -12057,5 +12057,30 @@
       "https://image2url.com/r2/default/images/1771833861979-dfe5398b-4255-481b-9916-30ead401aa6a.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "cashew",
+    "name": "Cashew",
+    "description": "An app created to help users manage a budget and purchases",
+    "icon": "https://raw.githubusercontent.com/jameskokoska/Cashew/main/promotional/icons/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/jameskokoska/Cashew",
+    "githubRepo": "jameskokoska/Cashew",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.budget.tracker_app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "jameskokoska",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/jameskokoska/Cashew/main/promotional/GitHub/SocialPreviewGitHub.png",
+      "https://raw.githubusercontent.com/jameskokoska/Cashew/main/promotional/play-store-feature/play-store-feature.png",
+      "https://raw.githubusercontent.com/jameskokoska/Cashew/main/promotional/material-apps-feature/material-apps-feature.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
