@@ -11926,5 +11926,32 @@
       "https://raw.githubusercontent.com/andarcanum/Tadami-Aniyomi-fork/main/screenshots/7.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "tsukimi",
+    "name": "Tsukimi",
+    "description": "Tsukimi is a high-performance, feature-rich manga reader for Android, designed with a focus on speed, customization, and a premium user experience",
+    "icon": "https://raw.githubusercontent.com/salmanbappi/Tsukimi/devel/icon_work_v2/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/salmanbappi/Tsukimi",
+    "githubRepo": "salmanbappi/Tsukimi",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.tsukimi.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "salmanbappi",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1771768099604-48f9cc5a-b0a8-48c3-be01-a6b495be823d.jpg",
+      "https://image2url.com/r2/default/images/1771768120643-3830f6be-1933-4789-a160-2ff10a04106b.jpg",
+      "https://image2url.com/r2/default/images/1771768129402-2a307d29-b78e-4d58-b1ec-47954fc05ebc.jpg",
+      "https://image2url.com/r2/default/images/1771768136350-121b030e-050f-4bbe-a2c6-076291227861.jpg",
+      "https://image2url.com/r2/default/images/1771768186638-435b9c8b-ad92-425b-8295-1eb73ee63491.jpg"
+    ],
+    "releaseKeyword": "Tsukimi"
   }
 ]
