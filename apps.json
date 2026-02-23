@@ -12038,7 +12038,7 @@
     "id": "note-book",
     "name": "Note-book",
     "description": "A minimalist, open-source note-taking application designed for high efficiency and organized research. It features an advanced editor supporting tables, checkboxes, and bullet points, along with a real-time search system. Future updates will include a financial manager directly integrated into the workflow.\n",
-    "icon": "https://raw.githubusercontent.com/SaadhJawwadh/Note-taking/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "icon": "https://raw.githubusercontent.com/SaadhJawwadh/Note-taking/refs/heads/main/android/app/src/main/res/drawable-hdpi/ic_launcher_foreground.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
