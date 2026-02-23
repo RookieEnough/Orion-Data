@@ -11898,5 +11898,33 @@
       "https://image2url.com/r2/default/files/1771776460532-e7ae3228-4096-4a0c-9a89-a7920c98fa36.png",
       "https://image2url.com/r2/default/files/1771776474614-7f0d2e35-3ebd-49ff-a85f-286478fcc420.png"
     ]
+  },
+  {
+    "id": "tadami",
+    "name": "Tadami",
+    "description": "Tadami is a community fork of Aniyomi with a stronger focus on UI quality and reading experience, including active novel/ranobe support.",
+    "icon": "https://raw.githubusercontent.com/andarcanum/Tadami-Aniyomi-fork/main/app/src/main/res/drawable-nodpi/ic_launcher_foreground.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/andarcanum/Tadami-Aniyomi-fork",
+    "githubRepo": "andarcanum/Tadami-Aniyomi-fork",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.tadami.aurora",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "andarcanum",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/andarcanum/Tadami-Aniyomi-fork/main/screenshots/1.jpg",
+      "https://raw.githubusercontent.com/andarcanum/Tadami-Aniyomi-fork/main/screenshots/2.jpg",
+      "https://raw.githubusercontent.com/andarcanum/Tadami-Aniyomi-fork/main/screenshots/4.jpg",
+      "https://raw.githubusercontent.com/andarcanum/Tadami-Aniyomi-fork/main/screenshots/5.jpg",
+      "https://raw.githubusercontent.com/andarcanum/Tadami-Aniyomi-fork/main/screenshots/6.jpg",
+      "https://raw.githubusercontent.com/andarcanum/Tadami-Aniyomi-fork/main/screenshots/7.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
