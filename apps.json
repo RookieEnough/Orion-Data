@@ -11982,5 +11982,32 @@
       "https://play-lh.googleusercontent.com/1BAcGufZ80xuRN7533SC7uKVbXEqG05itfuuwk5xihqGvjYBhQqOLdacziPs1kr4MgA=w526-h296-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "papillon",
+    "name": "Papillon",
+    "description": "A free, open-source app with no ads or data collection, running entirely on your device and designed by other high school, middle school, and college students with the sole goal of being practical and easy to use.",
+    "icon": "https://play-lh.googleusercontent.com/wpV-VScxugHvexfYPURrkhpCxr1un_eJupTk9rHFf9TKfCBlYcrPoqyaJCVtWlX4Zw=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/PapillonApp/Papillon",
+    "githubRepo": "PapillonApp/Papillon",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "xyz.getpapillon.app",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Vince Linise ",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/FCpkPnQBuSEo5il_QYb0HI2kV5-JU_Jd4qhn5iYMbHeT6Q19eEnQfE2rrerzUBW_Nx2A5ZEaskxyBBbkwA1kBw=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/T2IKEf-6-4mrH6qVLj1fL0rL0PW8cmIBzN0sbXXlJt7i8t92dkz1TGYzSb3fGHa4IThepymfVKmvmGikF9E8d90=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/r1y4_-pJqZq3scp19wB9XHPs9xcaq4tJo1sHTwSD_3ZxohG7xVF5sbsWp49Rj9zjULDs9npslvRl77_9EJco=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/RhQdqa4q5pqr49549KAU2Cz8DjKs3VVIQq9ZM1t8JeBg4ioPoatzWr0XL_lWJx6ZFvDhiU7d7h4PkyGuQEralQ=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/fVkjYQlhhl0UglRXnMDHbLiryw8PiGtA4gidd9Jf1hVNtjmJ9g7Xv-b81zItqCO4qqlnBToCP0GGtBRzyqEh7g=w526-h296-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
