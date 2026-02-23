@@ -12110,5 +12110,32 @@
       "https://play-lh.googleusercontent.com/eNHA0jXVtx6ir60G6P2jnuoI4WyllRoowUVELuO-L2LPoMGVOjjXJnWsH_thyt3fEwa1jQtJGEPGJI88dWYv8A=w526-h296-rw"
     ],
     "releaseKeyword": "material"
+  },
+  {
+    "id": "focusgram",
+    "name": "FocusGram",
+    "description": "FocusGram is a distraction-free client for Instagram on Android that hides Reels and Explore, so you can stay connected without getting lost in the scroll.",
+    "icon": "https://raw.githubusercontent.com/Ujwal223/FocusGram/refs/heads/main/assets/images/focusgram.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Ujwal223/FocusGram",
+    "githubRepo": "Ujwal223/FocusGram",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ujwal.focusgram",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Ujwal Chapagain",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Ujwal223/FocusGram/refs/heads/main/assets/images/YGry0D.jpg",
+      "https://raw.githubusercontent.com/Ujwal223/FocusGram/refs/heads/main/assets/images/YGrs4T.jpg",
+      "https://raw.githubusercontent.com/Ujwal223/FocusGram/refs/heads/main/assets/images/YGrkqt.jpg",
+      "https://raw.githubusercontent.com/Ujwal223/FocusGram/refs/heads/main/assets/images/YGrivw.jpg",
+      "https://raw.githubusercontent.com/Ujwal223/FocusGram/refs/heads/main/assets/images/YGrQka.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
