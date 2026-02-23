@@ -11873,5 +11873,30 @@
       "https://image2url.com/r2/default/files/1771774481964-f9404318-b4f8-4430-81b6-7b9e8e46d593.png",
       "https://image2url.com/r2/default/files/1771774499268-903d84cc-a4e2-4618-a0bf-e208cb560fd1.png"
     ]
+  },
+  {
+    "id": "habitica",
+    "name": "Habitica",
+    "description": "Habitica is a gamified productivity powerhouse that transforms your life into a grand adventure. By turning your chores into monsters to defeat and your goals into gold to earn, it makes self-improvement feel like a multiplayer RPG rather than a burden. Whether you are battling procrastination in a party with friends or collecting rare mounts for your avatar, Habitica leverages psychological gaming loops to turn real-world progress into the ultimate winning strategy.\n\nHabitica is an open-source habit-building program that treats your life like a role-playing game. Level up as you succeed, lose HP as you fail, and earn Gold to buy weapons and armor.",
+    "icon": "https://raw.githubusercontent.com/HabitRPG/habitica/refs/heads/develop/website/client/public/static/presskit/Logo/Icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/HabitRPG/habitica",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "HabitRPG",
+    "officialSite": "https://github.com/HabitRPG/habitica",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1771776439522-297308a9-8cad-49c6-91b3-af1e3c266ccb.png",
+      "https://image2url.com/r2/default/files/1771776449224-4d51a168-c34d-4e10-ae4e-de9a344b7ec6.png",
+      "https://image2url.com/r2/default/files/1771776460532-e7ae3228-4096-4a0c-9a89-a7920c98fa36.png",
+      "https://image2url.com/r2/default/files/1771776474614-7f0d2e35-3ebd-49ff-a85f-286478fcc420.png"
+    ]
   }
 ]
