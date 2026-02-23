@@ -11953,5 +11953,34 @@
       "https://image2url.com/r2/default/images/1771768186638-435b9c8b-ad92-425b-8295-1eb73ee63491.jpg"
     ],
     "releaseKeyword": "Tsukimi"
+  },
+  {
+    "id": "showly",
+    "name": "Showly",
+    "description": "Showly is the ultimate TV show tracker and movie tracking app for entertainment lovers and Trakt.tv users. Track TV shows and movies with ease!",
+    "icon": "https://play-lh.googleusercontent.com/mihSLE6hHRUQlwfNjzpE4LmyjU8ao9JxOuRsx7kt8XhnEcQAWxHMOe7nsCT0G2G5xA=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/michaldrabik/showly",
+    "githubRepo": "michaldrabik/showly",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.michaldrabik.showly2",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "michaldrabik",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/I6xO3GC8-UX6jBE7I5WveqjMSgGVNNjTAh6uz_JHSU2jTAA3e7sLClY9E2WLWOoBpKqd=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/zlwWZW9GkOf-HvUd61bsh7JYKhVkc5-fNLVxzTg-euI7kirmW3ocEFsP0DLoXlyj1uFL=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/2i33RsrhqJf7PKq99PGLoH0vQn3oCSdAAVA5XTvlzL9VuFEWcY78eq8-Ua6tMJ6TGdo=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/k9WMo5smtaJetU5CV8bi3bairpDGxFrhyziEmMEG4Z0zWXsd1L3vJHF9ALia3JoDbPd5=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/k58gacv8O5OfSs6ri-SwngIGEyAt1tudjDXxDLeE1_Vjpk2KC230pX34zzoJsrmSEVc=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/lwNHmx-yJ0ktXsjuIbn_R4IX-7iy9HgSY9HSEp0zSKwBbNNlfwoWaxp9VkP7PEOxDg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/1BAcGufZ80xuRN7533SC7uKVbXEqG05itfuuwk5xihqGvjYBhQqOLdacziPs1kr4MgA=w526-h296-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
