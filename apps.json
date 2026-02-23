@@ -12082,5 +12082,33 @@
       "https://raw.githubusercontent.com/jameskokoska/Cashew/main/promotional/material-apps-feature/material-apps-feature.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "material-capsule",
+    "name": "Material Capsule Revanced",
+    "description": "A premium dynamic island-like app natively on Android wirh Material 3 expressive. \n\nPatches Applied:\n- Enable Pro",
+    "icon": "https://play-lh.googleusercontent.com/xfwaKi9SNmxOPgC1opf7Jpq9nW5VUQZVv7Aq4Ou5hW2jBDCGXV0X0YnD6Pjaq3FC5wQ=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Revanced-AutoBuilds",
+    "githubRepo": "RookieEnough/Revanced-AutoBuilds",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.pryshedko.mtisland",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Revanced",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Kj4dk-_IZy6uis0hY0qeAp2WRZybozFRanV4AFBa12ANpJ8lZ6uYE-pmvigpD1h2fV8VHEIv8Okm5Ap0476oDg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/8ityuTsRp3I4aQ1lHJn5Y2-4hQ6FsQyU4lyDYN2eSHj6eZe7frLMs1oP1Zux-CtkTmDJLLPEOy4EuA9RQGo5mA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/R8tBHBS9ME88JHw3LtOmWGHjGXljvATX1DJ63wxXdaL63HNF48xIlb3bGKvisSZ7EN9FFs71G_ybJQHRet_S=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/3VRoIQwErhY9UVB98tUhiRz-No8zXziJUtp4LzZlodcw5rweV_FQRvpo76A9zPJkqXlk1Zixz6UpQIThbPZ_NXg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/7aqcyBA_BFETr8ax5j_vY1NhuOQeSuBkTzpgZdakYztzku56e9nA8VcOSKEQfjsOorWp1v-WJpoTcQNYPN8QmA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/eNHA0jXVtx6ir60G6P2jnuoI4WyllRoowUVELuO-L2LPoMGVOjjXJnWsH_thyt3fEwa1jQtJGEPGJI88dWYv8A=w526-h296-rw"
+    ],
+    "releaseKeyword": "material"
   }
 ]
