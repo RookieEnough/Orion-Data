@@ -12033,5 +12033,29 @@
       "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fnuvio-tv-beta-0-3-0-released-trakt-integration-landscape-v0-yo9gi4q7k4jg1.png%3Fwidth%3D1930%26format%3Dpng%26auto%3Dwebp%26s%3D23789b7b20e85492ac90840c1056480aeea85ecd",
       "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fnews-for-android-tv-users-v0-ijz1pbv2mwgg1.png%3Fwidth%3D1946%26format%3Dpng%26auto%3Dwebp%26s%3Da010ce53b69df2d9ce576198a3e889901d4caff0"
     ]
+  },
+  {
+    "id": "note-book",
+    "name": "Note-book",
+    "description": "A minimalist, open-source note-taking application designed for high efficiency and organized research. It features an advanced editor supporting tables, checkboxes, and bullet points, along with a real-time search system. Future updates will include a financial manager directly integrated into the workflow.\n",
+    "icon": "https://raw.githubusercontent.com/SaadhJawwadh/Note-taking/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/SaadhJawwadh/Note-taking",
+    "githubRepo": "SaadhJawwadh/Note-taking",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.saadhjawwadh.notetaking",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "SaadhJawwadh",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1771833727208-cd89614c-f2e6-4d12-a557-6d214343a04d.png",
+      "https://image2url.com/r2/default/images/1771833861979-dfe5398b-4255-481b-9916-30ead401aa6a.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
