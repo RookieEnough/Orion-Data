@@ -1,7 +1,7 @@
 {
   "appsJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/apps.json",
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/data/mirror.json",
-  "maintenanceMode": "False",
+  "maintenanceMode": "false",
   "maintenanceMessage": "We are currently updating the server. Please check back in a while.",
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
