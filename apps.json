@@ -12137,5 +12137,30 @@
       "https://raw.githubusercontent.com/Ujwal223/FocusGram/refs/heads/main/assets/images/YGrQka.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "lichess",
+    "name": "Lichess",
+    "description": "Lichess is a free/libre, open-source chess application powered by volunteers and donations.\nToday, Lichess users play more than five million games every day. Lichess is one of the most popular chess websites in the world while remaining 100% free.",
+    "icon": "https://play-lh.googleusercontent.com/hHoOLcNewdudtLfkmbI-m1_EkJI0wOVqUoRJJO45GA8tTpOv4SoPPQHksYDomGvq3A",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/lichess-org/mobile",
+    "githubRepo": "lichess-org/mobile",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.lichess.mobileV2",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "lichess-org",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/4v38S6jhIx3vIFVrfQFZciMo7HCHIqINs3bJPB-RUxjyAX01w3zDvTQ6i5Ojr0_eM_c",
+      "https://play-lh.googleusercontent.com/brTVyr1a6L9IoY7CaH-wNcvoZ1jKqefm07vvxyoPadMN8KwGe2ScOmdAgHiQdAKiPwQ",
+      "https://play-lh.googleusercontent.com/tTFEtwQRsbkY_ndp4Q5yQOiPeiHImJwOd4agASMDqPyEH8GE2pka3cXc7Y7Vqj3tA9g"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
