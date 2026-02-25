@@ -6211,7 +6211,7 @@
   },
   {
     "id": "my-expenses-revanced",
-    "name": "MyExpenses Revanced",
+    "name": "MyExpenses Morphe",
     "description": "My Expenses ReVanced builds upon the original My Expenses app by Michael Totschnig, an open-source personal finance tracker for managing accounts, expenses, income, budgets, and transactions with features like CSV/QIF export and reconciliation. This modification applies the 'Unlock pro' patch (available in official ReVanced patches and forks) to the package org.totschnig.myexpenses, bypassing premium barriers to enable pro features without payment.",
     "icon": "https://play-lh.googleusercontent.com/UjuME9DmxhIYnYNWxxeX2GnhZKa2bSRzPa2udUm50z25pUIs06NG_MLTi7MQGp2zWMU=s48-rw",
     "version": "Latest",
@@ -6225,7 +6225,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "Revanced",
+    "author": "hoo-dles",
     "officialSite": "",
     "screenshots": [
       "https://play-lh.googleusercontent.com/cxh_qOx6OwQatZj69uI_odhyn0rbCvFECexPWDo_-nMm4AgfwYyD0MI1IT82fq2g52lW=w526-h296-rw",
@@ -6300,7 +6300,7 @@
   },
   {
     "id": "crunchyroll-revanced",
-    "name": "Crunchyroll Revanced",
+    "name": "Crunchyroll Morphe",
     "description": "Crunchyroll ReVanced is a patched version of the official Crunchyroll app (package com.crunchyroll.crunchyroid) using ReVanced tools. It primarily applies the 'Hide ads' patch, which removes video ads (pre-roll, mid-roll, post-roll) and general ads for a smoother viewing experience on free accounts. Evidence from official ReVanced patches and community discussions indicates this is the main (and often only) functional patch available for Crunchyroll—no reliable unlock of full premium features like offline downloads, HD streaming without limits, or ad-free simulcasts exists in standard or custom ReVanced repositories. Attempts at other patches (e.g., older 'Enable downloads') have historically caused crashes or been removed due to incompatibility.",
     "icon": "https://play-lh.googleusercontent.com/Fnor8mzNEsiWTfSTI_RXUmsaZW0eYw0RkIgIhSCphG4Y0ZgwC-zK2qzik-9VIxQDWQ=s48-rw",
     "version": "Latest",
@@ -6314,7 +6314,7 @@
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
-    "author": "Revanced",
+    "author": "hoo-dles",
     "officialSite": "",
     "screenshots": [
       "https://play-lh.googleusercontent.com/mc85mHwZt5indv2qNq5IJwv-D34WOlvljyfdbjGvIyurwYssXxyI2B9IXuINnQDTKNETU6MsyhoZs8lV9nUsZg=w526-h296-rw",
