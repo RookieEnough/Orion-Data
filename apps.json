@@ -427,32 +427,6 @@
     ]
   },
   {
-    "id": "Busuu",
-    "name": "Busuu Pro",
-    "description": "Busuu Pro Mod gives you completely free lifetime access to all 14 languages with unlimited offline downloads, removes every single ad forever, instantly unlocks official McGraw-Hill certificates for every completed level, adds real-time live conversations with native teachers 24/7, and even includes hidden AI-powered accent coaching that the original paid version doesn’t have — all in one simple, safe, and fully updated APK.",
-    "icon": "https://play-lh.googleusercontent.com/Egp-GTOp0CMBeS6eRVEQO6bLYdfklzGxCYSkr7aZynbzr2AJSZpF9s05_6ppj8vwq7I",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://getmodsapk.com/busuu-mod-apk/",
-    "githubRepo": "RookieEnough/Orion-Data",
-    "releaseKeyword": "busuu",
-    "packageName": "com.busuu.android.enc",
-    "category": "Educational",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Busuu Team",
-    "screenshots": [
-      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-8.webp",
-      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-2.webp",
-      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-5.webp",
-      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-6.webp",
-      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-4.webp",
-      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-3.webp",
-      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-7.webp"
-    ]
-  },
-  {
     "id": "canta-debloater",
     "name": "Canta",
     "description": "Uninstall any app (including pre-installed bloatware) without root by using Shizuku. Integrates community-powered recommendations (Universal Debloat List).",
@@ -12162,5 +12136,85 @@
       "https://play-lh.googleusercontent.com/tTFEtwQRsbkY_ndp4Q5yQOiPeiHImJwOd4agASMDqPyEH8GE2pka3cXc7Y7Vqj3tA9g"
     ],
     "releaseKeyword": "apk"
+  },
+     {
+    "id": "sofascore-morphe",
+    "name": "SofaScore Morphe",
+    "description": "Sofascore provides live sports scores, detailed statistics, and the most complete sports data coverage anywhere. Whether you follow NBA, NFL, NCAA, MLB, MLS, NHL, or any other major league, you’ll find an unmatched level of insight that will fuel your fandom no matter the team. \n\nPatches Applied : \n - Disable ads",
+    "icon": "https://play-lh.googleusercontent.com/EjND5djdqQDTmX6ERDZYLfiOCIqD3xZXHryNABP7a7mZhHhnFa5K-p0Rt4pYlY3PGWT6=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "sofascore",
+    "packageName": "com.sofascore.results",
+    "category": "Entertainment",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Morphe",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/kdjEW_3IevAu8Ski-zT12EQFJl3R11cNP7CcbTzOEWNgTx8-Hgg_ELIep7frd7IylA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/3FX8fSzJ8wv46mBz88RTuYt-bmpUAe-aQUDj8j9oAwEzyvfn4YeKKoqGiL5UNynlALpY7fXpeNNQM0KmafZJ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/DnMyNColUaTwy3hw0vFrTVswnZIigXZYrNFH17ELPZX4SGhDDpS5UIpNKopcLLAfvBk=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/M5UP-6CcxUFhjqN3tH1VjDQl-kCm1pvITjYp0-ixRNPqZpTFStSbsLMXFxO8hsWDag=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/ochRexq0CuSYcga0_FdyvHXWnRCvtGLmlpOGcmskYDl2hNCP0eaTJA4_QljiLlNIPg8=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/k8BnhVeBp7TRPt81A2I-2JZMih5U7K_YPyizLNrJcmOFw_B6qPit9P9k57t3ofqQtg=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/GFkJ34Gnplux8ldVrR8sQW-njGBK7V89Z2Lh2IRRssW6eaBWPpTwINiv8Rth8ea2NC8=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/APVaSmRKAWsqXOuDo1gWXDOPFZGFcDQMBJrvViembIwZ_strVpcn6In3S82xLci4Lg=w1052-h592-rw"
+      ]
+},
+{
+    "id": "meme-morphe",
+    "name": "Meme Generator Morphe",
+    "description": " Are you ready to dive into the world of memes and become a meme maestro? Look no further than Meme Generator, the go-to app for meme enthusiasts and anyone who wants to start exploring the world of memes. \n\nPatches Applied : \n - Enable Pro",
+    "icon": "https://play-lh.googleusercontent.com/YNBUh-8PzcAXryawZ559rEUDowEOgXsPDfTDBOi4AQQR6NTsWGvYTU1tMRctN3uoRqw8=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "meme",
+    "packageName": "com.zombodroid.MemeGenerator",
+    "category": "Entertainment",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Morphe",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/SnlkBkRT72wjgWDVYQ0_guJcYEG-DXKsPWP0V14yRRd9EEl7A3A3_MF3cGnz2geRwg=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/tgZc0WhJ-bpJx_38UYmRHwHZOHq2TK9mK18b3do8zJtc_baCWq8yYoX93BS8GwmYbR4S=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/NV2Hg5MB3mT0nuk4cpoPFfhaiYP-IHn4_H3BGq15s6RsTqtF1vi3wkzf_tCI2nrVizOV=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/Md-cNPXPzALsq7yZMCzcrwyVYlXBCVd_-2NyTC6V4q4dCJxIUY8eJiH0pztUcD4LlasH=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/mR_zHBNb_pwQudV_pZwJfQkfTWymG5-ASGP09rBbfmQlxFuCPQnL0uuVSAg_wANfO8Cp=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/wh3v8x6SFwIp4VcxtYuOW4VDAlwhH75I-f9abb1kVbSO0QjkrYRIe-eC4rr8Ljj1SUc=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/AcKO10_8-OwEJ5nvTSTRDEDAWUxMV952UoT5NE20uMiqLXabPqXkPNFiSWfA2kUUZHI=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/uMMFSKcuNaGacl-ZSnxC3e3eyS5sLrAPyflWH4uiLs20mqM4gpBD9ZjNmCmIUbCcLw=w1052-h592-rw"
+    ]
+  },
+  {
+    "id": "Busuu",
+    "name": "Busuu Morphe",
+    "description": "Learn a new language with fun, bite-sized lessons created by experts. Connect with a helpful network of native speakers and qualified teachers to master a language faster. \n\nPatches Applied:\n- Enable Pro",
+    "icon": "https://play-lh.googleusercontent.com/Egp-GTOp0CMBeS6eRVEQO6bLYdfklzGxCYSkr7aZynbzr2AJSZpF9s05_6ppj8vwq7I",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "busuu",
+    "packageName": "com.busuu.android.enc",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hoo-dles",
+    "screenshots": [
+      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-8.webp",
+      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-2.webp",
+      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-5.webp",
+      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-6.webp",
+      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-4.webp",
+      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-3.webp",
+      "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-7.webp"
+    ]
   }
 ]
