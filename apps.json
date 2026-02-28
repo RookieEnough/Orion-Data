@@ -12137,7 +12137,7 @@
     ],
     "releaseKeyword": "apk"
   },
-     {
+  {
     "id": "sofascore-morphe",
     "name": "SofaScore Morphe",
     "description": "Sofascore provides live sports scores, detailed statistics, and the most complete sports data coverage anywhere. Whether you follow NBA, NFL, NCAA, MLB, MLS, NHL, or any other major league, you’ll find an unmatched level of insight that will fuel your fandom no matter the team. \n\nPatches Applied : \n - Disable ads",
@@ -12162,9 +12162,9 @@
       "https://play-lh.googleusercontent.com/k8BnhVeBp7TRPt81A2I-2JZMih5U7K_YPyizLNrJcmOFw_B6qPit9P9k57t3ofqQtg=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/GFkJ34Gnplux8ldVrR8sQW-njGBK7V89Z2Lh2IRRssW6eaBWPpTwINiv8Rth8ea2NC8=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/APVaSmRKAWsqXOuDo1gWXDOPFZGFcDQMBJrvViembIwZ_strVpcn6In3S82xLci4Lg=w1052-h592-rw"
-      ]
-},
-{
+    ]
+  },
+  {
     "id": "meme-morphe",
     "name": "Meme Generator Morphe",
     "description": " Are you ready to dive into the world of memes and become a meme maestro? Look no further than Meme Generator, the go-to app for meme enthusiasts and anyone who wants to start exploring the world of memes. \n\nPatches Applied : \n - Enable Pro",
@@ -12216,5 +12216,39 @@
       "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-3.webp",
       "https://getmodsapk.com/storage/media/2025/9/busuu-mod-apk-7.webp"
     ]
+  },
+  {
+    "id": "overmorrow-weather",
+    "name": "Overmorrow Weather",
+    "description": "A simple , beautiful , elegant, modern, minimal weather app that is based on material design (You) made using flutter.\n\nFeatures : \n- open source , ads and trackers free\n- Full screen precipitation radar \n- Home screen widgets\n- Air quality page\n- Forecast in different intervals\n- Weather alerts, favorites\n- Optimized for tablets\n- Customizable yet beautiful\n                                                                   -pk\n",
+    "icon": "https://play-lh.googleusercontent.com/MwyMRgJRKs4z14KA3DiU9EMmalfEZhjbGHb14Hf8ZQCYj_SbV8EghhQrYsChGB5yxTUN0g7iMRKIH0Ge0aHcsA",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/bmaroti9/Overmorrow",
+    "githubRepo": "bmaroti9/Overmorrow",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.marotidev.Overmorrow",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Maroti dev",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_1.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_2.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_3.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_4.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_5.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_6.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_7.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_8.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_tablet_1.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_tablet_2.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_tablet_3.png",
+      "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_rounded.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
