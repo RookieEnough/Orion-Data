@@ -12303,5 +12303,30 @@
       "https://raw.githubusercontent.com/tobexyz/yaacc-code/develop/docs/screenshots/5.0.x/music_player.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "jhentai",
+    "name": "JHenTai",
+    "description": "A cross-platform manga app made for e-hentai & exhentai by Flutter.",
+    "icon": "https://raw.githubusercontent.com/jiangtian616/JHenTai/refs/heads/master/assets/icon/JHenTai.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/jiangtian616/JHenTai",
+    "githubRepo": "jiangtian616/JHenTai",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "top.jtmonster.jhentai",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "jiangtian616",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/jiangtian616/JHenTai/master/screenshot/detail.png",
+      "https://raw.githubusercontent.com/jiangtian616/JHenTai/master/screenshot/archive.jpg",
+      "https://raw.githubusercontent.com/jiangtian616/JHenTai/master/screenshot/setting_en.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
