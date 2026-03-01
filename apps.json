@@ -12250,5 +12250,30 @@
       "https://raw.githubusercontent.com/bmaroti9/Overmorrow/refs/heads/master/Screenshots/overmorrow_brown_rounded.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "futon",
+    "name": "Futon",
+    "description": "Futon is a free and open source manga reader for Android.\n\nNote: Futon is an unofficial fork of Kotatsu",
+    "icon": "https://f-droid.org/repo/io.github.landwarderer.futon/en-US/icon_Jjqjt4Fuprws7gLN3SIuYLA2Ta1YJ2naNOKxf1il_HE=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/AppFuton/Futon",
+    "githubRepo": "AppFuton/Futon",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.landwarderer.futon",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "AppFuton",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/AppFuton/Futon/devel/metadata/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/AppFuton/Futon/devel/metadata/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/AppFuton/Futon/devel/metadata/en-US/images/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
