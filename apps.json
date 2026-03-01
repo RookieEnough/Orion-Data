@@ -12275,5 +12275,33 @@
       "https://raw.githubusercontent.com/AppFuton/Futon/devel/metadata/en-US/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "yaacc",
+    "name": "yaacc",
+    "description": "YAACC - UPNP Client and Server.",
+    "icon": "https://f-droid.org/repo/de.yaacc/en-US/icon_QVqlosMIU1jb5cXRVO7IEVtPUqzvCSRDWN-Py_UEQhQ=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/tobexyz/yaacc-code",
+    "githubRepo": "tobexyz/yaacc-code",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.yaacc",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "tobexyz",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/tobexyz/yaacc-code/develop/docs/screenshots/5.0.x/browse_receiver.png",
+      "https://raw.githubusercontent.com/tobexyz/yaacc-code/develop/docs/screenshots/5.0.x/browse_image_folder.png",
+      "https://raw.githubusercontent.com/tobexyz/yaacc-code/develop/docs/screenshots/5.0.x/browse_servers.png",
+      "https://raw.githubusercontent.com/tobexyz/yaacc-code/develop/docs/screenshots/5.0.x/image_player_show_menu.png",
+      "https://raw.githubusercontent.com/tobexyz/yaacc-code/develop/docs/screenshots/5.0.x/playlist_fully_editable.png",
+      "https://raw.githubusercontent.com/tobexyz/yaacc-code/develop/docs/screenshots/5.0.x/music_player.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
