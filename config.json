@@ -6,9 +6,9 @@
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
   "notice": {
-    "id": "notice-ditch",
-    "title": "Ditch ReVanced",
-    "message": "Recent ReVanced changes are getting annoying, calling forks as 'unofficial' is childish. I'm finding it hard to manage time for this because of my other projects so If someone can port all the working patches from ReVanced to Morphe, then do let me know. let's make the community better💜.\n\nIf you love Orion, please Star the Repo or 'Fuel the Code' in the Dev tab!",
+    "id": "hehe-ditch",
+    "title": "De-ReVanced",
+    "message": "I've finally migrated 13 APPs to Morphe from ReVanced. I really hope you guys can now finally enjoy the complete Morphe environment.\n\nHighlight Patches:\n - Google Photos\n - Proton Mail\n\nIf you want to appreciate my hard work then consider buying me a coffee ✨",
     "show": true
   },
 
