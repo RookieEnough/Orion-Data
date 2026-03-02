@@ -12354,5 +12354,31 @@
       "https://raw.githubusercontent.com/MeetThakur/Krono/refs/heads/master/assets/images/schedule.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "com.saad_khan_rind.atmosphere_effect",
+    "name": "Atmo Engine",
+    "description": "Replicate the dynamic 'Atmosphere' unlock transition effect from Nothing OS.",
+    "icon": "https://raw.githubusercontent.com/saad-khan-rind/NOSAtmosphereEffect/master/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/saad-khan-rind/NOSAtmosphereEffect",
+    "githubRepo": "saad-khan-rind/NOSAtmosphereEffect",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.saad_khan_rind.atmosphere_effect",
+    "category": "Wallpaper",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "saad-khan-rind",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/saad-khan-rind/NOSAtmosphereEffect/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/saad-khan-rind/NOSAtmosphereEffect/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/saad-khan-rind/NOSAtmosphereEffect/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/saad-khan-rind/NOSAtmosphereEffect/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
