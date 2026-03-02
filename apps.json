@@ -112,7 +112,7 @@
     "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
     "githubRepo": "RookieEnough/Morphe-AutoBuilds",
     "releaseKeyword": "photos",
-    "packageName": "app.revanced.android.photos",
+    "packageName": "app.morphe.android.photos",
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
