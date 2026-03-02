@@ -12328,5 +12328,31 @@
       "https://raw.githubusercontent.com/jiangtian616/JHenTai/master/screenshot/setting_en.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "krono",
+    "name": "Krono",
+    "description": "Krono is a beautiful, modern mobile application designed for competitive programmers. It helps you track upcoming contests across multiple platforms, sync your profile stats, and never miss a round with smart reminders.",
+    "icon": "https://raw.githubusercontent.com/MeetThakur/Krono/refs/heads/master/assets/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MeetThakur/Krono",
+    "githubRepo": "MeetThakur/Krono",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.meet11.Krono",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Meet",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MeetThakur/Krono/refs/heads/master/assets/images/profile1.jpg",
+      "https://raw.githubusercontent.com/MeetThakur/Krono/refs/heads/master/assets/images/profile2.jpg",
+      "https://raw.githubusercontent.com/MeetThakur/Krono/refs/heads/master/assets/images/dashboard.jpg",
+      "https://raw.githubusercontent.com/MeetThakur/Krono/refs/heads/master/assets/images/schedule.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
