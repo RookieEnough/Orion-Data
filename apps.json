@@ -12380,5 +12380,30 @@
       "https://raw.githubusercontent.com/saad-khan-rind/NOSAtmosphereEffect/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "enforcedoze",
+    "name": "EnforceDoze",
+    "description": "Enable Doze mode immediately after screen off and turn off motion sensing to get best battery life.",
+    "icon": "https://f-droid.org/repo/com.akylas.enforcedoze/en-US/icon_6PaPvM2HjLdG_CqGyQ58JHgji5Xh7dknXKTUS6OCQDo=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/farfromrefug/EnforceDoze",
+    "githubRepo": "farfromrefug/EnforceDoze",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.akylas.enforcedoze",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "farfromrefug",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/com.akylas.enforcedoze/en-US/phoneScreenshots/1.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.akylas.enforcedoze/en-US/phoneScreenshots/2.png",
+      "https://apt.izzysoft.de/fdroid/repo/com.akylas.enforcedoze/en-US/phoneScreenshots/1.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
