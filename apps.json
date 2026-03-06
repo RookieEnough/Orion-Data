@@ -12431,5 +12431,32 @@
       "https://play-lh.googleusercontent.com/EmikQx4RazP4aRPbGE9FMLGKXfXXoHG3pndLM3pwVk8mat_jCj82fuHIjLvnGSH8uK8svpq-xJ7HtOE2QcFJaA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/hrkukgWYS-tO1yjfG_vHWTv7CT-RfY5t2ardxbdb-SkV5A8oy17MwhVJzROfl-yuZZcujhyDP0u23g5dXsNycw=w526-h296-rw"
     ]
-  }
+  },
+  {
+    "id": "icon-packer-revanced",
+    "name": "Icon Packer Morphe",
+    "description": "Hi designers & customizers, do you struggling to find a way to build your icon packs? There is a revolution solution for building your icon packs! \n\nPatches Applied : \n - Unlocked premium features",
+    "icon": "https://play-lh.googleusercontent.com/FeiQ7x7QZD5c7zzWjqu6SZzn7yYYoOFaEBol2-MauXk_j74vFEU0GJSsy6pIs6TKMCY=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "icon-packer",
+    "packageName": "cn.ommiao.iconpacker",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Morphe",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/y03xvRvj3LqX8anuyV1yM9YMAb4BLpivn2Ukb0ZKddGv3N6ytflRt2-ic2idphRXNDof=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/NEVWQCvp5jpmxWF63_ZsYrKlmfC0c3F-JNG7gxHEXC3zYT5208znloeWkPc1QnLFjQ=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/BdicUKQ-vXOEvYTBOAS2vH5ekDVTmwYjq4ZmeoPtf91Mr7CnJjfoMEXHEyp4W2yhWXI=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/IbzZ9YCAcBEKuJ09JLj1z91_zZWZmAluC9o8pGOw3T7qRrZKwjnF_gwePsZNsJ34eps=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/0SAPyteTz5Z_lGnE-kG0eqd3FqNT7IYZDqLU3kJHdcZ2Onhdk_yzAPLlPjzr7uWrD3Q=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/7suWnR7fg7n21qiwsNCGeaR1P55OC_FWQI1ke5Adxn8lxMxeLvemTvS2AyKt_Kjp7pfr=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/K9BhNOR4VkDw91MsGv10DnqzxI6c-4Ku0Iidk7JaGCYhyTJik3XzMfPN2j4gDVlYktc=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/zZRe87ZdXG6Dwkp4gTwHqJMcqmuTlPWyfcfrZRAU3YZpZ4PgXCt5nPvzUPeL8regsQ=w526-h296-rw"
+    ]
+   }
 ]
