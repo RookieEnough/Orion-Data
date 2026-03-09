@@ -12433,5 +12433,33 @@
       "https://play-lh.googleusercontent.com/K9BhNOR4VkDw91MsGv10DnqzxI6c-4Ku0Iidk7JaGCYhyTJik3XzMfPN2j4gDVlYktc=w526-h296-rw",
       "https://play-lh.googleusercontent.com/zZRe87ZdXG6Dwkp4gTwHqJMcqmuTlPWyfcfrZRAU3YZpZ4PgXCt5nPvzUPeL8regsQ=w526-h296-rw"
     ]
-   }
+  },
+  {
+    "id": "blockads",
+    "name": "blockads",
+    "description": "Block ads system-wide on Android using local VPN-based DNS filtering. No root needed. No data collection.",
+    "icon": "https://raw.githubusercontent.com/pass-with-high-score/blockads-android/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/pass-with-high-score/blockads-android",
+    "githubRepo": "pass-with-high-score/blockads-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.pwhs.blockads",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "pass-with-high-score",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/pass-with-high-score/blockads-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/pass-with-high-score/blockads-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/pass-with-high-score/blockads-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/pass-with-high-score/blockads-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/pass-with-high-score/blockads-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/pass-with-high-score/blockads-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
+    ],
+    "releaseKeyword": "apk"
+  }
 ]
