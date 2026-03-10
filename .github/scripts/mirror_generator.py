@@ -13,14 +13,16 @@ BINARY_MANIFEST_FILE = "updates.bin"
 
 def get_remote_size(url):
     """
-    Attempts to fetch the file size via a HEAD request.
+    Attempts to fetch the file size via a GET request with stream=True.
+    This is more reliable than HEAD for some servers like GitLab.
     """
     if not url or url == "#": return 0
     try:
-        # Use a short timeout and allow redirects
-        r = requests.head(url, allow_redirects=True, timeout=5)
-        if r.status_code == 200:
-            return int(r.headers.get('Content-Length', 0))
+        # Use stream=True to only fetch headers initially
+        r = requests.get(url, allow_redirects=True, stream=True, timeout=10)
+        size = int(r.headers.get('Content-Length', 0))
+        r.close() # Close connection immediately after getting headers
+        return size
     except:
         pass
     return 0
@@ -268,9 +270,20 @@ def generate_mirror():
                     repo_cache[u_key] = []
                     repo_cache[repo_path] = []
                 else:
-                    # Print success message with the latest version
+                    # Print success message with the latest version and size if available
                     latest_ver = minified_data[0].get('tag_name', 'Unknown') if isinstance(minified_data, list) else minified_data.get('tag_name', 'Unknown')
-                    print(f"   ✅ Found {latest_ver}")
+                    
+                    # Try to find a size in the latest release's assets
+                    latest_size_str = ""
+                    if isinstance(minified_data, list) and len(minified_data) > 0:
+                        assets = minified_data[0].get('assets', [])
+                        if assets:
+                            size_bytes = assets[0].get('size', 0)
+                            if size_bytes > 0:
+                                # Simple MB conversion for log visibility
+                                latest_size_str = f" ({round(size_bytes / (1024*1024), 1)} MB)"
+                    
+                    print(f"   ✅ Found {latest_ver}{latest_size_str}")
                     repo_cache[u_key] = minified_data
                     repo_cache[repo_path] = minified_data 
 
