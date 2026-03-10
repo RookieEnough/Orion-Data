@@ -6,9 +6,9 @@
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
   "notice": {
-    "id": "hehe-ditch",
-    "title": "De-ReVanced",
-    "message": "I've finally migrated 13 APPs to Morphe from ReVanced. I really hope you guys can now finally enjoy the complete Morphe environment.\n\nHighlight Patches:\n - Google Photos\n - Proton Mail\n\nIf you want to appreciate my hard work then consider buying me a coffee ✨",
+    "id": "notice-v1.2.3",
+    "title": "Orion 1.2.3 is Live",
+    "message": "The Multi-Forge Update is here! Highlights:\n\n🛠️ Multi-Forge Support\nFull Codeberg & GitLab support with dynamic repo buttons.\n\n⚙️ Update Control\nIgnore updates for 1 week, until next version, or never.\nn\n⚡ and so many bug fixes",
     "show": true
   },
 
