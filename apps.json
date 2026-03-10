@@ -12592,5 +12592,31 @@
       "https://images.iimg.live/images/prime-photo-5295.webp",
       "https://i.postimg.cc/brJ10LM5/photo-5-2026-03-10-23-14-09.jpg"
     ]
+  },
+  {
+    "id": "google-shortcuts-launcher",
+    "name": "Google Shortcuts Launcher",
+    "description": "Google Shortcuts Launcher provides a seamless way to integrate powerful Google services into your daily workflow. With just a tap, you can quickly access a variety of shortcuts designed to enhance usability and simplify your interaction with core Google features.",
+    "icon": "https://image2url.com/r2/default/files/1773163816958-05128d9e-4b7e-4887-95c5-8f417b72cd88.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/WSTxda/Google-Shortcuts-Launcher",
+    "githubRepo": "WSTxda/Google-Shortcuts-Launcher",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.wstxda.gsl",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "WSTxda",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1773163581767-fcc292ab-bc81-48f0-b342-9ad005e44dc9.jpg",
+      "https://image2url.com/r2/default/files/1773163593464-9ec27cf5-afa3-4ae3-8903-6922cc8bb0cb.jpg",
+      "https://image2url.com/r2/default/files/1773163701821-e21504d6-1e19-484e-92d4-c5f403afe7e1.jpg",
+      "https://image2url.com/r2/default/files/1773163715305-6a79739d-eccf-4c35-ad10-dea0a2d36a2d.jpg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
