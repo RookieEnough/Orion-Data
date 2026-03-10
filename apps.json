@@ -12542,5 +12542,30 @@
       "https://raw.githubusercontent.com/arekbauer/FaceDown/refs/heads/main/assets/settings2.png"
     ],
     "releaseKeyword": "facedown"
+  },
+  {
+    "id": "easter-eggs",
+    "name": "Easter Eggs",
+    "description": "Explore every hidden Android surprise in one place. Easter Eggs lets you experience the fun, quirky secrets from multiple Android versions without switching devices, relive games, system treats all inside one simple app.",
+    "icon": "https://f-droid.org/repo/com.dede.android_eggs/en-US/icon_13-ZRHtkwEh_aPgQpEwRBbvztACwn-oggRB-gWBI8tI=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/hushenghao/AndroidEasterEggs",
+    "githubRepo": "hushenghao/AndroidEasterEggs",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.dede.android_eggs",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hushenghao",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/DuNx2q4RQ1Y_xAbNxDjgwhsgw1qZ2csFf8Kjuljm7VVpiXM74HNGI40DYpuFxuqv8w",
+      "https://play-lh.googleusercontent.com/G-8swMmXObD-RUCJzX1g_qtPqzJYGnsuOpI6nOYUPzy4NVQR6Vzy9Rgh__UzgpgMbQ",
+      "https://play-lh.googleusercontent.com/Hq1QzSve8Upl14N10yBWdNUQvlKUh77XFlS2fXw8t951JtKAYeorDoqg9W9yJZusgRU"
+    ],
+    "releaseKeyword": "easter"
   }
 ]
