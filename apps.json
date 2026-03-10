@@ -12567,5 +12567,30 @@
       "https://play-lh.googleusercontent.com/Hq1QzSve8Upl14N10yBWdNUQvlKUh77XFlS2fXw8t951JtKAYeorDoqg9W9yJZusgRU"
     ],
     "releaseKeyword": "easter"
+  },
+  {
+    "id": "fake-updater-screen",
+    "name": "Fake Updater screen",
+    "description": "Your PC/Phone isn’t updating… but everyone else will think it is 😌\r\nPerfect for pranks, screenshots, or escaping awkward conversations / your job 😎",
+    "icon": "https://images.iimg.live/images/perfect-image-2879.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://www.whitescreen.online",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Whitescreen",
+    "officialSite": "https://www.whitescreen.online",
+    "screenshots": [
+      "https://images.iimg.live/images/fantastic-masterpiece-4657.webp",
+      "https://i.postimg.cc/cH7FkDXV/photo-1-2026-03-10-23-14-09.jpg",
+      "https://images.iimg.live/images/prime-photo-5295.webp",
+      "https://i.postimg.cc/brJ10LM5/photo-5-2026-03-10-23-14-09.jpg"
+    ]
   }
 ]
