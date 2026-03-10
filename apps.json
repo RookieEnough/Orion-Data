@@ -12517,5 +12517,30 @@
       "https://codeberg.org/comaps/comaps/media/branch/main/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "facedown",
+    "name": "FaceDown",
+    "description": "FaceDown is a minimal timer that enforces focus by requiring the user to place their phone face down on a table. If the phone is picked up or flipped over, the timer pauses, ensuring a distraction-free environment.",
+    "icon": "https://raw.githubusercontent.com/arekbauer/FaceDown/refs/heads/main/assets/app_logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/arekbauer/FaceDown",
+    "githubRepo": "arekbauer/FaceDown",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.arekb.facedown",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "arekbauer",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/arekbauer/FaceDown/refs/heads/main/assets/home3.png",
+      "https://raw.githubusercontent.com/arekbauer/FaceDown/refs/heads/main/assets/stats.png",
+      "https://raw.githubusercontent.com/arekbauer/FaceDown/refs/heads/main/assets/settings2.png"
+    ],
+    "releaseKeyword": "facedown"
   }
 ]
