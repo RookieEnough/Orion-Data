@@ -11,7 +11,21 @@ MIRROR_FILE = "mirror.json"
 MIRRORS_DIR = "mirrors"
 BINARY_MANIFEST_FILE = "updates.bin"
 
-def minify_release(release):
+def get_remote_size(url):
+    """
+    Attempts to fetch the file size via a HEAD request.
+    """
+    if not url or url == "#": return 0
+    try:
+        # Use a short timeout and allow redirects
+        r = requests.head(url, allow_redirects=True, timeout=5)
+        if r.status_code == 200:
+            return int(r.headers.get('Content-Length', 0))
+    except:
+        pass
+    return 0
+
+def minify_release(release, fetch_sizes=False):
     """
     THIN MIRROR PROTOCOL
     --------------------
@@ -39,10 +53,18 @@ def minify_release(release):
         # Flatten GitLab links into the 'assets' array expected by frontend
         gl_links = release['assets'].get('links', [])
         for link in gl_links:
+             asset_name = link.get("name", "")
+             asset_url = link.get("direct_asset_url") or link.get("url")
+             
+             size = 0
+             # Only fetch size if requested and it looks like an APK
+             if fetch_sizes and ("apk" in asset_name.lower() or ".apk" in asset_url.lower()):
+                 size = get_remote_size(asset_url)
+
              minified_assets.append({
-                "name": link.get("name"),
-                "size": 0, # GitLab links often don't have size metadata available here
-                "browser_download_url": link.get("direct_asset_url") or link.get("url"),
+                "name": asset_name,
+                "size": size,
+                "browser_download_url": asset_url,
                 "link_type": link.get("link_type")
             })
 
@@ -232,9 +254,12 @@ def generate_mirror():
             if data is not None:
                 # APPLY THIN MIRROR PROTOCOL
                 if isinstance(data, list):
-                    minified_data = [minify_release(r) for r in data]
+                    # Only fetch sizes for the first (latest) release to save time/requests
+                    minified_data = []
+                    for i, r in enumerate(data):
+                        minified_data.append(minify_release(r, fetch_sizes=(i == 0)))
                 else:
-                    minified_data = minify_release(data)
+                    minified_data = minify_release(data, fetch_sizes=True)
                 
                 # Check if empty list returned (repo exists but no releases)
                 if not minified_data:
