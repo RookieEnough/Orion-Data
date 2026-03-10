@@ -79,7 +79,9 @@ def generate_mirror():
 
     try:
         with open(APPS_FILE, "r", encoding="utf-8") as f:
-            apps = json.load(f)
+            all_apps = json.load(f)
+            # Filter out non-Android apps right at the start
+            apps = [app for app in all_apps if app.get("platform", "Android") == "Android"]
     except Exception as e:
         print(f"❌ Error reading apps.json: {e}")
         return
@@ -179,6 +181,24 @@ def generate_mirror():
                 r = requests.get(url, timeout=20)
                 if r.status_code == 200:
                     data = r.json()
+                    if not data:
+                        print(f"   ⚠️ GitLab Release list empty. Trying fallback: /repository/tags...")
+                        fallback_url = f"https://{s_domain}/api/v4/projects/{encoded_path}/repository/tags"
+                        r_fallback = requests.get(fallback_url, timeout=20)
+                        if r_fallback.status_code == 200:
+                            print(f"   ✅ Fallback success! Found tags.")
+                            # Convert tags to release-like objects
+                            data = [{"tag_name": t.get("name"), "name": t.get("name"), "published_at": t.get("commit", {}).get("created_at"), "assets": []} for t in r_fallback.json()]
+                elif r.status_code == 404:
+                    print(f"   ⚠️ GitLab Releases 404. Trying fallback: /repository/tags...")
+                    fallback_url = f"https://{s_domain}/api/v4/projects/{encoded_path}/repository/tags"
+                    r_fallback = requests.get(fallback_url, timeout=20)
+                    if r_fallback.status_code == 200:
+                        print(f"   ✅ Fallback success! Found tags.")
+                        data = [{"tag_name": t.get("name"), "name": t.get("name"), "published_at": t.get("commit", {}).get("created_at"), "assets": []} for t in r_fallback.json()]
+                    else:
+                        print(f"   ⚠️ GitLab Error 404: {repo_path}")
+                        fetch_errors[u_key] = f"GitLab Error 404 (Project not found or private)"
                 else:
                     print(f"   ⚠️ GitLab Error {r.status_code}: {repo_path}")
                     fetch_errors[u_key] = f"GitLab Error {r.status_code}"
@@ -188,6 +208,23 @@ def generate_mirror():
                 r = requests.get(url, timeout=20)
                 if r.status_code == 200:
                     data = r.json()
+                    if not data:
+                        print(f"   ⚠️ Codeberg Release list empty. Trying fallback: /tags...")
+                        fallback_url = f"https://codeberg.org/api/v1/repos/{repo_path}/tags"
+                        r_fallback = requests.get(fallback_url, timeout=20)
+                        if r_fallback.status_code == 200:
+                            print(f"   ✅ Fallback success! Found tags.")
+                            data = [{"tag_name": t.get("name"), "name": t.get("name"), "published_at": None, "assets": []} for t in r_fallback.json()]
+                elif r.status_code == 404:
+                    print(f"   ⚠️ Codeberg Releases 404. Trying fallback: /tags...")
+                    fallback_url = f"https://codeberg.org/api/v1/repos/{repo_path}/tags"
+                    r_fallback = requests.get(fallback_url, timeout=20)
+                    if r_fallback.status_code == 200:
+                        print(f"   ✅ Fallback success! Found tags.")
+                        data = [{"tag_name": t.get("name"), "name": t.get("name"), "published_at": None, "assets": []} for t in r_fallback.json()]
+                    else:
+                        print(f"   ⚠️ Codeberg Error 404: {repo_path}")
+                        fetch_errors[u_key] = f"Codeberg Error 404 (Project not found or private)"
                 else:
                     print(f"   ⚠️ Codeberg Error {r.status_code}: {repo_path}")
                     fetch_errors[u_key] = f"Codeberg Error {r.status_code}"
