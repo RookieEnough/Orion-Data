@@ -120,6 +120,19 @@ def generate_mirror():
                     source_type = 'gitlab'
                     domain = parsed.netloc
             except: pass
+        elif app.get("codebergRepo"):
+            repo_key = app["codebergRepo"].strip("/")
+            source_type = 'codeberg'
+            domain = "codeberg.org"
+        elif app.get("repoUrl") and "codeberg" in app["repoUrl"]:
+            try:
+                parsed = urllib.parse.urlparse(app["repoUrl"])
+                path_parts = parsed.path.strip("/").split("/")
+                if len(path_parts) >= 2:
+                    repo_key = "/".join(path_parts)
+                    source_type = 'codeberg'
+                    domain = parsed.netloc
+            except: pass
 
         if repo_key and source_type:
             unique_key = f"{source_type}::{domain}::{repo_key.lower()}"
@@ -169,6 +182,15 @@ def generate_mirror():
                 else:
                     print(f"   ⚠️ GitLab Error {r.status_code}: {repo_path}")
                     fetch_errors[u_key] = f"GitLab Error {r.status_code}"
+
+            elif s_type == 'codeberg':
+                url = f"https://codeberg.org/api/v1/repos/{repo_path}/releases"
+                r = requests.get(url, timeout=20)
+                if r.status_code == 200:
+                    data = r.json()
+                else:
+                    print(f"   ⚠️ Codeberg Error {r.status_code}: {repo_path}")
+                    fetch_errors[u_key] = f"Codeberg Error {r.status_code}"
 
             if data is not None:
                 # APPLY THIN MIRROR PROTOCOL
@@ -237,7 +259,8 @@ def generate_mirror():
 
     # 4. Generate Monolithic File (Legacy)
     print("💾 Saving legacy mirror.json...")
-    legacy_data = {k: v for k, v in repo_cache.items() if "::" not in k and v} 
+    # We now include ALL keys (including unique keys with ::) to support multi-platform collision handling
+    legacy_data = {k: v for k, v in repo_cache.items() if v} 
     try:
         with open(MIRROR_FILE, "w", encoding="utf-8") as f:
             json.dump(legacy_data, f, indent=None, separators=(',', ':'))
