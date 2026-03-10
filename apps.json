@@ -3169,7 +3169,7 @@
     "repoUrl": "https://gitlab.shinice.net/pixeldroid/bunny",
     "gitlabRepo": "pixeldroid/bunny",
     "gitlabDomain": "gitlab.shinice.net",
-    "releaseKeyword": "bunny",
+    "releaseKeyword": "APK",
     "packageName": "eu.artectrex.bunny",
     "category": "Utility",
     "platform": "Android",
@@ -12461,32 +12461,5 @@
       "https://raw.githubusercontent.com/pass-with-high-score/blockads-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
     ],
     "releaseKeyword": "apk"
-  },
-  {
-    "id": "evnttrackr",
-    "name": "EvntTrackr",
-    "description": "Track your upcoming, past and saved concerts and festivals. Visualize your musical history and get a bunch of stats from it. All of this trackers and ads free.",
-    "icon": "https://lh3.googleusercontent.com/o3Tyak9JXbZsqN0Jm9NJCbtvzkVTOelIDzj5iI9u-DIrq1KQ5zKEP9PmbFy9LAXBocNpw3bqXA-fJfpk4K95PQ",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/ToDelattre/evnt-trackr",
-    "githubRepo": "",
-    "gitlabRepo": "ToDelattre/evnt-trackr",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "dev.todelattre.evnttrackr",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "ToDelattre",
-    "officialSite": "",
-    "screenshots": [
-      "https://lh3.googleusercontent.com/z-N4QdyGC326rRlVUeLJYnkZ-GQaZ2NVRCSzKoZd5TnvALCt1GotO-9roRxLNnWPhcIv875k4CJlqcXfRJi4Jg",
-      "https://lh3.googleusercontent.com/DVPG5Hv9V5D4faB_r_5W6VRJBtEtbW2kUF57rqkthngr-8rE2cP_KRBdLegk9AwJdm5QgxOFHMwhKnOYQBrDgQ",
-      "https://lh3.googleusercontent.com/3QgJm1K9FCGOi1WRQNcLigCvLYQE4-FZxEOWVi4DtRIoF-d8-6w6vQml9iBej4o8jYaczscYfDJYZ7d2LsHGOQ",
-      "https://lh3.googleusercontent.com/T6w-uci7B_K-4_izwUVgHJdCFlbbOJh_SeYUQP2VuxyBKK_-6WoeN3i5r1Rkr16XbGrd2CFgqwrF0ZJx1n2ucw",
-      "https://lh3.googleusercontent.com/9K7B632H-RMInS2FLWH_Ou_VjaVH8PpKcLam_hOnJcsLLoV4-HpAwz26k_nQZQ7_Ol5pwTXZk8jRGsE0nrhP_A"
-    ],
-    "releaseKeyword": "release"
   }
 ]
