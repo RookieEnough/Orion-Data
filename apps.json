@@ -3159,33 +3159,6 @@
     "releaseKeyword": "YTDLnis"
   },
   {
-    "id": "eu.artectrex.bunny",
-    "name": "Bunny Media Editor",
-    "description": "Bunny Media Editor is a free (as in freedom) Android media editor, letting you edit images and videos on your phone.",
-    "icon": "https://gitlab.shinice.net/uploads/-/system/project/avatar/109/mascot.png?width=48",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.shinice.net/pixeldroid/bunny",
-    "gitlabRepo": "pixeldroid/bunny",
-    "gitlabDomain": "gitlab.shinice.net",
-    "releaseKeyword": "APK",
-    "packageName": "eu.artectrex.bunny",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "pixeldroid",
-    "screenshots": [
-      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot01.png",
-      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot02.png",
-      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot03.png",
-      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot04.png",
-      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot05.png",
-      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot06.png",
-      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot07.png"
-    ]
-  },
-  {
     "id": "smarttube",
     "name": "SmartTube",
     "description": "SmartTube is a free and open-source advanced media player for Android TVs and TV boxes. It allows you to play content from various public sources ( adfree youtube ) ",
@@ -12489,5 +12462,32 @@
       "https://f-droid.org/repo/de.tadris.fitness/en-US/phoneScreenshots/screenshot6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "eu.artectrex.bunny",
+    "name": "Bunny Media Editor",
+    "description": "Bunny Media Editor is a free (as in freedom) Android media editor, letting you edit images and videos on your phone.",
+    "icon": "https://gitlab.shinice.net/uploads/-/system/project/avatar/109/mascot.png?width=48",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://gitlab.shinice.net/pixeldroid/bunny",
+    "gitlabRepo": "pixeldroid/bunny",
+    "gitlabDomain": "gitlab.shinice.net",
+    "releaseKeyword": "APK",
+    "packageName": "eu.artectrex.bunny",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "pixeldroid",
+    "screenshots": [
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot01.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot02.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot03.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot04.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot05.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot06.png",
+      "https://f-droid.org/repo/eu.artectrex.bunny/en-US/phoneScreenshots/screenshot07.png"
+    ]
   }
 ]
