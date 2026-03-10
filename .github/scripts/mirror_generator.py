@@ -42,7 +42,7 @@ def minify_release(release):
              minified_assets.append({
                 "name": link.get("name"),
                 "size": 0, # GitLab links often don't have size metadata available here
-                "browser_download_url": link.get("url"),
+                "browser_download_url": link.get("direct_asset_url") or link.get("url"),
                 "link_type": link.get("link_type")
             })
 
@@ -243,6 +243,9 @@ def generate_mirror():
                     repo_cache[u_key] = []
                     repo_cache[repo_path] = []
                 else:
+                    # Print success message with the latest version
+                    latest_ver = minified_data[0].get('tag_name', 'Unknown') if isinstance(minified_data, list) else minified_data.get('tag_name', 'Unknown')
+                    print(f"   ✅ Found {latest_ver}")
                     repo_cache[u_key] = minified_data
                     repo_cache[repo_path] = minified_data 
 
