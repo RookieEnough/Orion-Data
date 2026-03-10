@@ -12461,5 +12461,33 @@
       "https://raw.githubusercontent.com/pass-with-high-score/blockads-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fitotrack",
+    "name": "FitoTrack",
+    "description": "FitoTrack is a mobile app for logging and viewing your workouts. Whether you're running, cycling or hiking, FitoTrack will show you the most important information, with detailed charts and statistics. It is open-source and completely ad-free.",
+    "icon": "https://play-lh.googleusercontent.com/sEFv0gv0SJ5xgq-BWRhjJFANISlCiDfF79X3rAwNyj9vDxoyJVK86-CyNw3NiZ27nTg=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://codeberg.org/jannis/FitoTrack",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.tadris.fitness",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "jannis",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/de.tadris.fitness/en-US/phoneScreenshots/screenshot1.png",
+      "https://f-droid.org/repo/de.tadris.fitness/en-US/phoneScreenshots/screenshot2.png",
+      "https://f-droid.org/repo/de.tadris.fitness/en-US/phoneScreenshots/screenshot3.png",
+      "https://f-droid.org/repo/de.tadris.fitness/en-US/phoneScreenshots/screenshot4.png",
+      "https://f-droid.org/repo/de.tadris.fitness/en-US/phoneScreenshots/screenshot5.png",
+      "https://f-droid.org/repo/de.tadris.fitness/en-US/phoneScreenshots/screenshot6.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
