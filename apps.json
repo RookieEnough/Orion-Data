@@ -12618,5 +12618,30 @@
       "https://image2url.com/r2/default/files/1773163715305-6a79739d-eccf-4c35-ad10-dea0a2d36a2d.jpg"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "battery-stats-changer",
+    "name": "Battery Stats Changer",
+    "description": "Battery Stats Changer is a fun application for changing battery data in the Android system. Root or Shizuku, dumpsys/cmd commands are executed, which can change some battery data.",
+    "icon": "https://raw.githubusercontent.com/superisuer/battery-stats-changer/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/superisuer/battery-stats-changer",
+    "githubRepo": "superisuer/battery-stats-changer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.huker667.bsc",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "superisuer",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/batt-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/batt-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/batt-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
