@@ -12955,5 +12955,32 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/WA Inco (3)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "seanime",
+    "name": "Seanime",
+    "description": "Open-source media server with a web interface and desktop app for anime and manga.",
+    "icon": "https://raw.githubusercontent.com/5rahim/seanime/refs/heads/main/docs/images/seanime-logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/5rahim/seanime",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "5rahim",
+    "officialSite": "https://github.com/5rahim/seanime",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/seanim (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/seanim (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/seanim (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/seanim (4)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/seanim (5)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
