@@ -13397,5 +13397,30 @@
       "https://raw.githubusercontent.com/MarmadileManteater/FreeTubeAndroid/development/metadata/en-US/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "file-navigator",
+    "name": "File Navigator",
+    "description": "The missing link between Android and a sorted file system.",
+    "icon": "https://raw.githubusercontent.com/w2sv/FileNavigator/main",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/w2sv/FileNavigator",
+    "githubRepo": "w2sv/FileNavigator",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.w2sv.filenavigator",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "w2sv",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/w2sv/FileNavigator/main/app/src/main/play/listings/en-US/graphics/phone-screenshots/1.jpg",
+      "https://raw.githubusercontent.com/w2sv/FileNavigator/main/app/src/main/play/listings/en-US/graphics/phone-screenshots/2.jpg",
+      "https://raw.githubusercontent.com/w2sv/FileNavigator/main/app/src/main/play/listings/en-US/graphics/phone-screenshots/3.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
