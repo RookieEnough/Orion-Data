@@ -13221,5 +13221,30 @@
       "https://gitlab.com/sultanahamer/OpenContacts/-/raw/master/screenshots/3-Preferences.png"
     ],
     "releaseKeyword": "v24.0"
+  },
+  {
+    "id": "rpcsx-ui",
+    "name": "rpcsx-ui",
+    "description": "An experimental Android native UI for RPCSX emulator",
+    "icon": "https://avatars.githubusercontent.com/u/30158424?v=4",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RPCSX/rpcsx-ui-android",
+    "githubRepo": "RPCSX/rpcsx-ui-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "net.rpcsx",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RPCSX",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1773315403620-96b92160-522a-40c1-b87d-4573ba19a318.jpg",
+      "https://image2url.com/r2/default/images/1773315432011-5c7af402-18c3-42da-97ef-7058239abd2e.jpg",
+      "https://image2url.com/r2/default/images/1773315451259-3550dc79-6130-464c-900d-1ee9fc667107.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
