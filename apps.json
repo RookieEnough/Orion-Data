@@ -12930,5 +12930,30 @@
       "https://image2url.com/r2/default/files/1773163266191-a52a9c70-09f6-4b12-ba18-236275b887d7.jpg"
     ],
     "releaseKeyword": "zapstore"
+  },
+  {
+    "id": "whatsapp-web-incognito",
+    "name": "Whatsapp Web Incognito",
+    "description": "WAIncognito is an extension for WhatsApp Web that focuses on privacy and control. It lets you read messages, view statuses, and browse chats without revealing your activity, also having extra utilities like restoring deleted messages and downloading statuses.",
+    "icon": "https://raw.githubusercontent.com/tomer8007/whatsapp-web-incognito/refs/heads/master/images/icon_128_blue.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/tomer8007/whatsapp-web-incognito",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Social",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "tomer8007",
+    "officialSite": "https://github.com/tomer8007/whatsapp-web-incognito",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/WA Inco (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/WA Inco (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/WA Inco (3)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
