@@ -13195,7 +13195,7 @@
       "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-download.png",
       "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-updates.png"
     ],
-    "releaseKeyword": "https://cdn.shosetsu.app/v2.4.4/shosetsu-v2.4.4.apk"
+    "releaseKeyword": "APK"
   },
   {
     "id": "opencontacts",
@@ -13220,7 +13220,7 @@
       "https://gitlab.com/sultanahamer/OpenContacts/-/raw/master/screenshots/2-Editcontact.png",
       "https://gitlab.com/sultanahamer/OpenContacts/-/raw/master/screenshots/3-Preferences.png"
     ],
-    "releaseKeyword": "v24.0"
+    "releaseKeyword": "APK"
   },
   {
     "id": "rpcsx-ui",
@@ -13271,5 +13271,28 @@
       "https://raw.githubusercontent.com/WorkofAditya/ChatBot/refs/heads/main/docs/images/4_menu.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "droid-pad",
+    "name": "Droid Pad",
+    "description": "Create custom control interfaces easily with a simple drag-and-drop and transform your Android device into a remote control for Bluetooth Low Energy (BLE), WebSocket, MQTT, Bluetooth, TCP, and UDP protocols. Key Features: 1. Drag-and-Drop Control Pad Creation: Design your control pads by dragging and dropping components like buttons, sliders, and switches. 2. Multi-Protocol Support and Flexible Connectivity: - For WebSocket, MQTT, TCP, UDP, and Bluetooth, the app acts as a client."
+    "icon": "https://f-droid.org/repo/com.github.umer0586.droidpad/en-US/icon_qiwoLE1y1Nz5aAE67ux8qKl_e-8GUt4_wJ7MTg_alIs=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/UmerCodez/DroidPad",
+    "githubRepo": "UmerCodez/DroidPad",
+    "releaseKeyword": "apk",
+    "packageName": "com.github.umer0586.droidpad",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "UmerCodez",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/UmerCodez/DroidPad/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/UmerCodez/DroidPad/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/UmerCodez/DroidPad/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ]
   }
 ]
