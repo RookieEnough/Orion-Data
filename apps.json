@@ -12701,5 +12701,30 @@
       "https://image2url.com/r2/default/files/1773252980593-ec6f8dc9-9295-411c-8891-6908cad66fb8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "kimu",
+    "name": "KIMU",
+    "description": "Your creative copilot for video editing. Kimu is a playful, open-source alternative to CapCut and Canva that brings \"vibe coding\" to the video world. It combines a zero-latency web interface with a powerful AI assistant to help you edit and export high-quality content at the speed of thought.",
+    "icon": "https://raw.githubusercontent.com/trykimu/videoeditor/refs/heads/main/public/favicon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/trykimu/videoeditor",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "trykimu",
+    "officialSite": "https://github.com/trykimu/videoeditor",
+    "screenshots": [
+      "https://raw.githubusercontent.com/trykimu/videoeditor/refs/heads/main/public/screenshot-app.png",
+      "https://raw.githubusercontent.com/trykimu/videoeditor/refs/heads/main/public/screenshot-app.png",
+      "https://raw.githubusercontent.com/trykimu/videoeditor/refs/heads/main/public/screenshot-app.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
