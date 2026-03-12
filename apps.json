@@ -13372,5 +13372,30 @@
       "https://raw.githubusercontent.com/Mssheliya/HabitBee/main/docs%2Fimages%2Fscreenshot5.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "freetube",
+    "name": "FreeTube",
+    "description": "A soft fork of FreeTube which brings it to Android (formerly FreeTubeCordova)",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/io.freetubeapp.freetube/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MarmadileManteater/FreeTubeAndroid",
+    "githubRepo": "MarmadileManteater/FreeTubeAndroid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.freetubeapp.freetube",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MarmadileManteater",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MarmadileManteater/FreeTubeAndroid/development/metadata/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/MarmadileManteater/FreeTubeAndroid/development/metadata/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/MarmadileManteater/FreeTubeAndroid/development/metadata/en-US/images/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
