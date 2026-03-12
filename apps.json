@@ -13294,5 +13294,31 @@
       "https://raw.githubusercontent.com/UmerCodez/DroidPad/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
       "https://raw.githubusercontent.com/UmerCodez/DroidPad/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
     ]
+  },
+  {
+    "id": "treble-info",
+    "name": "Treble info",
+    "description": "Helps you check Project Treble, A/B and Architecture for GSI installation.\n\nThis application allows you to check the Treble GSI requirements and determine the correct GSI type for your device.\n\nKey features:\n* Check Treble support status\n* Check Treble/VNDK version\n* Check system architecture\n* Check A-Only or A/B status\n* Check for binder64\n* Check for System-as-Root\n* Does not require root access\n* Supports dark theme and uses Material Design 3",
+    "icon": "https://gitlab.com/TrebleInfo/TrebleInfo/-/raw/dev/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://gitlab.com/TrebleInfo/TrebleInfo",
+    "githubRepo": "",
+    "gitlabRepo": "TrebleInfo/TrebleInfo",
+    "gitlabDomain": "gitlab.com",
+    "packageName": "tk.hack5.treblecheck",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Hackintosh Five",
+    "officialSite": "",
+    "screenshots": [
+      "https://gitlab.com/TrebleInfo/TrebleInfo/-/raw/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/true-64-64-true-true-false-false-false-33-0-false-0.png",
+      "https://gitlab.com/TrebleInfo/TrebleInfo/-/raw/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/true-64-64-true-true-false-false-false-33-0-false-1.png",
+      "https://gitlab.com/TrebleInfo/TrebleInfo/-/raw/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/true-64-64-false-true-false-false-false-28-0-false-2.png",
+      "https://gitlab.com/TrebleInfo/TrebleInfo/-/raw/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/true-64-64-false-true-false-false-false-28-0-true-3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
