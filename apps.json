@@ -12726,5 +12726,30 @@
       "https://raw.githubusercontent.com/trykimu/videoeditor/refs/heads/main/public/screenshot-app.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "poke",
+    "name": "Poke",
+    "description": "Poke! is a free and libre software anonymous and Private Weather, Translator & Youtube Frontend With Actual good UI and many many other features.",
+    "icon": "https://image2url.com/r2/default/files/1773252309606-a624ec45-c5dd-4b10-b485-bde4fb825320.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://codeberg.org/ashleyirispuppy/poke",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "ashleyirispuppy",
+    "officialSite": "https://codeberg.org/ashleyirispuppy/poke",
+    "screenshots": [
+      "https://codeberg.org/ashleyirispuppy/pages/raw/branch/main/Untitled.webp",
+      "https://codeberg.org/ashleyirispuppy/poke/media/branch/main/css/README_RYD.png",
+      "https://codeberg.org/ashleyirispuppy/poke/media/branch/main/css/README_PWA.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
