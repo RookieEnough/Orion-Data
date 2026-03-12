@@ -13062,5 +13062,32 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/donot-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "description": "MissingCore Music is a lightweight, open-source offline music player for Android inspired by the design language of Nothing OS. It focuses on a clean UI and local audio playback without streaming or ads.",
+    "icon": "https://raw.githubusercontent.com/MissingCore/Music/refs/heads/dev/mobile/assets/light/adaptive-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MissingCore/Music",
+    "githubRepo": "MissingCore/Music",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.cyanchill.missingcore.music",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MissingCore",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MissingCore/Music/refs/heads/dev/.github/assets/Promo%20-%20UI.png",
+      "https://raw.githubusercontent.com/MissingCore/Music/refs/heads/dev/.github/assets/Promo%20-%20Playlist%20Track%20Order.png",
+      "https://raw.githubusercontent.com/MissingCore/Music/refs/heads/dev/.github/assets/Promo%20-%20Artwork.png",
+      "https://raw.githubusercontent.com/MissingCore/Music/refs/heads/dev/.github/assets/Promo%20-%20Themes.png",
+      "https://raw.githubusercontent.com/MissingCore/Music/refs/heads/dev/.github/assets/Promo%20-%20Experimental%20Widgets.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
