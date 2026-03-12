@@ -12853,5 +12853,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/compres (2)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "mue",
+    "name": "Mue",
+    "description": "A fast, open-source browser extension that replaces your new tab page with a beautiful, minimalist, and fully customizable start experience. It is a privacy-respecting alternative to Momentum, offering widgets for weather, notes, and bookmarks alongside a community marketplace for extra functionality, all without tracking a single click.",
+    "icon": "https://raw.githubusercontent.com/mue/mue/refs/heads/main/src/assets/icons/128x128.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/mue/mue",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "mue",
+    "officialSite": "https://github.com/mue/mue",
+    "screenshots": [
+      "https://raw.githubusercontent.com/mue/mue/refs/heads/main/assets/mue_readme.png",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Mue (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Mue (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Mue (3)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
