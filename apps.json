@@ -12751,5 +12751,31 @@
       "https://codeberg.org/ashleyirispuppy/poke/media/branch/main/css/README_PWA.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "batstats",
+    "name": "BatStats",
+    "description": "Batstats is a cool app which shows an extremely detailed statistics of battery with the help of Shizuku. It also shows the battery status when screen is on / off and MANY MOREEEEEEE !!",
+    "icon": "https://raw.githubusercontent.com/mlm-games/BatStats/16f6497f438cc4eaa4042cd9227aaf408cc7c5f9/fastlane/metadata/android/en-US/images/icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mlm-games/BatStats",
+    "githubRepo": "mlm-games/BatStats",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.batstats",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mlm-games",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/batstas (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/batstas (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/batstas (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/batstas (4)-1.webp"
+    ],
+    "releaseKeyword": "batstats"
   }
 ]
