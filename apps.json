@@ -12879,5 +12879,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Mue (3)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fakecall",
+    "name": "FakeCall",
+    "description": "An open-source Android application to simulate incoming calls, featuring a modern Material 3 UI with dynamic Monet support.",
+    "icon": "https://raw.githubusercontent.com/DDOneApps/FakeCall/e9a18faa793def3042359347256aed5e691b9f45/1831922.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/DDOneApps/FakeCall",
+    "githubRepo": "DDOneApps/FakeCall",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.upnp.fakeCall",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "DDOneApps",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/DDOneApps/FakeCall/refs/heads/main/Screenshots/Screenshot_20260308-211426_Fake%20Call.png",
+      "https://raw.githubusercontent.com/DDOneApps/FakeCall/refs/heads/main/Screenshots/Screenshot_20260308-212114_Telefon.png",
+      "https://raw.githubusercontent.com/DDOneApps/FakeCall/refs/heads/main/Screenshots/Screenshot_20260308-212105_Telefon.png",
+      "https://raw.githubusercontent.com/DDOneApps/FakeCall/refs/heads/main/Screenshots/Screenshot_20260308-211454_Fake%20Call.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
