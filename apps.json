@@ -13275,7 +13275,7 @@
   {
     "id": "droid-pad",
     "name": "Droid Pad",
-    "description": "Create custom control interfaces easily with a simple drag-and-drop and transform your Android device into a remote control for Bluetooth Low Energy (BLE), WebSocket, MQTT, Bluetooth, TCP, and UDP protocols. Key Features: 1. Drag-and-Drop Control Pad Creation: Design your control pads by dragging and dropping components like buttons, sliders, and switches. 2. Multi-Protocol Support and Flexible Connectivity: - For WebSocket, MQTT, TCP, UDP, and Bluetooth, the app acts as a client."
+    "description": "Create custom control interfaces easily with a simple drag-and-drop and transform your Android device into a remote control for Bluetooth Low Energy (BLE), WebSocket, MQTT, Bluetooth, TCP, and UDP protocols. Key Features: 1. Drag-and-Drop Control Pad Creation: Design your control pads by dragging and dropping components like buttons, sliders, and switches. 2. Multi-Protocol Support and Flexible Connectivity: - For WebSocket, MQTT, TCP, UDP, and Bluetooth, the app acts as a client.",
     "icon": "https://f-droid.org/repo/com.github.umer0586.droidpad/en-US/icon_qiwoLE1y1Nz5aAE67ux8qKl_e-8GUt4_wJ7MTg_alIs=.png",
     "version": "Latest",
     "latestVersion": "Latest",
