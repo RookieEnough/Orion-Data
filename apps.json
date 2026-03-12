@@ -13397,5 +13397,31 @@
       "https://raw.githubusercontent.com/w2sv/FileNavigator/main/app/src/main/play/listings/en-US/graphics/phone-screenshots/3.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fluxtube",
+    "name": "FluxTube",
+    "description": "A powerful and ad-free YouTube client built using Flutter. Watch YouTube videos without ads, subscribe to channels, retrieve video dislikes, read comments, save videos, and much more.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/com.fazilvk.fluxtube/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mu-fazil-vk/FluxTube",
+    "githubRepo": "mu-fazil-vk/FluxTube",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.fazilvk.fluxtube",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mu-fazil-vk",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/mu-fazil-vk/FluxTube/main/doc/home.png",
+      "https://raw.githubusercontent.com/mu-fazil-vk/FluxTube/main/doc/watch.png",
+      "https://raw.githubusercontent.com/mu-fazil-vk/FluxTube/main/doc/trending.png",
+      "https://raw.githubusercontent.com/mu-fazil-vk/FluxTube/main/doc/settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
