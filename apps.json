@@ -13246,5 +13246,30 @@
       "https://image2url.com/r2/default/images/1773315451259-3550dc79-6130-464c-900d-1ee9fc667107.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "chatbot",
+    "name": "Chatbot",
+    "description": "A secure offline chatbot vault that stores your personal documents, notes, and files locally, no internet or servers required.\n\nMade to keep your data truly yours.",
+    "icon": "https://raw.githubusercontent.com/WorkofAditya/ChatBot/refs/heads/main/icons/512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/workofaditya/chatbot",
+    "githubRepo": "workofaditya/chatbot",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.pages.chatbot_b3b.twa",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Adityasinh",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/WorkofAditya/ChatBot/refs/heads/main/docs/images/2_search.png",
+      "https://raw.githubusercontent.com/WorkofAditya/ChatBot/refs/heads/main/docs/images/1_add.png",
+      "https://raw.githubusercontent.com/WorkofAditya/ChatBot/refs/heads/main/docs/images/4_menu.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
