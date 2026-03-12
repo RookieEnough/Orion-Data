@@ -13345,5 +13345,32 @@
       "https://image2url.com/r2/default/images/1772016937873-145f5a52-f47b-4824-8067-c506f027de99.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "habitbee",
+    "name": "HabitBee",
+    "description": "A beautiful offline-first habit tracker built with Flutter, featuring Material 3 Expressive UI, daily reminders, progress analytics with charts, and dark mode support. Data stays private with local Hive storage.",
+    "icon": "https://raw.githubusercontent.com/Mssheliya/HabitBee/main/docs%2Fimages%2FHabitBee%20app%20icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Mssheliya/HabitBee",
+    "githubRepo": "Mssheliya/HabitBee",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.habitbee.habit_bee",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Mssheliya",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Mssheliya/HabitBee/main/docs%2Fimages%2Fscreenshot1.jpg",
+      "https://raw.githubusercontent.com/Mssheliya/HabitBee/main/docs%2Fimages%2Fscreenshot2.jpg",
+      "https://raw.githubusercontent.com/Mssheliya/HabitBee/main/docs%2Fimages%2Fscreenshot3.jpg",
+      "https://raw.githubusercontent.com/Mssheliya/HabitBee/main/docs%2Fimages%2Fscreenshot4.jpg",
+      "https://raw.githubusercontent.com/Mssheliya/HabitBee/main/docs%2Fimages%2Fscreenshot5.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
