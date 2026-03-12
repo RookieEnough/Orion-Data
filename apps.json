@@ -12777,5 +12777,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/batstas (4)-1.webp"
     ],
     "releaseKeyword": "batstats"
+  },
+  {
+    "id": "locklock",
+    "name": "LockLock",
+    "description": "LockLock is a sleek, Material 3 powered Android app that gives you full control over your apps with advanced locking features -without sacrificing privacy or performance.",
+    "icon": "https://raw.githubusercontent.com/nethical6/LockLock/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nethical6/LockLock",
+    "githubRepo": "nethical6/LockLock",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "nethical.locklock",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nethical6",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nethical6/LockLock/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/nethical6/LockLock/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/nethical6/LockLock/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/nethical6/LockLock/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "app"
   }
 ]
