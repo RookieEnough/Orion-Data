@@ -13116,5 +13116,30 @@
       "https://play-lh.googleusercontent.com/mXUoe7uPGmBZzTR7_3BAyskmrID1lgmtrc2uwHR60k6IO9NUptJW4lcX9T9JSyAsYJxID2HLg0Ht0rN9oRhdhw"
     ],
     "releaseKeyword": "phone"
+  },
+  {
+    "id": "anori",
+    "name": "Anori",
+    "description": "Anori is a browser extension which is open source, transforms your tab into a smart, personalized dashboard where everything you need like tasks, notes, bookmarks, widgets, and shortcuts in one place. It saves time, reduces distractions, and lets you design your browser to match your workflow, making every new tab actually useful instead of just decorative.",
+    "icon": "https://raw.githubusercontent.com/OlegWock/anori/refs/heads/master/src/assets/images/icon128.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/OlegWock/anori",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "OlegWock",
+    "officialSite": "https://github.com/OlegWock/anori",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/nori (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/nori (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/nori (3)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
