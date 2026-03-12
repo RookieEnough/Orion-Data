@@ -13008,5 +13008,34 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Zon (4)-1.webp"
     ],
     "releaseKeyword": "Zon"
+  },
+  {
+    "id": "inzx",
+    "name": "Inzx",
+    "description": "Inzx is a sleek YouTube music player that offers an ad-free listening experience, lets you save songs offline, and delivers a smooth, modern user interface for effortless music enjoyment.",
+    "icon": "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/refs/heads/main/assets/icon/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nirmaleeswar30/Inzx",
+    "githubRepo": "nirmaleeswar30/Inzx",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nirmal.inzx",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nirmaleeswar30",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/refs/heads/main/.github/screenshots/preview-home.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/refs/heads/main/.github/screenshots/preview-nowplaying.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/refs/heads/main/.github/screenshots/preview-library.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/refs/heads/main/.github/screenshots/preview-jam.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/refs/heads/main/.github/screenshots/preview-playlist.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/refs/heads/main/.github/screenshots/widget-4x1-preview.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/refs/heads/main/.github/screenshots/widget-4x2-preview.png"
+    ],
+    "releaseKeyword": "inzx"
   }
 ]
