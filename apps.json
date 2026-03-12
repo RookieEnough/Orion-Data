@@ -13037,5 +13037,30 @@
       "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/refs/heads/main/.github/screenshots/widget-4x2-preview.png"
     ],
     "releaseKeyword": "inzx"
+  },
+  {
+    "id": "donotnotify",
+    "name": "DoNotNotify",
+    "description": "An Android app that filters and blocks unwanted notifications using customizable rules.",
+    "icon": "https://raw.githubusercontent.com/anujja/DoNotNotify/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/anujja/DoNotNotify",
+    "githubRepo": "anujja/DoNotNotify",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.donotnotify.donotnotify",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "anujja",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/donotnotf (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/donotnotf (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/donot-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
