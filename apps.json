@@ -13320,5 +13320,30 @@
       "https://gitlab.com/TrebleInfo/TrebleInfo/-/raw/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/true-64-64-false-true-false-false-false-28-0-true-3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ironfox",
+    "name": "IronFox",
+    "description": "IronFox is a fork of Divested Computing Group's Mull Browser, based on Mozilla Firefox. It is a free and open-source, privacy and security-oriented web browser for daily use. It removes all tracking/telemetry, hardens security defaults, deblobs proprietary bits, and supports microG/UnifiedPush.",
+    "icon": "https://gitlab.com/ironfox-oss/IronFox/-/raw/dev/assets/ironfox.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://gitlab.com/ironfox-oss/IronFox",
+    "githubRepo": "",
+    "gitlabRepo": "ironfox-oss/IronFox",
+    "gitlabDomain": "gitlab.com",
+    "packageName": "org.ironfoxoss.ironfox",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ironfox-oss",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1772016883158-94ed29f4-1cb8-4a5b-b0a0-73bceb1012d5.jpg",
+      "https://image2url.com/r2/default/images/1772016912972-2fbf6bac-13a6-4892-8af1-cf0ff85413b8.jpg",
+      "https://image2url.com/r2/default/images/1772016937873-145f5a52-f47b-4824-8067-c506f027de99.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
