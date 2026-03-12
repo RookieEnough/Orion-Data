@@ -13166,5 +13166,35 @@
       "https://image2url.com/r2/default/files/1773250432111-eff2fe03-3b9c-43c5-9322-f081ecf31192.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "shosetsu",
+    "name": "shosetsu",
+    "description": "The android application for reading novelas. ",
+    "icon": "https://gitlab.com/uploads/-/system/project/avatar/39099987/ic_launcher-playstore.png?width=96",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://gitlab.com/shosetsuorg/shosetsu",
+    "githubRepo": "",
+    "gitlabRepo": "shosetsuorg/shosetsu",
+    "gitlabDomain": "gitlab.com",
+    "packageName": "app.shosetsu.android.fdroid",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "shosetsuorg",
+    "officialSite": "",
+    "screenshots": [
+      "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-library.png",
+      "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-novel-info.png",
+      "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-reader-html-plain.png",
+      "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-reader-html-custom.png",
+      "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-browse.png",
+      "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-browse-royalroad.png",
+      "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-download.png",
+      "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-updates.png"
+    ],
+    "releaseKeyword": "https://cdn.shosetsu.app/v2.4.4/shosetsu-v2.4.4.apk"
   }
 ]
