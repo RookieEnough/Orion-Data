@@ -13141,5 +13141,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/nori (3)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "cherry-studio",
+    "name": "Cherry Studio",
+    "description": "Cherry AI is a multi-model AI desktop assistant that lets users chat with different AI models, manage workflows, and run local or cloud AI tools in one unified interface.",
+    "icon": "https://image2url.com/r2/default/files/1773250383045-1d70d1a2-5432-4ec3-a442-c5936dc4e734.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/CherryHQ/cherry-studio",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "CherryHQ",
+    "officialSite": "https://github.com/CherryHQ/cherry-studio",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1773250403516-ac3dcaa9-7738-4c41-9e89-25537589efa8.png",
+      "https://image2url.com/r2/default/files/1773250418690-1f6da273-e09f-4adf-91f5-add01fbd8df6.png",
+      "https://image2url.com/r2/default/files/1773250432111-eff2fe03-3b9c-43c5-9322-f081ecf31192.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
