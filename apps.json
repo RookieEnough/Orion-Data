@@ -12982,5 +12982,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/seanim (5)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "zon",
+    "name": "Zon",
+    "description": "A modern, high-performance application built to provide a seamless user experience through clean design and efficient architecture. It focuses on speed and reliability while maintaining a beautiful Material 3 aesthetic.",
+    "icon": "https://raw.githubusercontent.com/vrn7712/Zon/refs/heads/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/vrn7712/Zon",
+    "githubRepo": "vrn7712/Zon",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.vrn7712.pomodoro",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "vrn7712",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Zon (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Zon (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Zon (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Zon (4)-1.webp"
+    ],
+    "releaseKeyword": "Zon"
   }
 ]
