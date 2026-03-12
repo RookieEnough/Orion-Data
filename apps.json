@@ -12905,5 +12905,30 @@
       "https://raw.githubusercontent.com/DDOneApps/FakeCall/refs/heads/main/Screenshots/Screenshot_20260308-211454_Fake%20Call.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "zapstore",
+    "name": "Zapstore",
+    "description": "The open app store powered by your social network",
+    "icon": "https://raw.githubusercontent.com/zapstore/zapstore/refs/heads/master/assets/images/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/zapstore/zapstore",
+    "githubRepo": "zapstore/zapstore",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.zapstore.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "zapstore",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/files/1773163238152-704c5faa-182a-4671-80f1-7d2a409a102f.jpg",
+      "https://image2url.com/r2/default/files/1773163255741-819090e2-0820-4231-83d2-c6ba8229b2e0.jpg",
+      "https://image2url.com/r2/default/files/1773163266191-a52a9c70-09f6-4b12-ba18-236275b887d7.jpg"
+    ],
+    "releaseKeyword": "zapstore"
   }
 ]
