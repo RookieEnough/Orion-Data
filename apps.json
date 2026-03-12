@@ -13196,5 +13196,30 @@
       "https://gitlab.com/shosetsuorg/shosetsu/-/raw/main/screenshots/shosetsu-updates.png"
     ],
     "releaseKeyword": "https://cdn.shosetsu.app/v2.4.4/shosetsu-v2.4.4.apk"
+  },
+  {
+    "id": "opencontacts",
+    "name": "OpenContacts",
+    "description": "OpenContacts saves your contacts in its own database seperate from Android. This way no other app, such as WhatsApp, can access your contacts. You can use it in place of your default Phone (dialer) app.\n\nFeel free to import or export contacts from your native Android Contacts app. And yes, with the required permission, it will show you the caller ID as well.",
+    "icon": "https://gitlab.com/sultanahamer/OpenContacts/-/raw/master/app/src/main/res/mipmap-mdpi/launcher_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://gitlab.com/sultanahamer/OpenContacts",
+    "githubRepo": "",
+    "gitlabRepo": "sultanahamer/OpenContacts",
+    "gitlabDomain": "gitlab.com",
+    "packageName": "opencontacts.open.com.opencontacts",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sultanahamer",
+    "officialSite": "",
+    "screenshots": [
+      "https://gitlab.com/sultanahamer/OpenContacts/-/raw/master/screenshots/1-Call-log.png",
+      "https://gitlab.com/sultanahamer/OpenContacts/-/raw/master/screenshots/2-Editcontact.png",
+      "https://gitlab.com/sultanahamer/OpenContacts/-/raw/master/screenshots/3-Preferences.png"
+    ],
+    "releaseKeyword": "v24.0"
   }
 ]
