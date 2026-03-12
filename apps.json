@@ -12828,5 +12828,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/tango (3)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "compresso",
+    "name": "CompressO",
+    "description": "Free open-source tool for video compression using FFmpeg, supporting Linux, Windows, and macOS. Offers multiple format support, simple GUI, drag-and-drop workflow, batch processing, real-time progress, and prioritizes minimal file size with ease of use.",
+    "icon": "https://raw.githubusercontent.com/codeforreal1/compressO/refs/heads/main/public/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/codeforreal1/compressO",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "codeforreal1",
+    "officialSite": "https://github.com/codeforreal1/compressO",
+    "screenshots": [
+      "https://raw.githubusercontent.com/codeforreal1/compressO/refs/heads/main/public/screenshot.png",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/compres (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/compres (2)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
