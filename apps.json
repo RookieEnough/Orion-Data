@@ -13423,5 +13423,31 @@
       "https://raw.githubusercontent.com/mu-fazil-vk/FluxTube/main/doc/settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": " sigma-file-manager",
+    "name": " Sigma File Manager",
+    "description": "Sigma File Manager is a free, open-source, quickly evolving, with a modern UI and customisable file manager (explorer/finder) app for Windows.",
+    "icon": "https://raw.githubusercontent.com/aleksey-hoffman/sigma-file-manager/main/.github/media/logo-1024x1024.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/aleksey-hoffman/sigma-file-manager",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "aleksey-hoffman",
+    "officialSite": "https://github.com/aleksey-hoffman/sigma-file-manager",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/sigma (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/sigma (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/sigma (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/sigma (4)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
