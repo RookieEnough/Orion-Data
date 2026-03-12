@@ -13089,5 +13089,32 @@
       "https://raw.githubusercontent.com/MissingCore/Music/refs/heads/dev/.github/assets/Promo%20-%20Experimental%20Widgets.png"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "alright-phone",
+    "name": "AlRight Phone",
+    "description": "Alright Phone is a simple, privacy focused calling app built for people who want a clean and trustworthy dialer. It is fully open-source, lightweight, and designed to keep your personal data completely private while delivering a smooth and distraction free calling experience.\nIt also has a play store version which is more advance.",
+    "icon": "https://raw.githubusercontent.com/Goodwy/Phone/refs/heads/main/app/src/main/res/drawable/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Goodwy/Phone",
+    "githubRepo": "Goodwy/Phone",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.goodwy.phone",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Goodwy",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/pVcSEQApQV2o2vz9pxJh5YIkDSHYdRz4W5y9BRWaBprDB0Txga4C4wu1A_td0BV4Y7VsQ1HYhLcE5176AZxEwA",
+      "https://play-lh.googleusercontent.com/9wDWMTEurLy47YeMWlM3Uu_FwlmafG-c7efYOxFdEqEQGTJEsaplnwD1ZLNb4tynq9pRkzAxgvi0MBZ_pMO29Q",
+      "https://play-lh.googleusercontent.com/keW7wKLr7PT_p9JqiYxZYUZh3lctDP148mPgGahQnXKjjsYpcn8sk5ZmP-tHMMrJGL7gRT2xbc7ovuE4LZDZ-A",
+      "https://play-lh.googleusercontent.com/4GEI7duxNE4D_vqWYbWQbOLyu1wxwvNIJcmstBvf1dGz0H5AV-3iEN5y-xcD3oTG8hbjKgwzgeDMs__Uloxw0A",
+      "https://play-lh.googleusercontent.com/mXUoe7uPGmBZzTR7_3BAyskmrID1lgmtrc2uwHR60k6IO9NUptJW4lcX9T9JSyAsYJxID2HLg0Ht0rN9oRhdhw"
+    ],
+    "releaseKeyword": "phone"
   }
 ]
