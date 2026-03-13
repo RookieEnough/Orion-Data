@@ -13474,5 +13474,33 @@
       "https://play-lh.googleusercontent.com/Wjb2TBnkYL0vP2Dz6KKnPbBzZv5cyEGE9c7ZUHOQysfGSlRMjpjV9hgR4ETvvHJlFnn9Pav6s9C2lk3SZRUC2Q=w5120-h2880-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "v2rayng",
+    "name": "v2rayNG",
+    "description": "A V2Ray client for Android, supports Xray core and v2fly core",
+    "icon": "https://en.v2rayng.org/wp-content/uploads/2023/12/1703901981-v2rayNG-icon-300x300.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/2dust/v2rayNG",
+    "githubRepo": "2dust/v2rayNG",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.v2ray.ang",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "2dust",
+    "officialSite": "",
+    "screenshots": [
+      "https://en.v2rayng.org/wp-content/uploads/2025/10/1761726825-v2rayNG-Interface-scaled.jpg",
+      "https://en.v2rayng.org/wp-content/uploads/2025/10/1761726814-v2rayNG-Import-scaled.jpg",
+      "https://en.v2rayng.org/wp-content/uploads/2025/10/1761726798-v2rayNG-Test-scaled.jpg",
+      "https://en.v2rayng.org/wp-content/uploads/2025/10/1761726836-v2rayNG-Manage-scaled.jpg",
+      "https://en.v2rayng.org/wp-content/uploads/2025/10/1761726848-v2rayNG-Routing-scaled.jpg",
+      "https://en.v2rayng.org/wp-content/uploads/2025/10/1761726859-v2rayNG-Settings-scaled.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
