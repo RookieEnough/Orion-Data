@@ -13449,5 +13449,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/sigma (4)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "bitchat",
+    "name": "Bitchat",
+    "description": "A secure, decentralized, peer-to-peer messaging app that works over Bluetooth mesh networks.",
+    "icon": "https://play-lh.googleusercontent.com/t0RogNu6c7jBO1ZB1kazNueWC4RCwh1RzFwncNOcbCywFuu7yjcGOxNDBYS-DQE2KQVVBv_NjN3l_3MU5eqP",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/permissionlesstech/bitchat-android",
+    "githubRepo": "permissionlesstech/bitchat-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.bitchat.droid",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "permissionlesstech",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/AIbJSDkz0xAierAqVtQW5dfa9dLQjg3u0TW2xKXvKlAYcJFxrHqRMZKCpRvK6E4MJS_VNEGiQPdo_qTVGdGmuhU=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/Wjb2TBnkYL0vP2Dz6KKnPbBzZv5cyEGE9c7ZUHOQysfGSlRMjpjV9hgR4ETvvHJlFnn9Pav6s9C2lk3SZRUC2Q=w5120-h2880-rw",
+      "https://play-lh.googleusercontent.com/Wjb2TBnkYL0vP2Dz6KKnPbBzZv5cyEGE9c7ZUHOQysfGSlRMjpjV9hgR4ETvvHJlFnn9Pav6s9C2lk3SZRUC2Q=w5120-h2880-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
