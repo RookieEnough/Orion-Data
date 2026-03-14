@@ -6,9 +6,9 @@
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
   "notice": {
-    "id": "notice-v1.2.3",
-    "title": "Orion 1.2.3 is Live",
-    "message": "The Multi-Forge Update is here! Highlights:\n\n🛠️ Multi-Forge Support\nFull Codeberg & GitLab support with dynamic repo buttons.\n\n⚙️ Update Control\nIgnore updates for 1 week, until next version, or never.\nn\n⚡ and so many bug fixes",
+    "id": "hold-on",
+    "title": "Hold On, Human!",
+    "message": "Enjoying Orion Store? That's great! I'm also working hard to make Orion better for you every day.\n\nA small donation would greatly support the development and the effort that goes into improving the app.\n\nGo to the Dev tab and click \"Buy Me a Coffee\" to support."
     "show": true
   },
 
