@@ -13580,5 +13580,34 @@
       "https://raw.githubusercontent.com/diekaiju/duckAssist/master/screenshot/image%20(3).jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "life-diary",
+    "name": "Life Diary",
+    "description": "A local-first, open source Android diary app built on one principle: no feature is forced on you.\nUse all 20 features or just write. Your choice, always.\nWhat you can use — if you want:\nDaily writing streaks and weekly stats\nPhotos, videos, and voice recordings\nLocation and weather context\nGoogle Fit step count\nLocked and hidden entries\nCustom fonts and text colors\nFreehand canvas drawing\nCover photos\nMulti-account support\nWhat we never do:\nNo cloud storage\nNo data collection\nNo ads\nNo surveillance\nNo forced features\nYour data never leaves your device. Ever.\nOpen source — check the code yourself.\nBuilt by a 16-year-old developer from Bursa, Turkey.",
+    "icon": "https://github.com/user-attachments/assets/15626075-3b33-4d88-8a3e-10fba8d49fe2",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/baban9999ytr/LifeDiary/",
+    "githubRepo": "baban9999ytr/LifeDiary",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.gunluk",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Mustafa Göksal",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/user-attachments/assets/db7f8e25-38b0-442d-88a1-8dadf9246c34",
+      "https://github.com/user-attachments/assets/3ad7e046-7d47-4082-b875-de2be6f499ef",
+      "https://github.com/user-attachments/assets/c8633272-e0af-40f3-a241-3927098d0881",
+      "https://github.com/user-attachments/assets/0983395b-8004-4aef-99b8-40f4642307f4",
+      "https://github.com/user-attachments/assets/1d928163-dadd-4e87-8b29-34077e7e7213",
+      "https://github.com/user-attachments/assets/00b6292a-aaf1-43de-a02d-0bf270f6100f",
+      "https://github.com/user-attachments/assets/7c40d86e-4e33-4a35-9c6f-6c2efc439060"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
