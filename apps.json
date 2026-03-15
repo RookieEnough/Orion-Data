@@ -13555,5 +13555,30 @@
       "https://raw.githubusercontent.com/OxoGhost01/HexaPlayer/main/img/settings.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "duckassist",
+    "name": "duckAssist",
+    "description": "*duckAssist* is a lightweight Android wrapper for *Duck.ai* (http://Duck.ai) by DuckDuckGo, designed to provide a clean and private AI chat experience.\n\nIt lets you quickly send questions to Duck.ai directly from any app using the *“Ask* *duck.ai* (http://duck.ai)*”* option in the text selection or share menu. Each request opens in a separate window so you can manage multiple conversations easily.\n\nThe app keeps your experience focused by opening external links in your default browser while preserving your chat session. It also supports file uploads, downloads to your device, and automatic cache cleanup to enhance privacy.\n\nThrough Duck.ai you can interact with multiple AI models such as GPT-4o, Claude 3, and Llama 3 without needing an account.\n\nduckAssist is open source and licensed under GPLv3.",
+    "icon": "https://raw.githubusercontent.com/diekaiju/duckAssist/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/diekaiju/duckAssist",
+    "githubRepo": "diekaiju/duckAssist",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "`org.woheller69.gptassist`",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "diekaiju",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/diekaiju/duckAssist/master/screenshot/image%20(1).jpg",
+      "https://raw.githubusercontent.com/diekaiju/duckAssist/master/screenshot/image%20(2).jpg",
+      "https://raw.githubusercontent.com/diekaiju/duckAssist/master/screenshot/image%20(3).jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
