@@ -13529,5 +13529,31 @@
       "https://raw.githubusercontent.com/hacan359/tonkatsu_box/main/docs/screenshots/09-search-games.jpg",
       "https://raw.githubusercontent.com/hacan359/tonkatsu_box/main/docs/screenshots/07-search-movies.jpg"
     ]
+  },
+  {
+    "id": "hexaplayer",
+    "name": "HexaPlayer",
+    "description": "open-source music player for Android.",
+    "icon": "https://raw.githubusercontent.com/ninimk21proton/HexaPlayer/main/HexaPlayer_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/OxoGhost01/HexaPlayer",
+    "githubRepo": "OxoGhost01/HexaPlayer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.oxoghost.hexaplayer",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "OxoGhost01",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/OxoGhost01/HexaPlayer/main/img/main-page.jpg",
+      "https://raw.githubusercontent.com/OxoGhost01/HexaPlayer/main/img/big-player.jpg",
+      "https://raw.githubusercontent.com/OxoGhost01/HexaPlayer/main/img/equalizer.jpg",
+      "https://raw.githubusercontent.com/OxoGhost01/HexaPlayer/main/img/settings.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
