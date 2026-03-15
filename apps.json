@@ -13502,5 +13502,32 @@
       "https://en.v2rayng.org/wp-content/uploads/2025/10/1761726859-v2rayNG-Settings-scaled.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "tonkatsu-box",
+    "name": "Tonkatsu Box",
+    "description": "Tonkatsu Box is a free, open-source collection manager for retro games, movies, TV shows, anime, visual novels, and manga. Search IGDB, TMDB, VNDB, and AniList databases with hundreds of thousands of titles, organize them into custom collections, track your backlog and progress, rate everything from 1 to 10, create visual boards with drag-and-drop, import your watch history from Trakt.tv, and share collections with friends. Available for Windows, Linux, and Android in English and Russian.",
+    "icon": "https://raw.githubusercontent.com/hacan359/tonkatsu_box/main/assets/images/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/hacan359/tonkatsu_box",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "hacan359",
+    "officialSite": "https://github.com/hacan359/tonkatsu_box",
+    "screenshots": [
+      "https://raw.githubusercontent.com/hacan359/tonkatsu_box/main/docs/screenshots/01-main-all.jpg",
+      "https://raw.githubusercontent.com/hacan359/tonkatsu_box/main/docs/screenshots/03-collections-list.jpg",
+      "https://raw.githubusercontent.com/hacan359/tonkatsu_box/main/docs/screenshots/04-collection-grid.jpg",
+      "https://raw.githubusercontent.com/hacan359/tonkatsu_box/main/docs/screenshots/04-collection-grid.jpg",
+      "https://raw.githubusercontent.com/hacan359/tonkatsu_box/main/docs/screenshots/09-search-games.jpg",
+      "https://raw.githubusercontent.com/hacan359/tonkatsu_box/main/docs/screenshots/07-search-movies.jpg"
+    ]
   }
 ]
