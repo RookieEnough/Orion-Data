@@ -13947,5 +13947,32 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Photoo (6)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "episteme",
+    "name": "Episteme",
+    "description": "Episteme Reader is an offline-first, privacy-focused document and e-book reader that supports PDF, EPUB, MOBI, AZW3, Markdown, HTML, and plain text.",
+    "icon": "https://f-droid.org/repo/com.aryan.reader.oss/en-US/icon_qQihvaXQbPcg5rxXtQWqQoVfT-uan4S21YH92XMOmOU=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Aryan-Raj3112/episteme",
+    "githubRepo": "Aryan-Raj3112/episteme",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.aryan.reader.oss",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Aryan-Raj3112",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Aryan-Raj3112/episteme/refs/heads/main/docs/EPISTEME.png",
+      "https://f-droid.org/repo/com.aryan.reader.oss/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.aryan.reader.oss/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.aryan.reader.oss/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.aryan.reader.oss/en-US/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
