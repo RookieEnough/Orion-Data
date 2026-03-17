@@ -13634,5 +13634,30 @@
       "https://raw.githubusercontent.com/BlackyHawky/Clock/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "flauth",
+    "name": "Flauth",
+    "description": "A privacy-first, fully open-source TOTP authenticator. It provides a simple and lightweight solution for managing your 2FA (Two-Factor Authentication) tokens.",
+    "icon": "https://raw.githubusercontent.com/jiacai2050/flauth/d8f3027863598b68409e21f40936f2c13b484ea1/assets/app_icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/jiacai2050/flauth",
+    "githubRepo": "jiacai2050/flauth",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "net.liujiacai.flauth",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "jiacai2050",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/jiacai2050/flauth/refs/heads/main/metadata/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/jiacai2050/flauth/refs/heads/main/metadata/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/jiacai2050/flauth/refs/heads/main/metadata/en-US/images/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
