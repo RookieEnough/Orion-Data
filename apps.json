@@ -14180,5 +14180,30 @@
       "https://raw.githubusercontent.com/niedev/RTranslator/refs/heads/v2.00/images/TextTranslation_and_WalkieTalkie.png"
     ],
     "releaseKeyword": "RTranslator_2.1.5"
+  },
+  {
+    "id": "readeck",
+    "name": "Readeck",
+    "description": "A self-hosted bookmarking and read-it-later application and an EXTENSION designed to extract and save web content for distraction-free reading. It automatically strips advertisements and trackers from saved articles while providing tools to organize your personal knowledge base with tags and labels.",
+    "icon": "https://codeberg.org/readeck/readeck/raw/branch/main/web/media/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://codeberg.org/readeck/readeck",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "readeck",
+    "officialSite": "https://codeberg.org/readeck/readeck",
+    "screenshots": [
+      "https://codeberg.org/readeck/readeck/raw/branch/main/screenshots/bookmark-list.webp",
+      "https://lh3.googleusercontent.com/O1lpQCEFQNZ-hho4i7L9enpSFiii3WXx1ynKHwyCx-Sro2dXOWMzktFcQzEHXGf7_H--Gf9N3nYKuhu-g8vH6X3I",
+      "https://lh3.googleusercontent.com/I1wpJOUkC66y4S0c1u6ChpufCbiC1TISf8BaVu9meHa1OfM_CgToFQp4NRWOTQ_efvpLSfkIcuQehiezvwFDusYvCA"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
