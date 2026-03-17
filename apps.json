@@ -13766,5 +13766,31 @@
       "https://raw.githubusercontent.com/ahmet-cetinkaya/whph/refs/heads/main/fastlane/metadata/android/en-GB/images/phoneScreenshots/8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "kitchenowl",
+    "name": "KitchenOwl",
+    "description": "A self-hosted grocery list and recipe manager designed to streamline household organization and meal planning. It provides a synchronized platform for managing ingredients and generating categorized shopping lists across all connected devices. Import recipes directly from the web and share access with family members for real-time collaborative shopping. Its a cross-platform app - mobile/web/desktop.",
+    "icon": "https://raw.githubusercontent.com/TomBursch/kitchenowl/main/docs/docs/img/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/TomBursch/kitchenowl",
+    "githubRepo": "TomBursch/kitchenowl",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.tombursch.kitchenowl",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "TomBursch",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/TomBursch/kitchenowl/refs/heads/main/metadata/en-US/images/phoneScreenshots/groceries.png",
+      "https://raw.githubusercontent.com/TomBursch/kitchenowl/refs/heads/main/metadata/en-US/images/phoneScreenshots/recipe.png",
+      "https://raw.githubusercontent.com/TomBursch/kitchenowl/refs/heads/main/metadata/en-US/images/phoneScreenshots/plan.png",
+      "https://raw.githubusercontent.com/TomBursch/kitchenowl/refs/heads/main/metadata/en-US/images/phoneScreenshots/expenses.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
