@@ -14129,5 +14129,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Redan (3)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "tool-tree",
+    "name": "Tool Tree",
+    "description": "Tool-Tree is an Android utility app designed for advanced users to edit ROMs and APK files directly on their device, featuring multiple built-in tools, scripting support, and an extensible add-on system that works with or without root access.",
+    "icon": "https://raw.githubusercontent.com/Zenlua/Tool-Tree/refs/heads/main/pio/src/main/assets/module/etc/icon/tool_apk.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Zenlua/Tool-Tree",
+    "githubRepo": "Zenlua/Tool-Tree",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.tool.tree",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Zenlua",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Zenlua/Tool-Tree/refs/heads/main/.github/img/shell1.jpg",
+      "https://raw.githubusercontent.com/Zenlua/Tool-Tree/refs/heads/main/.github/img/shell2.jpg",
+      "https://raw.githubusercontent.com/Zenlua/Tool-Tree/refs/heads/main/.github/img/shell3.jpg",
+      "https://raw.githubusercontent.com/Zenlua/Tool-Tree/refs/heads/main/.github/img/shell4.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
