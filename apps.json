@@ -13684,5 +13684,32 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/aW-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "keyboard-sounds-pro",
+    "name": "Keyboard Sounds Pro",
+    "description": "A free desktop app that plays customizable keyboard and mouse sounds while you work. Make every keystroke satisfying. Controls the sound daemon based on the currently focused application. Enable only in your text editor or terminal, disable for specific games, or localize sounds to a particular app.",
+    "icon": "https://raw.githubusercontent.com/keyboard-sounds/keyboardsounds-pro/refs/heads/main/images/app-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/keyboard-sounds/keyboardsounds-pro",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "keyboard-sounds",
+    "officialSite": "https://github.com/keyboard-sounds/keyboardsounds-pro",
+    "screenshots": [
+      "https://raw.githubusercontent.com/keyboard-sounds/keyboardsounds-pro/refs/heads/main/images/preview.png",
+      "https://raw.githubusercontent.com/keyboard-sounds/keyboardsounds-pro/refs/heads/main/images/library-rounded-shadow.png",
+      "https://raw.githubusercontent.com/keyboard-sounds/keyboardsounds-pro/refs/heads/main/images/app-rules-rounded-shadow.png",
+      "https://raw.githubusercontent.com/keyboard-sounds/keyboardsounds-pro/refs/heads/main/images/audio-effects-rounded-shadow.png",
+      "https://raw.githubusercontent.com/keyboard-sounds/keyboardsounds-pro/refs/heads/main/images/profile-builder-rounded-shadow.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
