@@ -13609,5 +13609,30 @@
       "https://github.com/user-attachments/assets/7c40d86e-4e33-4a35-9c6f-6c2efc439060"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "clock",
+    "name": "Clock",
+    "description": "Clock is a customizable, privacy‑first, open-source clock app inspired by AOSP Clock.\nIt combines modern design, powerful features, and transparency — giving you full control over your time.",
+    "icon": "https://raw.githubusercontent.com/BlackyHawky/Clock/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/BlackyHawky/Clock",
+    "githubRepo": "BlackyHawky/Clock",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.best.deskclock",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "BlackyHawky",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/BlackyHawky/Clock/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+      "https://raw.githubusercontent.com/BlackyHawky/Clock/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+      "https://raw.githubusercontent.com/BlackyHawky/Clock/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
