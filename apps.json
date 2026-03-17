@@ -13974,5 +13974,30 @@
       "https://f-droid.org/repo/com.aryan.reader.oss/en-US/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "sidestep",
+    "name": "Sidestep",
+    "description": "Android app that intercepts social media URLs and redirects them to alternative frontends while removing tracking parameters. No apps or accounts needed to access the content shared with you.",
+    "icon": "https://raw.githubusercontent.com/blankdotdev/sidestep/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/blankdotdev/sidestep",
+    "githubRepo": "blankdotdev/sidestep",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.blankdev.sidestep",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "blankdotdev",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/blankdotdev/sidestep/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_history.png",
+      "https://raw.githubusercontent.com/blankdotdev/sidestep/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_frontends.png",
+      "https://raw.githubusercontent.com/blankdotdev/sidestep/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_custom_redirects.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
