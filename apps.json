@@ -14051,5 +14051,32 @@
       "https://raw.githubusercontent.com/JustAnimeCore/JustAnime/refs/heads/main/public/watch.PNG"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "path",
+    "name": "Path",
+    "description": "Path is a lightweight step tracking app built for people who want a simple and private way to monitor daily activity. It tracks your steps using your phone’s hardware sensors while keeping everything stored locally on your device. The app focuses on minimal design, battery efficiency, and clean progress visualization without unnecessary tracking or data collection.",
+    "icon": "https://raw.githubusercontent.com/sidhant947/Path/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sidhant947/Path",
+    "githubRepo": "sidhant947/Path",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.sidhant.path",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sidhant947",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/path (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/path (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/path (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/path (4)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/path (5)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
