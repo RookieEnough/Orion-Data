@@ -14255,5 +14255,30 @@
       "https://raw.githubusercontent.com/miurla/morphic/refs/heads/main/public/screenshot-2026-02-07.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "svg-gobbler",
+    "name": "SVG Gobbler",
+    "description": "A browser extension and web utility built to find, optimize, and export SVG assets from any active webpage. It provides a dedicated dashboard to preview discovered graphics and refine them using integrated SVGO optimization tools. The interface enables batch processing and allows developers to copy vector paths directly as React components or raw code.",
+    "icon": "https://raw.githubusercontent.com/rossmoody/svg-gobbler/refs/heads/main/assets/prod/128.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/rossmoody/svg-gobbler",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "rossmoody",
+    "officialSite": "https://github.com/rossmoody/svg-gobbler",
+    "screenshots": [
+      "https://raw.githubusercontent.com/rossmoody/svg-gobbler/refs/heads/main/assets/local/read-me.png",
+      "https://lh3.googleusercontent.com/jWz4IQi633ZDJP7eVch6s9y7GGAoZuAsnwt0EDDCBojG2uxgj0BTEzDs88ma_CT4EpVOImydzPA5uDTPd7Mu4Zx0L8c",
+      "https://raw.githubusercontent.com/rossmoody/svg-gobbler/refs/heads/main/assets/local/gobbler-screenshot.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
