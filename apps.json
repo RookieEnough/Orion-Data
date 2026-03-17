@@ -14025,5 +14025,31 @@
       "https://raw.githubusercontent.com/Cocolalilal/LastChat/refs/heads/LastChat/docs/1.1.3_chat.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "justanime",
+    "name": "JustAnime",
+    "description": "Clean anime streaming website, offering a smooth viewing experience.",
+    "icon": "https://raw.githubusercontent.com/JustAnimeCore/JustAnime/refs/heads/main/public/favicon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/JustAnimeCore/JustAnime",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "JustAnimeCore",
+    "officialSite": "https://github.com/JustAnimeCore/JustAnime",
+    "screenshots": [
+      "https://raw.githubusercontent.com/JustAnimeCore/JustAnime/refs/heads/main/public/home.PNG",
+      "https://raw.githubusercontent.com/JustAnimeCore/JustAnime/refs/heads/main/public/info.PNG",
+      "https://raw.githubusercontent.com/JustAnimeCore/JustAnime/refs/heads/main/public/char.PNG",
+      "https://raw.githubusercontent.com/JustAnimeCore/JustAnime/refs/heads/main/public/watch.PNG"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
