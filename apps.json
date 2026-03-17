@@ -13819,5 +13819,30 @@
       "https://play-lh.googleusercontent.com/lFs8iMn5BTIUn9ubE0hi4PKl8BrN8FDcJ_k-BPXiJfmvKWNw_babap03vLubxxYHs7nBz7yiM-psqfDpEBxUZg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "losslesscut",
+    "name": "LosslessCut",
+    "description": "LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files. The main feature is lossless trimming and cutting of video and audio files, which is great for saving space by rough-cutting your large video files taken from a video camera, GoPro, drone, etc. It lets you quickly extract the good parts from your videos and discard many gigabytes of data without doing a slow re-encode and thereby losing quality.",
+    "icon": "https://raw.githubusercontent.com/mifi/lossless-cut/2603142fbcc6687ef7c0ce09efa1f856e7069140/src/renderer/src/icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/mifi/lossless-cut",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "mifi",
+    "officialSite": "https://github.com/mifi/lossless-cut",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Lossless (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Lossless (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Lossless (3)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
