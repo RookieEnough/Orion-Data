@@ -14155,5 +14155,30 @@
       "https://raw.githubusercontent.com/Zenlua/Tool-Tree/refs/heads/main/.github/img/shell4.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "rtranslator",
+    "name": "RTranslator",
+    "description": "Open source real-time translation app for Android that runs locally",
+    "icon": "https://raw.githubusercontent.com/niedev/RTranslator/refs/heads/v2.00/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/niedev/RTranslator",
+    "githubRepo": "niedev/RTranslator",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "nie.translator.rtranslator",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "niedev",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/niedev/RTranslator/refs/heads/v2.00/images/Conversation_image.png",
+      "https://raw.githubusercontent.com/niedev/RTranslator/refs/heads/v2.00/images/TextTranslation_and_WalkieTalkie.png",
+      "https://raw.githubusercontent.com/niedev/RTranslator/refs/heads/v2.00/images/TextTranslation_and_WalkieTalkie.png"
+    ],
+    "releaseKeyword": "RTranslator_2.1.5"
   }
 ]
