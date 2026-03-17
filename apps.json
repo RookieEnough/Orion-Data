@@ -14078,5 +14078,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/path (5)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "flowstate",
+    "name": "FlowState",
+    "description": "FlowState is a productivity app designed to help you regain focus and reduce distractions while working. It combines structured work sessions, app blocking, and a clean Material 3 interface to create a distraction-free environment. With built-in focus cycles and privacy-focused features, it helps turn your device into a dedicated space for deep work.",
+    "icon": "https://raw.githubusercontent.com/Markel15/FlowState/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Markel15/FlowState",
+    "githubRepo": "Markel15/FlowState",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.markel.flowstate",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Markel15",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Markel15/FlowState/refs/heads/master/screenshots/home_dark.png",
+      "https://raw.githubusercontent.com/Markel15/FlowState/refs/heads/master/screenshots/home_light.png",
+      "https://raw.githubusercontent.com/Markel15/FlowState/refs/heads/master/screenshots/edit_light.png",
+      "https://raw.githubusercontent.com/Markel15/FlowState/refs/heads/master/screenshots/calendar_night.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
