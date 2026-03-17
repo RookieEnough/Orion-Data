@@ -13894,5 +13894,30 @@
       "https://raw.githubusercontent.com/anonvector/SlipNet/refs/heads/main/imgs/screenshot_3.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "keysync",
+    "name": "KeySync",
+    "description": "KeySync is an Android app that allows users to play games using an external keyboard and mouse without requiring root access. It leverages Shizuku to grant necessary permissions and maps key events from external input devices to on-screen touch points.",
+    "icon": "https://raw.githubusercontent.com/aka-munan/keysync/refs/heads/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/aka-munan/keysync",
+    "githubRepo": "aka-munan/keysync",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.devoid.keysync",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "aka-munan",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/aka-munan/keysync/refs/heads/main/app/screenshots/20250316_142034.jpg",
+      "https://raw.githubusercontent.com/aka-munan/keysync/refs/heads/main/app/screenshots/20250316_142134.jpg",
+      "https://raw.githubusercontent.com/aka-munan/keysync/refs/heads/main/app/screenshots/20250316_142553.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
