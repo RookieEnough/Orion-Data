@@ -13869,5 +13869,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Secure (2)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "slipnet",
+    "name": "SlipNet",
+    "description": "Android (cross platform linux/windows supported) VPN client with DNS tunneling (DNSTT & Slipstream), NaiveProxy, SSH, Tor, and DoH support — featuring a built-in DNS scanner.",
+    "icon": "https://raw.githubusercontent.com/anonvector/SlipNet/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_monochrome.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/anonvector/SlipNet",
+    "githubRepo": "anonvector/SlipNet",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.slipnet",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "anonvector",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/anonvector/SlipNet/refs/heads/main/imgs/screenshot_1.jpg",
+      "https://raw.githubusercontent.com/anonvector/SlipNet/refs/heads/main/imgs/screenshot_2.jpg",
+      "https://raw.githubusercontent.com/anonvector/SlipNet/refs/heads/main/imgs/screenshot_3.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
