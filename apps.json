@@ -14104,5 +14104,30 @@
       "https://raw.githubusercontent.com/Markel15/FlowState/refs/heads/master/screenshots/calendar_night.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "redantotsu",
+    "name": "ReDantotsu",
+    "description": "ReDantotsu is an open-source Android client inspired by Dantotsu that lets users track, discover, and watch anime or read manga in one place. The app integrates AniList for syncing your library and supports extensions for accessing different media sources.",
+    "icon": "https://raw.githubusercontent.com/AsrOfficialDev/ReDantotsu/refs/heads/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/AsrOfficialDev/ReDantotsu",
+    "githubRepo": "AsrOfficialDev/ReDantotsu",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.redantotsu.asr",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ReDantotsu",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Redan (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Redan (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Redan (3)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
