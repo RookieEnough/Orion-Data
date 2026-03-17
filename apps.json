@@ -13711,5 +13711,30 @@
       "https://raw.githubusercontent.com/keyboard-sounds/keyboardsounds-pro/refs/heads/main/images/profile-builder-rounded-shadow.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "memos",
+    "name": "Memos",
+    "description": "A privacy-first, self-hosted note-taking tool. It utilizes Markdown for content formatting and SQLite for efficient, self-contained data storage.",
+    "icon": "https://raw.githubusercontent.com/usememos/memos/refs/heads/main/web/public/apple-touch-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/usememos/memos",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Privacy",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "usememos",
+    "officialSite": "https://github.com/usememos/memos",
+    "screenshots": [
+      "https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/memos-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/memos 2-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
