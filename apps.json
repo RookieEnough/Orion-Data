@@ -13792,5 +13792,32 @@
       "https://raw.githubusercontent.com/TomBursch/kitchenowl/refs/heads/main/metadata/en-US/images/phoneScreenshots/expenses.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pearpass",
+    "name": "Pearpass",
+    "description": "A lightweight, peer-to-peer password manager that gives you complete control over your data with no cloud dependency. It stores passwords locally and uses robust E2E encryption to sync credentials securely across all your devices.",
+    "icon": "https://raw.githubusercontent.com/tetherto/pearpass-app-mobile/refs/heads/main/assets/images/appIcons/adaptive-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/tetherto/pearpass-app-mobile",
+    "githubRepo": "tetherto/pearpass-app-mobile",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.pears.pass",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "tetherto",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/ooNbYW36Vyw3-tFalRPhC34NsdgrMtaHCVgq33-hWJL5VGLyL5EQ9xhApXdEWzboe1fVvJX7Njr0kDT_4RLY",
+      "https://play-lh.googleusercontent.com/xf_t8VTK5Syssa_myKAFHbIy5IeB9cYcPdSw3BGRI36iZqydHnb7jlZarAgpIRv-PDAoAIYNfwKeFfAUcgP7",
+      "https://play-lh.googleusercontent.com/Wrar2xBYj6X8n7sAgxjz1idf14hy7HBfHMnOW8tQofwnmxJTHVcUxOfz5vt3XCeroPt13sDDbL10rgpnBSG_mg",
+      "https://play-lh.googleusercontent.com/aONZ-Q_lNhJFVMP49Hu1qjuZSX5cVa1FJN70bD4FbeJCHGyRIUfonZ4hChO3bJucmdLtj44SXlLY5O1oAJYN",
+      "https://play-lh.googleusercontent.com/lFs8iMn5BTIUn9ubE0hi4PKl8BrN8FDcJ_k-BPXiJfmvKWNw_babap03vLubxxYHs7nBz7yiM-psqfDpEBxUZg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
