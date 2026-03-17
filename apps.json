@@ -14280,5 +14280,30 @@
       "https://raw.githubusercontent.com/rossmoody/svg-gobbler/refs/heads/main/assets/local/gobbler-screenshot.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "mini-diarium",
+    "name": "Mini Diarium",
+    "description": "A spiritual successor to the legendary Mini Diary, rebuilt from the ground up for total privacy. Mini Diarium is an encrypted, local-only journaling app that never connects to the internet. It introduces advanced key-file authentication (allowing you to use a physical USB drive as your key) while maintaining a beautifully minimalist writing experience that Big Tech \"cloud-sync\" journals can't match.",
+    "icon": "https://raw.githubusercontent.com/fjrevoredo/mini-diarium/refs/heads/master/public/logo-transparent.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/fjrevoredo/mini-diarium",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Privacy",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "fjrevoredo",
+    "officialSite": "https://github.com/fjrevoredo/mini-diarium",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/mini (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/mini (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/mini"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
