@@ -14205,5 +14205,30 @@
       "https://lh3.googleusercontent.com/I1wpJOUkC66y4S0c1u6ChpufCbiC1TISf8BaVu9meHa1OfM_CgToFQp4NRWOTQ_efvpLSfkIcuQehiezvwFDusYvCA"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "monochrome",
+    "name": "Monochrome",
+    "description": "A high-performance music player designed to deliver a seamless and minimalist listening experience for local audio collections. It provides a modern interface that prioritizes speed and fluid navigation through large libraries without sacrificing advanced playback controls.",
+    "icon": "https://raw.githubusercontent.com/monochrome-music/monochrome/refs/heads/main/public/assets/appicon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/monochrome-music/monochrome",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "monochrome-music",
+    "officialSite": "https://github.com/monochrome-music/monochrome",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/monochrome (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/monochrome (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/monochrome (1)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
