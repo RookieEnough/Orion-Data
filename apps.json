@@ -13919,5 +13919,33 @@
       "https://raw.githubusercontent.com/aka-munan/keysync/refs/heads/main/app/screenshots/20250316_142553.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "photoo",
+    "name": "PHOTOO",
+    "description": "Photoo is a light weight app which provides you a simple logic to manage your files in a ease. It helps you to sort out the junk files and delete them in a or keep them with a swipe. More over it has a recycle bin to confirm the deletion of your unwanted photos.",
+    "icon": "https://raw.githubusercontent.com/xigua222/photoo/refs/heads/main/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/xigua222/photoo",
+    "githubRepo": "xigua222/photoo",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.photoo.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "xigua222",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Photoo (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Photoo (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Photoo (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Photoo (4)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Photoo (5)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Photoo (6)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
