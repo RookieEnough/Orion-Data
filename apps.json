@@ -6331,7 +6331,7 @@
   },
   {
     "id": "prime-video-revanced",
-    "name": "Prime Video Revanced",
+    "name": "Prime Video Morphe",
     "description": "Prime Video ReVanced is a patched version of the official Amazon Prime Video app (package com.amazon.avod.thirdpartyclient), using ReVanced tools. It applies the 'Skip ads' patch (also known as 'Hide ads' in discussions), which removes or skips video ads (pre-roll, mid-roll, post-roll) during playback on ad-supported plans, providing a cleaner viewing experience without interruptions.",
     "icon": "https://play-lh.googleusercontent.com/mZ6pRo5-NnrO9GMwFNrK5kShF0UrN5UOARVAw64_5aFG6NgEHSlq-BX5I8TEXtTOk9s=w240-h480-rw",
     "version": "Latest",
@@ -6345,7 +6345,7 @@
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
-    "author": "Revanced",
+    "author": "hoo-dles",
     "officialSite": "",
     "screenshots": [
       "https://play-lh.googleusercontent.com/ReTN0-AOblj4H3-ipSfQGvy-qU_e7eXbTdjC856WiucnaM8az8LdMw2j11_TRoPuuYs=w526-h296-rw",
@@ -6903,7 +6903,7 @@
     "githubRepo": "dorumrr/privacyFlip",
     "gitlabRepo": "",
     "gitlabDomain": "",
-    "packageName": "io.github.dormurr.privacyflip",
+    "packageName": "io.github.dorumrr.privacyflip",
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
