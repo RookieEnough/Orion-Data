@@ -6,9 +6,9 @@
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
   "notice": {
-    "id": "hold-on",
-    "title": "Hold On, Human!",
-    "message": "Enjoying Orion Store? That's great! I'm also working hard to make Orion better for you every day.\n\nA small donation would greatly support the development and the effort that goes into improving the app.\n\nGo to the Dev tab and click \"Buy Me a Coffee\" to support.",
+    "id": "bro-code",
+    "title": "Bro Listen!!",
+    "message": "If you buy me a coffee, you'll be out few dollars. If you don't buy me a coffee, I'll spend the next hour explaining why '11' isn't pronounced 'tenty-one.' but 21, 31, 41, 51, 61, 71, 81, 91 does. Which cost is higher? .\n\nGo to the Dev tab and click “Buy Me a Coffee” to support.",
     "show": true
   },
 
