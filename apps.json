@@ -14305,5 +14305,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/mini"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ichan",
+    "name": "iChan",
+    "description": "Open source cross-platform client for popular imageboards: 4chan.org and 2ch.hk",
+    "icon": "https://raw.githubusercontent.com/Zchandev/4chan-ios-mobile-app-iChan/master/assets/icon/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Zchandev/4chan-ios-mobile-app-iChan?tab=readme-ov-file",
+    "githubRepo": "Zchandev/4chan-ios-mobile-app-iChan?tab=readme-ov-file",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.zchan.app",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Zchandev",
+    "officialSite": "",
+    "screenshots": [
+      "https://camo.githubusercontent.com/68094cdbbca802f6a9faf96de8f925353b30cf20288dd468b6dd6ce3161a2f0f/68747470733a2f2f7a6368616e2e6170702f6173736574732f73637265656e352e706e67",
+      "https://camo.githubusercontent.com/713173098d4cc264dd464fe90847794e575984a138d9ef92098e803db5251d40/68747470733a2f2f7a6368616e2e6170702f6173736574732f73637265656e342e706e673f713d31",
+      "https://camo.githubusercontent.com/713173098d4cc264dd464fe90847794e575984a138d9ef92098e803db5251d40/68747470733a2f2f7a6368616e2e6170702f6173736574732f73637265656e342e706e673f713d31"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
