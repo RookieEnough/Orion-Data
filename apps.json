@@ -14330,5 +14330,44 @@
       "https://camo.githubusercontent.com/713173098d4cc264dd464fe90847794e575984a138d9ef92098e803db5251d40/68747470733a2f2f7a6368616e2e6170702f6173736574732f73637265656e342e706e673f713d31"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "neoqn",
+    "name": "NeoQN",
+    "description": "Adfree FOSS Android app for downloading and reading novels. It also functions as an Epub/Pdf reader.\n\nThis project is an enhanced fork of the original QuickNovel app, introducing a fully revamped, modern, and beautiful UI, alongside critical bug fixes.\n\nKey Enhanced Features:\n\nPremium Glassmorphism UI: A stunning, edge-to-edge layout featuring translucent floating navigation, glass-card synopsis containers, and smooth micro-animations.\nDynamic Updates Section: Easily track novel chapter updates and releases synchronized directly from your timeline shelf.\nAdvanced Category Management: Effortlessly create, edit, and re-order custom library categories to organize your reading shelf flawlessly.\nNotes on Any Novel: Forgot the plot or why you stopped reading? Now you can add Notes to any novel.\nRevamped Novel Details Screen: Fully redesigned header and cover presentation with enhanced text readability and modern item frames.\nAMOLED and Light Mode Theme Templates with many Accents: Optimized adaptive displays supporting both full black background rendering and polished Light ('Flashbang') themes cleanly.\nMaterial You Dynamic Coloring Support: Integrates native Monet-compatible dynamic tints for context-aware aesthetic uniformity (Android 12 ).\nCustom Background Engine: Personalize sheets with local background images supporting adjustable Blur and Dim framing parameters.\nVisual Contrast Readability Overlays: Shadow layer integrations guarantee adaptive text formatting accurately adapts over high-brightness layouts.\nMany More",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/refs/heads/master/app/assets/NeoQN%20Icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Shadyteal2/QuickNovel-Enhanced",
+    "githubRepo": "Shadyteal2/QuickNovel-Enhanced",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.shady.neoqn",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Shadyteal2",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(7).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(8).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(9).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(10).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(11).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(12).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(13).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(14).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(6).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(15).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(16).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(4).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(17).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(5).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(2).png",
+      "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(3).png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
