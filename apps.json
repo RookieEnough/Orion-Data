@@ -14369,5 +14369,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/QuickNovel-Enhanced/master/app/assets/NeoQN%20v2.0.9%20(3).png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "systems.nik.anthology",
+    "name": "anthology",
+    "description": "Sleek, fast ebook reader",
+    "icon": "https://raw.githubusercontent.com/nikhilmwarrier/anthology/main/assets/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nikhilmwarrier/anthology",
+    "githubRepo": "nikhilmwarrier/anthology",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "systems.nik.anthology",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nikhilmwarrier",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nikhilmwarrier/anthology/main/fastlane/metadata/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/nikhilmwarrier/anthology/main/fastlane/metadata/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/nikhilmwarrier/anthology/main/fastlane/metadata/en-US/images/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
