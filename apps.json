@@ -14471,5 +14471,35 @@
       "https://raw.githubusercontent.com/WSTxda/QP-Gallery-Releases/master/Images/Screenshots.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "audile",
+    "name": "Audile",
+    "description": "An open-source Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identification.",
+    "icon": "https://f-droid.org/repo/com.mrsep.musicrecognizer/en-US/icon_-y9-IJVSKtxBEir-3CYGSo7SDJO6OtJZQ0azOxD2iD8=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/aleksey-saenko/MusicRecognizer",
+    "githubRepo": "aleksey-saenko/MusicRecognizer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.mrsep.musicrecognizer",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "aleksey-saenko",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/aleksey-saenko/MusicRecognizer/master/fastlane/metadata/android/en-US/images/phoneScreenshots/00.png",
+      "https://raw.githubusercontent.com/aleksey-saenko/MusicRecognizer/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/aleksey-saenko/MusicRecognizer/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://raw.githubusercontent.com/aleksey-saenko/MusicRecognizer/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+      "https://raw.githubusercontent.com/aleksey-saenko/MusicRecognizer/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+      "https://raw.githubusercontent.com/aleksey-saenko/MusicRecognizer/master/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png",
+      "https://raw.githubusercontent.com/aleksey-saenko/MusicRecognizer/master/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png",
+      "https://raw.githubusercontent.com/aleksey-saenko/MusicRecognizer/master/fastlane/metadata/android/en-US/images/phoneScreenshots/07.png"
+    ],
+    "releaseKeyword": "Apk"
   }
 ]
