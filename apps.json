@@ -14446,5 +14446,30 @@
       "https://raw.githubusercontent.com/wormhole-app/wormhole/main/android/fastlane/metadata/android/en-US/images/phoneScreenshots/3_transfer_code_dark.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "quickpic-gallery-mod",
+    "name": "QuickPic gallery mod",
+    "description": "A modernized version of the classic QuickPic Gallery, focused on speed, stability, and simplicity. It includes multiple bug fixes, improved compatibility with recent Android versions, and a refreshed Material 3 design — while preserving the lightweight, fast, and offline-first experience of the original app.",
+    "icon": "https://raw.githubusercontent.com/WSTxda/QP-Gallery-Releases/master/Images/Banner.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/WSTxda/QP-Gallery-Releases",
+    "githubRepo": "WSTxda/QP-Gallery-Releases",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "Com.alensw.PicFolder",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "WSTxda",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/WSTxda/QP-Gallery-Releases/master/Images/Screenshots.png",
+      "https://raw.githubusercontent.com/WSTxda/QP-Gallery-Releases/master/Images/Screenshots.png",
+      "https://raw.githubusercontent.com/WSTxda/QP-Gallery-Releases/master/Images/Screenshots.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
