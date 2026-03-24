@@ -14394,5 +14394,32 @@
       "https://raw.githubusercontent.com/nikhilmwarrier/anthology/main/fastlane/metadata/en-US/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "de.quantumphysique.trale",
+    "name": "trale",
+    "description": "A simple body-weight diary app respecting your privacy.",
+    "icon": "https://github.com/QuantumPhysique/trale/releases/latest",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/QuantumPhysique/trale",
+    "githubRepo": "QuantumPhysique/trale",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.quantumphysique.trale",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "QuantumPhysique",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/QuantumPhysique/trale/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/QuantumPhysique/trale/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/QuantumPhysique/trale/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/QuantumPhysique/trale/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/QuantumPhysique/trale/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
