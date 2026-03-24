@@ -14501,5 +14501,33 @@
       "https://raw.githubusercontent.com/aleksey-saenko/MusicRecognizer/master/fastlane/metadata/android/en-US/images/phoneScreenshots/07.png"
     ],
     "releaseKeyword": "Apk"
+  },
+  {
+    "id": "ca.ilianokokoro.umihi.music",
+    "name": "Umihi Music",
+    "description": "A simple Material YouTube Music player for Android",
+    "icon": "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/icon_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ilianoKokoro/umihi-music",
+    "githubRepo": "ilianoKokoro/umihi-music",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "ca.ilianokokoro.umihi.music",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ilianoKokoro",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/home.png",
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/playlist.png",
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/search.png",
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/player.png",
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/queue.png",
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
