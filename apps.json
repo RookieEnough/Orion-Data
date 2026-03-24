@@ -14740,5 +14740,32 @@
       "https://play-lh.googleusercontent.com/DGmLad-us9MRt0teOwu3BnXEQvwgoqD_rfVPpmYKxlpVIz-rnFtSUJtm1Dq1qZk4B34=w526-h296-rw",
       "https://play-lh.googleusercontent.com/6fpKmEoGVTbKChWNy5d8hZkEL5yhENRHrzPuOC26YDlvymbjkhEYeMTrqWXeg009JLM=w526-h296-rw"
     ]
+  },
+  {
+    "id": "webshare",
+    "name": "WebShare",
+    "description": "WebShare is a local file sharing app. You open it, tap \"Start,\" and it gives you a link. Anyone on your WiFi can type that link into their browser and send files or text straight to your phone. No cloud, no signup, just works.\n\nThere's a PIN option if you don't want random roommates jumping in. You can also see who's connected and block people if needed. That's pretty much it—simple, fast, gets the job done.",
+    "icon": "https://raw.githubusercontent.com/SatyaSnehith/WebShare/master/images/bluew.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/SatyaSnehith/WebShare",
+    "githubRepo": "SatyaSnehith/WebShare",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "ss.nscube.webshare",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "SatyaSnehith",
+    "officialSite": "",
+    "screenshots": [
+      "https://files.catbox.moe/xdt7vh.png",
+      "https://files.catbox.moe/gjkz5v.png",
+      "https://files.catbox.moe/esqaa3.png",
+      "https://files.catbox.moe/0brumt.png",
+      "https://files.catbox.moe/9uipnn.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
