@@ -14767,5 +14767,33 @@
       "https://files.catbox.moe/9uipnn.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "org.nsh07.pomodoro",
+    "name": "Tomato",
+    "description": "Minimalist, data-oriented pomodoro timer based on Material 3 Expressive",
+    "icon": "https://f-droid.org/repo/org.nsh07.pomodoro/en-US/icon_RlPZe1wP_lpVnsPcQIiV968PQApxY_6-OPPeHeV0HwY=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nsh07/Tomato",
+    "githubRepo": "nsh07/Tomato",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.nsh07.pomodoro",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nsh07",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nsh07/Tomato/main/weblate/screenshots/1.png",
+      "https://raw.githubusercontent.com/nsh07/Tomato/main/weblate/screenshots/2.png",
+      "https://raw.githubusercontent.com/nsh07/Tomato/main/weblate/screenshots/3.png",
+      "https://raw.githubusercontent.com/nsh07/Tomato/main/weblate/screenshots/4.png",
+      "https://raw.githubusercontent.com/nsh07/Tomato/main/weblate/screenshots/5.png",
+      "https://raw.githubusercontent.com/nsh07/Tomato/main/weblate/screenshots/6.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
