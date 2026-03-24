@@ -14421,5 +14421,30 @@
       "https://raw.githubusercontent.com/QuantumPhysique/trale/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "eu.heili.wormhole",
+    "name": "wormhole",
+    "description": "An open source Android, iOS, macOS, and Windows App for sending/receiveing files using the magic-wormhole protocol.",
+    "icon": "https://raw.githubusercontent.com/wormhole-app/wormhole/refs/heads/main/assets/bitmap.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/wormhole-app/wormhole",
+    "githubRepo": "wormhole-app/wormhole",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "eu.heili.wormhole",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "wormhole-app",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/wormhole-app/wormhole/main/android/fastlane/metadata/android/en-US/images/phoneScreenshots/2_receive_dark.png",
+      "https://raw.githubusercontent.com/wormhole-app/wormhole/main/android/fastlane/metadata/android/en-US/images/phoneScreenshots/5_settings_dark.png",
+      "https://raw.githubusercontent.com/wormhole-app/wormhole/main/android/fastlane/metadata/android/en-US/images/phoneScreenshots/3_transfer_code_dark.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
