@@ -14795,5 +14795,30 @@
       "https://raw.githubusercontent.com/nsh07/Tomato/main/weblate/screenshots/6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "scrcpyforandroid",
+    "name": "ScrcpyForAndroid",
+    "description": "This application is android port to desktop applicaton Scrcpy.\n\nThis application mirrors display and touch controls from a remote android device to android device.\n\nScrcpy for Android uses ADB-Connect interface to connect to android device to be mirrored.",
+    "icon": "https://i.postimg.cc/pT98b83p/f9cb311696de324b1dd96e2c7f4b278b7526c00c.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/zwc456baby/ScrcpyForAndroid",
+    "githubRepo": "zwc456baby/ScrcpyForAndroid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.client.scrcpy",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "zwc456baby",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/zwc456baby/ScrcpyForAndroid/main/home.jpg",
+      "https://i.postimg.cc/8CcfMMpq/Screenshot-2026-03-25-14-56-16-107-org-client-scrcpy.jpg",
+      "https://i.postimg.cc/2513VYGg/Screenshot-2026-03-25-14-53-55-374-org-client-scrcpy.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
