@@ -14877,5 +14877,30 @@
       "https://image2url.com/r2/default/images/1774607089418-f3769969-2609-43bb-a7ed-fae0a74541d6.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "meld",
+    "name": "Meld",
+    "description": "YouTube Music client for Android with Spotify integrations",
+    "icon": "https://raw.githubusercontent.com/FrancescoGrazioso/Meld/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FrancescoGrazioso/Meld",
+    "githubRepo": "FrancescoGrazioso/Meld",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.meld.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FrancescoGrazioso",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/FrancescoGrazioso/Meld/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+      "https://raw.githubusercontent.com/FrancescoGrazioso/Meld/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+      "https://raw.githubusercontent.com/FrancescoGrazioso/Meld/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
