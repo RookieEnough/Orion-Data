@@ -14800,7 +14800,7 @@
     "id": "scrcpyforandroid",
     "name": "ScrcpyForAndroid",
     "description": "This application is android port to desktop applicaton Scrcpy.\n\nThis application mirrors display and touch controls from a remote android device to android device.\n\nScrcpy for Android uses ADB-Connect interface to connect to android device to be mirrored.",
-    "icon": "https://i.postimg.cc/pT98b83p/f9cb311696de324b1dd96e2c7f4b278b7526c00c.png",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAAAG1BMVEUwn0gwoEgwoEgwoEgwoUgwn0gwn0gAAAAwoEhK/ebuAAAACHRSTlNgn9+/f0AgANkx3FgAAAPsSURBVHja7dvZciMhDEBRNqn5/y9OqlLzMKkYm60RzdW7F45BgNR21+HhAAAAAAAA6A+VlGIMN0aM3okRAE0xL4rg3WoATXltBC8LASRmAxHcIgAJ2UiEtABAYzYUQe8GcNlWtE0C94yfv30StAJothhB7gKQbDPql4F71PgbBNyzxv8daT6A6fHX5gH3lPzXKtAAELN1gbkAKZsPPxNA8gbhJgLEHQDCPACXtwg/DWCP8VfsBJUAfhOAz6eAe+QEqLgYuidmgJopUAcQ9gEIMwDenQGCT7eFf7cfywQAP6Us2VyTcsUJGScAhHG30DEEqX8NuEF7gFxLQru/khuzBywaf1EgDQfwIy4fw7u7nUnAjUgB8VoYvi8JDAGQlQCvF8FwAJMToHBBl8EAYjADFLPAKQDa9b1GAOghAK4r2UwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgNUBcHMsBrAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMAPCLYzkArTEAAAAAAAAAAAAAAABoCdVzATT93GSCd3IggKb/7pR6GkD69TYhnQXwx+N9QQ8C+PPxxjaBLQFePN4ZTgFIL8trZwDo60qmHAHgXwPEIwBKxWw5AKDYYUgHAPgSQDgAoNzQOR5AHw+gZQAB4HAAJQc8HiCevguk0vj9AQB6+lG4tAbOuAwdfx1+nQUaJsCWAHp6SezSMGoB7FoV/ksgtLWHNu0LaBqx/jcG+J0IgrtOA7gu8fFfW8y1v8tdADKlPa4qIl3vsB6gt7/fG8sBZO345S4AHVfIHhqu64cZARDXAsSupVmTfIPJNaB9lRU3gjqanADjAVI2mAWks7TkhnxWEHvj/2wTqAIolDFCMjf+D48nbsxyWySQ+qvLbtjnhXTziVCLX+fT6nIVwJuWTg4+3RY+jvjXYCXA9e5DLcU1A2CjP4/6KQC6D4BOASinwR0nQC2APm0C1ALskgU+P5XUAmh80hbQAFA8fJoJmQiwQx6suZ7XA9hfBFUNxoZyvIbnLIAmAOt7YV1toqkhI88ZfxuA5dNA9cFmdCl2r9+/GcBoJmyoTTY3ZdXgeaClPN/RlTYn0FSW7AAwNgka/3baA2DpVNj8fEkfwPfrTRB0FOV7AQwshL56fD/AN4H4uG70nSMYAfCD4LyP4caIMaUBLclRANsGAAAAAMDR8QXvBTWGuFI74wAAAABJRU5ErkJggg==",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -14820,24 +14820,6 @@
       "https://i.postimg.cc/2513VYGg/Screenshot-2026-03-25-14-53-55-374-org-client-scrcpy.jpg"
     ],
     "releaseKeyword": "apk"
-  },
-  {
-    "description": "No description provided",
-    "icon": "default",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "",
-    "githubRepo": "",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Unknown",
-    "officialSite": "",
-    "screenshots": []
   },
   {
     "id": "lectro",
