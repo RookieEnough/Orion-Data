@@ -14820,5 +14820,23 @@
       "https://i.postimg.cc/2513VYGg/Screenshot-2026-03-25-14-53-55-374-org-client-scrcpy.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "description": "No description provided",
+    "icon": "default",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Unknown",
+    "officialSite": "",
+    "screenshots": []
   }
 ]
