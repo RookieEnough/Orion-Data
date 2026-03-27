@@ -14852,5 +14852,30 @@
       "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_125738.jpg"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "columba",
+    "name": "Columba",
+    "description": "Columba is a simple messaging and voice app for the Reticulum network on Android. Send LXMF messages and make LXST voice calls without relying on the internet, cell towers, or any central servers.",
+    "icon": "https://raw.githubusercontent.com/torlando-tech/columba/main/columba-icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/torlando-tech/columba",
+    "githubRepo": "torlando-tech/columba",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.lxmf.messenger",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "torlando-tech",
+    "officialSite": "https://columba.network/",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1774607042109-95371694-1b94-4ce8-99b1-e5ab5e4402b3.jpg",
+      "https://image2url.com/r2/default/images/1774607070442-e58008e5-ae4f-4084-ba44-4671d638e1ea.jpg",
+      "https://image2url.com/r2/default/images/1774607089418-f3769969-2609-43bb-a7ed-fae0a74541d6.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
