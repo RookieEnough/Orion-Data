@@ -14838,5 +14838,37 @@
     "author": "Unknown",
     "officialSite": "",
     "screenshots": []
+  },
+  {
+    "id": "lectro",
+    "name": "Lectro",
+    "description": "A modern Android app to manage your class schedule, track attendance, organize notes, and stay on top of assignments and exams — all in one place.",
+    "icon": "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Pankaj-Meharchandani/Lectro",
+    "githubRepo": "Pankaj-Meharchandani/Lectro",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.timetable",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Pankaj-Meharchandani",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260325_203831.jpg",
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_124947.jpg",
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_124957.jpg",
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_125059.jpg",
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_125135.jpg",
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_125142.jpg",
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_125148.jpg",
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_125159.jpg",
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_125254.jpg",
+      "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/screenshots/Screenshot_20260326_125738.jpg"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
