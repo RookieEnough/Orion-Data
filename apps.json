@@ -14908,5 +14908,35 @@
       "https://image2url.com/r2/default/images/1774608350171-34b9302b-a71a-4df8-96af-912bdce8bde9.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "org.nsh07.wikireader",
+    "name": "WikiReader",
+    "description": "Android app for reading Wikipedia pages distraction-free",
+    "icon": "https://raw.githubusercontent.com/nsh07/WikiReader/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nsh07/WikiReader",
+    "githubRepo": "nsh07/WikiReader",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.nsh07.wikireader",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nsh07",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nsh07/WikiReader/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/nsh07/WikiReader/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/nsh07/WikiReader/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/nsh07/WikiReader/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/nsh07/WikiReader/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/nsh07/WikiReader/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/nsh07/WikiReader/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+      "https://raw.githubusercontent.com/nsh07/WikiReader/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
