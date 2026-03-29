@@ -14938,5 +14938,30 @@
       "https://raw.githubusercontent.com/nsh07/WikiReader/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "emotic",
+    "name": "Emotic",
+    "description": "A simple app which lists a bunch of emoticons (not emojis!) and reaction images, as well as templates for fancy text. \n",
+    "icon": "https://f-droid.org/repo/futuristicgoo.emotic/en-US/icon_gDV33mEODU_wI9_Uyu1LpTvdp4U4YfYglijadd59lEQ=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FuturisticGoo/emotic",
+    "githubRepo": "FuturisticGoo/emotic",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "futuristicgoo.emotic",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FuturisticGoo",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/FuturisticGoo/emotic/5b07913b99662cabeff3ba7a3fd09bb596a335c5/metadata/en-US/images/phoneScreenshots/1_main_page.png",
+      "https://raw.githubusercontent.com/FuturisticGoo/emotic/5b07913b99662cabeff3ba7a3fd09bb596a335c5/metadata/en-US/images/phoneScreenshots/4_tag_editor.png",
+      "https://raw.githubusercontent.com/FuturisticGoo/emotic/5b07913b99662cabeff3ba7a3fd09bb596a335c5/metadata/en-US/images/phoneScreenshots/5_settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
