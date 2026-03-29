@@ -14963,5 +14963,30 @@
       "https://raw.githubusercontent.com/FuturisticGoo/emotic/5b07913b99662cabeff3ba7a3fd09bb596a335c5/metadata/en-US/images/phoneScreenshots/5_settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "com.yn.shappky",
+    "name": "Shappky",
+    "description": "A simple app to boost performance by stopping background apps, relying on Root/Shizuku permissions.",
+    "icon": "https://modcombo.com/uploads/2026/1/shappky-logo-150-1.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/YasserNull/shappky",
+    "githubRepo": "YasserNull/shappky",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.yn.shappky",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "YasserNull",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/YasserNull/shappky/main/docs/images/screenshot0.jpg",
+      "https://raw.githubusercontent.com/YasserNull/shappky/main/docs/images/screenshot1.jpg",
+      "https://raw.githubusercontent.com/YasserNull/shappky/main/docs/images/screenshot2.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
