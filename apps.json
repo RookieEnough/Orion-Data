@@ -15152,5 +15152,34 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/cap (2)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "app.alextran.immich",
+    "name": "Immich",
+    "description": "High performance self-hosted photo and video management solution.",
+    "icon": "https://raw.githubusercontent.com/immich-app/immich/refs/heads/main/mobile/assets/immich-logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/immich-app/immich",
+    "githubRepo": "immich-app/immich",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.alextran.immich",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "immich-app",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/zQcG1Xf4NFoiJAtFbVuHn_xLiykWy2q9Qqyjd2m0ov2RhysFCEpTfOyfitsKtW9xJPM=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/sH6p3wbYMaiJXQk9tcYwqJZ0rruIHKtw_lFDoEN0Co7NsKOwZdooUQiljU4sUuDZiACe=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/dQT-AEXr_IGtsPayf-EeheiP5uWv_WLR0EhaHZqF5ZB5UNmNC3FcbzvEtbpy0XNV1Gs=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/qsg1VZceHXi_hUppt2nLaIoivbdAwajVhfrJPUOwpJWRAylMVJ9RsAkNtbRZ18C8ZA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/_GjCZdHxgfVJe-SHKRbqa-Yv2ZSul2osPiz8rSay_LljG6SHn-780AE9j9PMBch7eMw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/wiaA6RL4qc67Rn6Z4bkcl17XQ7qnGdDFwlA053oK4CpnhkhV2HGmYKoobFOml3g1dgAN=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/5MOPweYh80P-tuOZsmxV9XgCWK7JZN-k9QaLZv3moBcdAtDuup_8lwmc4OEMtN4df_7X=w1052-h592-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
