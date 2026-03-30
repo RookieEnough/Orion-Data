@@ -15125,5 +15125,32 @@
       "https://raw.githubusercontent.com/suvojeet-sengupta/SuvMusic/refs/heads/main/screenshots/Screenshot_20260128-151123.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "capturecap",
+    "name": "CaptureCap",
+    "description": "CaptureCap is a simple and powerful app that lets you record your screen along with internal or microphone audio. It works without root and supports modern Android versions, making it useful for tutorials, gameplay, or saving important on-screen activity. The app is lightweight, privacy-friendly, and fully open-source.",
+    "icon": "https://raw.githubusercontent.com/yepgoryo/CaptureCap/c463e33dc1ada806ff832abeedc1861d57364a06/icons_vector/app_icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/yepgoryo/CaptureCap",
+    "githubRepo": "yepgoryo/CaptureCap",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.yepgoryo.CaptureCap",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "yepgoryo",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/cap (5)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/cap (4)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/cap (1)-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/cap (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/cap (2)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
