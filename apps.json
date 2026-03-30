@@ -15097,5 +15097,33 @@
       "https://raw.githubusercontent.com/diekaiju/homebot/master/screenshots/homebot.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "suvmusic",
+    "name": "SuvMusic",
+    "description": "SuvMusic is a premium, open-source music streaming application designed for high-resolution audio enthusiasts. 🎶",
+    "icon": "https://raw.githubusercontent.com/suvojeet-sengupta/SuvMusic/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/suvojeet-sengupta/SuvMusic",
+    "githubRepo": "suvojeet-sengupta/SuvMusic",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.suvojeet.suvmusic",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "suvojeet-sengupta",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/suvojeet-sengupta/SuvMusic/refs/heads/main/screenshots/Screenshot_20260128-151017.png",
+      "https://raw.githubusercontent.com/suvojeet-sengupta/SuvMusic/refs/heads/main/screenshots/Screenshot_20260128-151100.png",
+      "https://raw.githubusercontent.com/suvojeet-sengupta/SuvMusic/refs/heads/main/screenshots/Screenshot_20260128-151110.png",
+      "https://raw.githubusercontent.com/suvojeet-sengupta/SuvMusic/refs/heads/main/screenshots/Screenshot_20260128-151115.png",
+      "https://raw.githubusercontent.com/suvojeet-sengupta/SuvMusic/refs/heads/main/screenshots/Screenshot_20260128-151120.png",
+      "https://raw.githubusercontent.com/suvojeet-sengupta/SuvMusic/refs/heads/main/screenshots/Screenshot_20260128-151123.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
