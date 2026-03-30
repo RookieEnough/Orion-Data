@@ -15070,5 +15070,32 @@
       "https://play-lh.googleusercontent.com/iJU7ipfKGNMjIYW19g7RGStfv22ZnyVtmTvbjQidhaZDm_N0ZhxebsleiC1UAsCKjKU=w1052-h592-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "homebot",
+    "name": "HomeBot",
+    "description": "HomeBot transforms the long‑press home or swipe gesture into a versatile productivity hub, letting you launch any app, run a floating web‑search bar, or pull up an overlay calculator without leaving your current screen; it also offers quick toggles for flashlight, brightness, and other system functions, all organized in a smart grid layout that’s fast, lightweight, and designed for seamless multitasking.",
+    "icon": "https://raw.githubusercontent.com/diekaiju/homebot/refs/heads/master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/diekaiju/homebot",
+    "githubRepo": "diekaiju/homebot",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.abast.homebot",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Diekaiju",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/diekaiju/homebot/master/screenshots/homebot%20(1).jpg",
+      "https://raw.githubusercontent.com/diekaiju/homebot/master/screenshots/homebot%20(2).jpg",
+      "https://raw.githubusercontent.com/diekaiju/homebot/master/screenshots/homebot%20(3).jpg",
+      "https://raw.githubusercontent.com/diekaiju/homebot/master/screenshots/homebot%20(4).jpg",
+      "https://raw.githubusercontent.com/diekaiju/homebot/master/screenshots/homebot.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
