@@ -15043,5 +15043,32 @@
       "https://raw.githubusercontent.com/AChep/keyguard-app/master/screenshots/tablet10/Screenshot_20250825_180106.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "com.pocketpalai",
+    "name": "PocketPal",
+    "description": "PocketPal AI is a pocket-sized AI assistant powered by small language models (SLMs) that run directly on your phone.",
+    "icon": "https://play-lh.googleusercontent.com/BFYQT9Pugt8shdo75MjFZh5F_IMn7btSj8mXknbvSfmVV6JASCKQqcLcERvGdD0iN8A=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/a-ghorbani/pocketpal-ai",
+    "githubRepo": "a-ghorbani/pocketpal-ai",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.pocketpalai",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "a-ghorbani",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/4Zk4M87bHVTr_Yn0jPBc5i8cmOdU8bSc_GrXBQamwOJnKcH-KWwwnGR8iHMMrcCaqQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/FiCFbFJMCd8HFZro_k3Mvl5qKXrlVOHoLDktd2TMIvSSDLCb8fc1D-OxGaPtU5pLh-LC=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/Wn7rHqw9hK1QWQVNGbK6h_YIv2i0L8I475SmLEFx90sqUXOv8tTuTAjPGt2UVashE8M=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/PFBqEB0QRIaWUrreIxJZARLbTobW8YgcG7gc1FYpkjCW68SoynlUCTZkbM6b3gFJ5COq=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/iJU7ipfKGNMjIYW19g7RGStfv22ZnyVtmTvbjQidhaZDm_N0ZhxebsleiC1UAsCKjKU=w1052-h592-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
