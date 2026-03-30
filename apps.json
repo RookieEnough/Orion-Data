@@ -860,7 +860,7 @@
     "id": "instafel",
     "name": "InstaFel",
     "description": "Instafel is a modified, unofficial version of the Instagram app for Android, known for providing early access to new features (alpha builds) with developer options enabled, allowing users to test experimental flags like ad-blocking or autoplay toggles, essentially giving users more control and features beyond the standard app",
-    "icon": "https://raw.githubusercontent.com/mamiiblt/instafel/refs/heads/main/website/src/app/favicon-32x32.png",
+    "icon": "https://raw.githubusercontent.com/mamiiblt/instafel/refs/heads/main/website/src/app/apple-icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
