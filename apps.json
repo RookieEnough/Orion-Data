@@ -15181,5 +15181,34 @@
       "https://play-lh.googleusercontent.com/5MOPweYh80P-tuOZsmxV9XgCWK7JZN-k9QaLZv3moBcdAtDuup_8lwmc4OEMtN4df_7X=w1052-h592-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "app.olauncher",
+    "name": "Olauncher",
+    "description": "Minimal AF Launcher for Android. Reduce your screen time. Daily wallpapers.",
+    "icon": "https://play-lh.googleusercontent.com/uXZ9mqZkLuNR1zE4Zg9x6VlI1lKG-GUpKymFhhceoWFwVvUV1c8U1P1sL-CF_up8ZA=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/tanujnotes/Olauncher",
+    "githubRepo": "tanujnotes/Olauncher",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.olauncher",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "tanujnotes",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/y8tYtR6ovQygbgJQ8lnP7gWaB-J2dRLgVWLSr_FiREVdY2hHEXeLboUBfq2wNTh18VA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/6JtrvJiLBJZqh_yvz0xdXNlw5F7uu1_xjgGEm2Q5mSp5HgfDUMJ7oOBIe6jGSiT-yQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/68rwI-f1WIwZJnKz2AReDi7iSa_MY5l49EPCDy4I_P374eNw3ycrDGIngwzSD1cxKgGx=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/VcORetZy8PjGOjJhovpRuyYS6uFAQPQdxXnqFmmPYWx3GTpsPLz19lprXRH1-pIMKHDX=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/n6rWFkstjC5bGp7Kk3I_j9koNeHN1MAX5jdt6ZLQtLdLWdiy6cycINWstOS3Qb3vk_U=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/06uudLnFQPBLy4DWTzknnOmSKcYnhsMq2lrhDWzcVKR0OU8e8ep6UonbBHEBgAuoaQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/1iMIOj2S1GNVeaBEPaCkU_yVUEjbK6wv88rQcgzaKbAPQ8rWXPbbLuVAKT_yeSQxbtoA=w1052-h592-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
