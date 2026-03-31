@@ -15210,5 +15210,30 @@
       "https://play-lh.googleusercontent.com/1iMIOj2S1GNVeaBEPaCkU_yVUEjbK6wv88rQcgzaKbAPQ8rWXPbbLuVAKT_yeSQxbtoA=w1052-h592-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ventarys-ai",
+    "name": "Ventarys Ai",
+    "description": "Ventarys AI es una aplicación de chat moderna para Android inspirada en la interfaz de ChatGPT, diseñada con Jetpack Compose y Material3. Permite chatear con múltiples modelos de lenguaje de alto rendimiento de forma gratuita o utilizando tus propias API Keys.",
+    "icon": "https://raw.githubusercontent.com/Juanoto2012/Ventarys-Mobile/refs/heads/master/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Juanoto2012/Ventarys-Mobile.git",
+    "githubRepo": "Juanoto2012/Ventarys-Mobile",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ventarys.net",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Juanoto2012",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Juanoto2012/Ventarys-Mobile/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2026-03-18-16-21-45-755_com.ventarys.ai.jpg",
+      "https://raw.githubusercontent.com/Juanoto2012/Ventarys-Mobile/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2026-03-18-16-21-23-466_com.ventarys.ai.jpg",
+      "https://raw.githubusercontent.com/Juanoto2012/Ventarys-Mobile/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2026-03-18-16-20-33-766_com.ventarys.ai.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
