@@ -15235,5 +15235,41 @@
       "https://raw.githubusercontent.com/Juanoto2012/Ventarys-Mobile/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2026-03-18-16-20-33-766_com.ventarys.ai.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "mpx",
+    "name": "MPx",
+    "description": "A media player for android built on mpv player with nice UI.\nClean Architecture • Offline-First Design • Professional Code Quality • Zero Tracking • Zero Analytics",
+    "icon": "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/refs/heads/master/web/icons/Icon-192.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mohammedbakri123/MPx-player",
+    "githubRepo": "mohammedbakri123/MPx-player",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.mpx",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mohammedbakri123",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286273053.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286273063.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286273045.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286273036.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286273027.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286273016.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286273005.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286272994.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286272983.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286272971.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286272958.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286272944.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286272936.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286272927.jpg"
+    ],
+    "releaseKeyword": "app"
   }
 ]
