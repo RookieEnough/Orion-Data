@@ -15322,5 +15322,35 @@
       "https://apt.izzysoft.de/fdroid/repo/org.joinmastodon.android.moshinda/pt-BR/phoneScreenshots/6.jpg"
     ],
     "releaseKeyword": "moshidon.apk"
+  },
+  {
+    "id": "apk-extractor",
+    "name": "APK Extractor",
+    "description": "The APK Extractor enables you to Backup and Restore your installed App.\nThis means to save the install file from the Version on your device to your System and restore it afterwards or Mange them.\n\n\n~ShadowForLight",
+    "icon": "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Domilopment/apk-extractor",
+    "githubRepo": "Domilopment/apk-extractor",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "domilopment.apkextractor",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Domilopment",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/images/smartphone/1.png",
+      "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/images/smartphone/2.png",
+      "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/images/smartphone/3.png",
+      "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/images/smartphone/4.png",
+      "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/images/smartphone/5.png",
+      "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/images/smartphone/6.png",
+      "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/images/smartphone/7.png",
+      "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/images/smartphone/8.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
