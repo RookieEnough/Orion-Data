@@ -15296,5 +15296,31 @@
       "https://raw.githubusercontent.com/NEVARLeVrai/N-Zik/main/fastlane/metadata/android/en-US/images/phoneScreenshots/20.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "moshidon",
+    "name": "Moshidon",
+    "description": "Better modification of the official Mastodon for Android app",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/org.joinmastodon.android.moshinda/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/LucasGGamerM/moshidon",
+    "githubRepo": "LucasGGamerM/moshidon",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.joinmastodon.android.moshinda",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "LucasGGamerM",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/org.joinmastodon.android.moshinda/pt-BR/phoneScreenshots/1.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/org.joinmastodon.android.moshinda/pt-BR/phoneScreenshots/2.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/org.joinmastodon.android.moshinda/pt-BR/phoneScreenshots/5.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/org.joinmastodon.android.moshinda/pt-BR/phoneScreenshots/6.jpg"
+    ],
+    "releaseKeyword": "moshidon.apk"
   }
 ]
