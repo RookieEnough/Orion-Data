@@ -15271,5 +15271,30 @@
       "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/master/screenshots/1774286272927.jpg"
     ],
     "releaseKeyword": "app"
+  },
+  {
+    "id": "n-zik",
+    "name": "N-Zik",
+    "description": "N-Zik is a multilingual fork of Kreate, built with UI/UX improvements and new features in mind with LTS build support.\n\nN-Zik may not yet be as stable as the original Kreate, so feel free to use the original if you need a more mature alternative.",
+    "icon": "https://raw.githubusercontent.com/NEVARLeVrai/N-Zik/main/assets/design/ic_banner2.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/NEVARLeVrai/N-Zik",
+    "githubRepo": "NEVARLeVrai/N-Zik",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "N-Zik-full.apk",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "NEVARLeVrai",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/NEVARLeVrai/N-Zik/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/NEVARLeVrai/N-Zik/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://raw.githubusercontent.com/NEVARLeVrai/N-Zik/main/fastlane/metadata/android/en-US/images/phoneScreenshots/20.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
