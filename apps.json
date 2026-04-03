@@ -15434,5 +15434,31 @@
       "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/main/images/8.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "monogram",
+    "name": "monogram",
+    "description": "Monogram is a modern, lightning-fast, and elegant unofficial Telegram client for Android. Built with Jetpack Compose and Material Design 3, it aims to provide a native and fluid experience while leveraging the power of the official TDLib.",
+    "icon": "https://raw.githubusercontent.com/monogram-android/monogram/refs/heads/master/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/monogram-android/monogram",
+    "githubRepo": "monogram-android/monogram",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.monogram",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "monogram-android",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/monogram-android/monogram/refs/heads/master/documents/1.png",
+      "https://raw.githubusercontent.com/monogram-android/monogram/refs/heads/master/documents/2.png",
+      "https://raw.githubusercontent.com/monogram-android/monogram/refs/heads/master/documents/3.png",
+      "https://raw.githubusercontent.com/monogram-android/monogram/refs/heads/master/documents/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
