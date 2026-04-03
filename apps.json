@@ -15565,5 +15565,32 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/prek6-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "taranify",
+    "name": "Taranify",
+    "description": "Taranify is a free AI recommendation platform that analyzes your mood using a color quiz and suggests personalized movies, shows, music, books, and food instantly.",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/apple-touch-icon-1.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://www.taranify.com",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "taranify",
+    "officialSite": "https://www.taranify.com",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-04-03_15-37-33-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-04-03 153817-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-04-03_15-37-33-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-04-03 153753-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_15-37-33-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
