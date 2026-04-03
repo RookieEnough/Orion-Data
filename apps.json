@@ -15877,5 +15877,31 @@
       "https://raw.githubusercontent.com/OpenCloudGaming/OpenNOW/refs/heads/main/img.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fresh",
+    "name": "Fresh",
+    "description": "A modern terminal text editor built for developers who want IDE-grade power without the steep learning curve of Vim or Emacs. Fresh brings familiar keybindings (Ctrl+S, Ctrl+Z), full mouse support, LSP integration, and a built-in terminal emulator, all running blazingly fast in your shell, even on files exceeding 10GB.",
+    "icon": "https://raw.githubusercontent.com/sinelaw/fresh/0f325b95ee4cbc8ccbe8f4da4fff440e25d41bd0/crates/fresh-gui/resources/icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/sinelaw/fresh",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Development",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "sinelaw",
+    "officialSite": "https://github.com/sinelaw/fresh",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fresh (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fresh (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fresh (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fresh (4)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
