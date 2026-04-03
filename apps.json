@@ -15377,5 +15377,32 @@
       "https://img.utdstc.com/screen/4e9/dcc/4e9dcc4c3557d2ca82517a3241f670d78dd9bd7eeac58abfd1844fc016d25cb8:800"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fermata",
+    "name": "Fermata",
+    "description": "Fermata is an Android auto Media Player is free and open source audio, video and YouTube player with a simple and intuitive interface. It is focused on playing media files organized in folders and playlists.",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/favicon_fermata_auto_com_128x128-1.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/AndreyPavlenko/Fermata",
+    "githubRepo": "AndreyPavlenko/Fermata",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.aap.fermata.auto.dear.google.why",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "AndreyPavlenko",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_6_2026-04-02_12-21-30-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_7_2026-04-02_12-21-30-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_9_2026-04-02_12-21-30-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-02_12-21-30-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_8_2026-04-02_12-21-30-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
