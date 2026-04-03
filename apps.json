@@ -15485,5 +15485,31 @@
       "https://raw.githubusercontent.com/sayampy/deepdenoiser/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pdf-tools",
+    "name": "PDF Tools",
+    "description": "Privacy-first, offline PDF editor for Android. Merge, split, compress, convert , annotate PDFs and many more — 100% on-device, no internet required.",
+    "icon": "https://raw.githubusercontent.com/Karna14314/Pdf_Tools/refs/heads/master/store_assets/app_icon_512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Karna14314/Pdf_Tools",
+    "githubRepo": "Karna14314/Pdf_Tools",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.yourname.pdftoolkit",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Karna14314",
+    "officialSite": "https://github.com/Karna14314/Pdf_Tools",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/81oGiU85bHNTBYq--4HTuXN8NHDlINRpNEz2SMIoKpVxhmaKmEvGNmnDPp1yXGZArqUhynB3933UdAaYv6ch",
+      "https://play-lh.googleusercontent.com/v_JV9qV5C7CCj5DPXTsfwiUtvtxozevCeF4WWD22W0y-m9UCoYjHNP-5Ai9AdjyGwL_rtEyAxgV5EID6rkayqA",
+      "https://play-lh.googleusercontent.com/xcvAgP6zsJ_7UFVIO4em7tNzcRWKsaX466LAajG1BDdytvT_Y13cg3wkCXxZUq4BjriYqJZsMLbswGfmIwkegnU",
+      "https://play-lh.googleusercontent.com/b3iRNPYEvklriOT1pejQgHlSAlznFVtUYfRRFMh0uSCovOOyd6llu8jCWMOvXUvf6Lc3zP906zE6Lm6Msrt1pg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
