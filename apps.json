@@ -15667,5 +15667,30 @@
       "https://raw.githubusercontent.com/borgbase/vykar/refs/heads/main/docs/src/images/gui-screenshot.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "prompt-caching",
+    "name": "Prompt Caching",
+    "description": "Automatic prompt caching for Claude Code. Cuts token costs by up to 90% on repeated file reads, bug fix sessions, and long coding conversations - zero config.",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Copilot_20260403_151432-1.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/flightlesstux/prompt-caching",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "flightlesstux",
+    "officialSite": "https://github.com/flightlesstux/prompt-caching",
+    "screenshots": [
+      "https://raw.githubusercontent.com/flightlesstux/prompt-caching/refs/heads/main/docs/assets/og.png",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Prompt (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Prompt (2)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
