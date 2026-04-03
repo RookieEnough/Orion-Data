@@ -15352,5 +15352,30 @@
       "https://raw.githubusercontent.com/Domilopment/apk-extractor/main/images/smartphone/8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "dcinside",
+    "name": "Dcinside",
+    "description": "dcinside is the official Android app for a South Korean platform called dcinside.com, one of the largest and most active online communities in South Korea. This platform has more than 75,000 thematic galleries where you can explore, participate, and share content on a wide variety of topics, from entertainment and sports to politics and pop culture.",
+    "icon": "https://images.sftcdn.net/images/t_app-icon-m/p/1f3d011d-ed33-4fd1-9882-2daca611c828/2817444234/dcinside-logo",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/AmpleReVanced/dcinside-patched",
+    "githubRepo": "AmpleReVanced/dcinside-patched",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.dcinside.app.android",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "AmpleReVanced",
+    "officialSite": "",
+    "screenshots": [
+      "https://img.utdstc.com/screen/bf1/f0f/bf1f0f4def27e33b73856383d345e1f9ee5a86069b206a6659121106f563ab0d:800",
+      "https://img.utdstc.com/screen/c10/f1d/c10f1dcd41b13b2ba568b9545efcc0791f1ef1a08046a702e4251364e3cc7c8f:300",
+      "https://img.utdstc.com/screen/4e9/dcc/4e9dcc4c3557d2ca82517a3241f670d78dd9bd7eeac58abfd1844fc016d25cb8:800"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
