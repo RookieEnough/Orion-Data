@@ -15460,5 +15460,30 @@
       "https://raw.githubusercontent.com/monogram-android/monogram/refs/heads/master/documents/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "deepdenoiser",
+    "name": "DeepDenoiser",
+    "description": "DeepDenoiser is a powerful, open-source mobile application designed to remove background noise from your audio and video files instantly.\n\nPowered by the state-of-the-art DeepFilterNet3 model, it runs entirely on your device—ensuring your data remains private and your processing is lightning fast.",
+    "icon": "https://raw.githubusercontent.com/sayampy/deepdenoiser/refs/heads/master/assets/images/android-icon-background.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sayampy/deepdenoiser",
+    "githubRepo": "sayampy/deepdenoiser",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.sayampy.deepdenoiser",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sayampy",
+    "officialSite": "https://github.com/sayampy/deepdenoiser",
+    "screenshots": [
+      "https://raw.githubusercontent.com/sayampy/deepdenoiser/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/sayampy/deepdenoiser/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/sayampy/deepdenoiser/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
