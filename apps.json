@@ -15617,5 +15617,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/grim (3)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "openclaw-android-assistant",
+    "name": "Openclaw Android assistant",
+    "description": "Bundles OpenClaw and Codex CLI into one APK by embedding a Termux Linux userland, so both AI coding agents run natively without root or Termux. One OpenAI OAuth login covers both agents with no separate API keys needed.",
+    "icon": "https://raw.githubusercontent.com/friuns2/openclaw-android-assistant/refs/heads/main/assets/chrome-extension/icons/icon128.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/friuns2/openclaw-android-assistant",
+    "githubRepo": "friuns2/openclaw-android-assistant",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "gptos.intelligence.assistant",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "friuns2",
+    "officialSite": "https://github.com/borgbase/vykar",
+    "screenshots": [
+      "https://raw.githubusercontent.com/friuns2/openclaw-android-assistant/refs/heads/main/screenshots/screenshot.png",
+      "https://raw.githubusercontent.com/friuns2/openclaw-android-assistant/refs/heads/main/screenshots/screenshot2.png",
+      "https://raw.githubusercontent.com/friuns2/openclaw-android-assistant/refs/heads/main/screenshots/screenshot.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
