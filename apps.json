@@ -15903,5 +15903,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fresh (4)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ohmycaptcha",
+    "name": "OhMyCaptcha",
+    "description": "A self-hostable captcha solver exposing a YesCaptcha-compatible API for flow2api and similar integrations. Combines FastAPI, Playwright for reCAPTCHA v3 solving, and OpenAI-compatible multimodal models for image captcha recognition, with in-memory async task management.",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/favicon_shenhao_stu_github_io_128x128-1.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/shenhao-stu/ohmycaptcha",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "shenhao-stu",
+    "officialSite": "https://github.com/shenhao-stu/ohmycaptcha",
+    "screenshots": [
+      "https://raw.githubusercontent.com/shenhao-stu/ohmycaptcha/refs/heads/main/docs/assets/ohmycaptcha-hero.png",
+      "https://raw.githubusercontent.com/shenhao-stu/ohmycaptcha/refs/heads/main/docs/assets/ohmycaptcha-diagram.png",
+      "https://raw.githubusercontent.com/shenhao-stu/ohmycaptcha/refs/heads/main/docs/assets/ohmycaptcha-hero.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
