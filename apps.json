@@ -15770,5 +15770,33 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/testdns (3)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "appflowy",
+    "name": "AppFlowy",
+    "description": "An open-source workspace for notes, wikis, projects, and databases built with Flutter and Rust for native performance across every platform. A privacy-focused alternative to Notion, it delivers a rich block-based editor, Kanban boards, and relational databases while letting you keep full ownership of your data through self-hosting or local storage.",
+    "icon": "https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/refs/heads/main/frontend/appflowy_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/114.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/AppFlowy-IO/AppFlowy",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "AppFlowy-IO",
+    "officialSite": "https://github.com/AppFlowy-IO/AppFlowy",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/aflowy (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/aflowy (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/aflowy (5)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/aflowy (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/aflowy (6)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/aflowy (4)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
