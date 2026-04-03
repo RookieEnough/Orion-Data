@@ -15404,5 +15404,35 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_8_2026-04-02_12-21-30-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "rivophoneapp",
+    "name": "RivoPhoneApp",
+    "description": "Rivo is a Google dialer like UI which is Foss, modern, feature-rich dialer app built with Jetpack Compose.\nIt focuses on speed, simplicity, and a clean native Android experience for handling calls and contacts.",
+    "icon": "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/refs/heads/main/app/src/main/res/mipmap-hdpi/rivo_logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/user-grinch/RivoPhoneApp",
+    "githubRepo": "user-grinch/RivoPhoneApp",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.grinch.rivo4",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "user-grinch",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/main/images/1.jpeg",
+      "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/main/images/2.jpeg",
+      "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/main/images/3.jpeg",
+      "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/main/images/4.jpeg",
+      "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/main/images/5.jpeg",
+      "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/main/images/6.jpeg",
+      "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/main/images/7.jpg",
+      "https://raw.githubusercontent.com/user-grinch/RivoPhoneApp/main/images/8.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
