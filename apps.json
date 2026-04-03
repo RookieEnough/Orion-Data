@@ -15692,5 +15692,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Prompt (2)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "openbrand",
+    "name": "OpenBrand",
+    "description": "A brand asset extractor that pulls logos, colors, backdrop images, and brand names from any website URL. Ships as an npm package, a self-hostable Next.js app, and an MCP server compatible with Claude Code and Cursor.",
+    "icon": "https://raw.githubusercontent.com/ethanjyx/OpenBrand/6ad6f61095e4fd1eb212190ff95fc2dc8ba408b2/public/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/ethanjyx/openbrand",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "ethanjyx",
+    "officialSite": "https://github.com/ethanjyx/openbrand",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/openbrand (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/openbrand (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/openbrand (2)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
