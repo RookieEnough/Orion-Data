@@ -15511,5 +15511,34 @@
       "https://play-lh.googleusercontent.com/b3iRNPYEvklriOT1pejQgHlSAlznFVtUYfRRFMh0uSCovOOyd6llu8jCWMOvXUvf6Lc3zP906zE6Lm6Msrt1pg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "prisma-qr",
+    "name": "Prisma QR",
+    "description": "Prism QR is a fast, offline-first Flutter-based mobile app for seamlessly scanning, creating, and managing QR codes. Enjoy blazing-fast scanning with haptics, generate customizable QR codes, and save them directly to your gallery or share them with ease.\n\nThink of it as your all-in-one QR toolkit with instant previews and a sleek interface.",
+    "icon": "https://raw.githubusercontent.com/jydv402/prisma_qr/refs/heads/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76%402x.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/jydv402/prisma_qr",
+    "githubRepo": "jydv402/prisma_qr",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.jdmakes.prisma_qr",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "jydv402",
+    "officialSite": "https://github.com/jydv402/prisma_qr",
+    "screenshots": [
+      "https://raw.githubusercontent.com/jydv402/prisma_qr/refs/heads/main/assets/screens/home_dark.jpg",
+      "https://raw.githubusercontent.com/jydv402/prisma_qr/refs/heads/main/assets/screens/scan_dark.jpg",
+      "https://raw.githubusercontent.com/jydv402/prisma_qr/refs/heads/main/assets/screens/history_dark.jpg",
+      "https://raw.githubusercontent.com/jydv402/prisma_qr/refs/heads/main/assets/screens/details_dark.jpg",
+      "https://raw.githubusercontent.com/jydv402/prisma_qr/refs/heads/main/assets/screens/details_page_dark.jpg",
+      "https://raw.githubusercontent.com/jydv402/prisma_qr/refs/heads/main/assets/screens/settings_dark.jpg",
+      "https://raw.githubusercontent.com/jydv402/prisma_qr/refs/heads/main/assets/screens/home_light.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
