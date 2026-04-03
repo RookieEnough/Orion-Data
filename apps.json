@@ -15827,5 +15827,30 @@
       "https://f-droid.org/repo/de.marmaro.krt.ffupdater/en-US/phoneScreenshots/screenshot7.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "linkwarden",
+    "name": "Linkwarden",
+    "description": "A collaborative, self-hosted bookmark manager designed to collect, organize, and preserve web content. An excellent alternative to Raindrop.io and Pocket, it stands out by offering automatic page archiving, ensuring your saved links remain accessible even if the original content disappears.",
+    "icon": "https://raw.githubusercontent.com/linkwarden/linkwarden/refs/heads/main/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/linkwarden/linkwarden",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "linkwarden",
+    "officialSite": "https://github.com/linkwarden/linkwarden",
+    "screenshots": [
+      "https://raw.githubusercontent.com/linkwarden/linkwarden/refs/heads/main/assets/home.png",
+      "https://raw.githubusercontent.com/linkwarden/linkwarden/refs/heads/main/assets/mobile_apps.png",
+      "https://raw.githubusercontent.com/linkwarden/linkwarden/refs/heads/main/assets/home.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
