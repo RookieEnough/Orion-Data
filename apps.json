@@ -15592,5 +15592,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_15-37-33-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "grimmory",
+    "name": "Grimmory",
+    "description": "Self-hosted digital library for EPUBs, PDFs, comics, audiobooks, and Mobi files that stores your collection on your own server instead of a cloud you don't control. BookDrop watches a folder and pulls metadata automatically, so adding books is a folder drop rather than a manual import.",
+    "icon": "https://raw.githubusercontent.com/grimmory-tools/grimmory/refs/heads/develop/frontend/public/icons/icon-512x512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/grimmory-tools/grimmory",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "grimmory-tools",
+    "officialSite": "https://github.com/grimmory-tools/grimmory",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/grim (1)-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/grim (2)-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/grim (3)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
