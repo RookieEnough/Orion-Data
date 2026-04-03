@@ -15642,5 +15642,30 @@
       "https://raw.githubusercontent.com/friuns2/openclaw-android-assistant/refs/heads/main/screenshots/screenshot.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "vykar",
+    "name": "Vykar",
+    "description": "A backup tool written in Rust that deduplicates, compresses, and encrypts your data, configured via a single YAML file. Backs up to local disk, S3, SFTP, or a self-hosted REST server.",
+    "icon": "https://raw.githubusercontent.com/borgbase/vykar/1fbbe81230ff8c2c248054d6b6da90716f7109dd/docs/src/images/logo-colored-gradient.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/borgbase/vykar",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "borgbase",
+    "officialSite": "https://github.com/borgbase/vykar",
+    "screenshots": [
+      "https://raw.githubusercontent.com/borgbase/vykar/refs/heads/main/docs/src/images/benchmark.summary.png",
+      "https://raw.githubusercontent.com/borgbase/vykar/refs/heads/main/docs/src/images/gui-screenshot.png",
+      "https://raw.githubusercontent.com/borgbase/vykar/refs/heads/main/docs/src/images/gui-screenshot.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
