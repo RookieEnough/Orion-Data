@@ -15717,5 +15717,33 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/openbrand (2)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "au.com.shiftyjelly.pocketcasts",
+    "name": "Pocket Casts",
+    "description": "Pocket Casts is the world's most powerful free podcast app, made by listeners, for listeners. ",
+    "icon": "https://play-lh.googleusercontent.com/Hz1gtRR_LM7e24MBOP_WyOkcNz6e0P7I446NTIJOX2jR7MdP2PvGhDwQVQU__bqharc=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Automattic/pocket-casts-android",
+    "githubRepo": "Automattic/pocket-casts-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "au.com.shiftyjelly.pocketcasts",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Automattic",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/KsJLx7FGfFkVma06C4z9bFrxq482SyrGMaK_0EGLyJHjGVRemhLYJR2yXp8oO1Ga4VA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/5kt1FRAOtpftdDMpJxRKnNF6eBS-3FLkLod2Gq3qP9bGRiMaOWE5FZT6iayexOqoOqVb=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/-EsF9l9Nk2LRovSn5UsDzeInTGwqnTx0Ud-uJg3SsGfPuoBomYS12snf3OluY4eX=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/A8E8JQZdENxoOZDB-fIM1srGo53BSvexkV0C9RsxWtevKnFL0qpK3jhIMSHBiIgCCRA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/UZwVwgWHm9O6adMtRe7DH8LX7V-Q0WdUQvgVtW3phgznuKfYiJPbyDjNse6olw2jWEQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/oQywo7Qibi3UbaXbu2NLKX9eo6SkQpg3CO9YSm2xPYNKBPAQutw5Tl8gY7wbxKs45lY=w1052-h592-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
