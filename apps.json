@@ -15798,5 +15798,34 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/aflowy (4)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "de.marmaro.krt.ffupdater",
+    "name": "FFUpdater",
+    "description": "Updater for privacy friendly browsers",
+    "icon": "https://raw.githubusercontent.com/Tobi823/ffupdater/refs/heads/master/ffupdater/src/main/resources/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Tobi823/ffupdater",
+    "githubRepo": "Tobi823/ffupdater",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.marmaro.krt.ffupdater",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Tobi823",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/de.marmaro.krt.ffupdater/en-US/phoneScreenshots/screenshot1.png",
+      "https://f-droid.org/repo/de.marmaro.krt.ffupdater/en-US/phoneScreenshots/screenshot2.png",
+      "https://f-droid.org/repo/de.marmaro.krt.ffupdater/en-US/phoneScreenshots/screenshot3.png",
+      "https://f-droid.org/repo/de.marmaro.krt.ffupdater/en-US/phoneScreenshots/screenshot4.png",
+      "https://f-droid.org/repo/de.marmaro.krt.ffupdater/en-US/phoneScreenshots/screenshot5.png",
+      "https://f-droid.org/repo/de.marmaro.krt.ffupdater/en-US/phoneScreenshots/screenshot6.png",
+      "https://f-droid.org/repo/de.marmaro.krt.ffupdater/en-US/phoneScreenshots/screenshot7.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
