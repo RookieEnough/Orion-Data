@@ -15852,5 +15852,30 @@
       "https://raw.githubusercontent.com/linkwarden/linkwarden/refs/heads/main/assets/home.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "opennow",
+    "name": "OpenNOW",
+    "description": "A community-built GeForce NOW client with zero telemetry and full transparency. Streams H.264, AV1, and H.265 at up to 4K@240fps with adjustable bitrate, includes Anti-AFK and stats overlay, and supports up to four simultaneous gamepads.",
+    "icon": "https://raw.githubusercontent.com/OpenCloudGaming/OpenNOW/refs/heads/main/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/OpenCloudGaming/OpenNOW",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "OpenCloudGaming",
+    "officialSite": "https://github.com/OpenCloudGaming/OpenNOW",
+    "screenshots": [
+      "https://raw.githubusercontent.com/OpenCloudGaming/OpenNOW/refs/heads/main/img.png",
+      "https://raw.githubusercontent.com/OpenCloudGaming/OpenNOW/refs/heads/main/img.png",
+      "https://raw.githubusercontent.com/OpenCloudGaming/OpenNOW/refs/heads/main/img.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
