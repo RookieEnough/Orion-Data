@@ -16008,5 +16008,33 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2026-04-03_14-05-44-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "gyawun-music",
+    "name": "Gyawun music",
+    "description": "An ad-free YouTube Music streaming client built with Flutter, offering high-quality playback, background audio, and Material You theming. Sources tracks directly from YouTube Music's library and includes an equalizer, loudness enhancer, and local download support.",
+    "icon": "https://raw.githubusercontent.com/sheikhhaziq/gyawun_music/refs/heads/main/assets/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sheikhhaziq/gyawun_music",
+    "githubRepo": "sheikhhaziq/gyawun_music",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.jhelum.gyawun",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sheikhhaziq",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-04-03_13-55-08-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_5_2026-04-03_13-55-08-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_13-55-08-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-04-03_13-55-08-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_6_2026-04-03_13-55-08-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-04-03_13-55-08-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
