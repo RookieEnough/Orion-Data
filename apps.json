@@ -16170,5 +16170,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-04-03_12-14-22-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "stepsy",
+    "name": "Stepsy",
+    "description": "If you want a clean and simple way to track your daily steps, Stepsy is a perfect choice. It uses your phone’s built-in sensors to count steps accurately while keeping battery usage extremely low. With a privacy-focused design and offline data storage, your activity stays completely on your device.",
+    "icon": "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nvllz/stepsy",
+    "githubRepo": "nvllz/stepsy",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nvllz.stepsy",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nvllz",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/images/1.png",
+      "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/images/2.png",
+      "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/images/3.png",
+      "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/images/7.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
