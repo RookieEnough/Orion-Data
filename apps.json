@@ -16226,5 +16226,35 @@
       "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/refs/heads/main/screenshots/About.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "continuum",
+    "name": "continuum",
+    "description": "A Reddit client on Android written in Java. It does not have any ads and it features a clean UI and smooth browsing experience. This project is a fork of Infinity for Reddit with more useful features.",
+    "icon": "https://raw.githubusercontent.com/cygnusx-1-org/continuum/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/cygnusx-1-org/continuum",
+    "githubRepo": "cygnusx-1-org/continuum",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.cygnusx1.continuum",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "cygnusx-1-org",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_6_2026-04-03_12-03-12-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-04-03_12-03-12-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-04-03_12-03-12-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_5_2026-04-03_12-03-12-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_9_2026-04-03_12-03-12-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_12-03-12-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_7_2026-04-03_12-03-12-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_8_2026-04-03_12-03-12-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
