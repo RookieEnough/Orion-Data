@@ -15958,5 +15958,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_6_2026-04-03_14-24-11-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "lapce",
+    "name": "Lapce",
+    "description": "A code editor built with Rope Science from Xi-Editor for lightning-fast computation and wgpu rendering. Features built-in LSP support, modal editing, and remote development inspired by VSCode, with plugins compiled to WASI format.",
+    "icon": "https://raw.githubusercontent.com/lapce/lapce/0349ba04cae97726c028d98bc06e5cff036284e7/extra/images/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/lapce/lapce",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Development",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "lapce",
+    "officialSite": "https://github.com/lapce/lapce",
+    "screenshots": [
+      "https://raw.githubusercontent.com/lapce/lapce/refs/heads/master/extra/images/screenshot.png",
+      "https://raw.githubusercontent.com/lapce/lapce/refs/heads/master/extra/images/screenshot.png",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-04-03 142003-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
