@@ -16093,5 +16093,32 @@
       "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/Artist.jpeg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "shiori",
+    "name": "Shiori",
+    "description": "A Beautiful and Feature-rich Wallpaper App with Cross-sharing support, Built in React-native (using the wall haven API) made with ❤",
+    "icon": "https://raw.githubusercontent.com/Brianali-codes/Shiori/master/assets/images/shiori-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/brianali-codes/shiori",
+    "githubRepo": "brianali-codes/shiori",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.brianali.shiori",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "brianali-codes",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Brianali-codes/Shiori/master/assets/images/screenshot1.png",
+      "https://raw.githubusercontent.com/Brianali-codes/Shiori/master/assets/images/screenshot2.png",
+      "https://raw.githubusercontent.com/Brianali-codes/Shiori/master/assets/images/screenshot3.png",
+      "https://raw.githubusercontent.com/Brianali-codes/Shiori/master/assets/images/screenshot4.png",
+      "https://raw.githubusercontent.com/Brianali-codes/Shiori/master/assets/images/screenshot5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
