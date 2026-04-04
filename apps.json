@@ -16120,5 +16120,30 @@
       "https://raw.githubusercontent.com/Brianali-codes/Shiori/master/assets/images/screenshot5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "clean-social-link",
+    "name": "Clean Social Link",
+    "description": "A very lightweight, open-source Android app for cleaning shared social-media URLs.\n\nZero permissions needed - not even notifications.",
+    "icon": "https://raw.githubusercontent.com/FiorenMas/Clean-Social-Link/refs/heads/main/docs/img/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FiorenMas/Clean-Social-Link",
+    "githubRepo": "FiorenMas/Clean-Social-Link",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.fiorenmas.cleansociallink",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FiorenMas",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/FiorenMas/Clean-Social-Link/refs/heads/main/docs/img/preview/1.jpg",
+      "https://raw.githubusercontent.com/FiorenMas/Clean-Social-Link/refs/heads/main/docs/img/preview/2.jpg",
+      "https://raw.githubusercontent.com/FiorenMas/Clean-Social-Link/refs/heads/main/docs/img/preview/3.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
