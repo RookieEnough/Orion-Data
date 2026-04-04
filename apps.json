@@ -16256,5 +16256,32 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_8_2026-04-03_12-03-12-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "iyox-wormhole",
+    "name": "Iyox Wormhole",
+    "description": "iyox Wormhole is a file-sharing application presented in Material You style. It is a fork of this (lukas-heiligenbrunner/wormhole) project.",
+    "icon": "https://raw.githubusercontent.com/iyox-Studios/iyox-Wormhole/main/assets/icon/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/iyox-studios/iyox-Wormhole",
+    "githubRepo": "iyox-studios/iyox-Wormhole",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.iyox.wormhole",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "iyox-studios",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/iyox-studios/iyox-Wormhole/refs/heads/main/fastlane/metadata/android/it-IT/images/phoneScreenshots/1_it-IT.png",
+      "https://raw.githubusercontent.com/iyox-studios/iyox-Wormhole/refs/heads/main/fastlane/metadata/android/it-IT/images/phoneScreenshots/2_it-IT.png",
+      "https://raw.githubusercontent.com/iyox-studios/iyox-Wormhole/refs/heads/main/fastlane/metadata/android/it-IT/images/phoneScreenshots/3_it-IT.png",
+      "https://raw.githubusercontent.com/iyox-studios/iyox-Wormhole/refs/heads/main/fastlane/metadata/android/it-IT/images/phoneScreenshots/4_it-IT.png",
+      "https://raw.githubusercontent.com/iyox-studios/iyox-Wormhole/refs/heads/main/fastlane/metadata/android/it-IT/images/phoneScreenshots/5_it-IT.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
