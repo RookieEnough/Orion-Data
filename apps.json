@@ -15983,5 +15983,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-04-03 142003-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "appmanager",
+    "name": "AppManager",
+    "description": "AppManager is a GTK/Libadwaita developed desktop utility in Vala that makes installing and uninstalling AppImages on Linux desktop painless. It supports both SquashFS and DwarFS AppImage formats, features a seamless background auto-update process, and leverages zsync delta updates for efficient bandwidth usage. Double-click any .AppImage to open a macOS-style drag-and-drop window, just drag to install and AppManager will move the app, wire up desktop entries, and copy icons.\n\nThis AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.",
+    "icon": "https://raw.githubusercontent.com/kem-a/AppManager/b0903ad86f8249c6e6e8622b137d3bae776a5a96/data/icons/hicolor/scalable/apps/com.github.AppManager.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/kem-a/AppManager",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "kem-a",
+    "officialSite": "https://github.com/kem-a/AppManager",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2026-04-03_14-05-44-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2026-04-03_14-05-44-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2026-04-03_14-05-44-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
