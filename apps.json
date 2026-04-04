@@ -16145,5 +16145,30 @@
       "https://raw.githubusercontent.com/FiorenMas/Clean-Social-Link/refs/heads/main/docs/img/preview/3.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "alert-spot-android",
+    "name": "Alert Spot android",
+    "description": "Alert Spot is a powerful Android app that triggers alerts when you reach a specific GPS location. Designed for commuters and travelers, it helps you never miss your stop, destination, or important place. With smart geofencing and real-time monitoring, it ensures reliable and timely alerts based on your movement.",
+    "icon": "https://raw.githubusercontent.com/vasanth-kandasamy/alert-spot-android/refs/heads/main/AppIcon-1024.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/vasanth-kandasamy/alert-spot-android",
+    "githubRepo": "vasanth-kandasamy/alert-spot-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.alertspot",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "vasanth-kandasamy",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-04-03_12-14-22-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_12-14-22-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-04-03_12-14-22-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
