@@ -16061,5 +16061,37 @@
       "https://raw.githubusercontent.com/open-pencil/open-pencil/refs/heads/master/packages/docs/public/screenshot.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "flow",
+    "name": "Flow",
+    "description": "High-performance YouTube client for Android. Built with Jetpack Compose for a fluid UI, featuring built-in video downloads and ad-blocking.\"",
+    "icon": "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/A-EDev/Flow",
+    "githubRepo": "A-EDev/Flow",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.aedev.flow",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "A-EDev",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/Home.jpeg",
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/VideoPlayer.jpeg",
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/Personality.jpeg",
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/MusicPlayer.jpeg",
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/Music.jpeg",
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/Library.jpeg",
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/Shorts.jpeg",
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/Subscriptions.jpeg",
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/Channel.jpeg",
+      "https://raw.githubusercontent.com/A-EDev/Flow/refs/heads/main/Assets/Artist.jpeg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
