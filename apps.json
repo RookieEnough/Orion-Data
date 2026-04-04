@@ -16196,5 +16196,35 @@
       "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/images/7.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "velune",
+    "name": "Velune",
+    "description": "Velune is a premium YouTube Music client for Android that delivers a fast, ad-free listening experience with full control over your music. Built using modern Android tools like Kotlin and Jetpack Compose, it focuses on performance, customization, and a smooth Material You interface. Perfect for users who want a powerful alternative to the official YouTube Music app with advanced playback features.",
+    "icon": "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nikhilvishwakarma00/Velune",
+    "githubRepo": "nikhilvishwakarma00/Velune",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nikhil.yt",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nikhilvishwakarma00",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/refs/heads/main/screenshots/Home.png",
+      "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/refs/heads/main/screenshots/Now%20Playing.png",
+      "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/refs/heads/main/screenshots/Lyrics.png",
+      "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/refs/heads/main/screenshots/Downloaded.png",
+      "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/refs/heads/main/screenshots/Library.png",
+      "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/refs/heads/main/screenshots/Account.png",
+      "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/refs/heads/main/screenshots/Settings.png",
+      "https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/refs/heads/main/screenshots/About.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
