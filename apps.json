@@ -16036,5 +16036,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-04-03_13-55-08-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "open-pencil",
+    "name": "Open Pencil",
+    "description": "An AI-native, open-source design editor built as a fully local, programmable alternative to Figma. Unlike Figma, it reads and writes native .fig files, ships a headless CLI for scriptable file operations, and embeds AI chat with tool use, all in a ~7 MB desktop app with no account, no subscription, and no internet required.",
+    "icon": "https://raw.githubusercontent.com/open-pencil/open-pencil/refs/heads/master/desktop/icons/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/open-pencil/open-pencil",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "open-pencil",
+    "officialSite": "https://github.com/open-pencil/open-pencil",
+    "screenshots": [
+      "https://raw.githubusercontent.com/open-pencil/open-pencil/refs/heads/master/packages/docs/public/screenshot.png",
+      "https://raw.githubusercontent.com/open-pencil/open-pencil/refs/heads/master/packages/docs/public/screenshot.png",
+      "https://raw.githubusercontent.com/open-pencil/open-pencil/refs/heads/master/packages/docs/public/screenshot.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
