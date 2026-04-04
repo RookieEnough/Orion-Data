@@ -15928,5 +15928,35 @@
       "https://raw.githubusercontent.com/shenhao-stu/ohmycaptcha/refs/heads/main/docs/assets/ohmycaptcha-hero.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "paperless-ngx",
+    "name": "Paperless ngx",
+    "description": "A self-hosted document management system that turns physical documents into a searchable online archive. Runs via Docker, uses Tesseract OCR across 100+ languages, and stores everything as PDF/A on your own server with zero data leaving your machine.",
+    "icon": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/refs/heads/dev/src-ui/src/apple-touch-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/paperless-ngx/paperless-ngx",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "paperless-ngx",
+    "officialSite": "https://github.com/paperless-ngx/paperless-ngx",
+    "screenshots": [
+      "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards-dark.png",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_14-24-11-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-04-03_14-24-11-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-04-03_14-24-11-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_9_2026-04-03_14-24-11-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_10_2026-04-03_14-24-11-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_5_2026-04-03_14-24-11-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_6_2026-04-03_14-24-11-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
