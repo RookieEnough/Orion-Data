@@ -16475,5 +16475,33 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_5_2026-04-03_11-37-05-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "leantype",
+    "name": "LeanType",
+    "description": "LeanType is a powerful open-source Android keyboard that combines privacy with optional AI features. Built as a fork of HeliBoard, it offers a clean offline typing experience while letting you enable AI tools only when you need them. You get full control over your data, with support for both local models and cloud providers.",
+    "icon": "https://raw.githubusercontent.com/LeanBitLab/LeanType/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/LeanBitLab/LeanType",
+    "githubRepo": "LeanBitLab/LeanType",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.leanbitlab.leantype",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "LeanBitLab",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/LeanBitLab/LeanType/refs/heads/main/docs/images/1.png",
+      "https://raw.githubusercontent.com/LeanBitLab/LeanType/refs/heads/main/docs/images/2.png",
+      "https://raw.githubusercontent.com/LeanBitLab/LeanType/refs/heads/main/docs/images/3.png",
+      "https://raw.githubusercontent.com/LeanBitLab/LeanType/refs/heads/main/docs/images/4.png",
+      "https://raw.githubusercontent.com/LeanBitLab/LeanType/refs/heads/main/docs/images/5.png",
+      "https://raw.githubusercontent.com/LeanBitLab/LeanType/refs/heads/main/docs/images/6.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
