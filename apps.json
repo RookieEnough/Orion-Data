@@ -16420,5 +16420,33 @@
       "https://raw.githubusercontent.com/aimok04/podium/refs/heads/main/images/screenshots/06.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "timeflow",
+    "name": "TimeFlow",
+    "description": "A clean and modern Android app designed to help you track your daily progress, habits, and goals in a simple and distraction-free way. Built with a focus on minimal UI and smooth experience, TimeFlow lets you stay consistent and monitor your improvements over time. Perfect for users who want a lightweight and elegant productivity companion.",
+    "icon": "https://raw.githubusercontent.com/dev778g-me/TimeFlow/refs/heads/master/app/src/main/ic_launcher_monochrome-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dev778g-me/TimeFlow",
+    "githubRepo": "dev778g-me/TimeFlow",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.dev.timeflow",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dev778g-me",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dev778g-me/TimeFlow/refs/heads/master/screenshots/home1.png",
+      "https://raw.githubusercontent.com/dev778g-me/TimeFlow/refs/heads/master/screenshots/widgets.png",
+      "https://raw.githubusercontent.com/dev778g-me/TimeFlow/refs/heads/master/screenshots/calview.png",
+      "https://raw.githubusercontent.com/dev778g-me/TimeFlow/refs/heads/master/screenshots/calView2.png",
+      "https://raw.githubusercontent.com/dev778g-me/TimeFlow/refs/heads/master/screenshots/addTask.png",
+      "https://raw.githubusercontent.com/dev778g-me/TimeFlow/refs/heads/master/screenshots/events.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
