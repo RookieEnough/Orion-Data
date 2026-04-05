@@ -16339,5 +16339,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_11-49-31-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "frapp",
+    "name": "Frapp",
+    "description": "Frapp (Freebie Radar APP) Get video game giveaways at the comfort of your mobile phone made with 🧡by Brian Ali.",
+    "icon": "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/icon.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/brianali-codes/Frapp",
+    "githubRepo": "brianali-codes/Frapp",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.brianali.Frapp",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "brianali-codes",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/screenshot1.webp",
+      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/screenshot2.webp",
+      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/screenshot3.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
