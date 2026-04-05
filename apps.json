@@ -16529,5 +16529,30 @@
       "https://play-lh.googleusercontent.com/_ugvl7Dg9Z6KqrpE9cUnROutKk-UfkDNdXomeIWPX5S-1oY-xz7qNooFWvkzPwschRb_-qsUmv4zpgkKUOBBXw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "openaudiobookify",
+    "name": "OpenAudioBookify",
+    "description": "OpenAudioBookify is an open source Android app which allows you to select one or more plaintext, markdown, HTML or EPUB documents and generate an M4A audio file of the machine spoken ebook, which you can then load into your favourite podcast player.\n• uses System Text-to-Speech engines\n•No Api Key Needed \n•Fully local\n\n\n~ShadowForLight",
+    "icon": "https://raw.githubusercontent.com/alzwded/OpenAudioBookify/main/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/alzwded/OpenAudioBookify",
+    "githubRepo": "alzwded/OpenAudioBookify",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "alzwded.openaudiobookify",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "alzwded",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/alzwded/OpenAudioBookify/main/screenshots/Settings--readme.png",
+      "https://raw.githubusercontent.com/alzwded/OpenAudioBookify/main/screenshots/Main--readme.png",
+      "https://raw.githubusercontent.com/alzwded/OpenAudioBookify/main/screenshots/Main-Processing--readme.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
