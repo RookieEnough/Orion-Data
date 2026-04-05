@@ -16364,5 +16364,33 @@
       "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/screenshot3.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "auraninja",
+    "name": "auraninja",
+    "description": "A powerful ambient sound and focus app that lets you mix nature sounds, binaural beats, noise profiles, and internet radio. Designed with a clean Material You interface, it helps you build the perfect sound environment for focus, relaxation, or sleep.",
+    "icon": "https://raw.githubusercontent.com/Giuig/auraninja/refs/heads/main/web/icons/Icon-512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Giuig/auraninja",
+    "githubRepo": "Giuig/auraninja",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.giuig.auraninja",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Giuig",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-04-03_11-44-14-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_11-44-14-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_5_2026-04-03_11-44-14-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-04-03_11-44-14-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-04-03_11-44-14-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_6_2026-04-03_11-44-14-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
