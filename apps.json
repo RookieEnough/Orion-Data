@@ -16392,5 +16392,33 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_6_2026-04-03_11-44-14-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "podium",
+    "name": "podium",
+    "description": "A clean and modern open-source podcast app built with Kotlin and Jetpack Compose. Designed with Material You principles, Podium offers a smooth and elegant listening experience with a focus on simplicity and usability.",
+    "icon": "https://raw.githubusercontent.com/aimok04/podium/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/aimok04/podium",
+    "githubRepo": "aimok04/podium",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.podiumpodcasts.podium",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "aimok04",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/aimok04/podium/refs/heads/main/images/screenshots/01.png",
+      "https://raw.githubusercontent.com/aimok04/podium/refs/heads/main/images/screenshots/02.png",
+      "https://raw.githubusercontent.com/aimok04/podium/refs/heads/main/images/screenshots/03.png",
+      "https://raw.githubusercontent.com/aimok04/podium/refs/heads/main/images/screenshots/04.png",
+      "https://raw.githubusercontent.com/aimok04/podium/refs/heads/main/images/screenshots/05.png",
+      "https://raw.githubusercontent.com/aimok04/podium/refs/heads/main/images/screenshots/06.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
