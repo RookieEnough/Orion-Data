@@ -16311,5 +16311,33 @@
       "https://raw.githubusercontent.com/klyx-dev/klyx/refs/heads/main/images/screenshot_7.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "youkidex-android-desktop",
+    "name": "YoukiDex Android Desktop",
+    "description": "YoukiDEX is an Android application that provides a full desktop-like experience without requiring a launcher change. It offers features such as a persistent floating dock, hot corners, freeform window support, an app drawer, icon pack compatibility, and system tray indicators. The app utilizes an Accessibility Service to work on top of any existing launcher.",
+    "icon": "https://raw.githubusercontent.com/mrYouki/YoukiDex-Android-Desktop/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mrYouki/YoukiDex-Android-Desktop",
+    "githubRepo": "mrYouki/YoukiDex-Android-Desktop",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.youki.dex",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mrYouki",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-04-03_11-49-31-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-04-03_11-49-31-1.webp",
+      "https://raw.githubusercontent.com/mrYouki/YoukiDex-Android-Desktop/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/mrYouki/YoukiDex-Android-Desktop/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-04-03_11-49-31-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_11-49-31-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
