@@ -16283,5 +16283,33 @@
       "https://raw.githubusercontent.com/iyox-studios/iyox-Wormhole/refs/heads/main/fastlane/metadata/android/it-IT/images/phoneScreenshots/5_it-IT.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "klyx",
+    "name": "Klyx",
+    "description": "Klyx is a lightweight, high-performance code editor for Android.",
+    "icon": "https://raw.githubusercontent.com/klyx-dev/klyx/refs/heads/main/klyx/src/commonMain/resources/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/klyx-dev/klyx",
+    "githubRepo": "klyx-dev/klyx",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.klyx",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "klyx-dev",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/klyx-dev/klyx/refs/heads/main/images/screenshot_1.jpg",
+      "https://raw.githubusercontent.com/klyx-dev/klyx/refs/heads/main/images/screenshot_2.jpg",
+      "https://raw.githubusercontent.com/klyx-dev/klyx/refs/heads/main/images/screenshot_3.jpg",
+      "https://raw.githubusercontent.com/klyx-dev/klyx/refs/heads/main/images/screenshot_8.jpg",
+      "https://raw.githubusercontent.com/klyx-dev/klyx/refs/heads/main/images/screenshot_9.jpg",
+      "https://raw.githubusercontent.com/klyx-dev/klyx/refs/heads/main/images/screenshot_7.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
