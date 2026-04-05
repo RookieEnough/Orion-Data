@@ -16503,5 +16503,31 @@
       "https://raw.githubusercontent.com/LeanBitLab/LeanType/refs/heads/main/docs/images/6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "redd-focus-android",
+    "name": "Redd focus android",
+    "description": "ReDD Focus is a unique Android accessibility tool designed to make distracting apps calmer and easier to use. It helps reduce visual clutter and overstimulating elements so you can stay focused on what actually matters. Perfect for people who feel overwhelmed by busy interfaces or want a cleaner digital experience.",
+    "icon": "https://raw.githubusercontent.com/kasnder/redd-focus-android/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/kasnder/redd-focus-android",
+    "githubRepo": "kasnder/redd-focus-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "net.kollnig.greasemilkyway",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "kasnder",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/JA1RJeIEX0xH1zxZwBoLxXbgCmDLo8EofVrcH1wvj2g-CRLlS-WuB6vOU4YENqT6clgCJ3Uo6-HZMZ7TBH-M",
+      "https://play-lh.googleusercontent.com/Gus5cF-Z-zzaQaLKgl_LdXl1b7glmlQmZJfAjI4HaC5mctG7060ulVSw5D6xhtMuXKilbTZvt5dbdnwluV3S3sI",
+      "https://play-lh.googleusercontent.com/TOygQ6CE4f8VfuJiVvZTjEFyBXTQ5E4DPLMlHpuKxYHDdRIDxxkxH7S0u5GwbMah6FdYy_6raOQGm7mf0FcwWg",
+      "https://play-lh.googleusercontent.com/_ugvl7Dg9Z6KqrpE9cUnROutKk-UfkDNdXomeIWPX5S-1oY-xz7qNooFWvkzPwschRb_-qsUmv4zpgkKUOBBXw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
