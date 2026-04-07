@@ -16554,5 +16554,33 @@
       "https://raw.githubusercontent.com/alzwded/OpenAudioBookify/main/screenshots/Main-Processing--readme.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "tap-ducky",
+    "name": "Tap-Ducky",
+    "description": "TapDucky lets you create, customize, schedule, and run DuckyScript on Android by emulating a USB keyboard, mouse, or composite HID device for authorized testing and automation. It includes payload parameterization, multiple scheduler triggers, execution logs, and a GitHub-backed payload library with automatic DuckyScript validation and optional Digispark .ino conversion.\n• Rooted Device Only\n• Only For Advance Users\n• Don't Misuse it \n\n\n~ShadowForLight",
+    "icon": "https://raw.githubusercontent.com/iodn/tap-ducky/master/assets/images/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/iodn/tap-ducky",
+    "githubRepo": "iodn/tap-ducky",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.kaijinlab.tap_ducky",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "iodn",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/iodn/tap-ducky/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/iodn/tap-ducky/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/iodn/tap-ducky/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/iodn/tap-ducky/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/iodn/tap-ducky/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+      "https://raw.githubusercontent.com/iodn/tap-ducky/master/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
