@@ -50,8 +50,8 @@
   },
   {
     "id": "tiktok-revanced",
-    "name": "TikTok ReVanced",
-    "description": "ReVanced for TikTok offers several enhancements, primarily focused on user experience and bypassing restrictions like Ads Removal, Region Spoofing, Enhanced downloading and More.",
+    "name": "TikTok Morphe",
+    "description": "Morphed TikTok offers several enhancements, primarily focused on user experience and bypassing restrictions like Ads Removal, Region Spoofing, Enhanced downloading and More.",
     "icon": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA=w100-h100-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -63,7 +63,7 @@
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
-    "author": "ReVanced",
+    "author": "RookieEnough",
     "screenshots": [
       "https://play-lh.googleusercontent.com/AY2bDSJpiY_xjgJrhpPKNyPPSlboN3kd2ku-G830xv_arLA_HNGUQRjq8Am72nXcvywbFIgG44JQnE6hrHvauw=w526-h296-rw",
       "https://play-lh.googleusercontent.com/82Oi3Jcr86-1W_o7yoqCaq7q_NmxWpeZYIiGEONRsQ0qTKLi5o1sNn2w1p10TnxjzCQ=w526-h296-rw",
@@ -350,7 +350,7 @@
   },
   {
     "id": "twitch-revanced",
-    "name": "Twitch ReVanced",
+    "name": "Twitch Morphe",
     "description": "Ad-free Twitch experience. Blocks video ads, hides promoted content, and includes BTTV/7TV emote support.",
     "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968819.png",
     "version": "Latest",
@@ -363,7 +363,7 @@
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
-    "author": "ReVanced",
+    "author": "RookieEnough",
     "screenshots": [
       "https://play-lh.googleusercontent.com/sSTOCmOjUM98O7Cx9ScaaNevgl3MT8vGqQ8J793xckZORDKGC3DYLVEQCNAwErWcSNg=w526-h296-rw",
       "https://play-lh.googleusercontent.com/Pe2oAtIT8__GC7t_DSBHDySeRTsXtWDeasIJRYHRkppgTFlZZqwk7y-thE0GYctRCTk=w526-h296-rw",
@@ -910,7 +910,7 @@
   },
   {
     "id": "facebook-revanced",
-    "name": "Facebook Revanced",
+    "name": "Facebook Morphe",
     "description": "Cleaned up Facebook client. Removes sponsored posts, reels, suggestion cards, and unlocks internal developer settings.",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1280px-Facebook_f_logo_%282019%29.svg.png",
     "version": "Latest",
@@ -923,7 +923,7 @@
     "category": "Social",
     "platform": "Android",
     "size": "Varies",
-    "author": "ReVanced",
+    "author": "RookieEnough",
     "screenshots": [
       "https://play-lh.googleusercontent.com/3H7wdpSX7ipLsCk_X_OvlmJ3FvBDQNVjuBhKHmKKWpDThS63sjmAu34Gx6vt8w5q86sYMRicdkpiQiNiU8-39w=w526-h296-rw",
       "https://play-lh.googleusercontent.com/ilWUr9x_JcqFczNoY-Z6rOEtS26TlKMQH2f9i0qLURpwk2Y8GbUNFj4anA3Lwz6qr0PCrxq3Kur7LJEjIiiPYg=w526-h296-rw",
@@ -964,7 +964,7 @@
   },
   {
     "id": "nova-launcher-revanced",
-    "name": "Nova Launcher Revanced",
+    "name": "Nova Launcher Morphe",
     "description": "Prime features unlocked. The gold standard of Android launchers with gestures, icon swipes, and hidden app drawers.",
     "icon": "https://downloadr2.apkmirror.com/wp-content/uploads/2021/01/07/5ff153c41b114.png",
     "version": "Latest",
@@ -977,7 +977,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "indrastorms",
+    "author": "hoo-dles",
     "screenshots": [
       "https://play-lh.googleusercontent.com/PYWbLVCc9B4F4PULWl36pLtAYs5PWbfqlKWgF_cfxHetlY7llyfi08Pmzmct8fElGFQ=w526-h296-rw",
       "https://play-lh.googleusercontent.com/bfsGeCx2IWqTv3SqAleyd6uO5-igtsorsa9T6B47c_5GaEWyXCCmwQ3xwq-Xm9VzqXU=w526-h296-rw",
@@ -2822,28 +2822,6 @@
       "https://play-lh.googleusercontent.com/fHMzsF14Tyow5bjlk025DyOyhbQjB9azoXYaCfhpj4lBBUZK7iYVulcaHA9n5qMyfAgzK_8RAenl5KO68kE2Lw=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/VGZgJRDRi9iS-QnjAj53rn8trCizVvWSLw6XUcigQ3Swpa0t9HE7nGFnojA9xvhJdbaYJVg_Q-bPcARfTYogGN0=w1052-h592-rw"
     ]
-  },
-  {
-    "id": "revanced-manager",
-    "name": "ReVanced Manager",
-    "description": "ReVanced Manager is an application that uses ReVanced Patcher to patch Android apps.",
-    "icon": "https://raw.githubusercontent.com/ReVanced/revanced-manager/main/assets/revanced-headline/revanced-headline-vertical-dark.svg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/ReVanced/revanced-manager",
-    "githubRepo": "ReVanced/revanced-manager",
-    "packageName": "app.revanced.manager",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "ReVanced",
-    "screenshots": [
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4vmWobQn9SPMwqpmLNk9vFC8miCcYQLVkGX2nJeHUfTMkc3dpCuZBIAl1kqQUwVjgnT6rPuJpSUqbLl2YsQfY8D7JJU0ftY5yCSyDlrD67MloZq0huuwm7oKHrOrYRGmnREfqbONcbVkVvn3x0vJ5zkyu7X8tilyv4On5XZ_IWO1BhL8Vb8edP4k0XJVV/s1422/que-es-revanced-manager.jpg",
-      "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Frevanced-manager-needs-to-download-necessary-files-to-work-v0-chly92f5umnc1.png%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D1d4b0cdc0609869c7a93edcbe2c41320b396dfb3",
-      "https://revanced.app/_app/immutable/assets/manager.NF7ogg-s.png"
-    ],
-    "releaseKeyword": "revanced"
   },
   {
     "id": "revenge-manager",
@@ -5300,7 +5278,7 @@
   },
   {
     "id": "phone",
-    "name": "Phone",
+    "name": "Fossify Phone",
     "description": "A handy phone call manager with phonebook, number blocking and multi-SIM support.",
     "icon": "https://github.com/FossifyOrg/Phone/raw/main/graphics/icon.webp",
     "version": "Latest",
@@ -6360,7 +6338,7 @@
   },
   {
     "id": "viber-revanced",
-    "name": "Viber Revanced",
+    "name": "Viber Morphe",
     "description": "Viber ReVanced is a patched version of the official Viber Messenger app (package com.viber.voip) using ReVanced tools. It applies official patches including Hide ads (removes in-app advertisements and sponsored content) and Hide navigation buttons (customizes or hides bottom navigation elements for a cleaner UI). These are the confirmed, correct patches available in the official revanced-patches repository—no premium unlock (such as unlimited stickers, advanced privacy extras, or Viber Out credits) exists, as such features are server-side or not targeted by patches. Additional community requests for broader changes (e.g., telemetry removal, spam blocking) remain unaddressed in official patches.",
     "icon": "https://play-lh.googleusercontent.com/xG_8ox1t_0CBsVMMZnCQr_CyYgc-9miU1JyYCzGlAorpcD3zqa9PR3zdbPNHRYAsWQ=s48-rw",
     "version": "Latest",
@@ -6374,7 +6352,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "Revanced",
+    "author": "RookieEnough",
     "officialSite": "",
     "screenshots": [
       "https://play-lh.googleusercontent.com/TGXbI16kw6MagnJ6vr8mNE4qDg7_9GLbRVW3_dErtD4fEy11zcLBdQ5o1Xm8ibgIzQ=w526-h296-rw",
