@@ -16590,5 +16590,32 @@
       "https://files.catbox.moe/il017h.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "root-checker",
+    "name": "Root Checker",
+    "description": "FOSS Root Checker as the name suggests is an Open Source Root Checker app for verifying Root Access on Android Mobile Devices. Ever wondered what Root Checker Apps do behind the scenes on your Phones once you give them Root Access?\nHave both online and offline versions-\n¹ foss.chillastro.root.checker\n² foss.chillastro.root.checker.offline\n\n\n\n~ShadowForLight",
+    "icon": "https://raw.githubusercontent.com/Chill-Astro/FOSS-Root-Checker/master/app/src/main/res/mipmap-hdpi/root_logo_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Chill-Astro/FOSS-Root-Checker",
+    "githubRepo": "Chill-Astro/FOSS-Root-Checker",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "foss.chillastro.root.checker",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Chill-Astro",
+    "officialSite": "",
+    "screenshots": [
+      "https://files.catbox.moe/zavleg.jpg",
+      "https://files.catbox.moe/7apqpi.jpg",
+      "https://files.catbox.moe/jukq4n.jpg",
+      "https://files.catbox.moe/6x3iot.jpg",
+      "https://files.catbox.moe/eyax5l.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
