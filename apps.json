@@ -16617,5 +16617,34 @@
       "https://files.catbox.moe/eyax5l.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "com.duckduckgo.mobile.android",
+    "name": "DuckDuckGo",
+    "description": "DuckDuckGo Android App",
+    "icon": "https://play-lh.googleusercontent.com/NW2ASwJ4qtxfThhVIpm4641sR4o-yGv80yqaJnOnpC4lEmdxEcNTFcF6-TlZYtmdaA=w480-h960-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/duckduckgo/Android",
+    "githubRepo": "duckduckgo/Android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.duckduckgo.mobile.android",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "duckduckgo",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.duckduckgo.mobile.android/en-US/phoneScreenshots/1-Main.jpg",
+      "https://f-droid.org/repo/com.duckduckgo.mobile.android/en-US/phoneScreenshots/2-Search.jpg",
+      "https://f-droid.org/repo/com.duckduckgo.mobile.android/en-US/phoneScreenshots/3-Website.jpg",
+      "https://f-droid.org/repo/com.duckduckgo.mobile.android/en-US/phoneScreenshots/4-Email.jpg",
+      "https://f-droid.org/repo/com.duckduckgo.mobile.android/en-US/phoneScreenshots/5-ATP.jpg",
+      "https://f-droid.org/repo/com.duckduckgo.mobile.android/en-US/phoneScreenshots/6-Smarter.jpg",
+      "https://f-droid.org/repo/com.duckduckgo.mobile.android/en-US/phoneScreenshots/7-Fire.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
