@@ -16646,5 +16646,32 @@
       "https://f-droid.org/repo/com.duckduckgo.mobile.android/en-US/phoneScreenshots/7-Fire.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "godot-engine-4",
+    "name": "Godot Engine 4",
+    "description": "Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported with one click to a number of platforms, including the major desktop platforms (Linux, macOS, Windows), mobile platforms (Android, iOS), as well as Web-based platforms and consoles.\n\n~ShadowForLight",
+    "icon": "https://raw.githubusercontent.com/godotengine/godot/master/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/godotengine/godot",
+    "githubRepo": "godotengine/godot",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.godotengine.editor.v4",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "godotengine",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/godotengine/godot-design/master/screenshots/editor_tps_demo_1920x1080.jpg",
+      "https://files.catbox.moe/5l4fo6.jpg",
+      "https://files.catbox.moe/xswa8h.jpg",
+      "https://files.catbox.moe/atm4g8.jpg",
+      "https://files.catbox.moe/mcfi5y.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
