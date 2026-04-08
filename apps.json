@@ -16560,5 +16560,35 @@
       "https://raw.githubusercontent.com/iodn/tap-ducky/master/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "mora",
+    "name": "Mora",
+    "description": "Mora - The ported R3DMAG!C mascot for Android 🌟\n• Live 2D/3D Model \n• Mora Interactive Wallpaper\n• Change Mora Skin\n• Mora Virtual Pet\n• Mora Care\n• Mora Live\n• AR Camera\n\n~ShadowForLight",
+    "icon": "https://iili.io/BadH5PV.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/YunyiKovsha/mora-vi/",
+    "githubRepo": "YunyiKovsha/mora-vi",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "cn.nubia.redmagickyi",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "YunyiKovsha",
+    "officialSite": "",
+    "screenshots": [
+      "https://files.catbox.moe/pveedk.jpg",
+      "https://files.catbox.moe/4tpgt9.jpg",
+      "https://files.catbox.moe/dt7qu6.jpg",
+      "https://files.catbox.moe/151v0v.jpg",
+      "https://files.catbox.moe/4btjm1.jpg",
+      "https://files.catbox.moe/d5yobs.jpg",
+      "https://files.catbox.moe/1uy1qr.jpg",
+      "https://files.catbox.moe/il017h.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
