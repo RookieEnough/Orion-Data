@@ -16673,5 +16673,30 @@
       "https://files.catbox.moe/mcfi5y.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "nekotatsu",
+    "name": "Nekotatsu",
+    "description": "GUI frontend for nekotatsu, a tool for converting Tachiyomi backups into backups readable by Kotatsu.",
+    "icon": "https://raw.githubusercontent.com/PhantomShift/nekotatsu-mobile/refs/heads/master/src-tauri/icons/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/PhantomShift/nekotatsu-mobile",
+    "githubRepo": "PhantomShift/nekotatsu-mobile",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.github.phantomshift.nekotatsu_mobile",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "PhantomShift",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1775730897449-2b309cd9-93d0-4526-8b85-267523f9cc2e.jpg",
+      "https://image2url.com/r2/default/images/1775730883834-0744d584-6604-4a75-83c6-804ff7c1d284.jpg",
+      "https://image2url.com/r2/default/images/1775730827515-6356c4fb-07fe-4b02-8f77-5ce062aa5bbf.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
