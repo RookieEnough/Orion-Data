@@ -16698,5 +16698,30 @@
       "https://image2url.com/r2/default/images/1775730827515-6356c4fb-07fe-4b02-8f77-5ce062aa5bbf.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "faketraveler",
+    "name": "FakeTraveler",
+    "description": "Fake where your phone is located (Mock location for Android).\n\nSometimes you need to fake the location of your device (for privacy or to test an app). Fake Traveler provides you a map to select the location where you want your phone to be.",
+    "icon": "https://raw.githubusercontent.com/mcastillof/FakeTraveler/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mcastillof/FakeTraveler",
+    "githubRepo": "mcastillof/FakeTraveler",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "cl.coders.faketraveler",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mcastillof",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/mcastillof/FakeTraveler/master/screenshots/map.png",
+      "https://raw.githubusercontent.com/mcastillof/FakeTraveler/master/screenshots/dark_mode.png",
+      "https://raw.githubusercontent.com/mcastillof/FakeTraveler/master/screenshots/settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
