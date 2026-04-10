@@ -16808,5 +16808,36 @@
       "https://image2url.com/r2/default/images/1775845635759-729dbe5e-5b36-4733-b963-b652087f4bc1.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "kurobaex",
+    "name": "KurobaEx",
+    "description": "KurobaEx is a fast Android app for browsing imageboards, such as 4chan and 8chan. It's a fork of Kuroba. ",
+    "icon": "https://raw.githubusercontent.com/K1rakishou/Kuroba-Experimental/refs/heads/develop/Kuroba/app/src/main/res/mipmap-xxxhdpi/ic_launcher_release.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/K1rakishou/Kuroba-Experimental",
+    "githubRepo": "K1rakishou/Kuroba-Experimental",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.github.k1rakishou.chan",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "K1rakishou",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/20.png",
+      "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/14.png",
+      "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/11.png",
+      "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/10.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
