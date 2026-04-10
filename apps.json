@@ -16839,5 +16839,30 @@
       "https://github.com/K1rakishou/Kuroba-Experimental/raw/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/10.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "chance",
+    "name": "Chance",
+    "description": "Imageboard browser built using Flutter intended for use on iOS and Android.\n\nFeatures\nMulti-column layout for larger screens\nWEBM playback and conversion\nPick images through in-app web search\nMedia gallery view\nSave threads, posts, and attachments to a local collection\nAutomatically aligns the captcha slider\nGestures to navigate through replies\nSwitch between multiple browsing tabs\nOptional and automatic adjustments for mouse usage\nRegular-expression filters to hide or highlight posts\nSupport for archives to access deleted threads or search for posts\nThread watcher to check for replies",
+    "icon": "https://raw.githubusercontent.com/moffatman/chan/refs/heads/master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76%402x.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/moffatman/chan",
+    "githubRepo": "moffatman/chan",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.moffatman.chan",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "moffatman",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1775853188497-7c4fc3c9-3ff8-4cca-b47a-124b67a68655.jpg",
+      "https://image2url.com/r2/default/images/1775853219981-25367737-f4e0-41b3-b927-9cd0a7ab26ba.jpg",
+      "https://image2url.com/r2/default/images/1775853250685-086eafbc-4e9b-471b-bc41-5983c2af41d2.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
