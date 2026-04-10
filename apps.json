@@ -16783,5 +16783,30 @@
       "https://raw.githubusercontent.com/BKK31/pixel-gallery/main/screenshots/settings_screen.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "aria",
+    "name": "Aria",
+    "description": "A cross-platform Misskey client built with Flutter\nA Misskey client app forked from Miria",
+    "icon": "https://raw.githubusercontent.com/poppingmoon/aria/refs/heads/main/assets/icons/aria.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/poppingmoon/aria",
+    "githubRepo": "poppingmoon/aria",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.poppingmoon.aria",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "poppingmoon",
+    "officialSite": "",
+    "screenshots": [
+      "https://image2url.com/r2/default/images/1775845600443-b1a1fa8a-6913-40f0-9feb-3f1178bdd87b.jpg",
+      "https://image2url.com/r2/default/images/1775845618978-a46b7e76-38d6-4b09-a951-47527734e8cb.jpg",
+      "https://image2url.com/r2/default/images/1775845635759-729dbe5e-5b36-4733-b963-b652087f4bc1.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
