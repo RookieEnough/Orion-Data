@@ -16723,5 +16723,37 @@
       "https://raw.githubusercontent.com/mcastillof/FakeTraveler/master/screenshots/settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "plainapp",
+    "name": "PlainApp",
+    "description": "PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, contacts, SMS, calls, and more through a simple, easy-to-use interface on your desktop.",
+    "icon": "https://raw.githubusercontent.com/plainhub/plain-app/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/plainhub/plain-app/",
+    "githubRepo": "plainhub/plain-app",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ismartcoding.plain",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "plainhub",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/app-files.png",
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/app-home.png",
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/app-music-player.jpg",
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/app-chat.png",
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/app-audio.png",
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/app-images.jpg",
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/app-videos.jpg",
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/app-rss.jpg",
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/web-audio.png",
+      "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/web-files.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
