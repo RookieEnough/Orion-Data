@@ -16892,5 +16892,32 @@
       "https://raw.githubusercontent.com/shub39/Momentum/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "voyager",
+    "name": "Voyager",
+    "description": "Voyager is a free and open source client for Lemmy. Voyager is an Apollo-like open source web client for Lemmy. It's a mobile-first app, but works great on desktop devices, too. Voyager respects your privacy: no trackers and no advertisements. ",
+    "icon": "https://raw.githubusercontent.com/aeharding/voyager/refs/heads/main/resources/icon-only.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/aeharding/voyager",
+    "githubRepo": "aeharding/voyager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.vger.voyager",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "aeharding",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/app.vger.voyager/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/app.vger.voyager/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/app.vger.voyager/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/app.vger.voyager/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/app.vger.voyager/en-US/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
