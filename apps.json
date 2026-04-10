@@ -16755,5 +16755,33 @@
       "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/web-files.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pixel-gallery",
+    "name": "Pixel Gallery",
+    "description": "Pixel Gallery is a sleek, privacy-focused gallery application designed to provide a premium user experience. It leverages the power of Material You dynamic theming to adapt to your device's wallpaper, ensuring a seamless and personalized look. From managing your photo albums to viewing motion photos and map locations, Pixel Gallery creates a beautiful home for your memories.",
+    "icon": "https://raw.githubusercontent.com/BKK31/pixel-gallery/main/screenshots/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/bkk31/pixel-gallery",
+    "githubRepo": "bkk31/pixel-gallery",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.pixel.gallery",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "bkk31",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/BKK31/pixel-gallery/main/screenshots/home_screen.png",
+      "https://raw.githubusercontent.com/BKK31/pixel-gallery/main/screenshots/photos_screen.png",
+      "https://raw.githubusercontent.com/BKK31/pixel-gallery/main/screenshots/albums_screen.png",
+      "https://raw.githubusercontent.com/BKK31/pixel-gallery/main/screenshots/viewer_screen.png",
+      "https://raw.githubusercontent.com/BKK31/pixel-gallery/main/screenshots/recycle_bin_screen.png",
+      "https://raw.githubusercontent.com/BKK31/pixel-gallery/main/screenshots/settings_screen.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
