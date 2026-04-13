@@ -16919,5 +16919,33 @@
       "https://f-droid.org/repo/app.vger.voyager/en-US/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ulap-free-unlimited-media-backup",
+    "name": "Ulap: Free & Unlimited Media Backup",
+    "description": "Back up your photos and videos for free — no storage limits, no subscriptions, no file size restrictions. Ulap uses Telegram as your personal cloud vault, keeping your memories private and accessible from anywhere. Import your entire Google Photos library in one tap and stream your videos instantly.",
+    "icon": "https://raw.githubusercontent.com/neil-cena/ulap/refs/heads/main/screenshots/app-icon_source.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/neil-cena/ulap",
+    "githubRepo": "neil-cena/ulap",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ulap",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "neil-cena",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/neil-cena/ulap/refs/heads/main/screenshots/timeline-screen.jpg",
+      "https://raw.githubusercontent.com/neil-cena/ulap/refs/heads/main/screenshots/manage-backup-folders.jpg",
+      "https://raw.githubusercontent.com/neil-cena/ulap/refs/heads/main/screenshots/google-photos-import.jpg",
+      "https://raw.githubusercontent.com/neil-cena/ulap/refs/heads/main/screenshots/google-photos-import-in_progress.jpg",
+      "https://raw.githubusercontent.com/neil-cena/ulap/refs/heads/main/screenshots/backup-progress-screen.jpg",
+      "https://raw.githubusercontent.com/neil-cena/ulap/refs/heads/main/screenshots/account-and-bot-pool.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
