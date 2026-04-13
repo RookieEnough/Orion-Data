@@ -16947,5 +16947,33 @@
       "https://raw.githubusercontent.com/neil-cena/ulap/refs/heads/main/screenshots/account-and-bot-pool.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "diary",
+    "name": "Diary",
+    "description": "Diary app lets you write daily activities, ideas, and thoughts while keeping everything organized by date like a traditional journal. Entries are stored locally as plain text files, ensuring easy backup and full user control. It supports markdown formatting, media integration, maps, calendar sync, and fast search. With customizable templates, themes, widgets, and export options, it provides a lightweight yet powerful journaling experience focused on privacy and simplicity.\n• Local plain text storage\n• Markdown support\n• Media & map integration\n• Calendar sync & events\n• Search & widgets\n• Backup to ZIP\n• Dark/light themes\nForked from https://git.savannah.gnu.org/cgit/diary.git⁠� updated for Android 4+",
+    "icon": "https://raw.githubusercontent.com/billthefarmer/diary/v1.105/data/ic_launcher.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/billthefarmer/diary",
+    "githubRepo": "billthefarmer/diary",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.billthefarmer.diary",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "billthefarmer",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/diary/Diary-phone.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/diary/Calendar-phone.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/diary/Calendar-landscape.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/diary/Web.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/diary/Media-markdown.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/diary/Media-phone.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
