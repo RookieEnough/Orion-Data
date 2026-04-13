@@ -17000,5 +17000,31 @@
       "https://user-images.githubusercontent.com/38454985/81928572-6c668780-9620-11ea-800a-bbb03721ce8e.png"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "lurk",
+    "name": "Lurk",
+    "description": "A Reddit, Digg, and Lemmy app for Android created with Flutter. Heavily inspired by the discontinued app Reddit is Fun (RIF).",
+    "icon": "https://raw.githubusercontent.com/altherat/lurk/refs/heads/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76%402x.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/altherat/lurk",
+    "githubRepo": "altherat/lurk",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.altherat.lurk",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "altherat",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/altherat/lurk/raw/main/screenshots/screenshot-1.png",
+      "https://github.com/altherat/lurk/raw/main/screenshots/screenshot-2.png",
+      "https://github.com/altherat/lurk/raw/main/screenshots/screenshot-3.png",
+      "https://github.com/altherat/lurk/raw/main/screenshots/screenshot-4.png"
+    ],
+    "releaseKeyword": "lurk"
   }
 ]
