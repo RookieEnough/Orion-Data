@@ -17026,5 +17026,31 @@
       "https://github.com/altherat/lurk/raw/main/screenshots/screenshot-4.png"
     ],
     "releaseKeyword": "lurk"
+  },
+  {
+    "id": "wg-tunnel",
+    "name": "WG Tunnel",
+    "description": "WG Tunnel is an alternative Android client for WireGuard and AmneziaWG, inspired by the official WireGuard Android app. It fills gaps in the official client by adding advanced features like auto-tunneling (on-demand VPN activation), while seamlessly supporting both protocols across app modes—including Kernel (for direct WireGuard kernel integration; AmneziaWG not supported), VPN (standard system-level tunneling), Lockdown (a custom kill switch for leak prevention), and Proxy (built-in HTTP/SOCKS5 forwarding)—for enhanced privacy, censorship resistance, and flexibility.",
+    "icon": "https://raw.githubusercontent.com/wgtunnel/android/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/wgtunnel/android",
+    "githubRepo": "wgtunnel/android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.zaneschepke.wireguardautotunnel",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "wgtunnel",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/wgtunnel/android/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/main_screen.png",
+      "https://github.com/wgtunnel/android/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/config_screen.png",
+      "https://github.com/wgtunnel/android/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/settings_screen.png",
+      "https://github.com/wgtunnel/android/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/auto_screen.png"
+    ],
+    "releaseKeyword": "wgtunnel"
   }
 ]
