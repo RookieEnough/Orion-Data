@@ -16975,5 +16975,30 @@
       "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/diary/Media-phone.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "milktea",
+    "name": "Milktea",
+    "description": "Milktea is an Android app for Mastodon and Misskey client application\nMilktea was developed with the following goals in mind:\n\n- To make the Fediverse experience as seamless as possible, minimizing the awareness of software differences.\n\nProvide an Android-like UI\n\n- The UI should be easy to use and intuitive for users migrating from competing services.\n\n- Add unique features to make it easier to use.\n\n・Ability to carry out continuous development\n\nTo enable people to live a Fediverse life without being conscious of the existence of the Fediverse.",
+    "icon": "https://raw.githubusercontent.com/pantasystem/Milktea/refs/heads/develop/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/pantasystem/Milktea",
+    "githubRepo": "pantasystem/Milktea",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "jp.panta.misskeyandroidclient",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "pantasystem",
+    "officialSite": "",
+    "screenshots": [
+      "https://user-images.githubusercontent.com/38454985/81928170-d03c8080-961f-11ea-8acc-b1d752d72de7.png",
+      "https://user-images.githubusercontent.com/38454985/81928454-3cb77f80-9620-11ea-839b-ea28962a0a92.png",
+      "https://user-images.githubusercontent.com/38454985/81928572-6c668780-9620-11ea-800a-bbb03721ce8e.png"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
