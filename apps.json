@@ -17052,5 +17052,31 @@
       "https://github.com/wgtunnel/android/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/auto_screen.png"
     ],
     "releaseKeyword": "wgtunnel"
+  },
+  {
+    "id": "editor",
+    "name": "Editor",
+    "description": "This is a very simple generic text editor which may be used standalone or to show or edit any sort of text file from another app. If you select a text file in a file manager or similar app you will be offered the option of using this editor along with whatever other apps you have installed that can show or edit a text file. Files will initially be opened read only, long touch on the display or touch the edit item in the toolbar to enable editing.\n\n* Regular expression text search\n* View markdown in browser or html viewer\n* Optional auto save\n* Optional word wrap\n* Optional suggestions\n* Optional syntax highlighting\n* Character set detection and selection\n* Light/Dark/Black/Retro themes\n* Small/Medium/Large text size\n* Monospace/Proportional typefaces",
+    "icon": "https://f-droid.org/repo/org.billthefarmer.editor/en/icon_KYMMWzbk7s3TFBrVa8pnvR822QiKxvUdChddfZwyUeE=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/billthefarmer/editor",
+    "githubRepo": "billthefarmer/editor",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.billthefarmer.editor",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "billthefarmer",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Editor.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Editor-chooser.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Editor-landscape.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Editor-syntax.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
