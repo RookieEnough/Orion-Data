@@ -17078,5 +17078,31 @@
       "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Editor-syntax.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "nomorebackground",
+    "name": "NoMoreBackground",
+    "description": "A tool to manage which Android™ apps can run in the background.\n\nYou probably don't need some random takeaway app doing anything in the background. And maybe you don't want that mobile game wasting your data when you're not using it.\n\nNoMoreBackground gives you a list of your apps and lets you choose which of them you want having background permissions, all on one screen, to help you get the most out of your battery.\n\nAnd the best part? When you're done, you can close NoMoreBackground and move on with your life. No need to \"optimize\" every day like some other tools: set and forget!\n\nTip: Some apps may still run in the background even if you turn them off here.\nIf you use an app very infrequently, right click it and archive it. The app itself will be uninstalled but its data will remain. This means when you next open it, it'll be reinstalled and you'll still be logged in.\n\nAndroid is a trademark of Google LLC.",
+    "icon": "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/icon_SPtkezatdQHrqSf_3LFAIYy-QR17_nIzKuryY4qJ0PI=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/adil192/no_more_background",
+    "githubRepo": "adil192/no_more_background",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.adilhanney.no_more_background",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "adil192",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/phoneScreenshots/2_apps.png",
+      "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/phoneScreenshots/3_system_apps.png",
+      "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/tenInchScreenshots/2_apps.png",
+      "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/tenInchScreenshots/3_system_apps.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
