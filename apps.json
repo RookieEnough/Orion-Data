@@ -17104,5 +17104,31 @@
       "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/tenInchScreenshots/3_system_apps.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "simplemarkdown",
+    "name": "SimpleMarkdown",
+    "description": "Simple Markdown is an open source markdown editor that (surprise) allows you to quickly and easily edit markdown files, and then share them as you please.\n\nThe INTERNET permission is used for the preview to work when external images are embedded.\n\nIf you find any bugs, you can submit them here:\nhttps://github.com/wbrawner/SimpleMarkdown/issues\n\nIf you'd like to contribute to the code, you can find it here:\nhttps://github.com/wbrawner/SimpleMarkdown\n\nAlso feel free to contact me directly if you have any questions or concerns :)",
+    "icon": "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/icon_11Q2YeSpaCdwngLM8y-udw_LoSTd5Nusecp1kLmKs-s=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/wbrawner/SimpleMarkdown",
+    "githubRepo": "wbrawner/SimpleMarkdown",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.wbrawner.simplemarkdown.free",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "wbrawner",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
