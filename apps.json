@@ -17155,5 +17155,31 @@
       "https://f-droid.org/repo/com.xmission.trevin.android.notes/en-US/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "to-do",
+    "name": "To Do",
+    "description": "A simple and intuitive To Do list based on the app\nbundled with Palm Pilot, plus many other features:\n\n• Create any number of categories for different lists.\n\n• Set alarms for items that are due or nearly due.\n\n• Configure repeating items which advance their due date when completed.\n\n•Mark items as private and optionally encrypt them with a password.\n\n• Export lists to a local XML file.\n\n• Import lists from either XML or a Palm Pilot data file.\n\n• Backwards compatible with Android 4 (Ice Cream Sandwich) and up.",
+    "icon": "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/icon_CAzgWvWQQmgOs-gKu4qW-NHmkI2cppMh0eANpyDlnjY=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Typraeurion/Android-ToDo",
+    "githubRepo": "Typraeurion/Android-ToDo",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.xmission.trevin.android.todo",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Typraeurion",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
