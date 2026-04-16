@@ -17181,5 +17181,31 @@
       "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "notes",
+    "name": "Notes",
+    "description": "Notebook with markdown formatting\n\n* Notes saved in text files\n* Use markdown formatting\n* Optional new note template\n* Optional new note file name template\n* Display media\n* Display OpenStreetMap maps\n* Share notes\n* Add date and time\n* Add media from media providers\n* Receive media from other apps\n* Receive geo uris from other apps\n* Incremental search of notes\n* Dark or light theme for editing\n* Shortcut to open new note\n* Optional CSS styles\n* Optional JavaScript scripts\n* Back up notes to a zip file\n* Optional edit cursor position control",
+    "icon": "https://raw.githubusercontent.com/billthefarmer/notes/master/src/main/res/drawable-hdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/billthefarmer/notes",
+    "githubRepo": "billthefarmer/notes",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.billthefarmer.notes",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "billthefarmer",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Notes.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Notes-settings.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Notes-open.png",
+      "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Notes-recent.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
