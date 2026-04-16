@@ -17207,5 +17207,32 @@
       "https://github.com/billthefarmer/billthefarmer.github.io/raw/master/images/Notes-recent.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "squawker",
+    "name": "Squawker",
+    "description": "An open-source privacy oriented Twitter/X client\n\n* Privacy: No tracking, with all data local\n* No ads: Not clogged by multiple ads\n* Feed: View all your subscriptions in a chronological feed\n* Subscriptions: Follow and group accounts\n* Search: Find users and tweets\n* Bookmarks: Save tweets locally and offline\n* Trends: See what's trending in the world\n* Polls: View results without needing to vote\n* Light and Dark themes: Protect your eyes\n* And more!",
+    "icon": "https://github.com/j-fbriere/squawker",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/j-fbriere/squawker",
+    "githubRepo": "j-fbriere/squawker",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.ca.squawker",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "j-fbriere",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/org.ca.squawker/en-US/phoneScreenshots/1.jpg",
+      "https://f-droid.org/repo/org.ca.squawker/en-US/phoneScreenshots/2.jpg",
+      "https://f-droid.org/repo/org.ca.squawker/en-US/phoneScreenshots/3.jpg",
+      "https://f-droid.org/repo/org.ca.squawker/en-US/phoneScreenshots/4.jpg",
+      "https://f-droid.org/repo/org.ca.squawker/en-US/phoneScreenshots/5.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
