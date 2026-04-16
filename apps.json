@@ -17130,5 +17130,30 @@
       "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "note-pad",
+    "name": "Note Pad",
+    "description": "A simple and intuitive notepad based on the app bundled with Palm Pilot.\n\nEntirely offline, requiring few permissions to run.\nCreate any number of categories for different notes.\nMark notes as private and optionally encrypt them with a password.\nExport notes to a local XML file.\nImport notes from an XML file.\nBackwards compatible with Android 4 (Ice Cream Sandwich) and up.",
+    "icon": "https://f-droid.org/repo/com.xmission.trevin.android.notes/en-US/icon_cZ_aSKMT4El_nh8Ew6CYg_ZyRwN_ehUUxyiyxorxvis=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Typraeurion/Android-NotePad",
+    "githubRepo": "Typraeurion/Android-NotePad",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.xmission.trevin.android.notes",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Typraeurion",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.xmission.trevin.android.notes/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.xmission.trevin.android.notes/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.xmission.trevin.android.notes/en-US/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
