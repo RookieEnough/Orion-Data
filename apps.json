@@ -17234,5 +17234,30 @@
       "https://f-droid.org/repo/org.ca.squawker/en-US/phoneScreenshots/5.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "quax",
+    "name": "QuaX",
+    "description": "QuaX is a free, open-source, privacy-focused client for X (formerly Twitter). It is forked from Quacker and Fritter, and serves as an alternative to Squawker.",
+    "icon": "https://raw.githubusercontent.com/Teskann/QuaX/master/assets/readme/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Teskann/QuaX",
+    "githubRepo": "Teskann/QuaX",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.teskann.quax",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Teskann",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/Teskann/QuaX/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://github.com/Teskann/QuaX/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://github.com/Teskann/QuaX/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "quax"
   }
 ]
