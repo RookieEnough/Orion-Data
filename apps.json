@@ -17259,5 +17259,35 @@
       "https://github.com/Teskann/QuaX/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "quax"
+  },
+  {
+    "id": "untisplus",
+    "name": "UntisPlus",
+    "description": "A modern, Android-first Flutter client for WebUntis: timetable, exams, school info, widgets, and optional AI features.\n\nOverview\n\nUntis+ focuses on a clean, fast school companion:\n\n• Weekly timetable with lesson details, cancellations, and substitutions\n• Exams overview (from WebUntis) plus custom exams\n• Free room search (based on your school’s configured time grid)\n• School info / announcements feed\n• Widgets + background refresh and multiple notification types\n• Optional AI assistant (bring your own API key)",
+    "icon": "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Ficon_with_bg.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ninocss/UntisPlus",
+    "githubRepo": "ninocss/UntisPlus",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ninocss.untisplus",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ninocss",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fai.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fbanner.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fdetails.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fexams.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fschool%20info.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fsettings.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Ftimetable.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fwelcome.png"
+    ],
+    "releaseKeyword": "app-release"
   }
 ]
