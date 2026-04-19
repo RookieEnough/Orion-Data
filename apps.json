@@ -17342,5 +17342,30 @@
       "https://f-droid.org/repo/de.ph1b.audiobook/en-US/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "vanilla",
+    "name": "Vanilla ",
+    "description": "🍨 Vanilla is a cute and elegant calculator app for Android",
+    "icon": "https://f-droid.org/repo/com.sosauce.cutecalc/en-US/icon_h5SF_pBY3OdypAAi0ZSEpR4basMTtIaCP0sRdDxpauo=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sosauce/Vanilla",
+    "githubRepo": "sosauce/Vanilla",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.sosauce.cutecalc",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sosauce",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/01.png",
+      "https://f-droid.org/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/02.png",
+      "https://f-droid.org/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/03.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
