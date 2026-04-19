@@ -17316,5 +17316,31 @@
       "https://raw.githubusercontent.com/AbdeTheDev/Pyro/refs/heads/main/VideoCapture_20260327-203109.jpg"
     ],
     "releaseKeyword": "exe"
+  },
+  {
+    "id": "voice",
+    "name": "Voice",
+    "description": "Voice is a minimalistic, user-focused audiobook player built for reliability and simplicity.",
+    "icon": "https://raw.githubusercontent.com/PaulWoitaschek/Voice/refs/heads/main/docs/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/PaulWoitaschek/Voice",
+    "githubRepo": "PaulWoitaschek/Voice",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.phb1.audiobook",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "PaulWoitaschek",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/de.ph1b.audiobook/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/de.ph1b.audiobook/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/de.ph1b.audiobook/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/de.ph1b.audiobook/en-US/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
