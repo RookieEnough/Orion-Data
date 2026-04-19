@@ -17289,5 +17289,32 @@
       "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fwelcome.png"
     ],
     "releaseKeyword": "app-release"
+  },
+  {
+    "id": "pyro-cli",
+    "name": "Pyro CLI",
+    "description": "Pyro is a blazing-fast 🔥 all-in-one Python developer toolkit that lives entirely in your terminal.\nManage packages, virtual environments, projects, databases, AI assistants, EXE builds, and more — from a single, beautiful arrow-key interface.\n\nOne EXE. One window. Turn your machine into a Python forge. ⚡",
+    "icon": "https://avatars.githubusercontent.com/u/236126230?v=4",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/AbdeTheDev/Pyro",
+    "repoUrl": "https://github.com/AbdeTheDev/Pyro",
+    "githubRepo": "AbdeTheDev/Pyro",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Development",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "ABDELHAFID MOUSSA",
+    "officialSite": "https://github.com/AbdeTheDev/Pyro",
+    "screenshots": [
+      "https://raw.githubusercontent.com/AbdeTheDev/Pyro/refs/heads/main/VideoCapture_20260418-214053.jpg",
+      "https://raw.githubusercontent.com/AbdeTheDev/Pyro/refs/heads/main/VideoCapture_20260418-214022.jpg",
+      "https://raw.githubusercontent.com/AbdeTheDev/Pyro/refs/heads/main/VideoCapture_20260418-214042.jpg",
+      "https://raw.githubusercontent.com/AbdeTheDev/Pyro/refs/heads/main/VideoCapture_20260418-214013.jpg",
+      "https://raw.githubusercontent.com/AbdeTheDev/Pyro/refs/heads/main/VideoCapture_20260327-203109.jpg"
+    ],
+    "releaseKeyword": "exe"
   }
 ]
