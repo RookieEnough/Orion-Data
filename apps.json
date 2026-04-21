@@ -17367,5 +17367,33 @@
       "https://f-droid.org/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/03.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "litetube",
+    "name": "LIteTube",
+    "description": "fork of newpipe with youtube wrapper, plays videos on newpipe for those who wants there youtube feed on newpipe \npotential bugs\nwhen restoring backup needs to do it 3-4 time to work ",
+    "icon": "https://raw.githubusercontent.com/diekaiju/LiteTube/refs/heads/dev/screenshots/Screenshot%202026-04-20%20123334.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/diekaiju/LiteTube",
+    "githubRepo": "diekaiju/LiteTube",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.schabi.newpipe",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "diekaiju",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/diekaiju/LiteTube/dev/screenshots/image%20(2).jpeg",
+      "https://raw.githubusercontent.com/diekaiju/LiteTube/refs/heads/dev/screenshots/image%20(5).jpeg",
+      "https://raw.githubusercontent.com/diekaiju/LiteTube/refs/heads/dev/screenshots/image%20(1).jpeg",
+      "https://raw.githubusercontent.com/diekaiju/LiteTube/refs/heads/dev/screenshots/image%20(6).jpeg",
+      "https://raw.githubusercontent.com/diekaiju/LiteTube/refs/heads/dev/screenshots/image%20(3).jpeg",
+      "https://raw.githubusercontent.com/diekaiju/LiteTube/refs/heads/dev/screenshots/image%20(4).jpeg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
