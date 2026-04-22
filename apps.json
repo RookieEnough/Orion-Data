@@ -17395,5 +17395,30 @@
       "https://raw.githubusercontent.com/diekaiju/LiteTube/refs/heads/dev/screenshots/image%20(4).jpeg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "dailytools",
+    "name": "DailyTools",
+    "description": "Daily Tools is a privacy-focused file converter app. All processing happens locally on your device. No files leave your phone. No servers involved. No data collection. Backend runs entirely on-device. Your files stay yours.",
+    "icon": "https://www.image2url.com/r2/default/files/1776858194851-8b934884-6c4e-4f5d-9535-17858fc2eefe.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/luxie47/DailyTools",
+    "githubRepo": "luxie47/DailyTools",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "co.median.android.odjqjox",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "luxie47",
+    "officialSite": "",
+    "screenshots": [
+      "https://www.image2url.com/r2/default/files/1776858645243-d3f98bec-d9c9-45c5-b15e-2375157b5689.png",
+      "https://www.image2url.com/r2/default/files/1776858919354-a3ecac32-71f1-42ea-80e8-5f628db6b138.png",
+      "https://www.image2url.com/r2/default/files/1776858986088-e2d78bad-f79b-404f-8c41-c4035fd5523c.png"
+    ],
+    "releaseKeyword": "DailyTools"
   }
 ]
