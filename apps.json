@@ -784,31 +784,6 @@
     ]
   },
   {
-    "id": "metrolist",
-    "name": "Metrolist",
-    "description": "Material 3 YouTube Music client for Android. Features: Play any song or video from YT Music; Background playback; Personalized quick picks and more, without any Ads.",
-    "icon": "https://github.com/mostafaalagamy/Metrolist/raw/main/fastlane/metadata/android/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/mostafaalagamy/Metrolist",
-    "githubRepo": "mostafaalagamy/Metrolist",
-    "releaseKeyword": "app",
-    "packageName": "com.metrolist.music",
-    "category": "utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "mostafaalagamy",
-    "screenshots": [
-      "https://github.com/mostafaalagamy/Metrolist/raw/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_1.png",
-      "https://github.com/mostafaalagamy/Metrolist/raw/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_2.png",
-      "https://github.com/mostafaalagamy/Metrolist/raw/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_3.png",
-      "https://github.com/mostafaalagamy/Metrolist/raw/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_4.png",
-      "https://github.com/mostafaalagamy/Metrolist/raw/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_5.png",
-      "https://github.com/mostafaalagamy/Metrolist/raw/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_6.png"
-    ]
-  },
-  {
     "id": "bilibili-revanced",
     "name": "Bilibili Revanced",
     "description": "Unlocked Bilibili client. Removes ads, unlocks region restrictions, and enables 4K playback.",
