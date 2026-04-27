@@ -17395,5 +17395,33 @@
       "https://www.image2url.com/r2/default/files/1776858986088-e2d78bad-f79b-404f-8c41-c4035fd5523c.png"
     ],
     "releaseKeyword": "DailyTools"
+  },
+  {
+    "id": "kai",
+    "name": "Kai",
+    "description": "A ChatGPT alternative that replies with interactive screens, not just chat bubbles. Bring your own API key for OpenAI, Gemini, or Anthropic, or run Gemma 4 fully on-device with no key and no data leaving your phone.",
+    "icon": "https://raw.githubusercontent.com/SimonSchubert/Kai/993d4fd41a5cf40eeac915785cb48d0936466287/site/img/icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/SimonSchubert/Kai",
+    "githubRepo": "SimonSchubert/Kai",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.inspiredandroid.kai",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "SimonSchubert",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/SimonSchubert/Kai/refs/heads/main/screenshots/interactive-survival.png",
+      "https://raw.githubusercontent.com/SimonSchubert/Kai/refs/heads/main/screenshots/interactive-recipe.png",
+      "https://raw.githubusercontent.com/SimonSchubert/Kai/refs/heads/main/screenshots/interactive-ecopulse.png",
+      "https://raw.githubusercontent.com/SimonSchubert/Kai/refs/heads/main/screenshots/interactive-memories.png",
+      "https://raw.githubusercontent.com/SimonSchubert/Kai/refs/heads/main/screenshots/mobile-1.png",
+      "https://raw.githubusercontent.com/SimonSchubert/Kai/refs/heads/main/screenshots/mobile-5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
