@@ -17476,5 +17476,33 @@
       "https://raw.githubusercontent.com/pass-with-high-score/universal-installer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pstube",
+    "name": "PsTube",
+    "description": "Ps Tube (formerly FluTube): A free and open-source YouTube client that lets you watch and download videos without ads, featuring a lightweight interface, playlist support, and no login requirement.",
+    "icon": "https://raw.githubusercontent.com/prateekmedia/pstube/main/assets/pstube.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/prateekmedia/pstube",
+    "githubRepo": "prateekmedia/pstube",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.prateekmedia.pstube",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "prateekmedia",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/prateekmedia/pstube/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/prateekmedia/pstube/refs/heads/main/assets/screenshots/home-desktop.jpg",
+      "https://raw.githubusercontent.com/prateekmedia/pstube/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/prateekmedia/pstube/refs/heads/main/assets/screenshots/video-desktop.jpg",
+      "https://raw.githubusercontent.com/prateekmedia/pstube/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/prateekmedia/pstube/refs/heads/main/assets/screenshots/search-desktop.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
