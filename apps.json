@@ -17588,5 +17588,34 @@
       "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/assets/screenshots/settings1.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "32steps",
+    "name": "32steps",
+    "description": "Override Android's default volume steps with custom step counts. Includes 6000+ headphone EQ profiles and graphic equalizer. Also support Android TV.",
+    "icon": "https://raw.githubusercontent.com/nulldio/32steps/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nulldio/32steps",
+    "githubRepo": "nulldio/32steps",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.thirtytwo.steps",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nulldio",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nulldio/32steps/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/nulldio/32steps/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/nulldio/32steps/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/nulldio/32steps/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/nulldio/32steps/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/nulldio/32steps/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/nulldio/32steps/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
