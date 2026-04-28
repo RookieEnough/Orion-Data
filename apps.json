@@ -17560,5 +17560,33 @@
       "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/screenshots/budgets.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "june",
+    "name": "June",
+    "description": "📖 An open-source multimedia journal for expressive, private journaling, with 100% data ownership. An open-source alternative to Pixel Journal , Built with Jetpack Compose and Material Design 3",
+    "icon": "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/DenserMeerkat/June",
+    "githubRepo": "DenserMeerkat/June",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.denser.june",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "DenserMeerkat",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/assets/screenshots/home1.png",
+      "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/assets/screenshots/editor1.png",
+      "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/assets/screenshots/editor3.png",
+      "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/assets/screenshots/editor4.png",
+      "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/assets/screenshots/timeline4.png",
+      "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/assets/screenshots/settings1.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
