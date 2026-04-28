@@ -17449,5 +17449,32 @@
       "https://f-droid.org/repo/net.timelegend.chaka.viewer.app/en-US/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "universal-installer",
+    "name": "Universal Installer",
+    "description": "Universal Installer is a modern Android package manager that handles what the default installer can't. Install APK, APKS, XAPK, APKM (with split APKs and OBB files), download packages from URLs, manage installed apps, and silent-install via Shizuku and VirusTotal malware scanning all in one Material 3 app.",
+    "icon": "https://raw.githubusercontent.com/pass-with-high-score/universal-installer/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/pass-with-high-score/universal-installer",
+    "githubRepo": "pass-with-high-score/universal-installer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.pwhs.universalinstaller",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "pass-with-high-score",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/pass-with-high-score/universal-installer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/pass-with-high-score/universal-installer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/pass-with-high-score/universal-installer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/pass-with-high-score/universal-installer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/pass-with-high-score/universal-installer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
