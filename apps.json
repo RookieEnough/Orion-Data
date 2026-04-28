@@ -17504,5 +17504,31 @@
       "https://raw.githubusercontent.com/prateekmedia/pstube/refs/heads/main/assets/screenshots/search-desktop.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "smart-edge",
+    "name": "Smart Edge",
+    "description": "Smart Edge is an open-source Android control center with a smooth, customizable UI.\nIt provides tools like system info overlays, sidebars, and gesture controls.\n",
+    "icon": "https://raw.githubusercontent.com/Imtiaz-Official/Smart-Edge/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_web.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Imtiaz-Official/Smart-Edge",
+    "githubRepo": "Imtiaz-Official/Smart-Edge",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.imi.smartedge.sidebar.panel",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Imtiaz-Official",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Imtiaz-Official/Smart-Edge/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Imtiaz-Official/Smart-Edge/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Imtiaz-Official/Smart-Edge/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/Imtiaz-Official/Smart-Edge/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
