@@ -17617,5 +17617,30 @@
       "https://raw.githubusercontent.com/nulldio/32steps/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "m3-play",
+    "name": "M3 Play",
+    "description": "M3 Play is a feature-packed Android music player built for speed, customization, and a visually immersive experience.",
+    "icon": "https://raw.githubusercontent.com/JAY01-CYBER/M3-Play/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/JAY01-CYBER/M3-Play",
+    "githubRepo": "JAY01-CYBER/M3-Play",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.j.m3play",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "JAY01-CYBER",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/JAY01-CYBER/M3-Play/main/assets/ss1.jpg",
+      "https://raw.githubusercontent.com/JAY01-CYBER/M3-Play/main/assets/ss2.jpg",
+      "https://raw.githubusercontent.com/JAY01-CYBER/M3-Play/main/assets/ss3.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
