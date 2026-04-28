@@ -17530,5 +17530,35 @@
       "https://raw.githubusercontent.com/Imtiaz-Official/Smart-Edge/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "cashiro",
+    "name": "Cashiro",
+    "description": "Cashiro is a comprehensive financial tracking manager that Turn bank SMS and PDF Statements into a clean, searchable money timeline with on-device AI assistance. 100% private, no cloud processing.\nCheck its repo for supported banks and countries.",
+    "icon": "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ritesh-kanwar/Cashiro",
+    "githubRepo": "ritesh-kanwar/Cashiro",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ritesh.cashiro",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ritesh-kanwar",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/screenshots/home.png",
+      "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/screenshots/analytics.png",
+      "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/screenshots/settings.png",
+      "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/screenshots/subscriptions.png",
+      "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/screenshots/transactions.png",
+      "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/screenshots/account_detail.png",
+      "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/screenshots/budget_history.png",
+      "https://raw.githubusercontent.com/ritesh-kanwar/Cashiro/refs/heads/main/screenshots/budgets.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
