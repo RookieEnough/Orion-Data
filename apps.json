@@ -17642,5 +17642,30 @@
       "https://raw.githubusercontent.com/JAY01-CYBER/M3-Play/main/assets/ss3.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ventoid",
+    "name": "Ventoid",
+    "description": "Creates a Ventoy-compatible bootable USB directly from an Android phone over OTG, no laptop in the middle. Plug in a drive, pick your target, and it handles the full disk layout: MBR, EFI partitions, core.img, and exFAT formatting. ",
+    "icon": "https://raw.githubusercontent.com/GPLaider/Ventoid/refs/heads/master/docs/assets/ventoid-logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/GPLaider/Ventoid",
+    "githubRepo": "GPLaider/Ventoid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ventoid.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "GPLaider",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/GPLaider/Ventoid/refs/heads/master/docs/assets/ventoid-screenshot.jpg",
+      "https://raw.githubusercontent.com/GPLaider/Ventoid/refs/heads/master/docs/assets/ventoid-screenshot.jpg",
+      "https://raw.githubusercontent.com/GPLaider/Ventoid/refs/heads/master/docs/assets/ventoid-screenshot.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
