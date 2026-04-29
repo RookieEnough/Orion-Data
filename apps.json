@@ -17667,5 +17667,34 @@
       "https://raw.githubusercontent.com/GPLaider/Ventoid/refs/heads/master/docs/assets/ventoid-screenshot.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "mind-mint",
+    "name": "Mind Mint",
+    "description": "Focus timer that turns your sessions into a visual reward loop, a \"Focus Crystal\" grows and evolves the longer you stay on task, while an app blocker cuts off Instagram, YouTube Shorts, and TikTok during focus hours. GitHub-style heatmaps and weekly reports show where your time actually goes.",
+    "icon": "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/gtxPrime/Mind-Mint",
+    "githubRepo": "gtxPrime/Mind-Mint",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.gxdevs.mindmint",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "gtxPrime",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/refs/heads/main/screenshots/1.png",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/refs/heads/main/screenshots/2.png",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/refs/heads/main/screenshots/4.png",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/refs/heads/main/screenshots/5.png",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/refs/heads/main/screenshots/6.png",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/refs/heads/main/screenshots/8.png",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/refs/heads/main/screenshots/10.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
