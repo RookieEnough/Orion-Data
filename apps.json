@@ -17696,5 +17696,30 @@
       "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/refs/heads/main/screenshots/10.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "materialbook",
+    "name": "Materialbook",
+    "description": "Facebook without the sponsored ads, Reels, Stories, or suggested posts, rebuilt as a clean Material You client. The official app's feed bloat is stripped out by default, and your wallpaper's colors replace Facebook's signature blue throughout.",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/mterial-1.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/eepiemi/Materialbook",
+    "githubRepo": "eepiemi/Materialbook",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.eepiemi.materialbook",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "eepiemi",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/eepiemi/Materialbook/refs/heads/main/assets/banner.png",
+      "https://raw.githubusercontent.com/eepiemi/Materialbook/refs/heads/main/assets/banner.png",
+      "https://raw.githubusercontent.com/eepiemi/Materialbook/refs/heads/main/assets/banner.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
