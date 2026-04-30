@@ -6,9 +6,9 @@
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
   "notice": {
-    "id": "google wtf",
-    "title": "Sideloading Dead?",
-    "message": "Starting September 2026, Google will implement a new policy requiring all Android developers, including those outside the Play Store to register with government ID and pay a fee to keep their apps installable. Without this verification, apps may be restricted by a new mandatory 'high-friction' sideloading process or blocked entirely.\n\nkeepandroidopen.org \n\nGo to the Dev tab and click “Buy Me a Coffee” to show your support.",
+    "id": "notice231",
+    "title": "We Need Support",
+    "message": " To keep Orion and Morphe Patches evolving, I need to upgrade my dev rig. Your donations go directly toward a smoother coding environment, allowing me to focus on new features and better performance. So please Support the project today if my projects made your life a little easier and let’s take Orion to the next level together! \n\nGo to the Dev tab and click “Buy Me a Coffee” to be the part of this journey.",
     "show": true
   },
 
