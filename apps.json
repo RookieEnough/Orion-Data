@@ -17721,5 +17721,33 @@
       "https://raw.githubusercontent.com/eepiemi/Materialbook/refs/heads/main/assets/banner.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "genjutsu",
+    "name": "genjutsu",
+    "description": "an open source social network for developers where everything disappears after 24 hours.",
+    "icon": "https://genjutsu-social.vercel.app/icon-512x512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/iamovi/genjutsu",
+    "githubRepo": "iamovi/genjutsu",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.iamovi.genjutsu",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "iamovi",
+    "officialSite": "",
+    "screenshots": [
+      "https://ik.imagekit.io/iamovi/genjutsu/screenshots/1.png",
+      "https://ik.imagekit.io/iamovi/genjutsu/screenshots/3.png",
+      "https://ik.imagekit.io/iamovi/genjutsu/screenshots/4.png",
+      "https://ik.imagekit.io/iamovi/genjutsu/screenshots/6.png",
+      "https://ik.imagekit.io/iamovi/genjutsu/screenshots/7.png",
+      "https://ik.imagekit.io/iamovi/genjutsu/screenshots/8.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
