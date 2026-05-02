@@ -17852,5 +17852,32 @@
       "https://raw.githubusercontent.com/Akylas/alpimaps/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "oss-weather",
+    "name": "OSS Weather",
+    "description": "Weather app that lets you pick between OpenWeather, Open-Meteo, and Météo France as your data source instead of being locked to one provider. Adds a live precipitation radar overlay via RainViewer on top of whichever source you choose.",
+    "icon": "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Akylas/oss-weather",
+    "githubRepo": "Akylas/oss-weather",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.akylas.weather",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Akylas",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+      "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png",
+      "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
