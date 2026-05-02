@@ -17879,5 +17879,31 @@
       "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "amethyst",
+    "name": "Amethyst",
+    "description": "Nostr client for Android that puts your private key in the Android KeyStore and your social graph on a relay network you choose. Feeds, encrypted direct messages, zaps, live streams, long-form posts, and group chats all live in one app with no central server controlling any of it.",
+    "icon": "https://raw.githubusercontent.com/vitorpamplona/amethyst/refs/heads/main/desktopApp/src/jvmMain/resources/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/vitorpamplona/amethyst",
+    "githubRepo": "vitorpamplona/amethyst",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.vitorpamplona.amethyst",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "vitorpamplona",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/vitorpamplona/amethyst/refs/heads/main/docs/screenshots/home.png",
+      "https://raw.githubusercontent.com/vitorpamplona/amethyst/refs/heads/main/docs/screenshots/messages.png",
+      "https://raw.githubusercontent.com/vitorpamplona/amethyst/refs/heads/main/docs/screenshots/notifications.png",
+      "https://raw.githubusercontent.com/vitorpamplona/amethyst/refs/heads/main/docs/screenshots/replies.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
