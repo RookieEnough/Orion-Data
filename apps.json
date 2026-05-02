@@ -17931,5 +17931,32 @@
       "https://play-lh.googleusercontent.com/nBgTNRsWQRSfYTChB_bM4PYuZBQwQUr16oiu-DdPdD2SqxXY2ZERmFWYoveROE6UHVU"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "booming-music",
+    "name": "Booming Music",
+    "description": "Made for local music libraries that need more than basic playback controls. Word-by-word lyrics, ReplayGain, folder browsing, and a configurable equalizer make offline listening easier to follow, organize, and tune without bouncing between multiple apps.",
+    "icon": "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mardous/BoomingMusic",
+    "githubRepo": "mardous/BoomingMusic",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.mardous.booming",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mardous",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/phoneScreenshots/8.jpg",
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/phoneScreenshots/10.jpg",
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/phoneScreenshots/12.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
