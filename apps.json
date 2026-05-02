@@ -17905,5 +17905,31 @@
       "https://raw.githubusercontent.com/vitorpamplona/amethyst/refs/heads/main/docs/screenshots/replies.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "octi",
+    "name": "Octi",
+    "description": "Monitors and syncs information across your Android devices, covering battery levels, clipboard, Wi-Fi details, and installed apps in one dashboard. Sync happens through either Google Drive or a self-hosted Octi Server with end-to-end encryption, so you can skip Google entirely.",
+    "icon": "https://raw.githubusercontent.com/d4rken-org/octi/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/d4rken-org/octi",
+    "githubRepo": "d4rken-org/octi",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "eu.darken.octi",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "d4rken-org",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/m2G9aF220I2hwVIBfDksR7rzXv2_ey3R7cMnzlUYKcgrWSDJ68sGdhaoPu5b8ypfwlA",
+      "https://play-lh.googleusercontent.com/UDNOE5wXPpxqX6GxCZeo8TA1kXbGAgPpcaEym2vNQJHX90lfbwZauLtZ3Q6S29cmnL12",
+      "https://play-lh.googleusercontent.com/1gCu-RQKMZ0lilUXpmuZr3tcmZ9hQb4xvXPnhifzR6Yv71ItT7nli6hgo-3T-hqzzlA",
+      "https://play-lh.googleusercontent.com/nBgTNRsWQRSfYTChB_bM4PYuZBQwQUr16oiu-DdPdD2SqxXY2ZERmFWYoveROE6UHVU"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
