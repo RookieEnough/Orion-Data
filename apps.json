@@ -17749,5 +17749,30 @@
       "https://ik.imagekit.io/iamovi/genjutsu/screenshots/8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "tiktok-streak-saver",
+    "name": "TikTok Streak Saver ",
+    "description": "Streak Saver is an open-source Android app that runs in the background and automatically sends messages to your TikTok friends every 23 hours, ensuring you never lose your streaks.",
+    "icon": "https://raw.githubusercontent.com/Jon2G/TiktokStreakSaver/main/src%2FTiktokStreakSaver%2FResources%2FAppIcon%2Fappicon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Jon2G/TiktokStreakSaver",
+    "githubRepo": "Jon2G/TiktokStreakSaver",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.jon2g.tiktokstreaksaver",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Jon2G",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Jon2G/TiktokStreakSaver/main/docs%2Fimgs%2Fmain_screen.png",
+      "https://raw.githubusercontent.com/Jon2G/TiktokStreakSaver/main/docs%2Fimgs%2FWelcome.jpeg",
+      "https://raw.githubusercontent.com/Jon2G/TiktokStreakSaver/main/docs%2Fimgs%2FMain_Secondary.jpeg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
