@@ -17799,5 +17799,31 @@
       "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028365384/UvJUQqpVcmEFofxv.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "sukko",
+    "name": "Sukko",
+    "description": "KWGT alternative to create custom widgets without the purple monopoly. Responsive design means widgets auto-scale across screen sizes, and scripting gives you logic without Kustom's formula syntax.",
+    "icon": "https://raw.githubusercontent.com/sadellie/sukko/refs/heads/master/androidApp/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sadellie/sukko",
+    "githubRepo": "sadellie/sukko",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.sadellie.sukko",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sadellie",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/sadellie/sukko/refs/heads/master/docs/phone1.png",
+      "https://raw.githubusercontent.com/sadellie/sukko/refs/heads/master/docs/phone2.png",
+      "https://raw.githubusercontent.com/sadellie/sukko/refs/heads/master/docs/phone3.png",
+      "https://raw.githubusercontent.com/sadellie/sukko/refs/heads/master/docs/phone4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
