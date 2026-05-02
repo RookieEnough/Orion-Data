@@ -17774,5 +17774,30 @@
       "https://raw.githubusercontent.com/Jon2G/TiktokStreakSaver/main/docs%2Fimgs%2FMain_Secondary.jpeg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "kurl-personal-fitness-tracker",
+    "name": "Kurl - Personal Fitness Tracker",
+    "description": "Kurl is an elegant, personal fitness tracking application designed for comprehensive workout management and progress monitoring. \n\nTrack your workouts in real-time, monitor strength gains and volume trends, set and achieve fitness goals, and maintain wellness metrics all in one beautiful dashboard.\n\nFeatures:\n- Workout planning with 200+ exercises\n- Real-time session logging with sets, reps, and weight tracking\n- Progress analytics with interactive charts\n- Goal management with visual progress indicators\n- Wellness tracking (sleep, water, mood, energy)\n- Achievement badges and streak tracking\n- Responsive dashboard with dark/light theme support\n\nPerfect for personal fitness tracking and workout planning.\n",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3050/3050159.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sat-yam09/Kurl",
+    "githubRepo": "sat-yam09/Kurl",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.kurl.fitness",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sat-yam09",
+    "officialSite": "",
+    "screenshots": [
+      "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028365384/LWjwPCAbdUyRoBJR.png",
+      "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028365384/MZUxPaizQrhOkamZ.webp",
+      "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028365384/UvJUQqpVcmEFofxv.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
