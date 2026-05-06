@@ -17985,5 +17985,33 @@
       "https://raw.githubusercontent.com/Rve27/RvSystem-Monitor/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fauxx",
+    "name": "Fauxx",
+    "description": "Fauxx is an open-source Android privacy tool that poisons data broker and ad-tech profiles by generating continuous, plausible, off-demographic synthetic activity from your device. The goal is simple: make your real behavioral signal statistically indistinguishable from noise.",
+    "icon": "https://raw.githubusercontent.com/digital-grease/fauxx/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/digital-grease/fauxx",
+    "githubRepo": "digital-grease/fauxx",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.fauxx.full",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "digital-grease",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fauxx (3)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fauxx (2)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fauxx (1)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fauxx (6)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fauxx (4)-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fauxx (5)-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
