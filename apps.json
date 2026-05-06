@@ -17958,5 +17958,32 @@
       "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/phoneScreenshots/12.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "rvsystem-monitor",
+    "name": "RvSystem Monitor",
+    "description": "RvSystem Monitor is a high-performance system monitoring solution for Android, merging the expressive power of Jetpack Compose with the raw efficiency of Rust. It provides low-level hardware insights while maintaining a modern, buttery-smooth user experience.",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/109242186-1.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Rve27/RvSystem-Monitor",
+    "githubRepo": "Rve27/RvSystem-Monitor",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.rve.systemmonitor",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Rve27",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Rve27/RvSystem-Monitor/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.jpg",
+      "https://raw.githubusercontent.com/Rve27/RvSystem-Monitor/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_2.jpg",
+      "https://raw.githubusercontent.com/Rve27/RvSystem-Monitor/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.jpg",
+      "https://raw.githubusercontent.com/Rve27/RvSystem-Monitor/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.jpg",
+      "https://raw.githubusercontent.com/Rve27/RvSystem-Monitor/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
