@@ -18013,5 +18013,32 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/fauxx (5)-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "zenith",
+    "name": "Zenith",
+    "description": "A clean and modern digital wellbeing application built with Material Design 3 Expressive and Jetpack Compose. Zenith focuses on helping users monitor and improve their screen habits with a smooth, privacy-friendly Android experience inspired by modern Material You aesthetics.",
+    "icon": "https://raw.githubusercontent.com/1372Slash/Zenith/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/1372Slash/Zenith",
+    "githubRepo": "1372Slash/Zenith",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.etrisad.zenith",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "1372Slash",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/1372Slash/Zenith/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/1372Slash/Zenith/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/1372Slash/Zenith/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/1372Slash/Zenith/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/1372Slash/Zenith/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
