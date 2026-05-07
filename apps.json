@@ -18143,5 +18143,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/583849721-87745be3-abf8-46c0-b351-2cd0c4e604bf-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "stash",
+    "name": "Stash",
+    "description": "Downloads your full Spotify and YouTube Music library to your device using yt-dlp, then plays them back directly. No servers exist on their end, credentials are encrypted on-device with AES-256-GCM so nothing touches their infrastructure.",
+    "icon": "https://raw.githubusercontent.com/rawnaldclark/Stash/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/rawnaldclark/Stash",
+    "githubRepo": "rawnaldclark/Stash",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.stash.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rawnaldclark",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/rawnaldclark/Stash/refs/heads/master/docs/screenshots/home-dark.png",
+      "https://raw.githubusercontent.com/rawnaldclark/Stash/refs/heads/master/docs/screenshots/home-light.png",
+      "https://raw.githubusercontent.com/rawnaldclark/Stash/refs/heads/master/docs/screenshots/liked-songs-light.png",
+      "https://raw.githubusercontent.com/rawnaldclark/Stash/refs/heads/master/docs/screenshots/now-playing.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
