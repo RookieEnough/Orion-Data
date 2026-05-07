@@ -18090,5 +18090,33 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-05-06_17-53-26-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "subsink",
+    "name": "SubSink",
+    "description": "Una app la cual te deja ver de forma visual todo lo que gastas en suscripciones al mes y al año. Puedes añadir un presupuesto y ver cuanto gastas cada mes o si tienes que renovar alguna suscripción ",
+    "icon": "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/main/src/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/darknessgithb-pixel/SubSink/tree/android",
+    "githubRepo": "darknessgithb-pixel/SubSink",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.darknessgithb.subsink",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Next Horizon Apps ",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto1.png",
+      "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto2.png",
+      "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto3.png",
+      "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto4.png",
+      "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto5.png",
+      "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto6.png"
+    ],
+    "releaseKeyword": "release"
   }
 ]
