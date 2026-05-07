@@ -18118,5 +18118,30 @@
       "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto6.png"
     ],
     "releaseKeyword": "release"
+  },
+  {
+    "id": "skreenup",
+    "name": "Skreenup",
+    "description": "Skreenup is a minimal app that wraps your screenshots in beautiful device frames for Play Store listings, portfolios, and social sharing. Drop a screenshot in, pick a device shell, customize the background, and export a clean mockup in seconds. No Figma, no web tools, no account needed. Built with Jetpack Compose and Material You.",
+    "icon": "https://raw.githubusercontent.com/Pankaj-Meharchandani/Skreenup/refs/heads/master/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Pankaj-Meharchandani/Skreenup",
+    "githubRepo": "Pankaj-Meharchandani/Skreenup",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.skreenup",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Pankaj-Meharchandani",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/583849706-93a75138-fe93-443f-98fa-ba49022eed06-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/583849724-25285631-dc95-42ee-998b-fa7980d874ce-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/583849721-87745be3-abf8-46c0-b351-2cd0c4e604bf-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
