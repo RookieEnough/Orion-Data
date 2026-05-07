@@ -18065,5 +18065,30 @@
       "https://raw.githubusercontent.com/blocoio/snowflake/refs/heads/main/assets/screenshot_settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "lcld",
+    "name": "LCLD",
+    "description": "LCLD is a lightweight, open-source Android utility designed for remote device management and synchronization. It provides a secure bridge to monitor and interact with your device through a centralized interface.\n",
+    "icon": "https://raw.githubusercontent.com/pawanwashudev-official/LCLD/refs/heads/master/metadata/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/pawanwashudev-official/LCLD",
+    "githubRepo": "pawanwashudev-official/LCLD",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.neubofy.lcld",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "pawanwashudev-official",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-05-06_17-53-26-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-05-06_17-53-26-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-05-06_17-53-26-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
