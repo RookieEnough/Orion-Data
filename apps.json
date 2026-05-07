@@ -18040,5 +18040,30 @@
       "https://raw.githubusercontent.com/1372Slash/Zenith/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "description": "Snowflake allows people to connect to the Tor network in places where Tor is blocked by routing your connection through volunteer proxies located in uncensored countries.\n\nSimilar to VPNs, which help users bypass Internet censorship, Snowflake disguises your Internet activity as though you’re making a video or voice call, making you less detectable to Internet censors.",
+    "icon": "https://raw.githubusercontent.com/blocoio/snowflake/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/blocoio/snowflake",
+    "githubRepo": "blocoio/snowflake",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.bloco.snowflake",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "blocoio",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/blocoio/snowflake/refs/heads/main/assets/screenshot_home.png",
+      "https://raw.githubusercontent.com/blocoio/snowflake/refs/heads/main/assets/screenshot_about.png",
+      "https://raw.githubusercontent.com/blocoio/snowflake/refs/heads/main/assets/screenshot_settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
