@@ -18219,5 +18219,30 @@
       "https://kommodo.ai/i/NXG7aWeiXRG4hvsHPwA7"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "keysandfingers",
+    "name": "KeysAndFingers",
+    "description": "an advanced, customizable, open source, free typing trainer with multiplayer battle mode.",
+    "icon": "https://raw.githubusercontent.com/iamovi/KeysAndFingers/refs/heads/main/.github/alien.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/iamovi/KeysAndFingers",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "iamovi",
+    "officialSite": "https://github.com/iamovi/KeysAndFingers",
+    "screenshots": [
+      "https://ik.imagekit.io/iamovi/New%20Folder/IMG_20260501_201622.png",
+      "https://ik.imagekit.io/iamovi/New%20Folder/IMG_20260501_201702.png",
+      "https://raw.githubusercontent.com/iamovi/KeysAndFingers/main/.github/preview.gif"
+    ],
+    "releaseKeyword": "exe"
   }
 ]
