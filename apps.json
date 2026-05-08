@@ -18169,5 +18169,30 @@
       "https://raw.githubusercontent.com/rawnaldclark/Stash/refs/heads/master/docs/screenshots/now-playing.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "vetro",
+    "name": "Vetro",
+    "description": "A simple project for local storage of your watchlist: movies, TV shows, anime, and anything else you want",
+    "icon": "https://raw.githubusercontent.com/Phnem/Vetro/9410145388e2952f370ecd4ccc8413352605a915/app/src/main/res/drawable/ico.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Phnem/Vetro",
+    "githubRepo": "Phnem/Vetro",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app-release.apk",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Phnem",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Phnem/Vetro/9410145388e2952f370ecd4ccc8413352605a915/images/multiBG.png",
+      "https://raw.githubusercontent.com/Phnem/Vetro/9410145388e2952f370ecd4ccc8413352605a915/images/ltBG.png",
+      "https://raw.githubusercontent.com/Phnem/Vetro/9410145388e2952f370ecd4ccc8413352605a915/images/dkBG.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
