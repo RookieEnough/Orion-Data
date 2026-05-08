@@ -18194,5 +18194,30 @@
       "https://raw.githubusercontent.com/Phnem/Vetro/9410145388e2952f370ecd4ccc8413352605a915/images/dkBG.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "memeboard",
+    "name": "MemeBoard",
+    "description": "Soundpad for memes. ",
+    "icon": "https://f-droid.org/repo/com.bluefirestudios.memeboard/en-US/icon_k9hJIad61BcaYicWfNFnEV9cTNNh9lbRsq_jBtjNKTI=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/THEbluefirestudios/memeboard-fdroid",
+    "githubRepo": "THEbluefirestudios/memeboard-fdroid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.bluefirestudios.memeboard",
+    "category": "Entertainment",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "THEbluefirestudios",
+    "officialSite": "",
+    "screenshots": [
+      "https://kommodo.ai/i/Od3KckJgWcKpq4P01roM",
+      "https://kommodo.ai/i/2t8ci4PDa8FGdczZLqyw",
+      "https://kommodo.ai/i/NXG7aWeiXRG4hvsHPwA7"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
