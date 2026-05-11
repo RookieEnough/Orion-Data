@@ -18244,5 +18244,30 @@
       "https://raw.githubusercontent.com/iamovi/KeysAndFingers/main/.github/preview.gif"
     ],
     "releaseKeyword": "exe"
+  },
+  {
+    "id": "snaptile",
+    "name": "SnapTile",
+    "description": "Lightweight and fast at less than  130 KB. Capture full screen shots, snip regions like the Windows Snipping Tool, or annotate instantly with built in scribble tools. Saves lossless PNGs directly to your gallery. No accounts, no cloud, no nonsense.",
+    "icon": "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/PNG/icon_snaptile.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/hashierholmes/SnapTile",
+    "githubRepo": "hashierholmes/SnapTile",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.snaptile.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hashierholmes",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/PNG/Screenshot-1.png",
+      "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/PNG/Screenshot-2.png",
+      "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/PNG/Screenshot-3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
