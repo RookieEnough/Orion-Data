@@ -18587,5 +18587,30 @@
       "https://raw.githubusercontent.com/one-dhiraj/onesync/refs/heads/main/assets/screenshots/ss_3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "metadator",
+    "name": "Metadator",
+    "description": "A simple yet complete metadata editor for your songs powered by TagLib and made with Material You and Jetpack Compose.",
+    "icon": "https://raw.githubusercontent.com/BobbyESP/Metadator/master/assets/app_logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/BobbyESP/Metadator",
+    "githubRepo": "BobbyESP/Metadator",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.bobbyesp.metadator",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "BobbyESP",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/BobbyESP/Metadator/fd6371078143eff9d4c73ccd1f9085d4a0cf0511/assets/mockups/Mockup1_FINAL.png",
+      "https://raw.githubusercontent.com/BobbyESP/Metadator/fd6371078143eff9d4c73ccd1f9085d4a0cf0511/assets/mockups/Mockup3_FINAL.png",
+      "https://raw.githubusercontent.com/BobbyESP/Metadator/fd6371078143eff9d4c73ccd1f9085d4a0cf0511/assets/mockups/Mockup2_FINAL.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
