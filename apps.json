@@ -18612,5 +18612,30 @@
       "https://raw.githubusercontent.com/BobbyESP/Metadator/fd6371078143eff9d4c73ccd1f9085d4a0cf0511/assets/mockups/Mockup2_FINAL.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "binaryeye",
+    "name": "BinaryEye",
+    "description": "A qr-code and barcode scanner with no ads. ",
+    "icon": "https://f-droid.org/repo/de.markusfisch.android.binaryeye/en-US/icon_JCQAH6daJAEg6038ZyKnweYEAYfbht0wrM_VejEpLxg=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/markusfisch/BinaryEye",
+    "githubRepo": "markusfisch/BinaryEye",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.markusfisch.android.binaryeye",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "markusfisch",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/markusfisch/BinaryEye/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screencap-scanning-cropped.png",
+      "https://github.com/markusfisch/BinaryEye/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screencap-decoded.png",
+      "https://github.com/markusfisch/BinaryEye/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screencap-compose-barcode.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
