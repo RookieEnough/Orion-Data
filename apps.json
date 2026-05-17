@@ -18662,5 +18662,30 @@
       "https://raw.githubusercontent.com/Ateeq046/You-Tub/main/Screenshot_20260516_205111.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "xtrspc",
+    "name": "xtrspc",
+    "description": "Android APK Comparison Tool",
+    "icon": "https://raw.githubusercontent.com/Gameye98/xtrspc/master/app/src/main/res/drawable/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Gameye98/xtrspc",
+    "githubRepo": "Gameye98/xtrspc",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.gameye98.xtrspc",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Gameye98",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Gameye98/xtrspc/master/Screenshot_2026-05-14-07-39-09-962_sec.blackhole.xtrspc.jpg",
+      "https://raw.githubusercontent.com/Gameye98/xtrspc/master/Screenshot_2026-05-14-07-40-43-026_sec.blackhole.xtrspc.jpg",
+      "https://raw.githubusercontent.com/Gameye98/xtrspc/master/Screenshot_2026-05-14-07-45-57-117_sec.blackhole.xtrspc.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
