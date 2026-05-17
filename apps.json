@@ -1327,7 +1327,7 @@
     "latestVersion": "Latest",
     "downloadUrl": "#",
     "repoUrl": "https://github.com/parallelcc/MiCTS",
-    "githubRepo": "https://github.com/parallelcc/MiCTS",
+    "githubRepo": "parallelcc/MiCTS",
     "releaseKeyword": "MiCTS",
     "packageName": "com.parallelc.micts",
     "category": "Utility",
