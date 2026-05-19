@@ -6,9 +6,9 @@
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
   "notice": {
-    "id": "notice231",
-    "title": "We Need Support",
-    "message": " To keep Orion and Morphe Patches evolving, I need to upgrade my dev rig. Your donations go directly toward a smoother coding environment, allowing me to focus on new features and better performance. So please Support the project today if my projects made your life a little easier and let’s take Orion to the next level together! \n\nGo to the Dev tab and click “Buy Me a Coffee” to be the part of this journey.",
+    "id": "notice251",
+    "title": "Important Notice",
+    "message":"V1.3.0 is now available for download. Users will need to uninstall the older version because V1.3.0 uses a new keystore. This is a one-time requirement; you won't need to do it again for future updates.\nAlso 1.3 brings completely new UI which you can enable by going in Settings → Interface → Enable Morden UI\n\nGo to the Dev tab and click “Buy Me a Coffee” and show your support, I really need it.",
     "show": true
   },
 
