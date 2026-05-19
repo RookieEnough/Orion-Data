@@ -68,5 +68,79 @@
       "answer": "Where the Architect stares, the secret sleeps.\n\nCount the legs of a spider. Count the vertices of a cube.\n\nStrike the Visage that many times.\n\nThe Golden Truth awaits those who know the rules... and so do I.",
       "icon": "fa-user-secret"
     }
+  ],
+  "storefrontModules": [
+    {
+      "id": "curated-row",
+      "type": "curved_apps",
+      "title": "Curated Spotlight",
+      "appIds": [
+        "youtube-revanced",
+        "micts",
+        "meld",
+        "next-player",
+        "weather-master",
+        "rivophoneapp",
+        "adaway",
+        "gallery",
+        "telephoto",
+        "messages",
+        "applock",
+        "librepods",
+        "sd-maid"
+      ]
+    },
+    {
+      "id": "bundle-morphe-essentials",
+      "type": "recommendation_bundles",
+      "title": "Morphe Essentials",
+      "description": "Essential media and social apps, morphed for power.",
+      "appIds": [
+        "youtube-revanced",
+        "yt-music-revanced",
+        "google-photos-revanced",
+        "reddit-revanced",
+        "tiktok-revanced",
+        "instagram-piko",
+        "twitter-revanced"
+      ]
+    },
+    {
+      "id": "bundle-de-google",
+      "type": "recommendation_bundles",
+      "title": "De-Google",
+      "description": "Privacy-focused alternatives to stay independent.",
+      "appIds": [
+        "rivophoneapp",
+        "gallery",
+        "messages",
+        "fossify-camera",
+        "brave-browser",
+        "material-files",
+        "pixelplay",
+        "next-player",
+        "organic-maps"
+      ]
+    },
+    {
+      "id": "bundle-power-users",
+      "type": "recommendation_bundles",
+      "title": "Power Users",
+      "description": "Advanced tools for those who want total control.",
+      "appIds": [
+        "shizuku",
+        "ventoid",
+        "universal-installer",
+        "pocketpal",
+        "ashell-you",
+        "athena",
+        "disky",
+        "npatch",
+        "termux",
+        "dnsnet",
+        "sdk-monitor",
+        "antisplit-m"
+      ]
+    }
   ]
 }
