@@ -78,7 +78,7 @@
   {
     "id": "netflix-mod",
     "name": "Netflix Mod",
-    "description": "NetMirror \u2013 It is a clone version of Netflix that offers access to premium and exclusive content without ads. It is compatible with phone, TV and PC devices featuring Netflix like interface and all its advanced features, so instead of buying subscription plan, it is time to switch to Net Mirror App to watch Netflix original content library\u2014now for free!",
+    "description": "NetMirror – It is a clone version of Netflix that offers access to premium and exclusive content without ads. It is compatible with phone, TV and PC devices featuring Netflix like interface and all its advanced features, so instead of buying subscription plan, it is time to switch to Net Mirror App to watch Netflix original content library—now for free!",
     "icon": "https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI=w100-h100-rw",
     "version": "3.0",
     "latestVersion": "3.0",
@@ -130,7 +130,7 @@
   {
     "id": "anilab-mod",
     "name": "Anilab Mod",
-    "description": "Anilab Mod is a powerful AD FREE anime streaming app offering free access to thousands of subbed and dubbed titles in HD. With a user-friendly interface, daily updates, and offline viewing, it\u2019s every anime lover\u2019s go-to entertainment hub.",
+    "description": "Anilab Mod is a powerful AD FREE anime streaming app offering free access to thousands of subbed and dubbed titles in HD. With a user-friendly interface, daily updates, and offline viewing, it’s every anime lover’s go-to entertainment hub.",
     "icon": "https://anilabanime.com/wp-content/uploads/2025/05/Anilab-Anime-Streaming-App.webp",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -254,7 +254,7 @@
   {
     "id": "hail",
     "name": "Hail",
-    "description": "An open-source app to disable / hide / suspend / uninstall Android apps (freeze apps) without root \u2014 works with Device Owner, Shizuku, Dhizuku, or Root. Developed by Aistra.",
+    "description": "An open-source app to disable / hide / suspend / uninstall Android apps (freeze apps) without root — works with Device Owner, Shizuku, Dhizuku, or Root. Developed by Aistra.",
     "icon": "https://f-droid.org/repo/com.aistra.hail/en-US/icon_u7CvMjol4AxutWwPnkgLTgF6bDaYPwlp576Xa283b0M=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -454,7 +454,7 @@
   {
     "id": "lingodeer",
     "name": "Lingodeer Pro",
-    "description": "Lingodeer Mod unlocks lifetime Plus membership for free, giving you unlimited hearts and lives, full offline access to all premium courses in 14+ Asian and European languages, instant removal of all ads, exclusive hidden story modes and travel phrasebooks that even paid users can\u2019t access, plus built-in AI conversation practice with real-time pronunciation scoring \u2014 everything 100% unlocked and updated in one safe APK.",
+    "description": "Lingodeer Mod unlocks lifetime Plus membership for free, giving you unlimited hearts and lives, full offline access to all premium courses in 14+ Asian and European languages, instant removal of all ads, exclusive hidden story modes and travel phrasebooks that even paid users can’t access, plus built-in AI conversation practice with real-time pronunciation scoring — everything 100% unlocked and updated in one safe APK.",
     "icon": "https://play-lh.googleusercontent.com/WA-M-hOHhgmRk7tObJTRVj0ncEg7x8MHTNrE2Ory9p2Eiz0WiSqiYxPkJxwUE0NH-98",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -481,7 +481,7 @@
   {
     "id": "rosetta-stone",
     "name": "Rosetta Stone Pro",
-    "description": "Rosetta Stone Mod unlocks lifetime Total Access to all 25 languages completely free, grants unlimited offline downloads for every course and lesson, removes all ads and restrictions forever, instantly awards official Rosetta Stone certificates upon completion, adds exclusive hidden immersive story adventures and live 1-on-1 tutoring sessions with native speakers that even the real paid version doesn\u2019t offer \u2014 all fully updated and working in one safe, unlimited APK.",
+    "description": "Rosetta Stone Mod unlocks lifetime Total Access to all 25 languages completely free, grants unlimited offline downloads for every course and lesson, removes all ads and restrictions forever, instantly awards official Rosetta Stone certificates upon completion, adds exclusive hidden immersive story adventures and live 1-on-1 tutoring sessions with native speakers that even the real paid version doesn’t offer — all fully updated and working in one safe, unlimited APK.",
     "icon": "https://play-lh.googleusercontent.com/EfU-TIPgFiueENh7xSnhCbJcn-qUJi-SFpqPgjI0aeYvMcEhNh8J_L0H8ZUoteQDdg=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -532,7 +532,7 @@
   {
     "id": "adaway",
     "name": "AdAway",
-    "description": "A free & open-source ad-blocker for Android \u2014 blocks ads and trackers by using hosts file or VPN (root or non-root).",
+    "description": "A free & open-source ad-blocker for Android — blocks ads and trackers by using hosts file or VPN (root or non-root).",
     "icon": "https://raw.githubusercontent.com/AdAway/AdAway/master/Resources/icon.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -561,7 +561,7 @@
   {
     "id": "pairdrop",
     "name": "PairDrop",
-    "description": "Open-source cross-platform file-sharing app (web-based) \u2014 lets you transfer files, images, documents or text between devices over LAN or internet, without signup or setup. Inspired by AirDrop / Snapdrop.",
+    "description": "Open-source cross-platform file-sharing app (web-based) — lets you transfer files, images, documents or text between devices over LAN or internet, without signup or setup. Inspired by AirDrop / Snapdrop.",
     "icon": "https://github.com/schlagmichdoch/PairDrop/blob/master/public/images/logo_blue_512x512.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -588,7 +588,7 @@
   {
     "id": "seal",
     "name": "Seal",
-    "description": "Video/Audio Downloader for Android \u2014 uses yt-dlp under the hood to download media from supported platforms; supports playlist downloads, metadata embedding, subtitles, custom commands, and a Material-You UI.",
+    "description": "Video/Audio Downloader for Android — uses yt-dlp under the hood to download media from supported platforms; supports playlist downloads, metadata embedding, subtitles, custom commands, and a Material-You UI.",
     "icon": "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -616,7 +616,7 @@
   {
     "id": "cloudstream",
     "name": "CloudStream",
-    "description": "Open\u2011source Android app for streaming and downloading media (movies, TV shows, anime) \u2014 requires installing extensions / repositories to fetch sources.",
+    "description": "Open‑source Android app for streaming and downloading media (movies, TV shows, anime) — requires installing extensions / repositories to fetch sources.",
     "icon": "https://static.miraheze.org/cloudstreamwiki/4/48/CloudStream_logo_-_favicon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -1100,7 +1100,7 @@
   {
     "id": "tasker-revanced",
     "name": "Tasker Revanced",
-    "description": "Full version unlocked. The ultimate automation tool for Android\u2014script actions, triggers, and scenes to control your device.",
+    "description": "Full version unlocked. The ultimate automation tool for Android—script actions, triggers, and scenes to control your device.",
     "icon": "https://play-lh.googleusercontent.com/8IkkhPNnxNVYhnUxcidu0-Yp72aSb3H0gQJ1U-_ImQ7SCGLz1zgXtV7wi2Hpd6Odghg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -1325,7 +1325,7 @@
   {
     "id": "MiCTS",
     "name": "MiCTS",
-    "description": "Trigger Circle to Search on any Android 9\u201315 device, without ROOT Permissions.",
+    "description": "Trigger Circle to Search on any Android 9–15 device, without ROOT Permissions.",
     "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7buSxm_wG49ExQQuaYtsuCsGfL6BBEQ1RIg&usqp=CAU",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -2199,7 +2199,7 @@
   {
     "id": "libreoffice",
     "name": "LibreOffice",
-    "description": "A powerful, free, and open-source office suite\u2014the spiritual successor to OpenOffice. It includes Writer (word processor), Calc (spreadsheet), Impress (presentations), and is compatible with Microsoft Office formats.",
+    "description": "A powerful, free, and open-source office suite—the spiritual successor to OpenOffice. It includes Writer (word processor), Calc (spreadsheet), Impress (presentations), and is compatible with Microsoft Office formats.",
     "icon": "https://img.utdstc.com/icon/bea/1f2/bea1f28465d3238d2241cf384ef2346daca3e5572a5fb92acf2be63ed1480b51:200",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -2513,7 +2513,7 @@
   },
   {
     "id": "resourcehacker",
-    "name": "Resource Hacker\u2122",
+    "name": "Resource Hacker™",
     "description": "A freeware utility that acts as both a resource compiler and a decompiler for 32-bit and 64-bit Windows applications (*.exe, *.dll, etc.). It enables users to view, modify, add, or delete resources like icons, menus, dialogs, bitmaps, and string tables within executable files for customization.",
     "icon": "https://images.dwncdn.net/images/t_app-icon-l/p/028942f6-9b26-11e6-9efb-00163ec9f5fa/2138443607/2352_4-10178587-logo",
     "version": "5.2.8 (Latest)",
@@ -2649,7 +2649,7 @@
   {
     "id": "mihon",
     "name": "Mihon",
-    "description": "Discover and read manga, webtoons, comics, and more \u2013 easier than ever on your Android device.",
+    "description": "Discover and read manga, webtoons, comics, and more – easier than ever on your Android device.",
     "icon": "https://github.com/mihonapp/mihon/raw/main/.github/assets/logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -2672,7 +2672,7 @@
   {
     "id": "vivi-music",
     "name": "VIVI Music ",
-    "description": "VIVI isn't just another music player \u2014 it's a complete audio experience designed for music lovers who demand more. With a sleek Material You-inspired design, intelligent features, and deep personalization, VIVI redefines how you connect with your music.\n\nFrom stunning visual effects to smooth, intuitive controls, every element is crafted to match your vibe and elevate every beat. Stream from YouTube, enjoy synced lyrics, share songs via QR codes, and experience your music library like never before.",
+    "description": "VIVI isn't just another music player — it's a complete audio experience designed for music lovers who demand more. With a sleek Material You-inspired design, intelligent features, and deep personalization, VIVI redefines how you connect with your music.\n\nFrom stunning visual effects to smooth, intuitive controls, every element is crafted to match your vibe and elevate every beat. Stream from YouTube, enjoy synced lyrics, share songs via QR codes, and experience your music library like never before.",
     "icon": "https://raw.githubusercontent.com/vivizzz007/vivi-music/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -2783,7 +2783,7 @@
   {
     "id": "io.anytype.app",
     "name": "Anytype",
-    "description": "Anytype brings your conversations, docs, notes and databases together in one private app \u2013 offering powerful, local-first collaboration.Everything you create is end-to-end encrypted, accessible offline, synced securely across devices \u2013 and always yours.",
+    "description": "Anytype brings your conversations, docs, notes and databases together in one private app – offering powerful, local-first collaboration.Everything you create is end-to-end encrypted, accessible offline, synced securely across devices – and always yours.",
     "icon": "https://play-lh.googleusercontent.com/UNWS6sICanBYvKtRxHeRbjMTow69iA102EjduIKm8f85mBZxp8c5td2yoCeJKLCWzHLSvvEHfwpi-_5_3ehu=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -3214,7 +3214,7 @@
   {
     "id": "streamflix-reborn",
     "name": "Streamflix Reborn",
-    "description": "Streamflix Reborn is an independent continuation of the original Streamflix project created by Lory-Stan TANASI. This reborn version maintains the same educational purpose and functionality while ensuring continued development and support.\n\nIt is an open-source Android TV and mobile app that provides a user interface for accessing publicly available streaming content from various third-party providers.\n\nThe interface aggregates content from multiple sources and provides a convenient way to browse available streaming options.\n\n    \u2022 Open-source and ad-free interface\n    \u2022 Aggregates content from multiple       third-party providers\n    \u2022 No account required for the app interface\n    \u2022 Educational and personal use only\n    \u2022 Optimized UI & UX\n    \u2022 Multiple providers\n    \u2022 Resume from last playback position\n    \u2022 In-app update",
+    "description": "Streamflix Reborn is an independent continuation of the original Streamflix project created by Lory-Stan TANASI. This reborn version maintains the same educational purpose and functionality while ensuring continued development and support.\n\nIt is an open-source Android TV and mobile app that provides a user interface for accessing publicly available streaming content from various third-party providers.\n\nThe interface aggregates content from multiple sources and provides a convenient way to browse available streaming options.\n\n    • Open-source and ad-free interface\n    • Aggregates content from multiple       third-party providers\n    • No account required for the app interface\n    • Educational and personal use only\n    • Optimized UI & UX\n    • Multiple providers\n    • Resume from last playback position\n    • In-app update",
     "icon": "https://github.com/streamflix-reborn/streamflix/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -3391,7 +3391,7 @@
   {
     "id": "aniyomi",
     "name": "Aniyomi",
-    "description": "Full-featured player and reader, based on Tachiyomi Mihon. Discover and watch anime, cartoons, series, and more \u2013 easier than ever on your Android device.",
+    "description": "Full-featured player and reader, based on Tachiyomi Mihon. Discover and watch anime, cartoons, series, and more – easier than ever on your Android device.",
     "icon": "https://github.com/aniyomiorg/aniyomi/raw/main/.github/assets/logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -3693,7 +3693,7 @@
   {
     "id": "purrfectsnap",
     "name": "PurrfectSnap",
-    "description": "A fork of Snapenhance made to meow your Snapchat experience. \ud83d\ude09",
+    "description": "A fork of Snapenhance made to meow your Snapchat experience. 😉",
     "icon": "https://raw.githubusercontent.com/Xposed-Modules-Repo/me.eternal.purrfectsnap/master/logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -4114,7 +4114,7 @@
   {
     "id": "urv-manager",
     "name": "URV Manager",
-    "description": "A beginner\u2011friendly Android tool to patch apps using ReVanced Patcher. It supports inbuilt split\u2011APK patching, third\u2011party patch bundles, custom bundle names, smarter patch selection, bundle organization, and an improved UI \u2014 offering more flexibility than the official manager.",
+    "description": "A beginner‑friendly Android tool to patch apps using ReVanced Patcher. It supports inbuilt split‑APK patching, third‑party patch bundles, custom bundle names, smarter patch selection, bundle organization, and an improved UI — offering more flexibility than the official manager.",
     "icon": "https://github.com/Jman-Github/Universal-ReVanced-Manager/raw/main/assets/icons/icon-circle.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -4140,7 +4140,7 @@
   {
     "id": "nuvio",
     "name": "Nuvio",
-    "description": "Nuvio Media Hub is a cross\u2011platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
+    "description": "Nuvio Media Hub is a cross‑platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
     "icon": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/main/assets/titlelogo.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -4736,7 +4736,7 @@
   {
     "id": "book-s-story",
     "name": "Book's Story",
-    "description": "Book's Story \u2014 Material You eBook reader built with Jetpack Compose. Free & Open source & Ad-free, with extensive customization options and support for multiple file formats.",
+    "description": "Book's Story — Material You eBook reader built with Jetpack Compose. Free & Open source & Ad-free, with extensive customization options and support for multiple file formats.",
     "icon": "https://raw.githubusercontent.com/Acclorite/book-story/master/fastlane/metadata/android/en-US/images/icon_2.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -4812,7 +4812,7 @@
   {
     "id": "spotube",
     "name": "Spotube",
-    "description": "\ud83c\udfa7 Open source music streaming app! Available for both desktop & mobile!",
+    "description": "🎧 Open source music streaming app! Available for both desktop & mobile!",
     "icon": "https://f-droid.org/repo/oss.krtirtho.spotube/en-US/icon_4QSSIXwcrFRF_Ng5DE6xDL2cV5QFCiKDtR6QecUrmdA=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -4922,7 +4922,7 @@
   {
     "id": "lawnicons",
     "name": "Lawnicons",
-    "description": "Monochrome outlined brand icons for Android launchers.\nLawnicons is an icon pack developed by the Lawnchair team and supported by the community. Originally an addon for Lawnchair 12 Alpha 5 and above to implement themed icons, it can now be used on many launchers.\n\nTry Lawnicons on the latest version of Lawnchair. You can enable themed icons by going to Home Settings \u2192 General \u2192 Icon Style and choosing the desired option.",
+    "description": "Monochrome outlined brand icons for Android launchers.\nLawnicons is an icon pack developed by the Lawnchair team and supported by the community. Originally an addon for Lawnchair 12 Alpha 5 and above to implement themed icons, it can now be used on many launchers.\n\nTry Lawnicons on the latest version of Lawnchair. You can enable themed icons by going to Home Settings → General → Icon Style and choosing the desired option.",
     "icon": "https://play-lh.googleusercontent.com/hT1m2rmORtrSu44GHzVrqt07gLDqGG4qPC38QcBKIIjIJQKWiCYtZZ2soOtHsUFojMc=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -5032,7 +5032,7 @@
   {
     "id": "nxsha",
     "name": "Nxsha",
-    "description": "Movies, TV Shows, Anime, K-Drama, and more \u2013 All in One Place. Enjoy seamless streaming on your phone, tablet, or even big screen Android TVs. One of the best entertainment platforms, now in your pocket.",
+    "description": "Movies, TV Shows, Anime, K-Drama, and more – All in One Place. Enjoy seamless streaming on your phone, tablet, or even big screen Android TVs. One of the best entertainment platforms, now in your pocket.",
     "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEdElEQVR4AZ2XRbAjNxCGPRqNx/IyMzONN4z3e/ASZk7uFbxfnZzCyYMwMzPTsh9Wrrks7x6n0y3365K2x052VfVVi6b7n5askWvdkmiry1JjzO3IgDHprjRNDyHAHML+XTbLBrIsu73ZbC5FH5GXqBUPqBINosMLMcBLPpAhDAfVWGsB50/xUmazCyUIUR2kZ5c1adqOgxgwJqhXCbAUPKJdSxKrc9Gn1PN6gSn9C51GAbttE7YjbMYZUNi/6vV60T/lSXcss/ZSdHYY0YFEgH57vQSEtIF8ovtLg3C6Uq/nBSo9TA8oAZwJGqNAnowtg8/2IfciKBMqEdyyzrm/XKNBzvQmM0xqVIqtZYuCXMNBo9FQYGCek/1FsVR8DN7myeSQgkqaZ83MoPP5KmHki9VdvlwNHalPtdf49oJ5TQ7uIgG8SdunBr+QJjkWEGbgglYTHrp3HsDEBqFk6xknpF/GHn1gAVx8ziyY8puTgHhfXCgLgZNe6qoVAfLmD92DwUc3IpvYCtJXxv3S99j9C2E+ZkIyIEvl7UteAJ1aNEEy4EQAdD5cA9DZqBmJ66Was0ns2MdrRYCVJejSnIYnZp7nt1NQWS9EBLy/Bsr96EyxBeDkPoDJywEOSL/Uw2fGPhQBsgQkhOu313BgAIF6jgQ2SRLovLsWYM9mgN0IWmHvVvDln8dRxPW+r0SggrH311Ew8ll1fA/QBtzl39452bE0iFsDOm+jgF1bKtgGUo7/Qm3u14y+s+6UoCY81HbhsZsfivZAKOCtdQB/bI0oyf65XeKXbKkvnrvN29G31nNAjcGvaI2DMqEAXII31gP8vg1Bh78F/L5DIos9ipno3EDjEaNv9BUAtW76JXicgVc3APy8DYSf2P5SSGTJwJFfcRPeyHO3yjOjr20IAuqlqOW8BA4J90BCAl5GAT9u7/IDWWIHUoAq1MdzS7bE6CsbJFiE8faQbEIMrjMwvAng+x0VtEDKYXzz71rReMkWvtsBoy9t1MEZulnV+BqlPqH0MxwZRAHfFJ6SrefbneDL308A7LqJ+0NaTAFjQ5vkKxphvR2o0T2PU6I2SOdFFPBVC0oEviq6fN1CUMCxfbjJrqZxRRnURwc2y11BNjzvuzyv3+4vm71uOJ3nNwN83lKUZD/TdWkz1D/6ggiINrpDptHllQpfOtUmmT09g4evWwzw6c4z4tHrlpAPJYB5ST7HfPOFKs7fMh0euXYJwMdnnRYU/AJ8ljNLax4JoCtAdB3DSW3TQ8RMfIvRp/FQeQp5ehuMTfEU2RiaQ8yZnqn7YhC8Xaso1pj0r/jA0GC21Fqy9W+pnzGxAOeCK5kuRWrM4czaXiKqL5y5WDXfBMIRvpQmff+dXGpQxOlmgAhu0wrySb5VvEopic/EX8qJFkBoATo4pb3Q0frLsLQxqzLg1AfM9RPQ7rnmCRG3VYIs/zk17NByBkIBrjoDL/HNVwVVMqpEVP89T2+n85s+YLlcZPyResi5xq4sswN0tNPc0FGS9Pb/L6bpl88XOjZeAAAAAElFTkSuQmCC",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -5146,7 +5146,7 @@
   {
     "id": "kvaesitso",
     "name": "Kvaesitso",
-    "description": "vaesitso is a launcher application for Android which replaces the device's default home screen. It has been built from scratch, meaning it is not based on the AOSP launcher (like many other third party launchers) nor does it try to recreate this launcher. Instead, Kv\u00e6sitso follows its own concepts.The main feature is a global search which does not only let you search on device for apps, contacts, and calendar events, but also on web services like Wikipedia or your Nextcloud Instance. Additionally it includes some useful tools, for example a calculator and a unit converter.",
+    "description": "vaesitso is a launcher application for Android which replaces the device's default home screen. It has been built from scratch, meaning it is not based on the AOSP launcher (like many other third party launchers) nor does it try to recreate this launcher. Instead, Kvæsitso follows its own concepts.The main feature is a global search which does not only let you search on device for apps, contacts, and calendar events, but also on web services like Wikipedia or your Nextcloud Instance. Additionally it includes some useful tools, for example a calculator and a unit converter.",
     "icon": "https://raw.githubusercontent.com/MM2-0/Kvaesitso/main/assets/icons/ic_launcher.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -5174,7 +5174,7 @@
   {
     "id": "fossify-notes",
     "name": "Fossify Notes",
-    "description": "Introducing Fossify Notes \u2013 your ultimate tool for effortless note-taking, organization, and planning. Simplify your life with this intuitive organizer designed to streamline your tasks and ideas effortlessly.",
+    "description": "Introducing Fossify Notes – your ultimate tool for effortless note-taking, organization, and planning. Simplify your life with this intuitive organizer designed to streamline your tasks and ideas effortlessly.",
     "icon": "https://play-lh.googleusercontent.com/qD-hPvQmz6eKqwoxYlfwjcq3AHvpPEwKyrmF-OVvLfsdkyuT2FQm0AjPSnVXKDnfDHA=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -5202,7 +5202,7 @@
   {
     "id": "fossify-gallery",
     "name": "Fossify Gallery",
-    "description": "Unleash memories, not personal data. Fossify Gallery is the ultimate photo and video app that's as powerful as it is private. No ads, no unnecessary permissions \u2013 just a seamless experience tailored for you.",
+    "description": "Unleash memories, not personal data. Fossify Gallery is the ultimate photo and video app that's as powerful as it is private. No ads, no unnecessary permissions – just a seamless experience tailored for you.",
     "icon": "https://play-lh.googleusercontent.com/JYaLiAMhMHnVX7DyxrcWHe1ZO_h_B7nSpBJwyEI3ZUEFmYWwL2jYyObr7Ztk9nBubA=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -5230,7 +5230,7 @@
   {
     "id": "fossify-camera",
     "name": "Fossify Camera",
-    "description": "Fossify Camera is your go-to app for capturing life\u2019s moments with precision and privacy. Whether you\u2019re snapping photos or recording videos, this fully customizable, privacy-respecting camera app is designed to meet your needs.",
+    "description": "Fossify Camera is your go-to app for capturing life’s moments with precision and privacy. Whether you’re snapping photos or recording videos, this fully customizable, privacy-respecting camera app is designed to meet your needs.",
     "icon": "https://play-lh.googleusercontent.com/1t156SNVheLogN4ZEzlCzbgDV6gCZoS8o0WhFek1RNNy6xyzU9mOeRUc1GjB920XbuU=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -5342,7 +5342,7 @@
   {
     "id": "amarok",
     "name": "Amarok",
-    "description": "Amarok is a lightweight Android privacy tool that shields your files and apps from prying eyes without the overhead of encryption.Traditional encryption tools are secure but slow \u2014 decrypting a large movie file or unlocking an app takes time. Amarok acts instantly. It conceals files by obfuscating signatures or adjusting permissions, and hides apps by disabling them or using Xposed hooks. This makes your content invisible to casual snoopers without any performance penalty.",
+    "description": "Amarok is a lightweight Android privacy tool that shields your files and apps from prying eyes without the overhead of encryption.Traditional encryption tools are secure but slow — decrypting a large movie file or unlocking an app takes time. Amarok acts instantly. It conceals files by obfuscating signatures or adjusting permissions, and hides apps by disabling them or using Xposed hooks. This makes your content invisible to casual snoopers without any performance penalty.",
     "icon": "https://f-droid.org/repo/deltazero.amarok.foss/en-US/icon_nyBsozCF19DxPPeK3OSO-Aqw9qsckNSMymntDVZ-5-4=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -6089,7 +6089,7 @@
   {
     "id": "park4night-revanced",
     "name": "Park4Night Morphe",
-    "description": "Park4night Morphe builds upon the original Park4night app by AppMobilEdition, a community-driven tool for discovering and sharing spots to relax, overnight, picnic, or camp with user reviews, photos, and filters. This modification applies the 'Unlock Pro features' patch from the brosssh/revanced-patches repository to the package fr.tramb.park4night, bypassing the \u20ac9.99/year subscription for premium access without specific version requirements.",
+    "description": "Park4night Morphe builds upon the original Park4night app by AppMobilEdition, a community-driven tool for discovering and sharing spots to relax, overnight, picnic, or camp with user reviews, photos, and filters. This modification applies the 'Unlock Pro features' patch from the brosssh/revanced-patches repository to the package fr.tramb.park4night, bypassing the €9.99/year subscription for premium access without specific version requirements.",
     "icon": "https://play-lh.googleusercontent.com/CC1NYh0U18AcqP42V981Qh7myehBrCqlqCrOAtuTxB_Trm9q15kq_tFOok9PBqcierE=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -6205,7 +6205,7 @@
   {
     "id": "crunchyroll-revanced",
     "name": "Crunchyroll Morphe",
-    "description": "Crunchyroll ReVanced is a patched version of the official Crunchyroll app (package com.crunchyroll.crunchyroid) using ReVanced tools. It primarily applies the 'Hide ads' patch, which removes video ads (pre-roll, mid-roll, post-roll) and general ads for a smoother viewing experience on free accounts. Evidence from official ReVanced patches and community discussions indicates this is the main (and often only) functional patch available for Crunchyroll\u2014no reliable unlock of full premium features like offline downloads, HD streaming without limits, or ad-free simulcasts exists in standard or custom ReVanced repositories. Attempts at other patches (e.g., older 'Enable downloads') have historically caused crashes or been removed due to incompatibility.",
+    "description": "Crunchyroll ReVanced is a patched version of the official Crunchyroll app (package com.crunchyroll.crunchyroid) using ReVanced tools. It primarily applies the 'Hide ads' patch, which removes video ads (pre-roll, mid-roll, post-roll) and general ads for a smoother viewing experience on free accounts. Evidence from official ReVanced patches and community discussions indicates this is the main (and often only) functional patch available for Crunchyroll—no reliable unlock of full premium features like offline downloads, HD streaming without limits, or ad-free simulcasts exists in standard or custom ReVanced repositories. Attempts at other patches (e.g., older 'Enable downloads') have historically caused crashes or been removed due to incompatibility.",
     "icon": "https://play-lh.googleusercontent.com/Fnor8mzNEsiWTfSTI_RXUmsaZW0eYw0RkIgIhSCphG4Y0ZgwC-zK2qzik-9VIxQDWQ=s48-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -6232,7 +6232,7 @@
   {
     "id": "disney-plus-revanced",
     "name": "Disney+ Morphe",
-    "description": "Disney+ Morphed is a modified version of the official Disney+ app (package com.disney.disneyplus) patched with ReVanced tools. It applies the 'Skip ads' patch (also referred to as 'Hide ads' or 'Remove ads' in some contexts), which removes video ads during playback on free or ad-supported tiers for an uninterrupted streaming experience. Research confirms this is the primary (and currently only) functional ReVanced patch available for Disney+\u2014no reliable premium unlock exists for features like offline downloads, 4K/HDR without limits, or full ad-free access across all content, as these are server-side enforced.",
+    "description": "Disney+ Morphed is a modified version of the official Disney+ app (package com.disney.disneyplus) patched with ReVanced tools. It applies the 'Skip ads' patch (also referred to as 'Hide ads' or 'Remove ads' in some contexts), which removes video ads during playback on free or ad-supported tiers for an uninterrupted streaming experience. Research confirms this is the primary (and currently only) functional ReVanced patch available for Disney+—no reliable premium unlock exists for features like offline downloads, 4K/HDR without limits, or full ad-free access across all content, as these are server-side enforced.",
     "icon": "https://play-lh.googleusercontent.com/gXHdyj_9Dbyz3uJy1EnmLHMUpU33VeD0n6kObv6tzvBveWKDFZQt7yGrnM-L4FW-5P4=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -6322,7 +6322,7 @@
   {
     "id": "viber-revanced",
     "name": "Viber Morphe",
-    "description": "Viber ReVanced is a patched version of the official Viber Messenger app (package com.viber.voip) using ReVanced tools. It applies official patches including Hide ads (removes in-app advertisements and sponsored content) and Hide navigation buttons (customizes or hides bottom navigation elements for a cleaner UI). These are the confirmed, correct patches available in the official revanced-patches repository\u2014no premium unlock (such as unlimited stickers, advanced privacy extras, or Viber Out credits) exists, as such features are server-side or not targeted by patches. Additional community requests for broader changes (e.g., telemetry removal, spam blocking) remain unaddressed in official patches.",
+    "description": "Viber ReVanced is a patched version of the official Viber Messenger app (package com.viber.voip) using ReVanced tools. It applies official patches including Hide ads (removes in-app advertisements and sponsored content) and Hide navigation buttons (customizes or hides bottom navigation elements for a cleaner UI). These are the confirmed, correct patches available in the official revanced-patches repository—no premium unlock (such as unlimited stickers, advanced privacy extras, or Viber Out credits) exists, as such features are server-side or not targeted by patches. Additional community requests for broader changes (e.g., telemetry removal, spam blocking) remain unaddressed in official patches.",
     "icon": "https://play-lh.googleusercontent.com/xG_8ox1t_0CBsVMMZnCQr_CyYgc-9miU1JyYCzGlAorpcD3zqa9PR3zdbPNHRYAsWQ=s48-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -6634,7 +6634,7 @@
   {
     "id": "mladinska-revanced",
     "name": "Mladinska Revanced",
-    "description": "Mladinska ReVanced unlocks the full Plus experience for a richer reading journey. Access premium articles and features without restrictions or interruptions. Enjoy clean, uninterrupted content with enhanced usability and comfort. Stay informed with complete access to Mladinska\u2019s journalism in one app.",
+    "description": "Mladinska ReVanced unlocks the full Plus experience for a richer reading journey. Access premium articles and features without restrictions or interruptions. Enjoy clean, uninterrupted content with enhanced usability and comfort. Stay informed with complete access to Mladinska’s journalism in one app.",
     "icon": "https://play-lh.googleusercontent.com/hnMNpnaeE0wjzHBdvIKduHqLjQerMVJD6gXCtAYUallMqi6lgK8TgHY4hwGTUqYf6Iw=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -6691,7 +6691,7 @@
   {
     "id": "clockmaster",
     "name": "ClockMaster",
-    "description": "Material Expressive clock app for android \ud83d\udd5b\u23f0",
+    "description": "Material Expressive clock app for android 🕛⏰",
     "icon": "https://raw.githubusercontent.com/PranshulGG/ClockMaster/master/prev/app_icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -6855,7 +6855,7 @@
   {
     "id": "privacy-flip",
     "name": "Privacy Flip",
-    "description": "Automatic lock/unlock privacy control for Android devices \ud83d\udd10\ud83d\udcf1\u2728PrivacyFlip automatically manages your Android device's privacy features based on lock/unlock state. When you lock your device, it can disable Wi-Fi, Bluetooth, mobile data, location services, NFC, and even camera/microphone sensors. When you unlock, it intelligently restores the features you want back on.",
+    "description": "Automatic lock/unlock privacy control for Android devices 🔐📱✨PrivacyFlip automatically manages your Android device's privacy features based on lock/unlock state. When you lock your device, it can disable Wi-Fi, Bluetooth, mobile data, location services, NFC, and even camera/microphone sensors. When you unlock, it intelligently restores the features you want back on.",
     "icon": "https://f-droid.org/repo/io.github.dorumrr.privacyflip/en-US/icon_BSCWtcVzqrd0Wm1YvxBLBqt8dO2Km7qnQl65Cz88x_E=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -6984,7 +6984,7 @@
   {
     "id": "axmanager",
     "name": "AxManager",
-    "description": "AxManager is an Android application designed to provide deeper control over apps and the system. Unlike tools such as KernelSU or other root-based Managers, AxManager is dedicated to ADB/Non-Root mode \u2014 while still allowing execution with Root access if available.",
+    "description": "AxManager is an Android application designed to provide deeper control over apps and the system. Unlike tools such as KernelSU or other root-based Managers, AxManager is dedicated to ADB/Non-Root mode — while still allowing execution with Root access if available.",
     "icon": "https://image2url.com/r2/default/files/1769281938626-eeaa9f84-53f9-4706-aa1a-83842fd081fe.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7061,7 +7061,7 @@
   {
     "id": "bloomee",
     "name": "Bloomee",
-    "description": "\ud83c\udf38Bloomee is a cross-platform music app designed to bring you ad-free tunes from various sources. \ud83c\udf3c\ud83c\udfb5",
+    "description": "🌸Bloomee is a cross-platform music app designed to bring you ad-free tunes from various sources. 🌼🎵",
     "icon": "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/refs/heads/main/assets/icons/BloomeeTunes4ZoomedOut2.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7086,7 +7086,7 @@
   {
     "id": "kreate",
     "name": "Kreate",
-    "description": "Kreate is a multilingual YouTube Music frontend for Android, built for speed and customization. \ud83c\udfb5 Play music online or offline with caching and downloads \ud83c\udfa8 Switch between RiMusic and ViMusic styles, customize themes, and enjoy audio visualizers \ud83d\udcca Track listening stats, manage playlists, and share with friends \ud83d\udcfa Works with Android Auto, Android TV, and supports YouTube videos \u2699\ufe0f Includes lyrics editing/translation, sleep timer, widgets, and auto\u2011update.",
+    "description": "Kreate is a multilingual YouTube Music frontend for Android, built for speed and customization. 🎵 Play music online or offline with caching and downloads 🎨 Switch between RiMusic and ViMusic styles, customize themes, and enjoy audio visualizers 📊 Track listening stats, manage playlists, and share with friends 📺 Works with Android Auto, Android TV, and supports YouTube videos ⚙️ Includes lyrics editing/translation, sleep timer, widgets, and auto‑update.",
     "icon": "https://f-droid.org/repo/me.knighthat.kreate/en-US/icon_Cda6Z-jISXHZzgFgFuRKUauWI2ohdHXgux_5hNU6lG4=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7169,7 +7169,7 @@
   {
     "id": "nothingland",
     "name": "NothingLand",
-    "description": "NothingLand is a project that recreates a Dynamic Island\u2013style interactive bubble that appears around the front camera area and reacts to system events. It provides animated pop-ups for actions such as charging, music playback, timers, and notifications, emphasizing minimal, dot-matrix-style visuals. The project focuses on smooth animations, lightweight overlays, and customization of behavior and appearance to create a distinctive, playful user experience inspired by \u201cNothing\u201d-style design elements.",
+    "description": "NothingLand is a project that recreates a Dynamic Island–style interactive bubble that appears around the front camera area and reacts to system events. It provides animated pop-ups for actions such as charging, music playback, timers, and notifications, emphasizing minimal, dot-matrix-style visuals. The project focuses on smooth animations, lightweight overlays, and customization of behavior and appearance to create a distinctive, playful user experience inspired by “Nothing”-style design elements.",
     "icon": "https://image2url.com/r2/default/files/1769280110681-952538f9-038e-4ee9-8af3-798490d5b085.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7252,7 +7252,7 @@
   {
     "id": "lyrics",
     "name": "Lyrics",
-    "description": "\ud83d\udcd1 Android app that shows lyrics from the Genius.com-API \ud83c\udfb5",
+    "description": "📑 Android app that shows lyrics from the Genius.com-API 🎵",
     "icon": "https://raw.githubusercontent.com/cvzi/Lyrics/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7307,7 +7307,7 @@
   {
     "id": "archivetune",
     "name": "ArchiveTune",
-    "description": "\ud83c\udfbc The cutest Material 3 Expressive music streaming client for Android, built for performance and extensibility. \ud83c\udfa7",
+    "description": "🎼 The cutest Material 3 Expressive music streaming client for Android, built for performance and extensibility. 🎧",
     "icon": "https://raw.githubusercontent.com/koiverse/ArchiveTune/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7333,7 +7333,7 @@
   {
     "id": "aves",
     "name": "Aves",
-    "description": "Aves is a gallery and metadata explorer app, built for Android with Flutter. Aves can handle all sorts of images and videos, including your typical JPEGs and MP4s, but also more exotic things like multi-page TIFFs, SVGs, old AVIs and more! \ud83d\udcf7",
+    "description": "Aves is a gallery and metadata explorer app, built for Android with Flutter. Aves can handle all sorts of images and videos, including your typical JPEGs and MP4s, but also more exotic things like multi-page TIFFs, SVGs, old AVIs and more! 📷",
     "icon": "https://raw.githubusercontent.com/deckerst/aves/develop/aves_logo.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7360,7 +7360,7 @@
   {
     "id": "cryptx",
     "name": "CryptX",
-    "description": "\u2728 A lightweight personal Android toolkit for experimenting with cryptography, steganography, and hashing \u2014 all built with curiosity & Jetpack Compose!",
+    "description": "✨ A lightweight personal Android toolkit for experimenting with cryptography, steganography, and hashing — all built with curiosity & Jetpack Compose!",
     "icon": "https://raw.githubusercontent.com/PersonX-46/CryptX/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7388,7 +7388,7 @@
   {
     "id": "key-mapper",
     "name": "Key Mapper",
-    "description": "Make custom macros on your keyboard or gamepad, make on-screen buttons in any app, and unlock new functionality from your volume buttons! \u2728",
+    "description": "Make custom macros on your keyboard or gamepad, make on-screen buttons in any app, and unlock new functionality from your volume buttons! ✨",
     "icon": "https://raw.githubusercontent.com/keymapperorg/KeyMapper/refs/heads/master/app/src/main/ic_launcher-web.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7418,7 +7418,7 @@
   {
     "id": "maid",
     "name": "maid",
-    "description": "Maid is a cross-platform Flutter app for interfacing with GGUF / llama.cpp models locally, and with Ollama and OpenAI models remotely. It allows you to chat with AI models privately on your device. \ud83e\udd16",
+    "description": "Maid is a cross-platform Flutter app for interfacing with GGUF / llama.cpp models locally, and with Ollama and OpenAI models remotely. It allows you to chat with AI models privately on your device. 🤖",
     "icon": "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/refs/heads/main/images/logo-combined.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7527,7 +7527,7 @@
   {
     "id": "battarang",
     "name": "Battarang",
-    "description": " \ud83d\udd14\ud83d\udd0b Sync battery notifications across devices \ud83d\udd14 Get notified on another device when your android's battery is low or full.",
+    "description": " 🔔🔋 Sync battery notifications across devices 🔔 Get notified on another device when your android's battery is low or full.",
     "icon": "https://image2url.com/r2/default/files/1769447971535-732a48ca-2bf4-4375-85b2-96f2bbcd34a8.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7608,7 +7608,7 @@
   {
     "id": "scanly",
     "name": "Scanly",
-    "description": "AI-powered scanner that extracts text from images and PDFs, works offline, and offers smart QR/Barcode actions \u2014 all in a smooth Material 3 design.",
+    "description": "AI-powered scanner that extracts text from images and PDFs, works offline, and offers smart QR/Barcode actions — all in a smooth Material 3 design.",
     "icon": "https://image2url.com/r2/default/files/1769451632532-5aed7299-e2f1-48d6-8a7c-903c09140ae2.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -7951,7 +7951,7 @@
   {
     "id": "lifedots",
     "name": "LifeDots",
-    "description": "A beautiful live wallpaper that visualizes your year, one dot at a time. LifeDots transforms your home screen into a meaningful reminder of time's passage. Each dot represents a day \u2014 filled dots are days lived, empty dots are days yet to come, and today pulses with possibility. Inspired by the concept of time visualization and mindful living, LifeDots helps you appreciate each day while keeping perspective on the year as a whole.",
+    "description": "A beautiful live wallpaper that visualizes your year, one dot at a time. LifeDots transforms your home screen into a meaningful reminder of time's passage. Each dot represents a day — filled dots are days lived, empty dots are days yet to come, and today pulses with possibility. Inspired by the concept of time visualization and mindful living, LifeDots helps you appreciate each day while keeping perspective on the year as a whole.",
     "icon": "https://play-lh.googleusercontent.com/Civ11iJRtK4kcUlPlQkxhbNYDvNJNtTOTNeOUg6ywIweqDK1BJFJqWI6vTD0ACKQBNc=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -8201,7 +8201,7 @@
   {
     "id": "sefirah",
     "name": "Sefirah",
-    "description": "Sefirah\u00a0is an opinionated phone link alternative designed to enhance your workflow with seamless clipboard , notification sharing , media controlling , file transfer etc. between your Windows PC and Android device. It's tailored for users who want a straightforward and efficient way to keep their devices in sync. \nCheck its repo for installation steps..",
+    "description": "Sefirah is an opinionated phone link alternative designed to enhance your workflow with seamless clipboard , notification sharing , media controlling , file transfer etc. between your Windows PC and Android device. It's tailored for users who want a straightforward and efficient way to keep their devices in sync. \nCheck its repo for installation steps..",
     "icon": "https://raw.githubusercontent.com/shrimqy/Sefirah/3efd80bcf0097a37ed092e495b0027d0717397dd/src/Sefirah/Assets/Icons/icon_foreground.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -8255,7 +8255,7 @@
   {
     "id": "aio-video-downloader",
     "name": "AIO Video Downloader",
-    "description": "Powerful Video/Audio Downloader for Android \u2014 Open Source, Ad-Free, and Built on yt-dlp for a Seamless, User-Centric Experience. ",
+    "description": "Powerful Video/Audio Downloader for Android — Open Source, Ad-Free, and Built on yt-dlp for a Seamless, User-Centric Experience. ",
     "icon": "https://raw.githubusercontent.com/shibaFoss/AIO-Video-Downloader/master/app/src/main/res/drawable/ic_launcher_logo_v4.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -8280,7 +8280,7 @@
   {
     "id": "rush",
     "name": "Rush",
-    "description": "\u2728 Rush is a simple android app to search, view, save and share lyrics for your favorite songs.",
+    "description": "✨ Rush is a simple android app to search, view, save and share lyrics for your favorite songs.",
     "icon": "https://f-droid.org/repo/com.shub39.rush/en-US/icon_ZxKhsswHqz8ySBuMuIJgCU4a9djWMYgQLFyYG9DYlRA=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -8632,7 +8632,7 @@
   {
     "id": "pokecardex",
     "name": "Pokecardex Morphe",
-    "description": "Easily and quickly manage your Pok\u00e9mon card collection with our app. Our database allows you to browse over 23,000 cards listed in more than 230 series, from the latest to the oldest, including promotional sets.",
+    "description": "Easily and quickly manage your Pokémon card collection with our app. Our database allows you to browse over 23,000 cards listed in more than 230 series, from the latest to the oldest, including promotional sets.",
     "icon": "https://play-lh.googleusercontent.com/cBp30ymDIOIbuLkU4z8TSwiaXoLpgVqVM4v8ZnO3j9MTPm306wjbmVp_q5XofDY0_is=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -9039,7 +9039,7 @@
   {
     "id": "phantom-lens",
     "name": "Phantom Lens",
-    "description": "PhantomLens is a privacy-first, open-source AI (artificial intelligence) assistant that operates silently across your screen. \ud83d\ude0f It understands what\u2019s on your display, responds contextually, and stays out of sight \u2014 no overlays, no interruptions, no telemetry abuse. \ud83e\uddbe Built for people who value speed, discretion, and control.",
+    "description": "PhantomLens is a privacy-first, open-source AI (artificial intelligence) assistant that operates silently across your screen. 😏 It understands what’s on your display, responds contextually, and stays out of sight — no overlays, no interruptions, no telemetry abuse. 🦾 Built for people who value speed, discretion, and control.",
     "icon": "https://raw.githubusercontent.com/inulute/phantom-lens/b2d7d4d3a3637d8425ffd324695408ab8da5d852/public/assets/icons/phantomlens_logo.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -9368,8 +9368,8 @@
   {
     "id": "legado-with-md3",
     "name": "Legado-with-MD3",
-    "description": "Legado with MD3 is a Material Design 3\u2013styled refactor based on the open-source project \ud83d\udc49 Legado (\u9605\u8bfb).",
-    "icon": "https://raw.githubusercontent.com/QuserH/Pic/main/2026/01/16/\u9605\u8bfb.png",
+    "description": "Legado with MD3 is a Material Design 3–styled refactor based on the open-source project 👉 Legado (阅读).",
+    "icon": "https://raw.githubusercontent.com/QuserH/Pic/main/2026/01/16/阅读.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -9393,7 +9393,7 @@
   {
     "id": "messages",
     "name": "Messages ",
-    "description": "Messages is an open source replacement to the stock messaging app on Android. It is a continuation of QKSMS.\n\nFeatures:-\n\u2022 Intuitive UI\n\u2022 Scheduled Messages\n\u2022 Message Backup\n\u2022 Message Blocking and Archiving\n\u2022 Voice Messages\n\u2022 Attachments of any type of file\n\u2022 Message Sorting\n\u2022 Delayed Sending\n\u2022 Automatic OTP Detection",
+    "description": "Messages is an open source replacement to the stock messaging app on Android. It is a continuation of QKSMS.\n\nFeatures:-\n• Intuitive UI\n• Scheduled Messages\n• Message Backup\n• Message Blocking and Archiving\n• Voice Messages\n• Attachments of any type of file\n• Message Sorting\n• Delayed Sending\n• Automatic OTP Detection",
     "icon": "https://f-droid.org/repo/org.prauga.messages/en-US/icon_nJgfQfBecFGupswkBxCJHE2IxpYgwMZZcHA0Ub8LyJE=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -9607,7 +9607,7 @@
   {
     "id": "bilipai",
     "name": "BiliPai",
-    "description": "Native, Pure, Extensible \u2014 Redefining your Bilibili experience",
+    "description": "Native, Pure, Extensible — Redefining your Bilibili experience",
     "icon": "https://raw.githubusercontent.com/QuserH/Pic/main/2026/01/16/BiliPai.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -9633,7 +9633,7 @@
   },
   {
     "id": "sigma",
-    "name": "\u9605\u8bfbSigma",
+    "name": "阅读Sigma",
     "description": "Legado is a free and open source novel reader for Android.",
     "icon": "https://raw.githubusercontent.com/gedoor/legado/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "version": "Latest",
@@ -9719,7 +9719,7 @@
   {
     "id": "simple-keyboard",
     "name": "Simple keyboard ",
-    "description": "An app for those who only need a keyboard and nothing more\nThis keyboard is created for those who only need a keyboard and nothing more.\n\nTo enable the keyboard:\n\n* Open \"Simple Keyboard\" from your launcher\n* Enable the Simple Keyboard (default system warning about tracking will be shown)\n* Switch to Simple Keyboard from current Input Method (differs between keyboards, usually long-press space)\n* To edit Simple Keyboard settings long-press \",\" or open system Settings, Languages & Input, Simple Keyboard.\n* You can enable/disable all the input methods in Settings, Languages & Input, Manage Keyboards (differs between phones)\n\nFeatures:\n\n* Small size (<1MB)\n* Adjustable keyboard height for more screen space\n* Number row\n* Swipe space to move pointer\n* Delete swipe\n* Custom theme colors\n* Minimal permissions (only Vibrate)\n* Ads-free\n\nFeatures it doesn\u2019t have and probably will never have:\n\n* Emojis\n* GIFs\n* Spell checker\n* Swipe typing",
+    "description": "An app for those who only need a keyboard and nothing more\nThis keyboard is created for those who only need a keyboard and nothing more.\n\nTo enable the keyboard:\n\n* Open \"Simple Keyboard\" from your launcher\n* Enable the Simple Keyboard (default system warning about tracking will be shown)\n* Switch to Simple Keyboard from current Input Method (differs between keyboards, usually long-press space)\n* To edit Simple Keyboard settings long-press \",\" or open system Settings, Languages & Input, Simple Keyboard.\n* You can enable/disable all the input methods in Settings, Languages & Input, Manage Keyboards (differs between phones)\n\nFeatures:\n\n* Small size (<1MB)\n* Adjustable keyboard height for more screen space\n* Number row\n* Swipe space to move pointer\n* Delete swipe\n* Custom theme colors\n* Minimal permissions (only Vibrate)\n* Ads-free\n\nFeatures it doesn’t have and probably will never have:\n\n* Emojis\n* GIFs\n* Spell checker\n* Swipe typing",
     "icon": "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/icon_T5pp0k_s8W4dOKUnC7tidpw27SzS0186ruJ782IwcPc=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -9837,7 +9837,7 @@
   {
     "id": "quick-upi",
     "name": "Quick UPI",
-    "description": "Quick UPI \u26a1\nStop fumbling. Start receiving.\n\nQuick UPI is the fastest way to request payments on Android. No more opening heavy banking apps, navigating three menus, and waiting for the \"Server Down\" message just to show your QR code.\n\nTwo ways to speed:\n\nTap the App Icon for standard access.\nSwipe down and tap the Quick Settings Tile for instant access anywhere.",
+    "description": "Quick UPI ⚡\nStop fumbling. Start receiving.\n\nQuick UPI is the fastest way to request payments on Android. No more opening heavy banking apps, navigating three menus, and waiting for the \"Server Down\" message just to show your QR code.\n\nTwo ways to speed:\n\nTap the App Icon for standard access.\nSwipe down and tap the Quick Settings Tile for instant access anywhere.",
     "icon": "https://apt.izzysoft.de/fdroid/repo/com.biohazard786.quickupi/en-US/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -10107,7 +10107,7 @@
   {
     "id": "fluffy",
     "name": "Fluffy",
-    "description": "A fast, modern file manager with powerful archive support and an Android TV\u2013friendly UI.\n\nFeatures\n\u2022Browse internal storage or any SAF folder\n\u2022Create ZIP/7z; extract ZIP, 7z, TAR, TGZ, TBZ2, TXZ, APK/JAR\n\u2022Encrypted archives: ZIP (AES) and 7z\n\u2022Open archives like folders; extract selected paths\n\u2022Background tasks\n\u2022Android TV layout with DPAD/keyboard support\n\u2022Compose UI, Material 3\nPermissions",
+    "description": "A fast, modern file manager with powerful archive support and an Android TV–friendly UI.\n\nFeatures\n•Browse internal storage or any SAF folder\n•Create ZIP/7z; extract ZIP, 7z, TAR, TGZ, TBZ2, TXZ, APK/JAR\n•Encrypted archives: ZIP (AES) and 7z\n•Open archives like folders; extract selected paths\n•Background tasks\n•Android TV layout with DPAD/keyboard support\n•Compose UI, Material 3\nPermissions",
     "icon": "https://apt.izzysoft.de/fdroid/repo/app.fluffy/en-US/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -10186,7 +10186,7 @@
   {
     "id": "paranoids-pal-privacy-lock",
     "name": "Paranoid's Pal - Privacy Lock",
-    "description": "It\u2019s important to lock your Android device when you aren\u2019t using it so that nobody else can get access to your apps and data. Features such as - instant lock with shake , quick tile settings , shortcuts ,modern UI , works offline and respects your privacy.",
+    "description": "It’s important to lock your Android device when you aren’t using it so that nobody else can get access to your apps and data. Features such as - instant lock with shake , quick tile settings , shortcuts ,modern UI , works offline and respects your privacy.",
     "icon": "https://f-droid.org/repo/com.paranoid.privacylock/en-US/icon_0hxjUaIglXNwYsZ2ctIcTb8Eo-3E2tQEcQa7-F2nKNw=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -10296,7 +10296,7 @@
   {
     "id": "lumo",
     "name": "Lumo",
-    "description": "Lumo is the privacy-first AI assistant created by Proton, the team behind encrypted email, VPN, password manager, and cloud storage trusted by over 100 million people. Lumo helps you stay productive, curious, and informed \u2014 without ever compromising your privacy.",
+    "description": "Lumo is the privacy-first AI assistant created by Proton, the team behind encrypted email, VPN, password manager, and cloud storage trusted by over 100 million people. Lumo helps you stay productive, curious, and informed — without ever compromising your privacy.",
     "icon": "https://play-lh.googleusercontent.com/4Bhm86glDwIkBQmAJfoUkEJNiZ9oWfmkv_fP4bhUzRvZ_1aaxGVwywzwVNJ3u87w41Y=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -10324,7 +10324,7 @@
   {
     "id": "omni",
     "name": "Omni",
-    "description": "A useful and handy Android minimalist toolbox.\n\u2022 Features :\n- Up-to-date Material 3 design\n- Lightweight, no spyware or bloat\n- Compass with latitude & longitude\n- Spirit Level\n- Ruler\n- Strength adjustable flashlight",
+    "description": "A useful and handy Android minimalist toolbox.\n• Features :\n- Up-to-date Material 3 design\n- Lightweight, no spyware or bloat\n- Compass with latitude & longitude\n- Spirit Level\n- Ruler\n- Strength adjustable flashlight",
     "icon": "https://apt.izzysoft.de/fdroid/repo/uk.akane.omni/en-US/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -10461,7 +10461,7 @@
   {
     "id": "anikku",
     "name": "Anikku",
-    "description": "Free and open source anime watcher for Android\nFull-featured player, based on Aniyomi.\nDiscover and watch anime, cartoons, series, and more \u2013 easier than ever on your Android device.",
+    "description": "Free and open source anime watcher for Android\nFull-featured player, based on Aniyomi.\nDiscover and watch anime, cartoons, series, and more – easier than ever on your Android device.",
     "icon": "https://raw.githubusercontent.com/komikku-app/anikku/refs/heads/master/.idea/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -10833,7 +10833,7 @@
   {
     "id": "betteropenwith",
     "name": "BetterOpenWith",
-    "description": "Better Open With makes Android's \"Complete action using\" dialog smarter.\n\nWith so many great Android apps available, Better Open With saves you from having to choose a single default app handler or constantly picking between \"Only once\" and \"Always\".\n\nDesigned to mimic Android's default dialog, Better Open With shows a familiar popup whenever you open a link, image, PDF, or other file type. All compatible apps are listed, just like the system dialog.\n\nThe difference is that the popup only appears for a short time (5 seconds by default and fully customizable). If you do nothing, your preferred app automatically opens. If you want something else, simply tap another app before the timer runs out.\n\nUnlike similar apps, no extra clicks are required. Just wait for your preferred app to launch or select a different one if needed. Set Better Open With as the default handler for the file types you want and let it work for you.\n\nCustomization options include:\n\n\u2022 Grid or list view\n\u2022 Adjustable text size\n\u2022 Icon only mode\n\u2022 Light and dark themes\n\u2022 More options planned\n\nBetter Open With is useful if:\n\n\u2022 You switch between browsers but usually have a preferred one\n\u2022 You mostly view PDFs, photos, or files with one app but occasionally edit them with another\n\u2022 You want video links to open in a player, but sometimes prefer apps for downloading or Chromecast\n\nBetter Open With is completely free, contains no ads, and requires no permissions.",
+    "description": "Better Open With makes Android's \"Complete action using\" dialog smarter.\n\nWith so many great Android apps available, Better Open With saves you from having to choose a single default app handler or constantly picking between \"Only once\" and \"Always\".\n\nDesigned to mimic Android's default dialog, Better Open With shows a familiar popup whenever you open a link, image, PDF, or other file type. All compatible apps are listed, just like the system dialog.\n\nThe difference is that the popup only appears for a short time (5 seconds by default and fully customizable). If you do nothing, your preferred app automatically opens. If you want something else, simply tap another app before the timer runs out.\n\nUnlike similar apps, no extra clicks are required. Just wait for your preferred app to launch or select a different one if needed. Set Better Open With as the default handler for the file types you want and let it work for you.\n\nCustomization options include:\n\n• Grid or list view\n• Adjustable text size\n• Icon only mode\n• Light and dark themes\n• More options planned\n\nBetter Open With is useful if:\n\n• You switch between browsers but usually have a preferred one\n• You mostly view PDFs, photos, or files with one app but occasionally edit them with another\n• You want video links to open in a player, but sometimes prefer apps for downloading or Chromecast\n\nBetter Open With is completely free, contains no ads, and requires no permissions.",
     "icon": "https://play-lh.googleusercontent.com/O7_xOajvxy8jiDVDrQDtDdPMFb5Vh4YmJKULiZw9iKkoRJw39vFJRq0YlohvAU0UwA=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -10895,7 +10895,7 @@
   {
     "id": "harmoni",
     "name": "Harmoni ",
-    "description": "Reproductor de m\u00fasica que usa YouTube music como backen (basado en simpmusic de maxrave-dev) con funciones extras ",
+    "description": "Reproductor de música que usa YouTube music como backen (basado en simpmusic de maxrave-dev) con funciones extras ",
     "icon": "https://github.com/user-attachments/assets/8bcb12aa-d2c5-4121-8587-ab36a3628dcb",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -10955,7 +10955,7 @@
   {
     "id": "mussifly",
     "name": "Mussifly ",
-    "description": "\ud83c\udfbb Mussifly v4.4.0stable Update \ud83d\ude80\n\n\ud83d\udd0dliquid glass theme is stable !\n\n\u2699\ufe0fAdded Theme\nCustomisation \n\n\ud83d\udc64Added Profile tab in bottom bar.\n\u2699\ufe0fAdded short cuts..\n\u2699\ufe0fFixed lyrics issues (beta)\n\u2601\ufe0f Cloud Playlist Sync \u2013 Your\n playlists are safely stored in the cloud. Log in anytime and get your music back, even after data loss.\n\n\ud83d\udd10 Google Sign-In (Firebase) \u2013 Secure and fast login with reliable cloud backup.\n\n\ud83c\udfa7 Synced Downloads \u2013 Downloads stay linked to your account, offline songs remain playable after re-login.\n\n\ud83d\udcf6 Offline Playback \u2013 Enjoy your music without internet.\n\n\u26a1 More Stable Streaming \u2013 Smoother playback and better performance.\n\n\ud83d\udcafAdded 3 theme style and player layout.\n\nUpdate now & keep your music safe forever ",
+    "description": "🎻 Mussifly v4.4.0stable Update 🚀\n\n🔍liquid glass theme is stable !\n\n⚙️Added Theme\nCustomisation \n\n👤Added Profile tab in bottom bar.\n⚙️Added short cuts..\n⚙️Fixed lyrics issues (beta)\n☁️ Cloud Playlist Sync – Your\n playlists are safely stored in the cloud. Log in anytime and get your music back, even after data loss.\n\n🔐 Google Sign-In (Firebase) – Secure and fast login with reliable cloud backup.\n\n🎧 Synced Downloads – Downloads stay linked to your account, offline songs remain playable after re-login.\n\n📶 Offline Playback – Enjoy your music without internet.\n\n⚡ More Stable Streaming – Smoother playback and better performance.\n\n💯Added 3 theme style and player layout.\n\nUpdate now & keep your music safe forever ",
     "icon": "https://raw.githubusercontent.com/skhub-tech/mussifly/main/public/logo_bg.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -11146,7 +11146,7 @@
   {
     "id": "nboard",
     "name": "Nboard",
-    "description": "Minimal Android keyboard with AI tools, clipboard power features, emoji search, and fast typing UX. Built for Nothing Phone users who wanted a keyboard matching their device's minimal aesthetic \u2014 works great on any Android phone.",
+    "description": "Minimal Android keyboard with AI tools, clipboard power features, emoji search, and fast typing UX. Built for Nothing Phone users who wanted a keyboard matching their device's minimal aesthetic — works great on any Android phone.",
     "icon": "https://raw.githubusercontent.com/MathieuDvv/Nboard/refs/heads/main/docs/media/logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -11360,7 +11360,7 @@
   {
     "id": "telephoto",
     "name": "Telephoto",
-    "description": "A lightweight, privacy-first alternative to Google Photos \u2014 powered by Telegram. Unlimited backups, Zero subscriptions, Your data, your control.",
+    "description": "A lightweight, privacy-first alternative to Google Photos — powered by Telegram. Unlimited backups, Zero subscriptions, Your data, your control.",
     "icon": "https://image2url.com/r2/default/files/1771510547973-b0af26f7-4985-4569-a825-837fa7678ff5.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -11497,7 +11497,7 @@
   {
     "id": "freecut",
     "name": "FreeCut",
-    "description": "FreeCut is a professional-grade video editor that runs entirely in your browser. Professional video editing, zero installation. Create stunning videos with multi-track editing, keyframe animations, real-time preview, and high-quality exports.\n\nFreeCut is a browser-based multi-track video editor. No installation, no uploads \u2014 everything runs locally in your browser using WebCodecs, OPFS, and the File System Access API.",
+    "description": "FreeCut is a professional-grade video editor that runs entirely in your browser. Professional video editing, zero installation. Create stunning videos with multi-track editing, keyframe animations, real-time preview, and high-quality exports.\n\nFreeCut is a browser-based multi-track video editor. No installation, no uploads — everything runs locally in your browser using WebCodecs, OPFS, and the File System Access API.",
     "icon": "https://raw.githubusercontent.com/walterlow/freecut/83b8c9c147bdca306abce847c14e11502c98183e/public/favicon.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -12098,7 +12098,7 @@
   {
     "id": "sofascore-morphe",
     "name": "SofaScore Morphe",
-    "description": "Sofascore provides live sports scores, detailed statistics, and the most complete sports data coverage anywhere. Whether you follow NBA, NFL, NCAA, MLB, MLS, NHL, or any other major league, you\u2019ll find an unmatched level of insight that will fuel your fandom no matter the team. \n\nPatches Applied : \n - Disable ads",
+    "description": "Sofascore provides live sports scores, detailed statistics, and the most complete sports data coverage anywhere. Whether you follow NBA, NFL, NCAA, MLB, MLS, NHL, or any other major league, you’ll find an unmatched level of insight that will fuel your fandom no matter the team. \n\nPatches Applied : \n - Disable ads",
     "icon": "https://play-lh.googleusercontent.com/EjND5djdqQDTmX6ERDZYLfiOCIqD3xZXHryNABP7a7mZhHhnFa5K-p0Rt4pYlY3PGWT6=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -12345,7 +12345,7 @@
   {
     "id": "mimo-revanced",
     "name": "Mimo Morphe",
-    "description": "Learn coding in Python, JavaScript, HTML, CSS, or SQL, and master modern AI-assisted development to become a developer in the age of AI. Mimo is a coding app that takes you from zero to building projects with AI. Gain the knowledge and tools to create production-ready software and pursue a job as a developer. Start building strong portfolio projects today, future-proof your skills, and take the next step beyond just programming syntax\u2014download Mimo and launch your developer career now! \n\nPatches Applied : \n - Enable Pro",
+    "description": "Learn coding in Python, JavaScript, HTML, CSS, or SQL, and master modern AI-assisted development to become a developer in the age of AI. Mimo is a coding app that takes you from zero to building projects with AI. Gain the knowledge and tools to create production-ready software and pursue a job as a developer. Start building strong portfolio projects today, future-proof your skills, and take the next step beyond just programming syntax—download Mimo and launch your developer career now! \n\nPatches Applied : \n - Enable Pro",
     "icon": "https://play-lh.googleusercontent.com/lgWq2qiW75DAH1_dpKzt2Q3nAoGO0HI9W1XjTaAtyONIrZbxUI1ZQmI-K8RYUhxUXg=s48-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -12559,7 +12559,7 @@
   {
     "id": "fake-updater-screen",
     "name": "Fake Updater screen",
-    "description": "Your PC/Phone isn\u2019t updating\u2026 but everyone else will think it is \ud83d\ude0c\r\nPerfect for pranks, screenshots, or escaping awkward conversations / your job \ud83d\ude0e",
+    "description": "Your PC/Phone isn’t updating… but everyone else will think it is 😌\r\nPerfect for pranks, screenshots, or escaping awkward conversations / your job 😎",
     "icon": "https://images.iimg.live/images/perfect-image-2879.webp",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -12635,7 +12635,7 @@
   {
     "id": "riplay",
     "name": "RiPlay",
-    "description": "RiPlay is a powerful, open-source music player designed for music lovers who want complete control over their listening experience. With support for both online and offline content, extensive customization options, and a beautiful interface, RiPlay transforms how you interact with your music collection.\nRiPlay respects your privacy and operates transparently:\n\n\ud83d\udee1\ufe0f No data collection \u2013 Your data stays on your device\n\ud83d\udeab No download or caching online content\n\ud83d\udee1\ufe0f For playing online content \u2013 it uses the YouTube Player library as a wrapper around the official IFrame Player API inside a WebView. ",
+    "description": "RiPlay is a powerful, open-source music player designed for music lovers who want complete control over their listening experience. With support for both online and offline content, extensive customization options, and a beautiful interface, RiPlay transforms how you interact with your music collection.\nRiPlay respects your privacy and operates transparently:\n\n🛡️ No data collection – Your data stays on your device\n🚫 No download or caching online content\n🛡️ For playing online content – it uses the YouTube Player library as a wrapper around the official IFrame Player API inside a WebView. ",
     "icon": "https://raw.githubusercontent.com/fast4x/RiPlay/bc17e033386dd6275dd21fa1273b836e73718d7d/assets/design/latest/app_icon.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -13547,7 +13547,7 @@
   {
     "id": "duckassist",
     "name": "duckAssist",
-    "description": "*duckAssist* is a lightweight Android wrapper for *Duck.ai* (http://Duck.ai) by DuckDuckGo, designed to provide a clean and private AI chat experience.\n\nIt lets you quickly send questions to Duck.ai directly from any app using the *\u201cAsk* *duck.ai* (http://duck.ai)*\u201d* option in the text selection or share menu. Each request opens in a separate window so you can manage multiple conversations easily.\n\nThe app keeps your experience focused by opening external links in your default browser while preserving your chat session. It also supports file uploads, downloads to your device, and automatic cache cleanup to enhance privacy.\n\nThrough Duck.ai you can interact with multiple AI models such as GPT-4o, Claude 3, and Llama 3 without needing an account.\n\nduckAssist is open source and licensed under GPLv3.",
+    "description": "*duckAssist* is a lightweight Android wrapper for *Duck.ai* (http://Duck.ai) by DuckDuckGo, designed to provide a clean and private AI chat experience.\n\nIt lets you quickly send questions to Duck.ai directly from any app using the *“Ask* *duck.ai* (http://duck.ai)*”* option in the text selection or share menu. Each request opens in a separate window so you can manage multiple conversations easily.\n\nThe app keeps your experience focused by opening external links in your default browser while preserving your chat session. It also supports file uploads, downloads to your device, and automatic cache cleanup to enhance privacy.\n\nThrough Duck.ai you can interact with multiple AI models such as GPT-4o, Claude 3, and Llama 3 without needing an account.\n\nduckAssist is open source and licensed under GPLv3.",
     "icon": "https://raw.githubusercontent.com/diekaiju/duckAssist/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -13572,7 +13572,7 @@
   {
     "id": "life-diary",
     "name": "Life Diary",
-    "description": "A local-first, open source Android diary app built on one principle: no feature is forced on you.\nUse all 20 features or just write. Your choice, always.\nWhat you can use \u2014 if you want:\nDaily writing streaks and weekly stats\nPhotos, videos, and voice recordings\nLocation and weather context\nGoogle Fit step count\nLocked and hidden entries\nCustom fonts and text colors\nFreehand canvas drawing\nCover photos\nMulti-account support\nWhat we never do:\nNo cloud storage\nNo data collection\nNo ads\nNo surveillance\nNo forced features\nYour data never leaves your device. Ever.\nOpen source \u2014 check the code yourself.\nBuilt by a 16-year-old developer from Bursa, Turkey.",
+    "description": "A local-first, open source Android diary app built on one principle: no feature is forced on you.\nUse all 20 features or just write. Your choice, always.\nWhat you can use — if you want:\nDaily writing streaks and weekly stats\nPhotos, videos, and voice recordings\nLocation and weather context\nGoogle Fit step count\nLocked and hidden entries\nCustom fonts and text colors\nFreehand canvas drawing\nCover photos\nMulti-account support\nWhat we never do:\nNo cloud storage\nNo data collection\nNo ads\nNo surveillance\nNo forced features\nYour data never leaves your device. Ever.\nOpen source — check the code yourself.\nBuilt by a 16-year-old developer from Bursa, Turkey.",
     "icon": "https://github.com/user-attachments/assets/15626075-3b33-4d88-8a3e-10fba8d49fe2",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -13585,7 +13585,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "Mustafa G\u00f6ksal",
+    "author": "Mustafa Göksal",
     "officialSite": "",
     "screenshots": [
       "https://github.com/user-attachments/assets/db7f8e25-38b0-442d-88a1-8dadf9246c34",
@@ -13601,7 +13601,7 @@
   {
     "id": "clock",
     "name": "Clock",
-    "description": "Clock is a customizable, privacy\u2011first, open-source clock app inspired by AOSP Clock.\nIt combines modern design, powerful features, and transparency \u2014 giving you full control over your time.",
+    "description": "Clock is a customizable, privacy‑first, open-source clock app inspired by AOSP Clock.\nIt combines modern design, powerful features, and transparency — giving you full control over your time.",
     "icon": "https://raw.githubusercontent.com/BlackyHawky/Clock/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -13861,7 +13861,7 @@
   {
     "id": "slipnet",
     "name": "SlipNet",
-    "description": "Android (cross platform linux/windows supported) VPN client with DNS tunneling (DNSTT & Slipstream), NaiveProxy, SSH, Tor, and DoH support \u2014 featuring a built-in DNS scanner.",
+    "description": "Android (cross platform linux/windows supported) VPN client with DNS tunneling (DNSTT & Slipstream), NaiveProxy, SSH, Tor, and DoH support — featuring a built-in DNS scanner.",
     "icon": "https://raw.githubusercontent.com/anonvector/SlipNet/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_monochrome.webp",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -14043,7 +14043,7 @@
   {
     "id": "path",
     "name": "Path",
-    "description": "Path is a lightweight step tracking app built for people who want a simple and private way to monitor daily activity. It tracks your steps using your phone\u2019s hardware sensors while keeping everything stored locally on your device. The app focuses on minimal design, battery efficiency, and clean progress visualization without unnecessary tracking or data collection.",
+    "description": "Path is a lightweight step tracking app built for people who want a simple and private way to monitor daily activity. It tracks your steps using your phone’s hardware sensors while keeping everything stored locally on your device. The app focuses on minimal design, battery efficiency, and clean progress visualization without unnecessary tracking or data collection.",
     "icon": "https://raw.githubusercontent.com/sidhant947/Path/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -14438,7 +14438,7 @@
   {
     "id": "quickpic-gallery-mod",
     "name": "QuickPic gallery mod",
-    "description": "A modernized version of the classic QuickPic Gallery, focused on speed, stability, and simplicity. It includes multiple bug fixes, improved compatibility with recent Android versions, and a refreshed Material 3 design \u2014 while preserving the lightweight, fast, and offline-first experience of the original app.",
+    "description": "A modernized version of the classic QuickPic Gallery, focused on speed, stability, and simplicity. It includes multiple bug fixes, improved compatibility with recent Android versions, and a refreshed Material 3 design — while preserving the lightweight, fast, and offline-first experience of the original app.",
     "icon": "https://raw.githubusercontent.com/WSTxda/QP-Gallery-Releases/master/Images/Banner.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -14575,7 +14575,7 @@
   {
     "id": "hellochinese-revanced",
     "name": "HelloChinese Morphe",
-    "description": "Designed in a fun and highly effective manner, HelloChinese helps you rapidly learn Mandarin Chinese from scratch to a conversational level. With HelloChinese, learners can 'learn the Chinese language, explore Chinese culture' \u2013 you will not only learn Mandarin Chinese but also enjoy the process of delving into the culture intertwined with the language.\n\nPatches Applied : \n - Enable Premium",
+    "description": "Designed in a fun and highly effective manner, HelloChinese helps you rapidly learn Mandarin Chinese from scratch to a conversational level. With HelloChinese, learners can 'learn the Chinese language, explore Chinese culture' – you will not only learn Mandarin Chinese but also enjoy the process of delving into the culture intertwined with the language.\n\nPatches Applied : \n - Enable Premium",
     "icon": "https://play-lh.googleusercontent.com/3tSOq5FMoNE0li0dwKqJHIAOCUlac7UuV7jYvX1eaKH_fYrME4c8YMCGaJnB7IXx7e--=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -14663,7 +14663,7 @@
   {
     "id": "windy-revanced",
     "name": "Windy Morphe",
-    "description": "Windy.com is an extraordinary tool for weather forecast visualization. It\u2019s fast, intuitive, detailed and most accurate weather app trusted by professional pilots, paragliders, skydivers, kiters, surfers, boaters, fishermen, storm chasers and weather geeks, and even by governments, army staffs and rescue teams. Whether you are tracking a tropical storm or potential severe weather, planning a trip, pursuing your favourite outdoor sport, or you just need to know if it will rain this weekend, Windy provides you with the most up-to-date weather forecast around.",
+    "description": "Windy.com is an extraordinary tool for weather forecast visualization. It’s fast, intuitive, detailed and most accurate weather app trusted by professional pilots, paragliders, skydivers, kiters, surfers, boaters, fishermen, storm chasers and weather geeks, and even by governments, army staffs and rescue teams. Whether you are tracking a tropical storm or potential severe weather, planning a trip, pursuing your favourite outdoor sport, or you just need to know if it will rain this weekend, Windy provides you with the most up-to-date weather forecast around.",
     "icon": "https://play-lh.googleusercontent.com/qXBOdC6WVNPPZso8m5_Z_lCiNTG130ZwHAumXlLpF5r9yaPYICJw9tGGtPt5v9yh35E=s48-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -14693,7 +14693,7 @@
   {
     "id": "google-news-revanced",
     "name": "Google News Morphe",
-    "description": "Google News is a personalised news aggregator that organises and highlights what\u2019s happening in the world so that you can discover more about the stories that matter to you.",
+    "description": "Google News is a personalised news aggregator that organises and highlights what’s happening in the world so that you can discover more about the stories that matter to you.",
     "icon": "https://play-lh.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=w240-h480-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -14722,7 +14722,7 @@
   {
     "id": "pandora-revanced",
     "name": "Pandora Morphe",
-    "description": "Create stations from your favorite songs, artists or genres, search or browse to find recommended stations for your mood or activity, and discover podcasts that speak to you. Download today and get instant access to your favorite artists and podcasts, while staying up to date on the most recent singles and releases. From rap and pop to rock and country, play your favorite artists and stay up to date on today\u2019s top hits and releases. Start streaming all of the current global hits and enjoy your own personalized music experience.",
+    "description": "Create stations from your favorite songs, artists or genres, search or browse to find recommended stations for your mood or activity, and discover podcasts that speak to you. Download today and get instant access to your favorite artists and podcasts, while staying up to date on the most recent singles and releases. From rap and pop to rock and country, play your favorite artists and stay up to date on today’s top hits and releases. Start streaming all of the current global hits and enjoy your own personalized music experience.",
     "icon": "https://play-lh.googleusercontent.com/jm0217jbZ0VJhGU7ecHHoi7MOcY7KMvxY5t1bIsc3KSVwLNbTwkwsfvtHvQkfabSmyNH=s48-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -14751,7 +14751,7 @@
   {
     "id": "webshare",
     "name": "WebShare",
-    "description": "WebShare is a local file sharing app. You open it, tap \"Start,\" and it gives you a link. Anyone on your WiFi can type that link into their browser and send files or text straight to your phone. No cloud, no signup, just works.\n\nThere's a PIN option if you don't want random roommates jumping in. You can also see who's connected and block people if needed. That's pretty much it\u2014simple, fast, gets the job done.",
+    "description": "WebShare is a local file sharing app. You open it, tap \"Start,\" and it gives you a link. Anyone on your WiFi can type that link into their browser and send files or text straight to your phone. No cloud, no signup, just works.\n\nThere's a PIN option if you don't want random roommates jumping in. You can also see who's connected and block people if needed. That's pretty much it—simple, fast, gets the job done.",
     "icon": "https://raw.githubusercontent.com/SatyaSnehith/WebShare/master/images/bluew.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -14831,7 +14831,7 @@
   {
     "id": "lectro",
     "name": "Lectro",
-    "description": "A modern Android app to manage your class schedule, track attendance, organize notes, and stay on top of assignments and exams \u2014 all in one place.",
+    "description": "A modern Android app to manage your class schedule, track attendance, organize notes, and stay on top of assignments and exams — all in one place.",
     "icon": "https://raw.githubusercontent.com/Pankaj-Meharchandani/Lectro/master/app/src/main/ic_launcher-playstore.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -15049,7 +15049,7 @@
   {
     "id": "com.artemchep.keyguard",
     "name": "Keyguard",
-    "description": "Alternative client for the Bitwarden\u00ae platform & KeePass (KDBX), created to provide the best user experience possible.",
+    "description": "Alternative client for the Bitwarden® platform & KeePass (KDBX), created to provide the best user experience possible.",
     "icon": "https://play-lh.googleusercontent.com/Mj9p6iprxzwTRUIjB-qnlWTfSE4_K3kIuU0tM0v_u4fcrrtKD6laDZwmun4kbb2x-g=w480-h960-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -15105,7 +15105,7 @@
   {
     "id": "homebot",
     "name": "HomeBot",
-    "description": "HomeBot transforms the long\u2011press home or swipe gesture into a versatile productivity hub, letting you launch any app, run a floating web\u2011search bar, or pull up an overlay calculator without leaving your current screen; it also offers quick toggles for flashlight, brightness, and other system functions, all organized in a smart grid layout that\u2019s fast, lightweight, and designed for seamless multitasking.",
+    "description": "HomeBot transforms the long‑press home or swipe gesture into a versatile productivity hub, letting you launch any app, run a floating web‑search bar, or pull up an overlay calculator without leaving your current screen; it also offers quick toggles for flashlight, brightness, and other system functions, all organized in a smart grid layout that’s fast, lightweight, and designed for seamless multitasking.",
     "icon": "https://raw.githubusercontent.com/diekaiju/homebot/refs/heads/master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -15132,7 +15132,7 @@
   {
     "id": "suvmusic",
     "name": "SuvMusic",
-    "description": "SuvMusic is a premium, open-source music streaming application designed for high-resolution audio enthusiasts. \ud83c\udfb6",
+    "description": "SuvMusic is a premium, open-source music streaming application designed for high-resolution audio enthusiasts. 🎶",
     "icon": "https://raw.githubusercontent.com/suvojeet-sengupta/SuvMusic/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -15245,7 +15245,7 @@
   {
     "id": "ventarys-ai",
     "name": "Ventarys Ai",
-    "description": "Ventarys AI es una aplicaci\u00f3n de chat moderna para Android inspirada en la interfaz de ChatGPT, dise\u00f1ada con Jetpack Compose y Material3. Permite chatear con m\u00faltiples modelos de lenguaje de alto rendimiento de forma gratuita o utilizando tus propias API Keys.",
+    "description": "Ventarys AI es una aplicación de chat moderna para Android inspirada en la interfaz de ChatGPT, diseñada con Jetpack Compose y Material3. Permite chatear con múltiples modelos de lenguaje de alto rendimiento de forma gratuita o utilizando tus propias API Keys.",
     "icon": "https://raw.githubusercontent.com/Juanoto2012/Ventarys-Mobile/refs/heads/master/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -15270,7 +15270,7 @@
   {
     "id": "mpx",
     "name": "MPx",
-    "description": "A media player for android built on mpv player with nice UI.\nClean Architecture \u2022 Offline-First Design \u2022 Professional Code Quality \u2022 Zero Tracking \u2022 Zero Analytics",
+    "description": "A media player for android built on mpv player with nice UI.\nClean Architecture • Offline-First Design • Professional Code Quality • Zero Tracking • Zero Analytics",
     "icon": "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/refs/heads/master/web/icons/Icon-192.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -15495,7 +15495,7 @@
   {
     "id": "deepdenoiser",
     "name": "DeepDenoiser",
-    "description": "DeepDenoiser is a powerful, open-source mobile application designed to remove background noise from your audio and video files instantly.\n\nPowered by the state-of-the-art DeepFilterNet3 model, it runs entirely on your device\u2014ensuring your data remains private and your processing is lightning fast.",
+    "description": "DeepDenoiser is a powerful, open-source mobile application designed to remove background noise from your audio and video files instantly.\n\nPowered by the state-of-the-art DeepFilterNet3 model, it runs entirely on your device—ensuring your data remains private and your processing is lightning fast.",
     "icon": "https://raw.githubusercontent.com/sayampy/deepdenoiser/refs/heads/master/assets/images/android-icon-background.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -15520,7 +15520,7 @@
   {
     "id": "pdf-tools",
     "name": "PDF Tools",
-    "description": "Privacy-first, offline PDF editor for Android. Merge, split, compress, convert , annotate PDFs and many more \u2014 100% on-device, no internet required.",
+    "description": "Privacy-first, offline PDF editor for Android. Merge, split, compress, convert , annotate PDFs and many more — 100% on-device, no internet required.",
     "icon": "https://raw.githubusercontent.com/Karna14314/Pdf_Tools/refs/heads/master/store_assets/app_icon_512.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -16128,7 +16128,7 @@
   {
     "id": "shiori",
     "name": "Shiori",
-    "description": "A Beautiful and Feature-rich Wallpaper App with Cross-sharing support, Built in React-native (using the wall haven API) made with \u2764",
+    "description": "A Beautiful and Feature-rich Wallpaper App with Cross-sharing support, Built in React-native (using the wall haven API) made with ❤",
     "icon": "https://raw.githubusercontent.com/Brianali-codes/Shiori/master/assets/images/shiori-icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -16205,7 +16205,7 @@
   {
     "id": "stepsy",
     "name": "Stepsy",
-    "description": "If you want a clean and simple way to track your daily steps, Stepsy is a perfect choice. It uses your phone\u2019s built-in sensors to count steps accurately while keeping battery usage extremely low. With a privacy-focused design and offline data storage, your activity stays completely on your device.",
+    "description": "If you want a clean and simple way to track your daily steps, Stepsy is a perfect choice. It uses your phone’s built-in sensors to count steps accurately while keeping battery usage extremely low. With a privacy-focused design and offline data storage, your activity stays completely on your device.",
     "icon": "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -16374,7 +16374,7 @@
   {
     "id": "frapp",
     "name": "Frapp",
-    "description": "Frapp (Freebie Radar APP) Get video game giveaways at the comfort of your mobile phone made with \ud83e\udde1by Brian Ali.",
+    "description": "Frapp (Freebie Radar APP) Get video game giveaways at the comfort of your mobile phone made with 🧡by Brian Ali.",
     "icon": "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/icon.jpg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -16564,7 +16564,7 @@
   {
     "id": "openaudiobookify",
     "name": "OpenAudioBookify",
-    "description": "OpenAudioBookify is an open source Android app which allows you to select one or more plaintext, markdown, HTML or EPUB documents and generate an M4A audio file of the machine spoken ebook, which you can then load into your favourite podcast player.\n\u2022 uses System Text-to-Speech engines\n\u2022No Api Key Needed \n\u2022Fully local\n\n\n~ShadowForLight",
+    "description": "OpenAudioBookify is an open source Android app which allows you to select one or more plaintext, markdown, HTML or EPUB documents and generate an M4A audio file of the machine spoken ebook, which you can then load into your favourite podcast player.\n• uses System Text-to-Speech engines\n•No Api Key Needed \n•Fully local\n\n\n~ShadowForLight",
     "icon": "https://raw.githubusercontent.com/alzwded/OpenAudioBookify/main/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -16589,7 +16589,7 @@
   {
     "id": "tap-ducky",
     "name": "Tap-Ducky",
-    "description": "TapDucky lets you create, customize, schedule, and run DuckyScript on Android by emulating a USB keyboard, mouse, or composite HID device for authorized testing and automation. It includes payload parameterization, multiple scheduler triggers, execution logs, and a GitHub-backed payload library with automatic DuckyScript validation and optional Digispark .ino conversion.\n\u2022 Rooted Device Only\n\u2022 Only For Advance Users\n\u2022 Don't Misuse it \n\n\n~ShadowForLight",
+    "description": "TapDucky lets you create, customize, schedule, and run DuckyScript on Android by emulating a USB keyboard, mouse, or composite HID device for authorized testing and automation. It includes payload parameterization, multiple scheduler triggers, execution logs, and a GitHub-backed payload library with automatic DuckyScript validation and optional Digispark .ino conversion.\n• Rooted Device Only\n• Only For Advance Users\n• Don't Misuse it \n\n\n~ShadowForLight",
     "icon": "https://raw.githubusercontent.com/iodn/tap-ducky/master/assets/images/logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -16617,7 +16617,7 @@
   {
     "id": "mora",
     "name": "Mora",
-    "description": "Mora - The ported R3DMAG!C mascot for Android \ud83c\udf1f\n\u2022 Live 2D/3D Model \n\u2022 Mora Interactive Wallpaper\n\u2022 Change Mora Skin\n\u2022 Mora Virtual Pet\n\u2022 Mora Care\n\u2022 Mora Live\n\u2022 AR Camera\n\n~ShadowForLight",
+    "description": "Mora - The ported R3DMAG!C mascot for Android 🌟\n• Live 2D/3D Model \n• Mora Interactive Wallpaper\n• Change Mora Skin\n• Mora Virtual Pet\n• Mora Care\n• Mora Live\n• AR Camera\n\n~ShadowForLight",
     "icon": "https://iili.io/BadH5PV.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -16647,7 +16647,7 @@
   {
     "id": "root-checker",
     "name": "Root Checker",
-    "description": "FOSS Root Checker as the name suggests is an Open Source Root Checker app for verifying Root Access on Android Mobile Devices. Ever wondered what Root Checker Apps do behind the scenes on your Phones once you give them Root Access?\nHave both online and offline versions-\n\u00b9 foss.chillastro.root.checker\n\u00b2 foss.chillastro.root.checker.offline\n\n\n\n~ShadowForLight",
+    "description": "FOSS Root Checker as the name suggests is an Open Source Root Checker app for verifying Root Access on Android Mobile Devices. Ever wondered what Root Checker Apps do behind the scenes on your Phones once you give them Root Access?\nHave both online and offline versions-\n¹ foss.chillastro.root.checker\n² foss.chillastro.root.checker.offline\n\n\n\n~ShadowForLight",
     "icon": "https://raw.githubusercontent.com/Chill-Astro/FOSS-Root-Checker/master/app/src/main/res/mipmap-hdpi/root_logo_round.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -16976,7 +16976,7 @@
   {
     "id": "ulap-free-unlimited-media-backup",
     "name": "Ulap: Free & Unlimited Media Backup",
-    "description": "Back up your photos and videos for free \u2014 no storage limits, no subscriptions, no file size restrictions. Ulap uses Telegram as your personal cloud vault, keeping your memories private and accessible from anywhere. Import your entire Google Photos library in one tap and stream your videos instantly.",
+    "description": "Back up your photos and videos for free — no storage limits, no subscriptions, no file size restrictions. Ulap uses Telegram as your personal cloud vault, keeping your memories private and accessible from anywhere. Import your entire Google Photos library in one tap and stream your videos instantly.",
     "icon": "https://raw.githubusercontent.com/neil-cena/ulap/refs/heads/main/screenshots/app-icon_source.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17004,7 +17004,7 @@
   {
     "id": "diary",
     "name": "Diary",
-    "description": "Diary app lets you write daily activities, ideas, and thoughts while keeping everything organized by date like a traditional journal. Entries are stored locally as plain text files, ensuring easy backup and full user control. It supports markdown formatting, media integration, maps, calendar sync, and fast search. With customizable templates, themes, widgets, and export options, it provides a lightweight yet powerful journaling experience focused on privacy and simplicity.\n\u2022 Local plain text storage\n\u2022 Markdown support\n\u2022 Media & map integration\n\u2022 Calendar sync & events\n\u2022 Search & widgets\n\u2022 Backup to ZIP\n\u2022 Dark/light themes\nForked from https://git.savannah.gnu.org/cgit/diary.git\u2060\ufffd updated for Android 4+",
+    "description": "Diary app lets you write daily activities, ideas, and thoughts while keeping everything organized by date like a traditional journal. Entries are stored locally as plain text files, ensuring easy backup and full user control. It supports markdown formatting, media integration, maps, calendar sync, and fast search. With customizable templates, themes, widgets, and export options, it provides a lightweight yet powerful journaling experience focused on privacy and simplicity.\n• Local plain text storage\n• Markdown support\n• Media & map integration\n• Calendar sync & events\n• Search & widgets\n• Backup to ZIP\n• Dark/light themes\nForked from https://git.savannah.gnu.org/cgit/diary.git⁠� updated for Android 4+",
     "icon": "https://raw.githubusercontent.com/billthefarmer/diary/v1.105/data/ic_launcher.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17032,7 +17032,7 @@
   {
     "id": "milktea",
     "name": "Milktea",
-    "description": "Milktea is an Android app for Mastodon and Misskey client application\nMilktea was developed with the following goals in mind:\n\n- To make the Fediverse experience as seamless as possible, minimizing the awareness of software differences.\n\nProvide an Android-like UI\n\n- The UI should be easy to use and intuitive for users migrating from competing services.\n\n- Add unique features to make it easier to use.\n\n\u30fbAbility to carry out continuous development\n\nTo enable people to live a Fediverse life without being conscious of the existence of the Fediverse.",
+    "description": "Milktea is an Android app for Mastodon and Misskey client application\nMilktea was developed with the following goals in mind:\n\n- To make the Fediverse experience as seamless as possible, minimizing the awareness of software differences.\n\nProvide an Android-like UI\n\n- The UI should be easy to use and intuitive for users migrating from competing services.\n\n- Add unique features to make it easier to use.\n\n・Ability to carry out continuous development\n\nTo enable people to live a Fediverse life without being conscious of the existence of the Fediverse.",
     "icon": "https://raw.githubusercontent.com/pantasystem/Milktea/refs/heads/develop/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17083,7 +17083,7 @@
   {
     "id": "wg-tunnel",
     "name": "WG Tunnel",
-    "description": "WG Tunnel is an alternative Android client for WireGuard and AmneziaWG, inspired by the official WireGuard Android app. It fills gaps in the official client by adding advanced features like auto-tunneling (on-demand VPN activation), while seamlessly supporting both protocols across app modes\u2014including Kernel (for direct WireGuard kernel integration; AmneziaWG not supported), VPN (standard system-level tunneling), Lockdown (a custom kill switch for leak prevention), and Proxy (built-in HTTP/SOCKS5 forwarding)\u2014for enhanced privacy, censorship resistance, and flexibility.",
+    "description": "WG Tunnel is an alternative Android client for WireGuard and AmneziaWG, inspired by the official WireGuard Android app. It fills gaps in the official client by adding advanced features like auto-tunneling (on-demand VPN activation), while seamlessly supporting both protocols across app modes—including Kernel (for direct WireGuard kernel integration; AmneziaWG not supported), VPN (standard system-level tunneling), Lockdown (a custom kill switch for leak prevention), and Proxy (built-in HTTP/SOCKS5 forwarding)—for enhanced privacy, censorship resistance, and flexibility.",
     "icon": "https://raw.githubusercontent.com/wgtunnel/android/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17135,7 +17135,7 @@
   {
     "id": "nomorebackground",
     "name": "NoMoreBackground",
-    "description": "A tool to manage which Android\u2122 apps can run in the background.\n\nYou probably don't need some random takeaway app doing anything in the background. And maybe you don't want that mobile game wasting your data when you're not using it.\n\nNoMoreBackground gives you a list of your apps and lets you choose which of them you want having background permissions, all on one screen, to help you get the most out of your battery.\n\nAnd the best part? When you're done, you can close NoMoreBackground and move on with your life. No need to \"optimize\" every day like some other tools: set and forget!\n\nTip: Some apps may still run in the background even if you turn them off here.\nIf you use an app very infrequently, right click it and archive it. The app itself will be uninstalled but its data will remain. This means when you next open it, it'll be reinstalled and you'll still be logged in.\n\nAndroid is a trademark of Google LLC.",
+    "description": "A tool to manage which Android™ apps can run in the background.\n\nYou probably don't need some random takeaway app doing anything in the background. And maybe you don't want that mobile game wasting your data when you're not using it.\n\nNoMoreBackground gives you a list of your apps and lets you choose which of them you want having background permissions, all on one screen, to help you get the most out of your battery.\n\nAnd the best part? When you're done, you can close NoMoreBackground and move on with your life. No need to \"optimize\" every day like some other tools: set and forget!\n\nTip: Some apps may still run in the background even if you turn them off here.\nIf you use an app very infrequently, right click it and archive it. The app itself will be uninstalled but its data will remain. This means when you next open it, it'll be reinstalled and you'll still be logged in.\n\nAndroid is a trademark of Google LLC.",
     "icon": "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/icon_SPtkezatdQHrqSf_3LFAIYy-QR17_nIzKuryY4qJ0PI=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17212,7 +17212,7 @@
   {
     "id": "to-do",
     "name": "To Do",
-    "description": "A simple and intuitive To Do list based on the app\nbundled with Palm Pilot, plus many other features:\n\n\u2022 Create any number of categories for different lists.\n\n\u2022 Set alarms for items that are due or nearly due.\n\n\u2022 Configure repeating items which advance their due date when completed.\n\n\u2022Mark items as private and optionally encrypt them with a password.\n\n\u2022 Export lists to a local XML file.\n\n\u2022 Import lists from either XML or a Palm Pilot data file.\n\n\u2022 Backwards compatible with Android 4 (Ice Cream Sandwich) and up.",
+    "description": "A simple and intuitive To Do list based on the app\nbundled with Palm Pilot, plus many other features:\n\n• Create any number of categories for different lists.\n\n• Set alarms for items that are due or nearly due.\n\n• Configure repeating items which advance their due date when completed.\n\n•Mark items as private and optionally encrypt them with a password.\n\n• Export lists to a local XML file.\n\n• Import lists from either XML or a Palm Pilot data file.\n\n• Backwards compatible with Android 4 (Ice Cream Sandwich) and up.",
     "icon": "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/icon_CAzgWvWQQmgOs-gKu4qW-NHmkI2cppMh0eANpyDlnjY=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17316,7 +17316,7 @@
   {
     "id": "untisplus",
     "name": "UntisPlus",
-    "description": "A modern, Android-first Flutter client for WebUntis: timetable, exams, school info, widgets, and optional AI features.\n\nOverview\n\nUntis+ focuses on a clean, fast school companion:\n\n\u2022 Weekly timetable with lesson details, cancellations, and substitutions\n\u2022 Exams overview (from WebUntis) plus custom exams\n\u2022 Free room search (based on your school\u2019s configured time grid)\n\u2022 School info / announcements feed\n\u2022 Widgets + background refresh and multiple notification types\n\u2022 Optional AI assistant (bring your own API key)",
+    "description": "A modern, Android-first Flutter client for WebUntis: timetable, exams, school info, widgets, and optional AI features.\n\nOverview\n\nUntis+ focuses on a clean, fast school companion:\n\n• Weekly timetable with lesson details, cancellations, and substitutions\n• Exams overview (from WebUntis) plus custom exams\n• Free room search (based on your school’s configured time grid)\n• School info / announcements feed\n• Widgets + background refresh and multiple notification types\n• Optional AI assistant (bring your own API key)",
     "icon": "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Ficon_with_bg.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17346,7 +17346,7 @@
   {
     "id": "pyro-cli",
     "name": "Pyro CLI",
-    "description": "Pyro is a blazing-fast \ud83d\udd25 all-in-one Python developer toolkit that lives entirely in your terminal.\nManage packages, virtual environments, projects, databases, AI assistants, EXE builds, and more \u2014 from a single, beautiful arrow-key interface.\n\nOne EXE. One window. Turn your machine into a Python forge. \u26a1",
+    "description": "Pyro is a blazing-fast 🔥 all-in-one Python developer toolkit that lives entirely in your terminal.\nManage packages, virtual environments, projects, databases, AI assistants, EXE builds, and more — from a single, beautiful arrow-key interface.\n\nOne EXE. One window. Turn your machine into a Python forge. ⚡",
     "icon": "https://avatars.githubusercontent.com/u/236126230?v=4",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17399,7 +17399,7 @@
   {
     "id": "vanilla",
     "name": "Vanilla ",
-    "description": "\ud83c\udf68 Vanilla is a cute and elegant calculator app for Android",
+    "description": "🍨 Vanilla is a cute and elegant calculator app for Android",
     "icon": "https://f-droid.org/repo/com.sosauce.cutecalc/en-US/icon_h5SF_pBY3OdypAAi0ZSEpR4basMTtIaCP0sRdDxpauo=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17505,7 +17505,7 @@
   {
     "id": "chaka",
     "name": "Chaka",
-    "description": "Chaka Book Reader \ud83d\udcd6 - An Android reader app committed to improving reading experience. PDF, EPUB, MOBI, CBZ, FB2, XPS, TXT, HTML, OFFICE(DOCX,XLSX,PPTX) and ZIP/GZIP are supported.",
+    "description": "Chaka Book Reader 📖 - An Android reader app committed to improving reading experience. PDF, EPUB, MOBI, CBZ, FB2, XPS, TXT, HTML, OFFICE(DOCX,XLSX,PPTX) and ZIP/GZIP are supported.",
     "icon": "https://f-droid.org/repo/net.timelegend.chaka.viewer.app/en-US/icon_IDV990nBWZsZCBU4QEZQa1GuQOKrhC0YFVDr6rsUGyI=.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17642,7 +17642,7 @@
   {
     "id": "june",
     "name": "June",
-    "description": "\ud83d\udcd6 An open-source multimedia journal for expressive, private journaling, with 100% data ownership. An open-source alternative to Pixel Journal , Built with Jetpack Compose and Material Design 3",
+    "description": "📖 An open-source multimedia journal for expressive, private journaling, with 100% data ownership. An open-source alternative to Pixel Journal , Built with Jetpack Compose and Material Design 3",
     "icon": "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/assets/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -17934,7 +17934,7 @@
   {
     "id": "oss-weather",
     "name": "OSS Weather",
-    "description": "Weather app that lets you pick between OpenWeather, Open-Meteo, and M\u00e9t\u00e9o France as your data source instead of being locked to one provider. Adds a live precipitation radar overlay via RainViewer on top of whichever source you choose.",
+    "description": "Weather app that lets you pick between OpenWeather, Open-Meteo, and Météo France as your data source instead of being locked to one provider. Adds a live precipitation radar overlay via RainViewer on top of whichever source you choose.",
     "icon": "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -18122,7 +18122,7 @@
   {
     "id": "snowflake",
     "name": "Snowflake",
-    "description": "Snowflake allows people to connect to the Tor network in places where Tor is blocked by routing your connection through volunteer proxies located in uncensored countries.\n\nSimilar to VPNs, which help users bypass Internet censorship, Snowflake disguises your Internet activity as though you\u2019re making a video or voice call, making you less detectable to Internet censors.",
+    "description": "Snowflake allows people to connect to the Tor network in places where Tor is blocked by routing your connection through volunteer proxies located in uncensored countries.\n\nSimilar to VPNs, which help users bypass Internet censorship, Snowflake disguises your Internet activity as though you’re making a video or voice call, making you less detectable to Internet censors.",
     "icon": "https://raw.githubusercontent.com/blocoio/snowflake/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -18172,7 +18172,7 @@
   {
     "id": "subsink",
     "name": "SubSink",
-    "description": "Una app la cual te deja ver de forma visual todo lo que gastas en suscripciones al mes y al a\u00f1o. Puedes a\u00f1adir un presupuesto y ver cuanto gastas cada mes o si tienes que renovar alguna suscripci\u00f3n ",
+    "description": "Una app la cual te deja ver de forma visual todo lo que gastas en suscripciones al mes y al año. Puedes añadir un presupuesto y ver cuanto gastas cada mes o si tienes que renovar alguna suscripción ",
     "icon": "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/main/src/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -18588,7 +18588,7 @@
   {
     "id": "xodo-revanced",
     "name": "Xodo Morphe",
-    "description": "Optimise business workflows with PDF fillable forms, smart annotations, and redaction features. This all-in-one document reader, editor and converter increases efficiency on mobile and tablet. Whether it\u2019s to boost productivity at work or school: scan, edit, sign, annotate and convert documents with ease! Enhance PDF productivity and optimise business workflows with our advanced features, including fillable forms, smart annotations, and secure redaction tools for efficient document management.",
+    "description": "Optimise business workflows with PDF fillable forms, smart annotations, and redaction features. This all-in-one document reader, editor and converter increases efficiency on mobile and tablet. Whether it’s to boost productivity at work or school: scan, edit, sign, annotate and convert documents with ease! Enhance PDF productivity and optimise business workflows with our advanced features, including fillable forms, smart annotations, and secure redaction tools for efficient document management.",
     "icon": "https://play-lh.googleusercontent.com/P4ka1WmoPb6zvl7h7Tzb3M6LE2bK9vCLrdTAHGVMup2lEUEOXxonQWbDd-sf-nY6vbs=s48-rw",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -18678,7 +18678,7 @@
   {
     "id": "analog-onesync",
     "name": "Analog OneSync",
-    "description": "OneSync lets you sync notifications across your devices in real-time. Receive important alerts from one device directly on another \u2014 seamlessly.\n\nFeatures\n- \ud83d\udd04 Real-time notification sync\n-\ud83d\udcf1 Multi-device support\n- \ud83c\udf10 Web app to receive notifications on desktop\n- \ud83c\udfaf App-level filtering (choose which apps to sync)\n- \ud83d\udd10 Google Sign-In authentication\n-\u26a1 Lightweight and fast",
+    "description": "OneSync lets you sync notifications across your devices in real-time. Receive important alerts from one device directly on another — seamlessly.\n\nFeatures\n- 🔄 Real-time notification sync\n-📱 Multi-device support\n- 🌐 Web app to receive notifications on desktop\n- 🎯 App-level filtering (choose which apps to sync)\n- 🔐 Google Sign-In authentication\n-⚡ Lightweight and fast",
     "icon": "https://raw.githubusercontent.com/one-dhiraj/onesync/refs/heads/main/assets/icon/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -18753,7 +18753,7 @@
   {
     "id": "you-tub",
     "name": "You Tub",
-    "description": "YouTub \u2013 Lightweight YouTube Front-End for Unsupported Android Devices\n\nYouTub is a lightweight and fast YouTube front-end designed specifically for older Android devices that no longer support the official YouTube app.\n\nMany smartphones running older Android versions (such as Android 4, 5, and 6) cannot install or run the official YouTube application. YouTub solves this problem by providing a simple and efficient alternative that allows users to watch YouTube videos without the heavy official app.\n\n\u2728 Features\n\u25b6\ufe0f Watch YouTube videos on unsupported devices\n\u26a1 Lightweight and fast performance\n\ud83d\udcf1 Compatible with older Android versions\n\ud83d\udd0d Search for videos easily\n\u2764\ufe0f Clean and user-friendly interface\n\ud83c\udf19 Low RAM and battery usage\n\ud83d\udce5 No need for the official YouTube app\n\n\ud83d\udcf1 Supported Devices\nYouTub is ideal for devices that cannot run the official YouTube app, including:\n- Android 4.4 (KitKat)\n- Android 5.0 (Lollipop)\n- Android 6.0 (Marshmallow)\n- Low-end phones with limited RAM and storage\n\n\ud83c\udfaf Purpose\nThe goal of YouTub is to bring YouTube access back to older smartphones, allowing users to enjoy educational, entertainment, and religious content even on devices that are no longer supported.\n\n\u26a0\ufe0f Disclaimer\nYouTub is an independent front-end application and is not affiliated with or endorsed by Google or YouTube.",
+    "description": "YouTub – Lightweight YouTube Front-End for Unsupported Android Devices\n\nYouTub is a lightweight and fast YouTube front-end designed specifically for older Android devices that no longer support the official YouTube app.\n\nMany smartphones running older Android versions (such as Android 4, 5, and 6) cannot install or run the official YouTube application. YouTub solves this problem by providing a simple and efficient alternative that allows users to watch YouTube videos without the heavy official app.\n\n✨ Features\n▶️ Watch YouTube videos on unsupported devices\n⚡ Lightweight and fast performance\n📱 Compatible with older Android versions\n🔍 Search for videos easily\n❤️ Clean and user-friendly interface\n🌙 Low RAM and battery usage\n📥 No need for the official YouTube app\n\n📱 Supported Devices\nYouTub is ideal for devices that cannot run the official YouTube app, including:\n- Android 4.4 (KitKat)\n- Android 5.0 (Lollipop)\n- Android 6.0 (Marshmallow)\n- Low-end phones with limited RAM and storage\n\n🎯 Purpose\nThe goal of YouTub is to bring YouTube access back to older smartphones, allowing users to enjoy educational, entertainment, and religious content even on devices that are no longer supported.\n\n⚠️ Disclaimer\nYouTub is an independent front-end application and is not affiliated with or endorsed by Google or YouTube.",
     "icon": "https://raw.githubusercontent.com/Ateeq046/You-Tub/main/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -18797,6 +18797,31 @@
       "https://raw.githubusercontent.com/Gameye98/xtrspc/master/Screenshot_2026-05-14-07-39-09-962_sec.blackhole.xtrspc.jpg",
       "https://raw.githubusercontent.com/Gameye98/xtrspc/master/Screenshot_2026-05-14-07-40-43-026_sec.blackhole.xtrspc.jpg",
       "https://raw.githubusercontent.com/Gameye98/xtrspc/master/Screenshot_2026-05-14-07-45-57-117_sec.blackhole.xtrspc.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "it-tools",
+    "name": "It tools",
+    "description": "Collection of handy online tools for developers, with great UX.\n\nA free open source site with 100+ developers tools and utilities that run locally in your browser.\nNo registration or login. No tracking, popup spam or analytics scripts\nOne website for 30+ random website",
+    "icon": "https://raw.githubusercontent.com/CorentinTh/it-tools/refs/heads/main/public/apple-touch-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/CorentinTh/it-tools",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "CorentinTh",
+    "officialSite": "https://github.com/CorentinTh/it-tools",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/teeest-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/teeest-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/teeest-3.webp"
     ],
     "releaseKeyword": "apk"
   }
