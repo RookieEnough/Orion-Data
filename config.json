@@ -76,10 +76,10 @@
       "title": "Curated Spotlight",
       "appIds": [
         "youtube-revanced",
-        "micts",
+        "MiCTS",
         "meld",
-        "next-player",
-        "weather-master",
+        "nextplayer",
+        "weathermaster",
         "rivophoneapp",
         "adaway",
         "gallery",
@@ -87,59 +87,70 @@
         "messages",
         "applock",
         "librepods",
-        "sd-maid"
+        "sd-maid-se"
       ]
     },
     {
-      "id": "bundle-morphe-essentials",
+      "id": "recommended-bundles",
       "type": "recommendation_bundles",
-      "title": "Morphe Essentials",
-      "description": "Essential media and social apps, morphed for power.",
-      "appIds": [
-        "youtube-revanced",
-        "yt-music-revanced",
-        "google-photos-revanced",
-        "reddit-revanced",
-        "tiktok-revanced",
-        "instagram-piko",
-        "twitter-revanced"
-      ]
-    },
-    {
-      "id": "bundle-de-google",
-      "type": "recommendation_bundles",
-      "title": "De-Google",
-      "description": "Privacy-focused alternatives to stay independent.",
-      "appIds": [
-        "rivophoneapp",
-        "gallery",
-        "messages",
-        "fossify-camera",
-        "brave-browser",
-        "material-files",
-        "pixelplay",
-        "next-player",
-        "organic-maps"
-      ]
-    },
-    {
-      "id": "bundle-power-users",
-      "type": "recommendation_bundles",
-      "title": "Power Users",
-      "description": "Advanced tools for those who want total control.",
-      "appIds": [
-        "shizuku",
-        "ventoid",
-        "universal-installer",
-        "pocketpal",
-        "ashell-you",
-        "athena",
-        "disky",
-        "npatch",
-        "termux",
-        "dnsnet",
-        "sdk-monitor",
-        "antisplit-m"
+      "title": "Recommended App Bundles",
+      "subtitle": "Collections of curated apps for your workflow",
+      "bundles": [
+        {
+          "id": "bundle-morphe-essentials",
+          "title": "Morphe Essentials",
+          "description": "Essential media and social apps, morphed for power.",
+          "badge": "Hot",
+          "icon": "fa-fire",
+          "appIds": [
+            "youtube-revanced",
+            "yt-music-revanced",
+            "google-photos-revanced",
+            "reddit-revanced",
+            "tiktok-revanced",
+            "instagram-piko",
+            "twitter-revanced"
+          ]
+        },
+        {
+          "id": "bundle-de-google",
+          "title": "De-Google",
+          "description": "Privacy-focused alternatives to stay independent.",
+          "badge": "Privacy",
+          "icon": "fa-user-secret",
+          "appIds": [
+            "rivophoneapp",
+            "gallery",
+            "messages",
+            "fossify-camera",
+            "brave-browser",
+            "material-files",
+            "pixelplay",
+            "next-player",
+            "organic-maps"
+          ]
+        },
+        {
+          "id": "bundle-power-users",
+          "title": "Power Users",
+          "description": "Advanced tools for those who want total control.",
+          "badge": "Pro",
+          "icon": "fa-terminal",
+          "appIds": [
+            "shizuku",
+            "ventoid",
+            "universal-installer",
+            "pocketpal",
+            "ashell-you",
+            "athena",
+            "disky",
+            "npatch",
+            "termux",
+            "dnsnet",
+            "sdk-monitor",
+            "antisplit-m"
+          ]
+        }
       ]
     }
   ]
