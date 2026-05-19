@@ -18850,5 +18850,30 @@
       "https://raw.githubusercontent.com/tonhowtf/omniget/refs/heads/main/assets/screenshot-music.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "https-codeberg-org-freeyourgadget-gadgetbridge",
+    "name": "Gadgetbridge",
+    "description": "Gadgetbridge is an Android application which will allow you to use your Bluetooth gadgets (mostly wearables like smart watches, but many more) without the vendor's closed source application and without the need to create an account and transmit any of your data to the vendor's servers.",
+    "icon": "https://f-droid.org/repo/nodomain.freeyourgadget.gadgetbridge/en-US/icon_X8EVBNWmEaTA1EERH5xgBoSpAan8BNTrrDa4Osj-Da8=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://codeberg.org/Freeyourgadget/Gadgetbridge",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "nodomain.freeyourgadget.gadgetbridge",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Freeyourgadget",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/nodomain.freeyourgadget.gadgetbridge/en-US/phoneScreenshots/11-Devices.png",
+      "https://apt.izzysoft.de/fdroid/repo/nodomain.freeyourgadget.gadgetbridge/en-US/phoneScreenshots/40-SleepPerDay.png",
+      "https://apt.izzysoft.de/fdroid/repo/nodomain.freeyourgadget.gadgetbridge/en-US/phoneScreenshots/70-SportActivities.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
