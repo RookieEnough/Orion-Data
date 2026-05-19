@@ -18824,5 +18824,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/teeest-3.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "omniget",
+    "name": "Omniget",
+    "description": "OmniGet is a free desktop app that downloads videos, courses, books and music from the internet — then plays them inside. One window, no setup, your files stay on your computer.\nFree open-source video, music and course downloader. Grab from YouTube, Instagram, TikTok, Udemy, Hotmart and 1000+ sites via yt-dlp. Then watch, read and listen inside the app. No terminal, no setup.",
+    "icon": "https://raw.githubusercontent.com/tonhowtf/omniget/refs/heads/main/static/loop.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/tonhowtf/omniget",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "tonhowtf",
+    "officialSite": "https://github.com/tonhowtf/omniget",
+    "screenshots": [
+      "https://raw.githubusercontent.com/tonhowtf/omniget/refs/heads/main/assets/screenshot-omnibox.png",
+      "https://raw.githubusercontent.com/tonhowtf/omniget/refs/heads/main/assets/screenshot-courses.png",
+      "https://raw.githubusercontent.com/tonhowtf/omniget/refs/heads/main/assets/screenshot-reader.png",
+      "https://raw.githubusercontent.com/tonhowtf/omniget/refs/heads/main/assets/screenshot-music.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
