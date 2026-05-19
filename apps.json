@@ -18875,5 +18875,32 @@
       "https://apt.izzysoft.de/fdroid/repo/nodomain.freeyourgadget.gadgetbridge/en-US/phoneScreenshots/70-SportActivities.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "study4u",
+    "name": "Study4u",
+    "description": "Local-first student productivity companion",
+    "icon": "https://raw.githubusercontent.com/MoHamed-B-M/study4u/main/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MoHamed-B-M/study4u",
+    "githubRepo": "MoHamed-B-M/study4u",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.study4u",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MoHamed-B-M",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/main/screenshot/Skreenup_1779140422542.png",
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/main/screenshot/Skreenup_1779140432966.png",
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/main/screenshot/Skreenup_1779140444045.png",
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/main/screenshot/Skreenup_1779140457709.png",
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/main/screenshot/Skreenup_1779140469510.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
