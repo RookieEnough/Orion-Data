@@ -18927,5 +18927,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/dev-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "swiftslate",
+    "name": "swiftslate",
+    "description": "Some apps use custom input fields that don't support Android's standard text replacement APIs. SwiftSlate includes a clipboard-based fallback, but apps like WeChat and Chrome's address bar may still not work. Most standard text fields (messaging apps, email composers, notes, etc.) work fine.",
+    "icon": "https://raw.githubusercontent.com/Musheer360/SwiftSlate/master/playstore-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Musheer360/SwiftSlate",
+    "githubRepo": "Musheer360/SwiftSlate",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.musheer360.swiftslate",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Musheer360",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Musheer360/SwiftSlate/master/screenshots/dashboard.png",
+      "https://raw.githubusercontent.com/Musheer360/SwiftSlate/master/screenshots/keys.png",
+      "https://raw.githubusercontent.com/Musheer360/SwiftSlate/master/screenshots/commands.png",
+      "https://raw.githubusercontent.com/Musheer360/SwiftSlate/master/screenshots/settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
