@@ -18902,5 +18902,30 @@
       "https://raw.githubusercontent.com/MoHamed-B-M/study4u/main/screenshot/Skreenup_1779140469510.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "daily",
+    "name": "Daily",
+    "description": "daily.dev is a professional network for developers to learn, collaborate, and grow together. \nThe new tab feed most developers know, but daily.dev is a full developer network: Squads let you build or join niche communities around any tech, post collaboratively, and discuss alongside 1M+ engineers. Free forever, no algorithm hiding content behind a paywall.",
+    "icon": "https://raw.githubusercontent.com/dailydotdev/daily/refs/heads/master/assets/App%20Icon%20-%20White.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/dailydotdev/daily",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Social",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "dailydotdev",
+    "officialSite": "https://github.com/dailydotdev/daily",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dailydotdev/daily/refs/heads/master/assets/github%20repo%20banner%20with%20browser.png",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/dev-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/dev-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
