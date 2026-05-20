@@ -18982,5 +18982,34 @@
       "https://raw.githubusercontent.com/alesimula/Murine-launcher/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "studipassau",
+    "name": "Studipassau",
+    "description": "Access to the Online Portal for Students at the University of Passau",
+    "icon": "https://raw.githubusercontent.com/ThexXTURBOXx/studipassau/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ThexXTURBOXx/studipassau",
+    "githubRepo": "ThexXTURBOXx/studipassau",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "studip_uni_passau.femtopedia.de.unipassaustudip",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ThexXTURBOXx",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ThexXTURBOXx/studipassau/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/ThexXTURBOXx/studipassau/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/ThexXTURBOXx/studipassau/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/ThexXTURBOXx/studipassau/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/ThexXTURBOXx/studipassau/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/ThexXTURBOXx/studipassau/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/ThexXTURBOXx/studipassau/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
