@@ -19011,5 +19011,33 @@
       "https://raw.githubusercontent.com/ThexXTURBOXx/studipassau/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "cake-wallet",
+    "name": "Cake Wallet",
+    "description": "The open source repository for Cake Wallet, a noncustodial multi-currency wallet, and Monero.com, a noncustodial Monero-only wallet. Need help? Check out https://docs.cakewallet.com",
+    "icon": "https://cdn.brandfetch.io/idIdW-JeXX/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1773094011585",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/cake-tech/cake_wallet",
+    "githubRepo": "cake-tech/cake_wallet",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.cakewallet.cake_wallet",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "cake-tech",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/qD5xlGpsMTATSUBtEmEmSyYeTA_7xagg6Sjlt2usFduPzNsgWOBqUXjQYmvWiwlbqbV_=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/x3mE2Hg7s-_KmXKLtSxwMXXIQp7iSrs84uwaUIBCN0MCFKyJz5HVOEbawJzt1_LeX9I=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/_VTWRdcEG5a6Cgd21ssN2mRtWzUv6yh7_Nb_klORGwE2mpkUV5MDrOcgvk-v2t9fOE_O=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/gH-NhOXtgH7winiUZBnq1CpVpa3j40Eu2jr59njfchu4VLUY7S20igYGfuCaqQfBV1c=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/pibrX-YkMo9dRuUHlK7ZIeWGJIaEzOFfDNH2d5xO52ucAEvt2FHIZdXYImzU4TWv5uw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/D_tmcg0qKRBuqPOtIEY9JC1hb-WrqiluO5QtWSBaU0CNgWm575-4_-WKisk1GyY-4nhV=w1052-h592-rw"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
