@@ -19039,5 +19039,30 @@
       "https://play-lh.googleusercontent.com/D_tmcg0qKRBuqPOtIEY9JC1hb-WrqiluO5QtWSBaU0CNgWm575-4_-WKisk1GyY-4nhV=w1052-h592-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "advanced-passgen-android",
+    "name": "Advanced Passgen",
+    "description": "This is a simple Android application that generates passwords based on the user's preferences. The user can choose the length of the password, the number of passwords to generate, and the characters to include in the password. The application also has a feature to copy the generated password to the clipboard.",
+    "icon": "https://f-droid.org/repo/com.codedead.advancedpassgen/en-US/icon_d7BWfksyupYJBb1_PP4TUQHon4TzMG8wBFJJ3P3rSEA=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/CodeDead/advanced-passgen-android",
+    "githubRepo": "CodeDead/advanced-passgen-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.codedead.advancedpassgen",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "CodeDead",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/dWRdr2n0gW0Pv8s-Sz1uDb1gYVM8mbGqj4Rxp0Jr_MIWvfK_IqJUq4UzarzwC6ppqQ=w1052-h592",
+      "https://play-lh.googleusercontent.com/zWwh5-7EgTK-t3V2xsYtvYQeTGmzzMXsIfmFunviupYWwnzRcYXQq1Fw2HdUKFxH=w1052-h592",
+      "https://play-lh.googleusercontent.com/gZPi2GdLXrhgCuEjf7tjWeb5XJ3uY2NOfvLBmgBhN2r5Xer14meEqgfq8cCVgsNSBXM=w1052-h592"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
