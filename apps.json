@@ -19064,5 +19064,30 @@
       "https://play-lh.googleusercontent.com/gZPi2GdLXrhgCuEjf7tjWeb5XJ3uY2NOfvLBmgBhN2r5Xer14meEqgfq8cCVgsNSBXM=w1052-h592"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "seriesguide",
+    "name": "SeriesGuide",
+    "description": "Track your favorite TV shows and movies with this Android app",
+    "icon": "https://raw.githubusercontent.com/UweTrottmann/SeriesGuide/refs/heads/dev/app/src/main/res/mipmap-xxhdpi/ic_app.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/UweTrottmann/SeriesGuide",
+    "githubRepo": "UweTrottmann/SeriesGuide",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.battlelancer.seriesguide",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "UweTrottmann",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/UweTrottmann/SeriesGuide/dev/screenshots/phone.png",
+      "https://www.seriesgui.de/images/hero.png",
+      "https://discuss.seriesgui.de/uploads/default/original/2X/2/2ea46a84c012c2bba0a0def34175c8ad924a9fb8.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
