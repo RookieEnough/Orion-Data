@@ -19220,5 +19220,44 @@
       "https://raw.githubusercontent.com/mlfoundations/open_clip/main/docs/CLIP.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "trucaller-revanced",
+    "name": "Truecaller Morphe",
+    "description": "Your Assistant is now easier to set up. Enable today to handle unknown numbers and detect scams in real time, even from safe-looking numbers, Introducing Family Protection — a new way to keep your loved ones safe from spam and scam calls, Managing unwanted calls is now easier with redesigned block settings and improved control over your protection. This update also includes bug fixes, performance improvements, and a smoother overall experience.",
+    "icon": "https://play-lh.googleusercontent.com/T9WgkoSUXy7wa3_oMRWt-kxsLVtgwMKoX4IdHRU_mF33MKudjAIn1ls-J2XHHo06-rY=s48-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "truecaller",
+    "packageName": "com.truecaller",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "paresh",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/DopaZwAYcRujn4wayt0WlpDZIsPLSuP09ud9bLWj3Lhu14Ec9j3Wl78zJgQb6YPWww=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/bCwgtO0VtEPEtt3FvodYdWKqElfRuL_mEGCl9GPUdjdt3NnNNvsXH0Rl1Z7Ig9pemNVS=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/JTpbRVFZ7NnAVXMcwRJ7MmQ_UMBFvuk9twuWVvGq8FeYpc5rBFURk2uJYWpzNKO_6A0=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/6csQH5TEqOMak8rVQ9v24phZG12jmHdEucr5rvzfyXRE6p7J1us860q1xv67HOInc4s=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/sVMQ_ggG5Juvg4TXm4UCLPm7kv58shvboAkzdcqSoQ72IFdhABQFdvvfOcYeJVXB8XU=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/iMmF1LdKOkHVBIvaszHu1DgtBfitZkYyLulvHGIlXumG2Cm-rEykSnLqti0t30fS98Uk=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/dgfUw4HBv3Qp99JAX8-HrRS4GyNZawGJxXUZoTx5-YxXjbWgwNrPSqJ67sY8_O3ay_F0=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/vdO2J788hiYM4_z8KFhtQ6Kb1sNRpiTgbY98jT-LS22vzfa2gMerDBVf2r59EI76Ifw=w526-h296-rw"
+    ],
+    "patches": [
+      "Disable telemetry",
+      "Disable update check",
+      "GMS sign-in bypass",
+      "Hide Assistant tab",
+      "Hide Family Protection button",
+      "Hide Premium from settings",
+      "Hide Premium tab",
+      "Hide Scams tab",
+      "Neutralize third-party SDKs",
+      "Truecaller Premium"
+    ]
   }
 ]
