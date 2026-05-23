@@ -19319,5 +19319,30 @@
       "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/4.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "rapidraw",
+    "name": "RapidRAW",
+    "description": "A non-destructive RAW editor built as a free alternative to Adobe Lightroom, running entirely on a GPU-accelerated pipeline. The full processing stack runs on your GPU via a custom WGSL shader, so edits with multiple masks stay fluid. At under 20 MB installed, it fits in less space than a single RAW file.",
+    "icon": "https://raw.githubusercontent.com/CyberTimon/RapidRAW/refs/heads/main/src-tauri/icons/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/CyberTimon/RapidRAW",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.CyberTimon.RapidRAW",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "CyberTimon",
+    "officialSite": "https://github.com/CyberTimon/RapidRAW",
+    "screenshots": [
+      "https://raw.githubusercontent.com/CyberTimon/RapidRAW/assets/.github/assets/editor.png",
+      "https://raw.githubusercontent.com/CyberTimon/RapidRAW/assets/.github/assets/editor.png",
+      "https://raw.githubusercontent.com/CyberTimon/RapidRAW/assets/.github/assets/editor.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
