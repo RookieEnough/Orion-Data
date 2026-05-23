@@ -19170,5 +19170,30 @@
       "https://raw.githubusercontent.com/RevEngiSquad/revengi-app/main/fastlane/metadata/android/en-US/images/phoneScreenshots/11.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "voice-recorder",
+    "name": "Voice Recorder",
+    "description": "An easy way of recording any discussion or sounds without ads or internet access",
+    "icon": "https://raw.githubusercontent.com/FossifyOrg/Voice-Recorder/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Voice-Recorder",
+    "githubRepo": "FossifyOrg/Voice-Recorder",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "https://github.com/orgs/FossifyOrg/packages?repo_name=Voice-Recorder",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/FossifyOrg/Voice-Recorder/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://raw.githubusercontent.com/FossifyOrg/Voice-Recorder/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://raw.githubusercontent.com/FossifyOrg/Voice-Recorder/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
