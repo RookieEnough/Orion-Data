@@ -19195,5 +19195,30 @@
       "https://raw.githubusercontent.com/FossifyOrg/Voice-Recorder/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "tidy",
+    "name": "Tidy",
+    "description": "Offline semantic Text-to-Image and Image-to-Image search on Android powered by quantized state-of-the-art vision-language pretrained CLIP model and ONNX Runtime inference engine",
+    "icon": "https://f-droid.org/repo/com.slavabarkov.tidy/en-US/icon_ZY7Yl3BAEDP52Wd1LjYqxdtCOGQBlDncvntdS6O06ao=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/slavabarkov/tidy",
+    "githubRepo": "slavabarkov/tidy",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.slavabarkov.tidy",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "slavabarkov",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/slavabarkov/tidy/main/res/text-to-image.jpg",
+      "https://raw.githubusercontent.com/slavabarkov/tidy/main/res/image-to-image.jpg",
+      "https://raw.githubusercontent.com/mlfoundations/open_clip/main/docs/CLIP.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
