@@ -19288,5 +19288,36 @@
       "https://raw.githubusercontent.com/r0adkll/Campfire/refs/heads/main/.github/art/screens/Detail2.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "hermes-agent",
+    "name": "Hermes Agent",
+    "description": "The self-improving AI agent built by Nous Research. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop — talk to it from Telegram while it works on a cloud VM.",
+    "icon": "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/icon_Vmt_ZSB-ZYViuznDexWlEyDokVjl4UhagHw7RtdIDpo=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/adybag14-cyber/hermes-agent",
+    "githubRepo": "adybag14-cyber/hermes-agent",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nousresearch.hermesagent",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "adybag14-cyber",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/00-chat.jpg",
+      "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/01-accounts.jpg",
+      "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/1.jpg",
+      "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/02-portal.jpg",
+      "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/03-device.jpg",
+      "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/3.jpg",
+      "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/04-settings.jpg",
+      "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/5.jpg",
+      "https://f-droid.org/repo/com.nousresearch.hermesagent/en-US/phoneScreenshots/4.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
