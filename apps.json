@@ -19259,5 +19259,34 @@
       "Neutralize third-party SDKs",
       "Truecaller Premium"
     ]
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "description": "A KMP Compose app for Audiobookshelf",
+    "icon": "https://raw.githubusercontent.com/r0adkll/Campfire/refs/heads/main/.idea/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/r0adkll/Campfire",
+    "githubRepo": "r0adkll/Campfire",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.campfire.android",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "r0adkll",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/r0adkll/Campfire/refs/heads/main/.github/art/screens/Home.png",
+      "https://raw.githubusercontent.com/r0adkll/Campfire/refs/heads/main/.github/art/screens/Detail.png",
+      "https://raw.githubusercontent.com/r0adkll/Campfire/refs/heads/main/.github/art/screens/PlayerView.png",
+      "https://raw.githubusercontent.com/r0adkll/Campfire/refs/heads/main/.github/art/screens/Library.png",
+      "https://raw.githubusercontent.com/r0adkll/Campfire/refs/heads/main/.github/art/screens/Stats.png",
+      "https://raw.githubusercontent.com/r0adkll/Campfire/refs/heads/main/.github/art/screens/Search.png",
+      "https://raw.githubusercontent.com/r0adkll/Campfire/refs/heads/main/.github/art/screens/Detail2.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
