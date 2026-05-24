@@ -19427,5 +19427,30 @@
       "https://github.com/seemoo-lab/AirGuard/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "osint-tools",
+    "name": "OSINT Tools",
+    "description": "OSINT tools application for Android",
+    "icon": "https://raw.githubusercontent.com/Gameye98/OSINT-Tools/master/app/src/main/res/drawable/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Gameye98/OSINT-Tools",
+    "githubRepo": "Gameye98/OSINT-Tools",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.gameye98.osint",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Gameye98",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Gameye98/OSINT-Tools/master/screenshot01.jpg",
+      "https://raw.githubusercontent.com/Gameye98/OSINT-Tools/master/screenshot02.jpg",
+      "https://raw.githubusercontent.com/Gameye98/OSINT-Tools/master/screenshot03.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
