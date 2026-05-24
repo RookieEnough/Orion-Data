@@ -19687,5 +19687,30 @@
       "https://raw.githubusercontent.com/M66B/FairEmail/master/screenshots/messages-compact.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "simutil",
+    "name": "Simutil",
+    "description": "A TUI for launching Android Emulators and iOS Simulators without opening Android Studio or Xcode. Hit Enter to boot any device, switch between simulators and emulators side-by-side, and connect to physical Android devices wirelessly with QR code or 6-digit pairing.",
+    "icon": "https://raw.githubusercontent.com/dungngminh/simutil/refs/heads/main/art/simutil.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/dungngminh/simutil",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Development",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "dungngminh",
+    "officialSite": "https://github.com/dungngminh/simutil",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dungngminh/simutil/refs/heads/main/art/showcase.png",
+      "https://raw.githubusercontent.com/dungngminh/simutil/refs/heads/main/art/adb_tools.png",
+      "https://raw.githubusercontent.com/dungngminh/simutil/refs/heads/main/art/showcase.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
