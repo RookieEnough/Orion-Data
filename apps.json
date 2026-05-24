@@ -19608,5 +19608,31 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/avnac-3.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "open-design",
+    "name": "Open Design",
+    "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
+    "icon": "https://raw.githubusercontent.com/nexu-io/open-design/60bd58a1f36430c0033897ebd70be16c6df1b327/apps/web/public/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/nexu-io/open-design",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Development",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "nexu-io",
+    "officialSite": "https://github.com/nexu-io/open-design",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nexu-io/open-design/refs/heads/main/docs/screenshots/01-entry-view.png",
+      "https://raw.githubusercontent.com/nexu-io/open-design/refs/heads/main/docs/screenshots/02-question-form.png",
+      "https://raw.githubusercontent.com/nexu-io/open-design/refs/heads/main/docs/screenshots/06-design-systems-library.png",
+      "https://raw.githubusercontent.com/nexu-io/open-design/refs/heads/main/docs/screenshots/08-mobile-app.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
