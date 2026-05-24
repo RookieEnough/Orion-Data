@@ -19372,5 +19372,34 @@
       "https://raw.githubusercontent.com/NeoApplications/Neo-Backup/main/fastlane/metadata/android/en-US/images/phoneScreenshots/settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "retune",
+    "name": "ReTune",
+    "description": "An open-source youtube music client , forked from Muzza from Maloy Begonia \n\nFeatures\n- Play songs from YT/YT Music without ads\n\n- YouTube-Music synchronization\n\n- Importing from Spotify\n\n- Background playback\n\n- Search songs, videos, albums, and playlists from YouTube Music\n\n- Login support\n\n- Cache and download songs for offline playback\n\n- Synchronized lyrics\n\n- Lyrics translator\n\n- Skip silence\n\n- Audio normalization\n\n- Adjust tempo/pitch\n\n- Dynamic theme\n\n- Android Auto support\n\n- Personalized quick picks\n\nCredits\nReTune is a fork based on the work of:\n\n- InnerTune\n\n- OuterTune\n\n- Metrolist\n\n- OpenTune\n\n- Muzza\n\n            Remixed by JNTX Studio.",
+    "icon": "https://raw.githubusercontent.com/Juanoto2012/ReTune/refs/heads/main/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Juanoto2012/ReTune",
+    "githubRepo": "Juanoto2012/ReTune",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.jntx.retune",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "JNTX Studio",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/refs/heads/main/Screenshot_2026-05-23-18-14-00-312_com.jntx.retune.jpg",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/refs/heads/main/Screenshot_2026-05-23-18-14-09-260_com.jntx.retune.jpg",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/refs/heads/main/Screenshot_2026-05-23-18-17-31-411_com.jntx.retune.jpg",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/refs/heads/main/Screenshot_2026-05-23-18-14-15-332_com.jntx.retune.jpg",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/refs/heads/main/Screenshot_2026-05-23-18-17-16-731_com.jntx.retune.jpg",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/refs/heads/main/Screenshot_2026-05-23-18-17-02-705_com.jntx.retune.jpg",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/refs/heads/main/Screenshot_2026-05-23-18-14-24-430_com.jntx.retune.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
