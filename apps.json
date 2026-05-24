@@ -19502,5 +19502,30 @@
       "https://github.com/FossifyOrg/Music-Player/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fossify-launcher",
+    "name": "Fossify Launcher",
+    "description": "A practical and customizable launcher for launching your favorite apps easily.",
+    "icon": "https://github.com/FossifyOrg/Launcher/raw/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Launcher",
+    "githubRepo": "FossifyOrg/Launcher",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.fossify.home",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/FossifyOrg/Launcher/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://github.com/FossifyOrg/Launcher/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://github.com/FossifyOrg/Launcher/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
