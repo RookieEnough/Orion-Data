@@ -19401,5 +19401,31 @@
       "https://raw.githubusercontent.com/Juanoto2012/ReTune/refs/heads/main/Screenshot_2026-05-23-18-14-24-430_com.jntx.retune.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "airguard",
+    "name": "AirGuard",
+    "description": "Protect yourself from being tracked 🌍 by AirTags 🏷 and Find My accessories 📍",
+    "icon": "https://raw.githubusercontent.com/seemoo-lab/AirGuard/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/seemoo-lab/AirGuard",
+    "githubRepo": "seemoo-lab/AirGuard",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "de.seemoo.at_tracking_detection",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "seemoo-lab",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/seemoo-lab/AirGuard/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://github.com/seemoo-lab/AirGuard/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://github.com/seemoo-lab/AirGuard/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+      "https://github.com/seemoo-lab/AirGuard/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
