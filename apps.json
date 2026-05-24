@@ -19583,5 +19583,30 @@
       "https://f-droid.org/repo/net.koofr.vault/en-US/phoneScreenshots/5_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "puter",
+    "name": "Puter",
+    "description": "A full desktop environment that runs in your browser and replaces Dropbox, Google Drive, and OneDrive, with a windowed UI, file manager, app store, and self-hosting support. Every file, app, and game stays under your control in one place, accessible from any device without installing anything.",
+    "icon": "https://raw.githubusercontent.com/HeyPuter/puter/58fc122f0d7d4a9246d8d8fc2d4cf289c69fff40/src/gui/src/icons/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/HeyPuter/puter",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "HeyPuter",
+    "officialSite": "https://github.com/HeyPuter/puter",
+    "screenshots": [
+      "https://raw.githubusercontent.com/HeyPuter/puter/refs/heads/main/src/gui/src/images/screenshot.png",
+      "https://raw.githubusercontent.com/HeyPuter/puter/refs/heads/main/src/gui/src/images/screenshot.png",
+      "https://raw.githubusercontent.com/HeyPuter/puter/refs/heads/main/src/gui/src/images/screenshot.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
