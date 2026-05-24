@@ -19556,5 +19556,32 @@
       "https://raw.githubusercontent.com/JairajJangle/motioneye-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "vault",
+    "name": "Vault",
+    "description": "Koofr Vault is an open-source, client-side encrypted folder for your Koofr cloud storage offering an extra layer of security for your most sensitive files.",
+    "icon": "https://raw.githubusercontent.com/koofr/vault/main/vault-web/src/assets/images/vault-logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/koofr/vault",
+    "githubRepo": "koofr/vault",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.koofrvault.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "koofr",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/net.koofr.vault/en-US/phoneScreenshots/1_en-US.png",
+      "https://f-droid.org/repo/net.koofr.vault/en-US/phoneScreenshots/2_en-US.png",
+      "https://f-droid.org/repo/net.koofr.vault/en-US/phoneScreenshots/3_en-US.png",
+      "https://f-droid.org/repo/net.koofr.vault/en-US/phoneScreenshots/4_en-US.png",
+      "https://f-droid.org/repo/net.koofr.vault/en-US/phoneScreenshots/5_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
