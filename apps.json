@@ -19712,5 +19712,32 @@
       "https://raw.githubusercontent.com/dungngminh/simutil/refs/heads/main/art/showcase.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "neodlp",
+    "name": "Neodlp",
+    "description": "Cross-platform Video/Audio Downloader Desktop App based on YT-DLP with Modern UI and Browser Integration (🦭 Seal for Desktop). A desktop GUI for yt-dlp that ships a fully configured environment out of the box, including a PO Token server, JS runtime, and Aria2 for fast downloads, so you never touch the CLI. A browser extension for Chromium and Firefox lets you right-click any link and send it straight to NeoDLP.",
+    "icon": "https://raw.githubusercontent.com/neosubhamoy/neodlp/refs/heads/main/src-tauri/icons/StoreLogo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/neosubhamoy/neodlp",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "neosubhamoy",
+    "officialSite": "https://github.com/neosubhamoy/neodlp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/neosubhamoy/neodlp/cb39d591e167618e84c5df6d8938dad2c412d1bd/.github/images/mockup.svg",
+      "https://raw.githubusercontent.com/neosubhamoy/neodlp/refs/heads/main/.github/images/downloader.png",
+      "https://raw.githubusercontent.com/neosubhamoy/neodlp/refs/heads/main/.github/images/completed-downloads.png",
+      "https://raw.githubusercontent.com/neosubhamoy/neodlp/refs/heads/main/.github/images/settings.png",
+      "https://raw.githubusercontent.com/neosubhamoy/neodlp/refs/heads/main/.github/images/ongoing-downloads.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
