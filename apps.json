@@ -19659,5 +19659,33 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-05-19 234432-2.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fairemail",
+    "name": "FairEmail",
+    "description": "Fully featured, open source, privacy friendly email app for Android",
+    "icon": "https://raw.githubusercontent.com/M66B/FairEmail/master/images/launcher_icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/M66B/FairEmail",
+    "githubRepo": "M66B/FairEmail",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "eu.faircode.email",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "M66B",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/M66B/FairEmail/master/screenshots/compose.png",
+      "https://raw.githubusercontent.com/M66B/FairEmail/master/screenshots/conversation.png",
+      "https://raw.githubusercontent.com/M66B/FairEmail/master/screenshots/folders-compact.png",
+      "https://raw.githubusercontent.com/M66B/FairEmail/master/screenshots/folders.png",
+      "https://raw.githubusercontent.com/M66B/FairEmail/master/screenshots/messages-black.png",
+      "https://raw.githubusercontent.com/M66B/FairEmail/master/screenshots/messages-compact.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
