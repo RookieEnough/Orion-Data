@@ -19764,5 +19764,31 @@
       "https://raw.githubusercontent.com/zhanghai/Untracker/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "web-check",
+    "name": "Web Check",
+    "description": "Get an insight into the inner-workings of a given website: uncover potential attack vectors, analyse server architecture, view security configurations, and learn what technologies a site is using.\n\nCurrently the dashboard will show: IP info, SSL chain, DNS records, cookies, headers, domain info, search crawl rules, page map, server location, redirect ledger, open ports, traceroute, DNS security extensions, site performance, trackers, associated hostnames, carbon footprint. Stay tuned, as I'll add more soon!\n\nThe aim is to help you easily understand, optimize and secure your website.",
+    "icon": "https://raw.githubusercontent.com/lissy93/web-check/refs/heads/master/.github/web-check-logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/lissy93/web-check",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "lissy93",
+    "officialSite": "https://github.com/lissy93/web-check",
+    "screenshots": [
+      "https://raw.githubusercontent.com/lissy93/web-check/refs/heads/master/.github/screenshots/web-check-screenshot1.png",
+      "https://raw.githubusercontent.com/lissy93/web-check/refs/heads/master/.github/screenshots/web-check-screenshot2.png",
+      "https://raw.githubusercontent.com/lissy93/web-check/refs/heads/master/.github/screenshots/web-check-screenshot3.png",
+      "https://raw.githubusercontent.com/lissy93/web-check/refs/heads/master/.github/screenshots/web-check-screenshot9.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
