@@ -19477,5 +19477,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/onio-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "music-player",
+    "name": "Music Player",
+    "description": "A clean music player with a customizable widget, stylish interface and no ads.",
+    "icon": "https://github.com/FossifyOrg/Music-Player/raw/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Music-Player",
+    "githubRepo": "FossifyOrg/Music-Player",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.fossify.musicplayer",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/FossifyOrg/Music-Player/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://github.com/FossifyOrg/Music-Player/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://github.com/FossifyOrg/Music-Player/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
