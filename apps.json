@@ -19344,5 +19344,33 @@
       "https://raw.githubusercontent.com/CyberTimon/RapidRAW/assets/.github/assets/editor.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "neo-backup",
+    "name": "Neo Backup",
+    "description": "backup manager for android",
+    "icon": "https://raw.githubusercontent.com/NeoApplications/Neo-Backup/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/NeoApplications/Neo-Backup",
+    "githubRepo": "NeoApplications/Neo-Backup",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.machiav3lli.backup",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "NeoApplications",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/NeoApplications/Neo-Backup/main/fastlane/metadata/android/en-US/images/phoneScreenshots/main.png",
+      "https://raw.githubusercontent.com/NeoApplications/Neo-Backup/main/fastlane/metadata/android/en-US/images/phoneScreenshots/details.png",
+      "https://raw.githubusercontent.com/NeoApplications/Neo-Backup/main/fastlane/metadata/android/en-US/images/phoneScreenshots/schedule.png",
+      "https://raw.githubusercontent.com/NeoApplications/Neo-Backup/main/fastlane/metadata/android/en-US/images/phoneScreenshots/batch.png",
+      "https://raw.githubusercontent.com/NeoApplications/Neo-Backup/main/fastlane/metadata/android/en-US/images/phoneScreenshots/filters.png",
+      "https://raw.githubusercontent.com/NeoApplications/Neo-Backup/main/fastlane/metadata/android/en-US/images/phoneScreenshots/settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
