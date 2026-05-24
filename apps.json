@@ -19634,5 +19634,30 @@
       "https://raw.githubusercontent.com/nexu-io/open-design/refs/heads/main/docs/screenshots/08-mobile-app.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "strix",
+    "name": "Strix",
+    "description": "Strix are autonomous AI agents that act just like real hackers - they run your code dynamically, find vulnerabilities, and validate them through actual proof-of-concepts. Built for developers and security teams who need fast, accurate security testing without the overhead of manual pentesting or the false positives of static analysis tools.",
+    "icon": "https://raw.githubusercontent.com/usestrix/strix/refs/heads/main/.github/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/usestrix/strix",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Development",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "usestrix",
+    "officialSite": "https://github.com/usestrix/strix",
+    "screenshots": [
+      "https://raw.githubusercontent.com/usestrix/strix/refs/heads/main/docs/images/screenshot.png",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-05-19 234426-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-05-19 234432-2.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
