@@ -19739,5 +19739,30 @@
       "https://raw.githubusercontent.com/neosubhamoy/neodlp/refs/heads/main/.github/images/ongoing-downloads.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "untracker",
+    "name": "Untracker",
+    "description": "App to help you remove tracking information before sharing links",
+    "icon": "https://raw.githubusercontent.com/zhanghai/Untracker/master/app/src/main/res/mipmap-xxxhdpi/launcher_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/zhanghai/Untracker",
+    "githubRepo": "zhanghai/Untracker",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.zhanghai.android.untracker",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "zhanghai",
+    "officialSite": "https://github.com/simplifaisoul/osiris",
+    "screenshots": [
+      "https://raw.githubusercontent.com/zhanghai/Untracker/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/zhanghai/Untracker/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/zhanghai/Untracker/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
