@@ -19583,5 +19583,30 @@
       "https://f-droid.org/repo/net.koofr.vault/en-US/phoneScreenshots/5_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "avnac",
+    "name": "Avnac",
+    "description": "Avnac is a browser-first design editor for posters, layouts, social graphics, and other canvas-based compositions.\nThere's also an desktop client, you can find on thier site.\nCanva replacement that runs entirely in your browser, saves your work locally, and requires no account. Design posters, layouts, and graphics on a canvas with layers, shapes, text, and images, then export a PNG when you're done. A built-in Magic panel lets you make edits with a text prompt.",
+    "icon": "https://raw.githubusercontent.com/akinloluwami/avnac/refs/heads/main/frontend/public/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/akinloluwami/avnac",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Media",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "akinloluwami",
+    "officialSite": "https://github.com/akinloluwami/avnac",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/avnac-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/avnac-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/avnac-3.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
