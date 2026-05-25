@@ -19815,5 +19815,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/officebrowser-3.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "recordly",
+    "name": "Recordly",
+    "description": "Create polished screen recordings without editing. (Mac/Windows/Linux)\nRecordly is an open-source screen recorder and editor for walkthroughs, demos, product videos, and more. Accepting PRs. ",
+    "icon": "https://raw.githubusercontent.com/webadderallorg/Recordly/refs/heads/main/icons/icons/png/256x256.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/webadderallorg/Recordly",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "webadderallorg",
+    "officialSite": "https://github.com/webadderallorg/Recordly",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/recordly-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/recordly-3.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/recordly-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
