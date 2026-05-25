@@ -19790,5 +19790,30 @@
       "https://raw.githubusercontent.com/lissy93/web-check/refs/heads/master/.github/screenshots/web-check-screenshot9.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "office-website",
+    "name": "Office Website",
+    "description": "Web Office: Local-First & Private. Professional-grade Word, Excel, and PowerPoint editing powered by WebAssembly. Zero data uploads, 100% client-side for uncompromising privacy.",
+    "icon": "https://raw.githubusercontent.com/baotlake/office-website/d970460ca9465085618b73a2b47ef1a1dfbdcd0d/public/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/baotlake/office-website",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "baotlake",
+    "officialSite": "https://github.com/baotlake/office-website",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/officebrowser-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/officebrowser-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/officebrowser-3.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
