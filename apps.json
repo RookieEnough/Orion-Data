@@ -19916,5 +19916,34 @@
       "https://raw.githubusercontent.com/amugofjava/anytime_podcast_player/master/docs/screenshot3b.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "oroi",
+    "name": "Oroi",
+    "description": "Track all your subscriptions. Never miss a renewal. Work offline, no account needed.",
+    "icon": "https://raw.githubusercontent.com/igarridosi/OroiApp/main/screenshots/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/igarridosi/OroiApp",
+    "githubRepo": "igarridosi/OroiApp",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.igarridosi.oroi",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "igarridosi",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/igarridosi/OroiApp/main/screenshots/mainscreen.png",
+      "https://raw.githubusercontent.com/igarridosi/OroiApp/main/screenshots/notification.png",
+      "https://raw.githubusercontent.com/igarridosi/OroiApp/main/screenshots/Slice%203.png",
+      "https://raw.githubusercontent.com/igarridosi/OroiApp/main/screenshots/Slice%204.png",
+      "https://raw.githubusercontent.com/igarridosi/OroiApp/main/screenshots/chart2.png",
+      "https://raw.githubusercontent.com/igarridosi/OroiApp/main/screenshots/Slice%206.png",
+      "https://raw.githubusercontent.com/igarridosi/OroiApp/main/screenshots/mainscreen_darkmode.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
