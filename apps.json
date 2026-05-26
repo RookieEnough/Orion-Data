@@ -19865,5 +19865,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/thesvg-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "changedetection",
+    "name": "ChangeDetection",
+    "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/changewr-1.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/dgtlmoon/changedetection.io",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "dgtlmoon",
+    "officialSite": "https://github.com/dgtlmoon/changedetection.io",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/changewr2-1.webp",
+      "https://raw.githubusercontent.com/dgtlmoon/changedetection.io/refs/heads/master/docs/screenshot.png",
+      "https://raw.githubusercontent.com/dgtlmoon/changedetection.io/refs/heads/master/docs/scheduler.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
