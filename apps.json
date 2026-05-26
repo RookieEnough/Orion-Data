@@ -19840,5 +19840,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/recordly-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "thesvg",
+    "name": "Thesvg",
+    "description": "6,035+ brand SVG icons for developers. Tree-shakeable, typed, open source. ",
+    "icon": "https://raw.githubusercontent.com/glincker/thesvg/dcb7e754b926666647a41ac622d101c0650484e7/public/logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/glincker/thesvg",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "glincker",
+    "officialSite": "https://github.com/glincker/thesvg",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/thesvg-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/thesvg-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/thesvg-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
