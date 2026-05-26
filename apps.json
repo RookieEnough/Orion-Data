@@ -19890,5 +19890,31 @@
       "https://raw.githubusercontent.com/dgtlmoon/changedetection.io/refs/heads/master/docs/scheduler.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "anytime-podcast-player",
+    "name": "Anytime Podcast Player",
+    "description": "Simple, easy to use Podcast player app written in Flutter and Dart.",
+    "icon": "https://raw.githubusercontent.com/amugofjava/anytime_podcast_player/master/assets/images/anytime-logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/amugofjava/anytime_podcast_player",
+    "githubRepo": "amugofjava/anytime_podcast_player",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "uk.me.amugofjava.anytime",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "amugofjava",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/amugofjava/anytime_podcast_player/master/docs/screenshot1b.png",
+      "https://raw.githubusercontent.com/amugofjava/anytime_podcast_player/master/docs/screenshot2b.png",
+      "https://raw.githubusercontent.com/amugofjava/anytime_podcast_player/master/docs/screenshot4b.png",
+      "https://raw.githubusercontent.com/amugofjava/anytime_podcast_player/master/docs/screenshot3b.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
