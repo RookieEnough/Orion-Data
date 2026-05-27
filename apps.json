@@ -19970,5 +19970,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-05-20 000430-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fossify-file-manager",
+    "name": "Fossify File Manager",
+    "description": "Easy app for managing your files without ads, respecting your privacy & security. ",
+    "icon": "https://github.com/FossifyOrg/File-Manager/raw/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/File-Manager",
+    "githubRepo": "FossifyOrg/File-Manager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.fossify.filenanager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/FossifyOrg/File-Manager/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://github.com/FossifyOrg/File-Manager/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+      "https://github.com/FossifyOrg/File-Manager/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
