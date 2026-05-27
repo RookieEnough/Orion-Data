@@ -19945,5 +19945,30 @@
       "https://raw.githubusercontent.com/igarridosi/OroiApp/main/screenshots/mainscreen_darkmode.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "witr",
+    "name": "Witr",
+    "description": "When something is running on a system, whether it is a process, a service, or something bound to a port, there is always a cause. That cause is often indirect, non-obvious, or spread across multiple layers such as supervisors, containers, services, or shells.\n\nExisting tools (ps, top, lsof, ss, systemctl, docker ps) expose state and metadata. They show what is running, but leave the user to infer why by manually correlating outputs across tools.\n\nwitr makes that causality explicit.\n\nIt explains where a running thing came from, how it was started, and what chain of systems is responsible for it existing right now, in a single, human-readable output or an interactive TUI dashboard.\n\n",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/witr-1.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/pranshuparmar/witr",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "pranshuparmar",
+    "officialSite": "https://github.com/pranshuparmar/witr",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-05-20 000430-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-05-20 000430-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/Screenshot 2026-05-20 000430-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
