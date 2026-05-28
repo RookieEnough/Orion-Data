@@ -20020,5 +20020,30 @@
       "https://codeberg.org/attachments/e7fa8f76-4f8c-4a73-a4e3-cc02d962c133"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fossify-contacts",
+    "name": "Fossify Contacts",
+    "description": "Easy and quick contact management with no ads, handles groups and favorites too.",
+    "icon": "https://github.com/FossifyOrg/Contacts/raw/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Contacts",
+    "githubRepo": "FossifyOrg/Contacts",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.fossify.contacts",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/FossifyOrg/Contacts/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://github.com/FossifyOrg/Contacts/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://github.com/FossifyOrg/Contacts/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
