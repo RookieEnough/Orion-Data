@@ -19995,5 +19995,30 @@
       "https://github.com/FossifyOrg/File-Manager/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "sponsor-skip",
+    "name": "Sponsor Skip",
+    "description": "SponsorBlock for native android - no mod, no root needed.",
+    "icon": "https://codeberg.org/repo-avatars/6d562eaeec18e10849ff8b460d3c4402c2dbce6b9f00a7438134ad78cc1d6c7c",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://codeberg.org/jaival/Sponsor-Skip",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "me.jaival.sponsorskip",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "jaival",
+    "officialSite": "",
+    "screenshots": [
+      "https://codeberg.org/attachments/fb302b5b-caf4-4f79-b5c9-2e7a8a65e60f",
+      "https://codeberg.org/attachments/77c77205-8a3a-46f1-b5ba-db43b505829e",
+      "https://codeberg.org/attachments/e7fa8f76-4f8c-4a73-a4e3-cc02d962c133"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
