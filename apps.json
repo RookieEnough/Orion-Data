@@ -20070,5 +20070,30 @@
       "https://github.com/FossifyOrg/Messages/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "android-tv-desktop-toolkit",
+    "name": "Android TV Desktop Toolkit",
+    "description": "All-in-one Windows and MacOS app for managing Android TV devices over ADB. Scan your network, sideload APKs, manage packages, tweak performance, control settings, mirror your screen with ScrCpy, use a virtual remote, and more ",
+    "icon": "https://raw.githubusercontent.com/steven-ahfu/Android-TV-Desktop-Toolkit/refs/heads/main/assets/icon.ico",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/steven-ahfu/Android-TV-Desktop-Toolkit",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "steven-ahfu",
+    "officialSite": "https://github.com/steven-ahfu/Android-TV-Desktop-Toolkit",
+    "screenshots": [
+      "https://raw.githubusercontent.com/steven-ahfu/Android-TV-Desktop-Toolkit/refs/heads/main/assets/system.png",
+      "https://raw.githubusercontent.com/steven-ahfu/Android-TV-Desktop-Toolkit/refs/heads/main/assets/screenshot.png",
+      "https://raw.githubusercontent.com/steven-ahfu/Android-TV-Desktop-Toolkit/refs/heads/main/assets/connected.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
