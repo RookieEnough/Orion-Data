@@ -19884,5 +19884,33 @@
       "https://raw.githubusercontent.com/deutsia/deutsia-radio/main/assets/3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "transistor",
+    "name": "Transistor",
+    "description": "Transistor is an app with a minimalistic approach for listening to radio programs over the internet, which may not be to everyone's liking. It has no radio station discovery feature. Transistor only offers a very simple search option and it imports audio streaming links when you tap them in a web browser.",
+    "icon": "https://codeberg.org/y20k/transistor/raw/branch/master/metadata/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://codeberg.org/y20k/transistor",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.y20k.transistor",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "y20k",
+    "officialSite": "",
+    "screenshots": [
+      "https://codeberg.org/y20k/transistor/raw/branch/master/metadata/en-US/images/phoneScreenshots/01-transistor.png",
+      "https://codeberg.org/y20k/transistor/raw/branch/master/metadata/en-US/images/phoneScreenshots/02-transistor.png",
+      "https://codeberg.org/y20k/transistor/raw/branch/master/metadata/en-US/images/phoneScreenshots/03-transistor.png",
+      "https://codeberg.org/y20k/transistor/raw/branch/master/metadata/en-US/images/phoneScreenshots/04-transistor.png",
+      "https://codeberg.org/y20k/transistor/raw/branch/master/metadata/en-US/images/phoneScreenshots/05-transistor.png",
+      "https://codeberg.org/y20k/transistor/raw/branch/master/metadata/en-US/images/phoneScreenshots/06-transistor.png"
+    ],
+    "releaseKeyword": "transistor-app-release-4.3.6.apk"
   }
 ]
