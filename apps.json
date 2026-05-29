@@ -20095,5 +20095,30 @@
       "https://raw.githubusercontent.com/steven-ahfu/Android-TV-Desktop-Toolkit/refs/heads/main/assets/connected.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "deutsia-radio",
+    "name": "Deutsia Radio",
+    "description": "A privacy-focused, censorship-resistant multinet Android radio player built with Claude Code. Supports I2P, clearnet and Tor streaming.",
+    "icon": "https://raw.githubusercontent.com/deutsia/deutsia-radio/main/assets/crop.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/deutsia/deutsia-radio",
+    "githubRepo": "deutsia/deutsia-radio",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.opensource.i2pradio",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "deutsia",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/deutsia/deutsia-radio/main/assets/browse_fixed.png",
+      "https://raw.githubusercontent.com/deutsia/deutsia-radio/main/assets/add_fixed2.png",
+      "https://raw.githubusercontent.com/deutsia/deutsia-radio/main/assets/3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
