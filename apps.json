@@ -19937,5 +19937,30 @@
       "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/quickslate-screenshot-3.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "oss-documentscanner",
+    "name": "OSS DocumentScanner",
+    "description": "Document scanning app.",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/com.akylas.documentscanner/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ossappscollective/OSS-DocumentScanner",
+    "githubRepo": "ossappscollective/OSS-DocumentScanner",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.akylas.documentscanner",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ossappscollective",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/3_en-US.png"
+    ],
+    "releaseKeyword": "release"
   }
 ]
