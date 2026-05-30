@@ -19912,5 +19912,30 @@
       "https://codeberg.org/y20k/transistor/raw/branch/master/metadata/en-US/images/phoneScreenshots/06-transistor.png"
     ],
     "releaseKeyword": "transistor-app-release-4.3.6.apk"
+  },
+  {
+    "id": "quick-slate",
+    "name": "Quick Slate",
+    "description": "QuickSlate is a lightweight Android utility toolkit powered by Quick Settings tiles. It provides fast access to essential device actions directly from the notification shade. It works entirely offline, requires no internet access, and uses only minimal system permissions for tile functionality.",
+    "icon": "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/musaddiqbaluch/QuickSlate",
+    "githubRepo": "musaddiqbaluch/QuickSlate",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.musaddiqbaluch.quickslate",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "musaddiqbaluch",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/quickslate-screenshot-1.jpg",
+      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/quickslate-screenshot-2.jpg",
+      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/quickslate-screenshot-3.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
