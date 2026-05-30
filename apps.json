@@ -19962,5 +19962,30 @@
       "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/3_en-US.png"
     ],
     "releaseKeyword": "release"
+  },
+  {
+    "id": "flowbytes",
+    "name": "FlowBytes",
+    "description": "A modern Android app for real-time internet speed monitoring and detailed data usage analytics, built with Kotlin, Jetpack Compose, and Material 3 with many features as such app blocking , high data alerts , weekly chart etc..",
+    "icon": "https://raw.githubusercontent.com/drrayy001/FlowBytes/refs/heads/master/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/drrayy001/FlowBytes",
+    "githubRepo": "drrayy001/FlowBytes",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ray.flowmeter",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "drrayy001",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/drrayy001/FlowBytes/refs/heads/master/images/screenshot.png",
+      "https://raw.githubusercontent.com/drrayy001/FlowBytes/refs/heads/master/images/screenshot.png",
+      "https://raw.githubusercontent.com/drrayy001/FlowBytes/refs/heads/master/images/screenshot.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
