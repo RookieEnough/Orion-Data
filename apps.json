@@ -19987,5 +19987,41 @@
       "https://raw.githubusercontent.com/drrayy001/FlowBytes/refs/heads/master/images/screenshot.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "heliboard",
+    "name": "HeliBoard",
+    "description": "HeliBoard is a privacy-conscious and customizable open-source keyboard, based on AOSP / OpenBoard. Does not use internet permission, and thus is 100% offline.\"",
+    "icon": "https://f-droid.org/repo/helium314.keyboard/en-US/icon_-nkf9NO4Zp7Y0YX1AOcQdZMf32R_bPt8AZC2Ycn2v1I=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/HeliBorg/HeliBoard",
+    "githubRepo": "HeliBorg/HeliBoard",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "helium314.keyboard",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "HeliBorg",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/5.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/6.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/7.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/8.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/9.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/10.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/11.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/12.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/13.png",
+      "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/14.png"
+    ],
+    "releaseKeyword": "release"
   }
 ]
