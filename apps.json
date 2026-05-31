@@ -20074,5 +20074,31 @@
       "https://raw.githubusercontent.com/probably-oxy/drift-audio/refs/heads/main/docs/screenshots/drift-presets.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "egyptian-writer",
+    "name": "Egyptian Writer",
+    "description": "A simple Android app to view, write, and export ancient Egyptian texts. This app supports professional writing of ancient Egyptian texts using Manuel de Codage standards.\nWrite ancient texts and browse through all available hieroglyphics on your tablet or smartphone.",
+    "icon": "https://f-droid.org/repo/com.blueapps.egyptianwriter/de-DE/icon_LYTAai6CtskJr8PcOtoojvI-cxnOBX-NAbyqYNjRsC8=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/ThothDroid/Egyptian_Writer",
+    "githubRepo": "ThothDroid/Egyptian_Writer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.blueapps.egyptianwriter",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ThothDroid",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/wiki/ThothDroid/Egyptian_Writer/images/screenshots/Screenshot_Smartphone27.png",
+      "https://raw.githubusercontent.com/wiki/ThothDroid/Egyptian_Writer/images/screenshots/Screenshot_Smartphone29.png",
+      "https://raw.githubusercontent.com/wiki/ThothDroid/Egyptian_Writer/images/screenshots/Screenshot_Smartphone30.png",
+      "https://raw.githubusercontent.com/wiki/ThothDroid/Egyptian_Writer/images/screenshots/Screenshot_Smartphone26.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
