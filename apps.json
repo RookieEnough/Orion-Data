@@ -20023,5 +20023,31 @@
       "https://f-droid.org/repo/helium314.keyboard/en-US/phoneScreenshots/14.png"
     ],
     "releaseKeyword": "release"
+  },
+  {
+    "id": "paywall-reader",
+    "name": "Paywall Reader",
+    "description": "Native Android browser, minimalist and curated, to read news without paywall using removepaywalls.com as a backend.\n(only problem is its not completely translated to english yet T_T , 30march26)",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/ic_launcher_foreground (1)-5.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/juanilealb/paywall-reader",
+    "githubRepo": "juanilealb/paywall-reader",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.juani.paywallreader",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "juanilealb",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-05-30_23-57-27-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-05-30_23-57-27-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-05-30_23-57-27-4.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-05-30_23-57-27-3.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
