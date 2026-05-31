@@ -1,14 +1,14 @@
 {
   "appsJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/apps.json",
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/data/mirror.json",
-  "maintenanceMode": true,
+  "maintenanceMode": false,
   "maintenanceMessage": "We are currently updating the server. Please check back in a while.",
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
   "notice": {
-    "id": "notice251",
-    "title": "Important Notice",
-    "message":"V1.3.0 is now available for download. Users will need to uninstall the older version because V1.3.0 uses a new keystore. This is a one-time requirement; you won't need to do it again for future updates.\nAlso 1.3 brings completely new UI which you can enable by going in Settings → Interface → Enable Morden UI\n\nGo to the Dev tab and click “Buy Me a Coffee” and show your support, I really need it.",
+    "id": "notice259",
+    "title": "Please Read!",
+    "message":"From Orion update, Morphe Builds, Technical Support to Server Maintenance, it's all done by me. It takes a lot of time and effort to keep the Orion Store running absolutely free for everyone. If you really like my work and want Orion Store to stay alive then please consider Donating to the Orion project.\n\nGo to the Dev tab and click “Buy Me a Coffee” and show your support, I really need it.",
     "show": true
   },
 
