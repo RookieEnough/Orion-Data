@@ -20282,5 +20282,31 @@
       "https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/img/desktop_screenshot.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "flux",
+    "name": "Flux",
+    "description": "Flux is a modern and elegant video player designed to transform your local files into an immersive library.",
+    "icon": "https://raw.githubusercontent.com/the-mskd-dev/Flux/refs/heads/main/fastlane/metadata/android/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/the-mskd-dev/Flux",
+    "githubRepo": "the-mskd-dev/Flux",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.mskd.flux",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "the-mskd-dev",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.mskd.flux/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.mskd.flux/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.mskd.flux/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.mskd.flux/en-US/sevenInchScreenshots/2.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
