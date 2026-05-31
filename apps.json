@@ -20362,5 +20362,33 @@
       "https://raw.githubusercontent.com/labnex/LabNex/main/metadata/en-US/images/phoneScreenshots/004.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pagan",
+    "name": "Pagan",
+    "description": "A music sequencer for android.",
+    "icon": "https://raw.githubusercontent.com/quintinfsmith/pagan/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/quintinfsmith/pagan",
+    "githubRepo": "quintinfsmith/pagan",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.qfs.pagan",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "quintinfsmith",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/quintinfsmith/pagan/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/v1_8_0%20-%20185059_com.qfs.pagan.png",
+      "https://raw.githubusercontent.com/quintinfsmith/pagan/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/v1_8_0%20-%20185129_com.qfs.pagan.png",
+      "https://raw.githubusercontent.com/quintinfsmith/pagan/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/v1_8_0%20-%20185153_com.qfs.pagan.png",
+      "https://raw.githubusercontent.com/quintinfsmith/pagan/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/v1_8_0%20-%20185241_com.qfs.pagan.png",
+      "https://raw.githubusercontent.com/quintinfsmith/pagan/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/v1_8_0%20-%20185241_com.qfs.pagan.png",
+      "https://raw.githubusercontent.com/quintinfsmith/pagan/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/v1_8_0%20-%20203320_com.qfs.pagan.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
