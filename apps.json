@@ -20232,5 +20232,30 @@
       "https://raw.githubusercontent.com/ki-bun/Pioneer/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "hortay",
+    "name": "Hortay ",
+    "description": "A Twitter-style reader for Telegram channels. Read your subscribed channels as one chronological feed instead of a chat list.\nNo Firebase, no Crashlytics, no analytics, no third-party push. INTERNET permission is used only for Telegram itself and, in guest mode, anonymous t.me/s/ previews.",
+    "icon": "https://raw.githubusercontent.com/LyoSU/hortay-android/refs/heads/main/playstore/listing/icon-512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/LyoSU/hortay-android",
+    "githubRepo": "LyoSU/hortay-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.lyo.hortay",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "LyoSU",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/LyoSU/hortay-android/refs/heads/main/playstore/screens/photos/01-hero.jpg",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-05-30_23-29-28-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-05-30_23-29-31-1.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
