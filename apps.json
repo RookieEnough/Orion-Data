@@ -20155,5 +20155,31 @@
       "https://raw.githubusercontent.com/MrDemonc/Lune/refs/heads/main/readme-res/6.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "nori",
+    "name": "Nori",
+    "description": "Nori is a bookmark manager and launcher.\n\nInstall from App Store, Google Play, or download APK from GitHub.",
+    "icon": "https://raw.githubusercontent.com/nonbili/Nori/refs/heads/main/assets/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nonbili/Nori",
+    "githubRepo": "nonbili/Nori",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "jp.nonbili.nori",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "nonbili",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nonbili/Nori/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/nonbili/Nori/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/nonbili/Nori/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/nonbili/Nori/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
