@@ -20049,5 +20049,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-05-30_23-57-27-3.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "drift-audio",
+    "name": "Drift Audio",
+    "description": "Drift is an ambient soundscape mixer for sleep and focus. Layer nature recordings and synthesised drones, adjust each to taste, and let the sleep timer fade things out. Everything runs offline. No ads, no tracking, no account.",
+    "icon": "https://raw.githubusercontent.com/probably-oxy/drift-audio/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/probably-oxy/drift-audio",
+    "githubRepo": "probably-oxy/drift-audio",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.probably_oxy.drift",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "probably-oxy",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/probably-oxy/drift-audio/refs/heads/main/docs/screenshots/drift-main.png",
+      "https://raw.githubusercontent.com/probably-oxy/drift-audio/refs/heads/main/docs/screenshots/drift-layers.png",
+      "https://raw.githubusercontent.com/probably-oxy/drift-audio/refs/heads/main/docs/screenshots/drift-presets.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
