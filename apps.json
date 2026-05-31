@@ -20308,5 +20308,33 @@
       "https://f-droid.org/repo/com.mskd.flux/en-US/sevenInchScreenshots/2.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "nosved-player",
+    "name": "Nosved Player",
+    "description": "Nosved Player is a clean, modern, and high-performance local video player for Android. Built from the ground up using Jetpack Compose and Media3 (ExoPlayer), it delivers a premium media experience with a focus on simplicity, fluidity, and Material You design.",
+    "icon": "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/refs/heads/main/Screenshots/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/DevSon1024/Nosved-Player",
+    "githubRepo": "DevSon1024/Nosved-Player",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.devson.nvplayer",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "DevSon1024",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/refs/heads/main/Screenshots/1-HomePage_With_HistoryCard.jpg",
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/refs/heads/main/Screenshots/2-FolderView-ViewMode_AllFolders.jpg",
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/refs/heads/main/Screenshots/4-View_Settings.jpg",
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/refs/heads/main/Screenshots/6-SettingsScreen.jpg",
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/refs/heads/main/Screenshots/11-UpNext-ModernStylePlayer.jpg",
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/refs/heads/main/Screenshots/10-PlayerScreen-Modern_Style.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
