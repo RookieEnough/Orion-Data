@@ -20100,5 +20100,31 @@
       "https://raw.githubusercontent.com/wiki/ThothDroid/Egyptian_Writer/images/screenshots/Screenshot_Smartphone26.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "syncup",
+    "name": "Syncup",
+    "description": "SyncUp: an open-source Syncthing client for iOS and Android, powered by react-native\nSyncthing's official Android client was archived in December 2024. No single client ran on both phones from one codebase, so I built this. The daemon runs in-process via gomobile, with a React Native UI scaffolded from react-native-go.",
+    "icon": "https://raw.githubusercontent.com/siddarthkay/syncup/refs/heads/master/mobile-app/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/siddarthkay/syncup",
+    "githubRepo": "siddarthkay/syncup",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.siddarthkay.syncup",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "siddarthkay",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/siddarthkay/syncup/refs/heads/master/docs/screenshots/status.png",
+      "https://raw.githubusercontent.com/siddarthkay/syncup/refs/heads/master/docs/screenshots/folders.png",
+      "https://raw.githubusercontent.com/siddarthkay/syncup/refs/heads/master/docs/screenshots/devices.png",
+      "https://raw.githubusercontent.com/siddarthkay/syncup/refs/heads/master/docs/screenshots/settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
