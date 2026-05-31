@@ -20181,5 +20181,30 @@
       "https://raw.githubusercontent.com/nonbili/Nori/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "linkhub",
+    "name": "LinkHub",
+    "description": "A simple and effective link management app that help you to easily manage your own links without ads, Linkhub help you to organize and access links fast and easily, it automatically sorted elements depend on how many time you used them.",
+    "icon": "https://raw.githubusercontent.com/AmrDeveloper/LinkHub/253d7424146ad5d40c6d1742b3a93e73cb9e48a6/media/linkhub-logo.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/AmrDeveloper/LinkHub",
+    "githubRepo": "AmrDeveloper/LinkHub",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.amrdeveloper.linkhub",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "AmrDeveloper",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/AmrDeveloper/LinkHub/refs/heads/master/media/screenshots/screenshot_1.png",
+      "https://raw.githubusercontent.com/AmrDeveloper/LinkHub/refs/heads/master/media/screenshots/screenshot_2.png",
+      "https://raw.githubusercontent.com/AmrDeveloper/LinkHub/refs/heads/master/media/screenshots/screenshot_3.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
