@@ -20336,5 +20336,31 @@
       "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/refs/heads/main/Screenshots/10-PlayerScreen-Modern_Style.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "labnex",
+    "name": "LabNex",
+    "description": "A modern open source Android client for GitLab that lets you manage projects, issues, merge requests, commits, and more directly from your phone. LabNex supports both GitLab.com and self-hosted GitLab instances, with features like multiple account support, biometric lock, markdown editing, code diff viewing, and a clean Material You inspired interface. It’s privacy-friendly, actively maintained, and built for developers who want a full GitLab experience on Android.",
+    "icon": "https://f-droid.org/repo/com.labnex.app/en-US/icon_qwVP-JgIQn-pF42-5cYGLV709rWjhZWvBWDsvsp6OG0=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/labnex/LabNex",
+    "githubRepo": "labnex/LabNex",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.labnex.app",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "labnex",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/labnex/LabNex/main/metadata/en-US/images/phoneScreenshots/001.png",
+      "https://raw.githubusercontent.com/labnex/LabNex/main/metadata/en-US/images/phoneScreenshots/002.png",
+      "https://raw.githubusercontent.com/labnex/LabNex/main/metadata/en-US/images/phoneScreenshots/003.png",
+      "https://raw.githubusercontent.com/labnex/LabNex/main/metadata/en-US/images/phoneScreenshots/004.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
