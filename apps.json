@@ -20126,5 +20126,34 @@
       "https://raw.githubusercontent.com/siddarthkay/syncup/refs/heads/master/docs/screenshots/settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "lune",
+    "name": "Lune",
+    "description": "Lune is a minimalist and elegant LOCAL music player for Android, designed with a focus on aesthetics and a premium user experience. It features a modern Jetpack Compose UI, dynamic color support, and a unique high-quality dark defocus widget system.",
+    "icon": "https://raw.githubusercontent.com/MrDemonc/Lune/refs/heads/main/readme-res/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MrDemonc/Lune",
+    "githubRepo": "MrDemonc/Lune",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.demonlab.lune",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MrDemonc",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MrDemonc/Lune/refs/heads/main/readme-res/5.jpg",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/refs/heads/main/readme-res/1.jpg",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/refs/heads/main/readme-res/2.jpg",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/refs/heads/main/readme-res/4.jpg",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/refs/heads/main/readme-res/9.jpg",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/refs/heads/main/readme-res/10.jpg",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/refs/heads/main/readme-res/6.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
