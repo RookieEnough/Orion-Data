@@ -20257,5 +20257,30 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-05-30_23-29-31-1.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "micyou",
+    "name": "MicYou",
+    "description": "MicYou is a powerful tool that turns your Android device into a high-quality microphone for your PC.\nTurns your Android phone into a wireless microphone for your PC, replacing the need for a dedicated mic dongle or a paid app. Connect over Wi-Fi, USB, or Bluetooth, with built-in noise suppression, auto gain control, and dereverberation on the audio stream.",
+    "icon": "https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/img/app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/LanRhyme/MicYou",
+    "githubRepo": "LanRhyme/MicYou",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.lanrhyme.micyou",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "LanRhyme",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/img/android_screenshot_main.png",
+      "https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/img/android_screenshot_settings.png",
+      "https://raw.githubusercontent.com/LanRhyme/MicYou/refs/heads/master/img/desktop_screenshot.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
