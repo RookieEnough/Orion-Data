@@ -20521,5 +20521,30 @@
       "https://github.com/FossifyOrg/Clock/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fossify-calculator",
+    "name": "Fossify Calculator",
+    "description": "A calculator for quick simple calculations with a nice user interface and no ads",
+    "icon": "https://github.com/FossifyOrg/Calculator/raw/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Calculator",
+    "githubRepo": "FossifyOrg/Calculator",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.fossify.math",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/FossifyOrg/Calculator/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://github.com/FossifyOrg/Calculator/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://github.com/FossifyOrg/Calculator/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
