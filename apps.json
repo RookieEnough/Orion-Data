@@ -20681,5 +20681,32 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/loper-6.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "payload-dumper-android",
+    "name": "Payload Dumper Android",
+    "description": "Payload Dumper App for Android. Extract boot.img or any other partitions (images) from OTA.zip or payload.bin without PC",
+    "icon": "https://raw.githubusercontent.com/rajmani7584/Payload-Dumper-Android/main/app/src/main/ic_launcher-playstore.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/rajmani7584/Payload-Dumper-Android",
+    "githubRepo": "rajmani7584/Payload-Dumper-Android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.rajmani7584.payloaddumper",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rajmani7584",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/rajmani7584/Payload-Dumper-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.png",
+      "https://raw.githubusercontent.com/rajmani7584/Payload-Dumper-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_2.png",
+      "https://raw.githubusercontent.com/rajmani7584/Payload-Dumper-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.png",
+      "https://raw.githubusercontent.com/rajmani7584/Payload-Dumper-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.png",
+      "https://raw.githubusercontent.com/rajmani7584/Payload-Dumper-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.png"
+    ],
+    "releaseKeyword": "PayloadDumper-v5.0"
   }
 ]
