@@ -1,0 +1,150 @@
+
+name: Process App Submissions (Batch)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  batch-process-apps:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Fetch Approved App Submissions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --state open --label "approved" --search "in:title App Submission" --json number,title,body,url > issues1.json
+          gh issue list --state open --label "Approved" --search "in:title App Submission" --json number,title,body,url > issues2.json
+          jq -s 'add | unique_by(.number)' issues1.json issues2.json > app_issues.json
+
+      - name: Process Issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            try {
+              const issues = JSON.parse(fs.readFileSync('app_issues.json', 'utf8'));
+              if (issues.length === 0) {
+                console.log("No approved app submission issues found.");
+                return;
+              }
+              let currentApps = [];
+              try { currentApps = JSON.parse(fs.readFileSync('apps.json', 'utf8')); } catch (e) { console.log("apps.json not found, starting new."); }
+              let addedCount = 0;
+              let addedNames = [];
+              let processedIssues = [];
+              issues.forEach(issue => {
+                const issueBody = issue.body;
+                let jsonStr = "";
+                const jsonMatch = issueBody.match(/```(?:json)?([\s\S]*?)```/);
+                if (jsonMatch) { jsonStr = jsonMatch[1].trim(); } else {
+                    const start = issueBody.indexOf('[');
+                    const end = issueBody.lastIndexOf(']');
+                    if (start !== -1 && end !== -1) { jsonStr = issueBody.substring(start, end + 1).trim(); }
+                }
+                if (!jsonStr) { console.log(`Issue #${issue.number}: No JSON payload found.`); return; }
+                try {
+                    const newApps = JSON.parse(jsonStr);
+                    if (!Array.isArray(newApps)) throw new Error("JSON is not an array.");
+                    newApps.forEach(app => {
+                       const exists = currentApps.some(a => {
+                           const idMatch = a.id === app.id;
+                           const repoMatch = (app.githubRepo && app.githubRepo.trim() !== "" && a.githubRepo && a.githubRepo.toLowerCase() === app.githubRepo.toLowerCase());
+                           const urlMatch = (app.repoUrl && app.repoUrl.trim() !== "" && a.repoUrl && a.repoUrl.toLowerCase() === app.repoUrl.toLowerCase());
+                           return idMatch || repoMatch || urlMatch;
+                       });
+                       if (!exists) {
+                           const cleanApp = {
+                               id: app.id, name: app.name, description: app.description || "No description provided",
+                               icon: app.icon || "default", version: "Latest", latestVersion: "Latest",
+                               downloadUrl: app.downloadUrl || "#", repoUrl: app.repoUrl || "",
+                               githubRepo: app.githubRepo || "", gitlabRepo: app.gitlabRepo || "",
+                               gitlabDomain: app.gitlabDomain || "", packageName: app.packageName || "",
+                               category: app.category || 'Utility', platform: app.platform || 'Android',
+                               size: app.size || "Varies", author: app.author || "Unknown",
+                               officialSite: app.officialSite || "", screenshots: Array.isArray(app.screenshots) ? app.screenshots : []
+                           };
+                           if(app.releaseKeyword) cleanApp.releaseKeyword = app.releaseKeyword;
+                           currentApps.push(cleanApp);
+                           addedCount++; addedNames.push(app.name);
+                       }
+                    });
+                    processedIssues.push({ number: issue.number, url: issue.url });
+                } catch (e) {
+                    console.error(`Issue #${issue.number}: Parse error - ${e.message}`);
+                }
+              });
+              if (addedCount > 0) {
+                 fs.writeFileSync('apps.json', JSON.stringify(currentApps, null, 2));
+                 console.log(`Successfully added ${addedCount} unique apps.`);
+                 fs.writeFileSync('added_apps.txt', addedNames.join(', '));
+              } else { fs.writeFileSync('added_apps.txt', ''); }
+              fs.writeFileSync('processed_issues.json', JSON.stringify(processedIssues));
+            } catch (e) { core.setFailed(e.message); }
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "Orion Bot"
+          git config --global user.email "bot@orion.store"
+          
+          if [ -f added_apps.txt ] && [ -s added_apps.txt ]; then
+            git add apps.json
+            git commit -m "feat: Batch add approved apps"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Close Processed Issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f processed_issues.json ]; then
+            for num in $(jq -r '.[].number' processed_issues.json); do
+              gh issue close "$num" --comment "✅ Submission Approved! The apps have been added to the store in the latest batch processing."
+            done
+          fi
+
+      - name: Notify Discord of Success
+        uses: actions/github-script@v7
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        with:
+          script: |
+            const fs = require('fs');
+            const webhookUrl = process.env.DISCORD_WEBHOOK;
+            if (!webhookUrl) return;
+            
+            let addedApps = "";
+            let processedIssues = [];
+            try { addedApps = fs.readFileSync('added_apps.txt', 'utf8'); } catch(e) {}
+            try { processedIssues = JSON.parse(fs.readFileSync('processed_issues.json', 'utf8')); } catch(e) {}
+            
+            if (!addedApps || processedIssues.length === 0) return;
+            
+            const issueLinks = processedIssues.map(i => `[#${i.number}](${i.url})`).join(', ');
+            
+            const payload = {
+              username: "Orion Store Bot",
+              avatar_url: "https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/assets/orion_logo_512.png",
+              embeds: [{
+                  title: `✅ Batch Apps Successfully Added`,
+                  description: `Processed issues: ${issueLinks}\n\nThe following apps are now live in the store:\n**${addedApps}**`,
+                  color: 5763719,
+                  footer: { text: "Orion Store Automation" },
+                  timestamp: new Date().toISOString()
+              }]
+            };
+            await fetch(webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });

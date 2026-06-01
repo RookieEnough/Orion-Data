@@ -1,0 +1,149 @@
+name: Process Bundle Submissions (Batch)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  batch-process-bundles:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Fetch Approved Bundle Submissions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --state open --label "approved" --search "in:title Bundle" --json number,title,body,url > issues1.json
+          gh issue list --state open --label "Approved" --search "in:title Bundle" --json number,title,body,url > issues2.json
+          jq -s 'add | unique_by(.number)' issues1.json issues2.json > bundle_issues.json
+
+      - name: Process Issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            try {
+              const issues = JSON.parse(fs.readFileSync('bundle_issues.json', 'utf8'));
+              if (issues.length === 0) {
+                console.log("No approved bundle submission issues found.");
+                return;
+              }
+              let config = {};
+              try { config = JSON.parse(fs.readFileSync('config.json', 'utf8')); } catch (e) { console.log("config.json not found, initializing..."); config = { storefrontModules: [] }; }
+              if (!config.storefrontModules) { config.storefrontModules = []; }
+              let bundleModule = config.storefrontModules.find(m => m.type === 'recommendation_bundles');
+              if (!bundleModule) {
+                  bundleModule = { id: 'community_bundles', type: 'recommendation_bundles', title: 'Community Bundles', subtitle: 'Curated by the community', bundles: [] };
+                  config.storefrontModules.push(bundleModule);
+              }
+              if (!bundleModule.bundles) { bundleModule.bundles = []; }
+              let addedCount = 0;
+              let addedTitles = [];
+              let processedIssues = [];
+              issues.forEach(issue => {
+                const issueBody = issue.body;
+                let jsonStr = "";
+                const jsonMatch = issueBody.match(/```(?:json)?([\s\S]*?)```/);
+                if (jsonMatch) { jsonStr = jsonMatch[1].trim(); } else {
+                    const startObj = issueBody.indexOf('{');
+                    const endObj = issueBody.lastIndexOf('}');
+                    const startArr = issueBody.indexOf('[');
+                    const endArr = issueBody.lastIndexOf(']');
+                    if (startArr !== -1 && endArr !== -1 && (startObj === -1 || startArr < startObj)) {
+                        jsonStr = issueBody.substring(startArr, endArr + 1).trim();
+                    } else if (startObj !== -1 && endObj !== -1) {
+                        jsonStr = issueBody.substring(startObj, endObj + 1).trim();
+                    }
+                }
+                if (!jsonStr) { console.log(`Issue #${issue.number}: No JSON payload found.`); return; }
+                try {
+                    let newBundles = JSON.parse(jsonStr);
+                    if (!Array.isArray(newBundles)) { newBundles = [newBundles]; }
+                    newBundles.forEach(bundle => {
+                       const exists = bundleModule.bundles.some(b => b.id === bundle.id);
+                       if (!exists && bundle.id && bundle.title && Array.isArray(bundle.appIds)) {
+                           bundleModule.bundles.push({
+                               id: bundle.id, title: bundle.title, description: bundle.description || "",
+                               appIds: bundle.appIds, icon: bundle.icon || "fa-box-open", color: bundle.color || "blue"
+                           });
+                           addedCount++; addedTitles.push(bundle.title);
+                       }
+                    });
+                    processedIssues.push({ number: issue.number, url: issue.url });
+                } catch (e) {
+                    console.error(`Issue #${issue.number}: Parse error - ${e.message}`);
+                }
+              });
+              if (addedCount > 0) {
+                 fs.writeFileSync('config.json', JSON.stringify(config, null, 2));
+                 console.log(`Successfully added ${addedCount} unique bundles.`);
+                 fs.writeFileSync('added_bundles.txt', addedTitles.join(', '));
+              } else { fs.writeFileSync('added_bundles.txt', ''); }
+              fs.writeFileSync('processed_issues.json', JSON.stringify(processedIssues));
+            } catch (e) { core.setFailed(e.message); }
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "Orion Bot"
+          git config --global user.email "bot@orion.store"
+          
+          if [ -f added_bundles.txt ] && [ -s added_bundles.txt ]; then
+            git add config.json
+            git commit -m "feat: Batch add approved bundles"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Close Processed Issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f processed_issues.json ]; then
+            for num in $(jq -r '.[].number' processed_issues.json); do
+              gh issue close "$num" --comment "✅ Submission Approved! The bundles have been added to the store in the latest batch processing."
+            done
+          fi
+
+      - name: Notify Discord of Success
+        uses: actions/github-script@v7
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        with:
+          script: |
+            const fs = require('fs');
+            const webhookUrl = process.env.DISCORD_WEBHOOK;
+            if (!webhookUrl) return;
+            
+            let addedBundles = "";
+            let processedIssues = [];
+            try { addedBundles = fs.readFileSync('added_bundles.txt', 'utf8'); } catch(e) {}
+            try { processedIssues = JSON.parse(fs.readFileSync('processed_issues.json', 'utf8')); } catch(e) {}
+            
+            if (!addedBundles || processedIssues.length === 0) return;
+            
+            const issueLinks = processedIssues.map(i => `[#${i.number}](${i.url})`).join(', ');
+            
+            const payload = {
+              username: "Orion Store Bot",
+              avatar_url: "https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/assets/orion_logo_512.png",
+              embeds: [{
+                  title: `✅ Batch Bundles Successfully Added`,
+                  description: `Processed issues: ${issueLinks}\n\nThe following bundles are now live in the store:\n**${addedBundles}**`,
+                  color: 5763719,
+                  footer: { text: "Orion Store Automation" },
+                  timestamp: new Date().toISOString()
+              }]
+            };
+            await fetch(webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
