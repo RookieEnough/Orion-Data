@@ -20390,5 +20390,30 @@
       "https://raw.githubusercontent.com/quintinfsmith/pagan/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/v1_8_0%20-%20203320_com.qfs.pagan.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "localtube",
+    "name": "Localtube",
+    "description": "it can be used to access youtube in any older device with browser and wifi.\nit also solves the data sync problem between different devices while maintaining the privacy  newpipe gives\nLocalTube transforms the NewPipe Extractor engine into a private, self-hosted streaming web server hosted directly on your Android device. Browse, search, and play media from YouTube and other platforms on any smart TV, laptop, PC, or tablet on your local network—completely free of account logins, cookies, or trackable APIs.",
+    "icon": "https://raw.githubusercontent.com/diekaiju/localtube/dev/localServerApp/src/main/res/drawable/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/diekaiju/localtube",
+    "githubRepo": "diekaiju/localtube",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.schabi.newpipe.localserver",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "diekaiju",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/diekaiju/localtube/dev/screenshots/app_interface.jpg",
+      "https://raw.githubusercontent.com/diekaiju/localtube/dev/screenshots/web_interface_home.jpg",
+      "https://raw.githubusercontent.com/diekaiju/localtube/dev/screenshots/web_interface_watch.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
