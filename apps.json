@@ -20471,5 +20471,30 @@
       "https://raw.githubusercontent.com/GeorgeClensy/Escape-Launcher/refs/heads/master/branding/Screenshots/AppsList.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fossify-paint",
+    "name": "Fossify Paint",
+    "description": "A canvas you can draw on with different colors.",
+    "icon": "https://github.com/FossifyOrg/Paint/raw/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Paint",
+    "githubRepo": "FossifyOrg/Paint",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.fossify.paint",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/FossifyOrg/Paint/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://github.com/FossifyOrg/Paint/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://github.com/FossifyOrg/Paint/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
