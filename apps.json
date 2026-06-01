@@ -20651,5 +20651,35 @@
       "https://raw.githubusercontent.com/MisfiT2020/src/main/streamx/app/8.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "looper",
+    "name": "Looper",
+    "description": "Advance music player for the linux and android with lyrics support for offline and online mode.",
+    "icon": "https://raw.githubusercontent.com/SthrNilshaaa/looper/refs/heads/main/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/SthrNilshaaa/looper",
+    "githubRepo": "SthrNilshaaa/looper",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.looper.player",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "SthrNilshaaa",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/loper-7.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/loper-5.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/loper-8.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/loper-3.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/loper-2.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/loper-1.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/loper-4.webp",
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/loper-6.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
