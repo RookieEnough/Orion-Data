@@ -20442,5 +20442,34 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/hydra-2.webp"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "escape-launcher",
+    "name": "Escape Launcher",
+    "description": "A minimalist open source Android launcher designed to reduce smartphone and social media addiction through a clean and distraction-free home screen experience. Escape Launcher replaces the traditional app-heavy launcher with a simple Material 3 based interface focused on essentials like favorite apps, widgets, screen time tracking, and mindful usage tools. It also includes unique features like app open countdowns and Android 15 Private Space support. ",
+    "icon": "https://raw.githubusercontent.com/GeorgeClensy/Escape-Launcher/refs/heads/refactor/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/GeorgeClensy/Escape-Launcher",
+    "githubRepo": "GeorgeClensy/Escape-Launcher",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.geecee.escapelauncher",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "GeorgeClensy",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/GeorgeClensy/Escape-Launcher/refs/heads/master/branding/Screenshots/ScreenTime.png",
+      "https://raw.githubusercontent.com/GeorgeClensy/Escape-Launcher/refs/heads/master/branding/Screenshots/PrivateSpace.png",
+      "https://raw.githubusercontent.com/GeorgeClensy/Escape-Launcher/refs/heads/master/branding/Screenshots/OpenCountdown.png",
+      "https://raw.githubusercontent.com/GeorgeClensy/Escape-Launcher/refs/heads/master/branding/Screenshots/FontOptions.png",
+      "https://raw.githubusercontent.com/GeorgeClensy/Escape-Launcher/refs/heads/master/branding/Screenshots/AppOptions.png",
+      "https://raw.githubusercontent.com/GeorgeClensy/Escape-Launcher/refs/heads/master/branding/Screenshots/HomeScreen.png",
+      "https://raw.githubusercontent.com/GeorgeClensy/Escape-Launcher/refs/heads/master/branding/Screenshots/AppsList.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
