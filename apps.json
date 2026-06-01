@@ -20596,5 +20596,30 @@
       "https://github.com/FossifyOrg/Calendar/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "haven",
+    "name": "Haven",
+    "description": "Android Work Profile isolation Free and OpenSource app modernized with current security patches and a Material Design 3 UI.",
+    "icon": "https://raw.githubusercontent.com/Kenneth-Cho-InfoSec/Haven/refs/heads/main/docs/images/haven-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Kenneth-Cho-InfoSec/Haven",
+    "githubRepo": "Kenneth-Cho-InfoSec/Haven",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.kennethchoinfosec.haven",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Kenneth-Cho-InfoSec",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Kenneth-Cho-InfoSec/Haven/refs/heads/main/docs/images/screenshot-main.png",
+      "https://raw.githubusercontent.com/Kenneth-Cho-InfoSec/Haven/refs/heads/main/docs/images/screenshot-work.png",
+      "https://raw.githubusercontent.com/Kenneth-Cho-InfoSec/Haven/refs/heads/main/docs/images/screenshot-clone-menu.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
