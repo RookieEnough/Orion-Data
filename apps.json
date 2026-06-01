@@ -20621,5 +20621,35 @@
       "https://raw.githubusercontent.com/Kenneth-Cho-InfoSec/Haven/refs/heads/main/docs/images/screenshot-clone-menu.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "streamx",
+    "name": "StreamX",
+    "description": "StreamX is a self-hosted music platform that manage your personal library and YouTube Music into one fast, modern experience across Android, web. Stream, download, and organize your music with ease — from albums and artists to playlists and live jam sessions with friends.",
+    "icon": "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/ic_launcher_foreground-1.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/SriKousik/StreamXBot",
+    "githubRepo": "SriKousik/StreamXBot",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.xstream.music",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "SriKousik",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MisfiT2020/src/main/streamx/app/13.jpg",
+      "https://raw.githubusercontent.com/MisfiT2020/src/main/streamx/app/9.jpg",
+      "https://raw.githubusercontent.com/MisfiT2020/src/main/streamx/app/1.jpg",
+      "https://raw.githubusercontent.com/MisfiT2020/src/main/streamx/app/2.jpg",
+      "https://raw.githubusercontent.com/MisfiT2020/src/main/streamx/app/3.jpg",
+      "https://raw.githubusercontent.com/MisfiT2020/src/main/streamx/app/4.jpg",
+      "https://raw.githubusercontent.com/MisfiT2020/src/main/streamx/app/6.jpg",
+      "https://raw.githubusercontent.com/MisfiT2020/src/main/streamx/app/8.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
