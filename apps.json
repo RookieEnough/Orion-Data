@@ -20571,5 +20571,30 @@
       "https://github.com/FossifyOrg/Keyboard/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fossify-calendar",
+    "name": "Fossify Calendar",
+    "description": "A simple calendar with events, customizable widgets and no ads.",
+    "icon": " https://github.com/FossifyOrg/Calendar/raw/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Calendar",
+    "githubRepo": "FossifyOrg/Calendar",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.fossify.calendar",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/FossifyOrg/Calendar/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://github.com/FossifyOrg/Calendar/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://github.com/FossifyOrg/Calendar/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
