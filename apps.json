@@ -20496,5 +20496,30 @@
       "https://github.com/FossifyOrg/Paint/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fossify-clock",
+    "name": "Fossify Clock",
+    "description": "Combination of a beautiful clock with widget, alarm, stopwatch & timer, no ads. ",
+    "icon": "https://github.com/FossifyOrg/Clock/raw/main/graphics/icon.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FossifyOrg/Clock",
+    "githubRepo": "FossifyOrg/Clock",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.fossify.clock",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FossifyOrg",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/FossifyOrg/Clock/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://github.com/FossifyOrg/Clock/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://github.com/FossifyOrg/Clock/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
