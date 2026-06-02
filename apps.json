@@ -22099,5 +22099,64 @@
       "https://play-lh.googleusercontent.com/NbM97Qvgv5emeNln80wHT_DSx8-4Tu3ueS18vCvcg5fkcvYBdOGDjRE2G3eNaKHSEf7JoQz1D96aBA4SSWaStH4=w1052-h592-rw"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "crex-morphe",
+    "name": "CREX Morphe",
+    "description": "Love Cricket? Stay ahead of the Game with CREX: Your All-in-One Cricket Companion.\nGet real-time live scores, ball-by-ball commentary, match highlights, trending cricket stories and viral cricket content across various series like the World Cup, IPL, Test Championships and more, all in one smart, feature-rich app.\nCREX is the highest-rated Cricket App. From viral match moments and trending cricket news to fantasy analysis and exclusive expert videos, we've got it covered uniquely and engagingly.",
+    "icon": "https://play-lh.googleusercontent.com/6jO13Z2-GbaEeXlbltZPLJvgvkBOneqeqMR1bW77ZIjr3YTPTtUJ6lhwXjFBhBpPcQ",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "crex",
+    "packageName": "in.cricketexchange.app.cricketexchange",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/E0mzgX_KKIfqSz8EJXpf4r5i0hWpQ_N564q3z__aPGWxhRWf7_3aeFfQjY041yABEAKGI-cj7JCZWtZLFbPx",
+      "https://play-lh.googleusercontent.com/Tv5ayMzv8yqhsfNClBJg4MkNFTPxx8DE4hGcIywjOKirVLTVvk1EhHl6HF59pz5wT5QG01KoKHUjqYXStlGh",
+      "https://play-lh.googleusercontent.com/dUMfxSL63XTyCnx4FeJ15cMLtobl7MCSzTAGfxnsRwM1uU9EwiuenOivRTsYXIHUk5fco48VnTTYpd5H7ZrQwhI",
+      "https://play-lh.googleusercontent.com/-RvkGqAa7QgaLMY3NWLCQmDRmiT38ESqtWoHRDIROLM98R7rstmyEfdbAIUHBx8BFxAWPeO5Y3hC7ROasQjMTA",
+      "https://play-lh.googleusercontent.com/2iqGkmvHnRzQrTCNG64bc6R0sO5RsoGmpWjr-Xkn61lX6zDn_MJkFtZYbBQMflMZwmzcWg2xRucLa5wCu45Zzg"
+    ],
+   "patches": [
+      "Unlock Premium",
+      "Remove Ads"
+    ]
+  },
+  {
+    "id": "mark-auto-screenshot-deleter-morphe",
+    "name": "Mark Auto Screenshot deleter Morphe",
+    "description": "Mark Auto Screenshot deleter is a smart screenshot manager and screenshot cleaner designed to help you manage screenshots the moment you take them.\n\nIf you often capture temporary screenshots for receipts, chat messages, order confirmations, addresses, notes, reference images, or reminders, Mark helps you stay in control without letting them pile up in your gallery. Instead of manually cleaning screenshots later, you can decide right away what should happen to each one. Mark helps keep your gallery clean, reduce clutter, and free storage by removing screenshots you no longer need.",
+    "icon": "https://play-lh.googleusercontent.com/ZQ_qwzq8TIjRrEUZJeOPwd2kyBZPTxRmt_rWZOoBRhBl2Dq0-rmMIr1Tg_nOfO2npMSt9tthHUH_0S3812W2iA",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+   "releaseKeyword": "mark",
+    "packageName": "com.markOne.ss_app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/oFz9uF7fCwyAX9LTorwSpQHkel0SJjGj9OjuXsX91QTfNoizEMZyqPCsrnjALZhxg_-DeXb8rrN1whghQKHPNg",
+      "https://play-lh.googleusercontent.com/RnOxsujElrG-aG4tsYHlG2rg7xxRD0WQLFnvdGgalvS7S8-uU6RjHWRMa2V2CaLRoKaw4vVBq9YVIKf5n4tnhQ",
+      "https://play-lh.googleusercontent.com/XDX1Q1nIuQUmtOPsNKoGCn9SG96LWt0kSQVJaXtxQmicZFZrgvfxLbXkHRLZslUfI2UAxhyWn_ZIjBkrPAYh",
+      "https://play-lh.googleusercontent.com/cpfNcC_i7Qx8AB3YWI7lcWhtrxaxHUZoiD_VIM2eyGide7Y3aK2DKhXLLlWYnZXHd84CAMNFNVpkhZ-6O76N",
+      "https://play-lh.googleusercontent.com/0dveDP2Czs0RRLfLvvBpExbaBmBayOZFl_QMxylStLkZ-7dMGRTAcuPNVqSGeKRfD8YFb-5McLzTJr4rYprg0g"
+    ],
+    "patches": [
+      "Unlock Premium",
+      "Remove Ads",
+      "Bypass Play Store Licence Check"
+    ]
   }
 ]
