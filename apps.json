@@ -20822,7 +20822,7 @@
     "id": "galleryx",
     "name": "GalleryX",
     "description": "Open Source, Completely Offline Secure Gallery App, Non Official Fork of Photok",
-    "icon": "https://raw.githubusercontent.com/Midxv/GalleryX/main/Public/assets/applogo.jpg",
+    "icon": "https://raw.githubusercontent.com/Midxv/GalleryX/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -20841,7 +20841,7 @@
       "https://raw.githubusercontent.com/Midxv/GalleryX/main/Public/assets/Screenshot_2026-03-06-00-36-56-136_com.app.galleryx.foss.jpg",
       "https://raw.githubusercontent.com/Midxv/GalleryX/main/Public/assets/Screenshot_2026-03-06-00-34-09-585_com.app.galleryx.foss.jpg"
     ],
-    "releaseKeyword": "App-release"
+    "releaseKeyword": "apk"
   },
   {
     "id": "nova-messages",
@@ -21001,7 +21001,7 @@
     "id": "spamblocker",
     "name": "SpamBlocker",
     "description": "Android Call/SMS blocker.",
-    "icon": "https://private-user-images.githubusercontent.com/4710875/329279263-9d44afe7-2524-4b34-8bf3-ba285200bb5c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3NjE2MzQsIm5iZiI6MTc3OTc2MTMzNCwicGF0aCI6Ii80NzEwODc1LzMyOTI3OTI2My05ZDQ0YWZlNy0yNTI0LTRiMzQtOGJmMy1iYTI4NTIwMGJiNWMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUyNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MjZUMDIwODU0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZTA4ODliM2U2NTdjZjQwOTkyYzk3ZGNhN2E5ZDE4MmQxMTQzMGI2YjgzNGZhYzc2MmNjOTI1ZDQxNDMxMmE1ZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.Tk2KuKIiXRrIbaSKx2T1VusAaK0-tZKh1BcJzcE9LD0",
+    "icon": "https://f-droid.org/repo/spam.blocker/en-US/icon_NvpPfzS3J8Gx5PNIZUjNWQwk8ECPl6nVjaQ_6-8FsxY=.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -21016,17 +21016,17 @@
     "author": "aj3423",
     "officialSite": "",
     "screenshots": [
-      "https://private-user-images.githubusercontent.com/4710875/523304893-abfac64c-83e8-445b-b92a-8826e87156ed.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3NjE2MzQsIm5iZiI6MTc3OTc2MTMzNCwicGF0aCI6Ii80NzEwODc1LzUyMzMwNDg5My1hYmZhYzY0Yy04M2U4LTQ0NWItYjkyYS04ODI2ZTg3MTU2ZWQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUyNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MjZUMDIwODU0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODk5YjA5M2U1NzNhZDYyMmU5ZDg3OGZkM2M2Yzk4ZjZmOGEwOGQ2OWU5NDFhMGNjMDQwMWQyYmVkNjMyNjgzMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.u-vr5OoV6jI5wUUkKKQaqACh3s0sZcjpDDNQATLvDxM",
-      "https://private-user-images.githubusercontent.com/4710875/518710672-17a927a3-7d18-486b-b43e-943e22fc55b7.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3NjE2MzQsIm5iZiI6MTc3OTc2MTMzNCwicGF0aCI6Ii80NzEwODc1LzUxODcxMDY3Mi0xN2E5MjdhMy03ZDE4LTQ4NmItYjQzZS05NDNlMjJmYzU1YjcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUyNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MjZUMDIwODU0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmQ0MDJlYzI3NTY1Mjk2YjY2Nzk5YjNlYmNiODNiNzMyOTRmYmUwMWYxMjMwN2QyNWZjZTIwMDYxNTk4Nzk5OCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.R0yXUV5hWZO3rxHF2BFp2Itr_8C6k0epfPPaNxY1u1I",
-      "https://private-user-images.githubusercontent.com/4710875/518694777-70cb5537-1b29-49e8-be0e-47d362ae3ebc.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3NjE2MzQsIm5iZiI6MTc3OTc2MTMzNCwicGF0aCI6Ii80NzEwODc1LzUxODY5NDc3Ny03MGNiNTUzNy0xYjI5LTQ5ZTgtYmUwZS00N2QzNjJhZTNlYmMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUyNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MjZUMDIwODU0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MWEzZDI1ZTgxZTE4YmNmNjIzZTFlYzgwZGE3OTMxMzc4MTRiMGQyY2JiY2M1MGE4YjQ2YWFlYzVkNDA1YjdjMSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.8XodfOj1MrGpwytehNoXNUrEZGVMeWal1ZRdDuqFW1Q"
+      "https://f-droid.org/repo/spam.blocker/en-US/phoneScreenshots/1.history.png",
+      "https://f-droid.org/repo/spam.blocker/en-US/phoneScreenshots/2.settings.png",
+      "https://f-droid.org/repo/spam.blocker/en-US/phoneScreenshots/3.notification.png"
     ],
     "releaseKeyword": "apk"
   },
   {
     "id": "privatednsandroid",
-    "name": "PrivateDNSAndroid",
+    "name": "PrivateDNSAndroid Quick Toggle",
     "description": "Quick settings tile to switch active private DNS server",
-    "icon": "https://private-user-images.githubusercontent.com/55098497/474486479-e6dc7507-a0f2-4033-92dc-fbfeed6e20a5.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3OTI5NTksIm5iZiI6MTc3OTc5MjY1OSwicGF0aCI6Ii81NTA5ODQ5Ny80NzQ0ODY0NzktZTZkYzc1MDctYTBmMi00MDMzLTkyZGMtZmJmZWVkNmUyMGE1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTI2VDEwNTA1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM2MzMwYTJiZDUyOTUzNzk4M2JmYTQ0YWJjMmI5MjI1NjBhYzA3ODgzOWY4MmNlMTVlMzQ5Y2IwYzc3MGU3NmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.GEv0eOlcoCp4fJkCDwICYI0n-_7VDqPC2Xj52jSAMl8",
+    "icon": "https://android.izzysoft.de/frepo/ru.karasevm.privatednstoggle/en-US/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -21041,8 +21041,9 @@
     "author": "karasevm",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/karasevm/PrivateDNSAndroid/main/readme.jpg",
       "https://apt.izzysoft.de/fdroid/repo/ru.karasevm.privatednstoggle/en-US/phoneScreenshots/01.png",
+      "https://apt.izzysoft.de/fdroid/repo/ru.karasevm.privatednstoggle/en-US/phoneScreenshots/02.png",
+      "https://apt.izzysoft.de/fdroid/repo/ru.karasevm.privatednstoggle/en-US/phoneScreenshots/03.png",
       "https://apt.izzysoft.de/fdroid/repo/ru.karasevm.privatednstoggle/en-US/phoneScreenshots/04.png",
       "https://apt.izzysoft.de/fdroid/repo/ru.karasevm.privatednstoggle/en-US/phoneScreenshots/05.png"
     ],
@@ -21731,31 +21732,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "pdialer",
-    "name": "Pdialer",
-    "description": "Pdialer is a high-performance, expressive dialer application built with Jetpack Compose. It is a specialized fork of RevoPhone, meticulously optimized for low-resource hardware while delivering a premium, Material 3 \"Expressive\" design experience.\n\n",
-    "icon": "https://raw.githubusercontent.com/MoHamed-B-M/Pdialer-optimized/main/app/src/main/play_store_512.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/MoHamed-B-M/Pdialer-optimized",
-    "githubRepo": "MoHamed-B-M/Pdialer-optimized",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.grinch.rivo4",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "MoHamed-B-M",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/MoHamed-B-M/Pdialer-optimized/main/images/IMG_20260415_224726.jpg",
-      "https://raw.githubusercontent.com/MoHamed-B-M/Pdialer-optimized/main/images/IMG_20260415_224757.jpg",
-      "https://raw.githubusercontent.com/MoHamed-B-M/Pdialer-optimized/main/images/IMG_20260415_224827.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "sleep-timer",
     "name": "Sleep Timer",
     "description": "Sleep Timer allowing for user-defined timer duration, warning time prior to timer expiry, automatic brightness & volume adjustment. \nOnce timer expires, brightness & volume levels are restored to prior to app runtime levels, and PC is set to sleep (Modern Standby). \nIf any input is detected while timer is running, timer is reset to original timer duration.\nWindows-only compatibility. ",
@@ -21813,7 +21789,7 @@
     "id": "metroapple",
     "name": "MetroApple",
     "description": "YouTube Music client for Android With the twist of a Apple music (slightly unstable) and Qobuz (stable) backend",
-    "icon": "https://raw.githubusercontent.com/956tris/MetroApple/main/app/src/main/res/drawable/small_icon.png",
+    "icon": "https://raw.githubusercontent.com/956tris/MetroFuse/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -21835,7 +21811,7 @@
       "https://raw.githubusercontent.com/956tris/MetroApple/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_5.png",
       "https://raw.githubusercontent.com/956tris/MetroApple/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_6.png"
     ],
-    "releaseKeyword": "MetroApple-foss-release"
+    "releaseKeyword": "apk"
   },
   {
     "id": "shizucallrecorder",
@@ -21926,7 +21902,7 @@
     "id": "novery",
     "name": "Novery",
     "description": "Novery is a free, open-source Android app for reading web novels from multiple sources. Inspired by Tachiyomi and QuickNovel, it provides a clean, customizable reading experience with Text-to-Speech, offline reading, and personalized recommendations — all built with Jetpack Compose and Material 3.",
-    "icon": "https://private-user-images.githubusercontent.com/129298159/554217905-e6670700-ff66-4934-a36d-b43442a16442.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzU5NzY4MDAsIm5iZiI6MTc3NTk3NjUwMCwicGF0aCI6Ii8xMjkyOTgxNTkvNTU0MjE3OTA1LWU2NjcwNzAwLWZmNjYtNDkzNC1hMzZkLWI0MzQ0MmExNjQ0Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNDEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDQxMlQwNjQ4MjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02YTVlOGIxY2RiZDgwNTU3ZGRkNDgwNWM4MTZhYjhjNDZjZmQ2ZWQ4ZjRhZDUyODkyMmExMTZiMjNiNDAwNGZhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.BSNXf5NFF20Z6_DUUB0iynCa5FQ4K81KsNgFimYg7p4",
+    "icon": "https://raw.githubusercontent.com/1Finn2me/Novery/refs/heads/main/app/src/main/res/drawable/ic_launcher_icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -22035,7 +22011,7 @@
       "https://play-lh.googleusercontent.com/c4gme9mZipZaznEyKFT9w6rVndQPFc4YbwUm92JjLcYjeTlToEZL4Hs24c77EK-dIA=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/wih_WEjUZBxlME8K4-JJu-2soGw8DLF_tkf4XDM1Y770siZdI60vPf23wrROXC-b0SU=w1052-h592-rw"
     ],
-    "releaseKeyword": "apk"
+    "releaseKeyword": "Bravearm64Universal"
   },
   {
     "id": "utag",
