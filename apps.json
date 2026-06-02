@@ -6307,7 +6307,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "tosox",
+    "author": "paresh",
     "officialSite": "",
     "screenshots": [
       "https://play-lh.googleusercontent.com/tt58zbIEsXs9HtCD3pU9CVde37JxJcm3BSTZpeP3HSEKu8evCtjgqf2lmA6JOzXMWCn7ZtOHJPKc93GoEemm=w526-h296-rw",
@@ -22157,6 +22157,267 @@
       "Unlock Premium",
       "Remove Ads",
       "Bypass Play Store Licence Check"
+    ]
+  },
+  {
+    "id": "vn-ai-video-editor-morphe",
+    "name": "VN AI Video Editor Morphe",
+    "description": "VN is an easy-to-use and free video editing app with no watermark. The intuitive interface makes video editing simple, with no prior knowledge needed. It offers all the features required to create professional and high-quality videos, satisfying both the needs of professional and amateur video editors.",
+    "icon": "https://play-lh.googleusercontent.com/0mvy747JRrqlziGtpvii5zKcMgL0AYRjXNRMlBkUbYadBabC1Dg466LsLKFION1vTg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "vn",
+    "packageName": "com.frontrow.vlog",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Tvx8ijqq4gM5HTzATMgMf8wNDDxdb_8prkf1ej2E1s67OKPKth-q4BoxF0rsMmHbjIgjZAxGy7ijvd28AJ1xGA",
+      "https://play-lh.googleusercontent.com/hsZpYAHeCtn4sVm4Dtq3ZBcBUZQKJshCx_99vD0Pv2J54wcOW3E3ivFibc8zuIPO5e4BIiIrPGBt2_RWZtp3fw",
+      "https://play-lh.googleusercontent.com/SSEdMX6KOKPkOISs2zEAlhWKG_hs1Vd53kzYL-LIUdAqtncSc4_Vn664R0apOohFx2MO6V56BECnvbnZ6scilg",
+      "https://play-lh.googleusercontent.com/XqVJePaRYCxm-VQQzgIo70dP8fXUjX_HiLDxmk25V71VJHfur5MDPmSxKzK04JnevhfC-a_rj_umq9qn-PPi_Q",
+      "https://play-lh.googleusercontent.com/99gb5OPvdNdqvmdf9_ogP-sKxRzlRGuXeRrvDCjlBJtpYM-sy2Xday4s_MLvkdcNBFXhKgwiqGYGyuWlCukDpg"
+    ],
+    "patches": [
+     "Unlock Premium"
+    ]
+  },
+  {
+    "id": "document-scanner-morphe",
+    "name": "Document Scanner-Morphe",
+    "description": "Document Scanner and PDF Creator app - An Indian scanner app that provides you with more advanced scan options compare to any other apps on the store. We provide more than 50 tools to edit and manage documents. Let us start a detailed description of the app..",
+    "icon": "https://play-lh.googleusercontent.com/u1RTeZ-HJFxTOn4ok8l_EjY-XIeYZFSZMFM6T9CrI3-LESxvx4U75SconHwXXw3TCU8D",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "documentscanner",
+    "packageName": "com.cv.docscanner",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/rgk96tNivADf9i57Yt20frtONj9m8EPwri1OD6I4QbzC38p_1TGJKs9r19MS9NdGT-Ks",
+      "https://play-lh.googleusercontent.com/715j7R1OJME--rbJy8UoxDLk1HQzCGCjY8NQE2o6C_TOSBIgpn0AyqHN_j4BDQ-CyUGW",
+      "https://play-lh.googleusercontent.com/XOHH89t_KPPeqhni0K2l-Dew6OYvpa5LB7S2yfLVsA2ETBRBtJ6V2LZUR-GP7klE8w",
+      "https://play-lh.googleusercontent.com/yf0tvTnEnWJ4N5ZRp7GoyUIOLp2mUczDRRv60ZSGVIRH4GUFEcflgRaveO-l4XAc7nQ",
+      "https://play-lh.googleusercontent.com/jv3qzflrsbA0xT3820CAHleYJdPR0mJFLQRpB2oJ04NbyY6e-qWE1jxHkmth7IcH-w"
+    ],
+    "patches": [
+     "Unlock Premium"
+    ]
+  },
+  {
+    "id": "fing-morphe",
+    "name": "Fing Morphe",
+    "description": "Fing is the #1 Network Scanner: discovers all the devices connected to your WiFi and identifies them, with our patented technology used also by router manufacturers and antivirus companies worldwide.",
+    "icon": "https://play-lh.googleusercontent.com/ur5MtAqgdeIN5nsf2A_kVI2nF-JDfxp0_DrL0o5tzcUo2nG0lxPmWiLFTNUyr5ZH0w",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "fing",
+    "packageName": "com.overlook.android.fing",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/WI5RVp4WUxqgLsAUU1yaHLGQO_YopYigZOVorvd4BNqbQqI5ltZBuhGouiXAFWt7cg",
+      "https://play-lh.googleusercontent.com/riey8kia0j8EKL6UIe7PH031Hc5cU0rqmziVcyE3W3SDzPTNcFk59oa4hqMkNSB2Qw",
+      "https://play-lh.googleusercontent.com/0nTeNilfwUaptshH4QVQAC-Rqjp57c1XNC-p6KnxCE5HVmSL7StNMqZPZfRKX282A0m0",
+      "https://play-lh.googleusercontent.com/7TozjXDHjxyqu7tIXv-FBvQbq8QQVSuQ5XvT7t28Nk33-z0EcHmlzN1yFtYyLjw2UA",
+      "https://play-lh.googleusercontent.com/zy5No-gzikGy87wORPHkTqYPAjSYXIlzTz6RqDDaD94ZmdL9kuWEzF30an--dYZelL0"
+    ],
+    "patches": [
+     "Unlock Premium"
+    ]
+  },
+  {
+    "id": "eyecon-caller-id-&-spam-block",
+    "name": "Eyecon Caller ID & Spam Block Morphe",
+    "description": "Full-Screen Caller ID, Block Spam Calls, Reverse Lookup, and Toki Walkie-Talkie Feature. Want full control over your incoming calls? Eyecon is the perfect solution for displaying Caller ID and blocking spam calls. With Eyecon, you can see a caller’s photo on full-screen, identify unknown numbers, and easily block unwanted calls. The Toki Walkie-Talkie feature allows instant voice communication with friends and family, while the reverse lookup feature provides detailed information on unknown numbers.",
+    "icon": "https://play-lh.googleusercontent.com/SQYXiEaByfBK8CJijvA8o-xUYY5MyzF1dYfWzQf19uHgxQQREAK7Px8sBtSg2h_O_Fw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "eyecon",
+    "packageName": "com.eyecon.global",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/C94V_7YLWnr13Y6MXjckUnvppPhEcrJ_PkQmhjlQjGRGFrthW2YscCRLMudMnVz_ysOP_shVsYCuTHKS1VuD",
+      "https://play-lh.googleusercontent.com/1Fcono8oS6b-WHFr0jm4lvTakSKuJZ_5BZYL9ZMnTLjhj48QWKLqIcXnh686zDww91rxHsh0IOuT3rj0M7h-pw",
+      "https://play-lh.googleusercontent.com/BB7vf0XOAlF3lqGyUUbRJr8stlAFr5vBNcU4pEyTZNq5dkm2mloNj1stbOeyYWD71x1kzzOdSLF0G9osgXmEfFE",
+      "https://play-lh.googleusercontent.com/SuGVm8CZU5JJ_pCDKPEIEhouq46R-h0GztraU1tLxuyEF2WRVblBnB76Lq2AcFjAZcXElk9rLgdg6h632FCh7g",
+      "https://play-lh.googleusercontent.com/rMuw8o9kUxw_XHr_kZHAls8p3gmQa_E-Sd6vOxhSrB9NDRgIytuDlfHJSLTErTj5b9Ue8he72HDd3IDIW7rQoQ"
+    ],
+    "patches": [
+     "Unlock Premium"
+    ]
+  },
+  {
+    "id": "promoter-pal-morphe",
+    "name": "Prompter Pap Morphe",
+    "description": "Reading from your phone while recording means breaking eye contact. Teleprompter floats your script next to the lens like an autocue, so you stay locked on camera the whole time.",
+    "icon": "https://play-lh.googleusercontent.com/fLXNrCJTcVbtOzonFI-hzruBsFwwLBlHxdfEgtHnMJt0SnW6_bPlGXsS3RtU1tLam5Q=s48-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "prompter",
+    "packageName": "com.solid.teleprompter",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/0pk1TeWc9p4-Mw8TjHYWB2XKs8H-0tM2RMWzuJi1lLCdZ32Q7mWJA-oPnvTREOkEoSmeY8YJdixrHV2NBmIJe6w=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/uRE4aZB3AlpNuVp-b9F9LUNJBU7GjlZAn_o6SOgjEJsW_UHGt2AGQefqJWQsQv7Zy0f26gLIrJX8-g_rZqmHQA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/DUjaf6wIxSLqSjmm4Lvp8CnRAZmx3MCcr-9xvuOcydoVCXlEPd9S21DT3uDWUVjOYAKypZODmK4B6WXkzcFe1Q=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/o-4udq1cncgFf9nFFXjcmenAZPRqEY_AVmVwMDjOlyIMrp1MENUQK-JXYfg5C27L16r1pOz922Reak4polIg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/iMrGGpWlXodiiXXzDiyh3W8YVP7kG9E0AUCbmHJNS674LiIv7dCtEqHBe4ssjyPlbuKJ17y8REIYMj7TtlZWs90=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/U5aCdBTV8iJRJe2bPBCLR9CHUl8SdmYeoeWFW0ZpSlBb-P25C-m38pcgxNQ9MNuIPkn8uTohT4Rfv3d2mALGUg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/Xvxqm_VPecNhKoDRM-pYybV-EcrV3F4JWw9htFs9swDi6ZTmN7LRwOyAu5fyKAUPyvZ9AeU-hp-42StJl_A3HmA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/sCOiQu30Xrb78BvIDPdAm4RyS-q4VHKYRhcjGtSrbqlui3zVlth57Bn8C7yPIu2xB6VlqsCiCDFALwLA89N8Pw=w526-h296-rw"
+    ],
+    "patches": [
+     "Unlock Premium"
+    ]
+  },
+  {
+    "id": "lumina-walls-morphe",
+    "name": "Lumina Wallpapers Morphe",
+    "description": "Elevate your device's aesthetics with Lumina Wallpapers – the ultimate AI Wallpaper app!",
+    "icon": "https://play-lh.googleusercontent.com/YvmxumcCG5G4rrC0bngISYuSSZS_V7VKNoVvHaee8YohgvkP7wT9FcVC0wK5kopXyKY=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "lumina",
+    "packageName": "com.lumina.wallpapers",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/2DW1QWX9THjsugvGBzJ7PkJaoVl1Syz5RoyuKmKXadxkLcv2zowrQ_eokogKGo-QspQ=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/k74juJCbstYY0wqt9dBIxgTZoyOVL813_8xEydf69cjnuW9lb66TIl_CW2zQVIP4VtA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/JjjhEgoBQjKDOeII3uBDjlKSVLtn_9XZckoxNFeslJPmzmZW694OsPHQ_Km8n4T-as4=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/pfiJBAEUZSCJxnK1MjIZxIDHwCdiLvsbgvqlX-8GJN_nFIv8aIcfjDm3O7oJWubadmk=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/qhobJnUWsOmVf2UFgKsVulfKYEPKEVw6ySvqP1uqtbAui2SggRllPBmq44Nk-yUzxA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/vmLIZYANXbU8P5WiO1Rk4egxoRBFCh7hju6t77WCRu0tnRqxqkqJ7kQ7cp91-7iEN3w=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/n9KC4t-MXaTaUzBZ0miMzBReK7N5riCXJjAIPJ5_EFfKL-_qG95C9UDhy5OklA1w04s=w526-h296-rw"
+    ],
+    "patches": [
+     "Unlock Premium"
+    ]
+  },
+  {
+    "id": "macro-droid-morphe",
+    "name": "macroDroid Morphe",
+    "description": "Turn your Android device into a smart assistant that works for you. MacroDroid is the easiest way to automate almost anything on your phone or tablet — no coding required, just a few taps.",
+    "icon": "https://play-lh.googleusercontent.com/PioDUVeFbkSbenRZxrKoUErvC9hEQksRRQhtp39vytQtGXgjpIkZqu1ScJy-MoRUAAE=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "macrodroid",
+    "packageName": "com.arlosoft.macrodroid",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/9lx9toT0gdGDsEfeVBbnmomgLaBv7two3GpPGqODkHpFSnfKMqP21yCDglLJDH_mrw=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/MAnmC4MSM08ph9WZvz3b2k-Tdf4NELciRDOQxbZWwkfV3r5JoMMOOkTdzq1GMjQ6mTk7=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/d_w85RHk9bzqukvH8SXvdlEh952qOIJi_Up_DNdqStHiDhPBeFD-dtbsE3FeckCbJA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/zP6ZnwmE2NfEuBtiA6s6EaCiYKYYQ1SplUA7KqGh3q79Q7o6BeXT5cXDhj72wDh9rS8=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/hHK91pzMuu6C_2a0snu2yRGT_LdFT4pWZxhj18uCpTAX068hrsakCWVAgqmNQAISA-0=w526-h296-rw"
+    ],
+    "patches": [
+     "Unlock Premium"
+    ]
+  },
+  {
+    "id": "startsense-morphe",
+    "name": "StarSense Explorer Morphe",
+    "description": "Unleash the power of your smartphone to take you on a guided tour of the night sky, even if you’ve never used a telescope before.",
+    "icon": "https://play-lh.googleusercontent.com/1S5OpWhdutP0D3kN0bKfHBko5PFY25WVqOxXuu-TfJ_EDlpOsINuqYHxfJ7IQvwjww=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "starsense",
+    "packageName": "com.celestron.skybox",
+    "category": "Entertainment",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/2UZ4C6AJkJUDJJ5nYmRbEnjCIEh2EbStvyygBTnWLmdnwtww0gDQ7HulmwxR4Y1s8OIU=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/4v7ClUZTOHXNdcKJPDShPGXpljwVdrLk-ZECtmC_BPBMkQr5yo8FmgtQDmvDwSBBjgg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/rFI-OqdstoWgjffitys_azMXzKS2XRoN861qbhiI1aFqkKtsbtyz4Q7D0ud9a4Uv_etJ=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/WKHuhr1fZwIx38XdverGUNYUcl__f4Qj3ya4yPtdHaFjZLQ07koc-G3S-dEgFeESxP4=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/4cgbdoU8YmFtDbVmoRggBu7A0rxQckdjANLvNCgbqgWPYQW_SQQpo77lVSj599eFb8M=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/07ZCbLUmnukrMiZOZiWy7pGo5V5f7SwqbeVUcz4pbXDN8zb35Q-gFeHeCTNqi6cCBg=w2560-h296-rw"
+    ],
+    "patches": [
+     "Unlock Premium"
+    ]
+  },
+  {
+    "id": "alarmo-morphe",
+    "name": "Alarmo Morphe",
+    "description": "Alarmo is a smart alarm app which is very useful for heavy sleepers, in this alarm app you can set alarm which can only be turned off after completing a mission or challange.",
+    "icon": "https://play-lh.googleusercontent.com/I5tM2cUkBSMH74XAmBYPlBVnoaY08B7wgwY4DhqKKYUQ_zYtU_nWNMVn5pe337MVGsEQNluDYugOaPsVQZJIyQ=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "alarmo",
+    "packageName": "com.bytesong.missionalarm",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Paresh",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/ubYKlVgMLf2-ePv0tUa_HszvOXIIsiiy0a_i1vAug-yyoUW9USt9ZFivNEVBwMSGbKyANhQS6VPwWAoMxdpbkQ=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/7CTWTjq-ulh0VK45wVnKwcJoWaRWUR2LUYQ6fLCtXwYtsrgBmI237i9uKstcmfAbC_Yned3TX6aMt32Hpmf9=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/FpFxeW3gw69VKtGKWBQQmwwZCG216TGyUmVnR8CVrrjho08TThOrI9ggVlDRGGT_DCF5pFcNfcQeBj0wHoavSA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/0K5bamrbcOKh29m6ZNmI-N2pBiOheYRk7jOnUgqS0w91mvaubUq5kLpBmqo6zLpKKifEUDKuHN2RSX0-DCAZhg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/_A5wJxtQOjbG3MIoyNiWE_4x0n9znvtRScbY4b6k_5SZvrNT-Eb-mRdduHjxuHT_OMBQVUbz5S3VbP73i9xw-nI=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/TEfgJmGOMTstwF-LtYEEdLx90BbMgvVXOEFEevDzwvdzGBj7oYKhkPGkjKP0qWIm-QA-aDh7Dcl0YRgaOt9-=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/mSxeeyOJ0uL1vfh2QPc9duACM60iOfpOu0ZyCPLHEdnLOpKo_T_8jaT-qX0Z8wTMlml1t7oUK3iZuw9y0HluIHo=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/PePLtph_8hxmyIidgzWSnqEax-uNCeLyN5w_xknfOoIgnvEC8pRApomST222flxMa_dlguIJQ-6QetoKsWlauGs=w526-h296-rw"
+    ],
+    "patches": [
+     "Unlock Premium"
     ]
   }
 ]
