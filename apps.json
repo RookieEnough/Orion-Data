@@ -22419,5 +22419,73 @@
     "patches": [
      "Unlock Premium"
     ]
+  },
+  {
+    "id": "muajjin",
+    "name": "Muajjin",
+    "description": "Muajjin is a lightweight, privacy-friendly Islamic prayer times app built with modern web technologies and packaged as a native Android application using Capacitor.  Prayer times are calculated locally on the device—no tracking, no remote APIs required.",
+    "icon": "https://raw.githubusercontent.com/MuslimTechnician/muajjin/main/public/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MuslimTechnician/muajjin",
+    "githubRepo": "MuslimTechnician/muajjin",
+    "releaseKeyword": "apk",
+    "packageName": "org.muslimtechnician.muajjin",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MuslimTechnician",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MuslimTechnician/muajjin/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/MuslimTechnician/muajjin/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+      "https://raw.githubusercontent.com/MuslimTechnician/muajjin/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+      "https://raw.githubusercontent.com/MuslimTechnician/muajjin/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg"
+    ]
+  },
+  {
+    "id": "omni-search",
+    "name": "omni-search",
+    "description": "High-performance Windows desktop file search built with Tauri v2, Rust, and C++. OmniSearch indexes NTFS metadata directly through USN/MFT APIs for fast global search with advanced filters and duplicate detection.",
+    "icon": "https://raw.githubusercontent.com/Eul45/omni-search/refs/heads/main/src-tauri/icons/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Eul45/omni-search",
+    "releaseKeyword": "OmniSearch",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Eul45",
+    "officialSite": "https://github.com/Eul45/omni-search",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Eul45/omni-search/refs/heads/main/docs/images/A2.png",
+      "https://raw.githubusercontent.com/Eul45/omni-search/refs/heads/main/docs/images/6.png"
+    ]
+  },
+  {
+    "id": "livebridge",
+    "name": "Livebridge ",
+    "description": "Level up your dynamic pill/island on Android",
+    "icon": "https://raw.githubusercontent.com/appsfolder/livebridge/main/assets/icons/icon-master.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/appsfolder/livebridge",
+    "githubRepo": "appsfolder/livebridge",
+    "releaseKeyword": "apk",
+    "packageName": "com.appsfolder.livebridge",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "appsfolder",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/appsfolder/livebridge/main/assets/screenshots/FirstSlide-lb.png",
+      "https://raw.githubusercontent.com/appsfolder/livebridge/main/assets/screenshots/SecondSlide-lb.png",
+      "https://raw.githubusercontent.com/appsfolder/livebridge/main/assets/screenshots/ThirdSlide-lb.png"
+    ]
   }
 ]
