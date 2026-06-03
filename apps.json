@@ -22100,7 +22100,7 @@
       "https://play-lh.googleusercontent.com/-RvkGqAa7QgaLMY3NWLCQmDRmiT38ESqtWoHRDIROLM98R7rstmyEfdbAIUHBx8BFxAWPeO5Y3hC7ROasQjMTA",
       "https://play-lh.googleusercontent.com/2iqGkmvHnRzQrTCNG64bc6R0sO5RsoGmpWjr-Xkn61lX6zDn_MJkFtZYbBQMflMZwmzcWg2xRucLa5wCu45Zzg"
     ],
-   "patches": [
+    "patches": [
       "Unlock Premium",
       "Remove Ads"
     ]
@@ -22115,7 +22115,7 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
     "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-   "releaseKeyword": "mark",
+    "releaseKeyword": "mark",
     "packageName": "com.markOne.ss_app",
     "category": "Utility",
     "platform": "Android",
@@ -22160,7 +22160,7 @@
       "https://play-lh.googleusercontent.com/99gb5OPvdNdqvmdf9_ogP-sKxRzlRGuXeRrvDCjlBJtpYM-sy2Xday4s_MLvkdcNBFXhKgwiqGYGyuWlCukDpg"
     ],
     "patches": [
-     "Unlock Premium"
+      "Unlock Premium"
     ]
   },
   {
@@ -22188,7 +22188,7 @@
       "https://play-lh.googleusercontent.com/jv3qzflrsbA0xT3820CAHleYJdPR0mJFLQRpB2oJ04NbyY6e-qWE1jxHkmth7IcH-w"
     ],
     "patches": [
-     "Unlock Premium"
+      "Unlock Premium"
     ]
   },
   {
@@ -22216,7 +22216,7 @@
       "https://play-lh.googleusercontent.com/zy5No-gzikGy87wORPHkTqYPAjSYXIlzTz6RqDDaD94ZmdL9kuWEzF30an--dYZelL0"
     ],
     "patches": [
-     "Unlock Premium"
+      "Unlock Premium"
     ]
   },
   {
@@ -22244,7 +22244,7 @@
       "https://play-lh.googleusercontent.com/rMuw8o9kUxw_XHr_kZHAls8p3gmQa_E-Sd6vOxhSrB9NDRgIytuDlfHJSLTErTj5b9Ue8he72HDd3IDIW7rQoQ"
     ],
     "patches": [
-     "Unlock Premium"
+      "Unlock Premium"
     ]
   },
   {
@@ -22275,7 +22275,7 @@
       "https://play-lh.googleusercontent.com/sCOiQu30Xrb78BvIDPdAm4RyS-q4VHKYRhcjGtSrbqlui3zVlth57Bn8C7yPIu2xB6VlqsCiCDFALwLA89N8Pw=w526-h296-rw"
     ],
     "patches": [
-     "Unlock Premium"
+      "Unlock Premium"
     ]
   },
   {
@@ -22305,7 +22305,7 @@
       "https://play-lh.googleusercontent.com/n9KC4t-MXaTaUzBZ0miMzBReK7N5riCXJjAIPJ5_EFfKL-_qG95C9UDhy5OklA1w04s=w526-h296-rw"
     ],
     "patches": [
-     "Unlock Premium"
+      "Unlock Premium"
     ]
   },
   {
@@ -22333,7 +22333,7 @@
       "https://play-lh.googleusercontent.com/hHK91pzMuu6C_2a0snu2yRGT_LdFT4pWZxhj18uCpTAX068hrsakCWVAgqmNQAISA-0=w526-h296-rw"
     ],
     "patches": [
-     "Unlock Premium"
+      "Unlock Premium"
     ]
   },
   {
@@ -22362,7 +22362,7 @@
       "https://play-lh.googleusercontent.com/07ZCbLUmnukrMiZOZiWy7pGo5V5f7SwqbeVUcz4pbXDN8zb35Q-gFeHeCTNqi6cCBg=w2560-h296-rw"
     ],
     "patches": [
-     "Unlock Premium"
+      "Unlock Premium"
     ]
   },
   {
@@ -22393,7 +22393,7 @@
       "https://play-lh.googleusercontent.com/PePLtph_8hxmyIidgzWSnqEax-uNCeLyN5w_xknfOoIgnvEC8pRApomST222flxMa_dlguIJQ-6QetoKsWlauGs=w526-h296-rw"
     ],
     "patches": [
-     "Unlock Premium"
+      "Unlock Premium"
     ]
   },
   {
@@ -22463,5 +22463,31 @@
       "https://raw.githubusercontent.com/appsfolder/livebridge/main/assets/screenshots/SecondSlide-lb.png",
       "https://raw.githubusercontent.com/appsfolder/livebridge/main/assets/screenshots/ThirdSlide-lb.png"
     ]
+  },
+  {
+    "id": "sos-alerter",
+    "name": "SOS Alerter",
+    "description": "Privacy-first SOS application for sending emergency messages and real-time location updates to trusted contacts.",
+    "icon": "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/main/screenshots/app_icon.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dhilipmpms/SOS-alerter",
+    "githubRepo": "dhilipmpms/SOS-alerter",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.saftyapp",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dhilipmpms",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/main/screenshots/welcome.png",
+      "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/main/screenshots/setup.png",
+      "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/main/screenshots/home.png",
+      "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/main/screenshots/settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
