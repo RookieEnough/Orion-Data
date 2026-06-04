@@ -22593,5 +22593,59 @@
       "https://raw.githubusercontent.com/diekaiju/Subway-Surfers/refs/heads/main/screenshots/img%20(3).png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "calx",
+    "name": "CalX",
+    "description": "This open-source Flutter project, developed using Antigravity®, features a modern Material 3 Expressive interface. The application is AI-assisted and designed for high utility, offering:\n\nCore Functionality: Voice-based calculations, comprehensive unit conversions, and a built-in constants table.\nCustomization: Fully integrated dynamic app themes.\nDevelopment: Architected with Flutter, emphasizing performance and clean, AI-supervised implementation.",
+    "icon": "https://raw.githubusercontent.com/xpertistic/xpertistic-Flutter-based-Open-Source-Calculator/main/assets/icon/app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/xpertistic/xpertistic-Flutter-based-Open-Source-Calculator",
+    "githubRepo": "xpertistic/xpertistic-Flutter-based-Open-Source-Calculator",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.xpertistic.calx",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "xpertistic",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/xpertistic/xpertistic-Flutter-based-Open-Source-Calculator/main/Screenshot_20260604-212637.png",
+      "https://raw.githubusercontent.com/xpertistic/xpertistic-Flutter-based-Open-Source-Calculator/main/553220332-066412d4-e81d-4330-891f-8366f419b949.png",
+      "https://raw.githubusercontent.com/xpertistic/xpertistic-Flutter-based-Open-Source-Calculator/main/553220331-8aeba550-ee51-431f-9fe5-cf212711a3b9.png",
+      "https://raw.githubusercontent.com/xpertistic/xpertistic-Flutter-based-Open-Source-Calculator/main/553220328-6ba4785b-fb73-4d96-871e-f5df52b3ea8c.png",
+      "https://raw.githubusercontent.com/xpertistic/xpertistic-Flutter-based-Open-Source-Calculator/main/Screenshot_20260604-212629.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "logfox",
+    "name": "LogFox",
+    "description": "Yet another LogCat reader for Android",
+    "icon": "https://raw.githubusercontent.com/F0x1d/LogFox/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/F0x1d/LogFox",
+    "githubRepo": "F0x1d/LogFox",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.f0x1d.logfox",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "F0x1d",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/F0x1d/LogFox/refs/heads/master/metadata/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/F0x1d/LogFox/refs/heads/master/metadata/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/F0x1d/LogFox/refs/heads/master/metadata/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/F0x1d/LogFox/refs/heads/master/metadata/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/F0x1d/LogFox/refs/heads/master/metadata/en-US/images/phoneScreenshots/5.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
