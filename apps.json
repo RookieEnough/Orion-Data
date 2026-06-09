@@ -12811,31 +12811,6 @@
     "releaseKeyword": "app"
   },
   {
-    "id": "zapstore",
-    "name": "Zapstore",
-    "description": "The open app store powered by your social network",
-    "icon": "https://raw.githubusercontent.com/zapstore/zapstore/refs/heads/master/assets/images/logo.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/zapstore/zapstore",
-    "githubRepo": "zapstore/zapstore",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "dev.zapstore.app",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "zapstore",
-    "officialSite": "",
-    "screenshots": [
-      "https://image2url.com/r2/default/files/1773163238152-704c5faa-182a-4671-80f1-7d2a409a102f.jpg",
-      "https://image2url.com/r2/default/files/1773163255741-819090e2-0820-4231-83d2-c6ba8229b2e0.jpg",
-      "https://image2url.com/r2/default/files/1773163266191-a52a9c70-09f6-4b12-ba18-236275b887d7.jpg"
-    ],
-    "releaseKeyword": "zapstore"
-  },
-  {
     "id": "whatsapp-web-incognito",
     "name": "Whatsapp Web Incognito",
     "description": "WAIncognito is an extension for WhatsApp Web that focuses on privacy and control. It lets you read messages, view statuses, and browse chats without revealing your activity, also having extra utilities like restoring deleted messages and downloading statuses.",
