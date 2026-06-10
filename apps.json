@@ -22750,5 +22750,39 @@
       "https://raw.githubusercontent.com/sachinmandawi/Telegram-Drive/main/screenshots/Screenshot%202026-06-08%20135327.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "apk-explorer-editor",
+    "name": "APK Explorer Editor",
+    "description": "Source code of APK Explorer & Editor (AEE),  an open-source tool to explore the contents of an installed APK!",
+    "icon": "https://f-droid.org/repo/com.apk.editor/en-US/icon_eqLqxsY5d0fqhmSpqpXE2l0cAIdpSuYXYxA3u5vBQQA=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/apk-editor/APK-Explorer-Editor",
+    "githubRepo": "apk-editor/APK-Explorer-Editor",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.apk.explorer",
+    "category": "Utility",
+    "platform": "android",
+    "size": "Varies",
+    "author": "apk-editor",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/4.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/5.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/6.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/7.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/8.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/9.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/10.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/11.png",
+      "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/12.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
