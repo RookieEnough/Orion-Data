@@ -22763,7 +22763,7 @@
     "githubRepo": "apk-editor/APK-Explorer-Editor",
     "gitlabRepo": "",
     "gitlabDomain": "",
-    "packageName": "com.apk.explorer",
+    "packageName": "com.apk.editor",
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
