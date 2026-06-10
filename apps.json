@@ -22784,5 +22784,56 @@
       "https://f-droid.org/repo/com.apk.editor/en-US/phoneScreenshots/12.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "arc-launcher",
+    "name": "Arc Launcher",
+    "description": "A minimal, open-source Android TV launcher featuring WiFi data usage widget, an inbuilt OLED friendly screensaver, and improved UX. A customized fork of FLauncher.",
+    "icon": "https://meddouribadis.github.io/arclauncher/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "Badis MEDDOURI",
+    "officialSite": "https://github.com/meddouribadis/arclauncher",
+    "screenshots": [
+      "https://meddouribadis.github.io/arclauncher/images/screen.png",
+      "https://meddouribadis.github.io/arclauncher/images/screen_settings3.png",
+      "https://meddouribadis.github.io/arclauncher/images/screen_settings1.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "privacify",
+    "name": "Privacify",
+    "description": "Privacy Control Center — monitor app permissions, track sensor usage, and secure your device.\nAll data stays on your device. No ads, no tracking, no analytics.",
+    "icon": "https://raw.githubusercontent.com/robinsrk/privacify/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/robinsrk/privacify",
+    "githubRepo": "robinsrk/privacify",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.robin.privacify",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "robinsrk",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/robinsrk/privacify/main/fastlane/metadata/android/en-US/images/featuregraphic.png",
+      "https://raw.githubusercontent.com/robinsrk/privacify/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.%20Dashboard.png",
+      "https://raw.githubusercontent.com/robinsrk/privacify/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.%20Analytics.png",
+      "https://raw.githubusercontent.com/robinsrk/privacify/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.%20Auto%20Guard.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
