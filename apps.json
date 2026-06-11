@@ -1225,7 +1225,7 @@
   {
     "id": "microG-re",
     "name": "MicroG-RE",
-    "description": "A free, open-source implementation of Google Play Services. Required to sign into Google accounts on ReVanced apps.",
+    "description": "A free, open-source implementation of Google Play Services. Required to sign into Google accounts on Morphe apps.",
     "icon": "https://downloadr2.apkmirror.com/wp-content/uploads/2024/04/MicroG_round.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -1237,7 +1237,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "WSTxda",
+    "author": "MorpheApp",
     "screenshots": [
       "https://image2url.com/r2/default/images/1768662580414-158def20-c32f-4e57-ba9c-80456cf84e0d.jpg",
       "https://image2url.com/r2/default/images/1768662596350-04879d4e-e2d9-447a-8b89-fae7f866e2d1.jpg",
@@ -2972,7 +2972,7 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/DP-Hridayan/aShellYou",
     "githubRepo": "DP-Hridayan/aShellYou",
-    "packageName": "com.c691bfa",
+    "packageName": "in.hridayan.ashell",
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
