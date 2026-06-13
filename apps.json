@@ -22849,12 +22849,11 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/bcrtvkcs/moonlight-zenith-android",
     "githubRepo": "bcrtvkcs/moonlight-zenith-android",
-    "releaseKeyword": "release",
     "packageName": "com.limelight.zenith", 
     "category": "Gaming",
     "platform": "Android",
     "size": "Varies",
-    "author": "bcrtvkcs"
+    "author": "bcrtvkcs",
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224037_MoonlightZenith.png",
