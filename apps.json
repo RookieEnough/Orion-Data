@@ -22838,5 +22838,24 @@
       "https://raw.githubusercontent.com/robinsrk/privacify/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.%20Auto%20Guard.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "moonlight-zenith",
+    "name": "Moonlight Zenith",
+    "description": "An optimized and perfectly symmetrical Moonlight client for Android.",
+    "icon": "https://avatars.githubusercontent.com/u/6118379",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/bcrtvkcs/moonlight-zenith-android",
+    "githubRepo": "bcrtvkcs/moonlight-zenith-android",
+    "releaseKeyword": "release",
+    "packageName": "com.limelight.zenith", 
+    "category": "Gaming",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "bcrtvkcs"
+    "officialSite": "",
+    "releaseKeyword": "apk"
   }
 ]
