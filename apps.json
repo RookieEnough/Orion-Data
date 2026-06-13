@@ -22856,6 +22856,13 @@
     "size": "Varies",
     "author": "bcrtvkcs"
     "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224037_MoonlightZenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224054_MoonlightZenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224102_MoonlightZenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224124_MoonlightZenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224131_MoonlightZenith.png"
+    ],
     "releaseKeyword": "apk"
   }
 ]
