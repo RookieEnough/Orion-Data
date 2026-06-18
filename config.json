@@ -1,7 +1,7 @@
 {
   "appsJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/refs/heads/main/apps.json",
   "mirrorJsonUrl": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/data/mirror.json",
-  "maintenanceMode": true,
+  "maintenanceMode": false,
   "maintenanceMessage": "Bro you, yes you! I've blocked the access of Orion Store for you, wanna know why? because you didn't update Orion man!\nJust kidding, Server is under maintenance, chill dude But hey, Update Orion after maintainance is done, okay?",
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
   
@@ -12,7 +12,7 @@
     "show": true
   },
 
-  "latestStoreVersion": "1.3.4",
+  "latestStoreVersion": "1.3.2",
   "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.3.2/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
   "easterEggUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
