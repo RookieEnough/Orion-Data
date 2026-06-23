@@ -16213,29 +16213,28 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "frapp",
     "name": "Frapp",
-    "description": "Frapp (Freebie Radar APP) Get video game giveaways at the comfort of your mobile phone made with 🧡by Brian Ali.",
-    "icon": "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/icon.jpg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/brianali-codes/Frapp",
-    "githubRepo": "brianali-codes/Frapp",
+    "id": "frapp",
+    "description": "FRAPP (Freebie Radar App) aggregates the latest video game giveaways and free titles in one clean interface. Never miss a limited-time offer across major distribution platforms like epic games, steam, itch.io, GOG and much much more,, powered by the GamerPower API.",
+    "icon": "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/FRAPP_ICON1.png",
+    "repoUrl": "https://github.com/Brianali-codes/Frapp",
+    "githubRepo": "Brianali-codes/Frapp",
     "gitlabRepo": "",
     "gitlabDomain": "",
+    "codebergRepo": "",
+    "releaseKeyword": "apk",
     "packageName": "com.brianali.Frapp",
     "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "brianali-codes",
-    "officialSite": "",
+    "author": "Brianali-codes",
+    "downloadUrl": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/screenshot1.webp",
-      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/screenshot2.webp",
-      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/assets/images/screenshot3.webp"
+      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/Screenshot_20260619_153242_Frapp.jpg",
+      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/Screenshot_20260619_153203_Frapp.jpg",
+      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/Screenshot_20260619_153251_Frapp.jpg",
+      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/Screenshot_20260619_153133_Frapp.jpg",
+      "https://raw.githubusercontent.com/Brianali-codes/Frapp/refs/heads/main/Screenshot_20260619_153246_Frapp.jpg"
     ],
-    "releaseKeyword": "apk"
+    "platform": "Android"
   },
   {
     "id": "auraninja",
