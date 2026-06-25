@@ -24480,5 +24480,34 @@
       "https://github.com/eyalm2000/adns/raw/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
     ],
     "releaseKeyword": "app-foss-release.apk"
+  },
+  {
+    "id": "windscribe-vpn",
+    "name": "Windscribe VPN Morphe",
+    "description": "Windscribe VPN is your all-in-one solution for privacy, security, and unrestricted internet connections. Trusted by millions, recognized as a PCMag Editors’ Choice, and proven to protect your data, Windscribe is the best VPN to browse, stream, and connect across the internet without limits.",
+    "icon": "https://play-lh.googleusercontent.com/k2TAILEsjpI_9_0lpmRRYiaty4JXOc3RpluhKccooYQ_s5llbvcywrQPxAWi_U_-eRHK9yaH1J5zXKfPqgrMxg=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "releaseKeyword": "windscribe",
+    "packageName": "com.windscribe.vpn",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rushiranpise",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/7YBqiuS_701xgaH2xhO_YGOdGVmicNZZa00sNsmvSHvTlDKqQ_oq8V5Yowp3VaBXE2eg5-ctC26BkpbwzA0a=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/9f4pmBEO0O6qUK8avPhpoxi56r8shHweW2pgdC28bLL3AILQpjUMJdqGmTH6GAqWSJGoRH5-q3GGy9U2CyJjDA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/3wJYkpZjNJwiYifqNio7KkL39n8rVUY0u2HU_1vtFnVxTiZeIbv4DZ7PLQjyvgrahzHq_C1mJf_F8IEVa93v=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/KsVZT6drGWM64qJ2omeK0idFr_63_now2JIoyZx7Ndy-l_6U5WKZ4PZh0PFTnt92VRlq5feLTxM657Fur_SHSyA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/sYTQv3v24kfqqpWNlicmJyMz1UR7FQdC7xg42CZ6Pe3vVNeaE9MR8GsJy0KkaiduolLAxnlkJNeTzTrXgvHx7g=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/nOM7cr61_aPniKEFPmDrkc6v4Tun4HOQhrIkgd_aNvswwwp9cPKM6TlrnMGytd1bzIqoVar3_ijGSf1sYym1lQ=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/wkW92q4RnkS4kohplP7XXUREwbxVTpnPrg1rNpCVGQj-I5wAOqKsmOjm90J2I73KPCoXK3ESpKBUG4pdzfxgGQ=w526-h296-rw"
+    ],
+    "patches": [
+      "Unlock Premium"
+    ]
   }
 ]
