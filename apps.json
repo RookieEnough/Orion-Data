@@ -22790,7 +22790,7 @@
     "id": "privacify",
     "name": "Privacify",
     "description": "Privacy Control Center — monitor app permissions, track sensor usage, and secure your device.\nAll data stays on your device. No ads, no tracking, no analytics.",
-    "icon": "https://raw.githubusercontent.com/robinsrk/privacify/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "icon": "https://raw.githubusercontent.com/robinsrk/privacify/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
