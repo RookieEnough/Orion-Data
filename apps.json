@@ -686,7 +686,7 @@
     "id": "weathermaster",
     "name": "WeatherMaster",
     "description": "WeatherMaster: inspired by the Google Pixel weather app.",
-    "icon": "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/readme_app_icon.svg",
+    "icon": "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/refs/heads/main/preview/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -699,12 +699,11 @@
     "size": "Varies",
     "author": "PranshulGG",
     "screenshots": [
-      "https://github.com/PranshulGG/WeatherMaster/raw/master/preview/prev_2.png",
-      "https://github.com/PranshulGG/WeatherMaster/raw/master/preview/prev_3.png",
-      "https://github.com/PranshulGG/WeatherMaster/raw/master/preview/prev_4.png",
-      "https://github.com/PranshulGG/WeatherMaster/raw/master/preview/2.png",
-      "https://github.com/PranshulGG/WeatherMaster/raw/master/preview/prev_5.png",
-      "https://github.com/PranshulGG/WeatherMaster/raw/master/preview/prev_1.png"
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_1.png",
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_2.png",
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_3.png",
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_4.png",
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_5.png"
     ]
   },
   {
@@ -18512,31 +18511,6 @@
       "https://github.com/markusfisch/BinaryEye/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screencap-scanning-cropped.png",
       "https://github.com/markusfisch/BinaryEye/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screencap-decoded.png",
       "https://github.com/markusfisch/BinaryEye/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screencap-compose-barcode.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "you-tub",
-    "name": "You Tub",
-    "description": "YouTub – Lightweight YouTube Front-End for Unsupported Android Devices\n\nYouTub is a lightweight and fast YouTube front-end designed specifically for older Android devices that no longer support the official YouTube app.\n\nMany smartphones running older Android versions (such as Android 4, 5, and 6) cannot install or run the official YouTube application. YouTub solves this problem by providing a simple and efficient alternative that allows users to watch YouTube videos without the heavy official app.\n\n✨ Features\n▶️ Watch YouTube videos on unsupported devices\n⚡ Lightweight and fast performance\n📱 Compatible with older Android versions\n🔍 Search for videos easily\n❤️ Clean and user-friendly interface\n🌙 Low RAM and battery usage\n📥 No need for the official YouTube app\n\n📱 Supported Devices\nYouTub is ideal for devices that cannot run the official YouTube app, including:\n- Android 4.4 (KitKat)\n- Android 5.0 (Lollipop)\n- Android 6.0 (Marshmallow)\n- Low-end phones with limited RAM and storage\n\n🎯 Purpose\nThe goal of YouTub is to bring YouTube access back to older smartphones, allowing users to enjoy educational, entertainment, and religious content even on devices that are no longer supported.\n\n⚠️ Disclaimer\nYouTub is an independent front-end application and is not affiliated with or endorsed by Google or YouTube.",
-    "icon": "https://raw.githubusercontent.com/Ateeq046/You-Tub/main/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Ateeq046/You-Tub",
-    "githubRepo": "Ateeq046/You-Tub",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.youtub.app",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Ateeq046",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Ateeq046/You-Tub/main/Screenshot_20260516_205035.jpg",
-      "https://raw.githubusercontent.com/Ateeq046/You-Tub/main/Screenshot_20260516_205056.jpg",
-      "https://raw.githubusercontent.com/Ateeq046/You-Tub/main/Screenshot_20260516_205111.jpg"
     ],
     "releaseKeyword": "apk"
   },
