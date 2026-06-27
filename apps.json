@@ -24483,5 +24483,57 @@
     "patches": [
       "Unlock Premium"
     ]
+  },
+  {
+    "id": "ivy-wallet-m3",
+    "name": "Ivy Wallet M3",
+    "description": "forked the abandoned Ivy Wallet to keep it alive! Introducing Ivy Wallet M3 (Now with Material 3, Cloud Sync & Credit Cards)",
+    "icon": "https://i.postimg.cc/76CMJ4kT/Ivy-Wallet-M3-1-0-2-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/riyadmondol2006/ivy-wallet-M3",
+    "githubRepo": "riyadmondol2006/ivy-wallet-M3",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ivym3.wallet",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "riyadmondol2006",
+    "officialSite": "",
+    "screenshots": [
+      "https://i.postimg.cc/NjrdrgfG/Screenshot-20260625-154659-Ivy-Wallet-M3.png",
+      "https://i.postimg.cc/x1HP1tt8/Screenshot-20260625-154730-Ivy-Wallet-M3.png",
+      "https://i.postimg.cc/cJhwvj3T/Screenshot-20260625-154806-Ivy-Wallet-M3.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "moonlight-zenith-android",
+    "name": "Moonlight Zenith Android",
+    "description": "A useful custom version of the Moonlight GameStream client for Android",
+    "icon": "https://cdn2.steamgriddb.com/icon_thumb/ef8051ce270059a142fcb0b3e47b1cd4.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/bcrtvkcs/moonlight-zenith-android",
+    "githubRepo": "bcrtvkcs/moonlight-zenith-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.limelight.zenith",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "bcrtvkcs",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224037_MoonlightZenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224054_MoonlightZenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224102_MoonlightZenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224124_MoonlightZenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224131_MoonlightZenith.png"
+    ],
+    "releaseKeyword": "app-nonRoot-release.apk"
   }
 ]
