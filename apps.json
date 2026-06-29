@@ -24641,7 +24641,7 @@
     "id": "miniforgeminiforge",
     "name": "MiniforgeMiniforge",
     "description": "Your idea + your API key = your app. MiniForge turns descriptions into functional apps using the AI provider you choose",
-    "icon": "https://i.postimg.cc/52jHkFwg/Screenshot-20260628-233103-edited.png",
+    "icon": "https://raw.githubusercontent.com/cappedcat/Miniforge/refs/heads/main/app/src/main/res/drawable-xxxhdpi/ic_launcher.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -24656,9 +24656,9 @@
     "author": "cappedcat",
     "officialSite": "",
     "screenshots": [
-      "https://i.postimg.cc/tC3DCwft/Screenshot-20260628-231326.png",
-      "https://i.postimg.cc/DzMPMTJm/Screenshot-20260628-231318.png",
-      "https://i.postimg.cc/5tRSRVY6/Screenshot-20260628-231322.png"
+      "https://i.ibb.co/bjZY9nPq/1.png",
+      "https://i.ibb.co/VW4DsL6K/2.png",
+      "https://i.ibb.co/chc4jPZz/3.png"
     ],
     "releaseKeyword": "apk"
   },
