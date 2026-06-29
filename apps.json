@@ -1312,7 +1312,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Development",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "Vencord Team",
     "screenshots": [
@@ -1359,7 +1359,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "pbatard",
     "screenshots": [
@@ -1383,7 +1383,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "Flow Launcher Team",
     "screenshots": [
@@ -1405,7 +1405,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Automation",
-    "platform": "PC",
+    
     "size": "3 MB",
     "author": "AutoHotkey Community",
     "screenshots": [
@@ -1427,7 +1427,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "ShareX Team",
     "screenshots": [
@@ -1449,7 +1449,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "Ramen Software",
     "screenshots": [
@@ -1471,7 +1471,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "1 MB",
     "author": "thebookisclosed",
     "screenshots": [
@@ -1493,7 +1493,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Activator",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "MassGravel",
     "screenshots": [
@@ -1515,7 +1515,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    "platform": "PC",
+    
     "size": "2 MB",
     "author": "valinet",
     "screenshots": [
@@ -1537,7 +1537,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "builtbybel",
     "screenshots": [
@@ -1559,7 +1559,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "1 MB",
     "author": "Jean-Francois Vandenbruaene",
     "screenshots": [
@@ -1581,7 +1581,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "2 MB",
     "author": "Crystal Rich Ltd",
     "screenshots": [
@@ -1603,7 +1603,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "2 MB",
     "author": "Launchy Team",
     "screenshots": [
@@ -1625,7 +1625,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "5 MB",
     "author": "Listary Team",
     "screenshots": [
@@ -1647,7 +1647,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "4 MB",
     "author": "Ditto Team",
     "screenshots": [
@@ -1669,7 +1669,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "0.5 MB",
     "author": "Ehud Karni",
     "screenshots": [
@@ -1690,7 +1690,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "3 MB",
     "author": "Greenshot Team",
     "screenshots": [
@@ -1712,7 +1712,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    "platform": "PC",
+    
     "size": "2 MB",
     "author": "Sergey Tkachenko",
     "screenshots": [
@@ -1734,7 +1734,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "10 MB",
     "author": "Andrew Ziem",
     "screenshots": [
@@ -1756,7 +1756,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "2 MB",
     "author": "Igor Pavlov",
     "screenshots": [
@@ -1778,7 +1778,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "5 MB",
     "author": "Don Ho",
     "screenshots": [
@@ -1800,7 +1800,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Multimedia",
-    "platform": "PC",
+    
     "size": "30 MB",
     "author": "Audacity Team",
     "screenshots": [
@@ -1822,7 +1822,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "Raphire",
     "screenshots": [
@@ -1844,7 +1844,7 @@
     "releaseKeyword": "Setup",
     "packageName": "Microsoft.PowerToys",
     "category": "Productivity",
-    "platform": "PC",
+    
     "size": "250MB+",
     "author": "Microsoft",
     "screenshots": [
@@ -1866,7 +1866,7 @@
     "releaseKeyword": "setup",
     "packageName": "9NTM2QC6QWS7",
     "category": "Customization",
-    "platform": "PC",
+    
     "size": "200MB+",
     "author": "rocksdanister",
     "screenshots": [
@@ -1888,7 +1888,7 @@
     "releaseKeyword": "installer",
     "packageName": "Files.Community",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "Files Community",
     "screenshots": [
@@ -1910,7 +1910,7 @@
     "releaseKeyword": "exe",
     "packageName": "",
     "category": "System Mod",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "Rectify11 Team",
     "screenshots": [
@@ -1932,7 +1932,7 @@
     "releaseKeyword": "ps1",
     "packageName": "WinUtil",
     "category": "System Optimization",
-    "platform": "PC",
+    
     "size": "Script",
     "author": "ChrisTitusTech",
     "screenshots": [
@@ -1953,7 +1953,7 @@
     "releaseKeyword": "release",
     "packageName": "",
     "category": "Gaming/Utility",
-    "platform": "PC",
+    
     "size": "20MB",
     "author": "Blinue",
     "screenshots": [
@@ -1974,7 +1974,7 @@
     "releaseKeyword": "windows",
     "packageName": "",
     "category": "Utility",
-    "platform": "PC",
+    
     "size": "15MB",
     "author": "longpanda",
     "screenshots": [
@@ -1996,7 +1996,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    "platform": "PC",
+    
     "size": "Varies",
     "author": "Chris Titus",
     "screenshots": [
@@ -2018,7 +2018,7 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    "platform": "PC",
+    
     "size": "1 MB",
     "author": "TranslucentTB Team",
     "screenshots": [
@@ -2040,7 +2040,7 @@
     "releaseKeyword": "win64",
     "packageName": "KeePassXC",
     "category": "Security/Utility",
-    "platform": "PC",
+    
     "size": "20MB",
     "author": "KeePassXC Team",
     "screenshots": [
@@ -2061,7 +2061,7 @@
     "releaseKeyword": "win64",
     "packageName": "GIMP",
     "category": "Creative/Design",
-    "platform": "PC",
+    
     "size": "300MB",
     "author": "The GIMP Team",
     "screenshots": [
@@ -2082,7 +2082,7 @@
     "releaseKeyword": "setup",
     "packageName": "qBittorrent",
     "category": "Utility/Networking",
-    "platform": "PC",
+    
     "size": "30MB",
     "author": "Christophe Dumez",
     "screenshots": [
@@ -2103,7 +2103,7 @@
     "releaseKeyword": "StandardEdition",
     "packageName": "CrystalDiskInfo",
     "category": "System Monitoring/Utility",
-    "platform": "PC",
+    
     "size": "6MB",
     "author": "hiyohiyo (Crystal Dew World)",
     "screenshots": [
@@ -2124,7 +2124,7 @@
     "releaseKeyword": "exe",
     "packageName": "CoreTemp",
     "category": "System Monitoring",
-    "platform": "PC",
+    
     "size": "2MB",
     "author": "Arthur Liberman (Alcpu)",
     "screenshots": [
@@ -2145,7 +2145,7 @@
     "releaseKeyword": "installer",
     "packageName": "9PLNFFL3P6LR",
     "category": "Creative/Multimedia",
-    "platform": "PC",
+    
     "size": "100MB",
     "author": "Meltytech, LLC",
     "screenshots": [
@@ -2166,7 +2166,7 @@
     "releaseKeyword": "setup",
     "packageName": "Mozilla.Thunderbird",
     "category": "Productivity/Communications",
-    "platform": "PC",
+    
     "size": "150MB",
     "author": "MZLA Technologies Corporation (Mozilla)",
     "screenshots": [
@@ -2187,7 +2187,7 @@
     "releaseKeyword": "setup",
     "packageName": "WinSCP",
     "category": "Developer/Utility",
-    "platform": "PC",
+    
     "size": "10MB",
     "author": "Martin Prikryl",
     "screenshots": [
@@ -2208,7 +2208,7 @@
     "releaseKeyword": "win-x86_64",
     "packageName": "LibreOffice",
     "category": "Productivity",
-    "platform": "PC",
+    
     "size": "350MB",
     "author": "The Document Foundation",
     "screenshots": [
@@ -2229,7 +2229,7 @@
     "releaseKeyword": "win64",
     "packageName": "VideoLAN.VLC",
     "category": "Multimedia",
-    "platform": "PC",
+    
     "size": "40MB",
     "author": "VideoLAN",
     "screenshots": [
@@ -2250,7 +2250,7 @@
     "releaseKeyword": "CLI",
     "packageName": "choco",
     "category": "Utility/Automation",
-    "platform": "PC",
+    
     "size": "< 5MB (Script-Based)",
     "author": "Chocolatey Software",
     "screenshots": [
@@ -2271,7 +2271,7 @@
     "releaseKeyword": "web-based installer",
     "packageName": "Ninite Installer",
     "category": "Utility/Installer",
-    "platform": "PC",
+    
     "size": "Minimal (Installer Stub)",
     "author": "SecureByDesign Inc.",
     "screenshots": [
