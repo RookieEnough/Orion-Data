@@ -24402,30 +24402,28 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "pocketops-app",
-    "name": "PocketOps App",
+    "name": "PocketOps",
+    "id": "pocketops",
     "description": "Unified utility dashboard for Android. Fast UPI, WhatsApp, and Instagram shortcuts.",
     "icon": "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/PocketOps.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
     "repoUrl": "https://github.com/IIXII-L192/PocketOps-app.git",
     "githubRepo": "IIXII-L192/PocketOps-app",
     "gitlabRepo": "",
     "gitlabDomain": "",
+    "codebergRepo": "",
+    "releaseKeyword": "apk",
     "packageName": "l192.aakarsh.pocketops",
     "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
     "author": "IIXII-L192",
-    "officialSite": "",
+    "downloadUrl": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/PocketOps_1.png",
-      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/PocketOps_2.png",
-      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/PocketOps_3.png",
-      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/PocketOps_4.png"
+      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/Menu.png",
+      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/QuickUPI.png",
+      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/QuickUPIQR.png",
+      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/QuickChat.png",
+      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/QuickInsta.png"
     ],
-    "releaseKeyword": "apk"
+    "platform": "Android"
   },
   {
     "id": "adns",
