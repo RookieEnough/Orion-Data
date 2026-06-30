@@ -24687,5 +24687,29 @@
       "https://raw.githubusercontent.com/tharunbirla/LibreCuts/main/src/images/sc_4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "nodelook",
+    "name": "NodeLook",
+    "description": "NodeLook is a general website checker for users facing internet restrictions. It helps users determine whether a service is accessible through their current connection, or whether it is filtered or unavailable.",
+    "icon": "https://raw.githubusercontent.com/nodelook/android/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/nodelook/android",
+    "githubRepo": "nodelook/android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "ir.ammari.nodelook",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "NodeLook Project",
+    "officialSite": "https://nodelook.github.io/",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nodelook/android/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/nodelook/android/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
