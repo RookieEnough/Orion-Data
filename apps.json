@@ -1312,7 +1312,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Development",
-    
     "size": "Varies",
     "author": "Vencord Team",
     "screenshots": [
@@ -1359,7 +1358,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "Varies",
     "author": "pbatard",
     "screenshots": [
@@ -1383,7 +1381,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "Varies",
     "author": "Flow Launcher Team",
     "screenshots": [
@@ -1405,7 +1402,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Automation",
-    
     "size": "3 MB",
     "author": "AutoHotkey Community",
     "screenshots": [
@@ -1427,7 +1423,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "Varies",
     "author": "ShareX Team",
     "screenshots": [
@@ -1449,7 +1444,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    
     "size": "Varies",
     "author": "Ramen Software",
     "screenshots": [
@@ -1471,7 +1465,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "1 MB",
     "author": "thebookisclosed",
     "screenshots": [
@@ -1493,7 +1486,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Activator",
-    
     "size": "Varies",
     "author": "MassGravel",
     "screenshots": [
@@ -1515,7 +1507,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    
     "size": "2 MB",
     "author": "valinet",
     "screenshots": [
@@ -1537,7 +1528,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "Varies",
     "author": "builtbybel",
     "screenshots": [
@@ -1559,7 +1549,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "1 MB",
     "author": "Jean-Francois Vandenbruaene",
     "screenshots": [
@@ -1581,7 +1570,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "2 MB",
     "author": "Crystal Rich Ltd",
     "screenshots": [
@@ -1603,7 +1591,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "2 MB",
     "author": "Launchy Team",
     "screenshots": [
@@ -1625,7 +1612,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "5 MB",
     "author": "Listary Team",
     "screenshots": [
@@ -1647,7 +1633,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "4 MB",
     "author": "Ditto Team",
     "screenshots": [
@@ -1669,7 +1654,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "0.5 MB",
     "author": "Ehud Karni",
     "screenshots": [
@@ -1690,7 +1674,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "3 MB",
     "author": "Greenshot Team",
     "screenshots": [
@@ -1712,7 +1695,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    
     "size": "2 MB",
     "author": "Sergey Tkachenko",
     "screenshots": [
@@ -1734,7 +1716,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "10 MB",
     "author": "Andrew Ziem",
     "screenshots": [
@@ -1756,7 +1737,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "2 MB",
     "author": "Igor Pavlov",
     "screenshots": [
@@ -1778,7 +1758,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "5 MB",
     "author": "Don Ho",
     "screenshots": [
@@ -1800,7 +1779,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Multimedia",
-    
     "size": "30 MB",
     "author": "Audacity Team",
     "screenshots": [
@@ -1822,7 +1800,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Utility",
-    
     "size": "Varies",
     "author": "Raphire",
     "screenshots": [
@@ -1844,7 +1821,6 @@
     "releaseKeyword": "Setup",
     "packageName": "Microsoft.PowerToys",
     "category": "Productivity",
-    
     "size": "250MB+",
     "author": "Microsoft",
     "screenshots": [
@@ -1866,7 +1842,6 @@
     "releaseKeyword": "setup",
     "packageName": "9NTM2QC6QWS7",
     "category": "Customization",
-    
     "size": "200MB+",
     "author": "rocksdanister",
     "screenshots": [
@@ -1888,7 +1863,6 @@
     "releaseKeyword": "installer",
     "packageName": "Files.Community",
     "category": "Utility",
-    
     "size": "Varies",
     "author": "Files Community",
     "screenshots": [
@@ -1910,7 +1884,6 @@
     "releaseKeyword": "exe",
     "packageName": "",
     "category": "System Mod",
-    
     "size": "Varies",
     "author": "Rectify11 Team",
     "screenshots": [
@@ -1932,7 +1905,6 @@
     "releaseKeyword": "ps1",
     "packageName": "WinUtil",
     "category": "System Optimization",
-    
     "size": "Script",
     "author": "ChrisTitusTech",
     "screenshots": [
@@ -1953,7 +1925,6 @@
     "releaseKeyword": "release",
     "packageName": "",
     "category": "Gaming/Utility",
-    
     "size": "20MB",
     "author": "Blinue",
     "screenshots": [
@@ -1974,7 +1945,6 @@
     "releaseKeyword": "windows",
     "packageName": "",
     "category": "Utility",
-    
     "size": "15MB",
     "author": "longpanda",
     "screenshots": [
@@ -1996,7 +1966,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    
     "size": "Varies",
     "author": "Chris Titus",
     "screenshots": [
@@ -2018,7 +1987,6 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Customization",
-    
     "size": "1 MB",
     "author": "TranslucentTB Team",
     "screenshots": [
@@ -2040,7 +2008,6 @@
     "releaseKeyword": "win64",
     "packageName": "KeePassXC",
     "category": "Security/Utility",
-    
     "size": "20MB",
     "author": "KeePassXC Team",
     "screenshots": [
@@ -2061,7 +2028,6 @@
     "releaseKeyword": "win64",
     "packageName": "GIMP",
     "category": "Creative/Design",
-    
     "size": "300MB",
     "author": "The GIMP Team",
     "screenshots": [
@@ -2082,7 +2048,6 @@
     "releaseKeyword": "setup",
     "packageName": "qBittorrent",
     "category": "Utility/Networking",
-    
     "size": "30MB",
     "author": "Christophe Dumez",
     "screenshots": [
@@ -2103,7 +2068,6 @@
     "releaseKeyword": "StandardEdition",
     "packageName": "CrystalDiskInfo",
     "category": "System Monitoring/Utility",
-    
     "size": "6MB",
     "author": "hiyohiyo (Crystal Dew World)",
     "screenshots": [
@@ -2124,7 +2088,6 @@
     "releaseKeyword": "exe",
     "packageName": "CoreTemp",
     "category": "System Monitoring",
-    
     "size": "2MB",
     "author": "Arthur Liberman (Alcpu)",
     "screenshots": [
@@ -2145,7 +2108,6 @@
     "releaseKeyword": "installer",
     "packageName": "9PLNFFL3P6LR",
     "category": "Creative/Multimedia",
-    
     "size": "100MB",
     "author": "Meltytech, LLC",
     "screenshots": [
@@ -2166,7 +2128,6 @@
     "releaseKeyword": "setup",
     "packageName": "Mozilla.Thunderbird",
     "category": "Productivity/Communications",
-    
     "size": "150MB",
     "author": "MZLA Technologies Corporation (Mozilla)",
     "screenshots": [
@@ -2187,7 +2148,6 @@
     "releaseKeyword": "setup",
     "packageName": "WinSCP",
     "category": "Developer/Utility",
-    
     "size": "10MB",
     "author": "Martin Prikryl",
     "screenshots": [
@@ -2208,7 +2168,6 @@
     "releaseKeyword": "win-x86_64",
     "packageName": "LibreOffice",
     "category": "Productivity",
-    
     "size": "350MB",
     "author": "The Document Foundation",
     "screenshots": [
@@ -2229,7 +2188,6 @@
     "releaseKeyword": "win64",
     "packageName": "VideoLAN.VLC",
     "category": "Multimedia",
-    
     "size": "40MB",
     "author": "VideoLAN",
     "screenshots": [
@@ -2250,7 +2208,6 @@
     "releaseKeyword": "CLI",
     "packageName": "choco",
     "category": "Utility/Automation",
-    
     "size": "< 5MB (Script-Based)",
     "author": "Chocolatey Software",
     "screenshots": [
@@ -2271,7 +2228,6 @@
     "releaseKeyword": "web-based installer",
     "packageName": "Ninite Installer",
     "category": "Utility/Installer",
-    
     "size": "Minimal (Installer Stub)",
     "author": "SecureByDesign Inc.",
     "screenshots": [
@@ -24687,5 +24643,84 @@
       "https://raw.githubusercontent.com/tharunbirla/LibreCuts/main/src/images/sc_4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "sketchware-pro",
+    "name": "Sketchware Pro",
+    "description": "Sketchware Pro's sources in Java. Now anyone can contribute to Sketchware Pro.",
+    "icon": "https://raw.githubusercontent.com/Sketchware-Pro/Sketchware-Pro/main/assets%2FSketchware-Pro.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Sketchware-Pro/Sketchware-Pro",
+    "githubRepo": "Sketchware-Pro/Sketchware-Pro",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "pro.sketchware",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Sketchware-Pro",
+    "officialSite": "",
+    "screenshots": [
+      "https://sketchware.pro/img/screenshots/2.webp",
+      "https://sketchware.pro/img/screenshots/6.webp",
+      "https://sketchware.pro/img/screenshots/4.webp"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "debt-book",
+    "name": "Debt Book",
+    "description": "Track both lent and borrowed transactions in separate tabs.\nShow active outstanding balances at the tab headers.\nRecord partial payments with payment date and optional note.\nIncrease an existing debt with Borrow More and Lend More actions.\nMark transactions as settled automatically when paid in full.\nSearch transactions quickly and filter by status.\nSort records by date, amount, or name.\nView transaction details, including activity history.\nAttach a receipt or invoice image to a transaction.\nPick a person from device contacts when creating or editing a record.\nExport filtered records to Excel and PDF.\nBack up and restore the local database.\nConfigure currency and date format.\nProtect the app with a password lock.",
+    "icon": "https://raw.githubusercontent.com/dreamer8ful/debt_book/master/assets/icon/app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dreamer8ful/debt_book",
+    "githubRepo": "dreamer8ful/debt_book",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.msr.debtbook",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "IntroSoft Media Solutions",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dreamer8ful/debt_book/master/assets/Screenshot_20260630-212938.jpg",
+      "https://raw.githubusercontent.com/dreamer8ful/debt_book/master/assets/Screenshot_20260630-212943.jpg",
+      "https://raw.githubusercontent.com/dreamer8ful/debt_book/master/assets/Screenshot_20260630-212948.jpg",
+      "https://raw.githubusercontent.com/dreamer8ful/debt_book/master/assets/Screenshot_20260630-212957.jpg",
+      "https://raw.githubusercontent.com/dreamer8ful/debt_book/master/assets/Screenshot_20260630-213012.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "quickdash",
+    "name": "Quickdash",
+    "description": "QuickDash is a hyper-productive Android utility hub that lives as a floating glassmorphic bubble on your screen. Get instant access to quick notes, Wi-Fi QR sharing, UPI payments, clipboard management, and direct WhatsApp messaging—all without ever leaving your current app.",
+    "icon": "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/app/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Balajitechlabs/quickdash",
+    "githubRepo": "Balajitechlabs/quickdash",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.balajitechlabs.quickdash",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "BalajiTechLabs",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/1.jpg",
+      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/2.jpg",
+      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/3.jpg",
+      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/4.jpg",
+      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/5.jpg"
+    ],
+    "releaseKeyword": "2.2.6"
   }
 ]
