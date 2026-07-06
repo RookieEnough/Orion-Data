@@ -24695,32 +24695,5 @@
       "https://raw.githubusercontent.com/dreamer8ful/debt_book/master/assets/Screenshot_20260630-213012.jpg"
     ],
     "releaseKeyword": "apk"
-  },
-  {
-    "id": "quickdash",
-    "name": "Quickdash",
-    "description": "QuickDash is a hyper-productive Android utility hub that lives as a floating glassmorphic bubble on your screen. Get instant access to quick notes, Wi-Fi QR sharing, UPI payments, clipboard management, and direct WhatsApp messaging—all without ever leaving your current app.",
-    "icon": "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/app/logo.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Balajitechlabs/quickdash",
-    "githubRepo": "Balajitechlabs/quickdash",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.balajitechlabs.quickdash",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "BalajiTechLabs",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/1.jpg",
-      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/2.jpg",
-      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/3.jpg",
-      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/4.jpg",
-      "https://raw.githubusercontent.com/Balajitechlabs/quickdash/main/screenshots/5.jpg"
-    ],
-    "releaseKeyword": "2.2.6"
   }
 ]
