@@ -24753,35 +24753,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "nomatune",
-    "name": "NomaTune",
-    "description": "The Cutest Material 3 Expressive Music Player With Support Local File and Youtube Music for Android.",
-    "icon": "https://raw.githubusercontent.com/Shahdullah/NomaTune/main/assets/ic_launcher-playstore.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Shahdullah/NomaTune",
-    "githubRepo": "Shahdullah/NomaTune",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.shahdullah.nomatune",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Shahdullah",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Shahdullah/NomaTune/main/screenshots/home.jpeg",
-      "https://raw.githubusercontent.com/Shahdullah/NomaTune/main/screenshots/now_playing.jpeg",
-      "https://raw.githubusercontent.com/Shahdullah/NomaTune/main/screenshots/lyrics.jpeg",
-      "https://raw.githubusercontent.com/Shahdullah/NomaTune/main/screenshots/settings.jpeg",
-      "https://raw.githubusercontent.com/Shahdullah/NomaTune/main/screenshots/stats.jpeg",
-      "https://raw.githubusercontent.com/Shahdullah/NomaTune/main/screenshots/artist.jpeg",
-      "https://raw.githubusercontent.com/Shahdullah/NomaTune/main/screenshots/year_recap.jpeg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "shevery",
     "name": "Shevery",
     "description": "Shevery - Modernized Android manager with Jetpack Compose, Material 3, and compatibility enhancements.",
