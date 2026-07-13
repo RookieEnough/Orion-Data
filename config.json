@@ -4,14 +4,12 @@
   "maintenanceMode": false,
   "maintenanceMessage": "Bro you, yes you! I've blocked the access of Orion Store for you, wanna know why? because you didn't update Orion man!\nJust kidding, Server is under maintenance, chill dude But hey, Update Orion after maintainance is done, okay?",
   "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
-  
   "notice": {
     "id": "notice209",
     "title": "Please Read!",
-    "message":"From Orion update, Morphe Builds, Technical Support to Server Maintenance, it's all done by me. It takes a lot of time and effort to keep the Orion Store running absolutely free for everyone. If you really like my work and want Orion Store to stay alive then please consider Donating to the Orion project.\n\nNow Indians can also donate through UPI at “rookiez@ptyes”\n\nGo to the Dev tab and click “Buy Me a Coffee” and show your support.",
+    "message": "From Orion update, Morphe Builds, Technical Support to Server Maintenance, it's all done by me. It takes a lot of time and effort to keep the Orion Store running absolutely free for everyone. If you really like my work and want Orion Store to stay alive then please consider Donating to the Orion project.\n\nNow Indians can also donate through UPI at “rookiez@ptyes”\n\nGo to the Dev tab and click “Buy Me a Coffee” and show your support.",
     "show": true
   },
-
   "latestStoreVersion": "1.3.3",
   "storeDownloadUrl": "https://github.com/RookieEnough/Orion-Store/releases/download/1.3.3/app-release.apk",
   "supportEmail": "orionstoredev@gmail.com",
@@ -21,6 +19,11 @@
     "x": "https://x.com/_Rookie_Z",
     "discord": "https://discord.com/invite/CrM6y4ujnq",
     "coffee": "https://ko-fi.com/rookie_z"
+  },
+  "donation": {
+    "kofiUrl": "https://ko-fi.com/rookie_z",
+    "upiId": "rookiez@ptyes",
+    "paypalUrl": "paypal.me/RookieEnough"
   },
   "devProfile": {
     "name": "RookieZ",
@@ -39,15 +42,15 @@
       "icon": "fa-check-double"
     },
     {
-     "question": "Are ReVanced builds safe?",
-     "answer": "Yes. These builds are automated via GitHub Actions bots, not manually patched. They use the official ReVanced CLI and patches on APKs sourced from APKMirror, Uptodown, and APKPure. The process runs daily at 6 AM. The entire build pipeline is transparent and open-source: https://github.com/RookieEnough/Revanced-AutoBuilds",
-     "icon": "fa-robot"
-  },
-  {
-    "question": "Installation failed?",
-    "answer": "If you see 'App not installed' or 'Package conflicts', it's likely a signature mismatch. You cannot install a modded app over the original Play Store version or a different mod. Uninstall the existing app first, then install the one from Orion.",
-    "icon": "fa-file-signature"
-  },
+      "question": "Are ReVanced builds safe?",
+      "answer": "Yes. These builds are automated via GitHub Actions bots, not manually patched. They use the official ReVanced CLI and patches on APKs sourced from APKMirror, Uptodown, and APKPure. The process runs daily at 6 AM. The entire build pipeline is transparent and open-source: https://github.com/RookieEnough/Revanced-AutoBuilds",
+      "icon": "fa-robot"
+    },
+    {
+      "question": "Installation failed?",
+      "answer": "If you see 'App not installed' or 'Package conflicts', it's likely a signature mismatch. You cannot install a modded app over the original Play Store version or a different mod. Uninstall the existing app first, then install the one from Orion.",
+      "icon": "fa-file-signature"
+    },
     {
       "question": "Download not working?",
       "answer": "Don't panic! Just head to the app's detail page and click the 'Report' icon (⚠️) in the top right corner. It will pre-fill an email so I can fix it ASAP.",
