@@ -25154,32 +25154,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "lumia",
-    "name": "Lumia",
-    "description": "Yet another study tracker (with some better features ? ) ",
-    "icon": "https://raw.githubusercontent.com/ovrrup/Lumia/main/screenshots/lumia_icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/ovrrup/Lumia",
-    "githubRepo": "ovrrup/Lumia",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "lumia.tracker",
-    "category": "Educational",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "ovrrup",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/ovrrup/Lumia/main/screenshots/permissions-Overboarding.png",
-      "https://raw.githubusercontent.com/ovrrup/Lumia/main/screenshots/home.png",
-      "https://raw.githubusercontent.com/ovrrup/Lumia/main/screenshots/self-study.png",
-      "https://raw.githubusercontent.com/ovrrup/Lumia/main/screenshots/analytics.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "barelauncher",
     "name": "BareLauncher",
     "description": "Ultra-lightweight, open-source Android TV launcher focused on speed, simplicity, and privacy. Features app hiding, app reordering, wallpaper support, quick shortcuts, and zero ads or telemetry. ",
@@ -25193,7 +25167,7 @@
     "gitlabDomain": "",
     "packageName": "com.bare.launcher",
     "category": "Utility",
-    "platform": "Android TV",
+    "platform": "TV",
     "size": "Varies",
     "author": "f102mithunysypdlcjr-pixel",
     "officialSite": "",
