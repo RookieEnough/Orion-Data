@@ -59,7 +59,7 @@
 
         body {
             position: relative;
-            overflow: hidden;
+            overflow-y: auto;
             min-height: 100vh;
             padding:
                 max(16px, env(safe-area-inset-top))
@@ -72,8 +72,10 @@
                 var(--md-sys-color-surface);
             color: var(--md-sys-color-on-surface);
             font-family: Roboto, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans", sans-serif;
-            display: grid;
-            place-items: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             margin: 0;
             touch-action: manipulation;
             -webkit-tap-highlight-color: rgba(207, 188, 255, 0.16);
@@ -169,8 +171,9 @@
             z-index: 1;
             width: min(100%, 430px);
             display: grid;
-            gap: 20px;
-            padding: 24px;
+            gap: 16px;
+            padding: 20px;
+            margin: auto 0;
             border-radius: var(--md-sys-shape-corner-extra-large);
             background: rgba(43, 41, 48, 0.92);
             backdrop-filter: blur(14px);
@@ -288,9 +291,9 @@
         h1 {
             margin: 0;
             color: var(--md-sys-color-on-surface);
-            font-size: clamp(2.2rem, 7vw, 2.9rem);
-            line-height: 1.02;
-            letter-spacing: -0.03em;
+            font-size: clamp(1.75rem, 5vw, 2.25rem);
+            line-height: 1.15;
+            letter-spacing: -0.02em;
             font-weight: 500;
             text-wrap: balance;
         }
@@ -305,7 +308,7 @@
         }
 
         .panel {
-            padding: 18px;
+            padding: 14px 16px;
             border-radius: var(--md-sys-shape-corner-large);
             border: 1px solid var(--md-sys-color-outline-variant);
             background: var(--md-sys-color-surface-container);
@@ -367,7 +370,8 @@
 
         .btn {
             width: 100%;
-            min-height: 48px;
+            height: 40px;
+            min-height: 40px;
             margin: 0;
             border-radius: var(--md-sys-shape-corner-full);
             display: inline-flex;
@@ -376,6 +380,7 @@
             padding: 0 24px;
             text-decoration: none;
             font: inherit;
+            font-size: 0.875rem;
             font-weight: 600;
             letter-spacing: 0.006em;
             cursor: pointer;
@@ -426,9 +431,9 @@
         .footer code {
             color: var(--md-sys-color-on-surface-variant);
             font-family: Roboto Mono, "Cascadia Code", "SFMono-Regular", Consolas, monospace;
-            font-size: 0.81rem;
+            font-size: 0.78rem;
             overflow-wrap: anywhere;
-            padding: 10px 12px;
+            padding: 8px 12px;
             border-radius: var(--md-sys-shape-corner-medium);
             background: var(--md-sys-color-surface-container-low);
             border: 1px solid var(--md-sys-color-outline-variant);
@@ -474,22 +479,23 @@
 
         @media (max-width: 480px) {
             .sheet {
-                padding: 20px;
-                gap: 16px;
+                padding: 16px;
+                gap: 12px;
             }
 
             .panel {
-                padding: 18px;
+                padding: 12px 14px;
             }
 
             .topbar,
             .footer {
                 flex-direction: column;
                 align-items: flex-start;
+                gap: 8px;
             }
 
             h1 {
-                font-size: clamp(2.15rem, 11vw, 2.8rem);
+                font-size: clamp(1.6rem, 10vw, 2.1rem);
             }
         }
 
@@ -529,7 +535,6 @@
                     <span class="brand__sub">Android Redirect</span>
                 </div>
             </div>
-            <span class="topbar__meta">Intent Handoff</span>
         </header>
 
         <section class="hero">
@@ -549,9 +554,6 @@
 
         <section class="panel fallback hidden" id="fallback" aria-live="polite">
             <p class="fallback-title">Orion Store Is Not Available</p>
-            <p class="fallback-msg">
-                Install the latest Orion Store build on this device, then try the handoff again.
-            </p>
             <div class="actions">
                 <a id="download-btn" class="btn btn-primary" href="https://github.com/RookieEnough/Orion-Store/releases/latest">
                     Download Orion Store
