@@ -745,7 +745,7 @@
     "releaseKeyword": "mpvEx",
     "packageName": "app.marlboroadvance.mpvex",
     "category": "utility",
-    "platform": "Android",
+    "platform": "PC",
     "size": "Varies",
     "author": "marlboro",
     "screenshots": [
@@ -1312,14 +1312,14 @@
     "releaseKeyword": "",
     "packageName": "",
     "category": "Development",
-    "platform": "PC",
     "size": "Varies",
     "author": "Vencord Team",
     "screenshots": [
       "https://lh3.googleusercontent.com/DzzBHFwygKbwizXrMVn97xA5LaZfwADZP4B08F9DQ5gFY_qK2iCw9yhXLHaeWyRrph-sgJXi5zipb52HF51rVI3G=s1280-w1280-h800",
       "https://lh3.googleusercontent.com/uoJvxrvbXGZzyCAUZazW5m_a-1r2aVTsSS4tj4vVdGGmhanV_OtLSAqdXdJlgX7g_X5PNUu3yoY8cdfPXC-D6GJ1=s1280-w1280-h800",
       "https://lh3.googleusercontent.com/C-uYqRNO2EbE6hX3M9qUZPXZa8VL7Ee65KenkR2uidTJurS3t0BYcbEgGBkikXG0W5b_jL_yufT8j4xlfRJoA59jcao=s1280-w1280-h800"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "MiCTS",
@@ -1367,7 +1367,8 @@
       "https://spicetify.app/assets/images/2-b1ef7cbb740b870f41b43963f828324b.png",
       "https://spicetify.app/assets/images/3-2a4a19b66340923a8f149ebe2383f225.png",
       "https://spicetify.app/assets/images/4-d43c14f408ecfb753eadd706132dadfe.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "flowlauncher",
@@ -1388,7 +1389,8 @@
       "https://flowlauncher.com/assets/images/screenshot1.png",
       "https://flowlauncher.com/assets/images/screenshot2.png",
       "https://flowlauncher.com/assets/images/screenshot3.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "autohotkey",
@@ -1409,7 +1411,8 @@
       "https://www.autohotkey.com/docs/images/ScriptShow.png",
       "https://www.autohotkey.com/docs/images/GuiSample.png",
       "https://www.autohotkey.com/docs/images/WinSpy.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "sharex",
@@ -1430,7 +1433,8 @@
       "https://getsharex.com/img/help/after-capture-tasks.png",
       "https://getsharex.com/img/help/hotkey-settings.png",
       "https://getsharex.com/img/help/destination-settings.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "windhawk",
@@ -1451,7 +1455,8 @@
       "https://windhawk.net/screenshots/main.png",
       "https://windhawk.net/screenshots/mods.png",
       "https://windhawk.net/screenshots/install.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "vive-tool",
@@ -1472,7 +1477,8 @@
       "https://github.com/thebookisclosed/ViVe/blob/main/Screenshots/ViVe_GUI.png?raw=true",
       "https://github.com/thebookisclosed/ViVe/blob/main/Screenshots/Feature_Store.png?raw=true",
       "https://github.com/thebookisclosed/ViVe/blob/main/Screenshots/Enable_Feature.png?raw=true"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "microsoft-activation-scripts",
@@ -1493,7 +1499,8 @@
       "https://massgrave.dev/screenshots/activation-menu.png",
       "https://massgrave.dev/screenshots/powershell-run.png",
       "https://massgrave.dev/screenshots/office-activation.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "explorere",
@@ -1514,7 +1521,8 @@
       "https://github.com/valinet/ExplorerPatcher/raw/main/Screenshots/Taskbar.png",
       "https://github.com/valinet/ExplorerPatcher/raw/main/Screenshots/StartMenu.png",
       "https://github.com/valinet/ExplorerPatcher/raw/main/Screenshots/Settings.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "tidyos",
@@ -1535,7 +1543,8 @@
       "https://github.com/builtbybel/TidyOS/raw/main/screenshots/main.png",
       "https://github.com/builtbybel/TidyOS/raw/main/screenshots/debloat.png",
       "https://github.com/builtbybel/TidyOS/raw/main/screenshots/privacy.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "keypirinha",
@@ -1556,7 +1565,8 @@
       "https://www.keypirinha.com/img/screenshot1.png",
       "https://www.keypirinha.com/img/screenshot2.png",
       "https://www.keypirinha.com/img/screenshot3.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "lockhunter",
@@ -1577,7 +1587,8 @@
       "https://lockhunter.com/images/screenshot1.png",
       "https://lockhunter.com/images/screenshot2.png",
       "https://lockhunter.com/images/screenshot3.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "launchy",
@@ -1598,7 +1609,8 @@
       "https://www.launchy.net/images/screenshot1.png",
       "https://www.launchy.net/images/screenshot2.png",
       "https://www.launchy.net/images/screenshot3.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "listary",
@@ -1619,7 +1631,8 @@
       "https://www.listary.com/screenshots/search.png",
       "https://www.listary.com/screenshots/integrate.png",
       "https://www.listary.com/screenshots/hotkeys.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "ditto",
@@ -1640,7 +1653,8 @@
       "https://ditto-cp.sourceforge.io/images/screenshot1.png",
       "https://ditto-cp.sourceforge.io/images/screenshot2.png",
       "https://ditto-cp.sourceforge.io/images/screenshot3.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "deskpins",
@@ -1660,7 +1674,8 @@
     "screenshots": [
       "https://deskpins.sourceforge.net/images/screenshot1.png",
       "https://deskpins.sourceforge.net/images/screenshot2.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "greenshot",
@@ -1681,7 +1696,8 @@
       "https://getgreenshot.org/images/screenshot-capture.png",
       "https://getgreenshot.org/images/screenshot-editor.png",
       "https://getgreenshot.org/images/screenshot-export.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "winaero-tweaker",
@@ -1702,7 +1718,8 @@
       "https://winaero.com/images/winaero-tweaker-main.png",
       "https://winaero.com/images/winaero-tweaker-privacy.png",
       "https://winaero.com/images/winaero-tweaker-ui.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "bleachbit",
@@ -1723,7 +1740,8 @@
       "https://www.bleachbit.org/images/screenshot-cleaner.png",
       "https://www.bleachbit.org/images/screenshot-wiper.png",
       "https://www.bleachbit.org/images/screenshot-privacy.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "7-zip",
@@ -1744,7 +1762,8 @@
       "https://www.7-zip.org/images/screenshot1.png",
       "https://www.7-zip.org/images/screenshot2.png",
       "https://www.7-zip.org/images/screenshot3.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "notepad-plus-plus",
@@ -1765,7 +1784,8 @@
       "https://notepad-plus-plus.org/images/screenshot-syntax.png",
       "https://notepad-plus-plus.org/images/screenshot-plugins.png",
       "https://notepad-plus-plus.org/images/screenshot-multi.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "audacity",
@@ -1786,7 +1806,8 @@
       "https://www.audacityteam.org/images/screenshot-interface.png",
       "https://www.audacityteam.org/images/screenshot-effects.png",
       "https://www.audacityteam.org/images/screenshot-multi-track.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "win11debloat",
@@ -1807,7 +1828,8 @@
       "https://win11debloat.com/screenshots/gui.png",
       "https://win11debloat.com/screenshots/apps.png",
       "https://win11debloat.com/screenshots/tweaks.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "powertoys",
@@ -1828,7 +1850,8 @@
       "https://raw.githubusercontent.com/microsoft/PowerToys/main/doc/images/overview/PT%20hero%20image.png",
       "https://raw.githubusercontent.com/microsoft/PowerToys/main/doc/images/colorpicker/ColorPicker_Hero.png",
       "https://raw.githubusercontent.com/microsoft/PowerToys/main/doc/images/fancyzones/FancyZones_Hero.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "lively",
@@ -1849,7 +1872,8 @@
       "https://raw.githubusercontent.com/rocksdanister/lively/core/resources/preview/preview.gif",
       "https://user-images.githubusercontent.com/11000194/104113554-15965900-5322-11eb-91e8-7694f4c24388.png",
       "https://user-images.githubusercontent.com/11000194/104113556-16c78600-5322-11eb-8985-780998f48039.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "files",
@@ -1870,7 +1894,8 @@
       "https://raw.githubusercontent.com/files-community/Files/main/Assets/Screenshots/FullLayout.png",
       "https://raw.githubusercontent.com/files-community/Files/main/Assets/Screenshots/DualPane.png",
       "https://raw.githubusercontent.com/files-community/Files/main/Assets/Screenshots/ColumnView.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "rectify11",
@@ -1891,7 +1916,8 @@
       "https://rectify11.net/img/gallery/1.png",
       "https://rectify11.net/img/gallery/2.png",
       "https://rectify11.net/img/gallery/3.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "winutil",
@@ -1911,7 +1937,8 @@
     "screenshots": [
       "https://user-images.githubusercontent.com/22611485/154767962-d99616d2-23c0-4386-8968-07f917573574.png",
       "https://user-images.githubusercontent.com/22611485/154767965-38520281-9128-4061-9f93-455b38965049.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "magpie",
@@ -1931,7 +1958,8 @@
     "screenshots": [
       "https://user-images.githubusercontent.com/37026367/127734335-97c3856b-3f7d-4a9e-8c68-0c62d083a216.png",
       "https://user-images.githubusercontent.com/37026367/127734415-a6e54019-943e-43f6-9f0e-d306b9b1652f.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "ventoy",
@@ -1952,7 +1980,8 @@
       "https://www.ventoy.net/static/img/screen/mbr_bios.png",
       "https://www.ventoy.net/static/img/screen/uefi_ia32.png",
       "https://www.ventoy.net/static/img/screen/uefi_x64.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "winscript",
@@ -1973,7 +2002,8 @@
       "https://borncity.com/win/wp-content/uploads/2025/03/winscript-main.png",
       "https://borncity.com/win/wp-content/uploads/2025/03/winscript-debloat.png",
       "https://borncity.com/win/wp-content/uploads/2025/03/winscript-privacy.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "translucenttb",
@@ -1994,7 +2024,8 @@
       "https://translucenttb.net/images/screenshot-transparent.png",
       "https://translucenttb.net/images/screenshot-blur.png",
       "https://translucenttb.net/images/screenshot-settings.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "keepassxc",
@@ -2014,7 +2045,8 @@
     "screenshots": [
       "https://keepassxc.org/static/images/screenshot.png",
       "https://keepassxc.org/static/images/screenshot_browser.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "gimp",
@@ -2034,7 +2066,8 @@
     "screenshots": [
       "https://www.gimp.org/screenshots/gimp_2_10.png",
       "https://www.gimp.org/screenshots/gimp-web-page.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "qbittorrent",
@@ -2054,7 +2087,8 @@
     "screenshots": [
       "https://www.qbittorrent.org/img/qbittorrent_win10.png",
       "https://www.qbittorrent.org/img/search_engine.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "crystaldiskinfo",
@@ -2074,7 +2108,8 @@
     "screenshots": [
       "https://crystalmark.info/images/software/ss-c_disk_info.png",
       "https://crystalmark.info/images/software/ss-c_disk_info-en.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "coretemp",
@@ -2094,7 +2129,8 @@
     "screenshots": [
       "https://www.alcpu.com/CoreTemp/images/screenshot.gif",
       "https://www.alcpu.com/CoreTemp/images/screenshot_settings.gif"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "shotcut",
@@ -2114,7 +2150,8 @@
     "screenshots": [
       "https://www.shotcut.org/assets/img/screenshot-v2405.png",
       "https://www.shotcut.org/assets/img/screenshot-filters.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "thunderbird",
@@ -2134,7 +2171,8 @@
     "screenshots": [
       "https://www.thunderbird.net/media/images/thunderbird/thunderbird-desktop.png",
       "https://www.thunderbird.net/media/images/thunderbird/unified-inbox.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "winscp",
@@ -2154,7 +2192,8 @@
     "screenshots": [
       "https://winscp.net/eng/docs/screenshots/commander_large.png",
       "https://winscp.net/eng/docs/screenshots/explorer_large.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "libreoffice",
@@ -2174,7 +2213,8 @@
     "screenshots": [
       "https://www.libreoffice.org/assets/Uploads/calc_24.2.png",
       "https://www.libreoffice.org/assets/Uploads/writer_24.2.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "vlc",
@@ -2194,7 +2234,8 @@
     "screenshots": [
       "https://upload.wikimedia.org/wikipedia/commons/f/ff/VLC_3.0.21_running_on_Debian_Linux_and_KDE_Plasma_6.png",
       "https://www.videolan.org/assets/images/vlc-desktop.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "chocolatey",
@@ -2214,7 +2255,8 @@
     "screenshots": [
       "https://docs.chocolatey.org/en-us/assets/images/install-choco-success.png",
       "https://docs.chocolatey.org/en-us/assets/images/community/choco_upgrade.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "ninite",
@@ -2234,7 +2276,8 @@
     "screenshots": [
       "https://ninite.com/images/ninite-screenshot-selection.png",
       "https://ninite.com/images/ninite-screenshot-run.png"
-    ]
+    ],
+    "platform": "PC"
   },
   {
     "id": "scoop",
@@ -24505,7 +24548,7 @@
     "gitlabDomain": "",
     "packageName": "app.gyrolet.mpvrx",
     "category": "Utility",
-    "platform": "Android",
+    "platform": "PC",
     "size": "Varies",
     "author": "Riteshp2001",
     "officialSite": "",
@@ -25143,7 +25186,7 @@
     "gitlabDomain": "",
     "packageName": "rocks.gorjan.gokixp",
     "category": "Utility",
-    "platform": "Android",
+    "platform": "PC",
     "size": "Varies",
     "author": "jovanovski",
     "officialSite": "",
