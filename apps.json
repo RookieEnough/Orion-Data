@@ -23763,7 +23763,7 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/dheeraz101/Notekar",
+    "repoUrl": "https://github.com/dheeraz101/Notekar-Android",
     "githubRepo": "dheeraz101/Notekar",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -23772,13 +23772,18 @@
     "platform": "Android",
     "size": "Varies",
     "author": "dheeraz101",
-    "officialSite": "",
+    "officialSite": "https://notekarapp.vercel.app/",
     "screenshots": [
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-06-15_23-26-24-1.webp",
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-06-15_23-26-24-2.webp",
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-06-15_23-26-24-3.webp",
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_5_2026-06-15_23-26-24-5.webp",
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-06-15_23-26-24-4.webp"
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png",
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/9.png",
+      "https://raw.githubusercontent.com/dheeraz101/Notekar-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/10.png"
     ],
     "releaseKeyword": "apk"
   },
