@@ -25490,5 +25490,33 @@
       "https://raw.githubusercontent.com/c77Xa7/static_internet_radio/main/screenshots/screenshot-6.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pinterest-morphe",
+    "name": "Pinterest Morphe",
+    "description": "Looking for creative ideas? Whether you’re planning your next big travel adventure, searching for home design concepts, looking for fashion & fitness tips or checking out new recipes, find lifestyle inspiration on Pinterest. Good ideas start here!",
+    "icon": "http://play-lh.googleusercontent.com/VExMwhu9Fe5kz72YnPWP6mHrNA5WfgZ-PJMnBnQmXFpLncTAOaaHtK4b8w7b2xxGxtqycDatYslVyNSLucl9QA=w240-h480-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
+    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.pinterest",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "adobo",
+    "officialSite": "",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/nkImsXfoJzaznRbGg62J4gE-T2ftcxUzZd9NmqreykzPA3GR9_GS2VZgjXWJz11zZziRwD9msDTnMBCCcOnSPg=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/i5UTBigtn4aoetcPeST9lNzzbecJKtZOImZjm23eCFuARbropamBlISmj6zH9KnAXeuPspSsdTsehh5RQFgt=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/D1u3sJswRJih8kR1O4vEyf3V3yI0fX48EIwVfYJ4i6ElqyVkL9WfssCJ_ewtCzheYMnPygPheOLe1VNJSRPuWw=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/8xkkXpvqV29TVmc2bbzs8hWx4_w7HTbhUXZZrgo9qN1c3pO3wfzvyC2aUXPvL9-ROfg81rzOz8t_DnIq1e-dLw=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/9ls9QIbr3OczxDAco_Qbv7JcYBmOhtf8aFlx9_S22QFFc9AfCML89gVnL9UBnoRaQUpDXVK2VRnM0viuxvfsLfo=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/bUOtEBYvB5-p9JvI4_6cTE5OUnOtqYIdigmRIhjOrnchUbsX2SHYNEl_-qwqTq46DV2xzLG6m7Kebq6p3iph_5Y=w526-h296-rw"
+    ],
+    "releaseKeyword": "pinterest"
   }
 ]
