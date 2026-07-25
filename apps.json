@@ -25674,5 +25674,64 @@
       "https://raw.githubusercontent.com/ReadYouApp/ReadYou/main/fastlane/metadata/android/en-US/images/phoneScreenshots/settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "shuffler",
+    "name": "Shuffler",
+    "description": "Stream movies, series, and anime from a single app. Browse trending content, explore platform exclusives from Netflix, Prime, Disney+, HBO Max, and more, then watch instantly via torrent or direct links with hardware-accelerated playback, subtitle support, and Chromecast. Download to watch offline. Auto-ranked quality streams.\n\nCurrently in beta, you'll have to join discord through the app to get your account!",
+    "icon": "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/ic_launcher.pngNiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODQyMTAwNDMsIm5iZiI6MTc4NDIwOTc0MywicGF0aCI6Ii8yMzAyNDQyMDgvNjIyNzExODY2LTc2ZWFmYThiLTc3NWMtNDdlMy1hMTU3LTRlMDUwOTI1YTkwOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNzE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDcxNlQxMzQ5MDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYmY5ZDc3MWQyZTdjMTQ0YzkxOTM0MDMzMGI1MGZmZmRmYzNiZTA4YWRjZGU2MjY0ZGE1NmI0ZjQ4N2U5MjY4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.rvaxUYFvC--aIqbhPeNVax31c22sYGABWD1b4HO27Ng",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "Https://github.com/xeljazwix/ShufflerApp",
+    "githubRepo": "xeljazwix/ShufflerApp",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.xeljazwi.shuffler",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "xeljazwix",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152640.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152649.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152655.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152704.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152717.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152724.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152738.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152800.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152807.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152813.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152818.png",
+      "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152840.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "solipsism",
+    "name": "Solipsism",
+    "description": "Solipsism Browser is an Android WebView browser built around a rail-first, one-handed interface. It turns the usual browser chrome sideways: navigation, tabs, search, QR scanning, refresh, and the overflow menu live in a compact left or right rail, leaving the page itself as the main surface.",
+    "icon": "https://raw.githubusercontent.com/Kenneth-Cho-InfoSec/Solipsism/main/docs/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Kenneth-Cho-InfoSec/Solipsism",
+    "githubRepo": "Kenneth-Cho-InfoSec/Solipsism",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.krystelligence.solipsism",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Kenneth-Cho-InfoSec",
+    "officialSite": "",
+    "screenshots": [
+      "https://plain-eeur-prod-public.komododecks.com/202607/25/Hte7ifpoO3UYkXIxVsrW/image.jpg",
+      "https://plain-eeur-prod-public.komododecks.com/202607/25/SsX8rIV1BuOFJJCPQYtL/image.jpg",
+      "https://plain-eeur-prod-public.komododecks.com/202607/25/X17fZ4dz6LzhoPZGVpM6/image.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
