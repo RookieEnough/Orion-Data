@@ -25733,5 +25733,35 @@
       "https://plain-eeur-prod-public.komododecks.com/202607/25/X17fZ4dz6LzhoPZGVpM6/image.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "th3-anime",
+    "name": "Th3-Anime",
+    "description": "Th3-Anime is a fast, modern anime streaming app built for a smooth, ad-free experience with clean UI, smart organization, and features designed specifically for anime fans.",
+    "icon": "https://camo.githubusercontent.com/a5e59a7cf4024c37c74cd73ff4d331299c04f9b9b78c07883e837b3eecd978dd/68747470733a2f2f7468332d616e696d652e70616765732e6465762f696d616765732f6c6f676f2e737667",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Th3-C0der/Th3-Anime",
+    "githubRepo": "Th3-C0der/Th3-Anime",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.th3c0der.anime",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Th3-C0der",
+    "officialSite": "https://th3-anime.pages.dev",
+    "screenshots": [
+      "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.20%20PM.jpeg",
+      "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.19%20PM.jpeg",
+      "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.19%20PM%20(1).jpeg",
+      "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.18%20PM.jpeg",
+      "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.19%20PM%20(2).jpeg",
+      "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.18%20PM%20(1).jpeg",
+      "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.17%20PM%20(1).jpeg",
+      "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.18%20PM%20(2).jpeg"
+    ],
+    "releaseKeyword": "arm64, armeabi"
   }
 ]
