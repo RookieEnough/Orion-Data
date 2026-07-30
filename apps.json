@@ -742,10 +742,10 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/marlboro-advance/mpvEx",
     "githubRepo": "marlboro-advance/mpvEx",
-    "releaseKeyword": "mpvEx",
+    "releaseKeyword": "apk",
     "packageName": "app.marlboroadvance.mpvex",
     "category": "utility",
-    "platform": "PC",
+    "platform": "Android",
     "size": "Varies",
     "author": "marlboro",
     "screenshots": [
