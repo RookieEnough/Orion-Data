@@ -6794,7 +6794,7 @@
     "id": "shonenx",
     "name": "ShonenX",
     "description": "A modern anime streaming app built with Flutter featuring HD playback, genre browsing, offline support, and a beautiful UI. Watch your favorite anime in style!",
-    "icon": "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/assets/icons/app_icon-modified-2.png",
+    "icon": "https://raw.githubusercontent.com/roshancodespace/shonenx/main/assets/images/app_icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -6809,10 +6809,11 @@
     "author": "roshancodespace",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/home.jpg",
-      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/details.jpg",
-      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/anilist.jpg",
-      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/search.jpg"
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781979110/Screenshot_20260620_211126_bsnvdk.jpg",
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781979113/Screenshot_20260620_211212_tumczi.jpg",
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781979112/Screenshot_20260620_211235_iim4rh.jpg",
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781978996/1000232654_py5khk.jpg",
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781979110/Screenshot_20260620_211312_qcor7h.jpg"
     ],
     "releaseKeyword": "apk"
   },
