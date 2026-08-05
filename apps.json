@@ -3771,7 +3771,7 @@
     "id": "echo-music",
     "name": "Echo Music",
     "description": "Echo Music is designed to provide a seamless and premium music listening experience. It leverages the vast library of YouTube Music while eliminating advertisements and adding powerful features such as offline downloads, real-time lyrics, and environment-aware music recognition.",
-    "icon": "https://github.com/iad1tya/Echo-Music/raw/main/assets/Echo_github.png",
+    "icon": "https://i.ibb.co/v44DLsWp/1000411318.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -3785,11 +3785,12 @@
     "author": "iad1tya",
     "officialSite": "",
     "screenshots": [
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_1.png",
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_2.png",
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_4.png",
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_5.png",
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_3.png"
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_1.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_2.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_3.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_4.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_5.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_6.png"
     ]
   },
   {
