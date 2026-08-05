@@ -562,7 +562,7 @@
     "id": "pairdrop",
     "name": "PairDrop",
     "description": "Open-source cross-platform file-sharing app (web-based) — lets you transfer files, images, documents or text between devices over LAN or internet, without signup or setup. Inspired by AirDrop / Snapdrop.",
-    "icon": "https://github.com/schlagmichdoch/PairDrop/blob/master/public/images/logo_blue_512x512.png",
+    "icon": "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
