@@ -4115,7 +4115,7 @@
     "id": "nuvio",
     "name": "Nuvio",
     "description": "Nuvio Media Hub is a cross‑platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
-    "icon": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/main/assets/titlelogo.png",
+    "icon": "https://i.ibb.co/fzPTmN1w/shared-img-1785949732824.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -4130,13 +4130,11 @@
     "author": "tapframe",
     "officialSite": "",
     "screenshots": [
-      "https://tapframe.github.io/NuvioStreaming/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.09.43-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.10.14-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/ratingscreen-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/seasonandepisode-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/search-portrait.png"
+      "https://i.ibb.co/vn2M72r/1000411302.jpg",
+      "https://i.ibb.co/fYKZRB6w/1000411303.jpg",
+      "https://i.ibb.co/dwvgygxQ/1000411304.jpg",
+      "https://i.ibb.co/4wy8j3Mx/1000411305.jpg",
+      "https://i.ibb.co/Lhtwv71m/1000411306.jpg"
     ],
     "releaseKeyword": "app"
   },
