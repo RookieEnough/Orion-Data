@@ -562,7 +562,7 @@
     "id": "pairdrop",
     "name": "PairDrop",
     "description": "Open-source cross-platform file-sharing app (web-based) — lets you transfer files, images, documents or text between devices over LAN or internet, without signup or setup. Inspired by AirDrop / Snapdrop.",
-    "icon": "https://github.com/schlagmichdoch/PairDrop/blob/master/public/images/logo_blue_512x512.png",
+    "icon": "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -3019,7 +3019,7 @@
   },
   {
     "id": "org.futo.inputmethod.latin",
-    "name": "android-keyboard",
+    "name": "FUTO Keyboard",
     "description": "A good modern keyboard that stays offline and doesn't spy on you. Very customizable. \n",
     "icon": "https://play-lh.googleusercontent.com/sTw82I2n6RI1SIT18FXcsYvgtPdMTEa37sYOsguCDQcbIRJy7gBTpjL2BdYIOjNSgaw=w480-h960-rw",
     "version": "Latest",
@@ -3771,7 +3771,7 @@
     "id": "echo-music",
     "name": "Echo Music",
     "description": "Echo Music is designed to provide a seamless and premium music listening experience. It leverages the vast library of YouTube Music while eliminating advertisements and adding powerful features such as offline downloads, real-time lyrics, and environment-aware music recognition.",
-    "icon": "https://github.com/iad1tya/Echo-Music/raw/main/assets/Echo_github.png",
+    "icon": "https://i.ibb.co/v44DLsWp/1000411318.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -3785,11 +3785,12 @@
     "author": "iad1tya",
     "officialSite": "",
     "screenshots": [
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_1.png",
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_2.png",
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_4.png",
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_5.png",
-      "https://github.com/iad1tya/Echo-Music/raw/main/assets/Screenshots/sc_3.png"
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_1.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_2.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_3.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_4.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_5.png",
+      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_6.png"
     ]
   },
   {
@@ -4115,7 +4116,7 @@
     "id": "nuvio",
     "name": "Nuvio",
     "description": "Nuvio Media Hub is a cross‑platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
-    "icon": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/main/assets/titlelogo.png",
+    "icon": "https://i.ibb.co/fzPTmN1w/shared-img-1785949732824.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -4130,13 +4131,11 @@
     "author": "tapframe",
     "officialSite": "",
     "screenshots": [
-      "https://tapframe.github.io/NuvioStreaming/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.09.43-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.10.14-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/ratingscreen-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/seasonandepisode-portrait.png",
-      "https://tapframe.github.io/NuvioStreaming/screenshots/search-portrait.png"
+      "https://i.ibb.co/vn2M72r/1000411302.jpg",
+      "https://i.ibb.co/fYKZRB6w/1000411303.jpg",
+      "https://i.ibb.co/dwvgygxQ/1000411304.jpg",
+      "https://i.ibb.co/4wy8j3Mx/1000411305.jpg",
+      "https://i.ibb.co/Lhtwv71m/1000411306.jpg"
     ],
     "releaseKeyword": "app"
   },
@@ -6795,7 +6794,7 @@
     "id": "shonenx",
     "name": "ShonenX",
     "description": "A modern anime streaming app built with Flutter featuring HD playback, genre browsing, offline support, and a beautiful UI. Watch your favorite anime in style!",
-    "icon": "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/assets/icons/app_icon-modified-2.png",
+    "icon": "https://raw.githubusercontent.com/roshancodespace/shonenx/main/assets/images/app_icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -6810,10 +6809,11 @@
     "author": "roshancodespace",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/home.jpg",
-      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/details.jpg",
-      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/anilist.jpg",
-      "https://raw.githubusercontent.com/roshancodespace/ShonenX/refs/heads/main/screenshots/mobile/search.jpg"
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781979110/Screenshot_20260620_211126_bsnvdk.jpg",
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781979113/Screenshot_20260620_211212_tumczi.jpg",
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781979112/Screenshot_20260620_211235_iim4rh.jpg",
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781978996/1000232654_py5khk.jpg",
+      "https://res.cloudinary.com/dscoexe9l/image/upload/v1781979110/Screenshot_20260620_211312_qcor7h.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -6821,7 +6821,7 @@
     "id": "webtoapp",
     "name": "WebToApp",
     "description": "A native Android application that converts any website URL into a standalone Android App with many many features. Check its repo to see all features.",
-    "icon": "https://image2url.com/r2/default/images/1769092748527-7bf84cd3-a0cc-4ecf-b72f-b14e157ebf4f.png",
+    "icon": "https://i.ibb.co/kz8SRpb/1000411309.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
