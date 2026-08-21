@@ -26946,5 +26946,55 @@
       "https://raw.githubusercontent.com/pear-devs/pear-desktop/refs/heads/master/web/screenshot.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "vicinae",
+    "name": "Vicinae",
+    "description": "Vicinae (pronounced \"vee-CHEE-nay\") is a high-performance, native command palette for your desktop.\n\nOut of the box, Vicinae can be your:\napp search, clipboard history, text expander (snippets), file search, browser tab switcher, emoji picker, calculator, window switcher, font browser, volume controller\n\nWhen you need more, Vicinae can be extended in several ways:\nReact/Typescript extensions, compatible with the Raycast ecosystem. In-app integration with the Vicinae store and the Raycast store.\nScript commands, also compatible with the Raycast feature of the same name, with special Vicinae additions.\ndmenu style menu creation, the linux minimalist way!",
+    "icon": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/vicinae.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/vicinaehq/vicinae",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "vicinaehq",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/screenshot.png",
+      "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/vicinae.png",
+      "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/vicinae-macos.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "terminus",
+    "name": "Terminus",
+    "description": "Cyberpunked theme Android music player that drawn inspiration from Terminal/ASCII aesthetic. Play offline, customize theme and monitor your listening stats.",
+    "icon": "https://raw.githubusercontent.com/Onesoulmoon/Terminus/main/terminus.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Onesoulmoon/Terminus",
+    "githubRepo": "Onesoulmoon/Terminus",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.necroware.terminusplayer",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Onesoulmoon",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Onesoulmoon/Terminus/main/Screenshot_20260820_134002_TERMINUS.jpg.jpeg",
+      "https://raw.githubusercontent.com/Onesoulmoon/Terminus/main/Screenshot_20260820_133824_TERMINUS.jpg.jpeg",
+      "https://raw.githubusercontent.com/Onesoulmoon/Terminus/main/Screenshot_20260820_133753_TERMINUS.jpg.jpeg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
