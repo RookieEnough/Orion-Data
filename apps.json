@@ -27425,7 +27425,7 @@
     "id": "gabi-downloader",
     "name": "Gabi",
     "description": "All in one media/image downloader app for android based on yt-dlp, gallery-dl python library and newpipe extractor along with cobalt api instance, following material 3 expressive ui.",
-    "icon": "https://github.com/Hotaro26/gabi/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/icon.png",
+    "icon": "https://raw.githubusercontent.com/Hotaro26/gabi/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -27440,12 +27440,12 @@
     "author": "Hotaro26",
     "officialSite": "https://hotaro26.github.io/gabi/",
     "screenshots": [
-      "https://github.com/Hotaro26/gabi/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image1.png",
-      "https://github.com/Hotaro26/gabi/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image2.png",
-      "https://github.com/Hotaro26/gabi/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image3.png",
-      "https://github.com/Hotaro26/gabi/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image4.png",
-      "https://github.com/Hotaro26/gabi/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image5.png",
-      "https://github.com/Hotaro26/gabi/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/image6.png"
+      "https://raw.githubusercontent.com/Hotaro26/gabi/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Hotaro26/gabi/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Hotaro26/gabi/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/Hotaro26/gabi/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/Hotaro26/gabi/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/Hotaro26/gabi/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
     ],
     "releaseKeyword": "apk"
   }
