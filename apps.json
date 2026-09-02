@@ -1231,7 +1231,7 @@
     "downloadUrl": "#",
     "repoUrl": "https://github.com/MorpheApp/MicroG-RE",
     "githubRepo": "MorpheApp/MicroG-RE",
-    "releaseKeyword": "microg",
+    "releaseKeyword": "noicon",
     "packageName": "app.revanced.android.gms",
     "category": "Utility",
     "platform": "Android",
