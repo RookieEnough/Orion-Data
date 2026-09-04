@@ -1,0 +1,144 @@
+name: Process App Updates (Batch)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  batch-update-apps:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Fetch Approved App Updates
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --state open --label "approved" --search "in:title App Update" --json number,title,body,url > issues1.json
+          gh issue list --state open --label "Approved" --search "in:title App Update" --json number,title,body,url > issues2.json
+          jq -s 'add | unique_by(.number)' issues1.json issues2.json > update_issues.json
+
+      - name: Process Issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            try {
+              const issues = JSON.parse(fs.readFileSync('update_issues.json', 'utf8'));
+              if (issues.length === 0) {
+                console.log("No approved app update issues found.");
+                return;
+              }
+              let currentApps = [];
+              try { currentApps = JSON.parse(fs.readFileSync('apps.json', 'utf8')); } catch (e) { console.log("apps.json not found."); return; }
+              let updatedCount = 0;
+              let updatedNames = [];
+              let processedIssues = [];
+              
+              issues.forEach(issue => {
+                const issueBody = issue.body;
+                let jsonStr = "";
+                const jsonMatch = issueBody.match(/```(?:json)?([\s\S]*?)```/);
+                if (jsonMatch) { jsonStr = jsonMatch[1].trim(); } else {
+                    const start = issueBody.indexOf('[');
+                    const end = issueBody.lastIndexOf(']');
+                    if (start !== -1 && end !== -1) { jsonStr = issueBody.substring(start, end + 1).trim(); }
+                }
+                if (!jsonStr) { console.log(`Issue #${issue.number}: No JSON payload found.`); return; }
+                
+                try {
+                    let updateData = JSON.parse(jsonStr);
+                    if (!Array.isArray(updateData)) updateData = [updateData];
+                    
+                    updateData.forEach(app => {
+                       const existingIndex = currentApps.findIndex(a => {
+                           const idMatch = a.id === app.id;
+                           const repoMatch = (app.githubRepo && app.githubRepo.trim() !== "" && a.githubRepo && a.githubRepo.toLowerCase() === app.githubRepo.toLowerCase());
+                           const urlMatch = (app.repoUrl && app.repoUrl.trim() !== "" && a.repoUrl && a.repoUrl.toLowerCase() === app.repoUrl.toLowerCase());
+                           return idMatch || repoMatch || urlMatch;
+                       });
+                       
+                       if (existingIndex > -1) {
+                           currentApps[existingIndex] = { ...currentApps[existingIndex], ...app };
+                           updatedCount++; 
+                           updatedNames.push(app.name || currentApps[existingIndex].name);
+                       }
+                    });
+                    processedIssues.push({ number: issue.number, url: issue.url });
+                } catch (e) {
+                    console.error(`Issue #${issue.number}: Parse error - ${e.message}`);
+                }
+              });
+              
+              if (updatedCount > 0) {
+                 fs.writeFileSync('apps.json', JSON.stringify(currentApps, null, 2));
+                 console.log(`Successfully updated ${updatedCount} apps.`);
+                 fs.writeFileSync('updated_apps.txt', updatedNames.join(', '));
+              } else { fs.writeFileSync('updated_apps.txt', ''); }
+              fs.writeFileSync('processed_issues.json', JSON.stringify(processedIssues));
+            } catch (e) { core.setFailed(e.message); }
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "Orion Bot"
+          git config --global user.email "bot@orion.store"
+          
+          if [ -f updated_apps.txt ] && [ -s updated_apps.txt ]; then
+            git add apps.json
+            git commit -m "fix: Batch update existing apps"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Close Processed Issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f processed_issues.json ]; then
+            for num in $(jq -r '.[].number' processed_issues.json); do
+              gh issue close "$num" --comment "✅ Submission Approved! The app data has been successfully updated in the latest batch processing."
+            done
+          fi
+
+      - name: Notify Discord of Success
+        uses: actions/github-script@v7
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        with:
+          script: |
+            const fs = require('fs');
+            const webhookUrl = process.env.DISCORD_WEBHOOK;
+            if (!webhookUrl) return;
+            
+            let updatedApps = "";
+            let processedIssues = [];
+            try { updatedApps = fs.readFileSync('updated_apps.txt', 'utf8'); } catch(e) {}
+            try { processedIssues = JSON.parse(fs.readFileSync('processed_issues.json', 'utf8')); } catch(e) {}
+            
+            if (!updatedApps || processedIssues.length === 0) return;
+            
+            const issueLinks = processedIssues.map(i => `[#${i.number}](${i.url})`).join(', ');
+            
+            const payload = {
+              username: "Orion Store Bot",
+              avatar_url: "https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/assets/orion_logo_512.png",
+              embeds: [{
+                  title: `✅ Batch Apps Successfully Updated`,
+                  description: `Processed issues: ${issueLinks}\n\nThe following apps have been updated in the store:\n**${updatedApps}**`,
+                  color: 5763719,
+                  footer: { text: "Orion Store Automation" },
+                  timestamp: new Date().toISOString()
+              }]
+            };
+            await fetch(webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
