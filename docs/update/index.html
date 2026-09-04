@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orion Apps Manager</title>
+  <style>
+    :root {
+      --bg: #121214; --card: #1c1c1f; --border: #2e2e34;
+      --primary: #8a63f2; --primary-hover: #7852e0;
+      --danger: #ef4444; --danger-hover: #dc2626;
+      --text: #f0f0f5; --text-muted: #8e8e99;
+      --input-bg: #26262b; --accent: #2dd4bf;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg); color: var(--text);
+      padding: 16px; line-height: 1.5;
+    }
+
+    .container { max-width: 768px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+    
+    h1 { font-size: 1.4rem; font-weight: 700; }
+    h2 { font-size: 1.1rem; margin-top: 8px; border-bottom: 1px solid var(--border); padding-bottom: 8px;}
+    
+    label { font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); display: block; margin-bottom: 6px; }
+    input, select, textarea { width: 100%; background: var(--input-bg); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; font-size: 0.95rem; color: var(--text); outline: none; }
+    input:focus, select:focus, textarea:focus { border-color: var(--primary); }
+    textarea { resize: vertical; min-height: 80px; }
+
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .full-width { grid-column: span 2; }
+    @media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } .full-width { grid-column: span 1; } }
+
+    button { background: var(--primary); color: #fff; border: none; border-radius: 8px; padding: 12px; font-size: 0.95rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; }
+    button:hover { background: var(--primary-hover); }
+    button.secondary { background: #2e2e36; color: var(--text); }
+    button.secondary:hover { background: #3b3b45; }
+    button.danger { background: var(--danger); padding: 10px; flex: 0 0 auto; width: 44px;}
+    button.danger:hover { background: var(--danger-hover); }
+
+    .screenshot-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+    .status-badge { font-size: 0.8rem; color: var(--accent); }
+    .btn-group { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <h1>Orion App Editor</h1>
+    <span class="status-badge" id="status">Loading database...</span>
+    
+    <div>
+      <label for="searchInput">Search Repository</label>
+      <input type="text" id="searchInput" placeholder="Search by name, ID..." disabled>
+    </div>
+    <div>
+      <label for="appSelect">Select App</label>
+      <select id="appSelect" disabled>
+        <option value="">-- No app selected --</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="card" id="editorCard" style="display: none;">
+    <h2>Core Details</h2>
+    <div class="form-grid">
+      <div><label>App ID</label><input type="text" id="appId"></div>
+      <div><label>App Name</label><input type="text" id="appName"></div>
+      <div><label>Package Name</label><input type="text" id="appPackage"></div>
+      <div><label>Category</label><input type="text" id="appCategory"></div>
+      <div><label>Version</label><input type="text" id="appVersion"></div>
+      <div><label>Size</label><input type="text" id="appSize" placeholder="e.g. 25 MB or Varies"></div>
+      <div><label>Platform</label><input type="text" id="appPlatform" value="Android"></div>
+      <div><label>Author</label><input type="text" id="appAuthor"></div>
+      <div><label>Release Keyword</label><input type="text" id="appKeyword" placeholder="Optional tag match"></div>
+    </div>
+
+    <h2>Links & Repositories</h2>
+    <div class="form-grid">
+      <div class="full-width"><label>Direct Download URL</label><input type="text" id="appDownload"></div>
+      <div><label>GitHub Repo</label><input type="text" id="appGithub" placeholder="owner/repo"></div>
+      <div><label>Generic Repo URL</label><input type="text" id="appRepoUrl"></div>
+      <div><label>GitLab Repo</label><input type="text" id="appGitlab" placeholder="owner/repo"></div>
+      <div><label>GitLab Domain</label><input type="text" id="appGitlabDomain" placeholder="gitlab.com"></div>
+      <div class="full-width"><label>Official Site</label><input type="text" id="appSite"></div>
+    </div>
+
+    <h2>Media</h2>
+    <div class="form-grid">
+      <div class="full-width"><label>Icon URL</label><input type="text" id="appIcon"></div>
+      <div class="full-width"><label>Description</label><textarea id="appDescription"></textarea></div>
+    </div>
+
+    <h2>Screenshots</h2>
+    <div id="screenshotsContainer"></div>
+    <button type="button" class="secondary" id="btnAddScreenshot" style="width: fit-content;">+ Add Screenshot URL</button>
+
+    <div class="btn-group">
+      <button id="btnSubmitIssue">Submit Update via GitHub Issue</button>
+      <button class="secondary" id="btnDirectEdit">Copy JSON & Open GitHub Web Editor</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const APPS_URL = "https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/apps.json";
+  const REPO_ISSUE_URL = "https://github.com/RookieEnough/Orion-Data/issues/new";
+  const REPO_EDIT_URL = "https://github.com/RookieEnough/Orion-Data/edit/main/apps.json";
+
+  let appsData = [];
+  let currentAppIndex = -1;
+
+  const statusEl = document.getElementById("status");
+  const searchInput = document.getElementById("searchInput");
+  const appSelect = document.getElementById("appSelect");
+  const editorCard = document.getElementById("editorCard");
+  const screenshotsContainer = document.getElementById("screenshotsContainer");
+
+  async function loadData() {
+    try {
+      const res = await fetch(APPS_URL);
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      appsData = await res.json();
+      statusEl.textContent = `Loaded ${appsData.length} apps.`;
+      searchInput.disabled = false;
+      appSelect.disabled = false;
+      populateDropdown(appsData);
+    } catch (err) {
+      statusEl.textContent = "Error: " + err.message;
+      statusEl.style.color = "var(--danger)";
+    }
+  }
+
+  function populateDropdown(list) {
+    appSelect.innerHTML = '<option value="">-- Choose an App --</option>';
+    list.forEach(app => {
+      const opt = document.createElement("option");
+      opt.value = app.id;
+      opt.textContent = `${app.name} (${app.id})`;
+      appSelect.appendChild(opt);
+    });
+  }
+
+  searchInput.addEventListener("input", (e) => {
+    const q = e.target.value.toLowerCase().trim();
+    const filtered = appsData.filter(a => 
+      (a.name && a.name.toLowerCase().includes(q)) ||
+      (a.id && a.id.toLowerCase().includes(q))
+    );
+    populateDropdown(filtered);
+  });
+
+  function renderScreenshotInput(url = "") {
+    const row = document.createElement("div");
+    row.className = "screenshot-row";
+    
+    const input = document.createElement("input");
+    input.type = "text";
+    input.value = url;
+    input.placeholder = "https://...";
+    
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "danger";
+    btn.innerHTML = "✖";
+    btn.onclick = () => row.remove();
+    
+    row.appendChild(input);
+    row.appendChild(btn);
+    screenshotsContainer.appendChild(row);
+  }
+
+  document.getElementById("btnAddScreenshot").addEventListener("click", () => {
+    renderScreenshotInput();
+  });
+
+  appSelect.addEventListener("change", (e) => {
+    const selectedId = e.target.value;
+    currentAppIndex = appsData.findIndex(a => a.id === selectedId);
+    if (currentAppIndex === -1) {
+      editorCard.style.display = "none";
+      return;
+    }
+
+    const app = appsData[currentAppIndex];
+    document.getElementById("appId").value = app.id || "";
+    document.getElementById("appName").value = app.name || "";
+    document.getElementById("appPackage").value = app.packageName || "";
+    document.getElementById("appCategory").value = app.category || "Utility";
+    document.getElementById("appVersion").value = app.version || "Latest";
+    document.getElementById("appSize").value = app.size || "";
+    document.getElementById("appPlatform").value = app.platform || "Android";
+    document.getElementById("appAuthor").value = app.author || "";
+    document.getElementById("appKeyword").value = app.releaseKeyword || "";
+    document.getElementById("appDownload").value = app.downloadUrl || "";
+    document.getElementById("appGithub").value = app.githubRepo || "";
+    document.getElementById("appRepoUrl").value = app.repoUrl || "";
+    document.getElementById("appGitlab").value = app.gitlabRepo || "";
+    document.getElementById("appGitlabDomain").value = app.gitlabDomain || "";
+    document.getElementById("appSite").value = app.officialSite || "";
+    document.getElementById("appIcon").value = app.icon || "";
+    document.getElementById("appDescription").value = app.description || "";
+
+    screenshotsContainer.innerHTML = "";
+    if (app.screenshots && Array.isArray(app.screenshots)) {
+      app.screenshots.forEach(url => renderScreenshotInput(url));
+    }
+
+    editorCard.style.display = "flex";
+  });
+
+  function getUpdatedAppObject() {
+    const original = appsData[currentAppIndex] || {};
+    
+    // Gather screenshots, ignoring empty inputs
+    const screenshotInputs = screenshotsContainer.querySelectorAll("input");
+    const screenshots = Array.from(screenshotInputs).map(i => i.value.trim()).filter(v => v !== "");
+
+    return {
+      ...original,
+      id: document.getElementById("appId").value.trim(),
+      name: document.getElementById("appName").value.trim(),
+      packageName: document.getElementById("appPackage").value.trim(),
+      category: document.getElementById("appCategory").value.trim(),
+      version: document.getElementById("appVersion").value.trim(),
+      latestVersion: document.getElementById("appVersion").value.trim(),
+      size: document.getElementById("appSize").value.trim() || "Varies",
+      platform: document.getElementById("appPlatform").value.trim() || "Android",
+      author: document.getElementById("appAuthor").value.trim(),
+      releaseKeyword: document.getElementById("appKeyword").value.trim(),
+      downloadUrl: document.getElementById("appDownload").value.trim(),
+      githubRepo: document.getElementById("appGithub").value.trim(),
+      repoUrl: document.getElementById("appRepoUrl").value.trim(),
+      gitlabRepo: document.getElementById("appGitlab").value.trim(),
+      gitlabDomain: document.getElementById("appGitlabDomain").value.trim(),
+      officialSite: document.getElementById("appSite").value.trim(),
+      icon: document.getElementById("appIcon").value.trim(),
+      description: document.getElementById("appDescription").value.trim(),
+      screenshots: screenshots
+    };
+  }
+
+  document.getElementById("btnSubmitIssue").addEventListener("click", () => {
+    const app = getUpdatedAppObject();
+    const jsonString = "```json\n" + JSON.stringify([app], null, 2) + "\n```";
+    const title = encodeURIComponent(`App Update: ${app.name}`);
+    const body = encodeURIComponent(jsonString);
+    window.open(`${REPO_ISSUE_URL}?title=${title}&body=${body}`, "_blank");
+  });
+
+  document.getElementById("btnDirectEdit").addEventListener("click", () => {
+    const app = getUpdatedAppObject();
+    navigator.clipboard.writeText(JSON.stringify(app, null, 2)).then(() => {
+      alert("App JSON copied to clipboard! Opening GitHub web editor...");
+      window.open(REPO_EDIT_URL, "_blank");
+    });
+  });
+
+  loadData();
+</script>
+</body>
+</html>
