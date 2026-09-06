@@ -1,0 +1,1505 @@
+[
+  {
+    "username": "Feuerstern",
+    "xp": 360,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1769539824884
+  },
+  {
+    "username": "RookieZ",
+    "xp": 270,
+    "level": 5,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1769542616731
+  },
+  {
+    "username": "Megatron",
+    "xp": 470,
+    "level": 9,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1769785181755
+  },
+  {
+    "username": "Isti",
+    "xp": 1240,
+    "level": 24,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1769553032451
+  },
+  {
+    "username": "Antateur",
+    "xp": 610,
+    "level": 12,
+    "title": "Veteran",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1785182780246
+  },
+  {
+    "username": "Sky",
+    "xp": 170,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1769568362787
+  },
+  {
+    "username": "Imran",
+    "xp": 140,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1769759481466
+  },
+  {
+    "username": "Vector",
+    "xp": 440,
+    "level": 8,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1769996895090
+  },
+  {
+    "username": "SKY",
+    "xp": 1390,
+    "level": 27,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1769702072656
+  },
+  {
+    "username": "Twilight",
+    "xp": 180,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1769692826870
+  },
+  {
+    "username": "JoblessDude",
+    "xp": 150,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Wyatt",
+    "last_updated": 1769598108801
+  },
+  {
+    "username": "VoidalSoul",
+    "xp": 270,
+    "level": 5,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1769607737780
+  },
+  {
+    "username": "Crown",
+    "xp": 470,
+    "level": 9,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1769608489673
+  },
+  {
+    "username": "Shadyteal",
+    "xp": 1990,
+    "level": 39,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica",
+    "last_updated": 1769884267522
+  },
+  {
+    "username": "Goop",
+    "xp": 430,
+    "level": 8,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1769618420202
+  },
+  {
+    "username": "diddy",
+    "xp": 130,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Kimberly",
+    "last_updated": 1769620140827
+  },
+  {
+    "username": "Nadm",
+    "xp": 140,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1769679836237
+  },
+  {
+    "username": "SHoCKYCooKIE",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1769640086280
+  },
+  {
+    "username": "Jumix",
+    "xp": 330,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1774032234122
+  },
+  {
+    "username": "Süper Dünyalı",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1769688789631
+  },
+  {
+    "username": "Dimachinni",
+    "xp": 3600,
+    "level": 72,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1769803804868
+  },
+  {
+    "username": "Ama_fak_yo_mada",
+    "xp": 90,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1769774264846
+  },
+  {
+    "username": "Coco",
+    "xp": 300,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1769786435502
+  },
+  {
+    "username": "KittySaysRawr",
+    "xp": 320,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1786444150346
+  },
+  {
+    "username": "Demxonzy",
+    "xp": 580,
+    "level": 11,
+    "title": "Veteran",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1769872324279
+  },
+  {
+    "username": "Abhiiii",
+    "xp": 1110,
+    "level": 22,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Kimberly",
+    "last_updated": 1769876911205
+  },
+  {
+    "username": "PAI",
+    "xp": 350,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1769886394918
+  },
+  {
+    "username": "Myth",
+    "xp": 270,
+    "level": 5,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1769882572993
+  },
+  {
+    "username": "piRAT",
+    "xp": 350,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1786990255395
+  },
+  {
+    "username": "Pa1indrom3",
+    "xp": 1550,
+    "level": 31,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1771384548289
+  },
+  {
+    "username": "kronikkz",
+    "xp": 3620,
+    "level": 72,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1769972327149
+  },
+  {
+    "username": "lofficy",
+    "xp": 1610,
+    "level": 32,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Wyatt",
+    "last_updated": 1770207367728
+  },
+  {
+    "username": "_vivan_xd",
+    "xp": 80,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1770007010846
+  },
+  {
+    "username": "ArcaneG0D",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1770016348185
+  },
+  {
+    "username": "Ayush",
+    "xp": 170,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1770018009367
+  },
+  {
+    "username": "Abhinavvvee",
+    "xp": 1170,
+    "level": 23,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1770034391064
+  },
+  {
+    "username": "Francine",
+    "xp": 1200,
+    "level": 24,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Oliver",
+    "last_updated": 1770113279458
+  },
+  {
+    "username": "🆎@",
+    "xp": 100,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1770161645415
+  },
+  {
+    "username": "Tac",
+    "xp": 350,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1770182854251
+  },
+  {
+    "username": "TheMyth",
+    "xp": 410,
+    "level": 8,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1770212357178
+  },
+  {
+    "username": "Zeeman",
+    "xp": 3900,
+    "level": 78,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1770355249933
+  },
+  {
+    "username": "Dirac",
+    "xp": 3630,
+    "level": 72,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1770348803308
+  },
+  {
+    "username": "Silent Coder",
+    "xp": 380,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1770448106788
+  },
+  {
+    "username": "K.K",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1770523812705
+  },
+  {
+    "username": "RoadRunner",
+    "xp": 350,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1770539190406
+  },
+  {
+    "username": "RustedMagnet",
+    "xp": 2160,
+    "level": 43,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1772043509716
+  },
+  {
+    "username": "@kavishh",
+    "xp": 150,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1770999781648
+  },
+  {
+    "username": "Jack",
+    "xp": 330,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1771151933210
+  },
+  {
+    "username": "Compiler",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1771137266474
+  },
+  {
+    "username": "Proto01",
+    "xp": 170,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica",
+    "last_updated": 1771435796296
+  },
+  {
+    "username": "Arpit",
+    "xp": 580,
+    "level": 11,
+    "title": "Veteran",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1772000199827
+  },
+  {
+    "username": "X HKR",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1771620887210
+  },
+  {
+    "username": "TheLegendary",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1771650725634
+  },
+  {
+    "username": "capncode",
+    "xp": 830,
+    "level": 16,
+    "title": "Veteran",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1771658294789
+  },
+  {
+    "username": "Exe",
+    "xp": 920,
+    "level": 18,
+    "title": "Veteran",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Kimberly",
+    "last_updated": 1771710649812
+  },
+  {
+    "username": "0008",
+    "xp": 140,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1772041991697
+  },
+  {
+    "username": "Jarvisoo",
+    "xp": 360,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1771851789397
+  },
+  {
+    "username": "Extr",
+    "xp": 970,
+    "level": 19,
+    "title": "Veteran",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1771879637506
+  },
+  {
+    "username": "Metrometro",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica",
+    "last_updated": 1772052072936
+  },
+  {
+    "username": "LitSkulll",
+    "xp": 140,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica",
+    "last_updated": 1772114939952
+  },
+  {
+    "username": "Jvke",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1772178927852
+  },
+  {
+    "username": "Kratos2077",
+    "xp": 80,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1772196397300
+  },
+  {
+    "username": "Suiii",
+    "xp": 1220,
+    "level": 24,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1772283343221
+  },
+  {
+    "username": "Brolio",
+    "xp": 160,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1772330233762
+  },
+  {
+    "username": "Captain XODIA",
+    "xp": 1050,
+    "level": 21,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1772799395528
+  },
+  {
+    "username": "Bbbaba",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1772811160093
+  },
+  {
+    "username": "Aditya",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1772983289336
+  },
+  {
+    "username": "Hubi",
+    "xp": 320,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1773000859895
+  },
+  {
+    "username": "AceYash",
+    "xp": 300,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1774108682782
+  },
+  {
+    "username": "Blood",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1773271818661
+  },
+  {
+    "username": "Pida",
+    "xp": 370,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Kimberly",
+    "last_updated": 1782936850460
+  },
+  {
+    "username": "Pablo",
+    "xp": 80,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1773474177099
+  },
+  {
+    "username": "Meta",
+    "xp": 650,
+    "level": 13,
+    "title": "Veteran",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1776570032528
+  },
+  {
+    "username": "Andro Frewil",
+    "xp": 170,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1773733417096
+  },
+  {
+    "username": "DeathStorm",
+    "xp": 510,
+    "level": 10,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1777838544267
+  },
+  {
+    "username": "Parzival",
+    "xp": 500,
+    "level": 10,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1778770110182
+  },
+  {
+    "username": "Ddd",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1774378076039
+  },
+  {
+    "username": "Yusty",
+    "xp": 100,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1774464940312
+  },
+  {
+    "username": "Sup",
+    "xp": 120,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1774518056809
+  },
+  {
+    "username": "Bonesey",
+    "xp": 70,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1774666882278
+  },
+  {
+    "username": "NapeRiggers",
+    "xp": 70,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1774709035753
+  },
+  {
+    "username": "DEADLYGAMER",
+    "xp": 190,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1778053221312
+  },
+  {
+    "username": "DJPRMF d-. -b",
+    "xp": 140,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1774916471437
+  },
+  {
+    "username": "Chencho1379",
+    "xp": 70,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1774974324182
+  },
+  {
+    "username": "Dyno",
+    "xp": 160,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1774977957931
+  },
+  {
+    "username": "Wungzo",
+    "xp": 150,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1775015804866
+  },
+  {
+    "username": "Misbah",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1775198448698
+  },
+  {
+    "username": "meta",
+    "xp": 550,
+    "level": 11,
+    "title": "Veteran",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1775312319138
+  },
+  {
+    "username": "0002",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1775405342853
+  },
+  {
+    "username": "614282",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1775495260626
+  },
+  {
+    "username": "635278",
+    "xp": 100,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica",
+    "last_updated": 1775540050719
+  },
+  {
+    "username": "651441",
+    "xp": 1000,
+    "level": 20,
+    "title": "Veteran",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Sara",
+    "last_updated": 1777202503700
+  },
+  {
+    "username": "936291",
+    "xp": 200,
+    "level": 4,
+    "title": "Rookie",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Oliver",
+    "last_updated": 1775572312226
+  },
+  {
+    "username": "986432",
+    "xp": 260,
+    "level": 5,
+    "title": "Rookie",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1775716031431
+  },
+  {
+    "username": "SBF",
+    "xp": 90,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1775729364367
+  },
+  {
+    "username": "926514",
+    "xp": 310,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1775749922266
+  },
+  {
+    "username": "124521",
+    "xp": 360,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Kimberly",
+    "last_updated": 1775787778333
+  },
+  {
+    "username": "Sssssssssssssss",
+    "xp": 280,
+    "level": 5,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1775834543489
+  },
+  {
+    "username": "675764",
+    "xp": 440,
+    "level": 8,
+    "title": "Rookie",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1775927772437
+  },
+  {
+    "username": "Getso",
+    "xp": 410,
+    "level": 8,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica",
+    "last_updated": 1777718974566
+  },
+  {
+    "username": "937614",
+    "xp": 490,
+    "level": 9,
+    "title": "Rookie",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1775986849481
+  },
+  {
+    "username": "644332",
+    "xp": 540,
+    "level": 10,
+    "title": "Rookie",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Liliana",
+    "last_updated": 1776000698154
+  },
+  {
+    "username": "Jetboy",
+    "xp": 1050,
+    "level": 21,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1776095342436
+  },
+  {
+    "username": "2432",
+    "xp": 590,
+    "level": 11,
+    "title": "Veteran",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1776013035665
+  },
+  {
+    "username": "734316",
+    "xp": 670,
+    "level": 13,
+    "title": "Veteran",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1776049158574
+  },
+  {
+    "username": "847646",
+    "xp": 720,
+    "level": 14,
+    "title": "Veteran",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1776259340674
+  },
+  {
+    "username": "65431143211",
+    "xp": 830,
+    "level": 16,
+    "title": "Veteran",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Oliver",
+    "last_updated": 1776405817691
+  },
+  {
+    "username": "Wizi",
+    "xp": 80,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1776523961153
+  },
+  {
+    "username": "77777",
+    "xp": 950,
+    "level": 19,
+    "title": "Veteran",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1777008101510
+  },
+  {
+    "username": "Cobblestone",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1777045964657
+  },
+  {
+    "username": "Sk2k26",
+    "xp": 190,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1778147325180
+  },
+  {
+    "username": "6w6wyy",
+    "xp": 1110,
+    "level": 22,
+    "title": "Legend",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1777559688143
+  },
+  {
+    "username": "Khilji",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1777614868018
+  },
+  {
+    "username": "Icy",
+    "xp": 330,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1777637488274
+  },
+  {
+    "username": "665457",
+    "xp": 1170,
+    "level": 23,
+    "title": "Legend",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1777914503428
+  },
+  {
+    "username": "yadukrishnan-h",
+    "xp": 100,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Wyatt",
+    "last_updated": 1778198414189
+  },
+  {
+    "username": "Tragus",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1778205763405
+  },
+  {
+    "username": "736252",
+    "xp": 1220,
+    "level": 24,
+    "title": "Legend",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Oliver",
+    "last_updated": 1778473901854
+  },
+  {
+    "username": "PANKAPAM",
+    "xp": 2300,
+    "level": 46,
+    "title": "Legend",
+    "class": "Scribe",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1788080676579
+  },
+  {
+    "username": "Rdzwann",
+    "xp": 100,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1779358411291
+  },
+  {
+    "username": "DreDay1000",
+    "xp": 80,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1779518928476
+  },
+  {
+    "username": "Billa",
+    "xp": 3220,
+    "level": 64,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1779553711017
+  },
+  {
+    "username": "Dux",
+    "xp": 1870,
+    "level": 37,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1782412758518
+  },
+  {
+    "username": "Amia",
+    "xp": 70,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica",
+    "last_updated": 1779620946410
+  },
+  {
+    "username": "Xelsior",
+    "xp": 400,
+    "level": 8,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1779788683818
+  },
+  {
+    "username": "OiOi",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1779801146472
+  },
+  {
+    "username": "Brave Falcon",
+    "xp": 5880,
+    "level": 117,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1780551865389
+  },
+  {
+    "username": "TOJI",
+    "xp": 130,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1780071129056
+  },
+  {
+    "username": "Rdx",
+    "xp": 780,
+    "level": 15,
+    "title": "Veteran",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1785311193176
+  },
+  {
+    "username": "Robotnik",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1780384271191
+  },
+  {
+    "username": "pkarkey",
+    "xp": 7320,
+    "level": 146,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1780401396425
+  },
+  {
+    "username": "Slvreign",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1780599143703
+  },
+  {
+    "username": "NonProphetZ",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1781146949786
+  },
+  {
+    "username": "RT Sourav",
+    "xp": 240,
+    "level": 4,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1782553725183
+  },
+  {
+    "username": "NonprophetZ",
+    "xp": 350,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1781635714954
+  },
+  {
+    "username": "Osur",
+    "xp": 70,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica",
+    "last_updated": 1781343813529
+  },
+  {
+    "username": "Orange",
+    "xp": 140,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1781548187038
+  },
+  {
+    "username": "Meow",
+    "xp": 100,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1783912158719
+  },
+  {
+    "username": "EricAlderson",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1782294045914
+  },
+  {
+    "username": "Yuk",
+    "xp": 4580,
+    "level": 91,
+    "title": "Legend",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1788645201193
+  },
+  {
+    "username": "ZDRO5¹¹",
+    "xp": 270,
+    "level": 5,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1782991774873
+  },
+  {
+    "username": "Cyber",
+    "xp": 90,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1782867336638
+  },
+  {
+    "username": "HuTao",
+    "xp": 70,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Wyatt",
+    "last_updated": 1782996825494
+  },
+  {
+    "username": "ZoneOfGhost",
+    "xp": 60,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1783001087205
+  },
+  {
+    "username": "daopace",
+    "xp": 110,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1783229845254
+  },
+  {
+    "username": "RookieNotEnough",
+    "xp": 7500,
+    "level": 150,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Liliana",
+    "last_updated": 1784262031966
+  },
+  {
+    "username": "سردار",
+    "xp": 210,
+    "level": 4,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1783827784322
+  },
+  {
+    "username": "Frlch",
+    "xp": 320,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Wyatt",
+    "last_updated": 1783728715994
+  },
+  {
+    "username": "Axis Mundi",
+    "xp": 80,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1783763606706
+  },
+  {
+    "username": "Ethan",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1783803137679
+  },
+  {
+    "username": "Xander",
+    "xp": 80,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1784203382894
+  },
+  {
+    "username": "Jamie",
+    "xp": 530,
+    "level": 10,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1785400661141
+  },
+  {
+    "username": "Met@",
+    "xp": 2280,
+    "level": 45,
+    "title": "Legend",
+    "class": "Hybrid",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1788467549426
+  },
+  {
+    "username": "PooCollectorr",
+    "xp": 140,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica",
+    "last_updated": 1785419579835
+  },
+  {
+    "username": "Kamek",
+    "xp": 440,
+    "level": 8,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-smile/svg?seed=Liliana",
+    "last_updated": 1785207613950
+  },
+  {
+    "username": "ΛLΞX JΛMΞS ᗪEV",
+    "xp": 230,
+    "level": 4,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1788637824071
+  },
+  {
+    "username": "TeaMan",
+    "xp": 50,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1784751795670
+  },
+  {
+    "username": "Sukuna",
+    "xp": 110,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1785045693633
+  },
+  {
+    "username": "YAPPER",
+    "xp": 130,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1785001878091
+  },
+  {
+    "username": "Mystical",
+    "xp": 1380,
+    "level": 27,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1785169528673
+  },
+  {
+    "username": "Du$T",
+    "xp": 80,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1785675669144
+  },
+  {
+    "username": "2110",
+    "xp": 110,
+    "level": 2,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1785895663451
+  },
+  {
+    "username": "Tahsin",
+    "xp": 370,
+    "level": 7,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1786712421436
+  },
+  {
+    "username": "Udayan",
+    "xp": 180,
+    "level": 3,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Kimberly",
+    "last_updated": 1787033821171
+  },
+  {
+    "username": "Well",
+    "xp": 80,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1786945023064
+  },
+  {
+    "username": "zzzAHzzz",
+    "xp": 240,
+    "level": 4,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
+    "last_updated": 1788480221430
+  },
+  {
+    "username": "yorix",
+    "xp": 90,
+    "level": 1,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1788533147689
+  }
+]
