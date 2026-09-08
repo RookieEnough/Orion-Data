@@ -27554,5 +27554,82 @@
       "https://i.ibb.co/TB9CF2x5/1000437948.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "lunartune",
+    "name": "LunarTune",
+    "description": "Custom YTM client with many more features",
+    "icon": "https://raw.githubusercontent.com/TherealCitali/ArchiveTune/docs/rounded-icon-asset/assets/lunartune-icon-rounded.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/cognitiveshadows03/LunarTune",
+    "githubRepo": "cognitiveshadows03/LunarTune",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.citali.lunartune",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "cognitiveshadows03",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/cognitiveshadows03/LunarTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.jpg",
+      "https://raw.githubusercontent.com/cognitiveshadows03/LunarTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_2.jpg",
+      "https://raw.githubusercontent.com/cognitiveshadows03/LunarTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.jpg",
+      "https://raw.githubusercontent.com/cognitiveshadows03/LunarTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.jpg",
+      "https://raw.githubusercontent.com/cognitiveshadows03/LunarTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_7.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "screenseek",
+    "name": "ScreenSeek",
+    "description": "AI-powered visual assistant that lets you capture anything on your screen and ask Gemini to understand it.",
+    "icon": "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/Webp/screenseek.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/hashierholmes/ScreenSeek",
+    "githubRepo": "hashierholmes/ScreenSeek",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "hh.screenseek.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hashierholmes",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/hashierholmes/ScreenSeek/main/docs/screenshots/1.png",
+      "https://raw.githubusercontent.com/hashierholmes/ScreenSeek/main/docs/screenshots/2.png",
+      "https://raw.githubusercontent.com/hashierholmes/ScreenSeek/main/docs/screenshots/3.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "gamecore",
+    "name": "Gamecore",
+    "description": "Android gaming overlay, performance monitor and per-game profile manager. Every number it shows is one the platform actually reported — where Android will not answer, it says so instead of guessing.",
+    "icon": "https://raw.githubusercontent.com/Dreamucxe/GameCore/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Dreamucxe/GameCore",
+    "githubRepo": "Dreamucxe/GameCore",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.gamecore",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Dreamucxe",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Dreamucxe/GameCore/main/screenshots/home.png",
+      "https://raw.githubusercontent.com/Dreamucxe/GameCore/main/screenshots/games.png",
+      "https://raw.githubusercontent.com/Dreamucxe/GameCore/main/screenshots/hud.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
