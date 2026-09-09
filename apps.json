@@ -27631,5 +27631,85 @@
       "https://raw.githubusercontent.com/Dreamucxe/GameCore/main/screenshots/hud.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "iattend",
+    "name": "iAttend",
+    "description": "Free, offline-first Android attendance and timetable tracker built with Jetpack Compose. Supports dynamic mid-term schedule swaps, bunk calculation, extra classes, and Material You theming.",
+    "icon": "https://raw.githubusercontent.com/shuaib-07/iAttend/main/app/src/main/res/drawable/img_logo_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/shuaib-07/iAttend",
+    "githubRepo": "shuaib-07/iAttend",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.iattend.app",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "shuaib-07",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/shuaib-07/iAttend/4884a79a97ac36eaaeee1924c171d3cd11c2c0b3/screenshots/1.png",
+      "https://raw.githubusercontent.com/shuaib-07/iAttend/4884a79a97ac36eaaeee1924c171d3cd11c2c0b3/screenshots/2.png",
+      "https://raw.githubusercontent.com/shuaib-07/iAttend/4884a79a97ac36eaaeee1924c171d3cd11c2c0b3/screenshots/3.png",
+      "https://raw.githubusercontent.com/shuaib-07/iAttend/4884a79a97ac36eaaeee1924c171d3cd11c2c0b3/screenshots/4.png",
+      "https://raw.githubusercontent.com/shuaib-07/iAttend/4884a79a97ac36eaaeee1924c171d3cd11c2c0b3/screenshots/5.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "edgeseek",
+    "name": "Edgeseek",
+    "description": "The Source Code of Edge Seek",
+    "icon": "https://raw.githubusercontent.com/LSafer/edgeseek/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/LSafer/edgeseek",
+    "githubRepo": "LSafer/edgeseek",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "lsafer.edgeseek",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "LSafer",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/LSafer/edgeseek/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_20250403-084816_edgeseek.png",
+      "https://raw.githubusercontent.com/LSafer/edgeseek/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_20250403-084826_edgeseek.png",
+      "https://raw.githubusercontent.com/LSafer/edgeseek/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_20250403-084840_edgeseek.png",
+      "https://raw.githubusercontent.com/LSafer/edgeseek/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_20250403-084856_edgeseek.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "hikari-adblock",
+    "name": "Hikari Adblock",
+    "description": "Hikari AdBlock — free, open-source, no-root Android ad blocker. Blocks ads, trackers and malware system-wide via a local VPN DNS filter. Built with Kotlin & Jetpack Compose.",
+    "icon": "https://raw.githubusercontent.com/codegeasse1/hikari-adblock/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/codegeasse1/hikari-adblock",
+    "githubRepo": "codegeasse1/hikari-adblock",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.codegeasse1.hikariadblock",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "codegeasse1",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/codegeasse1/hikari-adblock/main/screenshots/screenshot-home.jpg",
+      "https://raw.githubusercontent.com/codegeasse1/hikari-adblock/main/screenshots/screenshot-filter-sets.jpg",
+      "https://raw.githubusercontent.com/codegeasse1/hikari-adblock/main/screenshots/screenshot-domain-rules.jpg",
+      "https://raw.githubusercontent.com/codegeasse1/hikari-adblock/main/screenshots/screenshot-settings.jpg",
+      "https://raw.githubusercontent.com/codegeasse1/hikari-adblock/main/screenshots/screenshot-whitelist-apps.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
