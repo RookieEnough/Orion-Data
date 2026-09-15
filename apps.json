@@ -28078,5 +28078,59 @@
       "https://i.postimg.cc/Qt1X6KK0/Screenshot-2026-09-13-134918.png"
     ],
     "releaseKeyword": "zip"
+  },
+  {
+    "id": "nexuskit",
+    "name": "NexusKit",
+    "description": "Many in one utility app.",
+    "icon": "https://raw.githubusercontent.com/Pranjalbudaniya/NexusKit/main/app/src/main/res/drawable/app_logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Pranjalbudaniya/NexusKit",
+    "githubRepo": "Pranjalbudaniya/NexusKit",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nexuskit.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Pranjalbudaniya",
+    "officialSite": "",
+    "screenshots": [
+      "https://cdn.phototourl.com/free/2026-09-13-f76a3e9c-12f3-41ac-b6c1-e8c040e16702.jpg",
+      "https://cdn.phototourl.com/free/2026-09-13-82b66354-fb62-4ef7-84b1-2e7750d59a91.jpg",
+      "https://cdn.phototourl.com/free/2026-09-13-668f0baf-507b-4d6b-9559-38999943e520.jpg",
+      "https://cdn.phototourl.com/free/2026-09-13-a53f2d2e-be96-4088-8676-dec93ed4ab36.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "lastwave-native",
+    "name": "LastWave Native",
+    "description": "A High-Resolution Lossless Music Streaming & Player with Real-Time Synced Lyrics & Smart Discovery for Android, built with Material 3 Expressive design.",
+    "icon": "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/lastwave_logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Clash-Projects/LastWave-native",
+    "githubRepo": "Clash-Projects/LastWave-native",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.lastwave.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Clash-Projects",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_1.png",
+      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_2.png",
+      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_3.png",
+      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_4.png",
+      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_5.png",
+      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_6.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
