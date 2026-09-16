@@ -28,71 +28,331 @@ jobs:
           gh issue list --state open --label "Approved" --search "in:title App Update" --json number,title,body,url > issues2.json
           jq -s 'add | unique_by(.number)' issues1.json issues2.json > update_issues.json
 
+      - name: Fetch Latest Approved JSON From Comments
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const { execSync } = require('child_process');
+
+          const issues = JSON.parse(
+            fs.readFileSync('update_issues.json', 'utf8')
+          );
+
+          const output = [];
+
+          for (const issue of issues) {
+            let sourceBody = issue.body || '';
+            let source = 'issue body';
+
+            try {
+              const commentsRaw = execSync(
+                `gh api --paginate repos/\${GITHUB_REPOSITORY}/issues/${issue.number}/comments --jq '.[] | {body: .body, created_at: .created_at}'`,
+                { encoding: 'utf8' }
+              );
+
+              const comments = commentsRaw
+                .trim()
+                .split('\n')
+                .filter(Boolean)
+                .map(line => JSON.parse(line));
+
+              // Check comments from newest to oldest.
+              for (let i = comments.length - 1; i >= 0; i--) {
+                const body = comments[i].body || '';
+
+                const match = body.match(
+                  /```(?:json)?\s*([\s\S]*?)```/i
+                );
+
+                if (!match) continue;
+
+                try {
+                  const parsed = JSON.parse(match[1].trim());
+
+                  if (Array.isArray(parsed) || typeof parsed === 'object') {
+                    sourceBody = body;
+                    source = 'latest JSON comment';
+                    break;
+                  }
+                } catch (_) {
+                  // Ignore invalid JSON comments.
+                }
+              }
+            } catch (e) {
+              console.log(
+                `Could not fetch comments for #${issue.number}: ${e.message}`
+              );
+            }
+
+            output.push({
+              ...issue,
+              body: sourceBody,
+              jsonSource: source
+            });
+
+            console.log(
+              `Issue #${issue.number}: using ${source}`
+            );
+          }
+
+          fs.writeFileSync(
+            'update_issues.json',
+            JSON.stringify(output, null, 2)
+          );
+          NODE
+
       - name: Process Issues
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
+
+            function extractJson(body) {
+              if (!body) return null;
+
+              // Prefer fenced JSON blocks.
+              const matches = [
+                ...body.matchAll(/```(?:json)?\s*([\s\S]*?)```/gi)
+              ];
+
+              for (const match of matches) {
+                try {
+                  return JSON.parse(match[1].trim());
+                } catch (_) {}
+              }
+
+              // Fallback to a raw JSON array.
+              const start = body.indexOf('[');
+              const end = body.lastIndexOf(']');
+
+              if (start !== -1 && end !== -1 && end > start) {
+                try {
+                  return JSON.parse(
+                    body.substring(start, end + 1).trim()
+                  );
+                } catch (_) {}
+              }
+
+              // Fallback to a raw JSON object.
+              const objectStart = body.indexOf('{');
+              const objectEnd = body.lastIndexOf('}');
+
+              if (
+                objectStart !== -1 &&
+                objectEnd !== -1 &&
+                objectEnd > objectStart
+              ) {
+                try {
+                  return JSON.parse(
+                    body.substring(objectStart, objectEnd + 1).trim()
+                  );
+                } catch (_) {}
+              }
+
+              return null;
+            }
+
+            function isImageUrl(value) {
+              if (!value || typeof value !== 'string') return false;
+
+              const url = value.toLowerCase().trim();
+
+              return (
+                url.includes('raw.githubusercontent.com/') ||
+                url.includes('githubusercontent.com/') ||
+                url.includes('i.ibb.co/') ||
+                url.includes('imgur.com/') ||
+                /\.(png|jpg|jpeg|webp|gif|svg)(\?.*)?$/.test(url)
+              );
+            }
+
+            function isRepositoryUrl(value) {
+              if (!value || typeof value !== 'string') return false;
+
+              const url = value.trim().toLowerCase();
+
+              return (
+                /^https?:\/\/github\.com\/[^/]+\/[^/]+\/?$/.test(url) ||
+                /^https?:\/\/gitlab\.com\/[^/]+\/[^/]+\/?$/.test(url)
+              );
+            }
+
             try {
-              const issues = JSON.parse(fs.readFileSync('update_issues.json', 'utf8'));
+              const issues = JSON.parse(
+                fs.readFileSync('update_issues.json', 'utf8')
+              );
+
               if (issues.length === 0) {
                 console.log("No approved app update issues found.");
                 return;
               }
+
               let currentApps = [];
-              try { currentApps = JSON.parse(fs.readFileSync('apps.json', 'utf8')); } catch (e) { console.log("apps.json not found."); return; }
+
+              try {
+                currentApps = JSON.parse(
+                  fs.readFileSync('apps.json', 'utf8')
+                );
+              } catch (e) {
+                console.log("apps.json not found.");
+                return;
+              }
+
               let updatedCount = 0;
               let updatedNames = [];
               let processedIssues = [];
-              
+
               issues.forEach(issue => {
-                const issueBody = issue.body;
-                let jsonStr = "";
-                const jsonMatch = issueBody.match(/```(?:json)?([\s\S]*?)```/);
-                if (jsonMatch) { jsonStr = jsonMatch[1].trim(); } else {
-                    const start = issueBody.indexOf('[');
-                    const end = issueBody.lastIndexOf(']');
-                    if (start !== -1 && end !== -1) { jsonStr = issueBody.substring(start, end + 1).trim(); }
+                const parsed = extractJson(issue.body);
+
+                if (!parsed) {
+                  console.log(
+                    `Issue #${issue.number}: No valid JSON payload found.`
+                  );
+                  return;
                 }
-                if (!jsonStr) { console.log(`Issue #${issue.number}: No JSON payload found.`); return; }
-                
-                try {
-                    let updateData = JSON.parse(jsonStr);
-                    if (!Array.isArray(updateData)) updateData = [updateData];
-                    
-                    updateData.forEach(app => {
-                       const existingIndex = currentApps.findIndex(a => {
-                           const idMatch = a.id === app.id;
-                           const repoMatch = (app.githubRepo && app.githubRepo.trim() !== "" && a.githubRepo && a.githubRepo.toLowerCase() === app.githubRepo.toLowerCase());
-                           const urlMatch = (app.repoUrl && app.repoUrl.trim() !== "" && a.repoUrl && a.repoUrl.toLowerCase() === app.repoUrl.toLowerCase());
-                           return idMatch || repoMatch || urlMatch;
-                       });
-                       
-                       if (existingIndex > -1) {
-                           currentApps[existingIndex] = { ...currentApps[existingIndex], ...app };
-                           updatedCount++; 
-                           updatedNames.push(app.name || currentApps[existingIndex].name);
-                       }
-                    });
-                    processedIssues.push({ number: issue.number, url: issue.url });
-                } catch (e) {
-                    console.error(`Issue #${issue.number}: Parse error - ${e.message}`);
-                }
+
+                let updateData = Array.isArray(parsed)
+                  ? parsed
+                  : [parsed];
+
+                updateData.forEach(app => {
+
+                  /*
+                   * Safety correction:
+                   *
+                   * If repoUrl contains an obvious image URL and icon
+                   * contains a repository URL, the two fields were
+                   * accidentally reversed. Correct them before saving.
+                   */
+                  if (
+                    isImageUrl(app.repoUrl) &&
+                    isRepositoryUrl(app.icon)
+                  ) {
+                    console.log(
+                      `Issue #${issue.number}: Detected swapped icon/repoUrl. Correcting.`
+                    );
+
+                    const oldRepoUrl = app.repoUrl;
+                    app.repoUrl = app.icon;
+                    app.icon = oldRepoUrl;
+                  }
+
+                  const existingIndex = currentApps.findIndex(a => {
+                    const idMatch =
+                      a.id &&
+                      app.id &&
+                      a.id.toLowerCase() === app.id.toLowerCase();
+
+                    const repoMatch =
+                      app.githubRepo &&
+                      app.githubRepo.trim() !== "" &&
+                      a.githubRepo &&
+                      a.githubRepo.toLowerCase() ===
+                        app.githubRepo.toLowerCase();
+
+                    const urlMatch =
+                      app.repoUrl &&
+                      app.repoUrl.trim() !== "" &&
+                      a.repoUrl &&
+                      a.repoUrl.toLowerCase() ===
+                        app.repoUrl.toLowerCase();
+
+                    return idMatch || repoMatch || urlMatch;
+                  });
+
+                  if (existingIndex > -1) {
+
+                    /*
+                     * Never allow a malformed update to replace a valid
+                     * repository URL with an image URL.
+                     */
+                    if (
+                      isImageUrl(app.repoUrl) &&
+                      !isImageUrl(currentApps[existingIndex].repoUrl)
+                    ) {
+                      console.log(
+                        `Issue #${issue.number}: Keeping existing repoUrl because incoming repoUrl is an image URL.`
+                      );
+
+                      delete app.repoUrl;
+                    }
+
+                    /*
+                     * Never allow a repository URL to replace the icon.
+                     */
+                    if (
+                      isRepositoryUrl(app.icon) &&
+                      isImageUrl(currentApps[existingIndex].icon)
+                    ) {
+                      console.log(
+                        `Issue #${issue.number}: Keeping existing icon because incoming icon is a repository URL.`
+                      );
+
+                      delete app.icon;
+                    }
+
+                    currentApps[existingIndex] = {
+                      ...currentApps[existingIndex],
+                      ...app
+                    };
+
+                    updatedCount++;
+
+                    updatedNames.push(
+                      app.name ||
+                      currentApps[existingIndex].name
+                    );
+                  } else {
+                    console.log(
+                      `Issue #${issue.number}: App not found in apps.json: ${app.name || app.id}`
+                    );
+                  }
+                });
+
+                processedIssues.push({
+                  number: issue.number,
+                  url: issue.url
+                });
               });
-              
+
               if (updatedCount > 0) {
-                 fs.writeFileSync('apps.json', JSON.stringify(currentApps, null, 2));
-                 console.log(`Successfully updated ${updatedCount} apps.`);
-                 fs.writeFileSync('updated_apps.txt', updatedNames.join(', '));
-              } else { fs.writeFileSync('updated_apps.txt', ''); }
-              fs.writeFileSync('processed_issues.json', JSON.stringify(processedIssues));
-            } catch (e) { core.setFailed(e.message); }
+                fs.writeFileSync(
+                  'apps.json',
+                  JSON.stringify(currentApps, null, 2)
+                );
+
+                console.log(
+                  `Successfully updated ${updatedCount} apps.`
+                );
+
+                fs.writeFileSync(
+                  'updated_apps.txt',
+                  updatedNames.join(', ')
+                );
+              } else {
+                fs.writeFileSync(
+                  'updated_apps.txt',
+                  ''
+                );
+              }
+
+              fs.writeFileSync(
+                'processed_issues.json',
+                JSON.stringify(processedIssues, null, 2)
+              );
+
+            } catch (e) {
+              core.setFailed(e.message);
+            }
 
       - name: Commit & Push Changes
         run: |
           git config --global user.name "Orion Bot"
           git config --global user.email "bot@orion.store"
-          
+
           if [ -f updated_apps.txt ] && [ -s updated_apps.txt ]; then
             git add apps.json
             git commit -m "fix: Batch update existing apps"
@@ -107,7 +367,8 @@ jobs:
         run: |
           if [ -f processed_issues.json ]; then
             for num in $(jq -r '.[].number' processed_issues.json); do
-              gh issue close "$num" --comment "✅ Submission Approved! The app data has been successfully updated in the latest batch processing."
+              gh issue close "$num" \
+                --comment "✅ Submission Approved! The app data has been successfully updated in the latest batch processing."
             done
           fi
 
@@ -118,27 +379,63 @@ jobs:
         with:
           script: |
             const fs = require('fs');
+
             const webhookUrl = process.env.DISCORD_WEBHOOK;
+
             if (!webhookUrl) return;
-            
+
             let updatedApps = "";
             let processedIssues = [];
-            try { updatedApps = fs.readFileSync('updated_apps.txt', 'utf8'); } catch(e) {}
-            try { processedIssues = JSON.parse(fs.readFileSync('processed_issues.json', 'utf8')); } catch(e) {}
-            
-            if (!updatedApps || processedIssues.length === 0) return;
-            
-            const issueLinks = processedIssues.map(i => `[#${i.number}](${i.url})`).join(', ');
-            
+
+            try {
+              updatedApps = fs.readFileSync(
+                'updated_apps.txt',
+                'utf8'
+              );
+            } catch(e) {}
+
+            try {
+              processedIssues = JSON.parse(
+                fs.readFileSync(
+                  'processed_issues.json',
+                  'utf8'
+                )
+              );
+            } catch(e) {}
+
+            if (
+              !updatedApps ||
+              processedIssues.length === 0
+            ) return;
+
+            const issueLinks = processedIssues
+              .map(i => `[#${i.number}](${i.url})`)
+              .join(', ');
+
             const payload = {
               username: "Orion Store Bot",
               avatar_url: "https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/assets/orion_logo_512.png",
               embeds: [{
-                  title: `✅ Batch Apps Successfully Updated`,
-                  description: `Processed issues: ${issueLinks}\n\nThe following apps have been updated in the store:\n**${updatedApps}**`,
-                  color: 5763719,
-                  footer: { text: "Orion Store Automation" },
-                  timestamp: new Date().toISOString()
+                title: `✅ Batch Apps Successfully Updated`,
+                description:
+                  `Processed issues: ${issueLinks}\n\n` +
+                  `The following apps have been updated in the store:\n` +
+                  `**${updatedApps}**`,
+                color: 5763719,
+                footer: {
+                  text: "Orion Store Automation"
+                },
+                timestamp: new Date().toISOString()
               }]
             };
-            await fetch(webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+
+            await fetch(
+              webhookUrl,
+              {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+              }
+            );
