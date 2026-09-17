@@ -28132,5 +28132,58 @@
       "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_6.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pothelper",
+    "name": "PotHelper",
+    "description": "A simple PoToken helper for YouTube playback with no spoofing required. It runs offline and provides a valid PoToken to YouTube Morphe, enabling seamless native playback without video stream spoofing.",
+    "icon": "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/refs/heads/main/pothelper/s19tvkt.jpeg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MorpheApp/PotHelper",
+    "githubRepo": "MorpheApp/PotHelper",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.morphe.pot.helper",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MorpheApp",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/refs/heads/main/pothelper/GbH28U3.jpeg",
+      "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/refs/heads/main/pothelper/nmxqEkV.jpeg",
+      "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/refs/heads/main/pothelper/nmxqEkV.jpeg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "omni-browser",
+    "name": "Omni browser ",
+    "description": "Omni Browser is a secure, open-source Android browser by RebelRoot. Built on Mozilla GeckoView, it features native WebExtension support, aggressive media stream interception, a private encrypted locker, and on-device machine learning tools.",
+    "icon": "https://github.com/REBEL-ROOT/omni-browser/raw/main/app/src/main/res/drawable-nodpi/omni_home_logo.webp",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/REBEL-ROOT/omni-browser",
+    "githubRepo": "REBEL-ROOT/omni-browser",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.rebelroot.omni",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "REBEL-ROOT",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/REBEL-ROOT/omni-browser/raw/main/images/screenshots/home_v2.png",
+      "https://github.com/REBEL-ROOT/omni-browser/raw/main/images/screenshots/quick_tools.png",
+      "https://github.com/REBEL-ROOT/omni-browser/raw/main/images/screenshots/browser_menu.png",
+      "https://github.com/REBEL-ROOT/omni-browser/raw/main/images/screenshots/extensions_v2.png",
+      "https://github.com/REBEL-ROOT/omni-browser/raw/main/images/screenshots/settings.png",
+      "https://github.com/REBEL-ROOT/omni-browser/raw/main/images/screenshots/safe_locker_v2.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
