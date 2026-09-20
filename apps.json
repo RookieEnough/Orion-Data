@@ -25873,31 +25873,31 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "nettoggle",
     "name": "NetToggle",
-    "description": "A lightweight Android Quick Settings tile to force 5G Only, 4G Only and preferred network modes using Root or Shizuku.",
-    "icon": "https://github.com/Dhangofa/NetToggle/raw/main/screenshot/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
+    "id": "nettoggle",
+    "description": "NetToggle brings advanced cellular network controls to Android Quick Settings. Switch between 5G Only (SA/NR), 4G/LTE Only, Preferred 5G, Preferred 4G, Preferred 3G, and 2G Only. Build custom tile cycles, target one or both SIMs, create shortcuts, use secure broadcast automation, restore preferred modes, and diagnose failures using Root or Shizuku.",
+    "icon": "https://github.com/Dhangofa/NetToggle/raw/main/fastlane/metadata/android/en-US/images/icon.png",
     "repoUrl": "https://github.com/Dhangofa/NetToggle",
     "githubRepo": "Dhangofa/NetToggle",
     "gitlabRepo": "",
     "gitlabDomain": "",
+    "codebergRepo": "",
+    "releaseKeyword": "apk",
     "packageName": "com.dhangofa.networktoggle",
     "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
     "author": "Dhangofa",
-    "officialSite": "",
+    "downloadUrl": "",
     "screenshots": [
-      "https://github.com/Dhangofa/NetToggle/raw/main/screenshot/main_new.png",
-      "https://github.com/Dhangofa/NetToggle/raw/main/screenshot/5g.png",
-      "https://github.com/Dhangofa/NetToggle/raw/main/screenshot/4g.png",
-      "https://github.com/Dhangofa/NetToggle/raw/main/screenshot/p5g.png",
-      "https://github.com/Dhangofa/NetToggle/raw/main/screenshot/p4g.png"
+      "https://github.com/Dhangofa/NetToggle/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Frame%201.png",
+      "https://github.com/Dhangofa/NetToggle/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Frame%202.png",
+      "https://github.com/Dhangofa/NetToggle/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Frame%203.png",
+      "https://github.com/Dhangofa/NetToggle/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Frame%204.png",
+      "https://github.com/Dhangofa/NetToggle/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Frame%205.png",
+      "https://github.com/Dhangofa/NetToggle/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Frame%206.png",
+      "https://github.com/Dhangofa/NetToggle/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Frame%207.png",
+      "https://github.com/Dhangofa/NetToggle/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Frame%208.png"
     ],
-    "releaseKeyword": "apk"
+    "platform": "Android"
   },
   {
     "id": "playbridge",
