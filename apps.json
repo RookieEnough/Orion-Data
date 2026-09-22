@@ -28423,5 +28423,84 @@
       "https://raw.githubusercontent.com/InlitX/GymMane/main/docs%2Fscreenshots%2Fstore%2Fen%2F06-privacy.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "eddy",
+    "name": "Eddy",
+    "description": "Fast, lightweight, privacy-focused browser with a Material 3 Expressive UI. No ads, no analytics.",
+    "icon": "https://raw.githubusercontent.com/arcbaseproject/Eddy/refs/heads/main/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/arcbaseproject/Eddy",
+    "githubRepo": "arcbaseproject/Eddy",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.eddy.browser",
+    "category": "Browser",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "arcbaseproject",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/arcbaseproject/Eddy/refs/heads/main/docs/screenshots/home.png",
+      "https://raw.githubusercontent.com/arcbaseproject/Eddy/refs/heads/main/docs/screenshots/browsing.png",
+      "https://raw.githubusercontent.com/arcbaseproject/Eddy/refs/heads/main/docs/screenshots/tabs.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "dodo-rf-companion",
+    "name": "Dodo-RF companion",
+    "description": "ESP32 based open-source, ultra-portable Sub-GHz radio analysis, capture, and replay device companion android apk",
+    "icon": "https://raw.githubusercontent.com/killindodo/Dodo-RF/main/docs%2Ficon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/killindodo/Dodo-RF",
+    "githubRepo": "killindodo/Dodo-RF",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.dodo.app",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "killindodo",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/killindodo/Dodo-RF/main/docs%2Fscreenshots%2Fapp_settings.jpg",
+      "https://raw.githubusercontent.com/killindodo/Dodo-RF/main/docs%2Fscreenshots%2Fapp_sniffer.jpg",
+      "https://raw.githubusercontent.com/killindodo/Dodo-RF/main/docs%2Fscreenshots%2Fapp_vault.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "replay",
+    "name": "Replay",
+    "description": "A powerful, high-performance, and customizable Android media player built on libmpv, designed for smooth playback and a clean viewing experience, with hardware-accelerated decoding, HDR playback, shader-based video processing, Anime4K upscaling, advanced subtitle rendering, gesture controls, and extensive playback customization.",
+    "icon": "https://raw.githubusercontent.com/Utsavrajputt/Replay/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Utsavrajputt/Replay",
+    "githubRepo": "Utsavrajputt/Replay",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.invictus.replay",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Utsavrajputt",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Utsavrajputt/Replay/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/tanjiro-playback.jpg",
+      "https://raw.githubusercontent.com/Utsavrajputt/Replay/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/player-controls.jpg",
+      "https://raw.githubusercontent.com/Utsavrajputt/Replay/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/playlist-window.jpg",
+      "https://raw.githubusercontent.com/Utsavrajputt/Replay/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/chapter-navigation.jpg",
+      "https://raw.githubusercontent.com/Utsavrajputt/Replay/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/pip.png",
+      "https://raw.githubusercontent.com/Utsavrajputt/Replay/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/music-player.jpg",
+      "https://raw.githubusercontent.com/Utsavrajputt/Replay/refs/heads/master/fastlane/metadata/android/en-US/images/phoneScreenshots/about-screen.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
