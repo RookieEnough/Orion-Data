@@ -29007,5 +29007,55 @@
       "https://raw.github.com/Alltroo/images/main/Screenshot_20260927_213046_Shizuku.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "quick-code",
+    "name": "Quick Code",
+    "description": "This app named Quick Code can run Python completely in your mobile just like on desktop, it can also be offline and you can also install external libraries using PIP cmd.\n\nFor more Details Information please visit Official Landing page :- \"https://22-in.github.io\"",
+    "icon": "https://raw.githubusercontent.com/22-in/22-in.github.io/refs/heads/main/22logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/22-in/22-in.github.io",
+    "githubRepo": "22-in/22-inhub.io",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "org.akashbaic22.qca.quickcode22",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "22-in",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/22-in/22-in.github.io/refs/heads/main/assets/screenshots/screen1.jpg",
+      "https://raw.githubusercontent.com/22-in/22-in.github.io/refs/heads/main/assets/screenshots/screen2.jpeg",
+      "https://raw.githubusercontent.com/22-in/22-in.github.io/refs/heads/main/assets/screenshots/screen3.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "echo-nightly",
+    "name": "Echo Nightly",
+    "description": "Nightly Updates For Echo",
+    "icon": "https://res.cloudinary.com/dagggqd6g/image/upload/v1782164284/Screenshot_20260623_030714_One_UI_Home_urhn6k.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/itsmechinmoy/echo-nightly",
+    "githubRepo": "itsmechinmoy/echo-nightly",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.brahmkshatriya.echo",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "itsmechinmoy",
+    "officialSite": "",
+    "screenshots": [
+      "https://res.cloudinary.com/dagggqd6g/image/upload/v1782164157/Screenshot_20260623_030355_Echo_Nightly_df76fr.jpg",
+      "https://res.cloudinary.com/dagggqd6g/image/upload/v1782164158/Screenshot_20260623_030346_Echo_Nightly_hr29eg.jpg",
+      "https://res.cloudinary.com/dagggqd6g/image/upload/v1782164158/Screenshot_20260623_030229_Echo_Nightly_euiv3k.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
