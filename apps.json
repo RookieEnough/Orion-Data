@@ -29149,5 +29149,30 @@
       "https://user38860.na.imgto.link/public/20260930/64309.avif"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "voicebox",
+    "name": "Voicebox",
+    "description": "Voicebox is a local-first AI voice studio — a free and open-source alternative to ElevenLabs and WisprFlow in one app. Clone voices from a few seconds of audio, generate speech in 23 languages across 7 TTS engines, dictate into any text field with a global hotkey, and give any MCP-aware AI agent a voice of your choosing.",
+    "icon": "https://i.postimg.cc/C5RDDwFV/github-assets-icon-dark.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/jamiepine/voicebox",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Jamiepine",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/jamiepine/voicebox/main/landing/public/assets/app-screenshot-1.webp",
+      "https://raw.githubusercontent.com/jamiepine/voicebox/main/landing/public/assets/app-screenshot-2.webp",
+      "https://raw.githubusercontent.com/jamiepine/voicebox/main/landing/public/assets/app-screenshot-3.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
