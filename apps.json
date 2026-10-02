@@ -1,3 +1,4 @@
+
 [
   {
     "id": "youtube-revanced",
@@ -75,6 +76,16 @@
       "https://play-lh.googleusercontent.com/4H4ytX8shdiEGpVRcosNjaA1nj01Xibn7PdvP97ZNfvS5edC-yH-GUw-OS40796iFnyv=w526-h296-rw"
     ]
   },
+  {
+  "id": "com.jakesgoodapps.duolauncher",
+  "name": "DuoLauncher",
+  "summary": "A customized Android launcher",
+  "icon": "https://raw.githubusercontent.com/jakesgoodapps/DuoLauncher/main/icon.png", 
+  "source": {
+    "type": "github",
+    "repo": "jakesgoodapps/DuoLauncher"
+    ]
+},
   {
     "id": "netflix-mod",
     "name": "Netflix Mod",
