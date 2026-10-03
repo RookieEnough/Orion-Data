@@ -29505,5 +29505,83 @@
       "https://raw.githubusercontent.com/hashierholmes/KensakuDL/main/screenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "gorillagallery",
+    "name": "GorillaGallery",
+    "description": "Modern, privacy-focused gallery app with a clean interface for browsing, organizing, and managing your photos and videos.",
+    "icon": "https://i.postimg.cc/HLfs80Zt/file-0000000013fc8210a0787e48be57deef.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RiderX9/GorillaGallery",
+    "githubRepo": "RiderX9/GorillaGallery",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.gorilla.gallery",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RiderX9",
+    "officialSite": "",
+    "screenshots": [
+      "https://i.postimg.cc/7ZtScchC/23d45392-5ebe-4913-8006-fcc223998ea7.png",
+      "https://i.postimg.cc/d12kqSQK/7c3d1b41-c232-415b-9c43-b09915f377d4.png",
+      "https://i.postimg.cc/Qtm8YLxG/2f3318cf-1c50-4e11-8a15-a8f1bb3a4e84.png",
+      "https://i.postimg.cc/jjQtCVfw/5a2aff02-3bf5-43ae-add2-f02c5598fc05.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "noise-timer",
+    "name": "Noise Timer",
+    "description": "Noise Timer is a simple, private companion for sleep, focus, and quiet moments.\n\nChoose white, pink, or brown noise, adjust the volume, and let the sound play in the background. Set a sleep timer from a quick preset or choose your own duration. An optional fade-out gently lowers the volume during the final 20 seconds.\n\nFeatures:\n\n• White, pink, and brown noise generated in real time\n• Adjustable playback volume\n• Sleep timer with presets and custom durations\n• Optional fade-out before the timer ends\n• Background playback controls in the notification\n• Remembers your preferred settings\n\nNoise Timer has no ads, accounts, trackers, or network access.\n",
+    "icon": "https://f-droid.org/repo/com.chmouel.noisetimer/en-US/icon_2WoGHWUJzDKpEHJWZ2_hvrkKuLlocCV59IJrSFV4z7k=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/chmouel/noise-timer",
+    "githubRepo": "chmouel/noise-timer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.chmouel.noisetimer",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "chmouel",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/chmouel/noise-timer/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/chmouel/noise-timer/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.chmouel.noisetimer/en-US/icon_2WoGHWUJzDKpEHJWZ2_hvrkKuLlocCV59IJrSFV4z7k=.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "better-deepseek",
+    "name": "Better Deepseek",
+    "description": "A powerful browser extension that supercharges DeepSeek Chat with custom tooling, persistent memory, and seamless project scaffolding. Generate and download files, run Python in-browser, create PowerPoint and Excel documents, build multi-file projects as ZIP archives, and manage custom skills and characters.",
+    "icon": "https://raw.githubusercontent.com/EdgeTypE/better-deepseek/main/extension/attachMenu.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/EdgeTypE/better-deepseek",
+    "githubRepo": "EdgeTypE/better-deepseek",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.betterdeepseek.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "EdgeTypE",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/EdgeTypE/better-deepseek/main/extension/4.png",
+      "https://raw.githubusercontent.com/EdgeTypE/better-deepseek/main/extension/1.png",
+      "https://raw.githubusercontent.com/EdgeTypE/better-deepseek/main/extension/persona.png",
+      "https://raw.githubusercontent.com/EdgeTypE/better-deepseek/main/extension/longwork.jpg",
+      "https://raw.githubusercontent.com/EdgeTypE/better-deepseek/main/extension/attachMenu.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
