@@ -29475,5 +29475,31 @@
       "https://i.postimg.cc/Z5ty8fhZ/Screenshot-2026-10-01-17-26-40-215-com-gxdevs-screenx.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "kensakudl",
+    "name": "KensakuDL",
+    "description": "KensakuDL is an Android anime batch downloader for searching, downloading, and watching episodes offline.",
+    "icon": "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/Webp/KensakuDL.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/hashierholmes/KensakuDL",
+    "githubRepo": "hashierholmes/KensakuDL",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "hh.kensakudl.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hashierholmes",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/hashierholmes/KensakuDL/main/screenshots/1.png",
+      "https://raw.githubusercontent.com/hashierholmes/KensakuDL/main/screenshots/2.png",
+      "https://raw.githubusercontent.com/hashierholmes/KensakuDL/main/screenshots/3.png",
+      "https://raw.githubusercontent.com/hashierholmes/KensakuDL/main/screenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
