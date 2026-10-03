@@ -29424,5 +29424,56 @@
       "https://raw.githubusercontent.com/valera-asyao/Tomatize/main/images/pomidorik_waving.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "since-us",
+    "name": "Since Us",
+    "description": "How long have you been together? Since Us shows you at a glance, with your favorite photo.\n\nYour time together: days, weeks, months and hours since you got together. Live mode even counts every second.\n\nNever miss a special day: reminders for monthly and yearly anniversaries, round numbers like 100 or 500 days and fun numbers like 222, at a time you choose.\n\nYour moments: keep your first date, first kiss or first trip with a note and a photo, and get reminded every year.\n\nWidgets: a love card with your names and days together, or a compact counter in your phone's colors.\n\nPrivate: no account, no ads, no tracking. All data stays on your phone. English and German. Free and open source (GPL-3.0).",
+    "icon": "https://raw.githubusercontent.com/DerDieDasLian/sinceus/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/DerDieDasLian/sinceus",
+    "githubRepo": "DerDieDasLian/sinceus",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.sinceus",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "DerDieDasLian",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/DerDieDasLian/sinceus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/DerDieDasLian/sinceus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/DerDieDasLian/sinceus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/DerDieDasLian/sinceus/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "screen-x",
+    "name": "Screen X",
+    "description": "ScreenX is a modern, open-source screen recorder for Android, designed for simple and reliable screen capture. Record your screen with customizable resolution, frame rate, video bitrate, audio input, orientation, countdown, floating controls, and safe storage options.",
+    "icon": "https://i.ibb.co/R4pYM9Dx/screen-x-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/gtxPrime/screen-x",
+    "githubRepo": "gtxPrime/screen-x",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.gxdevs.screenx",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "gtxPrime",
+    "officialSite": "",
+    "screenshots": [
+      "https://i.postimg.cc/ZqzFqbqc/Screenshot-2026-10-01-17-25-54-493-com-gxdevs-screenx-edit.jpg",
+      "https://i.postimg.cc/9f2ZhLxn/Screenshot-2026-10-01-17-26-21-380-com-gxdevs-screenx.jpg",
+      "https://i.postimg.cc/Z5ty8fhZ/Screenshot-2026-10-01-17-26-40-215-com-gxdevs-screenx.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
