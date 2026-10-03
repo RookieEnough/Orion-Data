@@ -29373,5 +29373,56 @@
       "https://raw.githubusercontent.com/nissshhdev/HeyOD/main/screenshots%2Fcompanion_settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "dailytrade",
+    "name": "DailyTrade",
+    "description": "High-performance, minimalist paper trading simulator with real live market feeds. Trade crypto, stocks, crude oil, forex, index mutual funds & yields with zero financial risk. 100% free & open source.",
+    "icon": "https://raw.githubusercontent.com/luxie47/DailyTrade/main/public/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/luxie47/dailytrade",
+    "githubRepo": "luxie47/dailytrade",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.dailytrade.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "luxie47",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/luxie47/DailyTrade/main/public/screenshots/1_trade.png",
+      "https://raw.githubusercontent.com/luxie47/DailyTrade/main/public/screenshots/2_markets.png",
+      "https://raw.githubusercontent.com/luxie47/DailyTrade/main/public/screenshots/3_portfolio.png",
+      "https://raw.githubusercontent.com/luxie47/DailyTrade/main/public/screenshots/4_accounts.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "tomatize",
+    "name": "Tomatize",
+    "description": "Мобильное приложение трекер привычек с элементами геймификации и маскотом",
+    "icon": "https://raw.githubusercontent.com/valera-asyao/Tomatize/main/images/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/valera-asyao/Tomatize",
+    "githubRepo": "valera-asyao/Tomatize",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.tomatize",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "valera-asayo",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/valera-asyao/Tomatize/main/images/pomidorik_happy.png",
+      "https://raw.githubusercontent.com/valera-asyao/Tomatize/main/images/pomidorik_reading.png",
+      "https://raw.githubusercontent.com/valera-asyao/Tomatize/main/images/pomidorik_waving.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
