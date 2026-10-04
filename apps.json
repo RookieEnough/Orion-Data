@@ -559,33 +559,6 @@
     ]
   },
   {
-    "id": "pairdrop",
-    "name": "PairDrop",
-    "description": "Open-source cross-platform file-sharing app (web-based) \u2014 lets you transfer files, images, documents or text between devices over LAN or internet, without signup or setup. Inspired by AirDrop / Snapdrop.",
-    "icon": "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/schlagmichdoch/PairDrop",
-    "githubRepo": "schlagmichdoch/PairDrop",
-    "releaseKeyword": "PairDrop",
-    "packageName": "",
-    "category": "Utility",
-    "platform": "Web / Android / iOS",
-    "size": "Varies",
-    "author": "schlagmichdoch",
-    "screenshots": [
-      "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_1.png",
-      "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_2.png",
-      "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_3.png",
-      "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_4.png",
-      "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_5.png",
-      "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_6.png",
-      "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_7.png",
-      "https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/pairdrop_screenshot_mobile_8.png"
-    ]
-  },
-  {
     "id": "seal",
     "name": "Seal",
     "description": "Video/Audio Downloader for Android \u2014 uses yt-dlp under the hood to download media from supported platforms; supports playlist downloads, metadata embedding, subtitles, custom commands, and a Material-You UI.",
@@ -828,32 +801,6 @@
       "https://play-lh.googleusercontent.com/EttHvoQkXcUO-f8_CeZE8kvzeJwAT7to-KMKR1wQBouunc5MZWFbnng9RKTBfPcu0dc=w526-h296-rw",
       "https://play-lh.googleusercontent.com/vZzdKcXR7SD773-f2lNXK-m8YaIYGFkrNNsy5fS3oQ-wW-Ctqj1N3ArctDj07IqWdAU=w526-h296-rw",
       "https://play-lh.googleusercontent.com/9p5ahLhVkPsczAXssabw6e2uX27JynuDWT8GtVL0bePdbEjUrs22By0sHbndvWyeM-OL=w526-h296-rw"
-    ]
-  },
-  {
-    "id": "instafel",
-    "name": "InstaFel",
-    "description": "Instafel is a modified, unofficial version of the Instagram app for Android, known for providing early access to new features (alpha builds) with developer options enabled, allowing users to test experimental flags like ad-blocking or autoplay toggles, essentially giving users more control and features beyond the standard app",
-    "icon": "https://raw.githubusercontent.com/mamiiblt/instafel/refs/heads/main/website/src/app/apple-icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/mamiiblt/instafel",
-    "githubRepo": "mamiiblt/instafel",
-    "releaseKeyword": "instafel_c_",
-    "packageName": "com.instafel.android",
-    "category": "Social",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "mamiiblt",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/n74uQe2LDP6pqPQvDsgN8pabNNc8NdShoRzbA7gr7Hd9Y9clPkZ5Xg2L1osnPqTJC9IHHYD867RC3eDORxDd=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/_K0t5bG4GM30T6QF6onfa4Xbp1fjgXuB1EQBTaCY_CS2_agQKvxB2SBQxEPjnP6-AY9bNrHAjxSGXCwFNO9RMQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/Ovro78HjEglmrw0VggPyZnjoVSaH_odOdTnDh52LyCH6OtB3gQyq9qT86N0p7CuWg22YVjP-siq0x5PlqxVQWX0=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/6gTZ3MuWAe10qEjX4JmFVZdyAqxYcigwvgixrx8eI8Llbmkd9UzJtkIsLSKkLBM5QFLNp6a4eXknqMTt0uks7A=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/KBU8I0Z76oAnpQ9K2zNGs6-mi3O3O_m9c_V-BlRF90lh2jjll4uE8nQ4-zIXgM4rPbmr4pPfImEIC6Ze_CNT_Go=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/AGsm7HoW9NbRwzSGHqCGVx-Hz9v2ps2nBAz0uKnxg95xfuO82ESNCN50y1-M2oxhR09Zq74naiWa3ECd809qNg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/1jevwdYf5vTIoTInKEV3XF0bQw_tqF4-umAV5CYO-CZ9CPN0tc5CAdUkMt-yCPPtqFKZK12AyrbR3SsXrJT9kZM=w526-h296-rw"
     ]
   },
   {
@@ -3768,32 +3715,6 @@
     "releaseKeyword": "UniPatcher"
   },
   {
-    "id": "echo-music",
-    "name": "Echo Music",
-    "description": "Echo Music is designed to provide a seamless and premium music listening experience. It leverages the vast library of YouTube Music while eliminating advertisements and adding powerful features such as offline downloads, real-time lyrics, and environment-aware music recognition.",
-    "icon": "https://i.ibb.co/v44DLsWp/1000411318.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/iad1tya/Echo-Music",
-    "githubRepo": "iad1tya/Echo-Music",
-    "releaseKeyword": "Echo",
-    "packageName": "iad1tya.echo.music",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "iad1tya",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_1.png",
-      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_2.png",
-      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_3.png",
-      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_4.png",
-      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_5.png",
-      "https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/sc_6.png"
-    ]
-  },
-  {
     "id": "ivy-wallet",
     "name": "Ivy Wallet",
     "description": "The Ivy Wallet is an open source expense manager with clean UI and lots of customisation",
@@ -4035,7 +3956,7 @@
       "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen1.png",
       "https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen2.png"
     ],
-    "releaseKeyword": "KeePassDX-4.3.1-libre"
+    "releaseKeyword": "libre"
   },
   {
     "id": "namida",
@@ -5568,42 +5489,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "open-tune",
-    "name": "Open Tune",
-    "description": "OpenTune is an open-source YouTube Music client designed for Android devices. It offers a superior user experience with a modern interface that implements Material Design 3, providing advanced features for browsing, playing, and managing music content without the limitations of the official app.",
-    "icon": "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/icon_boJWsrcLyCHsETB5Ti9wC90B4PZ-seBQ-7I7s7PGFqg=.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Arturo254/OpenTune",
-    "githubRepo": "Arturo254/OpenTune",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.Arturo254.opentune",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Arthur Dev Studio",
-    "officialSite": "",
-    "screenshots": [
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_1.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_2.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_3.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_4.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_5.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_6.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_7.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_8.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_9.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_10.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_11.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_12.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_13.png",
-      "https://f-droid.org/repo/com.Arturo254.opentune/es-ES/phoneScreenshots/screenshot_14.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "local-desktop",
     "name": "Local Desktop",
     "description": "Local Desktop helps you run a desktop Linux environment on your Android device.",
@@ -7107,34 +6992,6 @@
       "https://image2url.com/r2/default/files/1769280264347-cb1ae81a-68f3-4d74-9bba-cc6bdb8867a6.jpg"
     ],
     "releaseKeyword": "app"
-  },
-  {
-    "id": "varisankya",
-    "name": "Varisankya",
-    "description": "Varisankya is a modern, high-performance Android application designed to help users track and manage their recurring subscriptions with ease. Built with a focus on the Material 3 Expressive (M3E) design language, it offers a tactile, personalized, and visually stunning experience.",
-    "icon": "https://image2url.com/r2/default/images/1769279770153-975838d0-fbd1-4f39-8edb-843157f23087.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/aarshps/varisankya-android",
-    "githubRepo": "aarshps/varisankya-android",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.hora.varisankya",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "aarshps",
-    "officialSite": "",
-    "screenshots": [
-      "https://image2url.com/r2/default/files/1769279813854-703ade7c-52b7-40b6-805f-58f90ed7af97.jpg",
-      "https://image2url.com/r2/default/files/1769279828681-de317578-0511-406a-a888-c69af936b759.jpg",
-      "https://image2url.com/r2/default/files/1769279840770-76d08c5e-76ae-451a-99e4-beb9ccb6ac0f.jpg",
-      "https://image2url.com/r2/default/files/1769279865987-42b73019-0bcd-4e36-953c-7e57a9bad8d4.jpg",
-      "https://image2url.com/r2/default/files/1769279878362-07e4797f-f84b-4e16-8b27-952230a60c80.jpg",
-      "https://image2url.com/r2/default/files/1769279889346-1416ef2a-012e-44fb-857c-8f48c4229ad0.jpg"
-    ],
-    "releaseKeyword": "varisankya"
   },
   {
     "id": "typeassist",
@@ -8682,32 +8539,6 @@
       "https://image2url.com/r2/default/files/1769872623388-85d52285-e9c7-4e0c-bfc6-cad2b2ba0595.png",
       "https://image2url.com/r2/default/files/1769872712467-109e4edc-d728-450e-9fb9-b74d8cbe50d9.png"
     ]
-  },
-  {
-    "id": "whatsapstatussaver",
-    "name": "WhatsApStatusSaver",
-    "description": "An Android application for viewing, saving, and sharing WhatsApp status media files. The application operates entirely offline without transmitting data to external servers.",
-    "icon": "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/vinithreddybanda/WhatsapStatusSaver",
-    "githubRepo": "vinithreddybanda/WhatsapStatusSaver",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.vinithreddybanda.whatsapstatus",
-    "category": "Social",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "vinithreddybanda",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/metadata/en-US/images/phoneScreenshots/1.png",
-      "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/metadata/en-US/images/phoneScreenshots/2.png",
-      "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/metadata/en-US/images/phoneScreenshots/3.png",
-      "https://raw.githubusercontent.com/vinithreddybanda/WhatsapStatusSaver/refs/heads/master/metadata/en-US/images/phoneScreenshots/4.png"
-    ],
-    "releaseKeyword": "Status"
   },
   {
     "id": "coffee",
@@ -15118,31 +14949,6 @@
     "releaseKeyword": "app"
   },
   {
-    "id": "n-zik",
-    "name": "N-Zik",
-    "description": "N-Zik is a multilingual fork of Kreate, built with UI/UX improvements and new features in mind with LTS build support.\n\nN-Zik may not yet be as stable as the original Kreate, so feel free to use the original if you need a more mature alternative.",
-    "icon": "https://raw.githubusercontent.com/NEVARLeVrai/N-Zik/main/assets/design/ic_banner2.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/NEVARLeVrai/N-Zik",
-    "githubRepo": "NEVARLeVrai/N-Zik",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "N-Zik-full.apk",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "NEVARLeVrai",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/NEVARLeVrai/N-Zik/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
-      "https://raw.githubusercontent.com/NEVARLeVrai/N-Zik/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
-      "https://raw.githubusercontent.com/NEVARLeVrai/N-Zik/main/fastlane/metadata/android/en-US/images/phoneScreenshots/20.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "moshidon",
     "name": "Moshidon",
     "description": "Better modification of the official Mastodon for Android app",
@@ -17908,31 +17714,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "lcld",
-    "name": "LCLD",
-    "description": "LCLD is a lightweight, open-source Android utility designed for remote device management and synchronization. It provides a secure bridge to monitor and interact with your device through a centralized interface.\n",
-    "icon": "https://raw.githubusercontent.com/pawanwashudev-official/LCLD/refs/heads/master/metadata/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/pawanwashudev-official/LCLD",
-    "githubRepo": "pawanwashudev-official/LCLD",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.neubofy.lcld",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "pawanwashudev-official",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-05-06_17-53-26-1.webp",
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-05-06_17-53-26-1.webp",
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-05-06_17-53-26-1.webp"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "subsink",
     "name": "SubSink",
     "description": "Una app la cual te deja ver de forma visual todo lo que gastas en suscripciones al mes y al a\u00f1o. Puedes a\u00f1adir un presupuesto y ver cuanto gastas cada mes o si tienes que renovar alguna suscripci\u00f3n ",
@@ -19973,31 +19754,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "drift-audio",
-    "name": "Drift Audio",
-    "description": "Drift is an ambient soundscape mixer for sleep and focus. Layer nature recordings and synthesised drones, adjust each to taste, and let the sleep timer fade things out. Everything runs offline. No ads, no tracking, no account.",
-    "icon": "https://raw.githubusercontent.com/probably-oxy/drift-audio/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/probably-oxy/drift-audio",
-    "githubRepo": "probably-oxy/drift-audio",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "io.github.probably_oxy.drift",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "probably-oxy",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/probably-oxy/drift-audio/refs/heads/main/docs/screenshots/drift-main.png",
-      "https://raw.githubusercontent.com/probably-oxy/drift-audio/refs/heads/main/docs/screenshots/drift-layers.png",
-      "https://raw.githubusercontent.com/probably-oxy/drift-audio/refs/heads/main/docs/screenshots/drift-presets.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "egyptian-writer",
     "name": "Egyptian Writer",
     "description": "A simple Android app to view, write, and export ancient Egyptian texts. This app supports professional writing of ancient Egyptian texts using Manuel de Codage standards.\nWrite ancient texts and browse through all available hieroglyphics on your tablet or smartphone.",
@@ -20999,31 +20755,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "customanimator",
-    "name": "CustomAnimator",
-    "description": "Custom Animator is an Android application designed to simplify fine-tuning your device's animation scales and display density (DPI). Instead of navigating through deep developer settings and being limited to standard presets, this app allows you to set custom values and create your own presets.",
-    "icon": "https://raw.githubusercontent.com/AhmetCanArslan/CustomAnimator/refs/heads/main/app/src/main/ic_launcher-playstore.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/AhmetCanArslan/CustomAnimator",
-    "githubRepo": "AhmetCanArslan/CustomAnimator",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.arslan.customanimator",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "AhmetCanArslan",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/animator-3.webp",
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/animator-1.webp",
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/animator-2.webp"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "youtube-music-remover",
     "name": "Youtube Music Remover",
     "description": "Remove background music from any video while keeping the vocals and dialogue intact. Uses AI-powered audio separation to isolate vocal tracks. Supports YouTube, TikTok, Instagram, Twitter, Vimeo, and 1000+ sites via yt-dlp. ",
@@ -21597,31 +21328,6 @@
       "https://f-droid.org/repo/troop.com.freedcam/en-US/phoneScreenshots/3.png",
       "https://f-droid.org/repo/troop.com.freedcam/en-US/phoneScreenshots/4.png",
       "https://f-droid.org/repo/troop.com.freedcam/en-US/phoneScreenshots/5.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "shelter",
-    "name": "Shelter",
-    "description": "Shelter is a Free and \nShelter is a Free and Open-Source (FOSS) app that leverages the \"Work Profile\" feature of Android to provide an isolated space that you can install or clone apps into.\n\nFor a full description, please read from the Git repository of Shelter. A summary is provided below.\n\nThe main use-cases of Shelter include:\n\n- Installing apps inside a work profile for isolation\n- \"Freeze\" apps inside the work profile to prevent them from running or being woken up when you are not actively using them\n- Installing two copies of the same app on the same device\n\nNote that Shelter depends on the Work Profile feature of the Android system, so any bugs related to Work Profiles in the Android-derived system you are using will affect Shelter. In addition, Shelter can only be as secure as the Work Profile implementation.",
-    "icon": "https://f-droid.org/repo/net.typeblog.shelter/en-US/icon_SadI7N5owTo-UKqex_wGEQdfXb3rvqoD4y_DXKRRRl8=.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/PeterCxy/Shelter",
-    "githubRepo": "PeterCxy/Shelter",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "net.typeblog.shelter",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "PeterCxy",
-    "officialSite": "",
-    "screenshots": [
-      "https://cdn.aptoide.com/imgs/c/b/e/cbe9a8e355628fff5883f45328a1c88b_screen.png",
-      "https://cdn.aptoide.com/imgs/4/a/9/4a9d9d83b1b2626bcc175d12f8ab11f1_screen.png",
-      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn6.aptoide.com%2Fimgs%2Ff%2F0%2Fe%2Ff0e912a2763b7c7b13261d855351753a_fgraphic.png&f=1&ipt=e502013208e8d24d438be751f6db98a6e7ae493404ef38620502f1f291796c24"
     ],
     "releaseKeyword": "apk"
   },
@@ -23077,7 +22783,7 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/img_eyq157.webp",
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/img_j8tb5i.webp"
     ],
-    "releaseKeyword": "apk"
+    "releaseKeyword": "android"
   },
   {
     "id": "ad-silence",
@@ -23680,31 +23386,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "xcodiene",
-    "name": "Xcodiene",
-    "description": "Gaming ",
-    "icon": "https://raw.githubusercontent.com/soumya997/Gaming-Website/master/img/b1.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/devismwanzi502-debug/Xcodiene-",
-    "githubRepo": "devismwanzi502-debug/Xcodiene-",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.aistudio.gameboosterpro.kxmpzq",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "devismwanzi502-debug",
-    "officialSite": "",
-    "screenshots": [
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e.jpg",
-      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc.jpg",
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "muzicx",
     "name": "MuzicX",
     "description": "An elegant, feature-rich music streaming and offline playback application. Enjoy a beautiful user interface, seamless queue management, and a powerful built-in player. ",
@@ -23904,31 +23585,6 @@
       "https://raw.githubusercontent.com/anonfaded/Fadocx/main/graphic_assets/screenshots/docx_preview.png",
       "https://raw.githubusercontent.com/anonfaded/Fadocx/main/graphic_assets/screenshots/ppt_preview.png",
       "https://raw.githubusercontent.com/anonfaded/Fadocx/main/graphic_assets/screenshots/video_preview.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "batterytool",
-    "name": "BatteryTool",
-    "description": "Battery Tool helps you save battery by stopping apps that are running in the background.",
-    "icon": "https://raw.githubusercontent.com/Domi04151309/BatteryTool/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Domi04151309/BatteryTool.git",
-    "githubRepo": "Domi04151309/BatteryTool",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "io.github.domi04151309.batterytool",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Domi04151309",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Domi04151309/BatteryTool/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
-      "https://raw.githubusercontent.com/Domi04151309/BatteryTool/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
-      "https://raw.githubusercontent.com/Domi04151309/BatteryTool/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -24563,31 +24219,6 @@
       "https://github.com/mr-coder20/PortX/releases/download/v5.0.0/banner.png",
       "https://github.com/mr-coder20/PortX/releases/download/v5.0.0/screenshot.png",
       "https://raw.githubusercontent.com/mr-coder20/PortX/main/androidApp/src/main/ic_launcher-playstore.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "audiophiles-dream",
-    "name": "Audiophiles Dream",
-    "description": "High-fidelity, bit-perfect music player for Android with USB DAC support, parametric EQ, AI-synced lyrics, and scrobbling.",
-    "icon": "https://files.catbox.moe/aw05lc.jpg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/kaurav99/audiophiles-dream",
-    "githubRepo": "kaurav99/audiophiles-dream",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.audiophile.player",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "kaurav99",
-    "officialSite": "",
-    "screenshots": [
-      "https://files.catbox.moe/wdngg0.jpg",
-      "https://files.catbox.moe/00epc5.jpg",
-      "https://files.catbox.moe/8tm8wu.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -25257,31 +24888,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "did-i-do-it",
-    "name": "Did I Do It",
-    "description": "A privacy-first, ephemeral visual memory tool designed to give you peace of mind. Snap timestamped photos of your tasks (like locking the door or turning off the stove) with offline AI tagging. Photos auto-delete after a set time to keep your gallery clean.",
-    "icon": "https://raw.githubusercontent.com/sharmachinmaya24/did-i-do-it/refs/heads/main/dididoit_icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/sharmachinmaya24/did-i-do-it",
-    "githubRepo": "sharmachinmaya24/did-i-do-it",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.example.dididoit",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "sharmachinmaya24",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/sharmachinmaya24/did-i-do-it/main/Screenshot_20260704_005013_Did%20I%20Do%20It.jpg",
-      "https://raw.githubusercontent.com/sharmachinmaya24/did-i-do-it/main/Screenshot_20260704_005019_Did%20I%20Do%20It.jpg",
-      "https://raw.githubusercontent.com/sharmachinmaya24/did-i-do-it/main/Screenshot_20260704_005030_Did%20I%20Do%20It.jpg"
-    ],
-    "releaseKeyword": "com.example.dididoit"
-  },
-  {
     "id": "auxio",
     "name": "Auxio",
     "description": "A modern open-source offline local music player for Android featuring Material Design, playlist support, and advanced metadata handling.",
@@ -25306,34 +24912,6 @@
       "https://raw.githubusercontent.com/OxygenCobalt/Auxio/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/shot3.png",
       "https://raw.githubusercontent.com/OxygenCobalt/Auxio/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/shot4.png",
       "https://raw.githubusercontent.com/OxygenCobalt/Auxio/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/shot5.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "metro",
-    "name": "Metro",
-    "description": "A modern open-source offline music player for Android featuring Material Design, playlist support, folder browsing, themes, and widgets.",
-    "icon": "https://f-droid.org/repo/io.github.muntashirakon.Music/en-US/icon_5LD2RbQWtAYguCLyTB7Asa91NkhZu1s6T_IdqngqUR8=.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/MuntashirAkon/Metro",
-    "githubRepo": "MuntashirAkon/Metro",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "io.github.muntashirakon.Music",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Muntashir Al-Islam",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/MuntashirAkon/Metro/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
-      "https://raw.githubusercontent.com/MuntashirAkon/Metro/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
-      "https://raw.githubusercontent.com/MuntashirAkon/Metro/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
-      "https://raw.githubusercontent.com/MuntashirAkon/Metro/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
-      "https://raw.githubusercontent.com/MuntashirAkon/Metro/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg",
-      "https://raw.githubusercontent.com/MuntashirAkon/Metro/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/9.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -25745,7 +25323,7 @@
       "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.17%20PM%20(1).jpeg",
       "https://th3-anime.pages.dev/images/App-Screenshots/WhatsApp%20Image%202026-02-18%20at%206.47.18%20PM%20(2).jpeg"
     ],
-    "releaseKeyword": "arm64, armeabi"
+    "releaseKeyword": "apk"
   },
   {
     "id": "salty",
@@ -25954,7 +25532,7 @@
       "https://i.postimg.cc/Y2WD3zGb/Screenshot-4.png",
       "https://i.postimg.cc/5tgnXsrj/Screenshot-2.png"
     ],
-    "releaseKeyword": "stable"
+    "releaseKeyword": "apk"
   },
   {
     "id": "wifi-audio-streaming",
@@ -27293,35 +26871,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "goodtime",
-    "name": "Goodtime",
-    "description": "A productivity app that combines pomodoro timers and flow techniques to boost focus and efficiency.",
-    "icon": "https://goodtime.tools/goodtime_logo.webp",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/adrcotfas/goodtime",
-    "githubRepo": "adrcotfas/goodtime",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.apps.adrcotfas.goodtime",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "adrcotfas",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/adrcotfas/goodtime/master/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F1_en-US.png",
-      "https://raw.githubusercontent.com/adrcotfas/goodtime/master/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F2_en-US.png",
-      "https://raw.githubusercontent.com/adrcotfas/goodtime/master/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F3_en-US.png",
-      "https://raw.githubusercontent.com/adrcotfas/goodtime/master/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F6_en-US.png",
-      "https://raw.githubusercontent.com/adrcotfas/goodtime/master/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F5_en-US.png",
-      "https://raw.githubusercontent.com/adrcotfas/goodtime/master/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F4_en-US.png",
-      "https://raw.githubusercontent.com/adrcotfas/goodtime/master/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F7_en-US.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "playtorriov3",
     "name": "PlayTorrioV3",
     "description": "All-in-One Media Streaming \u2014 Movies, Series, Manga, Audiobooks, and Music",
@@ -28482,31 +28031,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "sikari",
-    "name": "Sikari",
-    "description": "Precision Wi-Fi Stalker & 3D Direction Finder - Tactical RF gradient-descent tracking & acoustic locator for Android.",
-    "icon": "https://raw.githubusercontent.com/killindodo/sikari/main/docs%2Fassets%2Fsikari_logo.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/killindodo/sikari",
-    "githubRepo": "killindodo/sikari",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.killindodo.sikari",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "killindodo",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/killindodo/sikari/main/docs%2Fassets%2Fscreenshot_discovery.png",
-      "https://raw.githubusercontent.com/killindodo/sikari/main/docs%2Fassets%2Fscreenshot_height.png",
-      "https://raw.githubusercontent.com/killindodo/sikari/main/docs%2Fassets%2Fscreenshot_hud.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "wuplay",
     "name": "WuPlay",
     "description": "WuPlay (pronounced woo-play) is a privacy-focused streaming app with multi-device sync that works with Stremio add-ons. No account registration required \u2014 just set up a profile and start watching.",
@@ -29017,31 +28541,6 @@
       "https://webpath.iche2.com/screenshots/chabox/android/en/wipe-example.png",
       "https://webpath.iche2.com/screenshots/chabox/android/en/wipe-source-manage.png",
       "https://webpath.iche2.com/screenshots/chabox/android/en/home-settings.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "wakemaster",
-    "name": "Wakemaster",
-    "description": "Alarm ",
-    "icon": "https://i.postimg.cc/0jLsxQXz/Screenshot-2026-08-03-02-01-57-83.jpg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/pro451/Wakemaster",
-    "githubRepo": "pro451/Wakemaster",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.aistudio.wakemaster.ai",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "owner",
-    "officialSite": "",
-    "screenshots": [
-      "https://i.postimg.cc/Jtf4TKWC/Screenshot-2026-08-03-15-08-42-33-cc0c40aae00121c8e1b1866ef91e05c7.jpg",
-      "https://i.postimg.cc/14k5WMZP/Screenshot-2026-08-03-15-08-45-57-cc0c40aae00121c8e1b1866ef91e05c7.jpg",
-      "https://i.postimg.cc/NL9j7SZc/Screenshot-2026-08-03-15-08-50-52-cc0c40aae00121c8e1b1866ef91e05c7.jpg"
     ],
     "releaseKeyword": "apk"
   },
