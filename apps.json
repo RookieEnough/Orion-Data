@@ -25690,7 +25690,7 @@
       "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152818.png",
       "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152840.png"
     ],
-    "releaseKeyword": "apk"
+    "releaseKeyword": "Android"
   },
   {
     "id": "solipsism",
@@ -26526,7 +26526,7 @@
     "githubRepo": "diekaiju/Velocity",
     "gitlabRepo": "",
     "gitlabDomain": "",
-    "packageName": "com.example.browser",
+    "packageName": "com.velocity.browser",
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
@@ -28680,14 +28680,14 @@
     "author": "Mostafa Osama",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/01-library.png",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/02-reader.png",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/03-reading-sheet.png",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/04-novel-detail.png",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/05-toc.png",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/06-pdf.png",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/07-store.png",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/08-settings.png"
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/01-library.png?v=0.6.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/02-reader.png?v=0.6.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/03-reading-sheet.png?v=0.6.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/11-docx-layout.png?v=0.6.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/12-docx-pages.png?v=0.6.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/06-pdf.png?v=0.6.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/07-store.png?v=0.6.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/08-settings.png?v=0.6.0"
     ],
     "releaseKeyword": "app-universal-release"
   },
@@ -29484,7 +29484,7 @@
     "id": "kensakudl",
     "name": "KensakuDL",
     "description": "KensakuDL is an Android anime batch downloader for searching, downloading, and watching episodes offline.",
-    "icon": "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/Webp/KensakuDL.png",
+    "icon": "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/Webp/KensakuDL-New.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
