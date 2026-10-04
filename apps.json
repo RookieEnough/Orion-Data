@@ -29701,12 +29701,15 @@
     "latestVersion": "Latest",
     "downloadUrl": "#",
     "repoUrl": "https://gitlab.com/ArkHost/HelixNotes",
-    "githubRepo": "ArkHost/HelixNotes",
-    "releaseKeyword": "apk",
+    "githubRepo": "",
+    "gitlabRepo": "ArkHost/HelixNotes",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.helixnotes.app",
     "category": "Productivity",
-    "size": "103MB",
+    "platform": "Android",
+    "size": "Varies",
     "author": "ArkHost",
+    "officialSite": "",
     "screenshots": [
       "https://cdn.helixnotes.com/assets/screenshots/screenshot-1.png",
       "https://cdn.helixnotes.com/assets/screenshots/screenshot-2.png",
@@ -29714,6 +29717,6 @@
       "https://cdn.helixnotes.com/assets/screenshots/screenshot-4.png",
       "https://cdn.helixnotes.com/assets/screenshots/screenshot-6.png"
     ],
-    "platform": "Android"
+    "releaseKeyword": "apk"
   }
 ]
