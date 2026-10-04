@@ -40,6 +40,11 @@ jobs:
           mkdir -p ../temp_sentinel_folder
           cp -r sentinel ../temp_sentinel_folder/ 2>/dev/null || echo "No Sentinel Folder"
           
+          # Clear the working-tree copy now that it is backed up. Without this,
+          # the branch checkout below aborts: the freshly compiled (untracked)
+          # sentinel/ files would be overwritten by the data branch's copy.
+          rm -rf sentinel
+          
           # Switch to data branch
           git fetch origin data:data || git checkout --orphan data
           git checkout data
