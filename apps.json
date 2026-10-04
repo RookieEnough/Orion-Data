@@ -29611,5 +29611,85 @@
       "https://raw.githubusercontent.com/spacecowboy/Feeder/master/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F6_en-US_phone_portrait_dark_settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "ripplefiles-filemanager",
+    "name": "RippleFiles FileManager",
+    "description": "A modern, privacy-focused file manager for Android with a clean Material 3 interface. Browse, organize, manage, and share your files with a fast and intuitive experience, with support for local storage, cloud services, archives, and useful file management tools.",
+    "icon": "https://i.ibb.co/mF2X9pRM/file-00000000f81882108cc1f3ba1d7b48ef.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/GokulSB/RippleFiles-FileManager",
+    "githubRepo": "GokulSB/RippleFiles-FileManager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ripple.filemanager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "GokulSB",
+    "officialSite": "",
+    "screenshots": [
+      "https://imglink.cc/cdn/fJSTVtImUJ.png",
+      "https://imglink.cc/cdn/KAxvrLYWym.png",
+      "https://imglink.cc/cdn/BwPhCKJP4g.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "clearsms",
+    "name": "ClearSMS",
+    "description": "Privacy-first Smart SMS app for Android that automatically organizes your inbox. It categorizes messages, extracts transactions into a personal finance dashboard, surfaces bill reminders, and handles OTPs intelligently - all completely offline, on your device.",
+    "icon": "https://raw.githubusercontent.com/itsluminous/ClearSMS/main/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2Ficon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/itsluminous/ClearSMS",
+    "githubRepo": "itsluminous/ClearSMS",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.clearsms",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Prakash",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/itsluminous/ClearSMS/main/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F1.png",
+      "https://raw.githubusercontent.com/itsluminous/ClearSMS/main/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F2.png",
+      "https://raw.githubusercontent.com/itsluminous/ClearSMS/main/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F3.png",
+      "https://raw.githubusercontent.com/itsluminous/ClearSMS/main/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F5.png",
+      "https://raw.githubusercontent.com/itsluminous/ClearSMS/main/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F6.png",
+      "https://raw.githubusercontent.com/itsluminous/ClearSMS/main/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F7.png",
+      "https://raw.githubusercontent.com/itsluminous/ClearSMS/main/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F8.png",
+      "https://raw.githubusercontent.com/itsluminous/ClearSMS/main/fastlane%2Fmetadata%2Fandroid%2Fen-US%2Fimages%2FphoneScreenshots%2F9.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "leafline",
+    "name": "Leafline",
+    "description": "Free, open-source EPUB reader for Android. Local-first, no telemetry, KOReader-compatible progress sync.",
+    "icon": "https://raw.githubusercontent.com/jdluu/Leafline/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/jdluu/Leafline",
+    "githubRepo": "jdluu/Leafline",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.jdluu.leafline",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "jdluu",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/jdluu/Leafline/main/screenshots/library.png",
+      "https://raw.githubusercontent.com/jdluu/Leafline/main/screenshots/reader.png",
+      "https://camo.githubusercontent.com/611fe499e1bde1fd79cbd21a793ffd3fe8e7f0ae1b7459f335af696ab8724dd9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416e64726f69642d3344444338343f7374796c653d666f722d7468652d6261646765266c6f676f3d616e64726f6964266c6f676f436f6c6f723d7768697465"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
