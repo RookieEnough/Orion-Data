@@ -14,7 +14,7 @@ MALWARE_BAZAAR_URLS = [
     "https://bazaar.abuse.ch/export/txt/sha256/recent/",
     "https://bazaar.abuse.ch/export/txt/sha256/full/",
 ]
-AARYAN_BASE_URL = "https://raw.githubusercontent.com/aaryanrlondhe/Malware-Hash-Database/main/SHA256/sha256_hashes_{}.txt"
+# AARYAN_BASE_URL removed 2026-10-04: repo deleted (404 on all parts)
 
 # Regex for SHA256 (64 hex chars)
 HASH_PATTERN = re.compile(r'\b[a-fA-F0-9]{64}\b')
@@ -44,36 +44,12 @@ def fetch_simple_source(name, urls):
     print(f"      📊 {name} total unique: {len(all_hashes)}")
     return all_hashes
 
-def fetch_archive_source():
-    print(f"   🔎 Fetching Malware Hash Archive (1-6)...")
-    all_hashes = set()
-    for i in range(1, 7):
-        url = AARYAN_BASE_URL.format(i)
-        try:
-            print(f"      ...Downloading Part {i}")
-            r = requests.get(url, headers=HEADERS, timeout=60)
-            if r.status_code == 200:
-                count = 0
-                for line in r.iter_lines(decode_unicode=True):
-                    if line:
-                        clean = line.strip().lower()
-                        if len(clean) == 64:
-                            all_hashes.add(clean)
-                            count += 1
-                print(f"      ✅ Part {i}: {count} signatures.")
-            else:
-                print(f"      ⚠️ Part {i} Missing ({r.status_code})")
-        except Exception as e:
-            print(f"      ❌ Part {i} Failed: {str(e)[:50]}")
-    return all_hashes
-
 def run():
-    print("🛡️ Orion Sentinel Compiler (v14.0 - Atomic Sharding)")
+    print("🛡️ Orion Sentinel Compiler (v14.1 - Atomic Sharding)")
     
     # 1. Fetch
     tf_hashes = fetch_simple_source("ThreatFox", THREATFOX_URLS)
     mb_hashes = fetch_simple_source("MalwareBazaar", MALWARE_BAZAAR_URLS)
-    archive_hashes = fetch_archive_source()
 
     # 2. Compile into Buckets (0-9, a-f)
     print("\n   ⚙️  Sharding Database into 16 buckets...")
@@ -91,8 +67,7 @@ def run():
                 bucket_char = h[0]
                 
                 entry = {"h": h} # Minimal key 'h' for hash
-                if "Archive" not in label:
-                    entry["n"] = label # Minimal key 'n' for name
+                entry["n"] = label # Minimal key 'n' for name
                 
                 buckets[bucket_char].append(entry)
                 processed_hashes.add(h)
@@ -100,7 +75,6 @@ def run():
     # Process in Priority Order
     add_to_bucket(tf_hashes, "ThreatFox")
     add_to_bucket(mb_hashes, "MalwareBazaar")
-    add_to_bucket(archive_hashes, "Archive")
 
     # Manual Keys
     manual = [
