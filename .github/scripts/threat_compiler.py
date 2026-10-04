@@ -5,8 +5,15 @@ import re
 import os
 
 # --- DATA SOURCES ---
-THREATFOX_URLS = ["https://threatfox.abuse.ch/export/csv/recent/"]
-MALWARE_BAZAAR_URLS = ["https://bazaar.abuse.ch/export/txt/sha256/recent/"]
+# abuse.ch feeds: 'recent' is the last 7 days, 'full' is the entire database.
+THREATFOX_URLS = [
+    "https://threatfox.abuse.ch/export/csv/recent/",
+    "https://threatfox.abuse.ch/export/csv/full/",
+]
+MALWARE_BAZAAR_URLS = [
+    "https://bazaar.abuse.ch/export/txt/sha256/recent/",
+    "https://bazaar.abuse.ch/export/txt/sha256/full/",
+]
 AARYAN_BASE_URL = "https://raw.githubusercontent.com/aaryanrlondhe/Malware-Hash-Database/main/SHA256/sha256_hashes_{}.txt"
 
 # Regex for SHA256 (64 hex chars)
@@ -22,18 +29,20 @@ def get_hashes(text):
 
 def fetch_simple_source(name, urls):
     print(f"   🔎 Fetching {name}...")
+    all_hashes = set()
     for url in urls:
         try:
-            r = requests.get(url, headers=HEADERS, timeout=45)
+            r = requests.get(url, headers=HEADERS, timeout=120)
             if r.status_code == 200:
                 hashes = get_hashes(r.text)
-                print(f"      ✅ {name}: {len(hashes)} signatures.")
-                return hashes
+                print(f"      ✅ {name} ({url.split('/')[-2]}): {len(hashes)} signatures.")
+                all_hashes |= hashes
             else:
-                print(f"      ⚠️ {name} Error ({r.status_code})")
+                print(f"      ⚠️ {name} Error ({r.status_code}): {url}")
         except Exception as e:
-            print(f"      ❌ {name} Exception: {str(e)[:50]}")
-    return set()
+            print(f"      ❌ {name} Exception: {str(e)[:50]} ({url})")
+    print(f"      📊 {name} total unique: {len(all_hashes)}")
+    return all_hashes
 
 def fetch_archive_source():
     print(f"   🔎 Fetching Malware Hash Archive (1-6)...")
@@ -59,7 +68,7 @@ def fetch_archive_source():
     return all_hashes
 
 def run():
-    print("🛡️ Orion Sentinel Compiler (v13.0 - Atomic Sharding)")
+    print("🛡️ Orion Sentinel Compiler (v14.0 - Atomic Sharding)")
     
     # 1. Fetch
     tf_hashes = fetch_simple_source("ThreatFox", THREATFOX_URLS)
