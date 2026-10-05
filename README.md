@@ -152,7 +152,7 @@ Contributions are welcome. Please open an issue to discuss significant changes b
 
 ## License
 
-Refer to the repository for licensing details.
+This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE) for details.
 
 ---
 
