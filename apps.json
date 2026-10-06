@@ -29480,5 +29480,56 @@
       "https://everythingfreee.github.io/Apps-Privacy-Policy/Apps-Privacy-Policy/screenshots/8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "census",
+    "name": "Census",
+    "description": "A sleek, minimal Android utility that effortlessly reveals how your installed apps are distributed across app stores and installer sources.",
+    "icon": "https://raw.githubusercontent.com/musaddiqbaluch/Census/main/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/musaddiqbaluch/Census",
+    "githubRepo": "musaddiqbaluch/Census",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.musaddiqbaluch.census",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "musaddiqbaluch",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/musaddiqbaluch/Census/main/preview1.jpg",
+      "https://raw.githubusercontent.com/musaddiqbaluch/Census/main/preview2.jpg",
+      "https://raw.githubusercontent.com/musaddiqbaluch/Census/main/preview3.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "vera",
+    "name": "Vera",
+    "description": "\nVERA Your personal entertainment recommendation assistant.\n\nTired of scrolling endlessly trying to find something worth watching?\n\nVERA makes discovering your next movie or TV series simple.\n\nTell VERA what you’re in the mood for  choose your genre, language, region, era, format, streaming platform, and discovery style and VERA searches through its cinematic catalog to find something that fits you.\n\n🎬 Discover something new\nGet personalized movie and TV recommendations instead of endless scrolling.\n\n🔎 Search instantly\nSearch with just a few letters and quickly find movies and series with posters, ratings, descriptions, and details.\n\n📺 Know where to watch\nSee which streaming platforms have the title available in your region and jump directly toward watching it.\n\n❤️ Already Seen & Not Interested\nTell VERA what you've already watched or don't want to see. Your recommendations become smarter and those titles won't keep coming back.\n\n🔖 Watchlist\nSave movies and series you want to watch later.\n\n🕘 History\nKeep track of what you've discovered, watched, saved, or rejected.\n\n✨ Cinematic discovery\nVERA doesn't just load a recommendation. Its cinematic search experience makes discovering your next movie feel like an experience of its own.\n\nStop scrolling. Start discovering.\n\nVERA  Your next film is waiting.",
+    "icon": "https://raw.githubusercontent.com/girinarsing13-op/Vera/1575fcb75854639bfd0ba63664ae4edee51062bd/file_000000005530820b9277d7389c9a848a.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/girinarsing13-op/Vera",
+    "githubRepo": "girinarsing13-op/Vera",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.aistudio.veyra.kxmpzq",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "girinarsing13-op",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/girinarsing13-op/Vera/62e2b65321f31fe967be95c7ff65f4d07596b6a0/Screenshot_20261005-100428.png",
+      "https://raw.githubusercontent.com/girinarsing13-op/Vera/62e2b65321f31fe967be95c7ff65f4d07596b6a0/Screenshot_20261005-100527.png",
+      "https://raw.githubusercontent.com/girinarsing13-op/Vera/62e2b65321f31fe967be95c7ff65f4d07596b6a0/Screenshot_20261005-100538.png",
+      "https://raw.githubusercontent.com/girinarsing13-op/Vera/62e2b65321f31fe967be95c7ff65f4d07596b6a0/Screenshot_20261005-100544.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
