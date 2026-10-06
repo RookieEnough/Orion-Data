@@ -1,3 +1,4 @@
+
 [
   {
     "id": "youtube-revanced",
@@ -81,6 +82,16 @@
     "gitlabRepo": "communitybuilds/Community-builds",
     "gitlabDomain": "gitlab.com"
   },
+  {
+  "id": "com.jakesgoodapps.duolauncher",
+  "name": "DuoLauncher",
+  "summary": "A customized Android launcher",
+  "icon": "https://raw.githubusercontent.com/jakesgoodapps/DuoLauncher/main/icon.png", 
+  "source": {
+    "type": "github",
+    "repo": "jakesgoodapps/DuoLauncher"
+    ]
+},
   {
     "id": "netflix-mod",
     "name": "Netflix Mod",
