@@ -7,8 +7,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "youtube-universal",
     "packageName": "app.morphe.android.youtube",
     "category": "Media",
@@ -21,7 +21,9 @@
       "https://play-lh.googleusercontent.com/nD2LH9KrtYmdruRXUn2ZQypfPHViJ1UYB1fHDN7Ti5JOmq8qHd-54oBCAVNUqvGWYC8=w526-h296-rw",
       "https://play-lh.googleusercontent.com/xCBJ9BRKffRi8orvRzLn-LcMPPc1A8QC383k8NldcIREeoprwffXPgM_m85yD61B1Ng=w526-h296-rw",
       "https://play-lh.googleusercontent.com/vOxdD2u-ys9J0U964Hle8gCzNAAht5-KR_xJcPCb1ukoGo_4ypD2nByU6wu-x8MUEw=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "yt-music-revanced",
@@ -31,8 +33,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "music",
     "packageName": "app.morphe.android.apps.youtube.music",
     "category": "Media",
@@ -46,7 +48,9 @@
       "https://play-lh.googleusercontent.com/pqPBw66MlKVWYRveaycQjz8N9UTGebaeo0ambl99eg_wqXXi-6IF9nEmS0FKHttSj00=w526-h296-rw",
       "https://play-lh.googleusercontent.com/TEZ2qdF7P1ihWrgQ4k9Boxhr27YUJwu1eeA6eDCcu_fLb3DtnLOqugXXeLhKXwbDjpo=w526-h296-rw",
       "https://play-lh.googleusercontent.com/27UYUV_hbsUS84kAiW2ljho68wuBkNegORcGWBciiURnPxqIM00lgojmdEI1VLmX662l=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "tiktok-revanced",
@@ -56,8 +60,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "tiktok",
     "packageName": "com.zhiliaoapp.musically",
     "category": "Social",
@@ -73,7 +77,9 @@
       "https://play-lh.googleusercontent.com/MKO2x9x1-15QC3T8SDG4ZBTYEJ7KLY1OmzgpPQ4yaDbUYgVrqrfMZ-QTftucZRA4Lyyp=w526-h296-rw",
       "https://play-lh.googleusercontent.com/NyAUJSq4mtD7U-zFDmxr9nA4hlmtWBubHko8dcTYs0_ZGpCHgORFycDZ9DQBruq5vA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/4H4ytX8shdiEGpVRcosNjaA1nj01Xibn7PdvP97ZNfvS5edC-yH-GUw-OS40796iFnyv=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "netflix-mod",
@@ -109,8 +115,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "photos",
     "packageName": "app.morphe.android.apps.photos",
     "category": "Utility",
@@ -125,7 +131,9 @@
       "https://play-lh.googleusercontent.com/r29nPV-QPT0t2L7_zFZpk5fiGpdpF0EstG9AIBdX2G7W7v65H5Pigdqomr0emfL30w=w526-h296-rw",
       "https://play-lh.googleusercontent.com/QifMTbHSLjToNPe6Nh6Mm9_A4jLot0zZNyQYqJySroZpquGHLoEzAG3sdQWiRcawkw=w526-h296-rw",
       "https://play-lh.googleusercontent.com/dWwu1cVz9RSfppekFlc9fPN3AxHijzPOy6jUTGhWOvdnZaCSIXFGHSGckc3Coqn-lg=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "anilab-mod",
@@ -159,8 +167,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "reddit",
     "packageName": "com.reddit.frontpage",
     "category": "Social",
@@ -174,7 +182,9 @@
       "https://play-lh.googleusercontent.com/s64zT0EcpDZnHLj5oBc48vRJXwjwSWhhsXaigB1a8jRFAlZUQTvxfbacwrjt2pRUwkY=w526-h296-rw",
       "https://play-lh.googleusercontent.com/xVvEiWNXhOKz_uuPeGh_4zyNcZMaVAoEM3pNzcYSxwlH7xjRt2q980njoYvky1D8MPk=w526-h296-rw",
       "https://play-lh.googleusercontent.com/jv6fh9ia1OgnoFRvE7CfgkAkJ6uRXFZc8mWdPjPDGaBB4kBW_nN-oolRyrgXJ2e9Z7M=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "capcut-premium",
@@ -356,8 +366,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "twitch",
     "packageName": "tv.twitch.android.app",
     "category": "Media",
@@ -371,7 +381,9 @@
       "https://play-lh.googleusercontent.com/NWd9vLqZE-8vSpP6wbATowoBqID0rCtiUFWHUZd2rN-MBjIsG2iu8C6cGPaALda0eko=w526-h296-rw",
       "https://play-lh.googleusercontent.com/hox9RzRFjAMpg3TrG1hsSvjhj1z2077RhDyAxCMiSO3bkawgXotm9MlbPXnxdTPLdg=w526-h296-rw",
       "https://play-lh.googleusercontent.com/6prucgh7zQpLSd-nfdRlpJDb42-LwfV2zvcgkvtCT9MF9iU74l_CN8yMYNqJP5_e4xo=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "mx-pro",
@@ -511,8 +523,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "telegram",
     "packageName": "org.telegram.messenger",
     "category": "Social",
@@ -527,7 +539,9 @@
       "https://play-lh.googleusercontent.com/9HoCw2kOVFD504YpjDyk1Aa5WtcbDsxS_wesF-yT-5iHEvRgHZXT22g2clFXGGwoCTOt=w526-h296-rw",
       "https://play-lh.googleusercontent.com/bDGf2oHe1y_uaFE6XCh2kYicn3-1yiLMTI5hae9s5zMaNPzOpj04An1URWQyw5m5JhA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/v0zodHEHUcMgUZSK490M9L5c3Grk5pkDHL-TTdfQK3098Wg0W2bxbK1-cmgN9aKEuQ=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "adaway",
@@ -786,8 +800,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "tumblr",
     "packageName": "com.tumblr",
     "category": "Social",
@@ -801,7 +815,9 @@
       "https://play-lh.googleusercontent.com/EttHvoQkXcUO-f8_CeZE8kvzeJwAT7to-KMKR1wQBouunc5MZWFbnng9RKTBfPcu0dc=w526-h296-rw",
       "https://play-lh.googleusercontent.com/vZzdKcXR7SD773-f2lNXK-m8YaIYGFkrNNsy5fS3oQ-wW-Ctqj1N3ArctDj07IqWdAU=w526-h296-rw",
       "https://play-lh.googleusercontent.com/9p5ahLhVkPsczAXssabw6e2uX27JynuDWT8GtVL0bePdbEjUrs22By0sHbndvWyeM-OL=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "duolingo-revanced",
@@ -811,8 +827,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "duolingo",
     "packageName": "com.duolingo",
     "category": "Educational",
@@ -827,7 +843,9 @@
       "https://play-lh.googleusercontent.com/zzRyLHT41KZ2fjqeRmcGpsDyo1CTBNtRNkmxxXBRrYz9rhX2i5Ts60wGJJp4K0UGXIY=w526-h296-rw",
       "https://play-lh.googleusercontent.com/AEg6G7lKLGwsm5ZR_xiWXiHkSMgifl8whiqSbEdN7UdznJVevrnl5GY3kXBPW7SAAQ=w526-h296-rw",
       "https://play-lh.googleusercontent.com/fdqMzLNN8KbPJQjBllBdca2Q8gqfHwu5N5QYMnHmgVcaH38PgQMFgXwpJA1ezv7UWaCp=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "facebook-revanced",
@@ -837,8 +855,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "facebook",
     "packageName": "com.facebook.katana",
     "category": "Social",
@@ -855,7 +873,9 @@
       "https://play-lh.googleusercontent.com/nvyAAgUvTITce0FTpcZV1lPXxgLn9xhFbon3ldpkGpYEq854Q0CV1DTr5zA1LHwE0yhmPSaDFI6w2WymOTdjQdY=w526-h296-rw",
       "https://play-lh.googleusercontent.com/3-bZUuxG44F_BcnyGjGOKnZylSNKIfMLC7MNIACI9yK6uHFTIEU3raUWFUkrM6LbjzDVZSvHCcsNtSdr2Dl9jQ=w526-h296-rw",
       "https://play-lh.googleusercontent.com/F_NQmSVBHTxbmlA-EpIJUezNWXP05dVai6DwJhLugoH1Gme4xRHVzkR6R1pR6LEfOuUR7gVHbOY1a-B13BN5LQ=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "fx-file-explorer-indrastorms",
@@ -865,8 +885,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "fxfile",
     "packageName": "nextapp.fx",
     "category": "Utility",
@@ -881,7 +901,9 @@
       "https://play-lh.googleusercontent.com/VKmipGh1Jn1ltDHAh-a4frZ8iATRSAWgpmF4g7bYksGWjU88Br8YteavSdtmWjjIjA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/zgo1BcVE0NhTDSp70NHrRbQioAOZ1czsoLMHGfnybnlG_NazMixGdjfZaO8qH5lhQA0=w526-h296-rw",
       "https://play-lh.googleusercontent.com/pPgY2r8JUSbFUVfNyiRE6S8uyisxWpqXXmo0MTw9SYXFfkRZWWeB9lYNlW7uWPvZSSd1=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "nova-launcher-revanced",
@@ -891,8 +913,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "nova",
     "packageName": "com.teslacoilsw.launcher",
     "category": "Utility",
@@ -907,7 +929,9 @@
       "https://play-lh.googleusercontent.com/qB7FHyyPw6lVwUxBGN4GfZpNjKn5bhFITrSZKXkILDkk-MrgkripZR25GcJj99RGmZs=w526-h296-rw",
       "https://play-lh.googleusercontent.com/HYCCUsWiBry1GppOlnI0QGVAKITVdaN0tpNbsGvM-M1jsZdspp83GHLBSj7H29LYVc0=w526-h296-rw",
       "https://play-lh.googleusercontent.com/L6PVOTDWusxr5Dphqc3_bcBB9pyxMVCmiQDRDj3HEKgEAzgHL3NL6EPnNK3qXq0MpWc=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "rar-revanced",
@@ -917,8 +941,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/revanced",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "rar",
     "packageName": "com.rarlab.rar",
     "category": "Utility",
@@ -934,7 +958,9 @@
       "https://play-lh.googleusercontent.com/rlYEwyMOuNxvDXN8ZjO-IrzDPz-F_YtPHz9zEhbknJ4P0Hr80Hdg4h9PGzglreGYwMky=w526-h296-rw",
       "https://play-lh.googleusercontent.com/u-bzLk5Z37ztKCa-cE1qne3bp3QaWSoQjr303mjIj2UFc3h8VOf8gdDbYMyA6q8y5vc=w526-h296-rw",
       "https://play-lh.googleusercontent.com/0jIzURKINF2QORm1D8DdzVClnoYB4x92VBoDLL3-UYEziIJYk05UnjxqNsG0ESbKJOI=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "soild-explorer-revanced",
@@ -944,8 +970,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "solid",
     "packageName": "pl.solidexplorer2",
     "category": "Utility",
@@ -960,7 +986,9 @@
       "https://play-lh.googleusercontent.com/_BK0W82gWtg0a6U4AZYtVJcUD4mdCdaGz2-cyHHmdIALfC6CQcIRRv1mmWnqf6sjeX8=w526-h296-rw",
       "https://play-lh.googleusercontent.com/5KCjVyFI7sWSPcN3ONFzZaqNgdFJ9WiJVUnQV0At_qyUmCqMYYbOllgtGeK1XjkEasg=w526-h296-rw",
       "https://play-lh.googleusercontent.com/8LFEu5KyFyzDuK94SNk-l1G0hZR3F9vjCN7LFPfNGYgz4N0Gc1FWGxyByq8mIiGXSLc=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "proton-vpn",
@@ -970,8 +998,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "Proton-vpn",
     "packageName": "ch.protonvpn.android",
     "category": "Utility",
@@ -989,7 +1017,9 @@
     "patches": [
       "Unlock Split Tunneling",
       "Remove server change delay"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "nobook",
@@ -1024,8 +1054,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "strava",
     "packageName": "com.strava",
     "category": "Social",
@@ -1041,7 +1071,9 @@
       "https://play-lh.googleusercontent.com/6En9plory8wRHfZRs4i7FswAsgYoeklGHOHT2xx1aMhccmURiIjXcsGsdTfARqs1_hVEGkqSa2pqgCG2lb8Oyg=w526-h296-rw",
       "https://play-lh.googleusercontent.com/DeNKNAPzxRipiT6XZMip8PEAp96bVlGYG_Q_a2_7OUL1kUZ5gh9wVgjX1FRHLWbdDSB2oM-etqcKGDIwri_asg=w526-h296-rw",
       "https://play-lh.googleusercontent.com/VhIHZOseOEeId5T36_JZbXOzDPNgWfSVkD2CrfA8jYJnvhRiq_lGuBqvGAQGYLLe5l8Z5Wtkm-Cq_p3MRDa_UQ=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "tasker-revanced",
@@ -1051,8 +1083,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "tasker",
     "packageName": "net.dinglisch.android.taskerm",
     "category": "Utility",
@@ -1066,7 +1098,9 @@
       "https://play-lh.googleusercontent.com/IiGZ_cy8a68oMZsFCmxxXrSsOSZQJEydDii9ziHEJq-SsNeeCWT59U7cL4MQ8IhtCZY=w526-h296-rw",
       "https://play-lh.googleusercontent.com/-YY7zGqTRRAAShz33ufnpH09qt2vXxZBIXZhrKj3kCnrBfgRCnKQ88FxEG5IBNBSNQ=w526-h296-rw",
       "https://play-lh.googleusercontent.com/Wj7bgrYzaSAJnzC9oLtlet-LZSTFLO09twDk_hVx_1Xl1HDiFb8h1zuvPKrYLj3QiKYV=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "pixiv-revanced",
@@ -1076,8 +1110,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "pixiv",
     "packageName": "jp.pxv.android",
     "category": "Utility",
@@ -1089,7 +1123,9 @@
       "https://play-lh.googleusercontent.com/m2Dt9SdId0LyOl-uRxUdZg5M7a8Hd8S0Itu1xR7EvJnG7fwIW20mRZcg4jirDtah99Y=w526-h296-rw",
       "https://play-lh.googleusercontent.com/dG01FHK3GObtDhalDiYQYhdyAxTmOv4GnZgVxJdwhcttSYlqGU0aMlaM-ybhhongvpE=w526-h296-rw",
       "https://play-lh.googleusercontent.com/UdJ_EhNFfgitvgdiWeJOBKH0qvCUWv1TErULIr3IpdbWA6s5MvK2IPtE5rqNHTLh4HE=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "photomath-revanced",
@@ -1099,8 +1135,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "photomath",
     "packageName": "com.microblink.photomath",
     "category": "Utility",
@@ -1112,7 +1148,9 @@
       "https://play-lh.googleusercontent.com/AjMTiniHmmGvtN9AQ2LyIncG1JpsHX21d1_F9rL1sq4rLgDpVIoZlBevu1GrZ6L1XRk=w526-h296-rw",
       "https://play-lh.googleusercontent.com/EshvX3IZ5LBtH4yrJ9lmxfobzas-weBDYy5rSyDFlaq2j3HTuoymTzfkKSHq1XwUXw=w526-h296-rw",
       "https://play-lh.googleusercontent.com/vwKjjp86RNeDZI6Ky2HF5u1b_jEN_ulSWUGRd6dcbfQh8J4SD8OpdpJtTaiQjpv_Xwbb=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "messenger-revanced",
@@ -1122,8 +1160,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "messenger",
     "packageName": "com.facebook.orca",
     "category": "Social",
@@ -1139,7 +1177,9 @@
       "https://play-lh.googleusercontent.com/caboox1pb1eDpnhz4UwwLukckAsto5kZXjr3MO8Z_Jb5hA2FR7QCVfCcV0W9QYPj3Cc=w526-h296-rw",
       "https://play-lh.googleusercontent.com/C913xxr6Gv7qMA03ZuUp53b6XWhn5QjdvA3_nwO1a5BNxfqoikKzH62FBLpudESyQw=w526-h296-rw",
       "https://play-lh.googleusercontent.com/00b3U4wYzWK3dK-LvOJUifrey48ykzJ_pGwIZCJtjGIiCG-XtQjQj7EMn1O9K64JEQ=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "lightroom-revanced",
@@ -1201,8 +1241,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "spotify",
     "packageName": "com.spotify.music",
     "category": "Entertainment",
@@ -1218,7 +1258,9 @@
       "https://play-lh.googleusercontent.com/Yo4rveHbCMcw4KEESy7mNvE2JongkNoW1QN2G4sQrGbsS39zbJ5OZlhDnS_WSQkAiIwG=w526-h296-rw",
       "https://play-lh.googleusercontent.com/OZS5mD4_BrY4pvATogFvkl2pz2KQLnASCauvi0Xu2RUnPC27p93vZ8dxeBwaNIURK418=w526-h296-rw",
       "https://play-lh.googleusercontent.com/PveCRaVQaU6sRDTD3bnZMP6w8HYR6wpov43rxhHdxN2KG8Jg33aR-R0UaDu_2IvVFQ=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "twitter-revanced",
@@ -1228,8 +1270,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "x-new",
     "packageName": "com.twitter.android",
     "category": "Social",
@@ -1244,7 +1286,9 @@
       "https://play-lh.googleusercontent.com/SvxdK_-u0QXglCl1KmEXH5arSM5bAdwJuo51wGfaLm2oP5vYqKImMutOkSSdnBysfqTk4zvr929Ku7a0Uuj2fA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/aw6ogd0QJOeNGE6OMuJyvuo4Li7Zd1y07nVWRUjx7Y0LrifavQ8u0H51niTb3VEKYEWruh3MaV-LlqARZzxPbA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/rIYDY0eqsU-0YnEOYfjnvVC_e27KxQkAG2yaNPXi6jrsPTNeGMILZi1fqPSRdBUo4NKkxmlHeQQcEE0t9i9D=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "Vencord",
@@ -5630,10 +5674,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.avocards",
     "category": "Educational",
     "platform": "Android",
@@ -5656,10 +5700,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "me.mycake",
     "category": "Educational",
     "platform": "Android",
@@ -5685,10 +5729,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.calistree.calistree",
     "category": "Health",
     "platform": "Android",
@@ -5715,10 +5759,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "fr.chargeprice.app",
     "category": "Utility",
     "platform": "Android",
@@ -5742,10 +5786,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "kr.eggbun.eggconvo",
     "category": "Educational",
     "platform": "Android",
@@ -5772,10 +5816,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.groundspeak.geocaching.intro",
     "category": "Utility",
     "platform": "Android",
@@ -5802,10 +5846,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.hevy",
     "category": "Health",
     "platform": "Android",
@@ -5832,10 +5876,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "ginlemon.iconpackstudio",
     "category": "Utility",
     "platform": "Android",
@@ -5859,10 +5903,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "de.komoot.android",
     "category": "Utility",
     "platform": "Android",
@@ -5890,10 +5934,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "cz.seznam.mapy",
     "category": "Utility",
     "platform": "Android",
@@ -5920,10 +5964,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "fr.tramb.park4night",
     "category": "Utility",
     "platform": "Android",
@@ -5947,10 +5991,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "org.totschnig.myexpenses",
     "category": "Utility",
     "platform": "Android",
@@ -5976,10 +6020,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "net.teuida.teuida",
     "category": "Utility",
     "platform": "Android",
@@ -6005,10 +6049,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.merriamwebster",
     "category": "Utility",
     "platform": "Android",
@@ -6036,10 +6080,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.crunchyroll.crunchyroid",
     "category": "Media",
     "platform": "Android",
@@ -6063,10 +6107,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.disney.disneyplus",
     "category": "Media",
     "platform": "Android",
@@ -6091,10 +6135,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "ch.protonmail.android",
     "category": "Utility",
     "platform": "Android",
@@ -6124,10 +6168,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.amazon.avod.thirdpartyclient",
     "category": "Media",
     "platform": "Android",
@@ -6153,10 +6197,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.viber.voip",
     "category": "Utility",
     "platform": "Android",
@@ -6182,10 +6226,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.ticktick.task",
     "category": "Utility",
     "platform": "Android",
@@ -6212,10 +6256,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.wixsite.ut_app.utalarm",
     "category": "Utility",
     "platform": "Android",
@@ -6240,10 +6284,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.flatastic.app",
     "category": "Utility",
     "platform": "Android",
@@ -6268,10 +6312,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.netbiscuits.kicker",
     "category": "Utility",
     "platform": "Android",
@@ -6298,10 +6342,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.Splitwise.SplitwiseMobile",
     "category": "Utility",
     "platform": "Android",
@@ -6325,10 +6369,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.google.android.dialer",
     "category": "Utility",
     "platform": "Android",
@@ -6354,10 +6398,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "org.languageapp.lingory",
     "category": "Utility",
     "platform": "Android",
@@ -6381,10 +6425,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "app.ttmikstories.android",
     "category": "Utility",
     "platform": "Android",
@@ -6408,10 +6452,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.kakao.talk",
     "category": "Social",
     "platform": "Android",
@@ -6437,10 +6481,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.letterboxd.letterboxd",
     "category": "Media",
     "platform": "Android",
@@ -6465,10 +6509,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.mladinska.mkplus",
     "category": "Media",
     "platform": "Android",
@@ -6492,10 +6536,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "tv.trakt.trakt",
     "category": "Media",
     "platform": "Android",
@@ -8356,8 +8400,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "myfitnesspal",
     "packageName": "com.myfitnesspal.android",
     "category": "Health",
@@ -8373,7 +8417,9 @@
       "https://play-lh.googleusercontent.com/LI4roZymBeB29oJhgMRqJXQR3yzr5VIRfOyKEnhtz2MaJhdPPwUfg5S9P57j_ucKkhnzWfKOJFLhXYyNRBAe9og=w526-h296-rw",
       "https://play-lh.googleusercontent.com/_dSBzts54P6j3wAOcBSGg-yzqLYZPeTeH7judLf6Yf0WQj3gLZYBHZXb8xqlRbVzOJW6GK6HSCP0EQapYogx84g=w526-h296-rw",
       "https://play-lh.googleusercontent.com/f6P1kOz_teLK1ARNZJYYGijWuNROWHoD5Fixutw33kxv5eJ24XV-OYPnb76gXbWCnOV5vl13RR6JaemSU_J3dlM=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "pokecardex",
@@ -8383,8 +8429,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "pokecardex",
     "packageName": "com.application.pokecardex",
     "category": "Entertainment",
@@ -8402,7 +8448,9 @@
     "patches": [
       "Increase scan limit",
       "Disable scan counter"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "gamehub",
@@ -8412,8 +8460,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "gamehub",
     "packageName": "com.xiaoji.egggame",
     "category": "Entertainment",
@@ -8429,7 +8477,9 @@
       "Enable debugging",
       "Fix email login",
       "Front-end Export"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "nagramx",
@@ -9300,10 +9350,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "ginlemon.flowerfree",
     "category": "Utility",
     "platform": "Android",
@@ -9412,8 +9462,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "ibs_paint",
     "packageName": "jp.ne.ibis.ibispaintx.app",
     "category": "Utility",
@@ -9434,7 +9484,9 @@
     "patches": [
       "Disabled change package name",
       "Enable Prime membership"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "simple-keyboard",
@@ -10324,8 +10376,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "podcast",
     "packageName": "com.bambuna.podcastaddict",
     "category": "Media",
@@ -10340,7 +10392,9 @@
       "https://play-lh.googleusercontent.com/uS_nEkJ81U6178K56voxY5ZVlbesYEfUNRg4OXpTlOtG8OVnIhpHyVViiaaCv3lw8Vk=w526-h296-rw",
       "https://play-lh.googleusercontent.com/kOWBc4EQmjpiZNFtdhCbZGDilD19lV_bxPXJwuO0ITzuzW6BuLSz1tbmdUpaC6z8xTg=w526-h296-rw",
       "https://play-lh.googleusercontent.com/1inuP4wvClptjI5R0bomy8V6dy_J5pS8phSORqSfbHuBE-Nqd7wqH6E-xXF6cO77_f3R=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "winlator",
@@ -10680,8 +10734,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "wps",
     "packageName": "cn.wps.moffice_eng",
     "category": "Utility",
@@ -10701,7 +10755,9 @@
     "patches": [
       "Disable anti-tamper checks",
       "Enable Pro"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "com.termux",
@@ -11715,10 +11771,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.pryshedko.mtisland",
     "category": "Utility",
     "platform": "Android",
@@ -11798,8 +11854,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "sofascore",
     "packageName": "com.sofascore.results",
     "category": "Entertainment",
@@ -11815,7 +11871,9 @@
       "https://play-lh.googleusercontent.com/k8BnhVeBp7TRPt81A2I-2JZMih5U7K_YPyizLNrJcmOFw_B6qPit9P9k57t3ofqQtg=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/GFkJ34Gnplux8ldVrR8sQW-njGBK7V89Z2Lh2IRRssW6eaBWPpTwINiv8Rth8ea2NC8=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/APVaSmRKAWsqXOuDo1gWXDOPFZGFcDQMBJrvViembIwZ_strVpcn6In3S82xLci4Lg=w1052-h592-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "meme-morphe",
@@ -11825,8 +11883,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "meme",
     "packageName": "com.zombodroid.MemeGenerator",
     "category": "Entertainment",
@@ -11842,7 +11900,9 @@
       "https://play-lh.googleusercontent.com/wh3v8x6SFwIp4VcxtYuOW4VDAlwhH75I-f9abb1kVbSO0QjkrYRIe-eC4rr8Ljj1SUc=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/AcKO10_8-OwEJ5nvTSTRDEDAWUxMV952UoT5NE20uMiqLXabPqXkPNFiSWfA2kUUZHI=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/uMMFSKcuNaGacl-ZSnxC3e3eyS5sLrAPyflWH4uiLs20mqM4gpBD9ZjNmCmIUbCcLw=w1052-h592-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "Bussu-morphe",
@@ -11852,8 +11912,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "bussu",
     "packageName": "com.busuu.android.enc",
     "category": "Educational",
@@ -11871,7 +11931,9 @@
     ],
     "patches": [
       "Enable Pro"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "overmorrow-weather",
@@ -12045,8 +12107,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "mimo",
     "packageName": "com.getmimo",
     "category": "Utility",
@@ -12061,7 +12123,9 @@
       "https://play-lh.googleusercontent.com/L7--LqVPErf9p-m9ENmkKpUoWZl45-T1vennPDVIfuVmAZOkpGROC_RBepEIDsJVDb--94CtIKEIht94ZmqKhA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/EmikQx4RazP4aRPbGE9FMLGKXfXXoHG3pndLM3pwVk8mat_jCj82fuHIjLvnGSH8uK8svpq-xJ7HtOE2QcFJaA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/hrkukgWYS-tO1yjfG_vHWTv7CT-RfY5t2ardxbdb-SkV5A8oy17MwhVJzROfl-yuZZcujhyDP0u23g5dXsNycw=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "icon-packer-revanced",
@@ -12071,8 +12135,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "icon-packer",
     "packageName": "cn.ommiao.iconpacker",
     "category": "Utility",
@@ -12088,7 +12152,9 @@
       "https://play-lh.googleusercontent.com/7suWnR7fg7n21qiwsNCGeaR1P55OC_FWQI1ke5Adxn8lxMxeLvemTvS2AyKt_Kjp7pfr=w526-h296-rw",
       "https://play-lh.googleusercontent.com/K9BhNOR4VkDw91MsGv10DnqzxI6c-4Ku0Iidk7JaGCYhyTJik3XzMfPN2j4gDVlYktc=w526-h296-rw",
       "https://play-lh.googleusercontent.com/zZRe87ZdXG6Dwkp4gTwHqJMcqmuTlPWyfcfrZRAU3YZpZ4PgXCt5nPvzUPeL8regsQ=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "blockads",
@@ -14171,8 +14237,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "aiocal",
     "packageName": "all.in.one.calculator",
     "category": "Utility",
@@ -14188,7 +14254,9 @@
       "https://play-lh.googleusercontent.com/XdwyZ2Edt-v-KdSdJS7Fwnxk7M2vAOvei5-l0lFVRQIBKR6G9ym-lbnHHtC3po7WHLA9c6BbVpc5tIyyzCOmvQ=w526-h296-rw",
       "https://play-lh.googleusercontent.com/DtZZO0pVjHf9YiA0nks79pbSagWMsICUVDDdRsv52d7J0KXNiNkK5JUGdLlqKS4b8Cp4rAemE5MuWeuDsrx1zQ=w526-h296-rw",
       "https://play-lh.googleusercontent.com/Mz5WwZaznPWF6HrgJbHGHPWRH05VplgR-G2wjnIwz4mUW8Kx8RH5_TeZkbm3vBHXvEIzU-0eTA2zfqTaCeOw=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "fotmob-revanced",
@@ -14198,8 +14266,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "fotmob",
     "packageName": "com.mobilefootie.wc2010",
     "category": "Sports",
@@ -14215,7 +14283,9 @@
       "https://play-lh.googleusercontent.com/ifT_k58bq19egvOpUUoEbk0SSvoFYsNUF-4nMu4XOlBw6O69f5doBrd5G3XyRgD6SNc=w526-h296-rw",
       "https://play-lh.googleusercontent.com/nrQ_Fuw54V9OR6xdJC1QlS2jg5f59HmAMdExsI0sJT-tbKS4r_dYMkzU4WdZhZSvN9p_=w526-h296-rw",
       "https://play-lh.googleusercontent.com/_a-aF3Vfot5B3McxG9qk4myjIQPC5LmNGxMGNxXV1HUWb5O9sywsh1YAGGlblJvuQkKl=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "hellochinese-revanced",
@@ -14225,8 +14295,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "hellochinese",
     "packageName": "com.hellochinese",
     "category": "Educational",
@@ -14241,7 +14311,9 @@
       "https://play-lh.googleusercontent.com/kP-dcaxzANoEm2HWVsI0a0Y0rku7fIpynfRqbmHoTl3KMZmBOIV2uIifcEfSdtsregoXTTTz68bRVnMPLK-P1w=w526-h296-rw",
       "https://play-lh.googleusercontent.com/5lKLmOLc0ty2fxvSizXkkiq-c9C6kE0OlG6usHT4zkCPrlBeW7PeeHQ0rDx0OxA06tjkAXn9A76TrGI-PgYGXA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/bM26gPv9fmtbJ3pD0JLfJ7_f_QJou1cAs0jsaO56uH3Ys2UqGuXohen_kKy_FFFQxdyDuxQbsxt9_W6sOJZComg=w526-h296-rw"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "nomone-revanced",
@@ -14251,8 +14323,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "nomone",
     "packageName": "nom.vrd",
     "category": "Utility",
@@ -14273,7 +14345,9 @@
       "Disable anti-tamper checks",
       "Disable telemetry",
       "Remove trial limit"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "wallcraft-revanced",
@@ -14283,8 +14357,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "wallcraft",
     "packageName": "com.wallpaperscraft.wallpaper",
     "category": "Utility",
@@ -14303,7 +14377,9 @@
     ],
     "patches": [
       "Enable Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "windy-revanced",
@@ -14313,8 +14389,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "windy",
     "packageName": "com.windyty.android",
     "category": "Utility",
@@ -14333,7 +14409,9 @@
     ],
     "patches": [
       "Enable Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "google-news-revanced",
@@ -14343,8 +14421,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "google-news",
     "packageName": "com.google.android.apps.magazines",
     "category": "Utility",
@@ -14362,7 +14440,9 @@
     "patches": [
       "Custom tabs",
       "GMS support"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "pandora-revanced",
@@ -14372,8 +14452,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "pandora",
     "packageName": "com.pandora.android",
     "category": "Media",
@@ -14391,7 +14471,9 @@
     "patches": [
       "Disable ads",
       "Unlimited skips"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "webshare",
@@ -14649,8 +14731,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "instagram",
     "packageName": "com.instagram.android",
     "category": "Social",
@@ -14689,7 +14771,9 @@
       "View live anonymously",
       "View stories anonymously",
       "View story mentions"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "com.artemchep.keyguard",
@@ -17853,8 +17937,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "lyfta",
     "packageName": "com.lyfta",
     "category": "Health",
@@ -17873,7 +17957,9 @@
     ],
     "patches": [
       "Enable Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "macrofactor-revanced",
@@ -17883,8 +17969,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "macrofactor",
     "packageName": "com.sbs.diet",
     "category": "Health",
@@ -17903,7 +17989,9 @@
     ],
     "patches": [
       "Enable Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "macrofactor-workout-revanced",
@@ -17913,8 +18001,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "macrofactor-workout",
     "packageName": "com.sbs.train",
     "category": "Health",
@@ -17933,7 +18021,9 @@
     ],
     "patches": [
       "Enable Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "mirinae-revanced",
@@ -17943,8 +18033,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "mirinae",
     "packageName": "com.mirinae.mirinae",
     "category": "Educational",
@@ -17963,7 +18053,9 @@
     ],
     "patches": [
       "Enable Pro"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "niagara-revanced",
@@ -17973,8 +18065,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "niagara",
     "packageName": "bitpit.launcher",
     "category": "Utility",
@@ -17990,7 +18082,9 @@
     ],
     "patches": [
       "Enable Pro"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "pydroid-revanced",
@@ -18000,8 +18094,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "pydroid",
     "packageName": "ru.iiec.pydroid3",
     "category": "Development",
@@ -18020,7 +18114,9 @@
     ],
     "patches": [
       "Enable Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "snorelab-revanced",
@@ -18030,8 +18126,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "snorelab",
     "packageName": "com.snorelab.app",
     "category": "health",
@@ -18050,7 +18146,9 @@
     ],
     "patches": [
       "Enable Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "ventusky-revanced",
@@ -18060,8 +18158,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "ventusky",
     "packageName": "cz.ackee.ventusky",
     "category": "Utility",
@@ -18080,7 +18178,9 @@
     ],
     "patches": [
       "Enable Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "xodo-revanced",
@@ -18090,8 +18190,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "xodo",
     "packageName": "com.xodo.pdf.reader",
     "category": "Utility",
@@ -18110,7 +18210,9 @@
     ],
     "patches": [
       "Enable Pro"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "xrecorder-revanced",
@@ -18120,8 +18222,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "xrecorder",
     "packageName": "videoeditor.videorecorder.screenrecorder",
     "category": "Utility",
@@ -18139,7 +18241,9 @@
     ],
     "patches": [
       "Enable Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "camscanner-revanced",
@@ -18149,8 +18253,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "camscanner",
     "packageName": "com.intsig.camscanner",
     "category": "Utility",
@@ -18170,7 +18274,9 @@
     "patches": [
       "Enable Premium",
       "Disable telemetry"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "analog-onesync",
@@ -18701,8 +18807,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "truecaller",
     "packageName": "com.truecaller",
     "category": "Utility",
@@ -18730,7 +18836,9 @@
       "Hide Scams tab",
       "Neutralize third-party SDKs",
       "Truecaller Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "campfire",
@@ -21690,8 +21798,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "crex",
     "packageName": "in.cricketexchange.app.cricketexchange",
     "category": "Social",
@@ -21709,7 +21817,9 @@
     "patches": [
       "Unlock Premium",
       "Remove Ads"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "mark-auto-screenshot-deleter-morphe",
@@ -21719,8 +21829,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "mark",
     "packageName": "com.markOne.ss_app",
     "category": "Utility",
@@ -21739,7 +21849,9 @@
       "Unlock Premium",
       "Remove Ads",
       "Bypass Play Store Licence Check"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "vn-ai-video-editor-morphe",
@@ -21749,8 +21861,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "vn",
     "packageName": "com.frontrow.vlog",
     "category": "Media",
@@ -21767,7 +21879,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "document-scanner-morphe",
@@ -21777,8 +21891,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "documentscanner",
     "packageName": "com.cv.docscanner",
     "category": "Utility",
@@ -21795,7 +21909,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "fing-morphe",
@@ -21805,8 +21921,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "fing",
     "packageName": "com.overlook.android.fing",
     "category": "Utility",
@@ -21823,7 +21939,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "eyecon-caller-id-&-spam-block",
@@ -21833,8 +21951,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "eyecon",
     "packageName": "com.eyecon.global",
     "category": "Utility",
@@ -21851,7 +21969,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "promoter-pal-morphe",
@@ -21861,8 +21981,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "prompter",
     "packageName": "com.solid.teleprompter",
     "category": "Utility",
@@ -21882,7 +22002,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "lumina-walls-morphe",
@@ -21892,8 +22014,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "lumina",
     "packageName": "com.lumina.wallpapers",
     "category": "Media",
@@ -21912,7 +22034,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "macro-droid-morphe",
@@ -21922,8 +22046,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "macrodroid",
     "packageName": "com.arlosoft.macrodroid",
     "category": "Utility",
@@ -21940,7 +22064,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "startsense-morphe",
@@ -21950,8 +22076,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "starsense",
     "packageName": "com.celestron.skybox",
     "category": "Entertainment",
@@ -21969,7 +22095,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "alarmo-morphe",
@@ -21979,8 +22107,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "alarmo",
     "packageName": "com.bytesong.missionalarm",
     "category": "Utility",
@@ -22000,7 +22128,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "muajjin",
@@ -24045,8 +24175,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "windscribe",
     "packageName": "com.windscribe.vpn",
     "category": "Utility",
@@ -24064,7 +24194,9 @@
     ],
     "patches": [
       "Unlock Premium"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "ivy-wallet-m3",
@@ -25009,10 +25141,10 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com",
     "packageName": "com.pinterest",
     "category": "Media",
     "platform": "Android",
@@ -27362,8 +27494,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RookieEnough/Morphe-AutoBuilds",
-    "githubRepo": "RookieEnough/Morphe-AutoBuilds",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
     "releaseKeyword": "gboard",
     "packageName": "dev.jason.com.google.android.inputmethod.latin",
     "category": "Utility",
@@ -27422,7 +27554,9 @@
       "Zhuyin Quick Traditional/Simplified Toggle",
       "Zhuyin Slide Input",
       "Package Rename"
-    ]
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "kotoba-learn",
