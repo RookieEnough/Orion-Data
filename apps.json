@@ -29695,5 +29695,59 @@
       "https://i.postimg.cc/wT4WWPf4/Screenshot-20261007-083217-Socks-Droid-M3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "open-tv-browser",
+    "name": "Open TV Browser",
+    "description": "Open TV Browser is a lightweight and highly optimized browser designed specifically for Android TV and Smart TVs.\nAlthough it has been discontinued, it remains an excellent browser and still works remarkably well on compatible devices.\nIts built-in ad blocking provides a much cleaner and less distracting browsing experience.\nThe interface is extremely remote-friendly, making navigation, scrolling, tabs, and browsing easy with a TV remote.\nIt is fast, smooth, and lightweight, making it especially useful on older or low-RAM Android TVs.\nIf you want a simple, powerful, and genuinely TV-optimized browser, Open TV Browser is still a fantastic choice.",
+    "icon": "https://i.ibb.co/20V1mTJs/open-tv-browser-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://apkpure.net/open-tv-browser/com.tv.browser.open",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "TV",
+    "size": "Varies",
+    "author": "Open ",
+    "officialSite": "",
+    "screenshots": [
+      "https://i.ibb.co/cSZLgbcR/unnamed.png",
+      "https://i.ibb.co/1JbRqw7w/unnamed-2.png",
+      "https://i.ibb.co/bjfQPSdw/unnamed-1.png",
+      "https://i.ibb.co/cSZLgbcR/unnamed.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "pulsemusic",
+    "name": "Pulse Music",
+    "description": "An open-source YouTube Music streaming app for Android and Desktop featuring real-time synchronized Apple Music and Spotify styled lyrics, continuous playback with zero freezing, and local playback.",
+    "icon": "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/muthumanikandanb2005-ux/PulseMusic",
+    "githubRepo": "muthumanikandanb2005-ux/PulseMusic",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.pulse.music",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "muthumanikandanb2005-ux",
+    "officialSite": "https://github.com/muthumanikandanb2005-ux/PulseMusic",
+    "screenshots": [
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
