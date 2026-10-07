@@ -4093,7 +4093,7 @@
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
-    "author": "tapframe",
+    "author": "NuvioMedia",
     "officialSite": "",
     "screenshots": [
       "https://i.ibb.co/vn2M72r/1000411302.jpg",
@@ -29596,7 +29596,7 @@
   {
     "id": "pixelfed-rn",
     "name": "Pixelfed",
-    "description": "Pixelfed mobile app",
+    "description": "Pixelfed is a free, open-source photo-sharing platform that puts privacy and community first — a decentralized alternative to Instagram without the ads, algorithms, or data harvesting. Built on the ActivityPub protocol, it lets users on different servers follow, like, and comment on each other's posts, creating an interconnected network of independent communities rather than one corporate-controlled platform.\n\nWith chronological feeds, no behavioral tracking, and no third-party analytics, Pixelfed returns social photography to its roots: sharing moments with people who actually follow you. Anyone can host their own instance with their own rules, making it a flexible, community-driven space where users — not shareholders — decide how their social experience works.",
     "icon": "https://pixelfed.social/img/pixelfed-icon-color.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -29620,7 +29620,7 @@
   },
   {
     "id": "everlasting-android-tweak-new-repo",
-    "name": "Everlasting Android Tweak New Repo",
+    "name": "Everlasting Android Tweak",
     "description": "Everlasting Android Tweak is the true heart of Android, powerful, feature rich toolkit designed to unlock the full potential of your Android device. It provides you many advanced gestures, customization, system controls, and smart utilities to enhance and personalize your device experience.",
     "icon": "https://raw.githubusercontent.com/hari161008/Website-For-Everlasting-Android-Tweak/main/Everlasting%20Android%20Tweak/Assets/Everlasting%20Android%20Tweak%20Banner.png",
     "version": "Latest",
