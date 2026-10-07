@@ -4102,7 +4102,7 @@
       "https://i.ibb.co/4wy8j3Mx/1000411305.jpg",
       "https://i.ibb.co/Lhtwv71m/1000411306.jpg"
     ],
-    "releaseKeyword": "app"
+    "releaseKeyword": "apk"
   },
   {
     "id": "torrent-search",
@@ -23251,7 +23251,7 @@
   },
   {
     "id": "helium-browser",
-    "name": "Helium Browser",
+    "name": "Titanium Browser",
     "description": "Secure open-source Android browser with support for extensions",
     "icon": "https://raw.githubusercontent.com/jqssun/android-helium-browser/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
@@ -28287,14 +28287,15 @@
     "author": "Mostafa Osama",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/01-library.png?v=0.6.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/02-reader.png?v=0.6.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/03-reading-sheet.png?v=0.6.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/11-docx-layout.png?v=0.6.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/12-docx-pages.png?v=0.6.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/06-pdf.png?v=0.6.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/07-store.png?v=0.6.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/08-settings.png?v=0.6.0"
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/01-library.png?v=0.7.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/14-highlight.png?v=0.7.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/15-reader-status.png?v=0.7.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/13-appearance-bars.png?v=0.7.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/02-reader.png?v=0.7.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/03-reading-sheet.png?v=0.7.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/11-docx-layout.png?v=0.7.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/04-novel-detail.png?v=0.7.0",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/07-store.png?v=0.7.0"
     ],
     "releaseKeyword": "app-universal-release"
   },
@@ -28379,7 +28380,7 @@
   },
   {
     "id": "pixelmusicapp",
-    "name": "PixelMusicApp",
+    "name": "Pixel Music",
     "description": "Material 3 Expressive yt music and local music player for Android. Enjoy a beautiful, free Spotify and YT Premium alternative with local playback, high-res YouTube Music, and Telegram streaming. Loaded with synchronized LRC lyrics, custom 10-band EQ, gapless playback, Wear OS companion, AI playlist helpers.",
     "icon": "https://raw.githubusercontent.com/ianshulyadav/PixelMusicApp/main/assets/LauncherIcon.png",
     "version": "Latest",
