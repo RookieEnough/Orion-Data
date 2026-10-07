@@ -29750,5 +29750,35 @@
       "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "square",
+    "name": "Square",
+    "description": "Unofficial YouTube Music / Spotify Premium client for Android, built in Liquid Glass. Audio effects, Spotify Connect, listening history, 8 languages.",
+    "icon": "https://raw.githubusercontent.com/Lelonio/Square/master/docs/square.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Lelonio/Square",
+    "githubRepo": "Lelonio/Square",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.lelonio.square",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Lelonio",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Lelonio/Square/master/docs/screenshots/player-2.png",
+      "https://raw.githubusercontent.com/Lelonio/Square/master/docs/screenshots/artist-2.png",
+      "https://raw.githubusercontent.com/Lelonio/Square/master/docs/screenshots/lyrics-2.png",
+      "https://raw.githubusercontent.com/Lelonio/Square/master/docs/screenshots/effects-2.png",
+      "https://raw.githubusercontent.com/Lelonio/Square/master/docs/screenshots/Screenshot_20261007-101420~3.jpg",
+      "https://raw.githubusercontent.com/Lelonio/Square/master/docs/screenshots/Screenshot_20261007-101437.png",
+      "https://raw.githubusercontent.com/Lelonio/Square/master/docs/screenshots/Screenshot_20261007-101429.png",
+      "https://raw.githubusercontent.com/Lelonio/Square/master/docs/screenshots/Screenshot_20261007-101324.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
