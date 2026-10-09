@@ -29780,5 +29780,83 @@
       "https://raw.githubusercontent.com/Lelonio/Square/master/docs/screenshots/Screenshot_20261007-101324.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "apkrepacker-revived",
+    "name": "ApkRepacker Revived",
+    "description": "Apk editor for Android",
+    "icon": "https://raw.githubusercontent.com/riyadmondol2006/ApkRepacker-Revived/main/docs/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/riyadmondol2006/ApkRepacker-Revived",
+    "githubRepo": "riyadmondol2006/ApkRepacker-Revived",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.riyadm.apkrepacker",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "riyadmondol2006",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/riyadmondol2006/ApkRepacker-Revived/main/docs/screenshots/projects-export.png",
+      "https://raw.githubusercontent.com/riyadmondol2006/ApkRepacker-Revived/main/docs/screenshots/apps-split.png",
+      "https://raw.githubusercontent.com/riyadmondol2006/ApkRepacker-Revived/main/docs/screenshots/patcher.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "tarjuma",
+    "name": "Tarjuma",
+    "description": "Tarjuma is free Quran Recitation Player with Hindi Translation and recitation from world known reciters, you can listen the recitation with background sounds ",
+    "icon": "https://i.ibb.co/yBPqsDxv/file-0000000016848211822b1ac9bda36686.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/mdaziz-07/Tarjuma/releases/download/2.1.0/Tarjuma.2.1.0.apk",
+    "repoUrl": "https://github.com/mdaziz-07/Tarjuma",
+    "githubRepo": "mdaziz-07/Tarjuma",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.tarjuma.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mdaziz-07",
+    "officialSite": "",
+    "screenshots": [
+      "https://i.ibb.co/TDxvLpH5/01-home.png",
+      "https://i.ibb.co/VpqT7gHR/02-player.png",
+      "https://i.ibb.co/V0P9NLTm/03-sounds.png",
+      "https://i.ibb.co/Ndx71rJP/05-insights.png",
+      "https://i.ibb.co/ynZRGnSc/04-reciters.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "sekai-tune",
+    "name": "Sekai Tune",
+    "description": "Open-source YouTube Music client for Android with Material 3, synced lyrics, local playback and Together listening.",
+    "icon": "https://raw.githubusercontent.com/rgsekai/sekai-tune/refs/heads/main/docs/assets/sekai_tune.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/rgsekai/sekai-tune",
+    "githubRepo": "rgsekai/sekai-tune",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "moe.rgsekai.sekaitune",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rgsekai",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/rgsekai/sekai-tune/refs/heads/main/docs/assets/home_screen.jpg",
+      "https://raw.githubusercontent.com/rgsekai/sekai-tune/refs/heads/main/docs/assets/player.jpg",
+      "https://raw.githubusercontent.com/rgsekai/sekai-tune/refs/heads/main/docs/assets/lyrics.jpg",
+      "https://raw.githubusercontent.com/rgsekai/sekai-tune/refs/heads/main/docs/assets/song_menu.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
