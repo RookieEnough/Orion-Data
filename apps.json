@@ -29358,7 +29358,7 @@
   },
   {
     "id": "archivetune",
-    "name": "ArchiveTune",
+    "name": "Archivetune",
     "description": "🌸 The Cutest Music Player With Support Local File and Youtube Music for Android!\n\nArchiveTune isn’t just another generic YouTube Music wrapper. It’s a fully custom-built player made from the ground up, because we think your music should stay private, look clean, and work exactly the way you expect. If you care about sound quality and want something that actually feels good to use, this is it.",
     "icon": "https://raw.githubusercontent.com/rukamori/ArchiveTune/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
