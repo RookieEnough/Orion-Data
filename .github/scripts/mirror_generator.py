@@ -190,6 +190,26 @@ def generate_mirror():
                         if r_fallback.status_code == 200:
                             print(f"   ✅ Fallback success! Found 'latest' tag.")
                             data = [r_fallback.json()] # Wrap in list to match expected structure
+                    # --- STABLE-FIRST FIX ---
+                    # /releases lists newest-upload first, which can be a
+                    # Nightly/Beta with an inconsistent prerelease flag
+                    # (e.g. Brave). Ask GitHub for the true latest stable
+                    # release and hoist it to position 0, so the store
+                    # compares updates against the real stable, not a
+                    # prerelease. The full 20-release list is preserved for
+                    # the Version Selection feature; only position 0 changes.
+                    if isinstance(data, list) and data:
+                        try:
+                            stable_url = f"https://api.github.com/repos/{repo_path}/releases/latest"
+                            r_stable = requests.get(stable_url, headers=gh_headers)
+                            if r_stable.status_code == 200:
+                                stable = r_stable.json()
+                                stable_id = stable.get("id")
+                                if stable_id is not None:
+                                    data = [stable] + [x for x in data if x.get("id") != stable_id]
+                                    print(f"   ✅ Stable-first: hoisted {stable.get('tag_name')} to latest.")
+                        except Exception as e:
+                            print(f"   ⚠️ Stable-first lookup failed ({e}); using release list order.")
                 elif r.status_code == 404:
                     print(f"   ⚠️ Repo not found: {repo_path}")
                     fetch_errors[u_key] = f"404 Not Found (Check if {repo_path} exists and is Public)"
