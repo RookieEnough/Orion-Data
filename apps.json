@@ -29727,7 +29727,7 @@
     "id": "pulsemusic",
     "name": "Pulse Music",
     "description": "An open-source YouTube Music streaming app for Android and Desktop featuring real-time synchronized Apple Music and Spotify styled lyrics, continuous playback with zero freezing, and local playback.",
-    "icon": "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/icon.png",
+    "icon": "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/pulse_icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -29742,11 +29742,12 @@
     "author": "muthumanikandanb2005-ux",
     "officialSite": "https://github.com/muthumanikandanb2005-ux/PulseMusic",
     "screenshots": [
-      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
-      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
-      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
-      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
-      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/theme_pearl_lavender.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/PulseMusic/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
   },
