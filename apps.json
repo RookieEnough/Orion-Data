@@ -4061,7 +4061,7 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/tapframe/NuvioStreaming",
+    "repoUrl": "https://github.com/NuvioMedia/NuvioMobile",
     "githubRepo": "tapframe/NuvioStreaming",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -6339,7 +6339,7 @@
   },
   {
     "id": "dialer-revanced",
-    "name": "Phone by Google Revanced",
+    "name": "com.google.android.dialer",
     "description": "Phone by Google ReVanced is patched to remove the call recording announcement, It allows silent call recording without the voice warning interruption. Enjoy a cleaner and more seamless calling and recording experience.",
     "icon": "https://play-lh.googleusercontent.com/bk3e0glVbvRC4Z0uEZ5Oso5wjS89r1P_X5e-k3N_UBkTPXZLhGv50rRy7LAuDzzC9w=w240-h480-rw",
     "version": "Latest",
@@ -27556,9 +27556,9 @@
     "author": "muhammedrambo300master-droid",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/muhammedrambo300master-droid/glass_calc/main/assets/icon/screenshot/Screenshot_20260912-122942.png",
-      "https://raw.githubusercontent.com/muhammedrambo300master-droid/glass_calc/main/assets/icon/screenshot/Screenshot_20260912-123006.png",
-      "https://raw.githubusercontent.com/muhammedrambo300master-droid/glass_calc/main/assets/icon/screenshot/Screenshot_20260912-122949.png"
+      "https://github.com/raihan-dev404/glass_calc/blob/main/assets/icon/screenshot/glass_calc-1.png",
+      "https://github.com/raihan-dev404/glass_calc/blob/main/assets/icon/screenshot/glass_calc-2.png",
+      "https://github.com/raihan-dev404/glass_calc/blob/main/assets/icon/screenshot/glass_calc-3.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -29385,7 +29385,7 @@
     "gitlabRepo": "",
     "gitlabDomain": "",
     "packageName": "com.nuvio.enhanced",
-    "category": "Utility",
+    "category": "Media",
     "platform": "Android",
     "size": "Varies",
     "author": "yesnt10",
@@ -29886,7 +29886,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "M-Tre-Consulting",
+    "author": "M-Tre Consulting",
     "officialSite": "",
     "screenshots": [
       "https://i.imgur.com/mTxL54E.png",
@@ -29923,7 +29923,7 @@
   },
   {
     "id": "wheather-pro",
-    "name": "Wheather Pro",
+    "name": "Wheather app",
     "description": "It's a simple wheather app with clean minimal ui",
     "icon": "https://raw.githubusercontent.com/mahesh2008here-star/Wheather-pro/18e635221087f8ed381c95f8487a06c19edbea70/public/assets/weather_app_logo.svg",
     "version": "Latest",
@@ -29937,7 +29937,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "mahesh2008here-star",
+    "author": "mahesh2008here.star",
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/mahesh2008here-star/Wheather-pro/18e635221087f8ed381c95f8487a06c19edbea70/public/assets/screenshot_home.svg",
