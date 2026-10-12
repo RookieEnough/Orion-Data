@@ -136,30 +136,6 @@
     "gitlabDomain": "gitlab.com"
   },
   {
-    "id": "anilab-mod",
-    "name": "Anilab Mod",
-    "description": "Anilab Mod is a powerful AD FREE anime streaming app offering free access to thousands of subbed and dubbed titles in HD. With a user-friendly interface, daily updates, and offline viewing, it’s every anime lover’s go-to entertainment hub.",
-    "icon": "https://anilabanime.com/wp-content/uploads/2025/05/Anilab-Anime-Streaming-App.webp",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/msrofficial/Anilab-Mod",
-    "githubRepo": "msrofficial/Anilab-Mod",
-    "releaseKeyword": "apk",
-    "packageName": "com.anilab.android",
-    "category": "Entertainment",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "msrofficial",
-    "screenshots": [
-      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-3-768x1536.webp",
-      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-2-768x1536.webp",
-      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-1-768x1536.webp",
-      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-5-768x1536.webp",
-      "https://anilabapk.net/wp-content/uploads/2025/08/Anilab-APK-ScreenShots-4.webp"
-    ]
-  },
-  {
     "id": "reddit-revanced",
     "name": "Reddit Morphe",
     "description": "Ad-free Reddit client. Removes promoted posts, recommended subreddits, and general clutter for a pure browsing experience.",
@@ -26948,31 +26924,6 @@
       "https://raw.githubusercontent.com/trevornk/ramblr/main/docs/screenshots/live-preview.png",
       "https://raw.githubusercontent.com/trevornk/ramblr/main/docs/screenshots/cloud-providers.png",
       "https://raw.githubusercontent.com/trevornk/ramblr/main/docs/screenshots/advanced.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "playtorriov3",
-    "name": "PlayTorrioV3",
-    "description": "All-in-One Media Streaming — Movies, Series, Manga, Audiobooks, and Music",
-    "icon": "https://raw.githubusercontent.com/ayman708-UX/PlayTorrioV3/refs/heads/main/assets/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/ayman708-UX/PlayTorrioV3",
-    "githubRepo": "ayman708-UX/PlayTorrioV3",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.example.playtorrio",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "ayman708-UX",
-    "officialSite": "",
-    "screenshots": [
-      "https://playtorrio.org/wp-content/uploads/2026/08/sapp-image-2026-08-16-at-7-21-10-pm-674x1536.webp",
-      "https://playtorrio.org/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-12-at-9.25.12-AM-674x1536.jpeg",
-      "https://playtorrio.org/wp-content/uploads/2026/08/tgpt-image-aug-17-2026-06-13-43-pm-1024x544.webp"
     ],
     "releaseKeyword": "apk"
   },
