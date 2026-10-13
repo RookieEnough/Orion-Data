@@ -5,9 +5,9 @@
     "maintenanceMessage": "Servers are currently under maintenance. Please check back in a little while.\n\nFrom Orion updates and Morphe builds to submission approvals and customer support. I handle it all on my own. If you really enjoy my work, please consider making a donation. It will truly help Orion improve!",
     "announcement": "Recently, Spotify gave DMCA Takedown notice to Revanced Team regarding a certain patch which is Unlock Premium, so don't expect any working mod for Spotify.",
     "notice": {
-        "id": "notice210",
-        "title": "A new chapter for Orion",
-        "message": "OG Orion is retiring soon, and Orion: RE is taking over. RE is a complete M3 Expressive native app, not a webapp like this one. This step was necessary to keep Orion growing. I have pushed this webapp to its absolute limits, and the only way forward is native. Faster, smoother, and built for the future. For development details and screenshots, join our Discord!",
+        "id": "notice211",
+        "title": "Laggy after moving to Orion RE?",
+        "message": "Feeling a little lag after migrating to Orion RE? Fix it in three steps. First, back up your Orion identity from Settings. Then clear the app data. Once done, restore your backed-up identity. That should smooth things out.",
         "show": true
     },
     "latestStoreVersion": "2.0.0",
