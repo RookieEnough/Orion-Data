@@ -197,9 +197,9 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://play.google.com/store/apps/details?id=eu.darken.sdmse",
+    "repoUrl": "https://github.com/d4rken-org/sdmaid-se",
     "githubRepo": "d4rken-org/sdmaid-se",
-    "releaseKeyword": "eu.darken.sdmse",
+    "releaseKeyword": "apk",
     "packageName": "eu.darken.sdmse",
     "category": "System/File Management",
     "platform": "Android",
@@ -221,9 +221,9 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://f-droid.org/packages/me.zhanghai.android.files/",
+    "repoUrl": "https://github.com/zhanghai/MaterialFiles",
     "githubRepo": "zhanghai/MaterialFiles",
-    "releaseKeyword": "app-release-universal",
+    "releaseKeyword": "universal.apk",
     "packageName": "me.zhanghai.android.files",
     "category": "System Utilities",
     "platform": "Android",
@@ -4891,7 +4891,7 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/RyanYuuki/AnymeX/tree/v3.0.3",
+    "repoUrl": "https://github.com/RyanYuuki/AnymeX",
     "githubRepo": "RyanYuuki/AnymeX",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -8000,7 +8000,7 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://raw.githubusercontent.com/rafaelvcaetano/melonDS-android/master/",
+    "repoUrl": "https://github.com/rafaelvcaetano/melonDS-android",
     "githubRepo": "rafaelvcaetano/melonDS-android",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -9115,11 +9115,11 @@
     "id": "legado-with-md3",
     "name": "Legado-with-MD3",
     "description": "Legado with MD3 is a Material Design 3–styled refactor based on the open-source project 👉 Legado (阅读).",
-    "icon": "https://raw.githubusercontent.com/QuserH/Pic/main/2026/01/16/阅读.png",
+    "icon": "https://raw.githubusercontent.com/HapeLee/legado-with-MD3/refs/heads/main/app/src/main/assets/web/uploadBook/img/logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/HapeLee/legado-with-MD3/tree/main",
+    "repoUrl": "https://github.com/HapeLee/legado-with-MD3",
     "githubRepo": "HapeLee/legado-with-MD3",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -17279,7 +17279,7 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://raw.githubusercontent.com/DenserMeerkat/June/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
+    "repoUrl": "https://github.com/DenserMeerkat/June",
     "githubRepo": "DenserMeerkat/June",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -17759,7 +17759,7 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/darknessgithb-pixel/SubSink/tree/android",
+    "repoUrl": "https://github.com/darknessgithb-pixel/SubSink",
     "githubRepo": "darknessgithb-pixel/SubSink",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -17767,7 +17767,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "Next Horizon Apps ",
+    "author": "Next Horizon Apps",
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto1.png",
@@ -17777,7 +17777,7 @@
       "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto5.png",
       "https://raw.githubusercontent.com/darknessgithb-pixel/SubSink/android/screenshots/foto6.png"
     ],
-    "releaseKeyword": "release"
+    "releaseKeyword": "apk"
   },
   {
     "id": "skreenup",
@@ -24599,31 +24599,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "focusflow",
-    "name": "FocusFlow",
-    "description": "An elegant, privacy-first Android application designed to eliminate digital distractions by automatically triggering Do Not Disturb (DND) mode and suspending background apps.",
-    "icon": "https://raw.githubusercontent.com/antunlargg/focusflow/refs/heads/main/logo.jpg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https:/github.com/antunlargg/focusflow",
-    "githubRepo": "antunlargg/focusflow",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.antunlar.focusflow",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "antunlargg",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/antunlargg/focusflow/refs/heads/main/screenshots/613618425-dce1e3e5-9897-437d-b803-b4e4ced41aeb.png",
-      "https://raw.githubusercontent.com/antunlargg/focusflow/refs/heads/main/screenshots/613618423-77ccbc5f-d408-45ef-832c-35b589a98f4c.png",
-      "https://raw.githubusercontent.com/antunlargg/focusflow/refs/heads/main/screenshots/613618409-9ae71613-ae59-4900-896c-7c7510998670.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "streamvault",
     "name": "StreamVault",
     "description": "StreamVault is a TV-first IPTV player for Android TV built with Kotlin, Jetpack Compose, Room, Hilt, and Media3.\n\nIt is designed for large playlists, remote-friendly browsing, fast provider switching, and a polished living-room playback experience. StreamVault supports M3U playlists, Xtream Codes, Stalker Portal, and Jellyfin providers, with dedicated flows for Live TV, Movies, and Series.\n\nBuilt for Android TV first, StreamVault focuses on the things generic IPTV apps usually get wrong: D-pad navigation, quick channel movement, large-library organization, and a player that still feels good to use from the couch. Phone and tablet installs are also supported, but the primary UX target is TV.",
@@ -25325,7 +25300,7 @@
       "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152818.png",
       "https://raw.githubusercontent.com/xeljazwix/ShufflerApp/main/Screenshots/Screenshot_20260716-152840.png"
     ],
-    "releaseKeyword": "Android"
+    "releaseKeyword": "Android.apk"
   },
   {
     "id": "solipsism",
@@ -30020,31 +29995,6 @@
       "https://raw.githubusercontent.com/iTsMe-Zen/Areada/main/screenshots/2.jpg",
       "https://raw.githubusercontent.com/iTsMe-Zen/Areada/main/screenshots/3.jpg",
       "https://raw.githubusercontent.com/iTsMe-Zen/Areada/main/screenshots/3.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "plezy",
-    "name": "Plezy",
-    "description": "Modern cross-platform Plex & Jellyfin client built with Flutter",
-    "icon": "https://raw.githubusercontent.com/edde746/plezy/refs/heads/main/assets/plezy.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/edde746/plezy",
-    "githubRepo": "edde746/plezy",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.edde746.plezy",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "edde746",
-    "officialSite": "",
-    "screenshots": [
-      "https://github.com/edde746/plezy/raw/main/assets/readme-showcase.webp",
-      "https://github.com/edde746/plezy/raw/main/assets/readme-showcase.webp",
-      "https://github.com/edde746/plezy/raw/main/assets/readme-showcase.webp"
     ],
     "releaseKeyword": "apk"
   },
