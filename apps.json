@@ -30158,31 +30158,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "hushfacebook",
-    "name": "Hushfacebook",
-    "description": "Hushfacebook v0.12.0: 88 patches for Facebook 582.0.0.50.54 with Morphe. Hide ads and suggested posts, save videos and photos, tune playback and Reels, and use a focused Marketplace mode.",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_(2019).png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/SysAdminDoc/Hushfacebook",
-    "githubRepo": "SysAdminDoc/Hushfacebook",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.facebook.katana",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "SysAdminDoc",
-    "officialSite": "",
-    "screenshots": [
-      "https://github.com/SysAdminDoc/HushFacebook/raw/main/assets/readme-hero.png",
-      "https://github.com/SysAdminDoc/HushFacebook/raw/main/assets/settings-overview.png",
-      "https://raw.githubusercontent.com/SysAdminDoc/HushFacebook/main/assets/settings-downloads.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "clonespace",
     "name": "CloneSpace",
     "description": "CloneSpace is an Android app created using kotlin to create more prifiles via adb with shizuku to clone any app",
@@ -30254,9 +30229,9 @@
     "author": "Paplo-painite",
     "officialSite": "",
     "screenshots": [
-      "https://i.postimg.cc/g2L9bHNX/20261014-161408.png",
-      "https://i.postimg.cc/rssnCqH8/20261014-170749.png",
-      "https://i.postimg.cc/q7ZC602R/20261014-170614.png"
+      "https://raw.githubusercontent.com/Paplo-painite/apelles/main/docs/images/android_screenshot.jpg",
+      "https://raw.githubusercontent.com/Paplo-painite/apelles/main/docs/images/apelles-editor-screen.png",
+      "https://raw.githubusercontent.com/Paplo-painite/apelles/main/docs/images/Screenshot_2026-10-14-13-02-44-16_61c6f8b4244689669176725186f9663c.jpg"
     ],
     "releaseKeyword": "apk"
   },
