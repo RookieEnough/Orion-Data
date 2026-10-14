@@ -29649,5 +29649,36 @@
       "https://res.cloudinary.com/dagggqd6g/image/upload/v1782164158/Screenshot_20260623_030229_Echo_Nightly_euiv3k.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "clashprime",
+    "name": "ClashPrime",
+    "description": "A companion app for Clash of Clans. Track your progress, manage armies & bases, explore building levels, view war logs, follow events, browse community bases & armies — all in a sleek dark/light theme.",
+    "icon": "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/images/rounded-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FarhanZafarr-9/ClashPrime",
+    "githubRepo": "FarhanZafarr-9/ClashPrime",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.clashprime.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FarhanZafarr-9",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/welcome.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/home.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/timeToMax.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/army.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/baseLibrary.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/armyLibrary.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/events.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/war.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/dataAndCredits.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
