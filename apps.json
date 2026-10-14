@@ -12607,7 +12607,7 @@
   },
   {
     "id": "fakecall",
-    "name": "FakeCall",
+    "name": "Phony",
     "description": "An open-source Android application to simulate incoming calls, featuring a modern Material 3 UI with dynamic Monet support.",
     "icon": "https://raw.githubusercontent.com/DDOneApps/FakeCall/e9a18faa793def3042359347256aed5e691b9f45/1831922.svg",
     "version": "Latest",
@@ -17014,7 +17014,7 @@
     "githubRepo": "PaulWoitaschek/Voice",
     "gitlabRepo": "",
     "gitlabDomain": "",
-    "packageName": "de.phb1.audiobook",
+    "packageName": "de.ph1b.audiobook",
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
@@ -19541,7 +19541,7 @@
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
-    "author": "jaival",
+    "author": "jaival-11",
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/jaival-11/Sponsor-Skip/refs/heads/main/assets/screenshots/Screenshot1.jpg",
@@ -21701,7 +21701,7 @@
       "https://play-lh.googleusercontent.com/c4gme9mZipZaznEyKFT9w6rVndQPFc4YbwUm92JjLcYjeTlToEZL4Hs24c77EK-dIA=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/wih_WEjUZBxlME8K4-JJu-2soGw8DLF_tkf4XDM1Y770siZdI60vPf23wrROXC-b0SU=w1052-h592-rw"
     ],
-    "releaseKeyword": "Bravearm64Universal"
+    "releaseKeyword": "apk"
   },
   {
     "id": "utag",
@@ -28196,7 +28196,7 @@
   },
   {
     "id": "riwaq",
-    "name": "Riwaq",
+    "name": "Riwaq Reader",
     "description": "A calm, offline-first e-book reader for EPUB, PDF and Word files, with Arabic and right-to-left treated as first class. Sources are installable extensions rather than a fixed list, so its Store browses Arabic web-novel sites that can be added, updated and removed without waiting for an app release, and you can point it at your own repository. 16 bundled reading faces, four themes, highlights with notes. No accounts, no sync, no telemetry.",
     "icon": "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/public/brand/icon-light.webp",
     "version": "Latest",
@@ -28213,15 +28213,13 @@
     "author": "Mostafa Osama",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/01-library.png?v=0.7.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/14-highlight.png?v=0.7.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/15-reader-status.png?v=0.7.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/13-appearance-bars.png?v=0.7.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/02-reader.png?v=0.7.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/03-reading-sheet.png?v=0.7.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/11-docx-layout.png?v=0.7.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/04-novel-detail.png?v=0.7.0",
-      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/mobile/07-store.png?v=0.7.0"
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/orion/01-library-dark.png?v=0.8.1",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/orion/02-reader-dark-image.png?v=0.8.1",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/orion/03-reader-dark-mid.png?v=0.8.1",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/orion/04-highlight-en.png?v=0.8.1",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/orion/05-highlights-panel-en.png?v=0.8.1",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/orion/06-library-ar.png?v=0.8.1",
+      "https://raw.githubusercontent.com/TheMostafaOsamaDev/Riwaq-Reader/main/docs/screenshots/orion/07-novel-detail.png?v=0.8.1"
     ],
     "releaseKeyword": "app-universal-release"
   },
@@ -30065,7 +30063,7 @@
     "gitlabRepo": "",
     "gitlabDomain": "",
     "packageName": "org.barebrowser",
-    "category": "Utility",
+    "category": "Browser",
     "platform": "Android",
     "size": "Varies",
     "author": "BareBrowser",
