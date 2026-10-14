@@ -30261,5 +30261,30 @@
       "https://i.postimg.cc/q7ZC602R/20261014-170614.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "echo-nightly",
+    "name": "Echo Nightly",
+    "description": "Nightly Updates For Echo",
+    "icon": "https://res.cloudinary.com/dagggqd6g/image/upload/v1782164284/Screenshot_20260623_030714_One_UI_Home_urhn6k.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/itsmechinmoy/echo-nightly",
+    "githubRepo": "itsmechinmoy/echo-nightly",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.brahmkshatriya.echo",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "itsmechinmoy",
+    "officialSite": "",
+    "screenshots": [
+      "https://res.cloudinary.com/dagggqd6g/image/upload/v1782164157/Screenshot_20260623_030355_Echo_Nightly_df76fr.jpg",
+      "https://res.cloudinary.com/dagggqd6g/image/upload/v1782164158/Screenshot_20260623_030346_Echo_Nightly_hr29eg.jpg",
+      "https://res.cloudinary.com/dagggqd6g/image/upload/v1782164158/Screenshot_20260623_030229_Echo_Nightly_euiv3k.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
