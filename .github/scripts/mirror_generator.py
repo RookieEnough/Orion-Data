@@ -127,12 +127,14 @@ def generate_mirror():
         if app.get("githubRepo"):
             repo_key = app["githubRepo"].replace("https://github.com/", "").strip("/")
             source_type = 'github'
+            domain = "github.com"
         elif app.get("repoUrl") and "github.com" in app["repoUrl"]:
             parts = app["repoUrl"].split("github.com/")
             if len(parts) > 1:
                 repo_key = parts[1].split('/')[0] + "/" + parts[1].split('/')[1]
                 repo_key = repo_key.replace(".git", "").strip("/")
                 source_type = 'github'
+                domain = "github.com"
         elif app.get("gitlabRepo"):
             repo_key = app["gitlabRepo"].strip("/")
             source_type = 'gitlab'
