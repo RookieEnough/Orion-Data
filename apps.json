@@ -205,7 +205,13 @@
     "platform": "Android",
     "size": "Varies",
     "author": "Darken (Matthias Urhahn)",
-    "screenshots": []
+    "screenshots": [
+      "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1_dashboard.png",
+      "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2_appcleaner.png",
+      "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3_corpsefinder.png",
+      "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4_systemcleaner.png",
+      "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5_deduplicator.png"
+    ]
   },
   {
     "id": "material-files",
@@ -275,7 +281,10 @@
       "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/2.png",
       "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/3.png",
       "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/4.png",
-      "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/5.png"
+      "https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/MuntashirAkon/AppManager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/MuntashirAkon/AppManager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/MuntashirAkon/AppManager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
     ]
   },
   {
@@ -658,7 +667,11 @@
       "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_1.png",
       "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_2.png",
       "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_3.png",
-      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_4.png"
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/main/preview/preview_4.png",
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/preview_1.png",
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/preview_2.png",
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/preview_3.png",
+      "https://raw.githubusercontent.com/PranshulGG/WeatherMaster/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/preview_4.png"
     ]
   },
   {
@@ -1378,7 +1391,10 @@
     "category": "Customization",
     "size": "Varies",
     "author": "Ramen Software",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/ramensoftware/windhawk/HEAD/screenshot.png",
+      "https://raw.githubusercontent.com/ramensoftware/windhawk/HEAD/src/windhawk-frontend/apps/windhawk-frontend/src/app/panel/assets/windhawk-screenshot-main.png"
+    ],
     "platform": "PC"
   },
   {
@@ -1702,7 +1718,13 @@
     "category": "Productivity",
     "size": "250MB+",
     "author": "Microsoft",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/microsoft/PowerToys/HEAD/doc/devdocs/images/fancyzones/1.png",
+      "https://raw.githubusercontent.com/microsoft/PowerToys/HEAD/doc/devdocs/images/fancyzones/10.png",
+      "https://raw.githubusercontent.com/microsoft/PowerToys/HEAD/doc/devdocs/images/fancyzones/11.png",
+      "https://raw.githubusercontent.com/microsoft/PowerToys/HEAD/doc/devdocs/images/fancyzones/12.png",
+      "https://raw.githubusercontent.com/microsoft/PowerToys/HEAD/doc/devdocs/images/fancyzones/13.png"
+    ],
     "platform": "PC"
   },
   {
@@ -1720,7 +1742,11 @@
     "category": "Customization",
     "size": "200MB+",
     "author": "rocksdanister",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/rocksdanister/lively/HEAD/assets/screenshots/fluid.png",
+      "https://raw.githubusercontent.com/rocksdanister/lively/HEAD/assets/screenshots/mtv_2%20(Large).png",
+      "https://raw.githubusercontent.com/rocksdanister/lively/HEAD/assets/screenshots/system%20(Large).png"
+    ],
     "platform": "PC"
   },
   {
@@ -1738,7 +1764,9 @@
     "category": "Utility",
     "size": "Varies",
     "author": "Files Community",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/files-community/Files/HEAD/.github/assets/FilesScreenshot.png"
+    ],
     "platform": "PC"
   },
   {
@@ -1774,7 +1802,13 @@
     "category": "System Optimization",
     "size": "Script",
     "author": "ChrisTitusTech",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/config-tab-new.png",
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/install-pics/Collapse&ExpandCat.png",
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/install-pics/Selected-Apps.png",
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/install-pics/clear-selected-apps.png",
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/install-pics/installation&upgrade.png"
+    ],
     "platform": "PC"
   },
   {
@@ -1792,7 +1826,9 @@
     "category": "Gaming/Utility",
     "size": "20MB",
     "author": "Blinue",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/Blinue/Magpie/HEAD/img/screenshot.png"
+    ],
     "platform": "PC"
   },
   {
@@ -1828,7 +1864,13 @@
     "category": "Customization",
     "size": "Varies",
     "author": "Chris Titus",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/config-tab-new.png",
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/install-pics/Collapse&ExpandCat.png",
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/install-pics/Selected-Apps.png",
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/install-pics/clear-selected-apps.png",
+      "https://raw.githubusercontent.com/ChrisTitusTech/winutil/HEAD/docs/src/assets/screenshots/install-pics/installation&upgrade.png"
+    ],
     "platform": "PC"
   },
   {
@@ -1864,7 +1906,13 @@
     "category": "Security/Utility",
     "size": "20MB",
     "author": "KeePassXC Team",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/keepassxreboot/keepassxc/HEAD/docs/images/autoopen.png",
+      "https://raw.githubusercontent.com/keepassxreboot/keepassxc/HEAD/docs/images/autoopen_ifdevice.png",
+      "https://raw.githubusercontent.com/keepassxreboot/keepassxc/HEAD/docs/images/autotype_entry_sequences.png",
+      "https://raw.githubusercontent.com/keepassxreboot/keepassxc/HEAD/docs/images/autotype_entrylevel.png",
+      "https://raw.githubusercontent.com/keepassxreboot/keepassxc/HEAD/docs/images/autotype_selection_dialog.png"
+    ],
     "platform": "PC"
   },
   {
@@ -2044,7 +2092,9 @@
     "category": "Utility/Automation",
     "size": "< 5MB (Script-Based)",
     "author": "Chocolatey Software",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/chocolatey/choco/HEAD/docs/images/branching-strategy.png"
+    ],
     "platform": "PC"
   },
   {
@@ -2207,7 +2257,13 @@
     "platform": "PC",
     "size": "7MB",
     "author": "Krzysztof Kowalczyk",
-    "screenshots": []
+    "screenshots": [
+      "https://raw.githubusercontent.com/sumatrapdfreader/sumatrapdf/HEAD/ext/mupdf/docs/images/200x200-rect.png",
+      "https://raw.githubusercontent.com/sumatrapdfreader/sumatrapdf/HEAD/ext/mupdf/docs/images/callout-annot.png",
+      "https://raw.githubusercontent.com/sumatrapdfreader/sumatrapdf/HEAD/ext/mupdf/docs/images/img-coordinate-space.png",
+      "https://raw.githubusercontent.com/sumatrapdfreader/sumatrapdf/HEAD/ext/mupdf/docs/images/isolated-and-knockout.png",
+      "https://raw.githubusercontent.com/sumatrapdfreader/sumatrapdf/HEAD/ext/mupdf/docs/images/leader-lines.png"
+    ]
   },
   {
     "id": "clover",
@@ -2699,7 +2755,10 @@
       "https://play-lh.googleusercontent.com/1r15rCbyzdjTIOL2zHQHrRv2DehJacmYbx9vFaJd7tKa8vluch2qtAr3lQaNbaO-e5U=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/rZjKFEctY_qFLFb0iQOh3AErv6bH5iW3UeWn0BVqPcayqqg3sjNB4cOH_ywCYC5Pw8HF=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/XFqwbiZlkb2GxvmyC4LYLikKHOfRBfLIpD3wE2--gObeAzPt2ezpBakZyJ3rgtROyuE=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/BhXDqzlEOlB6XIHG5y-5FgEafI2gv3YYAr4NcI0gecNU5d3jNt2REU1OFCyN2TixY9g=w1052-h592-rw"
+      "https://play-lh.googleusercontent.com/BhXDqzlEOlB6XIHG5y-5FgEafI2gv3YYAr4NcI0gecNU5d3jNt2REU1OFCyN2TixY9g=w1052-h592-rw",
+      "https://raw.githubusercontent.com/ente-io/ente/HEAD/mobile/apps/auth/android/app/src/main/play/listings/en-US/graphics/phone-screenshots/1.jpg",
+      "https://raw.githubusercontent.com/ente-io/ente/HEAD/mobile/apps/auth/android/app/src/main/play/listings/en-US/graphics/phone-screenshots/2.jpg",
+      "https://raw.githubusercontent.com/ente-io/ente/HEAD/mobile/apps/auth/android/app/src/main/play/listings/en-US/graphics/phone-screenshots/3.jpg"
     ]
   },
   {
@@ -3063,7 +3122,9 @@
     "size": "Varies",
     "author": "legendsayantan",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/legendsayantan/ShizuTools/HEAD/metadata/images/phoneScreenshots/screenshot.png"
+    ],
     "releaseKeyword": "app-release"
   },
   {
@@ -3232,7 +3293,12 @@
     "screenshots": [
       "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1-title.png",
       "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2-dialog.png",
-      "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3-dialog.png"
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3-dialog.png",
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1-title.png",
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2-dialog.png",
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3-dialog.png",
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4-modules.png",
+      "https://raw.githubusercontent.com/TrianguloY/URLCheck/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5-modules.png"
     ],
     "releaseKeyword": "URLCheck"
   },
@@ -3372,7 +3438,8 @@
     "officialSite": "",
     "screenshots": [
       "https://img.utdstc.com/screen/57e/954/57e954103e4c30ea5abdf4edcd2a66544d0b6b19b0f415fb4eebc401df330334:800",
-      "https://img.utdstc.com/screen/b3a/b9e/b3ab9e4af43a43a9ca74591dec3f3894ef477e3a06be5a338b4f9a77a23b953b:800"
+      "https://img.utdstc.com/screen/b3a/b9e/b3ab9e4af43a43a9ca74591dec3f3894ef477e3a06be5a338b4f9a77a23b953b:800",
+      "https://raw.githubusercontent.com/lnreader/lnreader/HEAD/.github/readme-images/screenshots.png"
     ],
     "releaseKeyword": "LNReader"
   },
@@ -3586,7 +3653,13 @@
     "size": "Varies",
     "author": "MorpheApp",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/MorpheApp/morphe-manager/HEAD/docs/images/apk-download-helper/01-trusted-helpers.jpg",
+      "https://raw.githubusercontent.com/MorpheApp/morphe-manager/HEAD/docs/images/backup-and-keystore/01-signing-key.jpg",
+      "https://raw.githubusercontent.com/MorpheApp/morphe-manager/HEAD/docs/images/backup-and-keystore/02-morphe-settings.jpg",
+      "https://raw.githubusercontent.com/MorpheApp/morphe-manager/HEAD/docs/images/batch-patching/01-preflight-list.jpg",
+      "https://raw.githubusercontent.com/MorpheApp/morphe-manager/HEAD/docs/images/batch-patching/02-summary.jpg"
+    ],
     "releaseKeyword": "morphe-manager-"
   },
   {
@@ -3636,7 +3709,12 @@
     "author": "organicmaps",
     "officialSite": "",
     "screenshots": [
-      "https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg?raw=true"
+      "https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg?raw=true",
+      "https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg",
+      "https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg",
+      "https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/3.jpg",
+      "https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/4.jpg",
+      "https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/tablet-screenshots/1.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -3813,7 +3891,13 @@
     "size": "Varies",
     "author": "prajwalch",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/prajwalch/TorrentSearch/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.jpg",
+      "https://raw.githubusercontent.com/prajwalch/TorrentSearch/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_2.jpg",
+      "https://raw.githubusercontent.com/prajwalch/TorrentSearch/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.jpg",
+      "https://raw.githubusercontent.com/prajwalch/TorrentSearch/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.jpg",
+      "https://raw.githubusercontent.com/prajwalch/TorrentSearch/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -4091,7 +4175,11 @@
     "size": "Varies",
     "author": "HydeYYHH",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/HydeYYHH/litube/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/HydeYYHH/litube/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/HydeYYHH/litube/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ],
     "releaseKeyword": "app-release"
   },
   {
@@ -4578,7 +4666,10 @@
     "size": "Varies",
     "author": "RyanYuuki",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/RyanYuuki/AnymeX/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/RyanYuuki/AnymeX/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -4876,7 +4967,13 @@
     "size": "Varies",
     "author": "tzii",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/tzii/ThystTV/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/tzii/ThystTV/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/tzii/ThystTV/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/tzii/ThystTV/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/tzii/ThystTV/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -4931,7 +5028,10 @@
       "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/2.png",
       "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/3.png",
       "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/4.png",
-      "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/5.png"
+      "https://f-droid.org/repo/deltazero.amarok.foss/en-US/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/deltazefiro/Amarok-Hider/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/deltazefiro/Amarok-Hider/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/deltazefiro/Amarok-Hider/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -5042,7 +5142,13 @@
     "size": "Varies",
     "author": "AhmetCanArslan",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/10.png",
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/11.png",
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/12.png",
+      "https://raw.githubusercontent.com/AhmetCanArslan/ShizuWall/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/13.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -5259,7 +5365,13 @@
     "size": "Varies",
     "author": "cromaguy",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_3.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_4.png",
+      "https://raw.githubusercontent.com/cromaguy/Rhythm/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_5.png"
+    ],
     "releaseKeyword": "Rhythm"
   },
   {
@@ -6201,7 +6313,13 @@
     "size": "Varies",
     "author": "LeanBitLab",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/LeanBitLab/HeliboardL/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -6222,7 +6340,13 @@
     "size": "Varies",
     "author": "akashdh11",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/akashdh11/skystream/HEAD/screenshots/mobile/details.png",
+      "https://raw.githubusercontent.com/akashdh11/skystream/HEAD/screenshots/mobile/discover.png",
+      "https://raw.githubusercontent.com/akashdh11/skystream/HEAD/screenshots/mobile/home.png",
+      "https://raw.githubusercontent.com/akashdh11/skystream/HEAD/screenshots/mobile/settings.png",
+      "https://raw.githubusercontent.com/akashdh11/skystream/HEAD/screenshots/tv/details_1.png"
+    ],
     "releaseKeyword": "skystream"
   },
   {
@@ -6346,7 +6470,13 @@
     "size": "Varies",
     "author": "shiahonb777",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/shiahonb777/web-to-app/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+      "https://raw.githubusercontent.com/shiahonb777/web-to-app/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+      "https://raw.githubusercontent.com/shiahonb777/web-to-app/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg",
+      "https://raw.githubusercontent.com/shiahonb777/web-to-app/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg",
+      "https://raw.githubusercontent.com/shiahonb777/web-to-app/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/05.jpg"
+    ],
     "releaseKeyword": "web-to-app"
   },
   {
@@ -6491,7 +6621,12 @@
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/main/assets/docs/banner2BloomeScrnShot.png",
-      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/main/assets/docs/bloomeetunes_new_banner.png"
+      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/main/assets/docs/bloomeetunes_new_banner.png",
+      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg",
+      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg",
+      "https://raw.githubusercontent.com/HemantKArya/BloomeeTunes/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/05.jpg"
     ],
     "releaseKeyword": "universal"
   },
@@ -6767,7 +6902,9 @@
       "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/3.png",
       "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/4.png",
       "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/5.png",
-      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/6.png"
+      "https://f-droid.org/repo/io.github.sds100.keymapper/en-US/phoneScreenshots/6.png",
+      "https://raw.githubusercontent.com/keymapperorg/KeyMapper/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/keymapperorg/KeyMapper/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -6791,7 +6928,12 @@
     "officialSite": "",
     "screenshots": [
       "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/1.jpg",
-      "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/6.jpg"
+      "https://f-droid.org/repo/com.danemadsen.maid/en-US/phoneScreenshots/6.jpg",
+      "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -7259,7 +7401,13 @@
     "size": "Varies",
     "author": "JoshAtticus",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/JoshAtticus/Compressor/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/JoshAtticus/Compressor/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/JoshAtticus/Compressor/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/JoshAtticus/Compressor/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/JoshAtticus/Compressor/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -7384,7 +7532,13 @@
     "size": "Varies",
     "author": "IReaderorg",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/IReaderorg/IReader/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/IReaderorg/IReader/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/IReaderorg/IReader/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/IReaderorg/IReader/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/IReaderorg/IReader/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -7894,7 +8048,13 @@
     "size": "Varies",
     "author": "sadellie",
     "officialSite": "",
-    "screenshots": []
+    "screenshots": [
+      "https://raw.githubusercontent.com/sadellie/unitto/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/phone1.png",
+      "https://raw.githubusercontent.com/sadellie/unitto/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/phone2.png",
+      "https://raw.githubusercontent.com/sadellie/unitto/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/phone3.png",
+      "https://raw.githubusercontent.com/sadellie/unitto/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/phone4.png",
+      "https://raw.githubusercontent.com/sadellie/unitto/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/phone5.png"
+    ]
   },
   {
     "id": "com.swordfish.lemuroid",
@@ -8482,7 +8642,12 @@
     "screenshots": [
       "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/02.jpg",
       "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/03.png",
-      "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/04.png"
+      "https://f-droid.org/repo/ru.application.homemedkit/en-US/phoneScreenshots/04.png",
+      "https://raw.githubusercontent.com/pewaru-333/HomeMedkit-App/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+      "https://raw.githubusercontent.com/pewaru-333/HomeMedkit-App/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+      "https://raw.githubusercontent.com/pewaru-333/HomeMedkit-App/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg",
+      "https://raw.githubusercontent.com/pewaru-333/HomeMedkit-App/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg",
+      "https://raw.githubusercontent.com/pewaru-333/HomeMedkit-App/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/05.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -8508,7 +8673,11 @@
       "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/1.jpg",
       "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/1.png",
       "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/2.jpg",
-      "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/3.jpg"
+      "https://f-droid.org/repo/org.nqmgaming.aneko/en-US/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/pass-with-high-score/ANeko/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/pass-with-high-score/ANeko/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/pass-with-high-score/ANeko/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/pass-with-high-score/ANeko/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -8551,7 +8720,13 @@
     "size": "Varies",
     "author": "jksalcedo",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/jksalcedo/librefind/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/alternative_list.png",
+      "https://raw.githubusercontent.com/jksalcedo/librefind/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/community.png",
+      "https://raw.githubusercontent.com/jksalcedo/librefind/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/dashboard.png",
+      "https://raw.githubusercontent.com/jksalcedo/librefind/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/discover.png",
+      "https://raw.githubusercontent.com/jksalcedo/librefind/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/profile.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -8576,7 +8751,11 @@
       "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/01_progress_early.png",
       "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/02_progress_mid.png",
       "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/03_progress_late.png",
-      "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/06_settings_behavior.png"
+      "https://apt.izzysoft.de/fdroid/repo/eu.hxreborn.phdp/en-US/phoneScreenshots/06_settings_behavior.png",
+      "https://raw.githubusercontent.com/hxreborn/punch-hole-download-progress/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01_progress_early.png",
+      "https://raw.githubusercontent.com/hxreborn/punch-hole-download-progress/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02_progress_mid.png",
+      "https://raw.githubusercontent.com/hxreborn/punch-hole-download-progress/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03_progress_late.png",
+      "https://raw.githubusercontent.com/hxreborn/punch-hole-download-progress/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04_settings_appearance.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -8631,7 +8810,10 @@
       "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/01-v3.png",
       "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/02-v3.png",
       "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/05-v3.png",
-      "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/06-v3.png"
+      "https://f-droid.org/repo/InfinityLoop1309.NewPipeEnhanced/en-US/phoneScreenshots/06-v3.png",
+      "https://raw.githubusercontent.com/InfinityLoop1308/PipePipe/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/00-v2.png",
+      "https://raw.githubusercontent.com/InfinityLoop1308/PipePipe/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01-v3.png",
+      "https://raw.githubusercontent.com/InfinityLoop1308/PipePipe/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02-v3.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -8677,7 +8859,10 @@
     "screenshots": [
       "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/1.png",
       "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/2.jpg",
-      "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/3.png"
+      "https://f-droid.org/repo/org.prauga.messages/en-US/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/PVOT-OSS/Messages/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/PVOT-OSS/Messages/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/PVOT-OSS/Messages/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -8756,7 +8941,11 @@
     "screenshots": [
       "https://f-droid.org/repo/biz.binarysolutions.healthybatterycharging/en-US/phoneScreenshots/1.png",
       "https://f-droid.org/repo/biz.binarysolutions.healthybatterycharging/en-US/phoneScreenshots/2.png",
-      "https://f-droid.org/repo/biz.binarysolutions.healthybatterycharging/en-US/phoneScreenshots/4.png"
+      "https://f-droid.org/repo/biz.binarysolutions.healthybatterycharging/en-US/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/vbresan/HealthyBatteryCharging/HEAD/metadata/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/vbresan/HealthyBatteryCharging/HEAD/metadata/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/vbresan/HealthyBatteryCharging/HEAD/metadata/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/vbresan/HealthyBatteryCharging/HEAD/metadata/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -8885,7 +9074,12 @@
     "size": "Varies",
     "author": "jay3-yy",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/jay3-yy/BiliPai/HEAD/docs/images/screenshot1.png",
+      "https://raw.githubusercontent.com/jay3-yy/BiliPai/HEAD/docs/images/screenshot2.png",
+      "https://raw.githubusercontent.com/jay3-yy/BiliPai/HEAD/docs/images/screenshot3.png",
+      "https://raw.githubusercontent.com/jay3-yy/BiliPai/HEAD/docs/images/screenshot4.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -9000,7 +9194,8 @@
       "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/sevenInchScreenshots/08.png",
       "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/sevenInchScreenshots/09.png",
       "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/sevenInchScreenshots/10.png",
-      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/tenInchScreenshots/08.png"
+      "https://f-droid.org/repo/rkr.simplekeyboard.inputmethod/en-US/tenInchScreenshots/08.png",
+      "https://raw.githubusercontent.com/rkkr/simple-keyboard/HEAD/metadata/en-US/images/phoneScreenshots/01.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -9132,7 +9327,13 @@
     "size": "Varies",
     "author": "teja2495",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/teja2495/quick-search/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/teja2495/quick-search/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/teja2495/quick-search/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/teja2495/quick-search/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/teja2495/quick-search/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
+    ],
     "releaseKeyword": "app"
   },
   {
@@ -9287,7 +9488,13 @@
     "size": "Varies",
     "author": "rumboalla",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+      "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+      "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -9312,7 +9519,11 @@
       "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/1.jpg",
       "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/4.jpg",
       "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/6.jpg",
-      "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/7.jpg"
+      "https://f-droid.org/repo/me.timeto.app/en-US/phoneScreenshots/7.jpg",
+      "https://raw.githubusercontent.com/Medvedev91/timeto.me/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/Medvedev91/timeto.me/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/Medvedev91/timeto.me/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/Medvedev91/timeto.me/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -9387,7 +9598,11 @@
     "size": "Varies",
     "author": "dic1911",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/dic1911/android_AutoDND/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/dic1911/android_AutoDND/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/dic1911/android_AutoDND/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
+    ],
     "releaseKeyword": "AutoDND"
   },
   {
@@ -9440,7 +9655,11 @@
       "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/refs/heads/master/images/banners/feature.png",
       "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/refs/heads/master/images/screens/image1.png",
       "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/refs/heads/master/images/screens/image2.png",
-      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/refs/heads/master/images/screens/image3.png"
+      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/refs/heads/master/images/screens/image3.png",
+      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/HEAD/metadata/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/HEAD/metadata/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/HEAD/metadata/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/hardalgorithm/ParanoidsPal-PrivacyLock/HEAD/metadata/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "app"
   },
@@ -9462,7 +9681,12 @@
     "size": "Varies",
     "author": "leonlatsch",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/leonlatsch/Photok/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/leonlatsch/Photok/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/leonlatsch/Photok/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/leonlatsch/Photok/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg"
+    ],
     "releaseKeyword": "photok"
   },
   {
@@ -9678,7 +9902,12 @@
     "author": "sosauce",
     "officialSite": "",
     "screenshots": [
-      "https://f-droid.org/repo/com.sosauce.cutemusic/en-US/phoneScreenshots/screenshot3.png"
+      "https://f-droid.org/repo/com.sosauce.cutemusic/en-US/phoneScreenshots/screenshot3.png",
+      "https://raw.githubusercontent.com/sosauce/CuteMusic/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/sosauce/CuteMusic/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/sosauce/CuteMusic/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/sosauce/CuteMusic/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/sosauce/CuteMusic/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -9721,7 +9950,9 @@
     "size": "Varies",
     "author": "Roei Edri",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/Chooloo/koler/HEAD/art/screenshots.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -9742,7 +9973,13 @@
     "size": "Varies",
     "author": "Rajkumarbhakta",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/HEAD/screenshots/favourite.png",
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/HEAD/screenshots/filters.png",
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/HEAD/screenshots/free_games.png",
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/HEAD/screenshots/fresh_deals.png",
+      "https://raw.githubusercontent.com/Rajkumarbhakta/GDealz/HEAD/screenshots/game_details.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -9918,7 +10155,11 @@
     "size": "Varies",
     "author": "Ujwal",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/Ujwal223/ColAI/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Ujwal223/ColAI/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Ujwal223/ColAI/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -10404,7 +10645,13 @@
     "size": "Varies",
     "author": "Lemkinator",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/Lemkinator/Sudoku/HEAD/app/src/test/screenshots/daily_sudoku_default.png",
+      "https://raw.githubusercontent.com/Lemkinator/Sudoku/HEAD/app/src/test/screenshots/daily_sudoku_default_dark.png",
+      "https://raw.githubusercontent.com/Lemkinator/Sudoku/HEAD/app/src/test/screenshots/intro_default.png",
+      "https://raw.githubusercontent.com/Lemkinator/Sudoku/HEAD/app/src/test/screenshots/intro_default_dark.png",
+      "https://raw.githubusercontent.com/Lemkinator/Sudoku/HEAD/app/src/test/screenshots/main_default.png"
+    ],
     "releaseKeyword": "app"
   },
   {
@@ -11473,7 +11720,12 @@
     "size": "Varies",
     "author": "farfromrefug",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/farfromrefug/EnforceDoze/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776525163.png",
+      "https://raw.githubusercontent.com/farfromrefug/EnforceDoze/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776525169.png",
+      "https://raw.githubusercontent.com/farfromrefug/EnforceDoze/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776525173.png",
+      "https://raw.githubusercontent.com/farfromrefug/EnforceDoze/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776525176.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -11786,7 +12038,8 @@
       "https://f-droid.org/repo/it.fast4x.riplay/en-US/phoneScreenshots/5.png",
       "https://f-droid.org/repo/it.fast4x.riplay/en-US/phoneScreenshots/6.png",
       "https://f-droid.org/repo/it.fast4x.riplay/en-US/phoneScreenshots/8.png",
-      "https://f-droid.org/repo/it.fast4x.riplay/en-US/phoneScreenshots/9.png"
+      "https://f-droid.org/repo/it.fast4x.riplay/en-US/phoneScreenshots/9.png",
+      "https://raw.githubusercontent.com/fast4x/RiPlay/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -11879,7 +12132,10 @@
     "size": "Varies",
     "author": "mlm-games",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/mlm-games/BatStats/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/mlm-games/BatStats/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png"
+    ],
     "releaseKeyword": "batstats"
   },
   {
@@ -12082,7 +12338,13 @@
     "size": "Varies",
     "author": "nirmaleeswar30",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/HEAD/.github/screenshots/android_auto-nowplaying.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/HEAD/.github/screenshots/android_auto.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/HEAD/.github/screenshots/folders.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/HEAD/.github/screenshots/home.png",
+      "https://raw.githubusercontent.com/nirmaleeswar30/Inzx/HEAD/.github/screenshots/jam.png"
+    ],
     "releaseKeyword": "inzx"
   },
   {
@@ -12104,7 +12366,12 @@
     "author": "anujja",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/donot-1.webp"
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/donot-1.webp",
+      "https://raw.githubusercontent.com/anujja/DoNotNotify/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/anujja/DoNotNotify/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/anujja/DoNotNotify/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/anujja/DoNotNotify/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/anujja/DoNotNotify/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -12424,7 +12691,13 @@
     "size": "Varies",
     "author": "w2sv",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/w2sv/FileNavigator/HEAD/app/src/main/play/listings/en-US/graphics/large-tablet-screenshots/1.png",
+      "https://raw.githubusercontent.com/w2sv/FileNavigator/HEAD/app/src/main/play/listings/en-US/graphics/large-tablet-screenshots/2.png",
+      "https://raw.githubusercontent.com/w2sv/FileNavigator/HEAD/app/src/main/play/listings/en-US/graphics/large-tablet-screenshots/3.png",
+      "https://raw.githubusercontent.com/w2sv/FileNavigator/HEAD/app/src/main/play/listings/en-US/graphics/phone-screenshots/1.png",
+      "https://raw.githubusercontent.com/w2sv/FileNavigator/HEAD/app/src/main/play/listings/en-US/graphics/phone-screenshots/2.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -13064,7 +13337,11 @@
     "size": "Varies",
     "author": "sidhant947",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/sidhant947/Path/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/sidhant947/Path/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/sidhant947/Path/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -13086,7 +13363,12 @@
     "author": "Markel15",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Markel15/FlowState/refs/heads/master/screenshots/home_light.png"
+      "https://raw.githubusercontent.com/Markel15/FlowState/refs/heads/master/screenshots/home_light.png",
+      "https://raw.githubusercontent.com/Markel15/FlowState/HEAD/screenshots/Frame1.png",
+      "https://raw.githubusercontent.com/Markel15/FlowState/HEAD/screenshots/Frame2.png",
+      "https://raw.githubusercontent.com/Markel15/FlowState/HEAD/screenshots/Frame3.png",
+      "https://raw.githubusercontent.com/Markel15/FlowState/HEAD/screenshots/Frame4.png",
+      "https://raw.githubusercontent.com/Markel15/FlowState/HEAD/screenshots/Frame5.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -13469,7 +13751,10 @@
       "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/playlist.png",
       "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/search.png",
       "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/queue.png",
-      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/settings.png"
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/settings.png",
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/home.png",
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/player1.png",
+      "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/player2.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -13740,7 +14025,8 @@
     "screenshots": [
       "https://files.catbox.moe/gjkz5v.png",
       "https://files.catbox.moe/esqaa3.png",
-      "https://files.catbox.moe/0brumt.png"
+      "https://files.catbox.moe/0brumt.png",
+      "https://raw.githubusercontent.com/SatyaSnehith/WebShare/HEAD/images/Screenshot.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -13847,7 +14133,10 @@
     "size": "Varies",
     "author": "torlando-tech",
     "officialSite": "https://columba.network/",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/torlando-tech/columba/HEAD/screenshot-tests/src/test/snapshots/images/com.lxmf.messenger.screenshot_SampleScreenshotTest_sampleCard_withContent.png",
+      "https://raw.githubusercontent.com/torlando-tech/columba/HEAD/screenshot-tests/src/test/snapshots/images/com.lxmf.messenger.screenshot_SampleScreenshotTest_sampleComponent_light.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -13868,7 +14157,13 @@
     "size": "Varies",
     "author": "FrancescoGrazioso",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/FrancescoGrazioso/Meld/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_1.png",
+      "https://raw.githubusercontent.com/FrancescoGrazioso/Meld/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_2.png",
+      "https://raw.githubusercontent.com/FrancescoGrazioso/Meld/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_3.png",
+      "https://raw.githubusercontent.com/FrancescoGrazioso/Meld/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_4.png",
+      "https://raw.githubusercontent.com/FrancescoGrazioso/Meld/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_5.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -14131,7 +14426,13 @@
     "size": "Varies",
     "author": "yepgoryo",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/yepgoryo/CaptureCap/HEAD/metadata/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/yepgoryo/CaptureCap/HEAD/metadata/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/yepgoryo/CaptureCap/HEAD/metadata/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/yepgoryo/CaptureCap/HEAD/metadata/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/yepgoryo/CaptureCap/HEAD/metadata/en-US/images/phoneScreenshots/5.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -14210,7 +14511,12 @@
     "size": "Varies",
     "author": "mohammedbakri123",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/history.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/player2.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/reels.jpg",
+      "https://raw.githubusercontent.com/mohammedbakri123/MPx-player/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/settings.jpg"
+    ],
     "releaseKeyword": "app"
   },
   {
@@ -14386,7 +14692,11 @@
     "size": "Varies",
     "author": "sayampy",
     "officialSite": "https://github.com/sayampy/deepdenoiser",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/sayampy/deepdenoiser/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/sayampy/deepdenoiser/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/sayampy/deepdenoiser/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -14687,7 +14997,13 @@
     "size": "Varies",
     "author": "Tobi823",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/Tobi823/ffupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot1.png",
+      "https://raw.githubusercontent.com/Tobi823/ffupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot2.png",
+      "https://raw.githubusercontent.com/Tobi823/ffupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot3.png",
+      "https://raw.githubusercontent.com/Tobi823/ffupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot4.png",
+      "https://raw.githubusercontent.com/Tobi823/ffupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot5.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -15046,7 +15362,12 @@
     "screenshots": [
       "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/images/1.png",
       "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/images/2.png",
-      "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/images/3.png"
+      "https://raw.githubusercontent.com/nvllz/stepsy/refs/heads/master/images/3.png",
+      "https://raw.githubusercontent.com/nvllz/stepsy/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/nvllz/stepsy/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/nvllz/stepsy/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/nvllz/stepsy/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/nvllz/stepsy/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -15180,7 +15501,10 @@
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_1_2026-04-03_11-49-31-1.webp",
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_3_2026-04-03_11-49-31-1.webp",
       "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_4_2026-04-03_11-49-31-1.webp",
-      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_11-49-31-1.webp"
+      "https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/photo_2_2026-04-03_11-49-31-1.webp",
+      "https://raw.githubusercontent.com/mrYouki/YoukiDex-Android-Desktop/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/mrYouki/YoukiDex-Android-Desktop/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/mrYouki/YoukiDex-Android-Desktop/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -15473,7 +15797,12 @@
     "officialSite": "",
     "screenshots": [
       "https://files.catbox.moe/7apqpi.jpg",
-      "https://files.catbox.moe/eyax5l.jpg"
+      "https://files.catbox.moe/eyax5l.jpg",
+      "https://raw.githubusercontent.com/Chill-Astro/FOSS-Root-Checker/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/Chill-Astro/FOSS-Root-Checker/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/Chill-Astro/FOSS-Root-Checker/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/Chill-Astro/FOSS-Root-Checker/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/Chill-Astro/FOSS-Root-Checker/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -15628,7 +15957,13 @@
     "size": "Varies",
     "author": "poppingmoon",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/poppingmoon/aria/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/poppingmoon/aria/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/poppingmoon/aria/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/poppingmoon/aria/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/poppingmoon/aria/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -15731,7 +16066,12 @@
     "officialSite": "",
     "screenshots": [
       "https://f-droid.org/repo/app.vger.voyager/en-US/phoneScreenshots/3.png",
-      "https://f-droid.org/repo/app.vger.voyager/en-US/phoneScreenshots/5.png"
+      "https://f-droid.org/repo/app.vger.voyager/en-US/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/aeharding/voyager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/aeharding/voyager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/aeharding/voyager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/aeharding/voyager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/aeharding/voyager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -15914,7 +16254,10 @@
     "officialSite": "",
     "screenshots": [
       "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/tenInchScreenshots/2_apps.png",
-      "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/tenInchScreenshots/3_system_apps.png"
+      "https://f-droid.org/repo/com.adilhanney.no_more_background/en-US/tenInchScreenshots/3_system_apps.png",
+      "https://raw.githubusercontent.com/adil192/no_more_background/HEAD/metadata/en-US/images/phoneScreenshots/2_apps.png",
+      "https://raw.githubusercontent.com/adil192/no_more_background/HEAD/metadata/en-US/images/phoneScreenshots/3_app_expanded.png",
+      "https://raw.githubusercontent.com/adil192/no_more_background/HEAD/metadata/en-US/images/phoneScreenshots/4_system_apps.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -15939,7 +16282,11 @@
     "screenshots": [
       "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/phoneScreenshots/2.png",
       "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/phoneScreenshots/3.png",
-      "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/phoneScreenshots/4.png"
+      "https://f-droid.org/repo/com.wbrawner.simplemarkdown.free/en-US/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/wbrawner/SimpleMarkdown/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/wbrawner/SimpleMarkdown/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/wbrawner/SimpleMarkdown/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/wbrawner/SimpleMarkdown/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -15963,7 +16310,10 @@
     "officialSite": "",
     "screenshots": [
       "https://f-droid.org/repo/com.xmission.trevin.android.notes/en-US/phoneScreenshots/1.png",
-      "https://f-droid.org/repo/com.xmission.trevin.android.notes/en-US/phoneScreenshots/3.png"
+      "https://f-droid.org/repo/com.xmission.trevin.android.notes/en-US/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/Typraeurion/Android-NotePad/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Typraeurion/Android-NotePad/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Typraeurion/Android-NotePad/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -15987,7 +16337,11 @@
     "officialSite": "",
     "screenshots": [
       "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/phoneScreenshots/1.png",
-      "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/phoneScreenshots/4.png"
+      "https://f-droid.org/repo/com.xmission.trevin.android.todo/en-US/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/Typraeurion/Android-ToDo/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Typraeurion/Android-ToDo/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Typraeurion/Android-ToDo/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/Typraeurion/Android-ToDo/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -16036,7 +16390,10 @@
     "author": "j-fbriere",
     "officialSite": "",
     "screenshots": [
-      "https://f-droid.org/repo/org.ca.squawker/en-US/phoneScreenshots/1.jpg"
+      "https://f-droid.org/repo/org.ca.squawker/en-US/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/j-fbriere/squawker/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/j-fbriere/squawker/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/j-fbriere/squawker/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -16085,7 +16442,12 @@
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Ftimetable.png",
-      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fwelcome.png"
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/main/assets%2Fgithub%2Fwelcome.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/ninocss/UntisPlus/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -16134,7 +16496,13 @@
     "size": "Varies",
     "author": "PaulWoitaschek",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/PaulWoitaschek/Voice/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://raw.githubusercontent.com/PaulWoitaschek/Voice/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://raw.githubusercontent.com/PaulWoitaschek/Voice/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+      "https://raw.githubusercontent.com/PaulWoitaschek/Voice/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+      "https://raw.githubusercontent.com/PaulWoitaschek/Voice/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -16157,7 +16525,10 @@
     "officialSite": "",
     "screenshots": [
       "https://f-droid.org/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/01.png",
-      "https://f-droid.org/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/03.png"
+      "https://f-droid.org/repo/com.sosauce.cutecalc/en-US/phoneScreenshots/03.png",
+      "https://raw.githubusercontent.com/sosauce/Vanilla/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+      "https://raw.githubusercontent.com/sosauce/Vanilla/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+      "https://raw.githubusercontent.com/sosauce/Vanilla/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -16262,7 +16633,12 @@
     "officialSite": "",
     "screenshots": [
       "https://f-droid.org/repo/net.timelegend.chaka.viewer.app/en-US/phoneScreenshots/4.png",
-      "https://f-droid.org/repo/net.timelegend.chaka.viewer.app/en-US/phoneScreenshots/2.png"
+      "https://f-droid.org/repo/net.timelegend.chaka.viewer.app/en-US/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/elementdavv/chaka/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/elementdavv/chaka/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/elementdavv/chaka/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/elementdavv/chaka/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/elementdavv/chaka/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -16477,7 +16853,11 @@
     "size": "Varies",
     "author": "GPLaider",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/GPLaider/Ventoid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/GPLaider/Ventoid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/GPLaider/Ventoid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -16498,7 +16878,13 @@
     "size": "Varies",
     "author": "gtxPrime",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/HEAD/screenshots/0.jpg",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/HEAD/screenshots/1.jpg",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/HEAD/screenshots/2.jpg",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/HEAD/screenshots/3.jpg",
+      "https://raw.githubusercontent.com/gtxPrime/Mind-Mint/HEAD/screenshots/4.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -16519,7 +16905,11 @@
     "size": "Varies",
     "author": "eepiemi",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/eepiemi/Materialbook/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/eepiemi/Materialbook/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/eepiemi/Materialbook/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -16727,7 +17117,12 @@
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/phoneScreenshots/1.jpg",
-      "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/phoneScreenshots/2.jpg"
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/refs/heads/master/metadata/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/HEAD/metadata/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/HEAD/metadata/en-US/images/phoneScreenshots/2.jpg",
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/HEAD/metadata/en-US/images/phoneScreenshots/3.jpg",
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/HEAD/metadata/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/mardous/BoomingMusic/HEAD/metadata/en-US/images/phoneScreenshots/5.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -16776,7 +17171,13 @@
     "size": "Varies",
     "author": "digital-grease",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/digital-grease/fauxx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776361198.png",
+      "https://raw.githubusercontent.com/digital-grease/fauxx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776361206.png",
+      "https://raw.githubusercontent.com/digital-grease/fauxx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776361209.png",
+      "https://raw.githubusercontent.com/digital-grease/fauxx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776361214.png",
+      "https://raw.githubusercontent.com/digital-grease/fauxx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776361218.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -16975,7 +17376,10 @@
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/PNG/Screenshot-2.png",
-      "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/PNG/Screenshot-3.png"
+      "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/PNG/Screenshot-3.png",
+      "https://raw.githubusercontent.com/hashierholmes/SnapTile/HEAD/docs/screenshots/1.jpg",
+      "https://raw.githubusercontent.com/hashierholmes/SnapTile/HEAD/docs/screenshots/2.jpg",
+      "https://raw.githubusercontent.com/hashierholmes/SnapTile/HEAD/docs/screenshots/3.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -17516,7 +17920,13 @@
     "size": "Varies",
     "author": "MoHamed-B-M",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/HEAD/screenshot/IMG_20260702_193648.jpg",
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/HEAD/screenshot/IMG_20260702_193707.jpg",
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/HEAD/screenshot/IMG_20260702_193724.jpg",
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/HEAD/screenshot/home.jpg",
+      "https://raw.githubusercontent.com/MoHamed-B-M/study4u/HEAD/screenshot/intro.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -17921,7 +18331,13 @@
     "size": "Varies",
     "author": "adybag14-cyber",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/adybag14-cyber/hermes-agent/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/00-chat.jpg",
+      "https://raw.githubusercontent.com/adybag14-cyber/hermes-agent/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01-accounts.jpg",
+      "https://raw.githubusercontent.com/adybag14-cyber/hermes-agent/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02-portal.jpg",
+      "https://raw.githubusercontent.com/adybag14-cyber/hermes-agent/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03-device.jpg",
+      "https://raw.githubusercontent.com/adybag14-cyber/hermes-agent/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04-settings.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -17995,7 +18411,13 @@
     "size": "Varies",
     "author": "JNTX Studio",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_1.png",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_2.png",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_3.png",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_4.png",
+      "https://raw.githubusercontent.com/Juanoto2012/ReTune/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_5.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -18780,7 +19202,10 @@
     "size": "Varies",
     "author": "drrayy001",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/drrayy001/FlowBytes/HEAD/images/screenshot%201.png",
+      "https://raw.githubusercontent.com/drrayy001/FlowBytes/HEAD/images/screenshot%202.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -18915,7 +19340,13 @@
     "size": "Varies",
     "author": "MrDemonc",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/MrDemonc/Lune/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/10.png",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/11.png",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/12.png",
+      "https://raw.githubusercontent.com/MrDemonc/Lune/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/13.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -19089,7 +19520,13 @@
     "size": "Varies",
     "author": "DevSon1024",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/HEAD/Screenshots/10_StorageAnalyzer.jpg",
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/HEAD/Screenshots/11_MediaInformationBottomSheet.jpg",
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/HEAD/Screenshots/1_LibraryScreen.jpg",
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/HEAD/Screenshots/2.VideoListScreen.jpg",
+      "https://raw.githubusercontent.com/DevSon1024/Nosved-Player/HEAD/Screenshots/3_VaultScreen.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -19824,7 +20261,12 @@
     "screenshots": [
       "https://raw.githubusercontent.com/mina-android/Expensy/refs/heads/main/screenshots/home.png",
       "https://raw.githubusercontent.com/mina-android/Expensy/refs/heads/main/screenshots/transactions.png",
-      "https://raw.githubusercontent.com/mina-android/Expensy/refs/heads/main/screenshots/recurring.png"
+      "https://raw.githubusercontent.com/mina-android/Expensy/refs/heads/main/screenshots/recurring.png",
+      "https://raw.githubusercontent.com/mina-android/Expensy/HEAD/plugins/home_widget/pub/screenshots/android.png",
+      "https://raw.githubusercontent.com/mina-android/Expensy/HEAD/screenshots/accounts.png",
+      "https://raw.githubusercontent.com/mina-android/Expensy/HEAD/screenshots/budgets.png",
+      "https://raw.githubusercontent.com/mina-android/Expensy/HEAD/screenshots/currency_converter.png",
+      "https://raw.githubusercontent.com/mina-android/Expensy/HEAD/screenshots/financial_calendar.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -19875,7 +20317,13 @@
     "size": "Varies",
     "author": "dietrichmax",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/dietrichmax/colota/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/dietrichmax/colota/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/dietrichmax/colota/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/dietrichmax/colota/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/dietrichmax/colota/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+    ],
     "releaseKeyword": "foss"
   },
   {
@@ -20053,7 +20501,11 @@
     "author": "Senzme",
     "officialSite": "",
     "screenshots": [
-      "https://github.com/user-attachments/assets/874a9d0f-1796-4e4d-9f92-2c8915626376"
+      "https://github.com/user-attachments/assets/874a9d0f-1796-4e4d-9f92-2c8915626376",
+      "https://raw.githubusercontent.com/Senzme/NFile/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/Senzme/NFile/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/Senzme/NFile/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/Senzme/NFile/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -20300,7 +20752,13 @@
     "size": "Varies",
     "author": "Arijit-05",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/Arijit-05/Fomodoro/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+      "https://raw.githubusercontent.com/Arijit-05/Fomodoro/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+      "https://raw.githubusercontent.com/Arijit-05/Fomodoro/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg",
+      "https://raw.githubusercontent.com/Arijit-05/Fomodoro/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg",
+      "https://raw.githubusercontent.com/Arijit-05/Fomodoro/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/05.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -21174,7 +21632,13 @@
     "size": "Varies",
     "author": "dhilipmpms",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/contacts.png",
+      "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/home.png",
+      "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/permissions.png",
+      "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/settings.png",
+      "https://raw.githubusercontent.com/dhilipmpms/SOS-alerter/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/setup.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -22653,7 +23117,13 @@
     "size": "Varies",
     "author": "yamin8000",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/yamin8000/freeDictionaryApp/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/yamin8000/freeDictionaryApp/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/yamin8000/freeDictionaryApp/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/yamin8000/freeDictionaryApp/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+      "https://raw.githubusercontent.com/yamin8000/freeDictionaryApp/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -22759,7 +23229,13 @@
     "size": "Varies",
     "author": "muhammadhaseebiqbal-dev",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/muhammadhaseebiqbal-dev/Screen-Recorder/HEAD/screenshots/about.jpg",
+      "https://raw.githubusercontent.com/muhammadhaseebiqbal-dev/Screen-Recorder/HEAD/screenshots/countdown.jpg",
+      "https://raw.githubusercontent.com/muhammadhaseebiqbal-dev/Screen-Recorder/HEAD/screenshots/home.jpg",
+      "https://raw.githubusercontent.com/muhammadhaseebiqbal-dev/Screen-Recorder/HEAD/screenshots/luancher.jpg",
+      "https://raw.githubusercontent.com/muhammadhaseebiqbal-dev/Screen-Recorder/HEAD/screenshots/settings.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -22946,7 +23422,8 @@
       "https://apt.izzysoft.de/fdroid/repo/com.valhalla.thor/en-US/phoneScreenshots/4.png",
       "https://apt.izzysoft.de/fdroid/repo/com.valhalla.thor/en-US/phoneScreenshots/5.png",
       "https://apt.izzysoft.de/fdroid/repo/com.valhalla.thor/en-US/phoneScreenshots/6.png",
-      "https://apt.izzysoft.de/fdroid/repo/com.valhalla.thor/en-US/phoneScreenshots/7.png"
+      "https://apt.izzysoft.de/fdroid/repo/com.valhalla.thor/en-US/phoneScreenshots/7.png",
+      "https://raw.githubusercontent.com/trinadhthatakula/Thor/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/0.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -23190,7 +23667,12 @@
     "author": "Riteshp2001",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Riteshp2001/mpvRx/master/fastlane/metadata/android/en-US/images/phoneScreenshots/pip.png"
+      "https://raw.githubusercontent.com/Riteshp2001/mpvRx/master/fastlane/metadata/android/en-US/images/phoneScreenshots/pip.png",
+      "https://raw.githubusercontent.com/Riteshp2001/mpvRx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/about-screen.jpg",
+      "https://raw.githubusercontent.com/Riteshp2001/mpvRx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/chapter-navigation.jpg",
+      "https://raw.githubusercontent.com/Riteshp2001/mpvRx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/music-player.jpg",
+      "https://raw.githubusercontent.com/Riteshp2001/mpvRx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/pip.png",
+      "https://raw.githubusercontent.com/Riteshp2001/mpvRx/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/player-controls.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -23369,7 +23851,9 @@
       "https://raw.githubusercontent.com/isaacsa51/Minus/master/assets/screenshot_3.png",
       "https://raw.githubusercontent.com/isaacsa51/Minus/master/assets/screenshot_4.png",
       "https://raw.githubusercontent.com/isaacsa51/Minus/master/assets/screenshot_5.png",
-      "https://raw.githubusercontent.com/isaacsa51/Minus/master/assets/screenshot_6.png"
+      "https://raw.githubusercontent.com/isaacsa51/Minus/master/assets/screenshot_6.png",
+      "https://raw.githubusercontent.com/isaacsa51/Minus/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.png",
+      "https://raw.githubusercontent.com/isaacsa51/Minus/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_2.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -23495,7 +23979,12 @@
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/Harshshah6/SaavnMp3-Android/master/docs/artist.jpg",
-      "https://raw.githubusercontent.com/Harshshah6/SaavnMp3-Android/master/docs/search.png"
+      "https://raw.githubusercontent.com/Harshshah6/SaavnMp3-Android/master/docs/search.png",
+      "https://raw.githubusercontent.com/Harshshah6/SaavnMp3-Android/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/album.jpg",
+      "https://raw.githubusercontent.com/Harshshah6/SaavnMp3-Android/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/artist.jpg",
+      "https://raw.githubusercontent.com/Harshshah6/SaavnMp3-Android/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/home.jpg",
+      "https://raw.githubusercontent.com/Harshshah6/SaavnMp3-Android/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/music.jpg",
+      "https://raw.githubusercontent.com/Harshshah6/SaavnMp3-Android/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/notification.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -23792,7 +24281,10 @@
     "size": "Varies",
     "author": "f102mithunysypdlcjr-pixel",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/f102mithunysypdlcjr-pixel/BareLauncherv3/HEAD/LauncherV15/docs/screenshot1.png",
+      "https://raw.githubusercontent.com/f102mithunysypdlcjr-pixel/BareLauncherv3/HEAD/LauncherV15/docs/screenshot2.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -23892,7 +24384,13 @@
     "size": "Varies",
     "author": "premkumar-1122",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/premkumar-1122/Japanese-Interval-Walking/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/109shots_so.png",
+      "https://raw.githubusercontent.com/premkumar-1122/Japanese-Interval-Walking/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/156_1x_shots_so.png",
+      "https://raw.githubusercontent.com/premkumar-1122/Japanese-Interval-Walking/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/280_1x_shots_so.png",
+      "https://raw.githubusercontent.com/premkumar-1122/Japanese-Interval-Walking/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/306shots_so.png",
+      "https://raw.githubusercontent.com/premkumar-1122/Japanese-Interval-Walking/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/316shots_so.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -24103,7 +24601,9 @@
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/jaival-11/Simple-File-Manager/refs/heads/main/metadata/en-US/images/phoneScreenshots/Screenshot1.jpg",
-      "https://raw.githubusercontent.com/jaival-11/Simple-File-Manager/refs/heads/main/metadata/en-US/images/phoneScreenshots/Screenshot2.jpg"
+      "https://raw.githubusercontent.com/jaival-11/Simple-File-Manager/refs/heads/main/metadata/en-US/images/phoneScreenshots/Screenshot2.jpg",
+      "https://raw.githubusercontent.com/jaival-11/Simple-File-Manager/HEAD/metadata/en-US/images/phoneScreenshots/Screenshot1.jpg",
+      "https://raw.githubusercontent.com/jaival-11/Simple-File-Manager/HEAD/metadata/en-US/images/phoneScreenshots/Screenshot2.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -24452,7 +24952,12 @@
     "author": "Inlitx",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/InlitX/streak/main/screenshots%2F01-today.png"
+      "https://raw.githubusercontent.com/InlitX/streak/main/screenshots%2F01-today.png",
+      "https://raw.githubusercontent.com/InlitX/streak/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/InlitX/streak/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/InlitX/streak/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/InlitX/streak/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/InlitX/streak/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -24899,7 +25404,13 @@
     "size": "Varies",
     "author": "markvoronin354",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/markvoronin354/immich-swipe-android/HEAD/metadata/en-US/images/phoneScreenshots/01_Light_settings-scrreen.jpg",
+      "https://raw.githubusercontent.com/markvoronin354/immich-swipe-android/HEAD/metadata/en-US/images/phoneScreenshots/02_Light_swipe_screen.png",
+      "https://raw.githubusercontent.com/markvoronin354/immich-swipe-android/HEAD/metadata/en-US/images/phoneScreenshots/03_Light_sort_order_menu.jpg",
+      "https://raw.githubusercontent.com/markvoronin354/immich-swipe-android/HEAD/metadata/en-US/images/phoneScreenshots/04_Light_review_screen.png",
+      "https://raw.githubusercontent.com/markvoronin354/immich-swipe-android/HEAD/metadata/en-US/images/phoneScreenshots/05_Light_home_screen.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -25381,7 +25892,13 @@
     "size": "Varies",
     "author": "ArafatRakib",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/ArafatRakib/ChronoCraft/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/dark_01_main_dashboard.png",
+      "https://raw.githubusercontent.com/ArafatRakib/ChronoCraft/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/dark_02a_create_timer_modal.png",
+      "https://raw.githubusercontent.com/ArafatRakib/ChronoCraft/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/dark_02b_create_stopwatch_modal.png",
+      "https://raw.githubusercontent.com/ArafatRakib/ChronoCraft/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/dark_02c_create_interval_builder.png",
+      "https://raw.githubusercontent.com/ArafatRakib/ChronoCraft/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/dark_03_presets_library.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -26191,7 +26708,9 @@
     "author": "nodelook",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/nodelook/android/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png"
+      "https://raw.githubusercontent.com/nodelook/android/refs/heads/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/nodelook/android/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/nodelook/android/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -26240,7 +26759,13 @@
     "size": "Varies",
     "author": "mattedhairr",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/01-today.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/02-today-at-a-glance.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/03-goals.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/04-focus-session.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/05-calendar.png"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -26269,8 +26794,7 @@
       "https://raw.githubusercontent.com/jaival-11/TeleWalls/refs/heads/main/assets/screenshots/Screenshot6.jpg",
       "https://raw.githubusercontent.com/jaival-11/TeleWalls/refs/heads/main/assets/screenshots/Screenshot7.jpg",
       "https://raw.githubusercontent.com/jaival-11/TeleWalls/refs/heads/main/assets/screenshots/Screenshot8.jpg",
-      "https://raw.githubusercontent.com/jaival-11/TeleWalls/refs/heads/main/assets/screenshots/Screenshot9.jpg",
-      "https://raw.githubusercontent.com/jaival-11/TeleWalls/refs/heads/main/assets/screenshots/Screenshot4.jpg"
+      "https://raw.githubusercontent.com/jaival-11/TeleWalls/refs/heads/main/assets/screenshots/Screenshot9.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -27124,7 +27648,13 @@
     "size": "Varies",
     "author": "SBFlabs",
     "officialSite": "",
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/SBFlabs/Lightspeed/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01_Category_Cruise_1st_jump.jpg",
+      "https://raw.githubusercontent.com/SBFlabs/Lightspeed/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02_Category_Cruise_2nd_jump.jpg",
+      "https://raw.githubusercontent.com/SBFlabs/Lightspeed/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03_Category_Cruise_app_launching.jpg",
+      "https://raw.githubusercontent.com/SBFlabs/Lightspeed/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04_Cockpit_Gear_Sets.jpg",
+      "https://raw.githubusercontent.com/SBFlabs/Lightspeed/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/05_Cockpit_Hangar_main.jpg"
+    ],
     "releaseKeyword": "apk"
   },
   {
@@ -28823,7 +29353,10 @@
     "author": "nissshhdev",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/nissshhdev/CamPaper/main/assets/screenshots/lockscreen_tab.png"
+      "https://raw.githubusercontent.com/nissshhdev/CamPaper/main/assets/screenshots/lockscreen_tab.png",
+      "https://raw.githubusercontent.com/nissshhdev/CamPaper/HEAD/assets/screenshots/effects_view.png",
+      "https://raw.githubusercontent.com/nissshhdev/CamPaper/HEAD/assets/screenshots/homescreen_tab.png",
+      "https://raw.githubusercontent.com/nissshhdev/CamPaper/HEAD/assets/screenshots/lockscreen_tab.png"
     ],
     "releaseKeyword": "apk"
   },
