@@ -29783,5 +29783,33 @@
       "https://i.postimg.cc/W1q9VmqC/Screenshot-2026-1015-083109.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "padhteraho",
+    "name": "Padhteraho",
+    "description": "PadhteRaho – Free Android educational app for courses, playlists and study resources.",
+    "icon": "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/Icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/adityasaini404/PadhteRaho-Apk/releases/download/v1.1.0/PadhteRaho1.1.0.apk",
+    "repoUrl": "https://github.com/adityasaini404/PadhteRaho-Apk",
+    "githubRepo": "adityasaini404/PadhteRaho-Apk",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.padhteraho",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Aditya Saini",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Home.png",
+      "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Courses.png",
+      "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Notes.png",
+      "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Players.png",
+      "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Playlists.png",
+      "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Setting.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
