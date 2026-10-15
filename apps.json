@@ -29680,5 +29680,108 @@
       "https://raw.githubusercontent.com/FarhanZafarr-9/ClashPrime/main/screenshots/dataAndCredits.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "teledrive",
+    "name": "TeleDrive",
+    "description": "Turn a private Telegram channel into your personal cloud drive. Android, Windows, Linux and macOS, auto backup, optional E2E encryption, built-in file manager and player.",
+    "icon": "https://i.postimg.cc/WpkqGkn0/ic-launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Mahmud0808/TeleDrive",
+    "githubRepo": "Mahmud0808/TeleDrive",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.drdisagree.teledrive",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Mahmud0808",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Mahmud0808/TeleDrive/master/.github/screenshots/1.png",
+      "https://raw.githubusercontent.com/Mahmud0808/TeleDrive/master/.github/screenshots/2.png",
+      "https://raw.githubusercontent.com/Mahmud0808/TeleDrive/master/.github/screenshots/3.png",
+      "https://raw.githubusercontent.com/Mahmud0808/TeleDrive/master/.github/screenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "openrouter-widget",
+    "name": "Openrouter Widget",
+    "description": "Native Android home-screen widget that shows your live OpenRouter credit balance — nothing more, nothing less.",
+    "icon": "https://raw.githubusercontent.com/mirconegri/openrouter-widget/main/assets/app-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/mirconegri/openrouter-widget",
+    "githubRepo": "mirconegri/openrouter-widget",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nothingwidget.openrouter",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "mirconegri",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/mirconegri/openrouter-widget/main/assets/config-preview.png",
+      "https://raw.githubusercontent.com/mirconegri/openrouter-widget/main/assets/post-setup.png",
+      "https://raw.githubusercontent.com/mirconegri/openrouter-widget/main/assets/home-widget-account.png",
+      "https://raw.githubusercontent.com/mirconegri/openrouter-widget/main/assets/home-widget-key.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "habitflow",
+    "name": "HabitFlow",
+    "description": "HabitFlow is a 100% offline, gamified habit tracker built for Android using Kotlin and Jetpack Compose. Turn your daily routines into an RPG adventure: earn XP for completing tasks, level up from Level 1 to 100+, protect your streak with Day Freezes, and complete Freeze Quests.\n\nKey Features:\n- RPG Gamification: Earn XP for every completed routine, level up your avatar, and unlock achievements.\n- Day Freeze Protection: Save up Day Freezes (max 1 used per day) so you never break your streak.\n- Freeze Quests: Complete daily and weekly challenges to earn bonus Day Freezes and extra XP.\n- 100% Offline & Private: Stores all data locally in an encrypted Room SQLite database with zero cloud servers or tracking.\n- Local JSON Backup: Export and import your progress anytime using offline JSON files.\n- 9 Supported Languages: English, Slovak, Czech, German, Spanish, French, Polish, Ukrainian, Italian.\n- Modern Dark Gaming UI: Smooth 120Hz display support, time-of-day routine grouping, and edge-to-",
+    "icon": "https://raw.githubusercontent.com/adnoryx/HabitFlow/main/docs/screenshots/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/adnoryx/HabitFlow.git",
+    "githubRepo": "adnoryx/HabitFlow",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "habitflow.adnoryx.eu",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "adnoryx",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/main/docs/screenshots/today.jpg",
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/main/docs/screenshots/routines.jpg",
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/main/docs/screenshots/trophies.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "readwide",
+    "name": "Readwide",
+    "description": "Local-first reader and file browser\n\nReadwide is a local-first Android reader and file browser for TXT, Markdown, PDF, EPUB, Word-family documents, HWP/HWPX, images, comic archives, and common archive workflows.\n\nIt supports local reading, recent files with reading-history search, bookmarks, folder shortcuts, file search and type filtering, in-document text search (including find inside PDFs), archive browsing, archive-backed image viewing, multi-select file operations, local copy/move/delete/extract/compress queues, and text-to-speech with a sleep timer, pause/resume, and a floating on-screen control.",
+    "icon": "https://raw.githubusercontent.com/k1717/Readwide/e0a18467176c5932c07ff00f6c7d698aa1f88012/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/k1717/Readwide",
+    "githubRepo": "k1717/Readwide",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.readwide.manager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "k1717",
+    "officialSite": "",
+    "screenshots": [
+      "https://i.postimg.cc/PJK7LtdQ/Screenshot-2026-1015-082926.jpg",
+      "https://i.postimg.cc/d3QHczGs/Screenshot-2026-1015-083025.jpg",
+      "https://i.postimg.cc/X7JHH6jn/Screenshot-2026-1015-083043.jpg",
+      "https://i.postimg.cc/W1q9VmqC/Screenshot-2026-1015-083109.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
