@@ -30028,5 +30028,83 @@
       "https://cdn.phototourl.com/member/2026-10-15-d006ea99-aaa8-428b-8482-e000c2807757.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "noteprime",
+    "name": "NotePrime",
+    "description": "Private, Android-first notes app with a chat-style feed - Material You theming, end-to-end encrypted sync, and offline-first storage. A modernized fork of Note Safe.",
+    "icon": "https://raw.githubusercontent.com/FarhanZafarr-9/NotePrime/main/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FarhanZafarr-9/NotePrime",
+    "githubRepo": "FarhanZafarr-9/NotePrime",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.noteprime.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "FarhanZafarr-9",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/FarhanZafarr-9/NotePrime/main/screenshots/home.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/NotePrime/main/screenshots/chatFeed.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/NotePrime/main/screenshots/linkPreview.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/NotePrime/main/screenshots/attach.png",
+      "https://raw.githubusercontent.com/FarhanZafarr-9/NotePrime/main/screenshots/settings.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "owndroid",
+    "name": "OwnDroid",
+    "description": "使用安卓Device owner特权管理你的设备。Use Android Device owner privilege to manage your device.\n\nFeatures:\n\nSystem: disable camera, disable screenshot, master volume mute, disable USB signal, lock task mode, wipe data...\nNetwork: add/modify/delete Wi-Fi, network stats, network logging...\nApplications: suspend/hide app, block app uninstallation, grant/revoke permissions, clear app storage, install/uninstall app...\nUser restriction: disable SMS, disable outgoing call, disable bluetooth, disable NFC, disable USB file transfer, disable app installing/uninstalling...\nUsers: user information, create/start/switch/stop/delete user...\nPassword and keyguard: reset password, set screen timeout...",
+    "icon": "https://apt.izzysoft.de/fdroid/repo/com.bintianqi.owndroid/en-US/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/BinTianqi/OwnDroid",
+    "githubRepo": "BinTianqi/OwnDroid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.bintianqi.owndroid",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "BinTianqi",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/com.bintianqi.owndroid/en-US/phoneScreenshots/1.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.bintianqi.owndroid/en-US/phoneScreenshots/1.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.bintianqi.owndroid/en-US/phoneScreenshots/1.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "focusforge",
+    "name": "Focusforge",
+    "description": "FocusForge helps you block distractions, build a study routine, and keep track of the effort that turns into progress.\n\nOpen-source, privacy-first study companion — app shielding, Pomodoro engine, analytics and gamification in one Flutter app.",
+    "icon": "https://focusforgeorg.vercel.app/images/focusforge-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/MufasaXz/focusforge",
+    "githubRepo": "MufasaXz/focusforge",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.focusforge.focusforge",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MufasaXz",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MufasaXz/focusforge/refs/heads/main/docs/screenshots/source/dashboard-dark.png",
+      "https://raw.githubusercontent.com/MufasaXz/focusforge/refs/heads/main/docs/screenshots/source/shield-dark.png",
+      "https://raw.githubusercontent.com/MufasaXz/focusforge/refs/heads/main/docs/screenshots/source/focus-dark.png",
+      "https://raw.githubusercontent.com/MufasaXz/focusforge/refs/heads/main/docs/screenshots/source/profile-dark.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
