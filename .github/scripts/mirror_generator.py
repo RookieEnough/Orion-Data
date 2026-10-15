@@ -207,6 +207,19 @@ def generate_mirror():
                             if r_stable.status_code == 200:
                                 stable = r_stable.json()
                                 stable_id = stable.get("id")
+                                # Some repos (e.g. Brave) mislabel prerelease flags:
+                                # a "Release vX" can be flagged prerelease=True while
+                                # "Nightly"/"Beta" ones are flagged False. Prefer the
+                                # newest release whose name starts with "Release ",
+                                # which is the stable channel naming convention.
+                                for rel in data:
+                                    rel_name = (rel.get("name") or "").strip()
+                                    if rel_name.lower().startswith("release "):
+                                        if rel.get("id") != stable_id:
+                                            print(f"   ✅ Stable-first: preferring {rel.get('tag_name')} (Release channel) over {stable.get('tag_name')}.")
+                                        stable = rel
+                                        stable_id = rel.get("id")
+                                        break
                                 if stable_id is not None:
                                     data = [stable] + [x for x in data if x.get("id") != stable_id]
                                     print(f"   ✅ Stable-first: hoisted {stable.get('tag_name')} to latest.")
