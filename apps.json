@@ -24270,7 +24270,7 @@
     "icon": "https://raw.githubusercontent.com/f102mithunysypdlcjr-pixel/BareLauncherv3/main/LauncherV15/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "https://github.com/f102mithunysypdlcjr-pixel/BareLauncherv3/releases/tag/v2.2.0",
+    "downloadUrl": "https://github.com/f102mithunysypdlcjr-pixel/BareLauncherv3/releases/download/v2.2.0/BareLauncher.apk",
     "repoUrl": "https://github.com/f102mithunysypdlcjr-pixel/BareLauncherv3",
     "githubRepo": "f102mithunysypdlcjr-pixel/BareLauncherv3",
     "gitlabRepo": "",
@@ -25253,7 +25253,7 @@
   {
     "id": "resonance",
     "name": "Resonance",
-    "description": "Material You 3 Music player for Android 15 and newer",
+    "description": "M3 Expressive music player for Android 8.0 or newer. Plays your local files or your Navidrome server, with synced lyrics, smart playlists and scrobbling",
     "icon": "https://raw.githubusercontent.com/yuw1xx/resonance-app/refs/heads/main/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -30357,7 +30357,7 @@
   {
     "id": "rambox",
     "name": "RamBox",
-    "description": "Fork of BitChord: an aesthetic music player as BitChord that synced lyrics, offline downloads, and added like gradient theme, hum/sing song searchless look and a Smooth mode for older phones.",
+    "description": "\"Fork of BitChord: an aesthetic music player as BitChord that has same synced lyrics, offline download but added new features like gradient theme, hum/sing song searchless look and a Smooth mode for older phones.\"",
     "icon": "https://raw.githubusercontent.com/raihan-dev404/RamBox/main/Logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
