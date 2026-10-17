@@ -30437,5 +30437,32 @@
       "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/lyrics.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "metube",
+    "name": "Metube",
+    "description": "MeTube: ad-free YouTube client for Android with a frosted liquid glass UI. Background play, picture-in-picture, downloads, Shorts, SponsorBlock, no ads. Fork of NewTube / SmartTube.",
+    "icon": "https://raw.githubusercontent.com/yashoncode/metube/refs/heads/main/.github/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/yashoncode/metube",
+    "githubRepo": "yashoncode/metube",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.yashoncode.metube",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "yashoncode",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/yashoncode/metube/refs/heads/main/.github/assets/metube/home.jpg",
+      "https://raw.githubusercontent.com/yashoncode/metube/refs/heads/main/.github/assets/metube/watch.jpg",
+      "https://raw.githubusercontent.com/yashoncode/metube/refs/heads/main/.github/assets/metube/lyrics.jpg",
+      "https://raw.githubusercontent.com/yashoncode/metube/refs/heads/main/.github/assets/metube/shorts.jpg",
+      "https://raw.githubusercontent.com/yashoncode/metube/refs/heads/main/.github/assets/metube/downloads.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
