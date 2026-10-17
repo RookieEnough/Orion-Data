@@ -153,6 +153,28 @@
             "sdk-monitor",
             "antisplit-m"
           ]
+        },
+        {
+          "id": "bundle-artcraft-suit",
+          "title": "Artcraft Suit",
+          "description": "A complete suit of ArtCraft Apps for Android.",
+          "icon": "fa-cubes",
+          "color": "linear-gradient(135deg, #6366f1, #ec4899)",
+          "appIds": [
+            "photocraft-android",
+            "vectorcraft-android",
+            "filmcraft-android",
+            "lightcraft-android",
+            "effectcraft-android",
+            "designcraft-android",
+            "pdfcraft-android",
+            "wordcraft-android",
+            "gridcraft-android",
+            "deckcraft-android",
+            "soundcraft-android",
+            "cadcraft-android",
+            "figcraft-android"
+          ]
         }
       ]
     }
