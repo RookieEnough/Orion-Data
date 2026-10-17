@@ -173,8 +173,10 @@
             "deckcraft-android",
             "soundcraft-android",
             "cadcraft-android",
-            "figcraft-android"
-          ]
+            "figcraft-android",
+            "apelles-android"
+          ],
+          "badge": "Crazy"
         }
       ]
     }
