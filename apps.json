@@ -30687,7 +30687,7 @@
   },
   {
     "id": "photocraft-android",
-    "name": "PhotoCraft (Android Port)",
+    "name": "PhotoCraft Android",
     "description": "PhotoCraft Android - Free open-source Photoshop alternative. Image editing with layers, masks, type and real PSD support, ported to Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/photocraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
@@ -30712,7 +30712,7 @@
   },
   {
     "id": "vectorcraft-android",
-    "name": "VectorCraft (Android Port)",
+    "name": "VectorCraft Android",
     "description": "VectorCraft Android - Free open-source Illustrator alternative. Vector illustration on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/vectorcraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
@@ -30737,7 +30737,7 @@
   },
   {
     "id": "effectcraft-android",
-    "name": "EffectCraft (Android Port)",
+    "name": "EffectCraft Android",
     "description": "EffectCraft Android - Free open-source After Effects alternative. Motion graphics and visual effects on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/effectcraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
@@ -30760,7 +30760,7 @@
   },
   {
     "id": "designcraft-android",
-    "name": "DesignCraft (Android Port)",
+    "name": "DesignCraft Android",
     "description": "DesignCraft Android - Free open-source InDesign alternative. Page layout and publishing on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/designcraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
@@ -30785,7 +30785,7 @@
   },
   {
     "id": "wordcraft-android",
-    "name": "WordCraft (Android Port)",
+    "name": "WordCraft Android",
     "description": "WordCraft Android - Free open-source Word alternative. Word processing and documents on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/wordcraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
@@ -30810,7 +30810,7 @@
   },
   {
     "id": "gridcraft-android",
-    "name": "GridCraft (Android Port)",
+    "name": "GridCraft Android",
     "description": "GridCraft Android - Free open-source Excel alternative. Spreadsheets and data on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/gridcraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
@@ -30835,7 +30835,7 @@
   },
   {
     "id": "deckcraft-android",
-    "name": "DeckCraft (Android Port)",
+    "name": "DeckCraft Android",
     "description": "DeckCraft Android - Free open-source PowerPoint alternative. Presentations and slide decks on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/deckcraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
@@ -30860,7 +30860,7 @@
   },
   {
     "id": "soundcraft-android",
-    "name": "SoundCraft (Android Port)",
+    "name": "SoundCraft Android",
     "description": "SoundCraft Android - Free open-source Audition alternative. Audio recording and editing on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/soundcraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
@@ -30885,7 +30885,7 @@
   },
   {
     "id": "cadcraft-android",
-    "name": "CADCraft (Android Port)",
+    "name": "CADCraft Android",
     "description": "CADCraft Android - Free open-source AutoCAD alternative. Computer-aided design on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/cadcraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
@@ -30909,7 +30909,7 @@
   },
   {
     "id": "figcraft-android",
-    "name": "FigCraft (Android Port)",
+    "name": "FigCraft Android",
     "description": "FigCraft Android - Free open-source Figma/XD alternative. Interface design on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
     "icon": "https://raw.githubusercontent.com/storytold/figcraft/main/docs/brand/artcraft-logo.svg",
     "version": "Latest",
