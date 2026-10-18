@@ -32,8 +32,13 @@
   },
   "faqs": [
     {
+      "question": "Why do scanner apps say Orion has trackers?",
+      "answer": "Scanner apps like AppManager flag the Unity Ads SDK inside Orion. That SDK exists for exactly one feature: the optional ad-watching in the About tab (Fuel the Code), where watching ads supports me and earns you XP and unlocks badges. No analytics, no data mining, no data selling. The app is open source so anyone can verify it, and ads are 100% optional with nothing running in the background.",
+      "icon": "fa-magnifying-glass"
+    },
+    {
       "question": "Is Orion Store safe?",
-      "answer": "Absolutely. Orion Store is completely open-source. This means our code is public on GitHub for anyone to audit. We believe in transparency\u2014no hidden trackers, no data mining, just a clean gateway to apps.",
+      "answer": "Absolutely. Orion Store is completely open-source. This means our code is public on GitHub for anyone to audit. We believe in transparency—no hidden trackers, no data mining, just a clean gateway to apps.",
       "icon": "fa-shield-cat"
     },
     {
@@ -53,7 +58,7 @@
     },
     {
       "question": "Download not working?",
-      "answer": "Don't panic! Just head to the app's detail page and click the 'Report' icon (\u26a0\ufe0f) in the top right corner. It will pre-fill an email so I can fix it ASAP.",
+      "answer": "Don't panic! Just head to the app's detail page and click the 'Report' icon (⚠️) in the top right corner. It will pre-fill an email so I can fix it ASAP.",
       "icon": "fa-bug"
     },
     {
