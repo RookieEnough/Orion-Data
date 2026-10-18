@@ -30956,5 +30956,32 @@
       "https://raw.githubusercontent.com/imanitrajput/Boomerang/main/assets/screenshot3.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "class-track",
+    "name": "Class Track",
+    "description": "Class Track is a simple yet detailed app for Android, Windows, and WearOS to track your college classes and manage your schedule.",
+    "icon": "https://raw.githubusercontent.com/notkoby/Class-Track/main/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/notkoby/Class-Track",
+    "githubRepo": "notkoby/Class-Track",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.koby.unitrack",
+    "category": "Educational",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "notkoby",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/notkoby/Class-Track/main/screen4.jpg",
+      "https://raw.githubusercontent.com/notkoby/Class-Track/main/screen3.jpg",
+      "https://raw.githubusercontent.com/notkoby/Class-Track/main/screen2.jpg",
+      "https://raw.githubusercontent.com/notkoby/Class-Track/main/screen1.jpg",
+      "https://raw.githubusercontent.com/notkoby/Class-Track/main/screen5.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
