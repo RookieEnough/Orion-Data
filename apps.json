@@ -30711,33 +30711,6 @@
   "releaseKeyword": "apk"
  },
  {
-  "id": "capcraft-android",
-  "name": "CapCraft Android",
-  "description": "CapCraft Android - Open-source reimplementation of the CapCut Android app. Edit videos with effects, filters, transitions, text and stickers, ported to Android.",
-  "icon": "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/capcraft-512.png",
-  "version": "Latest",
-  "latestVersion": "Latest",
-  "downloadUrl": "#",
-  "repoUrl": "https://github.com/artcraft-android/capcraft-android",
-  "githubRepo": "artcraft-android/capcraft-android",
-  "gitlabRepo": "",
-  "gitlabDomain": "",
-  "packageName": "io.github.artcraftandroid.capcraft",
-  "category": "Utility",
-  "platform": "Android",
-  "size": "Varies",
-  "author": "artcraft-android",
-  "officialSite": "",
-  "screenshots": [
-   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/home.png",
-   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/editor.png",
-   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/effects.png",
-   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/transitions.png",
-   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/export.png"
-  ],
-  "releaseKeyword": "apk"
- },
- {
   "id": "vectorcraft-android",
   "name": "VectorCraft Android",
   "description": "VectorCraft Android - Free open-source Illustrator alternative. Vector illustration on Android. Unofficial Android port by MostafaXS1, built from the official open-source Rust codebase (MIT licensed).",
@@ -31121,6 +31094,33 @@
    "https://raw.githubusercontent.com/mini-page/Cleanify/main/docs/images/Contact_screen.png",
    "https://raw.githubusercontent.com/mini-page/Cleanify/main/docs/images/storage_screen.png",
    "https://raw.githubusercontent.com/mini-page/Cleanify/main/docs/images/Settings_screen.png"
+  ],
+  "releaseKeyword": "apk"
+ },
+ {
+  "id": "capcraft-android",
+  "name": "CapCraft Android",
+  "description": "CapCraft Android - Open-source reimplementation of the CapCut Android app. Edit videos with effects, filters, transitions, text and stickers, ported to Android.",
+  "icon": "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/capcraft-512.png",
+  "version": "Latest",
+  "latestVersion": "Latest",
+  "downloadUrl": "#",
+  "repoUrl": "https://github.com/artcraft-android/capcraft-android",
+  "githubRepo": "artcraft-android/capcraft-android",
+  "gitlabRepo": "",
+  "gitlabDomain": "",
+  "packageName": "io.github.artcraftandroid.capcraft",
+  "category": "Utility",
+  "platform": "Android",
+  "size": "Varies",
+  "author": "artcraft-android",
+  "officialSite": "",
+  "screenshots": [
+   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/home.png",
+   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/editor.png",
+   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/effects.png",
+   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/transitions.png",
+   "https://raw.githubusercontent.com/artcraft-android/capcraft-android/main/docs/images/export.png"
   ],
   "releaseKeyword": "apk"
  }
