@@ -31174,5 +31174,80 @@
       "https://raw.githubusercontent.com/TsukiAndroid/Tsuki/devel/screenshots/screenshot_8.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "savio-cloud-backup-for-game-saves",
+    "name": "Savio Cloud Backup For Game Saves",
+    "description": "Never lose your game progress again. Smart cloud & local save synchronization for Windows 11",
+    "icon": "https://github.com/sasaiber/Savio---Cloud-Backup-for-Game-Saves/raw/main/public/icon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/sasaiber/Savio---Cloud-Backup-for-Game-Saves",
+    "repoUrl": "https://github.com/sasaiber/Savio---Cloud-Backup-for-Game-Saves",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "sasaiber",
+    "officialSite": "",
+    "screenshots": [
+      "https://github.com/sasaiber/Savio---Cloud-Backup-for-Game-Saves/raw/main/screen/library.png",
+      "https://github.com/sasaiber/Savio---Cloud-Backup-for-Game-Saves/raw/main/screen/game-settings.png",
+      "https://github.com/sasaiber/Savio---Cloud-Backup-for-Game-Saves/raw/main/screen/save-manager.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "chimahon",
+    "name": "Chimahon",
+    "description": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.",
+    "icon": "https://raw.githubusercontent.com/Chimahon/chimahon/main/app/src/main/res/drawable/chimahon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Chimahon/chimahon",
+    "githubRepo": "Chimahon/chimahon",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.chimahon",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Chimahon",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Chimahon/chimahon/main/.github/readme-images/screens.png",
+      "https://raw.githubusercontent.com/Chimahon/chimahon/main/.github/readme-images/dict-tab.png",
+      "https://raw.githubusercontent.com/Chimahon/chimahon/main/.github/readme-images/anime.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "ultimate-file-manager-pro",
+    "name": "Ultimate File Manager Pro",
+    "description": "Ultimate File Manager Pro",
+    "icon": "https://raw.githubusercontent.com/Kilowatch/ultimate-file-manager-pro/main/app/src/main/assets/remote/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Kilowatch/ultimate-file-manager-pro",
+    "githubRepo": "Kilowatch/ultimate-file-manager-pro",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "za.kilowatch.ultimatefilemanager",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Kilowatch",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Kilowatch/ultimate-file-manager-pro/main/docs/screenshots/mobile-main.jpeg",
+      "https://raw.githubusercontent.com/Kilowatch/ultimate-file-manager-pro/main/docs/screenshots/mobile-cloud.jpeg",
+      "https://raw.githubusercontent.com/Kilowatch/ultimate-file-manager-pro/main/docs/screenshots/mobile-storage-access.jpeg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
