@@ -31249,5 +31249,105 @@
       "https://raw.githubusercontent.com/Kilowatch/ultimate-file-manager-pro/main/docs/screenshots/mobile-storage-access.jpeg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pptsnap-presentation-viewer",
+    "name": "PPTSnap (Presentation Viewer)",
+    "description": "A lightweight, offline PowerPoint viewer for Android. View, zoom, navigate, and export slides, all in an APK under 3 MB. No internet required.",
+    "icon": "https://raw.githubusercontent.com/hashierholmes/PPTSnap/refs/heads/main/icon/pptsnap.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/hashierholmes/pptsnap",
+    "githubRepo": "hashierholmes/pptsnap",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "hashierholmes.pptsnap.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hashierholmes",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/hashierholmes/PPTSnap/refs/heads/main/screenshot/1.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "applock-revived",
+    "name": "AppLock Revived",
+    "description": "Powerful privacy tool to lock apps from intruders",
+    "icon": "https://raw.githubusercontent.com/riyadmondol2006/AppLock-Revived/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/riyadmondol2006/AppLock-Revived",
+    "githubRepo": "riyadmondol2006/AppLock-Revived",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.riyadm.applock",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "riyadmondol2006",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/riyadmondol2006/AppLock-Revived/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/riyadmondol2006/AppLock-Revived/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/riyadmondol2006/AppLock-Revived/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/riyadmondol2006/AppLock-Revived/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "librewolfandroid",
+    "name": "LibreWolfAndroid",
+    "description": "An Android privacy browser on the GeckoView engine, using LibreWolf's privacy configuration. Unofficial community port, unaffiliated with the LibreWolf project or Mozilla. MPL 2.0.",
+    "icon": "https://raw.githubusercontent.com/palashsuryavanshi/LibreWolfAndroid/beta/logo/app-icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/palashsuryavanshi/LibreWolfAndroid",
+    "githubRepo": "palashsuryavanshi/LibreWolfAndroid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.palash.librewolfandroid",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "palashsuryavanshi",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/palashsuryavanshi/LibreWolfAndroid/beta/assets/screenshot-extensions.png",
+      "https://raw.githubusercontent.com/palashsuryavanshi/LibreWolfAndroid/beta/assets/screenshot-privacy-settings.png",
+      "https://raw.githubusercontent.com/palashsuryavanshi/LibreWolfAndroid/beta/assets/screenshot-start-page.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "meteocompare",
+    "name": "Meteocompare",
+    "description": "Application Android de comparaison multi-modèles météorologiques (AROME, ARPEGE, ICON, GFS, ECMWF…) basée sur l'API [Open-Meteo](https://open-meteo.com).",
+    "icon": "https://f-droid.org/repo/com.meteocompare.app/it-IT/icon_pY0x13wgTiZXwEoGDRvgrn1btqGLC1hecBeQl5vzwZ4=.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Pat0chat/meteocompare",
+    "githubRepo": "Pat0chat/meteocompare",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.meteocompare.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Pat0chat",
+    "officialSite": "",
+    "screenshots": [
+      "https://f-droid.org/repo/com.meteocompare.app/en-US/phoneScreenshots/1.png",
+      "https://f-droid.org/repo/com.meteocompare.app/en-US/phoneScreenshots/2.png",
+      "https://f-droid.org/repo/com.meteocompare.app/en-US/phoneScreenshots/3.png",
+      "https://f-droid.org/repo/com.meteocompare.app/en-US/phoneScreenshots/4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
