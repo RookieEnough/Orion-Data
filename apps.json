@@ -31399,5 +31399,57 @@
       "https://raw.githubusercontent.com/sebsies/GalaxyMobile/main/art/screenshots/story.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "expandroid",
+    "name": "Expandroid",
+    "description": "Text expander for android - with espanso config import/export",
+    "icon": "https://raw.githubusercontent.com/lochidev/Expandroid/refs/heads/main/src/Resources/AppIcon/appicon.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/lochidev/Expandroid",
+    "githubRepo": "lochidev/Expandroid",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.dingleinc.texttoolspro",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "lochidev",
+    "officialSite": "",
+    "screenshots": [
+      "https://apt.izzysoft.de/fdroid/repo/com.dingleinc.texttoolspro/en-US/phoneScreenshots/01.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.dingleinc.texttoolspro/en-US/phoneScreenshots/02.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.dingleinc.texttoolspro/en-US/phoneScreenshots/03.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.dingleinc.texttoolspro/en-US/phoneScreenshots/04.jpg",
+      "https://apt.izzysoft.de/fdroid/repo/com.dingleinc.texttoolspro/en-US/phoneScreenshots/05.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "aluicord-manager",
+    "name": "Aluicord Manager",
+    "description": "The new way to install Aliucord – in a user-friendly way",
+    "icon": "https://raw.githubusercontent.com/Aliucord/Aliucord/main/.github/assets/aliucord.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Aliucord/Manager",
+    "githubRepo": "Aliucord/Manager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.aliucord.manager",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rushiiMachine",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Aliucord/Manager/main/.github/assets/manager-preview.png",
+      "https://aliucord.com/previews/preview3.png",
+      "https://aliucord.com/previews/preview4.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
