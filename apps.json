@@ -31349,5 +31349,55 @@
       "https://f-droid.org/repo/com.meteocompare.app/en-US/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "rigby-launcher",
+    "name": "rigby launcher",
+    "description": "free native Linux among us launcher, with many versions",
+    "icon": "https://cdn.discordapp.com/attachments/1401987157517930637/1555864409253879858/cdfa751e-5ca7-4717-8c25-107442b991a6.png?backend=b2&ex=6ad72b25&is=6ad5d9a5&hm=357d97b470e5a1b32791c4913a3849dc46dd324496ab2b6115335c3ed2f23ef0&",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/pileton/rigby-launcher/releases/tag/release_0.7",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Utility",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "pileton",
+    "officialSite": "",
+    "screenshots": [
+      "https://cdn.discordapp.com/attachments/1401982329257463930/1560796289162154055/image.png?ex=6ad75011&is=6ad5fe91&hm=3eb550cd4f21b8627f779fb3e6b0f40bae218f8435c576e4892239d1150b48f4&",
+      "https://cdn.discordapp.com/attachments/1401982329257463930/1554883909873827880/image.png?backend=b2&ex=6ad6e5bc&is=6ad5943c&hm=e0d7139cee487fed93ee65c18303299be14cc9380b78dd1d8fda5a6a0e40f73f&",
+      "https://cdn.discordapp.com/attachments/1401982329257463930/1553416290335596715/Screenshot_20260926_163524.png?ex=6ad6d4e8&is=6ad58368&hm=1193dcc7185ed658dc3ad16b571ecd2bf90040ee3e7daab52bdbbaacba753dc0&"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "galaxymobile",
+    "name": "GalaxyMobile",
+    "description": "GalaxyMobile: Super Mario Galaxy in Mobile on Android, a free open-source native port built on the Petari decompilation and GalaxyQuest. No game files included in files, required to have your own legal copy. 100% made by AI (Gemini 3.8 Flash on Google Antigravity).",
+    "icon": "https://raw.githubusercontent.com/sebsies/GalaxyMobile/main/art/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sebsies/GalaxyMobile",
+    "githubRepo": "sebsies/GalaxyMobile",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.galaxy.mobile",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sebsies",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/sebsies/GalaxyMobile/main/art/screenshots/title.jpg",
+      "https://raw.githubusercontent.com/sebsies/GalaxyMobile/main/art/screenshots/settings.jpg",
+      "https://raw.githubusercontent.com/sebsies/GalaxyMobile/main/art/screenshots/story.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
