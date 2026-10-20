@@ -31567,5 +31567,31 @@
       "https://raw.githubusercontent.com/Droid-Deck/DroidDeck/main/docs/releases/media/0.5.0/quest-steamvr.gif"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "myspoti",
+    "name": "Myspoti",
+    "description": "Spotify on Android, free account, no ads. A native Jetpack Compose client with synced lyrics and official music videos.",
+    "icon": "https://raw.githubusercontent.com/kota-zo/myspoti/main/docs/brand/myspoti-logo-512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/kota-zo/myspoti",
+    "githubRepo": "kota-zo/myspoti",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.myspoti",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "kota-zo",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/kota-zo/myspoti/main/docs/screenshots/home.jpg",
+      "https://raw.githubusercontent.com/kota-zo/myspoti/main/docs/screenshots/player.jpg",
+      "https://raw.githubusercontent.com/kota-zo/myspoti/main/docs/screenshots/artist.jpg",
+      "https://raw.githubusercontent.com/kota-zo/myspoti/main/docs/screenshots/album.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
