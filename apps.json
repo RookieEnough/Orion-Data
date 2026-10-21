@@ -31787,5 +31787,58 @@
       "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/main/Inugram/Screenshot_20261020_191840.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "novacallbackup",
+    "name": "NovaCallBackup",
+    "description": "Free and open-source Android app to back up and restore your call history. No ads, no fees.",
+    "icon": "https://raw.githubusercontent.com/dhilipmpms/NovaCallBackup/main/screenshots/app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dhilipmpms/NovaCallBackup",
+    "githubRepo": "dhilipmpms/NovaCallBackup",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nova.callbackup",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dhilipmpms",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dhilipmpms/NovaCallBackup/main/screenshots/home.png",
+      "https://raw.githubusercontent.com/dhilipmpms/NovaCallBackup/main/screenshots/backup.png",
+      "https://raw.githubusercontent.com/dhilipmpms/NovaCallBackup/main/screenshots/settings.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "konnect-tv",
+    "name": "Konnect Tv",
+    "description": "KonnectTV: make your old Android TV feel new again, from your phone. Debloat, RAM boost, phone remote, app manager and Glowlauncher, a clean glowing home screen. Android TV & Google TV, no root.",
+    "icon": "https://raw.githubusercontent.com/yashoncode/konnect-tv/main/.github/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/yashoncode/konnect-tv",
+    "githubRepo": "yashoncode/konnect-tv",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.konnecttv",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "yashoncode",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/yashoncode/konnect-tv/main/.github/assets/remote.jpg",
+      "https://raw.githubusercontent.com/yashoncode/konnect-tv/main/.github/assets/apps.jpg",
+      "https://raw.githubusercontent.com/yashoncode/konnect-tv/main/.github/assets/detox.jpg",
+      "https://raw.githubusercontent.com/yashoncode/konnect-tv/main/.github/assets/boost.jpg",
+      "https://raw.githubusercontent.com/yashoncode/konnect-tv/main/.github/assets/glowlauncher.gif",
+      "https://raw.githubusercontent.com/yashoncode/konnect-tv/main/.github/assets/poster.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
