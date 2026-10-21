@@ -3328,27 +3328,6 @@
     "releaseKeyword": "RecordMaster"
   },
   {
-    "id": "spotiflac-mobile",
-    "name": "SpotiFLAC-Mobile",
-    "description": "Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music - no account required.",
-    "icon": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Mobile/refs/heads/main/assets/images/logo.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/zarzet/SpotiFLAC-Mobile",
-    "githubRepo": "zarzet/SpotiFLAC-Mobile",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.zarz.spotiflac",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "zarzet",
-    "officialSite": "",
-    "screenshots": [],
-    "releaseKeyword": "SpotiFLAC"
-  },
-  {
     "id": "com.ichi2.anki",
     "name": "AnkiDroid",
     "description": "A semi-official port of the open source Anki spaced repetition flashcard system to Android. Memorize anything with AnkiDroid!",
@@ -31840,5 +31819,30 @@
       "https://raw.githubusercontent.com/yashoncode/konnect-tv/main/.github/assets/poster.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "name": "Mornye",
+    "id": "mornye",
+    "description": "Mobile music utility built with Flutter and Rust. High-quality audio management for your personal library. open source, no ads, no subscription.",
+    "icon": "https://raw.githubusercontent.com/mornyeapp/Mornye/main/icon.png",
+    "repoUrl": "https://github.com/mornyeapp/Mornye",
+    "githubRepo": "mornyeapp/Mornye",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "codebergRepo": "",
+    "releaseKeyword": "apk",
+    "packageName": "com.zarz.mornye",
+    "category": "Media",
+    "author": "Zarz",
+    "downloadUrl": "",
+    "screenshots": [
+      "https://mornye.com/assets/shots/01-now-playing.jpg",
+      "https://mornye.com/assets/shots/09-library-sections.jpg",
+      "https://mornye.com/assets/shots/08-listening-stats.jpg",
+      "https://mornye.com/assets/shots/05-rewind-intro.jpg",
+      "https://mornye.com/assets/shots/02-appearance.jpg",
+      "https://mornye.com/assets/shots/03-settings.jpg"
+    ],
+    "platform": "Android"
   }
 ]
