@@ -31982,5 +31982,38 @@
       "https://raw.githubusercontent.com/kyujin-cho/Bada/main/docs/assets/settings.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "tmplayer",
+    "name": "TMPlayer",
+    "description": "TMPlayer is a free, open source, unofficial Telegram media player that plays the videos in your own Telegram chats on Android TV, Fire TV, Android phones, Windows, macOS and Linux, while they are still downloading.",
+    "icon": "https://raw.githubusercontent.com/dracu-lah/TMPlayer/refs/heads/main/art/player.svg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dracu-lah/TMPlayer",
+    "githubRepo": "dracu-lah/TMPlayer",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.tmplayer",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dracu-lah",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/phone.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/devices.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/tv-chats.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/tv-settings.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/desktop-grid.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/desktop-player.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/player-declutter/phone-overflow.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/player-declutter/phone-row.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/player-declutter/phone-start-over.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/player-declutter/tv-more.webp",
+      "https://raw.githubusercontent.com/dracu-lah/TMPlayer/main/docs/screenshots/player-declutter/tv-row.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
