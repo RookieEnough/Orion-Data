@@ -589,7 +589,7 @@
     "repoUrl": "https://github.com/recloudstream/cloudstream",
     "githubRepo": "recloudstream/cloudstream",
     "releaseKeyword": ".apk",
-    "packageName": "com.lagradost.cloudstream3.prerelease",
+    "packageName": "com.lagradost.cloudstream3",
     "category": "Video/Streaming",
     "platform": "Android",
     "size": "Varies",
