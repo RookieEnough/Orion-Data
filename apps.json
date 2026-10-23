@@ -32896,5 +32896,56 @@
       "https://raw.githubusercontent.com/tapman104/AnyFile-Opener/refs/heads/main/images/Screenshot_20261023-141614.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "aethervault-omni-edition",
+    "name": "AetherVault Omni Edition",
+    "description": "Secure, infinite Telegram cloud storage vault utilizing zero-knowledge encryption and Kotlin.",
+    "icon": "https://raw.githubusercontent.com/hackoilll000/AetherVault-Omni-Edition/main/assets/app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/hackoilll000/AetherVault-Omni-Edition",
+    "githubRepo": "hackoilll000/AetherVault-Omni-Edition",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.aistudio.aethervault.omni",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "hackoilll000",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/hackoilll000/AetherVault-Omni-Edition/main/screenshots/appearance.svg",
+      "https://raw.githubusercontent.com/hackoilll000/AetherVault-Omni-Edition/main/screenshots/voice_tutorial.svg",
+      "https://raw.githubusercontent.com/hackoilll000/AetherVault-Omni-Edition/main/screenshots/photos.svg",
+      "https://raw.githubusercontent.com/hackoilll000/AetherVault-Omni-Edition/main/screenshots/drive.svg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "yoinks",
+    "name": "Yoinks",
+    "description": "Save videos and music from YouTube, YouTube Music, SoundCloud, TikTok, Instagram and 1,800+ sites to your phone, powered by yt-dlp. Share a link to Yoinks, pick a format, and it downloads in the background with a queue, presets and clips. No ads, no trackers",
+    "icon": "https://raw.githubusercontent.com/bliper2/yoinks-gui-fork/main/docs/brand/yoinks-icon-512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/bliper2/yoinks-gui-fork",
+    "githubRepo": "bliper2/yoinks-gui-fork",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.yoinks.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "bliper2",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/bliper2/yoinks-gui-fork/main/docs/screenshots/android-home.png",
+      "https://raw.githubusercontent.com/bliper2/yoinks-gui-fork/main/docs/screenshots/android-share-sheet.png",
+      "https://raw.githubusercontent.com/bliper2/yoinks-gui-fork/main/docs/screenshots/android-queue.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
