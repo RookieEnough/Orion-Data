@@ -752,7 +752,7 @@
   },
   {
     "id": "bilibili-revanced",
-    "name": "Bilibili Revanced",
+    "name": "bilibili Revance",
     "description": "Unlocked Bilibili client. Removes ads, unlocks region restrictions, and enables 4K playback.",
     "icon": "https://play-lh.googleusercontent.com/Pze0Ka-6fnrd3l3dspgYbcsRlB6KaH8SnsPoOwaTtmPtTpFeR2AisC87KJgQnUdjWMk=s64-rw",
     "version": "Latest",
@@ -3617,7 +3617,7 @@
   {
     "id": "morphe",
     "name": "Morphe",
-    "description": "Morphe app patcher for Android",
+    "description": "Morphe is an Android app that patches YouTube, YouTube Music, and Reddit - stripping ads and giving you back control over your experience. No root required.\n\n✨ Why Morphe?\nModern apps are full of ads and dark patterns designed to grab your attention. Morphe patches them at the bytecode level - modifying the app directly on your device, without any of your data leaving it. The result is a cleaner version of the app you already know, exactly the way you want it.",
     "icon": "https://morphe.software/images/morphe_logo_with_frame.svg",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -21092,7 +21092,7 @@
   },
   {
     "id": "brave",
-    "name": "Brave",
+    "name": "Brave nightly",
     "description": "Brave browsers for Android made from chromium engine ",
     "icon": "https://play-lh.googleusercontent.com/UBrZnuXGb-QACU0uUdF5r_n5nx5oBbdfPyEbtsr0xXv00RN7rpaTVu3GjLeE90aHFmNlbaCmm8vNcmY0eE98U9E=w480-h960-rw",
     "version": "Latest",
@@ -25882,7 +25882,7 @@
   },
   {
     "id": "koda",
-    "name": "Koda",
+    "name": "add more items like comment make it more look like yt",
     "description": "A Material 3 Expressive Music and Video app for Android with YT Music Support",
     "icon": "https://raw.githubusercontent.com/Ivorisnoob/Koda/main/icon.png",
     "version": "Latest",
@@ -26750,7 +26750,7 @@
   {
     "id": "telewalls",
     "name": "TeleWalls",
-    "description": "Your personal wallpaper gallery using Telegram channel as cloud storage",
+    "description": "Your personal wallpaper gallery using Telegram Channel as cloud storage. It has many features, see repo for more details",
     "icon": "https://raw.githubusercontent.com/jaival-11/TeleWalls/refs/heads/main/assets/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -28629,7 +28629,7 @@
     "latestVersion": "Latest",
     "downloadUrl": "https://github.com/harborstremio/harbor",
     "repoUrl": "",
-    "githubRepo": "",
+    "githubRepo": "https://github.com/Harborofficial/Harbor",
     "gitlabRepo": "",
     "gitlabDomain": "",
     "packageName": "",
@@ -32224,7 +32224,7 @@
   },
   {
     "id": "typesprint",
-    "name": "TypeSprint",
+    "name": "TypingVault",
     "description": "TypeSprint is a free typing practice app for SSC and Railway exam students. It has 290 typing tests based on real exam patterns — SSC CGL, CHSL (LDC and DEO), Selection Post and Railway RRB NTPC — with live WPM, accuracy and error tracking while you type. Your test records are saved permanently, the app works fully offline, and there are no ads and no login. Install it, practice daily, and watch your typing speed grow.",
     "icon": "https://raw.githubusercontent.com/diwyankk/typing-test/main/icon-512.png",
     "version": "Latest",
