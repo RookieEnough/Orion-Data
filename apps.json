@@ -32896,33 +32896,5 @@
       "https://raw.githubusercontent.com/tapman104/AnyFile-Opener/refs/heads/main/images/Screenshot_20261023-141614.png"
     ],
     "releaseKeyword": "apk"
-  },
-  {
-    "id": "komi-store",
-    "name": "Komi Store",
-    "description": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
-    "icon": "https://raw.githubusercontent.com/komi-store/komi-store/refs/heads/main/media-resources/app_icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/komi-store/komi-store",
-    "githubRepo": "komi-store/komi-store",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "zed.rainxch.githubstore",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "komi-store",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/komi-store/komi-store/main/media-resources/screenshots/mobile/01.jpg",
-      "https://raw.githubusercontent.com/komi-store/komi-store/main/media-resources/screenshots/mobile/02.jpg",
-      "https://raw.githubusercontent.com/komi-store/komi-store/main/media-resources/screenshots/mobile/03.jpg",
-      "https://raw.githubusercontent.com/komi-store/komi-store/main/media-resources/screenshots/mobile/04.jpg",
-      "https://raw.githubusercontent.com/komi-store/komi-store/main/media-resources/screenshots/mobile/05.jpg",
-      "https://raw.githubusercontent.com/komi-store/komi-store/main/media-resources/screenshots/mobile/06.jpg"
-    ],
-    "releaseKeyword": "apk"
   }
 ]
