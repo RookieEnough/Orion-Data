@@ -12,7 +12,8 @@ permissions:
 jobs:
   process-leaderboard:
     # Only run if the issue is a leaderboard submission
-    if: startsWith(github.event.issue.title, 'Leaderboard Submission:')
+    # Only the relay opens these (it posts with the owner's token); an issue anyone else opens by hand is ignored
+    if: startsWith(github.event.issue.title, 'Leaderboard Submission:') && github.event.issue.user.login == github.repository_owner
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Data Branch
@@ -57,8 +58,18 @@ jobs:
               if (payload.submissionCount > payload.adWatchCount * 2) heroClass = "Scribe";
               else if (payload.adWatchCount > payload.submissionCount * 2) heroClass = "Warrior";
 
-              // Use provided avatarUrl or fallback to GitHub if missing
-              const avatar = payload.avatarUrl || `https://github.com/${payload.username}.png`;
+              // Only the avatars the app offers; anything else falls back to the first one
+              const AVATARS = [
+                "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery", "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+                "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede", "https://api.dicebear.com/9.x/pixel-art/svg?seed=Kimberly",
+                "https://api.dicebear.com/9.x/pixel-art/svg?seed=Wyatt", "https://api.dicebear.com/9.x/big-ears/svg?seed=Sara",
+                "https://api.dicebear.com/9.x/big-smile/svg?seed=Jessica", "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+                "https://api.dicebear.com/9.x/big-smile/svg?seed=Liliana", "https://api.dicebear.com/9.x/pixel-art/svg?seed=Oliver",
+              ];
+              const avatar = AVATARS.includes(payload.avatarUrl) ? payload.avatarUrl : AVATARS[0];
+              if (typeof payload.username !== "string" || !Number.isInteger(payload.xp) || !Number.isInteger(payload.level)) throw new Error("Bad payload");
+              // Clean up entries that were pushed with an outside image before this check existed
+              db.forEach(u => { if (!AVATARS.includes(u.avatar_url)) u.avatar_url = AVATARS[0]; });
 
               const entry = {
                   username: payload.username,
