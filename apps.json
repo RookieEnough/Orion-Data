@@ -8011,7 +8011,7 @@
   },
   {
     "id": "com.sadellie.unitto",
-    "name": "Taschenrechner",
+    "name": "Unitto",
     "description": "A new app discovered via Obtainium.",
     "icon": "https://raw.githubusercontent.com/sadellie/unitto/refs/heads/master/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
@@ -25882,7 +25882,7 @@
   },
   {
     "id": "koda",
-    "name": "add more items like comment make it more look like yt",
+    "name": "Koda",
     "description": "A Material 3 Expressive Music and Video app for Android with YT Music Support",
     "icon": "https://raw.githubusercontent.com/Ivorisnoob/Koda/main/icon.png",
     "version": "Latest",
@@ -30541,9 +30541,9 @@
     "author": "JebbyCodes",
     "officialSite": "",
     "screenshots": [
-      "https://i.ibb.co/mrJcvsvm/Resized-Image-2026-10-17-18-07-05-9434-0.jpg",
-      "https://i.ibb.co/Dc3qWbQ/Resized-Image-2026-10-17-18-07-06-1326-2.jpg",
-      "https://i.ibb.co/B5Mbpvqy/Resized-Image-2026-10-17-18-07-05-6139-1.jpg"
+      "https://github.com/JebbyCodes/OpenTick/blob/main/docs/images/tasks.png?raw=true",
+      "https://github.com/JebbyCodes/OpenTick/blob/main/docs/images/timetable.png?raw=true",
+      "https://github.com/JebbyCodes/OpenTick/blob/main/docs/images/gantt.png?raw=true"
     ],
     "releaseKeyword": "apk"
   },
