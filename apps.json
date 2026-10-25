@@ -34487,5 +34487,81 @@
       "https://raw.githubusercontent.com/technicalnihilist-lgtm/diller/main/screenshots/call-screen.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "newtube",
+    "name": "Newtube",
+    "description": "SmartTube for phones, unofficial: an open-source YouTube client for Android. Background play, PiP, SponsorBlock, DeArrow, save for offline, code sign-in.",
+    "icon": "https://raw.githubusercontent.com/aleixrodriala/newtube/refs/heads/main/.github/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/aleixrodriala/newtube",
+    "githubRepo": "aleixrodriala/newtube",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.aleixrodriala.arc",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "aleixrodriala",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/aleixrodriala/newtube/refs/heads/main/.github/assets/screens/comments.webp",
+      "https://raw.githubusercontent.com/aleixrodriala/newtube/refs/heads/main/.github/assets/screens/mini.webp",
+      "https://raw.githubusercontent.com/aleixrodriala/newtube/refs/heads/main/.github/assets/screens/light.webp"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "1-download-manager",
+    "name": "1 Download Manager",
+    "description": "Native Android download manager with HTTP, YouTube, torrent, pause/resume, and share-link import",
+    "icon": "https://raw.githubusercontent.com/RDK456/1-download-manager/main/desktop/browser-extension/chromium/icon128.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/RDK456/1-download-manager",
+    "githubRepo": "RDK456/1-download-manager",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.downloadhub.app",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "RDK456",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/RDK456/1-download-manager/main/docs/screenshots/android-downloads.png",
+      "https://raw.githubusercontent.com/RDK456/1-download-manager/main/docs/screenshots/android-discover.png",
+      "https://raw.githubusercontent.com/RDK456/1-download-manager/main/docs/screenshots/android-archive.png",
+      "https://raw.githubusercontent.com/RDK456/1-download-manager/main/docs/screenshots/android-youtube.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "shadowsocks-android",
+    "name": "Shadowsocks Android",
+    "description": "Shadowsocks is a free, open-source encrypted proxy client for Android that helps you connect to the internet through a compatible Shadowsocks server. Designed for efficient network communication, it provides a convenient way to manage proxy connections and configure how applications route their traffic.\n\nThe app supports one-tap connections, multiple server profiles, QR code configuration and sharing, real-time traffic statistics, IPv6, DNS proxying, and per-app routing through Android's VPN service. Custom routing rules and plugin support offer additional flexibility for different network environments. It uses the Shadowsocks protocol, including support for modern authenticated encryption methods.\n\nShadowsocks is maintained as an open-source project, with separate builds for Android phones and Android TV. Its lightweight design makes it suitable for a variety of compatible devices.\n\nA working Shadowsocks server or service subscription is required; the app does not provide servers or an internet connection by itself. Encryption protects traffic between the device and proxy server but does not guarantee anonymity. Some features may vary by Android version or installed plugins.",
+    "icon": "https://raw.githubusercontent.com/shadowsocks/shadowsocks-android/8ce99d43ff3fbb6384cdd767869af82fd7444706/core/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/shadowsocks/shadowsocks-android",
+    "githubRepo": "shadowsocks/shadowsocks-android",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.github.shadowsocks",
+    "category": "Privacy",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "shadowsocks",
+    "officialSite": "",
+    "screenshots": [
+      "https://bestproxy.net/storage/images/articles/6332ec8e96c8a_1664281742.webp",
+      "https://bestproxy.net/storage/images/articles/6332eca4ec406_1664281764.webp",
+      "https://bestproxy.net/storage/images/articles/6332ecb43078f_1664281780.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
