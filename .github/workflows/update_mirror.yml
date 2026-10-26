@@ -50,10 +50,11 @@ jobs:
           mkdir -p ../temp_ghost
           cp mirror.json ../temp_ghost/ 2>/dev/null || echo "⚠️ mirror.json missing"
           cp updates.bin ../temp_ghost/ 2>/dev/null || echo "⚠️ updates.bin missing"
+          cp stars.json ../temp_ghost/ 2>/dev/null || echo "⚠️ stars.json missing"
           cp -r mirrors ../temp_ghost/ 2>/dev/null || echo "⚠️ mirrors/ missing"
           
           # Clean generated files from working tree to prevent git checkout conflict
-          rm -f mirror.json updates.bin
+          rm -f mirror.json updates.bin stars.json
           rm -rf mirrors
 
           echo "🛡️ Fetching existing Data branch..."
@@ -92,6 +93,7 @@ jobs:
           echo "♻️ Restoring data..."
           cp ../temp_ghost/mirror.json . 2>/dev/null || :
           cp ../temp_ghost/updates.bin . 2>/dev/null || :
+          cp ../temp_ghost/stars.json . 2>/dev/null || :
           cp ../temp_ghost/leaderboard.json . 2>/dev/null || :
           cp -r ../temp_ghost/mirrors . 2>/dev/null || :
           
