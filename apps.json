@@ -31283,31 +31283,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "librewolfandroid",
-    "name": "LibreWolfAndroid",
-    "description": "An Android privacy browser on the GeckoView engine, using LibreWolf's privacy configuration. Unofficial community port, unaffiliated with the LibreWolf project or Mozilla. MPL 2.0.",
-    "icon": "https://raw.githubusercontent.com/palashsuryavanshi/LibreWolfAndroid/main/logo/app-icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/palashsuryavanshi/LibreWolfAndroid",
-    "githubRepo": "palashsuryavanshi/LibreWolfAndroid",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.palash.librewolfandroid",
-    "category": "Browsers",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "palashsuryavanshi",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/palashsuryavanshi/LibreWolfAndroid/beta/assets/screenshot-extensions.png",
-      "https://raw.githubusercontent.com/palashsuryavanshi/LibreWolfAndroid/beta/assets/screenshot-privacy-settings.png",
-      "https://raw.githubusercontent.com/palashsuryavanshi/LibreWolfAndroid/beta/assets/screenshot-start-page.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "meteocompare",
     "name": "Meteocompare",
     "description": "Application Android de comparaison multi-modèles météorologiques (AROME, ARPEGE, ICON, GFS, ECMWF…) basée sur l'API [Open-Meteo](https://open-meteo.com).",
