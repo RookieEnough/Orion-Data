@@ -34894,5 +34894,32 @@
       "https://2fas.com/api/support/assets/2024/02/tutorial-settings-1024x515.png"
     ],
     "releaseKeyword": "apk"
-  }
+  },
+  {
+    "id": "discord-revanced",
+    "name": "Discord Morphe",
+    "description": "Independent Morphed Discord: attachment file sizes, custom voice messages, and runtime controls and MORE!",
+    "icon": "https://play-lh.googleusercontent.com/w2DdjDHGSj3DQElQQM0_J3PsNsALS-WD3CBeH0aXOYceR-F3aT02gFonhoFzz-Tc9ec8Dx9cLqh48-tzIFcP=s48-rw",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://gitlab.com/communitybuilds/Community-builds",
+    "githubRepo": "",
+    "releaseKeyword": "youtube-universal",
+    "packageName": "com.discord",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "VenusIsJaded",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/6tPR31gIB148fXF1ZRuLCk4BgU7zH3Rcm3Pr-wPhgc-2kuW7LKh0qmH2lzKTGfTMq5k9wRIp3VDXn2m3ZTZu4A=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/EfZB2HIcJJCPs4CxFxl7A_PlS3IuDHswmGEKWwR0l5vFXVPbrexrhDtMBKd17f7ZOB_pVAM9jYAa1b_6SZCbBQ=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/8VHJMwDyoz5-ZvwsLJxqqatKB7wOcpsHyeCY7u8IfxiUoHd8hVMotZjRJICgV8WQfSbWEUzochWVpN-UiGs5=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/i0MkiNlN_nm3r8SgIQXO_0pVbu3UJRU4w1aLuPkeYDO3-NUtFIa41LUkcIX983C_lgBpEzILLSnsY3XZInEY4Q=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/ifQrxZZ__-vUotfF32XDM18fv_81ahw6fcXxTwgsnznmqTuLabcG6xuuSo848OIVaxfvlL9Bwy0eJ6EUHmbF7w=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/ez1xus0PiJ3vHFvlLVIfbOqmKfK_OTY-gGYORwbsxmueeDYQe2wXdi_FXZGuCqLDV-cDAv3rB2yroCb5JBPFi0I=w526-h296-rw"
+    ],
+    "gitlabRepo": "communitybuilds/Community-builds",
+    "gitlabDomain": "gitlab.com"
+  },
 ]
