@@ -27709,11 +27709,15 @@
     "author": "ianshulyadav",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/ianshulyadav/PixelMusicApp/main/assets/homepage.jpg",
-      "https://raw.githubusercontent.com/ianshulyadav/PixelMusicApp/main/assets/explorepage.jpg",
-      "https://raw.githubusercontent.com/ianshulyadav/PixelMusicApp/main/assets/fullplayer.jpg",
-      "https://raw.githubusercontent.com/ianshulyadav/PixelMusicApp/main/assets/analytics.jpg",
-      "https://raw.githubusercontent.com/ianshulyadav/PixelMusicApp/main/assets/streaming_supports.jpg"
+      "https://raw.githubusercontent.com/ianshulyadav/PixelMusic/main/assets/store/high-quality/00-hero.png",
+      "https://raw.githubusercontent.com/ianshulyadav/PixelMusic/main/assets/store/high-quality/01-home.png",
+      "https://raw.githubusercontent.com/ianshulyadav/PixelMusic/main/assets/store/high-quality/02-now-playing.png",
+      "https://raw.githubusercontent.com/ianshulyadav/PixelMusic/main/assets/store/high-quality/03-lyrics.png",
+      "https://raw.githubusercontent.com/ianshulyadav/PixelMusic/main/assets/store/high-quality/04-equalizer.png",
+      "https://raw.githubusercontent.com/ianshulyadav/PixelMusic/main/assets/store/high-quality/05-cloud.png",
+      "https://raw.githubusercontent.com/ianshulyadav/PixelMusic/main/assets/store/high-quality/06-library.png",
+      "https://raw.githubusercontent.com/ianshulyadav/PixelMusic/main/assets/store/high-quality/07-explore.png",
+      "https://raw.githubusercontent.com/ianshulyadav/PixelMusic/main/assets/store/high-quality/08-share.png"
     ],
     "releaseKeyword": "apk"
   },
