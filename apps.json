@@ -25788,16 +25788,17 @@
     "author": "mirconegri",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/home.png",
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/university.png",
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/finances.png",
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/tasks.png",
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/groceries.png",
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/goals.png",
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/notes.png",
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/links.png",
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/stats.png",
-      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/images/screen.png"
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/name.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/uni_selection.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/what_matters.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/all_set.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/home.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/uni.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/tasks.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/finances.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/stats.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/modules.png",
+      "https://raw.githubusercontent.com/mirconegri/lifeosapp/main/assets/settings.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -32547,7 +32548,7 @@
     "id": "music-flow",
     "name": "Music Flow",
     "description": "Music Flow is a lightweight Android music player featuring synced lyrics, favorites, playlists, listening statistics, and a sleep timer.",
-    "icon": "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/main/screenshots/app_icon.png\n",
+    "icon": "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/app_icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -32562,11 +32563,11 @@
     "author": "Hance-PDv",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/main/screenshots/1MFlow.jpg",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/main/screenshots/2MFlow.jpg",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/main/screenshots/3MFlow.jpg",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/main/screenshots/4MFlow.jpg",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/main/screenshots/5MFlow.jpg"
+      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/1MFlow.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/2MFlow.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/3MFlow.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/4MFlow.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/5MFlow.png"
     ],
     "releaseKeyword": "apk"
   },
