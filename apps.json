@@ -7800,8 +7800,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/inulute/medium-unlocker",
-    "githubRepo": "inulute/medium-unlocker",
+    "repoUrl": "https://github.com/inulute/freedium-app",
+    "githubRepo": "inulute/freedium-app",
     "gitlabRepo": "",
     "gitlabDomain": "",
     "packageName": "com.inulute.mediumunlocker",
@@ -7815,7 +7815,7 @@
       "https://image2url.com/r2/default/files/1769623379270-18d02c2b-8189-4d64-a5b8-d45493c8526a.jpg",
       "https://image2url.com/r2/default/files/1769623392656-6a5372e0-67e3-49a9-b15a-c35958aaceb7.jpg"
     ],
-    "releaseKeyword": "MediumUnlocker"
+    "releaseKeyword": "apk"
   },
   {
     "id": "material-photo-widget",
