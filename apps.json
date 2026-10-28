@@ -32148,31 +32148,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "twinndroid",
-    "name": "TwinnDroid",
-    "description": "Run multiple copies of any Android app with separate logins. No root. Clone apps with custom names, icons and permissions, extract APKs, and theme it your way.",
-    "icon": "https://raw.githubusercontent.com/starlightjulie/TwinnDroid/main/docs/logo.svg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/starlightjulie/TwinnDroid",
-    "githubRepo": "starlightjulie/TwinnDroid",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.twinndroid",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "starlightjulie",
-    "officialSite": "",
-    "screenshots": [
-      "https://appteka.store/screenshot/5cb7f6044895a483aa68620282eca11d6f4f04eb.jpg?e=1793232000&s=kUz-5Hn-T9SxkZkN1E7Ssw",
-      "https://appteka.store/screenshot/c78b2692c2f7941a0fcdc48dd4551972f50abb18.jpg?e=1793232000&s=KJAuX_dnm2r_C997hLhVbg",
-      "https://appteka.store/screenshot/be925cca6e4070ab51fd6f24692c2b1ef46248de.jpg?e=1793232000&s=enqUp7l6Q0TD6aVj6LtnkA"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "apk-toolbox",
     "name": "APK Toolbox",
     "description": "Track, clone, install and merge Android apps right on the phone: updates straight from GitHub, F-Droid and other sources, second copies of apps, split APK installer, APKS export and split merging. No root.",
