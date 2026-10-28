@@ -35367,5 +35367,80 @@
       "https://github.com/johakovi/Continuum-Explorer-Memories/raw/master/metadata/en-US/images/8.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "quik",
+    "name": "Quik",
+    "description": "The most beautiful SMS messenger for Android - Revived",
+    "icon": "https://raw.githubusercontent.com/quik-sms/quik/refs/heads/master/presentation/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/quik-sms/quik",
+    "githubRepo": "quik-sms/quik",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "dev.octoshrimpy.quik.fdroid",
+    "category": "Social",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "quik-sms",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/quik-sms/quik/master/.github/octoshrimpy_quik.jpg",
+      "https://raw.githubusercontent.com/quik-sms/quik/master/.github/octoshrimpy_quik.jpg",
+      "https://raw.githubusercontent.com/quik-sms/quik/master/.github/octoshrimpy_quik.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "portal-digital",
+    "name": "Portal Digital ",
+    "description": "Imagina um lugar onde tem os melhores jogos, aplicativos e Tutorial e livros e programas de computador, tudo na palma da sua mão.",
+    "icon": "https://portaldigital.vercel.app/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sibemcesar/Portaldigital",
+    "githubRepo": "sibemcesar/Portaldigital",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.portal.ao",
+    "category": "Anime",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sibemcesar",
+    "officialSite": "",
+    "screenshots": [
+      "https://appteka.store/screenshot/e6e93156cbd176f1103729dd0df288a60e19a135.jpg?e=1793836800&s=gxZiUnnom1CO8_5-wa4AQQ",
+      "https://appteka.store/screenshot/742894d8387a11e25bdfeda8d8d49071f4c6abf3.jpg?e=1793836800&s=bCvIj5xArLkLoLHhZsb_Sw",
+      "https://appteka.store/screenshot/0ca19a4dd79763ef72e89351de0e10aac2ad06f4.jpg?e=1793836800&s=83s87LcamVwjTuJ8jxggWg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "yumelist",
+    "name": "YumeList",
+    "description": "Unofficial Android MAL client based on Moelist",
+    "icon": "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/fastlane/metadata/android/en-US/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Muhammedahmed18/YumeList",
+    "githubRepo": "Muhammedahmed18/YumeList",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ahmad.yumelist",
+    "category": "Anime",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Muhammedahmed18",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/01-welcome.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/04-home.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/07-details.jpeg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
