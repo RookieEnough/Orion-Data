@@ -2799,7 +2799,7 @@
     "icon": "https://play-lh.googleusercontent.com/BOd2Wz4teXCKZK9teO9zz1sL75AslsdQCcCEl5meRQHZoNb9XhWJW-4nbyE9DJPKGX4",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "#",
+    "downloadUrl": "https://github.com/FilenCloudDienste/filen-ts",
     "repoUrl": "https://github.com/FilenCloudDienste/filen-mobile",
     "githubRepo": "FilenCloudDienste/filen-mobile",
     "packageName": "io.filen.app",
@@ -7794,7 +7794,7 @@
   },
   {
     "id": "medium-unlocker",
-    "name": "Medium Unlocker",
+    "name": "freedoum",
     "description": "Medium Unlocker is a lightweight Android app that lets you bypass paywalls instantly using the native Share menu. Stop manually copy-pasting links into browsers. Just share and read.",
     "icon": "https://raw.githubusercontent.com/inulute/medium-unlocker/8cfb08873838b588593e319e2606c4c505999d84/assets/medium_unlock_logo.svg",
     "version": "Latest",
@@ -21118,7 +21118,7 @@
       "https://play-lh.googleusercontent.com/c4gme9mZipZaznEyKFT9w6rVndQPFc4YbwUm92JjLcYjeTlToEZL4Hs24c77EK-dIA=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/wih_WEjUZBxlME8K4-JJu-2soGw8DLF_tkf4XDM1Y770siZdI60vPf23wrROXC-b0SU=w1052-h592-rw"
     ],
-    "releaseKeyword": "Bravearm64Universal.apk"
+    "releaseKeyword": "apk"
   },
   {
     "id": "utag",
@@ -32522,7 +32522,7 @@
   {
     "id": "music-flow",
     "name": "Music Flow",
-    "description": "Music Flow is a lightweight Android music player featuring synced lyrics, favorites, playlists, listening statistics, and a sleep timer.",
+    "description": "MFlow is a refined, full-featured music player designed to give you total control over your audio library. Wrapped in a modern Liquid Glass aesthetic, it delivers uncompromised sound performance through a smooth, ad-free interface tailored completely to your listening preferences.\n\nMFlow: Your music, your way.",
     "icon": "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/app_icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -33150,7 +33150,7 @@
     "icon": "https://raw.githubusercontent.com/tutao/tutanota/master/app-android/app/src/main/ic_logo-playstore.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "#",
+    "downloadUrl": "https://github.com/tutao/tutanota",
     "repoUrl": "https://github.com/tutao/tutanota",
     "githubRepo": "tutao/tutanota",
     "gitlabRepo": "",
