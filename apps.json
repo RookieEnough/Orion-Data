@@ -25233,7 +25233,7 @@
     "id": "immich-swipe-android",
     "name": "Immich Swipe Android",
     "description": "Android application to quickly review and clean Immich albums / folders using simple swipe gestures.",
-    "icon": "https://raw.githubusercontent.com/markvoronin354/immich-swipe-android/master/metadata%2Fen-US%2Fimages%2Ficon.png",
+    "icon": "https://github.com/markvoronin354/immich-swipe-apk/blob/master/metadata/en-US/images/logo_immich_swipe.png?raw=true",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -27433,7 +27433,7 @@
     "gitlabRepo": "",
     "gitlabDomain": "",
     "packageName": "org.wishy.browser",
-    "category": "Browsers",
+    "category": "TV",
     "platform": "Android",
     "size": "Varies",
     "author": "wishissue",
@@ -32385,7 +32385,7 @@
   },
   {
     "id": "music-flow",
-    "name": "Music Flow",
+    "name": "MFlow",
     "description": "MFlow is a refined, full-featured music player designed to give you total control over your audio library. Wrapped in a modern Liquid Glass aesthetic, it delivers uncompromised sound performance through a smooth, ad-free interface tailored completely to your listening preferences.\n\nMFlow: Your music, your way.",
     "icon": "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/app_icon.png",
     "version": "Latest",
@@ -32406,7 +32406,8 @@
       "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/2MFlow.png",
       "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/3MFlow.png",
       "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/4MFlow.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/5MFlow.png"
+      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/5MFlow.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/6MFlow.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -35384,9 +35385,9 @@
     "author": "krambovic",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/krambovic/Lumen/main/android/assets/screenshots/android-dashboard-dark.jpg",
-      "https://raw.githubusercontent.com/krambovic/Lumen/main/android/assets/screenshots/android-nodes-dark.jpg",
-      "https://raw.githubusercontent.com/krambovic/Lumen/main/android/assets/screenshots/android-settings-light.jpg"
+      "https://github.com/krambovic/Lumen/blob/main/android/assets/screenshots/android-dashboard-light.jpg",
+      "https://github.com/krambovic/Lumen/blob/main/android/assets/screenshots/android-settings-light.jpg",
+      "https://github.com/krambovic/Lumen/blob/main/android/assets/screenshots/android-nodes-dark.jpg"
     ],
     "releaseKeyword": "apk"
   },
