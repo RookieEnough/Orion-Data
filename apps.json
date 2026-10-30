@@ -364,59 +364,6 @@
     "gitlabDomain": "gitlab.com"
   },
   {
-    "id": "mx-pro",
-    "name": "MX Player Pro",
-    "description": "MX Player Pro Mod is ad-free version of the popular MX Player, offering an enhanced video playback experience with features like multi-core decoding, hardware-accelerated playback using the HW+ decoder, and advanced gesture controls for zooming and panning.",
-    "icon": "https://play-lh.googleusercontent.com/e_rNLzyR9i3wwy8BwEsIS4uz0fFu29p5RoXoNZt2L0Ef7cJ2QhAcw1x_K51A19HpzQ=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://an1.com/2477-mx-player-pro-android.html",
-    "githubRepo": "RookieEnough/Orion-Data",
-    "releaseKeyword": "Mx-pro",
-    "packageName": "com.mxtech.videoplayer.ad",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "An1",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/qs8CTr1FThu3g7mOZI3SzUPk1_j_U0sHxyKlsng8Ozdt7p8oaOanNr5fe4TcqNwQn1kk=h300-rw",
-      "https://play-lh.googleusercontent.com/4QKTgXfFccrEJ16YfJeRyOcaCwhiAnAO2YR5qfICqEOLH22sF0nybYegVLDD4sBOmdEt=h300-rw",
-      "https://play-lh.googleusercontent.com/sybl7GfH6ZEDwiUS6Ptg0N1lH6b0bmxCUeZTYP1Es_dkB7jgzHpzaRgAVGfKu_AMRg=h300-rw",
-      "https://play-lh.googleusercontent.com/ce2vebuOe4wymzoATBX8M_zm5iOwWoNb_LoNXAJ3HkA_SMt4siXt_d7UYQ6glhQg=h300-rw",
-      "https://play-lh.googleusercontent.com/TNcm0C3VfFK0M4_WEaSQ1tdE6f23MmRa_MoHJUIiMC4l0lGoVop_-4g3gUHBDMxBUyE=h300-rw",
-      "https://play-lh.googleusercontent.com/E2LkV7-vBTvN39fsx3SWZ18IU8pn4KvO2pUEBigDAEKzpFE28Hvcac5Bl5zLTEa_ldI=h300-rw",
-      "https://play-lh.googleusercontent.com/-JoYoBC1W5GvuFELCZJTDxe6co02PL3bTAUipUzJDXTxmtzwIDiZOhorZbzIObZBsGd_=h300-rw",
-      "https://play-lh.googleusercontent.com/2eBycm79jchbZnhp6rYPyZ4JakHucUy6XlsG__MQtKJ5VSVQ4RBZrKtcVVoSUvXE9x4=h300-rw",
-      "https://play-lh.googleusercontent.com/6WJeu6egIicIg91Vo0D8mUYkGsQtbdYpD2MBMtbgAL4lVAIqrG3fGFZfOxKZf-Fj5Wk=h300-rw"
-    ]
-  },
-  {
-    "id": "web-video-caster",
-    "name": "Web Video Caster Pro",
-    "description": "Web Video Caster Pro allows you to watch on your TV videos from your favorite websites including movies, TV shows, live streams of news, sports. It also lets you cast local videos stored on your phone. Photos and audio files are also supported. Subtitles are detected on the web.",
-    "icon": "https://play-lh.googleusercontent.com/4xUYWX2Z6LhCeyxjxfPl4d9v8DNGXiXJvR4gHcgTR3YCVoarhhGdfroTp1QvYI8pIQ=w480-h960-rw",
-    "version": "5.12.8",
-    "latestVersion": "5.12.8",
-    "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/WebVideo-Cast/web-video-cast-v5.12.9.apk",
-    "repoUrl": "https://play.google.com/store/apps/details?id=com.instantbits.cast.webvideo&hl=en&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dweb+view+cast+app&pcampaignid=APPU_1_NEcwac2oFeOXseMPlsebkAY",
-    "githubRepo": "RookieEnough/Orion-Data",
-    "releaseKeyword": "web-video-cast",
-    "packageName": "com.instantbits.cast.webvideo",
-    "category": "Media",
-    "platform": "Android",
-    "size": "50.6 MB",
-    "author": "WebView Team",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/qjp-q8GtWtc0EAekT3oFfKa8a3ebhb0zVz9JPHpmSMXm0OpuIa3oRFdBkyLbQXKSUQNW=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/7w3i2TVMEK_A-1doDPoCbUzElacSoZrm0hBwDHK7eaBn7-fa822atMJUuCf0CIMEKOlP=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/wlZ19BYpAS2FqhvYl5_cK7xfuSaSFBWNOhlcOb4wMK0xw-cTDdpoutYBjrs7wdVdZQ=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/-nboj5g1JCJayf7dTrVSimkGh22NdS0RGEFOLtBL9Sbp3-si6bGEnjKTHvXZ5Osopw8=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/nYOhVCiaEKHFoa2-6iuTXD7NGCzwnZPEkuTkc9G3_vjjeYas_wwa_JymWeK0s1kvdg=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/o31qxLmgfJ4UIN49qo7Au-gWFKTHxcvmXp-nVMo-1LM_D7j_6N31n8DDc6uIXo1Cpso=w1052-h592-rw"
-    ]
-  },
-  {
     "id": "canta-debloater",
     "name": "Canta",
     "description": "Uninstall any app (including pre-installed bloatware) without root by using Shizuku. Integrates community-powered recommendations (Universal Debloat List).",
@@ -439,58 +386,6 @@
       "https://play-lh.googleusercontent.com/ORfFrQiiFPWoHAoVeEdt_1ZGSCN_TIi9VXzxJRjI2UcYm3YOgyv3E2oRHpmi5Z-aUeM=w526-h296-rw",
       "https://play-lh.googleusercontent.com/ZSjobUTNsicFRk1OH5JgTTW4J00YemC_GywxrN92UtqZFPatsy_Ovdk9U5pUREKzkA=w526-h296-rw",
       "https://play-lh.googleusercontent.com/od_xSk03j0AUKI25XqXSbSzDyuQNjuOzPUsjcCNslV_A_FrjJCllqgYKQGyVc1yANA=w526-h296-rw"
-    ]
-  },
-  {
-    "id": "lingodeer",
-    "name": "Lingodeer Pro",
-    "description": "Lingodeer Mod unlocks lifetime Plus membership for free, giving you unlimited hearts and lives, full offline access to all premium courses in 14+ Asian and European languages, instant removal of all ads, exclusive hidden story modes and travel phrasebooks that even paid users can’t access, plus built-in AI conversation practice with real-time pronunciation scoring — everything 100% unlocked and updated in one safe APK.",
-    "icon": "https://play-lh.googleusercontent.com/WA-M-hOHhgmRk7tObJTRVj0ncEg7x8MHTNrE2Ory9p2Eiz0WiSqiYxPkJxwUE0NH-98",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://getmodsapk.com/lingodeer-mod-apk/",
-    "githubRepo": "RookieEnough/Orion-Data",
-    "releaseKeyword": "lingodeer",
-    "packageName": "com.lingodeer",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "LingoDeer - Learn Languages Apps",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/aOl7Bb0BwzgF4VgCGtnEPQuveqcDLZeQQN4stTFZpY84WLHZAHbeYODi6SFgUskAB9Q=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/4WDQrL_rtsOsc8mX0GB0bMVj-s2EnpV0CJpJeGek6nJ9xcE8Nkkh4u8_Tc1PHNnr29Q=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/0jTELkcRaMOAVgET7mpin5JBksNgAWm6XLBD3rF3rPMbflwNwtcXXZdR7Bp0wsidTn1X=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/CUsQVq1NUof6x27MbWiKzRMwIOaIo8q2cg1jUrwJQxWwDcR_5SIxf8xFMQRJ1sDNTR0=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/DWZiHV8bWUWJha6osNO-g1L1gREGRrDbTT-6z6YIcIhNkuUDEf14ed8GNN-M77Q0Rg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/VxioSwgTN-IhDMltgR_YOCCTYMquLE5tO-HLAoF6FxCovofj6KWrdRVu199Hnz_QNw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/vb7Ul9eld4rV-04luz0dKl1vAIpr4q2hn2xxtdkUwZMqJXs1RWc_OnZGt7hWtVwrb4wF=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/deAhnFVF7U6bmbX07iBNTbnCyJrMYvtdL9W_mO8rlN6js5VJ6GPrElXM588fIsUc5Gc=w526-h296-rw"
-    ]
-  },
-  {
-    "id": "rosetta-stone",
-    "name": "Rosetta Stone Pro",
-    "description": "Rosetta Stone Mod unlocks lifetime Total Access to all 25 languages completely free, grants unlimited offline downloads for every course and lesson, removes all ads and restrictions forever, instantly awards official Rosetta Stone certificates upon completion, adds exclusive hidden immersive story adventures and live 1-on-1 tutoring sessions with native speakers that even the real paid version doesn’t offer — all fully updated and working in one safe, unlimited APK.",
-    "icon": "https://play-lh.googleusercontent.com/EfU-TIPgFiueENh7xSnhCbJcn-qUJi-SFpqPgjI0aeYvMcEhNh8J_L0H8ZUoteQDdg=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://getmodsapk.com/lingodeer-mod-apk/",
-    "githubRepo": "RookieEnough/Orion-Data",
-    "releaseKeyword": "rosetta-stone",
-    "packageName": "air.com.rosettastone.mobile.CoursePlayer",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Rosetta Stone Ltd",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/XozS0a33mqhE28Gp3YcFsbIueJqeoUEWzuVsLtisjWMeGjiBjQdZTmyqjqomnrvLNxLurAsoJHMkICGffwBZdQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/dD2deVr8qKLI4LTiX9FFx_eF-KRIO8PUsi3CatuI7DGeClB6JQX6VITqnGxMLACCtBWjfbSq-uvTBuo_F0WgfQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/31F7oRoy7L9gYtueHjpz547eVDMtXREn2v6qSG9Hfy3QQaEvQAohB347RDcJ3jebKzsD22RKp9isHSsPuh3j9A=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/ic1Ibi_H48EDNGxf3Wby3EyfS8_49gi5F99fFB4eTn13NV48VmxN1WDN3nilSfeVnaA6K9gCMgA_OUfHxqKxEWk=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/1jVwCYZcuF2MkR20h5t-03NuttlNvfroY68fvrZ7XV4O9mWh9XqwRfOtPF81sIg8jHUuXTJ2qsf1Cp7ZfaMNbg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/Xur1QQlV0pgtHzk6p7wZFiTD4LUPN4aLqG73oax9ePHoTZL9OVxPJDe6b22gkF8U2JglBhndOiKwOaXRDW1eiQ=w526-h296-rw"
     ]
   },
   {
