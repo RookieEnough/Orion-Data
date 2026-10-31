@@ -36304,5 +36304,57 @@
       "https://raw.githubusercontent.com/Paplo-painite/Kinora-Effect/main/assets/screenshots/kinora-effect-preview.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "dantotsu",
+    "name": "Dantotsu",
+    "description": "Automatically Builds Dantotsu Dev Branch.\nDantotsu (断トツ; Dan-totsu) literally means \"the best of the best\" in Japanese. Try it out for yourself and be the judge!\n",
+    "icon": "https://dantotsu.org/wp-content/uploads/2023/11/dantotsu_logo-f1s.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/itsmechinmoy/dantotsu-updater",
+    "githubRepo": "itsmechinmoy/dantotsu-updater",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "ani.dantotsu",
+    "category": "Anime",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "itsmechinmoy",
+    "officialSite": "",
+    "screenshots": [
+      "https://imag.malavida.com/mvimgbig/download-fs/dantotsu-39550-1.jpg",
+      "https://imag.malavida.com/mvimgbig/download-fs/dantotsu-39550-3.jpg",
+      "https://imag.malavida.com/mvimgbig/download-fs/dantotsu-39550-2.jpg",
+      "https://imag.malavida.com/mvimgbig/download-fs/dantotsu-39550-7.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "youtube-ultra",
+    "name": "Youtube Ultra",
+    "description": "YouTube Ultra for Android: ad-free YouTube with downloads, SponsorBlock and Shorts auto scroll. Official releases.",
+    "icon": "https://raw.githubusercontent.com/chinmays-tanx09/youtube-ultra/main/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/chinmays-tanx09/youtube-ultra",
+    "githubRepo": "chinmays-tanx09/youtube-ultra",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "YouTube ultra ",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "chinmays-tanx09",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/chinmays-tanx09/youtube-ultra/main/images/screenshot1.jpg",
+      "https://raw.githubusercontent.com/chinmays-tanx09/youtube-ultra/main/images/screenshot2.jpg",
+      "https://raw.githubusercontent.com/chinmays-tanx09/youtube-ultra/main/images/screenshot3.jpg",
+      "https://raw.githubusercontent.com/chinmays-tanx09/youtube-ultra/main/images/screenshot4.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
