@@ -36961,5 +36961,55 @@
       "https://raw.githubusercontent.com/sachit1751-art/Audify/main/docs/audit-artifacts/screenshots/audify-relaunch-late.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "glass-browser",
+    "name": "Glass Browser",
+    "description": "A complete, working Android web browser with a liquid-glass interface — single-file HTML chrome over a real WebView. Tabs, private mode, downloads, pop-ups and PixelCopy screenshots. Signed APK in every release.",
+    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser/main/screenshots/icon-512.png\n",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/technicalnihilist-lgtm/glass-browser\n\n",
+    "githubRepo": "technicalnihilist-lgtm/glass-browser\n\n",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nexabrowser.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "technicalnihilist-lgtm",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser/main/screenshots/01-home.png",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser/main/screenshots/02-browsing.png",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser/main/screenshots/03-tabs.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "liquid-reminders",
+    "name": "Liquid Reminders",
+    "description": "Liquid-glass reminders app for Android — HTML UI wrapped in a native shell with real alarms, notifications and reboot persistence.",
+    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-reminders/main/docs/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/technicalnihilist-lgtm/liquid-reminders",
+    "githubRepo": "technicalnihilist-lgtm/liquid-reminders",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.liquid.reminders",
+    "category": "Productivity",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "technicalnihilist-lgtm",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-reminders/main/docs/screenshots/01-today.png",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-reminders/main/docs/screenshots/03-upcoming.png",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-reminders/main/docs/screenshots/04-add-sheet.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
