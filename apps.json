@@ -30185,16 +30185,14 @@
     "author": "mkr-infinity",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/home.jpg",
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/canvas_player.jpg",
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/settings.jpg",
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/storage_cache.jpg",
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/artist.jpg",
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/appearance.jpg",
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/audio_output.jpg",
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/equalizer.jpg",
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/immersive_player.jpg",
-      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/ui/lyrics.jpg"
+      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/showcaseui/01.png",
+      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/showcaseui/02.png",
+      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/showcaseui/03.png",
+      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/showcaseui/04.png",
+      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/showcaseui/05.png",
+      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/showcaseui/06.png",
+      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/showcaseui/07.png",
+      "https://raw.githubusercontent.com/mkr-infinity/mkr-music/main/assets/showcaseui/08.png"
     ],
     "releaseKeyword": "apk"
   },
