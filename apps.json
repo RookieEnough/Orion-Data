@@ -37533,5 +37533,58 @@
       "https://raw.githubusercontent.com/LucaBernardiniii/Birthdawn/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6_person_material_you.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "minamo",
+    "name": "Minamo",
+    "description": "A free, lightweight anime discovery and tracking app by Aoki Yoshi. Explore trending series, daily schedules, and custom watchlists stored locally on your device.",
+    "icon": "https://raw.githubusercontent.com/theaokiyoshi/Minamo/main/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/theaokiyoshi/Minamo",
+    "githubRepo": "theaokiyoshi/Minamo",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.aokiyoshi.minamo",
+    "category": "Anime",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "theaokiyoshi",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/theaokiyoshi/Minamo/main/welcome.jpg",
+      "https://raw.githubusercontent.com/theaokiyoshi/Minamo/main/schedule.jpg",
+      "https://raw.githubusercontent.com/theaokiyoshi/Minamo/main/search.jpg",
+      "https://raw.githubusercontent.com/theaokiyoshi/Minamo/main/bookmarks.jpg",
+      "https://raw.githubusercontent.com/theaokiyoshi/Minamo/main/customization.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "tripsplit",
+    "name": "TripSplit",
+    "description": "Smart group travel expense manager with instant NPCI UPI settlements and debt simplification",
+    "icon": "https://raw.githubusercontent.com/iamrony27/TripSplit/master/assets/images/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/iamrony27/TripSplit",
+    "githubRepo": "iamrony27/TripSplit",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.tripsplit.app",
+    "category": "Productivity",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "iamrony27",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/iamrony27/TripSplit/master/docs/screenshots/02_home_dashboard.png",
+      "https://raw.githubusercontent.com/iamrony27/TripSplit/master/docs/screenshots/01_add_expense_screen.png",
+      "https://raw.githubusercontent.com/iamrony27/TripSplit/master/docs/screenshots/03_settlement_balances.png",
+      "https://raw.githubusercontent.com/iamrony27/TripSplit/master/docs/screenshots/04_recent_expenses.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
