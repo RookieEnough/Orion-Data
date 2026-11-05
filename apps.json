@@ -37831,5 +37831,36 @@
       "https://raw.githubusercontent.com/aadhil06dev/Nuvia-Musics/main/app/src/main/ic_launcher-playstore.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "auris",
+    "name": "Auris",
+    "description": "Auris - An overhaul and a massive upgrade of the existing foss YTM client everybody knows and loves",
+    "icon": "https://raw.githubusercontent.com/OreoMuncher45/Auris/refs/heads/main/app/src/main/res/drawable-nodpi/ic_launcher_foreground.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/OreoMuncher45/Auris",
+    "githubRepo": "OreoMuncher45/Auris",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.music.bitchord",
+    "category": "Music",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "OreoMuncher45",
+    "officialSite": "",
+    "screenshots": [
+      "https://auris.shehriyar.ink/assets/nowplaying.jpg",
+      "https://auris.shehriyar.ink/assets/artist-pink.jpg",
+      "https://auris.shehriyar.ink/assets/home.jpg",
+      "https://auris.shehriyar.ink/assets/jamesdsp.jpg",
+      "https://auris.shehriyar.ink/assets/search.jpg",
+      "https://auris.shehriyar.ink/assets/library.jpg",
+      "https://auris.shehriyar.ink/assets/classipod.jpg",
+      "https://auris.shehriyar.ink/assets/custom-dark.jpg",
+      "https://auris.shehriyar.ink/assets/artist-blue.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
