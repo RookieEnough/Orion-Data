@@ -38236,5 +38236,32 @@
       "https://raw.githubusercontent.com/sheikhti1205/Norfold/main/docs/screenshots/Screenshot_2026-11-06-21-16-48-556_com.findback.app.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "installblock",
+    "name": "InstallBlock",
+    "description": "Stop unwanted apps from being installed by system updates or malicious actors.",
+    "icon": "https://raw.githubusercontent.com/Ujwal223/InstallBlock/refs/heads/main/app/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Ujwal223/InstallBlock",
+    "githubRepo": "Ujwal223/InstallBlock",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.ujwal.installblock",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Ujwal Chapagain",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Ujwal223/InstallBlock/refs/heads/main/app/assets/Screenshot_20261106_170608_InstallBlock.jpg",
+      "https://raw.githubusercontent.com/Ujwal223/InstallBlock/refs/heads/main/app/assets/Screenshot_20261106_170639_InstallBlock.jpg",
+      "https://raw.githubusercontent.com/Ujwal223/InstallBlock/refs/heads/main/app/assets/Screenshot_20261106_171125_InstallBlock.jpg",
+      "https://raw.githubusercontent.com/Ujwal223/InstallBlock/refs/heads/main/app/assets/Screenshot_20261106_171204_Google%20Play%20Store.jpg",
+      "https://raw.githubusercontent.com/Ujwal223/InstallBlock/refs/heads/main/app/assets/Screenshot_20261106_170649_InstallBlock.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
