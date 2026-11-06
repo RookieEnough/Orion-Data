@@ -32400,7 +32400,7 @@
     "author": "Hance-PDv",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/11MFlow.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/10MFlow.png",
       "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/12MFlow.png",
       "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/13MFlow.png",
       "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/14MFlow.png",
@@ -36912,7 +36912,7 @@
     "icon": "https://raw.githubusercontent.com/Ns345543/openCaption/main/docs/branding/opencaption-icon-1024.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "https://github.com/Ns345543/openCaption/releases/latest/download/openCaption.zip",
+    "downloadUrl": "https://github.com/Ns345543/openCaption/releases/",
     "repoUrl": "",
     "githubRepo": "",
     "gitlabRepo": "",
@@ -37568,7 +37568,7 @@
     "icon": "https://raw.githubusercontent.com/iamrony27/TripSplit/master/assets/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "#",
+    "downloadUrl": "https://github.com/iamrony27/TripSplit",
     "repoUrl": "https://github.com/iamrony27/TripSplit",
     "githubRepo": "iamrony27/TripSplit",
     "gitlabRepo": "",
@@ -37679,7 +37679,7 @@
     "icon": "https://raw.githubusercontent.com/akosdevhu/QuickWallet/main/screenshots/logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "#",
+    "downloadUrl": "https://github.com/akosdevhu/QuickWalle",
     "repoUrl": "https://github.com/akosdevhu/QuickWallet",
     "githubRepo": "akosdevhu/QuickWallet",
     "gitlabRepo": "",
@@ -37691,9 +37691,7 @@
     "author": "akosdevhu",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/akosdevhu/QuickWallet/main/screenshots/home.jpg",
-      "https://raw.githubusercontent.com/akosdevhu/QuickWallet/main/screenshots/expanded.jpg",
-      "https://raw.githubusercontent.com/akosdevhu/QuickWallet/main/screenshots/active-card.jpg"
+      "https://github.com/akosdevhu/QuickWallet/blob/main/screenshots/home.jpghttps://github.com/akosdevhu/QuickWallet/blob/main/screenshots/expanded.jpghttps://github.com/akosdevhu/QuickWallet/blob/main/screenshots/active-card.jpg"
     ],
     "releaseKeyword": "apk"
   },
