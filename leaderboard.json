@@ -2077,5 +2077,14 @@
     "class": "Warrior",
     "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
     "last_updated": 1794064095393
+  },
+  {
+    "username": "geodt",
+    "xp": 11170,
+    "level": 27,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1794064107474
   }
 ]
