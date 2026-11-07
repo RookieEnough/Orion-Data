@@ -2068,5 +2068,14 @@
     "class": "Warrior",
     "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
     "last_updated": 1793874605598
+  },
+  {
+    "username": "bread",
+    "xp": 9440,
+    "level": 25,
+    "title": "Legend",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Unit01&backgroundColor=c0aede",
+    "last_updated": 1794064095393
   }
 ]
