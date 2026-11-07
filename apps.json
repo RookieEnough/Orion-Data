@@ -38263,5 +38263,30 @@
       "https://raw.githubusercontent.com/Ujwal223/InstallBlock/refs/heads/main/app/assets/Screenshot_20261106_170649_InstallBlock.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "world-product-word-hunt",
+    "name": "World Product Word Hunt",
+    "description": "WORLD PRODUCT WORD HUNT — offline-first worldwide product-name word-search game: 282 real products, 17 categories, 6 modes, 5 languages, Android APK + PWA, with a Wikipedia/Wikimedia content agent.",
+    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/world-product-word-hunt/main/assets/icons/icon-512.png\n",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/technicalnihilist-lgtm/world-product-word-hunt\n",
+    "githubRepo": "technicalnihilist-lgtm/world-product-word-hunt\n",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.worldproduct.wordhunt",
+    "category": "Games",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "technicalnihilist-lgtm",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/world-product-word-hunt/main/screenshots/14-mobile-game.jpg",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/world-product-word-hunt/main/screenshots/13-mobile-home.jpg",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/world-product-word-hunt/main/screenshots/17-mobile-expert.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
