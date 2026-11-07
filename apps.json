@@ -35276,8 +35276,16 @@
     "officialSite": "",
     "screenshots": [
       "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/01-welcome.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/02-your-stats.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/03-make-it-yours.jpeg",
       "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/04-home.jpeg",
-      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/07-details.jpeg"
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/05-anime-list.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/06-manga-list.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/07-details.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/08-seasonal.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/09-calendar.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/10-anime-ranking.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/11-manga-ranking.jpeg"
     ],
     "releaseKeyword": "apk"
   },
@@ -37759,7 +37767,7 @@
     "id": "mpvflux",
     "name": "MpvFlux",
     "description": "A fork of MpvEx with some Improvments. A fast, battery-friendly local video player for Android, built on mpv.\n\nFull ASS/SSA subtitle rendering, hardware decoding and a modern Material 3 design. Made with anime in mind.",
-    "icon": "https://raw.githubusercontent.com/Muhammedahmed18/mpvFlux/master/app/src/main/ic_launcher-playstore.png",
+    "icon": "https://raw.githubusercontent.com/Muhammedahmed18/mpvFlux/master/fastlane/metadata/android/en-US/images/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -37774,9 +37782,9 @@
     "author": "Muhammedahmed18",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Muhammedahmed18/mpvFlux/master/website/public/featureGraphic.png",
-      "https://raw.githubusercontent.com/Muhammedahmed18/mpvFlux/master/app/src/main/ic_launcher-playstore.png",
-      "https://raw.githubusercontent.com/Muhammedahmed18/mpvFlux/master/fastlane/metadata/android/en-US/images/icon.png"
+      "https://raw.githubusercontent.com/Muhammedahmed18/mpvFlux/master/fastlane/metadata/android/en-US/images/phoneScreenshots/folderscreen.png",
+      "https://raw.githubusercontent.com/Muhammedahmed18/mpvFlux/master/fastlane/metadata/android/en-US/images/phoneScreenshots/videoscreen.png",
+      "https://raw.githubusercontent.com/Muhammedahmed18/mpvFlux/master/fastlane/metadata/android/en-US/images/phoneScreenshots/player.png"
     ],
     "releaseKeyword": "apk"
   },
