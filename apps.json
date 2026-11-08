@@ -38401,5 +38401,87 @@
       "https://raw.githubusercontent.com/technicalnihilist-lgtm/ultimate-guard/main/docs/screenshots/settings.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "aemulator",
+    "name": "Aemulator",
+    "description": "Android emulator that emulates older Android firmware versions.\n\nRun classic Android firmware — HTC Sense, TouchWiz, MIUI, AOSP — on a modern phone. No root, no PC.\n\nAEmulator boots a real Android 2.3–17 system image straight from a firmware file you already have: a recovery ZIP, an Odin archive, a Google factory image or a GSI. Old 32-bit firmware (2.3–4.4) runs through a patched QEMU, Android 5.0–17 runs natively on the phone’s arm64 cores. The kernel’s binder is emulated, graphics use your phone’s GPU and sound goes through Android’s audio stack — everything runs inside a normal app.",
+    "icon": "https://raw.githubusercontent.com/uxazu/aemulator/main/docs/assets/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/uxazu/aemulator",
+    "githubRepo": "uxazu/aemulator",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.aemu",
+    "category": "Development",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "uxazu",
+    "officialSite": "",
+    "screenshots": [
+      "https://aemulator.fun/assets/screen-library.png",
+      "https://aemulator.fun/assets/screen-library.png",
+      "https://aemulator.fun/assets/screen-library.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "yuki",
+    "name": "Yuki",
+    "description": "Catalog of open-source Android applications that use the Shizuku permission framework.",
+    "icon": "https://github.com/carlelieser.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/carlelieser/yuki",
+    "githubRepo": "carlelieser/yuki",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.yuki",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "carlelieser",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/explore.png",
+      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/listing.png",
+      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/search.png",
+      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/library.png",
+      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/updates.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "zafiro",
+    "name": "Zafiro",
+    "description": "Open-source BYOK AI agent for Android. Full phone control, native Shell & Python 3, with Skills and MCP support. Built with Material 3 Expressive. Works via Shizuku (root optional). Bring any provider: OpenRouter, Ollma, and more.",
+    "icon": "https://github.com/niki914.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/niki914/zafiro",
+    "githubRepo": "niki914/zafiro",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.niki914.zafiro",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "niki914",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/niki914/zafiro/main/res/demos/zafiro__phone_control.gif",
+      "https://raw.githubusercontent.com/niki914/zafiro/main/res/demos/zafiro__html_generation.gif",
+      "https://raw.githubusercontent.com/niki914/zafiro/main/res/takeover/breeno__termux.gif",
+      "https://raw.githubusercontent.com/niki914/zafiro/main/res/takeover/hyper__intro.gif",
+      "https://raw.githubusercontent.com/niki914/zafiro/main/res/demos/zafiro__pi_agent_mcp.gif",
+      "https://raw.githubusercontent.com/niki914/zafiro/main/res/demos/zafiro__image_understanding.jpg",
+      "https://raw.githubusercontent.com/niki914/zafiro/main/res/demos/zafiro__multi_providers.jpg",
+      "https://raw.githubusercontent.com/niki914/zafiro/main/res/demos/zafiro__remote_machine_ssh.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
