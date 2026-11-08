@@ -29099,10 +29099,12 @@
     "author": "M-Tre Consulting",
     "officialSite": "",
     "screenshots": [
-      "https://i.imgur.com/mTxL54E.png",
-      "https://i.imgur.com/ep5zDx0.png",
-      "https://i.imgur.com/xizE5dM.png",
-      "https://i.imgur.com/QsJI0ML.png"
+      "https://raw.githubusercontent.com/M-Tre-Consulting/devkit/main/assets/screenshots/01_home.jpg",
+      "https://raw.githubusercontent.com/M-Tre-Consulting/devkit/main/assets/screenshots/02_uuid_generator.jpg",
+      "https://raw.githubusercontent.com/M-Tre-Consulting/devkit/main/assets/screenshots/03_hash_calculator.jpg",
+      "https://raw.githubusercontent.com/M-Tre-Consulting/devkit/main/assets/screenshots/04_chmod_calculator.jpg",
+      "https://raw.githubusercontent.com/M-Tre-Consulting/devkit/main/assets/screenshots/05_favorites.jpg",
+      "https://raw.githubusercontent.com/M-Tre-Consulting/devkit/main/assets/screenshots/06_settings.jpg"
     ],
     "releaseKeyword": "apk"
   },
