@@ -38430,33 +38430,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "yuki",
-    "name": "Yuki",
-    "description": "Catalog of open-source Android applications that use the Shizuku permission framework.",
-    "icon": "https://github.com/carlelieser.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/carlelieser/yuki",
-    "githubRepo": "carlelieser/yuki",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "app.yuki",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "carlelieser",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/explore.png",
-      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/listing.png",
-      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/search.png",
-      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/library.png",
-      "https://raw.githubusercontent.com/carlelieser/yuki/main/assets/screenshots/updates.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "zafiro",
     "name": "Zafiro",
     "description": "Open-source BYOK AI agent for Android. Full phone control, native Shell & Python 3, with Skills and MCP support. Built with Material 3 Expressive. Works via Shizuku (root optional). Bring any provider: OpenRouter, Ollma, and more.",
