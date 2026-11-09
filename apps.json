@@ -39056,5 +39056,34 @@
       "https://raw.githubusercontent.com/FanFeast/anonpdf/main/docs/screenshots/editor-draw.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "kookyar",
+    "name": "Kookyar",
+    "description": "A precise assistant for tuning Iranian and international musical instruments",
+    "icon": "https://raw.githubusercontent.com/Armin-ph/kookyar/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/Armin-ph/kookyar",
+    "githubRepo": "Armin-ph/kookyar",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.kookyar.app",
+    "category": "Music",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Armin-ph",
+    "officialSite": "",
+    "screenshots": [
+      "https://hostmyimg.com/i/d805ab4731.png",
+      "https://hostmyimg.com/i/e518d1648a.png",
+      "https://hostmyimg.com/i/db85fb238a.png",
+      "https://hostmyimg.com/i/de21778620.png",
+      "https://hostmyimg.com/i/044593cd66.png",
+      "https://hostmyimg.com/i/531e7f46d7.png",
+      "https://hostmyimg.com/i/23381231b0.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
