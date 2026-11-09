@@ -29055,7 +29055,7 @@
   },
   {
     "id": "devkit",
-    "name": "Devkit",
+    "name": "DevKit",
     "description": "A fully-Rust dev toolbox for Android, built with Slint to test whether the framework is ready for real mobile UI work. Experimental, not production-ready.",
     "icon": "https://raw.githubusercontent.com/M-Tre-Consulting/devkit/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "version": "Latest",
@@ -29718,7 +29718,7 @@
     "id": "clearpdf",
     "name": "ClearPDF",
     "description": "ClearPDF is an Android document toolkit for reading and annotating PDFs, managing PDF pages, scanning paper documents, and opening common Office and image files. The source is licensed under MIT. Most file operations run on-device. The FOSS build uses network for its optional Office engine and URL-to-PDF features; Google Play services may provide scanner and background-removal components",
-    "icon": "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/refs/heads/main/CloudStream-Beta/file_000000005f4081faaaa5f5066320c7d3.png",
+    "icon": "https://raw.githubusercontent.com/Chethan616/Artefact/refs/heads/main/docs/media/artefact-icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -29733,14 +29733,12 @@
     "author": "Chethan616",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Chethan616/ClearPDF/refs/heads/main/screenshots/light%20home%20screen.jpg",
-      "https://raw.githubusercontent.com/Chethan616/ClearPDF/refs/heads/main/screenshots/light%20pdf%20tools.jpg",
-      "https://raw.githubusercontent.com/Chethan616/ClearPDF/refs/heads/main/screenshots/light%20settings%20screen.jpg",
-      "https://raw.githubusercontent.com/Chethan616/ClearPDF/refs/heads/main/demo/3.jpg",
-      "https://raw.githubusercontent.com/Chethan616/ClearPDF/refs/heads/main/demo/4.jpg",
-      "https://raw.githubusercontent.com/Chethan616/ClearPDF/refs/heads/main/screenshots/dark%20home%20screen.jpg",
-      "https://raw.githubusercontent.com/Chethan616/ClearPDF/refs/heads/main/screenshots/dark%20pdf%20tools.jpg",
-      "https://raw.githubusercontent.com/Chethan616/ClearPDF/refs/heads/main/screenshots/dark%20settings%20screen.jpg"
+      "https://raw.githubusercontent.com/Chethan616/Artefact/main/docs/media/01-home.png",
+      "https://raw.githubusercontent.com/Chethan616/Artefact/main/docs/media/02-shopping-list.png",
+      "https://raw.githubusercontent.com/Chethan616/Artefact/main/docs/media/03-files-menu.png",
+      "https://raw.githubusercontent.com/Chethan616/Artefact/main/docs/media/04-pdf-viewer.png",
+      "https://raw.githubusercontent.com/Chethan616/Artefact/main/docs/media/05-thought-note.png",
+      "https://raw.githubusercontent.com/Chethan616/Artefact/main/docs/media/05-tools.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -36451,10 +36449,11 @@
     "author": "Roggzuay",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/home.png",
-      "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/player.png",
-      "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/lyrics.png",
-      "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/speed_pitch.png"
+      "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/settings.jpg",
+      "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/demo/artwork-shapes.gif",
+      "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/library.jpg",
+      "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/artist.jpg",
+      "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/home.jpg"
     ],
     "releaseKeyword": "apk"
   },
