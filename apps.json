@@ -29716,13 +29716,13 @@
   },
   {
     "id": "clearpdf",
-    "name": "ClearPDF",
+    "name": "Artefact",
     "description": "ClearPDF is an Android document toolkit for reading and annotating PDFs, managing PDF pages, scanning paper documents, and opening common Office and image files. The source is licensed under MIT. Most file operations run on-device. The FOSS build uses network for its optional Office engine and URL-to-PDF features; Google Play services may provide scanner and background-removal components",
     "icon": "https://raw.githubusercontent.com/Chethan616/Artefact/refs/heads/main/docs/media/artefact-icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/Chethan616/ClearPDF",
+    "repoUrl": "https://github.com/Chethan616/Artefact",
     "githubRepo": "Chethan616/ClearPDF",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -35248,7 +35248,7 @@
     "author": "Muhammedahmed18",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/01-welcome.jpeg",
+      "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/01-welcome-new.jpeg",
       "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/02-your-stats.jpeg",
       "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/03-make-it-yours.jpeg",
       "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/screenshots/04-home.jpeg",
@@ -35450,7 +35450,7 @@
   },
   {
     "id": "pdfreaderpro",
-    "name": "PdfReaderPro",
+    "name": "All Document Viewer",
     "description": "Modern PDF Viewer for Android.\n\nA feature-rich, privacy-focused PDF app built with Jetpack Compose and Material 3. View, edit, and manage PDFs with 12 powerful tools.\n\nFEATURES -\n\n•PDF Viewing - Smooth rendering with zoom, scroll, and page navigation.\n\n• 12 PDF Tools - Merge, split, compress, rotate, reorder, remove pages, add page numbers, watermark, lock/unlock, PDF to images, images to PDF.\n\n•Bookmarks - Save and manage bookmarks within documents.\n\n•Table of Contents - Navigate using document outlines.\n\n•Search - Full-text search within documents.\n\n•Auto-Scroll - Hands-free reading with adjustable speed.\n\n•File Management - Browse, search, sort, and organize PDFs.\n\n•Recent & Favorites - Quick access to your files.\n\n•Material 3 Design - Modern UI with dark mode and dynamic colors.\n\n•100% Offline - Complete privacy, no ads, no tracking.",
     "icon": "https://raw.githubusercontent.com/ahmmedrejowan/PdfReaderPro/master/files/logo.png",
     "version": "Latest",
@@ -36214,7 +36214,7 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "https://github.com/Shrey113/Android-Dex",
-    "repoUrl": "https://github.com/Fandroid745/Open-notes",
+    "repoUrl": "https://github.com/Shrey113/Android-Dex",
     "githubRepo": "",
     "gitlabRepo": "",
     "gitlabDomain": "",
@@ -37572,7 +37572,7 @@
   {
     "id": "cubes-paradox",
     "name": "Cubes Paradox",
-    "description": "A puzzle game about boxes that hold whole rooms. 294 levels, 14 worlds, English & Arabic. Android (Capacitor).",
+    "description": "A hard puzzle game about boxes that hold whole rooms: push them, walk inside them and find your way out. 193 levels in 14 worlds, a daily puzzle, 7 languages, works offline.",
     "icon": "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/assets/icon-only.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -37661,7 +37661,7 @@
     "icon": "https://raw.githubusercontent.com/akosdevhu/QuickWallet/main/screenshots/logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "https://github.com/akosdevhu/QuickWalle",
+    "downloadUrl": "https://github.com/akosdevhu/QuickWallet",
     "repoUrl": "https://github.com/akosdevhu/QuickWallet",
     "githubRepo": "akosdevhu/QuickWallet",
     "gitlabRepo": "",
@@ -37673,7 +37673,9 @@
     "author": "akosdevhu",
     "officialSite": "",
     "screenshots": [
-      "https://github.com/akosdevhu/QuickWallet/blob/main/screenshots/home.jpghttps://github.com/akosdevhu/QuickWallet/blob/main/screenshots/expanded.jpghttps://github.com/akosdevhu/QuickWallet/blob/main/screenshots/active-card.jpg"
+      "https://github.com/akosdevhu/QuickWallet/blob/main/screenshots/home.jpg",
+      "https://github.com/akosdevhu/QuickWallet/blob/main/screenshots/expanded.jpg",
+      "https://github.com/akosdevhu/QuickWallet/blob/main/screenshots/active-card.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -37875,7 +37877,7 @@
     "icon": "https://raw.githubusercontent.com/adammg-tech/iBridge/refs/heads/master/metadata/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "#",
+    "downloadUrl": "https://github.com/adammg-tech/iBridge",
     "repoUrl": "https://github.com/adammg-tech/iBridge",
     "githubRepo": "adammg-tech/iBridge",
     "gitlabRepo": "",
@@ -37923,7 +37925,7 @@
   },
   {
     "id": "horizon-android",
-    "name": "Horizon Android",
+    "name": "Starling",
     "description": "Unofficial Horizon Android port: Rust Minecraft 26.3, Vulkan, editable touch controls and native .hmod mods.\n\nA native Android port of Horizon, the Rust engine for Minecraft Java 26.3. Unofficial and in active development.",
     "icon": "https://raw.githubusercontent.com/Vasysik/horizon-android/android/packaging/icons/hicolor/64x64/apps/horizon.png",
     "version": "Latest",
@@ -38516,7 +38518,7 @@
   {
     "id": "ehsaanplay",
     "name": "Ehsaanplay",
-    "description": "NO MORE STRUGGLE TO FIND MOVIES WHEN SITTING IN FRONT OF TV\n\nPLEASE REFER WEBAPP **ehsaanplay.ai.studio** OVER BETA APK",
+    "description": "NO MORE HUSTLE TO FIND YOUR FAVOURITE MOVIES AND SERIES WHEN SETTING IN FRONT OF THE TV AT WEEKENDS. \n\nWEBAPP- ehsaanplay.ai.studio\n\nEhsaan Play is private Watchlist management app with these features. \n- home page with trending movies/series \n- continue watching for remeber the last episode \n- personal favourite list \n- proper playlist manager\n- full app backup and restore through json files\n- support to sync changes through code pairing \n- a proper settings page with all tweaks and customisation.",
     "icon": "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/public/play-icons/icon-cream.png",
     "version": "Latest",
     "latestVersion": "Latest",
