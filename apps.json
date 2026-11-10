@@ -39087,5 +39087,58 @@
       "https://hostmyimg.com/i/23381231b0.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "photos-android",
+    "name": "Photos Android",
+    "description": "Photos — a native Android APK wrapping a self-contained HTML photo-gallery UI (WebView shell, offline, procedural canvas artwork).",
+    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/photos-android/main/store/icon-512.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/technicalnihilist-lgtm/photos-android\n",
+    "githubRepo": "technicalnihilist-lgtm/photos-android\n",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.nihao.photos",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "technicalnihilist-lgtm",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/photos-android/main/screenshots/04-library-dark.png",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/photos-android/main/screenshots/05-collections-dark.png",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/photos-android/main/screenshots/06-search-dark.png",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/photos-android/main/screenshots/01-library.png",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/photos-android/main/screenshots/02-collections.png",
+      "https://raw.githubusercontent.com/technicalnihilist-lgtm/photos-android/main/screenshots/03-search.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "mister-download-manager",
+    "name": "mister download manager",
+    "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+    "icon": "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/logo.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/anefzaoui/misterdownloadmanager/releases/latest",
+    "repoUrl": "",
+    "githubRepo": "",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Browsers",
+    "platform": "PC",
+    "size": "Varies",
+    "author": "Github.com",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/progress.webp",
+      "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/main-dark.webp",
+      "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/language-picker.webp"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
