@@ -29740,7 +29740,7 @@
       "https://raw.githubusercontent.com/Chethan616/Artefact/main/docs/media/05-thought-note.png",
       "https://raw.githubusercontent.com/Chethan616/Artefact/main/docs/media/05-tools.png"
     ],
-    "releaseKeyword": "apk"
+    "releaseKeyword": "Artefact"
   },
   {
     "id": "daily-you",
@@ -35233,7 +35233,7 @@
     "id": "yumelist",
     "name": "YumeList",
     "description": "Unofficial Android MAL client based on Moelist",
-    "icon": "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/fastlane/metadata/android/en-US/images/icon.png",
+    "icon": "https://raw.githubusercontent.com/Muhammedahmed18/YumeList/master/assets/icon-new.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -37499,12 +37499,13 @@
     "author": "DAOUDsys",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/01-rooms-inside-rooms.png",
-      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/02-step-inside.png",
-      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/03-room-holds-itself.png",
-      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/04-holes-cracks-colors.png",
-      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/05-hints.png",
-      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/06-14-worlds-daily.png"
+      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/01-smart-players.png",
+      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/02-sharpen-thinking.png",
+      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/03-holds-itself.png",
+      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/04-new-rules.png",
+      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/05-two-step-hints.png",
+      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/06-worlds-and-daily.png",
+      "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/store/screenshots/07-seven-languages.png"
     ],
     "releaseKeyword": "apk"
   },
