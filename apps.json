@@ -37585,9 +37585,9 @@
     "author": "akosdevhu",
     "officialSite": "",
     "screenshots": [
-      "https://github.com/akosdevhu/QuickWallet/blob/main/screenshots/home.jpg",
-      "https://github.com/akosdevhu/QuickWallet/blob/main/screenshots/expanded.jpg",
-      "https://github.com/akosdevhu/QuickWallet/blob/main/screenshots/active-card.jpg"
+      "https://raw.githubusercontent.com/akosdevhu/QuickWallet/main/screenshots/home.jpg",
+      "https://raw.githubusercontent.com/akosdevhu/QuickWallet/a9b0037aaa0ed79ac0d9c64be2fb3b81eb5bfbce/screenshots/expanded.jpg",
+      "https://raw.githubusercontent.com/akosdevhu/QuickWallet/a9b0037aaa0ed79ac0d9c64be2fb3b81eb5bfbce/screenshots/active-card.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -38982,7 +38982,7 @@
     "id": "fmhyplay",
     "name": "FMHYPlay",
     "description": "FMHYPlay is a powerful Android streaming browser and native video player designed for phones, tablets, Android TV, Google TV and Fire TV.\n\n**Features:**\n- Native ExoPlayer with hardware-accelerated video playback.\n- Built-in ad, tracker and pop-up blocking.\n- Optional Cloudflare WARP integration.\n- IPTV with more than 11,000 public channels.\n- Movie, TV series and anime browsing.\n- Built-in subtitle support through OpenSubtitles.\n- Chromecast and DLNA casting support.\n- TV remote and touchscreen navigation.\n- Custom streaming website support.\n- No account, analytics or telemetry.\n\nRequires Android 8.0 or newer.\n\nOpen-source project licensed under MIT.\n\nOfficial source: https://github.com/fmhyplay/android",
-    "icon": "https://raw.githubusercontent.com/fmhyplay/android/main/docs/banner.png",
+    "icon": "https://raw.githubusercontent.com/fmhyplay/android/refs/heads/main/docs/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
