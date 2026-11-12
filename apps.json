@@ -23708,7 +23708,7 @@
     "githubRepo": "HmnDev-Tech/shevery",
     "gitlabRepo": "",
     "gitlabDomain": "",
-    "packageName": "moe.shizuku.privileged.api",
+    "packageName": "com.hamondev.shevery",
     "category": "Utility",
     "platform": "Android",
     "size": "Varies",
@@ -29104,7 +29104,7 @@
       "https://f-droid.org/repo/net.thunderbird.android/en-US/phoneScreenshots/1.png",
       "https://f-droid.org/repo/net.thunderbird.android/en-US/phoneScreenshots/2.png"
     ],
-    "releaseKeyword": "apk"
+    "releaseKeyword": "thunderbird"
   },
   {
     "id": "wheather-pro",
@@ -37516,7 +37516,7 @@
     "icon": "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/main/Lumen/file_000000004bb48211ac1b4c33c08e4206.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "#",
+    "downloadUrl": "https://github.com/Reiux/lumen-android",
     "repoUrl": "https://github.com/Reiux/lumen-android",
     "githubRepo": "Reiux/lumen-android",
     "gitlabRepo": "",
@@ -38355,7 +38355,7 @@
     "icon": "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/public/play-icons/icon-cream.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "#",
+    "downloadUrl": "https://github.com/ehsaanullah0/ehsaanplay",
     "repoUrl": "https://github.com/ehsaanullah0/ehsaanplay",
     "githubRepo": "ehsaanullah0/ehsaanplay",
     "gitlabRepo": "",
@@ -39052,10 +39052,8 @@
     "author": "Brandon04Gonzalez",
     "officialSite": "",
     "screenshots": [
-      "https://i.postimg.cc/TPKpyxgd/Screenshot-20261110-134745-P5R.png",
-      "https://i.postimg.cc/15MtJXKP/Screenshot-20261110-134733-P5R.png",
-      "https://i.postimg.cc/XJM7pCnz/Screenshot-20261110-134726-P5R.png",
-      "https://i.postimg.cc/GtKc7gGZ/Screenshot-20261110-134718-P5R.png"
+      "https://raw.githubusercontent.com/bwedirhan/Sceenshots/main/Screenshot_20261112-150736_P5R.png",
+      "https://raw.githubusercontent.com/bwedirhan/Sceenshots/main/Screenshot_20261112-150843_P5R.png"
     ],
     "releaseKeyword": "apk"
   },
