@@ -32543,7 +32543,7 @@
       "https://raw.githubusercontent.com/bitwarden/brand/main/screenshots/mobile-send.png",
       "https://raw.githubusercontent.com/bitwarden/brand/main/screenshots/passwordless-biometrics.png"
     ],
-    "releaseKeyword": "apk"
+    "releaseKeyword": "com.x8bit.bitwarden.apk"
   },
   {
     "id": "tailscale-android",
@@ -38712,9 +38712,9 @@
     "author": "Silvertax",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Silvertax/rezi-check/main/docs/screenshots/en-home.png",
-      "https://raw.githubusercontent.com/Silvertax/rezi-check/main/docs/screenshots/en-result.png",
-      "https://raw.githubusercontent.com/Silvertax/rezi-check/main/docs/screenshots/en-result-dark.png"
+      "https://raw.githubusercontent.com/Silvertax/rezi-check/main/docs/screenshots/en-home.png?v=1.6",
+      "https://raw.githubusercontent.com/Silvertax/rezi-check/main/docs/screenshots/en-result.png?v=1.6",
+      "https://raw.githubusercontent.com/Silvertax/rezi-check/main/docs/screenshots/en-result-dark.png?v=1.6"
     ],
     "releaseKeyword": "apk"
   },
