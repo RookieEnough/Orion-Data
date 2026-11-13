@@ -20986,7 +20986,7 @@
       "https://play-lh.googleusercontent.com/c4gme9mZipZaznEyKFT9w6rVndQPFc4YbwUm92JjLcYjeTlToEZL4Hs24c77EK-dIA=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/wih_WEjUZBxlME8K4-JJu-2soGw8DLF_tkf4XDM1Y770siZdI60vPf23wrROXC-b0SU=w1052-h592-rw"
     ],
-    "releaseKeyword": "apk"
+    "releaseKeyword": "brave nightly"
   },
   {
     "id": "utag",
@@ -27590,7 +27590,7 @@
     "id": "kanri",
     "name": "Kanri",
     "description": "An offline, privacy-first expense tracker for Android that tracks your spending automatically from bank SMS.",
-    "icon": "https://raw.githubusercontent.com/omkarnub/Kanri/main/kanri_app_icon_dark.png",
+    "icon": "https://github.com/omkarnub/Kanri/blob/main/kanri_app_icon_dark.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -27605,11 +27605,11 @@
     "author": "omkarnub",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/omkarnub/Kanri/main/docs/screenshots/goals.jpeg",
-      "https://raw.githubusercontent.com/omkarnub/Kanri/main/docs/screenshots/home.jpeg",
-      "https://raw.githubusercontent.com/omkarnub/Kanri/main/docs/screenshots/insights.jpeg",
-      "https://raw.githubusercontent.com/omkarnub/Kanri/main/docs/screenshots/lend-borrow.jpeg",
-      "https://raw.githubusercontent.com/omkarnub/Kanri/main/docs/screenshots/profile.jpeg"
+      "https://github.com/omkarnub/Kanri/blob/main/docs/screenshots/home.png",
+      "https://github.com/omkarnub/Kanri/blob/main/docs/screenshots/insights.png",
+      "https://github.com/omkarnub/Kanri/blob/main/docs/screenshots/lend-borrow.png",
+      "https://github.com/omkarnub/Kanri/blob/main/docs/screenshots/goals.png",
+      "https://github.com/omkarnub/Kanri/blob/main/docs/screenshots/profile.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -37483,7 +37483,7 @@
   {
     "id": "cubes-paradox",
     "name": "Cubes Paradox",
-    "description": "A hard puzzle game about boxes that hold whole rooms: push them, walk inside them and find your way out. 193 levels in 14 worlds, a daily puzzle, 7 languages, works offline.",
+    "description": "A hard puzzle game for smart players: every colored box holds a whole room you can walk into. 298 levels in 21 worlds, with wind, jump pads, mirror rooms and a second sprout. A daily puzzle, 7 languages, works offline.",
     "icon": "https://raw.githubusercontent.com/DAOUDsys/cubes-paradox/main/assets/icon-only.png",
     "version": "Latest",
     "latestVersion": "Latest",
@@ -38355,7 +38355,7 @@
     "icon": "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/public/play-icons/icon-cream.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "https://github.com/ehsaanullah0/ehsaanplay",
+    "downloadUrl": "https://github.com/ehsaanullah0/ehsaanplay/releases",
     "repoUrl": "https://github.com/ehsaanullah0/ehsaanplay",
     "githubRepo": "ehsaanullah0/ehsaanplay",
     "gitlabRepo": "",
@@ -38372,7 +38372,7 @@
       "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/666697010-d68009b2-1cfb-4502-ab62-cf4ff0ab64f8.png",
       "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/666699960-cf1c76a1-b220-4b18-9d2c-f4787ae065da.png"
     ],
-    "releaseKeyword": "apk"
+    "releaseKeyword": "ehsaanplay"
   },
   {
     "id": "tvos-launcher",
@@ -38939,12 +38939,16 @@
     "author": "ehsaanullah0",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanqr/main/assets/Screenshot_20261110-133231.png",
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanqr/main/assets/Screenshot_20261110-132530.png",
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanqr/main/assets/Screenshot_20261110-132540.png",
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanqr/main/assets/Screenshot_20261110-132619.png",
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanqr/main/assets/Screenshot_20261110-132638.png",
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanqr/main/assets/Screenshot_20261110-132644.png"
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261110-133231.png",
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261110-132530.png",
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261110-132540.png",
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261110-132619.png",
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261110-132638.png",
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261110-132644.png",
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261111-103343.png",
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261111-103353.png",
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261111-103407.png",
+      "https://github.com/ehsaanullah0/ehsaanqr/blob/main/assets/Screenshot_20261111-103516.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -39594,7 +39598,7 @@
     "id": "flickora",
     "name": "Flickora",
     "description": "A sleek Android app to discover, browse, and watch movies & TV series — powered by TMDB and VidRift.",
-    "icon": "https://raw.githubusercontent.com/BindasTime/Flickora/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "icon": "https://github.com/BindasTime/Flickora/blob/main/build/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
