@@ -40112,31 +40112,7 @@
     ],
     "releaseKeyword": "apk"
   },
-  {
-    "id": "lampcord",
-    "name": "Lampcord",
-    "description": "Lampcord is a lightweight Discord client built with Compose Multiplatform for Mobile and Desktop. It aims for a native, fast, and customizable Discord experience without the bloat and heavy memory footprint of Electron or WebViews",
-    "icon": "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/refs/heads/main/App-Icon/IMG_20261113_155930.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/l6t9/Lampcord",
-    "githubRepo": "l6t9/Lampcord",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "me.lampu.lampcord",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "l6t9",
-    "officialSite": "",
-    "screenshots": [
-      "https://cord.lampu.dev/images/lampcord-1.png?v=3",
-      "https://cord.lampu.dev/images/lampcord-s1.png?v=3",
-      "https://cord.lampu.dev/images/lampcord-p1.png?v=3"
-    ],
-    "releaseKeyword": "apk"
-  },
+  
   {
     "id": "xreader",
     "name": "Xreader",
