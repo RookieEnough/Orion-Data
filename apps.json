@@ -40930,5 +40930,30 @@
       "https://raw.githubusercontent.com/Arson800/Quwi-Patches-Orion-Port/main/Screenshot_20261114_095533_GitHub.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "fetchjet",
+    "name": "FetchJet",
+    "description": "Fast download manager for files, videos, playlists and torrents.\nFull description:\nFetchJet is one download manager for everything: files, videos, playlists and torrents.",
+    "icon": "https://raw.githubusercontent.com/the-best-is-best/FetchJet/master/androidApp/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/the-best-is-best/FetchJet",
+    "githubRepo": "the-best-is-best/FetchJet",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.michelle.raouf.fetch_jet",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "the-best-is-best",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/master/docs/media/phone-list.png",
+      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/master/docs/media/desktop.png",
+      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/master/docs/media/android-details.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
