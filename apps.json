@@ -12456,7 +12456,7 @@
     "latestVersion": "Latest",
     "downloadUrl": "#",
     "repoUrl": "https://gitlab.com/ironfox-oss/IronFox",
-    "githubRepo": "",
+    "githubRepo": "https://github.com/ironfox-oss/IronFox",
     "gitlabRepo": "ironfox-oss/IronFox",
     "gitlabDomain": "gitlab.com",
     "packageName": "org.ironfoxoss.ironfox",
@@ -38367,10 +38367,16 @@
     "author": "ehsaanullah0",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/665421134-72d3bb7f-e49e-4b93-be42-f7218c715bc4.png",
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/666700748-c466c0a7-8f41-4bfe-b863-d2635f31c210.png",
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/666697010-d68009b2-1cfb-4502-ab62-cf4ff0ab64f8.png",
-      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/666699960-cf1c76a1-b220-4b18-9d2c-f4787ae065da.png"
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-142536.png",
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-142547.png",
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-142634.png",
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-142829.png",
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-142750.png",
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-143014.png",
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-143039.png",
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-143103.png",
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-143326.png",
+      "https://raw.githubusercontent.com/ehsaanullah0/ehsaanplay/main/assets/appview/Screenshot_20261114-143345.png"
     ],
     "releaseKeyword": "ehsaanplay"
   },
