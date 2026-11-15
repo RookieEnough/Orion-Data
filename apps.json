@@ -41253,5 +41253,30 @@
       "https://raw.githubusercontent.com/alex2323-droid/ALX-Office/main/public/assets/aistudio/1794708396591_f43e1352.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "pixel-now-playing-universal",
+    "name": "Pixel Now Playing Universal",
+    "description": "🎵 Port of Google Pixel's new 2026 Standalone Now Playing app (com.google.android.apps.pixel.nowplaying) for ALL Android phones! Built-in offline NNFPv3 engine. No Root / No Shizuku.",
+    "icon": "https://raw.githubusercontent.com/YashjitPal/Pixel-Now-Playing-Universal/temp-clean/assets/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/YashjitPal/Pixel-Now-Playing-Universal",
+    "githubRepo": "YashjitPal/Pixel-Now-Playing-Universal",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.google.android.apps.pixel.nowplaying",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "YashjitPal",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/YashjitPal/Pixel-Now-Playing-Universal/temp-clean/assets/screenshot_home.png",
+      "https://raw.githubusercontent.com/YashjitPal/Pixel-Now-Playing-Universal/temp-clean/assets/screenshot_history.png",
+      "https://raw.githubusercontent.com/YashjitPal/Pixel-Now-Playing-Universal/temp-clean/assets/screenshot_favorites.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
