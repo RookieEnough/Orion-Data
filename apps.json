@@ -21517,31 +21517,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "shizu-isolation",
-    "name": "Shizu Isolation",
-    "description": "Shizu Isolation is an Android app that protects your data with one tap. This APK locks your USB port to charging-only mode instantly, blocking unauthorized data access from untrusted computers, public chargers, or unknown devices. Simple, lightweight, and no root required — powered by Shizuku.",
-    "icon": "https://github.com/musaddiqbaluch/ShizuIsolation/raw/main/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/musaddiqbaluch/ShizuIsolation",
-    "githubRepo": "musaddiqbaluch/ShizuIsolation",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.musaddiqbaluch.shizuisolation",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "musaddiqbaluch",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/musaddiqbaluch/ShizuIsolation/main/ShizuIsolation-screenshot1.jpg",
-      "https://raw.githubusercontent.com/musaddiqbaluch/ShizuIsolation/main/ShizuIsolation-screenshot2.jpg",
-      "https://raw.githubusercontent.com/musaddiqbaluch/ShizuIsolation/main/ShizuIsolation-screenshot3.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "tempo",
     "name": "Tempo",
     "description": "A minimalist, modern alarm clock application built with Flutter.  Tempo is a high-fidelity clock app designed for simplicity and ease of use. Featuring an intuitive, wheel-based time selection interface and a clean, monochromatic aesthetic, Tempo streamlines how you manage your daily alarms.",
@@ -22610,34 +22585,6 @@
       "https://raw.githubusercontent.com/mgitlabs/Gesture-Launcher/refs/heads/main/assets/Screenshot_20260611-052235.png",
       "https://raw.githubusercontent.com/mgitlabs/Gesture-Launcher/refs/heads/main/assets/Screenshot_20260611-052305.png",
       "https://raw.githubusercontent.com/mgitlabs/Gesture-Launcher/refs/heads/main/assets/Screenshot_20260611-052316.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "unit-converter",
-    "name": "Unit Converter",
-    "description": "Offline application, convert any units! Free, open source, no internet and ad free",
-    "icon": "https://raw.githubusercontent.com/kiriliodas/Unit-Converter/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/kiriliodas/Unit-Converter",
-    "githubRepo": "kiriliodas/Unit-Converter",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.blood.unitconverter",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "kiriliodas",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/kiriliodas/Unit-Converter/main/docs/screenshots/01-home.png",
-      "https://raw.githubusercontent.com/kiriliodas/Unit-Converter/main/docs/screenshots/02-history.png",
-      "https://raw.githubusercontent.com/kiriliodas/Unit-Converter/main/docs/screenshots/04-share.png",
-      "https://raw.githubusercontent.com/kiriliodas/Unit-Converter/main/docs/screenshots/03-unit-picker.png",
-      "https://raw.githubusercontent.com/kiriliodas/Unit-Converter/main/docs/screenshots/06-empty-state.png",
-      "https://raw.githubusercontent.com/kiriliodas/Unit-Converter/main/docs/screenshots/05-settings.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -23998,32 +23945,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "skt-music-player",
-    "name": "SKT Music Player",
-    "description": "SKT Music Player is a modern offline Android music player with a beautiful Material Design UI, fast performance, playlist support, lyrics, and smooth playback.",
-    "icon": "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/img_app_icon.jpg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/sumitkumartiwari19-sudo/SKT-music-player",
-    "githubRepo": "sumitkumartiwari19-sudo/SKT-music-player",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.aistudio.sktmusicplayer.offlinesync",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "sumitkumartiwari19-sudo",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-13-43-00_f5db120ad8037f3fa6a63131d2a4b5cf.jpg",
-      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-13-53-59_f5db120ad8037f3fa6a63131d2a4b5cf.jpg",
-      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-14-12-33_f5db120ad8037f3fa6a63131d2a4b5cf.jpg",
-      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-14-20-17_f5db120ad8037f3fa6a63131d2a4b5cf.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "quickdash",
     "name": "Quickdash",
     "description": "QuickDash is a hyper-productive Android floating companion and utility dashboard built with Jetpack Compose & Material 3. Access smart clipboard management, Wi-Fi QR sharing, UPI payments, direct camera QR scanner tile, floating scratch notes, Pomodoro focus timer, and direct messaging over any app with zero ads and 100% privacy.",
@@ -25364,32 +25285,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "velocity",
-    "name": "Velocity",
-    "description": "Browse the Internet as a document. This is a privacy-focused, text-based browser designed for efficiency and broad compatibility. By implementing a custom renderer rather than relying on WebView, the application maintains a small footprint while ensuring a private browsing experience. The renderer simplifies modern web content into a lightweight format, allowing the browser to display pages quickly and reliably. The project currently supports Android versions from 5.0 to the latest release, with ongoing efforts to modernize the rendering engine to improve the user experience without compromising the app's compact size.",
-    "icon": "https://raw.githubusercontent.com/diekaiju/Velocity/main/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/diekaiju/Velocity",
-    "githubRepo": "diekaiju/Velocity",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.velocity.browser",
-    "category": "Browsers",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "diekaiju",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/diekaiju/Velocity/main/screenshots/article_reader_view.jpg",
-      "https://raw.githubusercontent.com/diekaiju/Velocity/main/screenshots/home_screen.jpg",
-      "https://raw.githubusercontent.com/diekaiju/Velocity/main/screenshots/more_options_sheet.jpg",
-      "https://raw.githubusercontent.com/diekaiju/Velocity/main/screenshots/table_of_contents_drawer.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "pocket-budget-app",
     "name": "Pocket Budget App",
     "description": "📱 Smart, Self-Healing Daily Expense Tracker & Allowance Manager with Piggy Bank Vault & Private Cloud Sync",
@@ -25980,32 +25875,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "noesis",
-    "name": "Noesis",
-    "description": "An archive of recurring thoughts, ideas, questions, and observations. It is not intended to be another generic journal, note-taking application, or AI chatbot.  The central question is:  What survives in your thinking?  The user records thoughts freely. NOESIS then examines them over time for recurring concepts and persistent ideas.",
-    "icon": "https://raw.githubusercontent.com/Onesoulmoon/Noesis/master/noesis.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Onesoulmoon/Noesis",
-    "githubRepo": "Onesoulmoon/Noesis",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.necrosed.noesis",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Onesoulmoon",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Onesoulmoon/Noesis/master/Screenshot_20260822_140547_NOESIS.jpg.jpeg",
-      "https://raw.githubusercontent.com/Onesoulmoon/Noesis/master/Screenshot_20260822_145036_NOESIS.jpg.jpeg",
-      "https://raw.githubusercontent.com/Onesoulmoon/Noesis/master/Screenshot_20260822_145046_NOESIS.jpg.jpeg",
-      "https://raw.githubusercontent.com/Onesoulmoon/Noesis/master/Screenshot_20260822_145050_NOESIS.jpg.jpeg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "netly",
     "name": "Netly",
     "description": "Netly — A modern Android video and audio downloader designed for a simple, fast, and convenient downloading experience.",
@@ -26347,31 +26216,6 @@
       "https://raw.githubusercontent.com/cognitiveshadows03/LunarTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.jpg",
       "https://raw.githubusercontent.com/cognitiveshadows03/LunarTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.jpg",
       "https://raw.githubusercontent.com/cognitiveshadows03/LunarTune/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_7.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "screenseek",
-    "name": "ScreenSeek",
-    "description": "AI-powered visual assistant that lets you capture anything on your screen and ask Gemini to understand it.",
-    "icon": "https://raw.githubusercontent.com/hashierholmes/Assets/refs/heads/main/Webp/screenseek.webp",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/hashierholmes/ScreenSeek",
-    "githubRepo": "hashierholmes/ScreenSeek",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "hh.screenseek.app",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hashierholmes",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/hashierholmes/ScreenSeek/main/docs/screenshots/1.png",
-      "https://raw.githubusercontent.com/hashierholmes/ScreenSeek/main/docs/screenshots/2.png",
-      "https://raw.githubusercontent.com/hashierholmes/ScreenSeek/main/docs/screenshots/3.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -26947,32 +26791,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "pinion",
-    "name": "Pinion",
-    "description": "Pinion  — Universal Wireless Print Engine for Android (AirPrint, Mopria, IPP, CUPS & Web UI)",
-    "icon": "https://raw.githubusercontent.com/killindodo/pinion/master/art%2Fpinion_logo.jpg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/killindodo/pinion",
-    "githubRepo": "killindodo/pinion",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.killindodo.printserver",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "killindodo",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/killindodo/pinion/master/docs%2Fscreenshots%2Fapp-matrix-running.png",
-      "https://raw.githubusercontent.com/killindodo/pinion/master/docs%2Fscreenshots%2Fwebui-mobile-cyberpunk.png",
-      "https://raw.githubusercontent.com/killindodo/pinion/master/docs%2Fscreenshots%2Fapp-slate.png",
-      "https://raw.githubusercontent.com/killindodo/pinion/master/docs%2Fscreenshots%2Fwebui-dashboard.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "shadowrpc",
     "name": "ShadowRPC",
     "description": "A lightweight Android DiscordRPC app that displays currently using app on discord using official SocialSDK  ",
@@ -27102,32 +26920,6 @@
       "https://raw.githubusercontent.com/ArunaK-netizen/SyncStore/refs/heads/main/assets/home.png",
       "https://raw.githubusercontent.com/ArunaK-netizen/SyncStore/refs/heads/main/assets/checkout.png",
       "https://raw.githubusercontent.com/ArunaK-netizen/SyncStore/refs/heads/main/assets/mobile_admin.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "linux-continuity",
-    "name": "Linux Continuity",
-    "description": "Developed by killindodo — Apple-style Continuity bridge between Linux PC and Android: AirDrop file transfer, shared clipboard, and interactive terminal control",
-    "icon": "https://raw.githubusercontent.com/killindodo/linux-continuity/main/android%2Fapp%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/killindodo/linux-continuity",
-    "githubRepo": "killindodo/linux-continuity",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.killindodo.linuxcontinuity",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "killindodo",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/killindodo/linux-continuity/main/docs%2Fscreenshots%2Fapk_trackpad.png",
-      "https://raw.githubusercontent.com/killindodo/linux-continuity/main/docs%2Fscreenshots%2Fapk_files.png",
-      "https://raw.githubusercontent.com/killindodo/linux-continuity/main/docs%2Fscreenshots%2Fapk_system.png",
-      "https://raw.githubusercontent.com/killindodo/linux-continuity/main/docs%2Fscreenshots%2Fapk_connect.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -27640,27 +27432,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "skt-flow",
-    "name": "SKT Flow",
-    "description": "SKT Flow is your intelligent music companion 🎵 -- a music streaming app built for music lovers ❤️ ",
-    "icon": "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Privacy-Policy/main/SKT%20Flow_1.1.apk_icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/sumitkumartiwari19-sudo/SKT-Flow",
-    "githubRepo": "sumitkumartiwari19-sudo/SKT-Flow",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.aistudio.sktflow.music",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "sumitkumartiwari19-sudo",
-    "officialSite": "",
-    "screenshots": [],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "lumora",
     "name": "Lumora",
     "description": "Lumora is an offline-first sports app for gym training, nutrition tracking, and health monitoring. All data stays local on the device with no account, server, or cloud sync. Training includes 151 exercises with muscle-group anatomy diagrams, custom workout plans, supersets, drag-to-reorder exercises, automatic rest timers, PR detection, and a rule-based coach that creates a personalized starter plan. Nutrition includes a meal diary for breakfast, lunch, dinner, and snacks, gram-based food entry, barcode scanning, Open Food Facts lookup, 76 built-in staple foods for offline use, and macro goals based on a calorie target. Health includes body-weight tracking with weekly averages, body measurements, a customizable daily tracker, automatic step counting, a training calendar with streaks, and a muscle balance view showing weekly training volume per muscle group.",
@@ -27682,31 +27453,6 @@
       "https://raw.githubusercontent.com/nvmor-cs/versuch/claude/fitness-studio-app-mxrssx/img/Screenshot_2026-09-11-18-19-09-89_a595169bb10fab9e2e3313a36a604fac.jpg",
       "https://raw.githubusercontent.com/nvmor-cs/versuch/refs/heads/claude/fitness-studio-app-mxrssx/img/Screenshot_2026-09-11-18-19-17-20_a595169bb10fab9e2e3313a36a604fac.jpg",
       "https://raw.githubusercontent.com/nvmor-cs/versuch/refs/heads/claude/fitness-studio-app-mxrssx/img/Screenshot_2026-09-11-18-19-13-74_a595169bb10fab9e2e3313a36a604fac.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "streamdekmobile",
-    "name": "StreamDekMobile",
-    "description": "An Android and iOS mobile media aggregator app",
-    "icon": "https://www.streamdek.net/streamdek-logo.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/StreamDek/StreamDekMobile",
-    "githubRepo": "StreamDek/StreamDekMobile",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "net.streamdek.mobile",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "StreamDek",
-    "officialSite": "",
-    "screenshots": [
-      "https://i.ibb.co/FLBHYFqc/Screenshot-2026-09-28-16-29-55-327-com-dreamplayer-app.jpg",
-      "https://i.ibb.co/5gPX20j1/Screenshot-2026-09-28-16-29-03-518-com-dreamplayer-app.jpg",
-      "https://i.ibb.co/5WHq3XbS/Screenshot-2026-09-28-16-28-49-105-com-dreamplayer-app.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -27797,27 +27543,6 @@
       "https://raw.githubusercontent.com/music-assistant/mobile-app/main/docs/app-documentation/screenshots/item-details/item-details.jpeg",
       "https://raw.githubusercontent.com/music-assistant/mobile-app/main/docs/app-documentation/screenshots/players-pager/compacted-view.jpeg"
     ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "swar-music",
-    "name": "SWAR Music",
-    "description": "SWAR Music is a YouTube-powered Android music streaming app with a clean neumorphic UI in light and dark themes. Stream songs, create custom playlists, download tracks for offline playback, and enjoy background playback with lock-screen controls. Built with Kotlin, Jetpack Compose, Media3, and Hilt using MVVM architecture.",
-    "icon": "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Privacy-Policy/main/SWAR%20Music_icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/sumitkumartiwari19-sudo/SWAR-Music",
-    "githubRepo": "sumitkumartiwari19-sudo/SWAR-Music",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.skt.swaemusic",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "sumitkumartiwari19-sudo",
-    "officialSite": "",
-    "screenshots": [],
     "releaseKeyword": "apk"
   },
   {
@@ -28067,31 +27792,6 @@
       "https://raw.githubusercontent.com/timschneeb/ShizuStore/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
       "https://raw.githubusercontent.com/timschneeb/ShizuStore/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
       "https://raw.githubusercontent.com/timschneeb/ShizuStore/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "heyod",
-    "name": "HeyOD",
-    "description": "A sleek, cyber-minimalist, AMOLED-optimized Always-On Display & Companion App engineered for Android.\n\nUltra-Smooth Always-On Display\n60 FPS Continuous Sweeping Analog Clock: Real-time smooth sweep second hand with custom tick markers, Roman or modern numerals, and accent colors.\nGlanceable Digital Clock & Date: Crisp typography featuring monospace font styling with clean AM/PM indicators.\nWeek-Strip Calendar & Day Badges: Customizable weekly horizon strip with current date highlights, week numbers (W39), and minimal date modes.\nVibrant Charging & Battery Status: Live battery percentage and emerald green charging text (⚡ Charging...) with battery temperature and voltage monitoring.\nNative System Notification Badges: Shows active notifications using official, full-color system app icons (YouTube, WhatsApp, Gmail, Messages, etc.).\n🎵 Live Music & Media Playback Controller\nSystem Media Session Integration: Listens to active media playback (MediaSessionManager) across any media app (Spotify, YouTube Music, Apple Music, Audible).\nPlayback Controls: Fully interactive Play/Pause, Next Track, and Previous Track buttons directly on the AOD.\nLive Metadata & Album Cover Art: Displays current track title, artist, album name, and rendered album artwork (with Pony by Ginuwine as fallback).\n🎨 Interactive Drag-and-Drop Layout Editor\nDirect Canvas Manipulation: Drag elements across the screen to position them anywhere.\nReal-Time Resizing & Scaling: Resize the analog clock diameter, digital clock, calendar strip, and notification badges with intuitive sliders.\nColor Accent Picker: Fine-tune accent colors across emerald green, electric cyan, vibrant amber, crimson red, and pure white.\nOne-Tap Reset: Instantly revert to the balanced, professional default layout.\n🔋 Battery & AMOLED Optimization\nPure AMOLED Pitch Black (#000000): Pixels turn completely off on OLED displays, minimizing power consumption.\nPixel Burn-in Protection: Subtle anti-burn-in orbital micro-shifting to safeguard OLED panels.\nUnrestricted Battery Mode: Built-in direct prompt to bypass OEM aggressive background task killers for 100% reliable lockscreen wakeups.\nNative Screen Lock Integration: Seamlessly triggers when the screen turns off or locks without requiring root.\n🛠️ Tech Stack & Architecture\nArchitecture: Clean Architecture + Modern Android Architecture Components (MVVM)\nUI Toolkit: Jetpack Compose + Custom Canvas 2D Rendering for high-frame-rate analog watch sweeps\nConcurrency: Kotlin Coroutines & StateFlow for reactive, non-blocking UI state\nPreferences: Jetpack DataStore / SharedPreferences for fast, atomic persistence\nMedia Engine: Android MediaSessionManager & MediaController\nMinimum SDK: Android 10 (API Level 29)\nTarget SDK: Android 14+ (API Level 34)\n",
-    "icon": "https://raw.githubusercontent.com/nissshhdev/HeyOD/main/app%2Fsrc%2Fmain%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/nissshhdev/HeyOD",
-    "githubRepo": "nissshhdev/HeyOD",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.nissshh.heyod",
-    "category": "Customization",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "nissshhdev",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/nissshhdev/HeyOD/main/screenshots%2Faod_display.png",
-      "https://raw.githubusercontent.com/nissshhdev/HeyOD/main/screenshots%2Flayout_editor.png",
-      "https://raw.githubusercontent.com/nissshhdev/HeyOD/main/screenshots%2Fcompanion_settings.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -29154,32 +28854,6 @@
       "https://raw.githubusercontent.com/d3ffen/patchit/master/docs/screenshot-apps.webp",
       "https://raw.githubusercontent.com/d3ffen/patchit/master/docs/screenshot-sources.webp",
       "https://raw.githubusercontent.com/d3ffen/patchit/master/docs/screenshot-sources.webp"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "campaper",
-    "name": "CamPaper",
-    "description": "Hardware-accelerated live video wallpaper engine for Android with dedicated Lock & Home screen workflows, sub-frame trimming, and real-time GLSL post-processing.\n\nLaunch CamPaper.\nConfigure your desired video source, crop positioning, and loop windows.\nTap Set Live Wallpaper.\nWhen the system prompt appears, choose Home screen and lock screen.\nLock and unlock your phone to watch the dynamic screen transitions in action.",
-    "icon": "https://raw.githubusercontent.com/RookieEnough/Orion-Data/main/assets/icons/campaper.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/nissshhdev/CamPaper",
-    "githubRepo": "nissshhdev/CamPaper",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.nissshh.campaper",
-    "category": "Customization",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "nissshhdev",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/nissshhdev/CamPaper/main/assets/screenshots/lockscreen_tab.png",
-      "https://raw.githubusercontent.com/nissshhdev/CamPaper/HEAD/assets/screenshots/effects_view.png",
-      "https://raw.githubusercontent.com/nissshhdev/CamPaper/HEAD/assets/screenshots/homescreen_tab.png",
-      "https://raw.githubusercontent.com/nissshhdev/CamPaper/HEAD/assets/screenshots/lockscreen_tab.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -30861,30 +30535,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "nutrifit",
-    "name": "NutriFit",
-    "description": "Smart Indian Fitness & Meal Planner with AI Coach, Regional Indian Thali generator, 50,000+ Indian food items, Live Camera Scanner, Strava steps tracker, and intermittent fasting.",
-    "icon": "https://raw.githubusercontent.com/muthumanikandanb2005-ux/nutrifit/main/public/logo.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "https://github.com/muthumanikandanb2005-ux/nutrifit/releases/download/v1.0.0/app-debug.apk",
-    "repoUrl": "https://github.com/muthumanikandanb2005-ux/nutrifit",
-    "githubRepo": "muthumanikandanb2005-ux/nutrifit",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.nutribharat.ahaarfit",
-    "category": "Health",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "muthumanikandanb2005-ux",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/nutrifit/main/public/logo.png",
-      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/nutrifit/main/src/assets/hero.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "cleanify",
     "name": "Cleanify",
     "description": "A modern, powerful and feature-rich media management app for Android featuring a swipe-to-sort interface and advanced duplicate/similar media detection & many more, forked from CleanSweep",
@@ -31066,29 +30716,6 @@
       "https://raw.githubusercontent.com/Kilowatch/ultimate-file-manager-pro/main/docs/screenshots/mobile-main.jpeg",
       "https://raw.githubusercontent.com/Kilowatch/ultimate-file-manager-pro/main/docs/screenshots/mobile-cloud.jpeg",
       "https://raw.githubusercontent.com/Kilowatch/ultimate-file-manager-pro/main/docs/screenshots/mobile-storage-access.jpeg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "pptsnap-presentation-viewer",
-    "name": "PPTSnap (Presentation Viewer)",
-    "description": "A lightweight, offline PowerPoint viewer for Android. View, zoom, navigate, and export slides, all in an APK under 3 MB. No internet required.",
-    "icon": "https://raw.githubusercontent.com/hashierholmes/PPTSnap/refs/heads/main/icon/pptsnap.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/hashierholmes/pptsnap",
-    "githubRepo": "hashierholmes/pptsnap",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "hashierholmes.pptsnap.app",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hashierholmes",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/hashierholmes/PPTSnap/refs/heads/main/screenshot/1.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -31906,29 +31533,6 @@
       "https://raw.githubusercontent.com/AshwinSoni-01/FrostKeys/refs/heads/main/assets/screenshots/Screenshot_3.png",
       "https://raw.githubusercontent.com/AshwinSoni-01/FrostKeys/main/assets/screenshots/Screenshot_4.png",
       "https://raw.githubusercontent.com/AshwinSoni-01/FrostKeys/main/assets/screenshots/Screenshot_5.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "pulse",
-    "name": "Pulse",
-    "description": "An aesthetic YouTube Music client for Android with Hi-Res lossless audio (FLAC/ALAC), real-time word-synced animated lyrics, dynamic theming, and a frosted-glass Material 3 UI.",
-    "icon": "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Pulse/main/Logo.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/muthumanikandanb2005-ux/Pulse",
-    "githubRepo": "muthumanikandanb2005-ux/Pulse",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.dev.pulse",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "muthumanikandanb2005-ux",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Pulse/main/Banner.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -33431,31 +33035,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "vinyl-player",
-    "name": "Vinyl Player",
-    "description": "A liquid-glass music player for Android that plays the songs already on your phone. Offline, no account, no ads.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/vinyl-player/main/docs/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/vinyl-player",
-    "githubRepo": "technicalnihilist-lgtm/vinyl-player",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.hubclue.vinylplayer",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/vinyl-player/main/docs/screenshots/01-your-library.jpg",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/vinyl-player/main/docs/screenshots/03-now-playing.jpg",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/vinyl-player/main/docs/screenshots/41-settings.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "aniro",
     "name": "Aniro",
     "description": " أنيروا.. رفيقك لأداء العبادات, تطبيق اسلامي متكامل.\n\nArabic/English Islamic companion: prayer times with Azan reminders, Quran reading and recitation, Tafseer, daily Azkar, Tasbeeh and Qibla.",
@@ -34253,33 +33832,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "diller",
-    "name": "Diller",
-    "description": "Diller — an iOS-style Android dialer with on-device scam/spam call screening, a theft guard, and a liquid-glass call screen. No ads, no account, everything on-device.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/diller/main/icon.png\n",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/diller\n",
-    "githubRepo": "technicalnihilist-lgtm/diller\n",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.diller.app",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/diller/main/screenshots/keypad.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/diller/main/screenshots/calls.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/diller/main/screenshots/contacts.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/diller/main/screenshots/shield.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/diller/main/screenshots/call-screen.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "newtube",
     "name": "Newtube",
     "description": "SmartTube for phones, unofficial: an open-source YouTube client for Android. Background play, PiP, SponsorBlock, DeArrow, save for offline, code sign-in.",
@@ -34857,35 +34409,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "ios-gallery",
-    "name": "Ios Gallery",
-    "description": "A simple, private, fully offline photo and video gallery for Android, inspired by iOS and macOS Photos. No account, no ads, no internet permission.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-gallery/main/docs/app-icon.png\n",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/ios-gallery\n",
-    "githubRepo": "technicalnihilist-lgtm/ios-gallery\n",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.hubclub.iosgallery",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-gallery/main/docs/screenshots/01-library-light.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-gallery/main/docs/screenshots/02-library-dark.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-gallery/main/docs/screenshots/03-albums.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-gallery/main/docs/screenshots/04-search.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-gallery/main/docs/screenshots/05-viewer.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-gallery/main/docs/screenshots/06-selection.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-gallery/main/docs/screenshots/07-launch-animation.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "betterscreentime",
     "name": "BetterScreenTime",
     "description": "An app that blocks distracting apps behind task overlay.Solve it to unlock for 5mins.Select time span during which to block apps.Also blocks nsfw websites at all times.",
@@ -34907,60 +34430,6 @@
       "https://i.postimg.cc/gJqK8zzf/Screenshot-20261027-001004-Better-screen-time.jpg",
       "https://i.postimg.cc/kGJvy0DR/Screenshot-20261027-001029-Better-screen-time.jpg",
       "https://i.postimg.cc/QCfkYfW8/Screenshot-20261027-001037-Better-screen-time.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "liquidtube",
-    "name": "LiquidTube",
-    "description": "Liquid-glass YouTube client for Android — single-file HTML UI in a native WebView shell. Signed APK included.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/LiquidTube/main/screenshots/icon-512.png\n",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/LiquidTube",
-    "githubRepo": "technicalnihilist-lgtm/LiquidTube",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.liquidtube.app",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/LiquidTube/main/screenshots/00-splash.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/LiquidTube/main/screenshots/01-home.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/LiquidTube/main/screenshots/03-channel.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/LiquidTube/main/screenshots/03-channel.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/LiquidTube/main/screenshots/04-player.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/LiquidTube/main/screenshots/05-settings.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "liquid-clock",
-    "name": "Liquid Clock",
-    "description": "Glassy liquid-blob clock for Android — analog clock, world clock, stopwatch and timer in one offline app",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-clock/main/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/liquid-clock",
-    "githubRepo": "technicalnihilist-lgtm/liquid-clock",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.liquidclock.app",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-clock/main/screenshots/1-clock-light.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-clock/main/screenshots/1-clock-light.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-clock/main/screenshots/3-stopwatch.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-clock/main/screenshots/4-timer.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -34989,33 +34458,6 @@
       "https://plug-mirror.rcac.purdue.edu/fdroid/repo/org.astermail.android/en-US/phoneScreenshots/4.png",
       "https://plug-mirror.rcac.purdue.edu/fdroid/repo/org.astermail.android/en-US/phoneScreenshots/5.png",
       "https://plug-mirror.rcac.purdue.edu/fdroid/repo/org.astermail.android/en-US/phoneScreenshots/6.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "ios-phone-dialer",
-    "name": "Ios Phone Dialer",
-    "description": "A pixel-faithful iOS Phone app for Android — real contacts, real call log, real calls, and a native in-call screen with speaker, mute, hold and recording. Signed APK, PWA and screenshots included.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-phone-dialer/main/icons/icon-512.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/ios-phone-dialer",
-    "githubRepo": "technicalnihilist-lgtm/ios-phone-dialer",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.phone.dialer",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-phone-dialer/main/screenshots/1-keypad-dark.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-phone-dialer/main/screenshots/2-keypad-light.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-phone-dialer/main/screenshots/3-call.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-phone-dialer/main/screenshots/4-favorites.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/ios-phone-dialer/main/screenshots/5-recents.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -35121,31 +34563,6 @@
       "https://i.postimg.cc/HsWQcnYW/Screenshot-2026-10-27-13-07-17-532-com-example-m3cord.jpg",
       "https://i.postimg.cc/025pMjk8/Screenshot-2026-10-27-13-07-25-017-com-example-m3cord.jpg",
       "https://i.postimg.cc/Gh3k8tLL/Screenshot-2026-10-27-13-07-55-568-com-example-m3cord.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "squeeze-compressor",
-    "name": "Squeeze Compressor",
-    "description": "Target-size file compressor for Android — any format into 150 MB, lossless where the format allows, fully on-device.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/squeeze-compressor/main/screenshots/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/squeeze-compressor",
-    "githubRepo": "technicalnihilist-lgtm/squeeze-compressor",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.squeeze.compressor",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/squeeze-compressor/main/screenshots/home.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/squeeze-compressor/main/screenshots/done.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/squeeze-compressor/main/screenshots/settings.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -35397,32 +34814,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "duo-learning",
-    "name": "Duo Learning",
-    "description": "Description:\nDuo Learning is a free, offline-first language learning app with a built-in universal translator. Work through structured courses — units, lessons and checkpoints — with seven exercise types, then translate between 50+ languages using an on-device engine that keeps working in airplane mode.\n\nThere is no account, no sign-up, no ads, no subscription and no tracking. Progress, streaks, XP, achievements and saved translations stay on your device, and pronunciation uses your phone's own speech engine.\n",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/duo-learning/main/docs/icon-512.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/duo-learning",
-    "githubRepo": "technicalnihilist-lgtm/duo-learning\n",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.duolearning.app",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/duo-learning/main/docs/screenshots/mockup-translate.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/duo-learning/main/docs/screenshots/mockup-practice.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/duo-learning/main/docs/screenshots/mockup-progress.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/duo-learning/main/docs/screenshots/mockup-learn.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "concat",
     "name": "Concat",
     "description": "Concat is a free, open-source video editor and a CapCut alternative for macOS, Windows, Linux and Android. It covers what people actually open CapCut for: auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, 4K export. With none of the catches: no watermark, no account, no subscription, no upload.",
@@ -35507,34 +34898,6 @@
       "https://raw.githubusercontent.com/RohitKushvaha01/TaskManager/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg",
       "https://raw.githubusercontent.com/RohitKushvaha01/TaskManager/main/fastlane/metadata/android/en-US/images/phoneScreenshots/05.jpg",
       "https://raw.githubusercontent.com/RohitKushvaha01/TaskManager/main/fastlane/metadata/android/en-US/images/phoneScreenshots/06.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "verify-device-info",
-    "name": "Verify Device Info",
-    "description": "Verify Device Info — honest Android device inspection: specs, authenticity indicators, parts analysis, device age, hardware diagnostics and PDF/JSON reports",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/verify-device-info/main/docs/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/verify-device-info",
-    "githubRepo": "technicalnihilist-lgtm/verify-device-info",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.verifydeviceinfo",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/verify-device-info/main/docs/screenshots/01-dashboard.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/verify-device-info/main/docs/screenshots/02-authenticity.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/verify-device-info/main/docs/screenshots/03-parts.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/verify-device-info/main/docs/screenshots/04-specifications.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/verify-device-info/main/docs/screenshots/05-security.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/verify-device-info/main/docs/screenshots/07-diagnostics.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -35833,31 +35196,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "taskfern",
-    "name": "Taskfern",
-    "description": "A beautiful, offline-first Android task manager with recurring reminders, shopping lists, routines, calendar planning, and interactive Material 3 widgets.",
-    "icon": "https://raw.githubusercontent.com/riyadmondol2006/Taskfern/main/docs/assets/taskfern-icon-512.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/riyadmondol2006/Taskfern",
-    "githubRepo": "riyadmondol2006/Taskfern",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.riyadmondol2006.taskfern",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "riyadmondol2006",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/riyadmondol2006/Taskfern/main/docs/screenshots/01-today.png",
-      "https://raw.githubusercontent.com/riyadmondol2006/Taskfern/main/docs/screenshots/07-shopping-list.png",
-      "https://raw.githubusercontent.com/riyadmondol2006/Taskfern/main/docs/screenshots/09-routines.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "unit-converter-v2",
     "name": "Unit Converter V2",
     "description": "Unit Converter V2 is a fast, modern Android app that makes everyday unit conversions simple. Convert measurements across a wide range of categories, from length, mass and temperature to volume, speed, digital storage and more. Enjoy accurate results, conversion history, favorites, pinned conversions and customizable number formatting. Personalize your experience with multiple themes and languages. Everything works offline, with no account or ads required.",
@@ -35908,31 +35246,6 @@
       "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/main/Glass%20Audio%20Downloader/Screenshot_20261029_175855.jpg",
       "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/main/Glass%20Audio%20Downloader/Screenshot_20261029_175858.jpg",
       "https://raw.githubusercontent.com/Azt36/Orion-Store-assets-repo/main/Glass%20Audio%20Downloader/Screenshot_20261029_175903.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "idsheet-studio",
-    "name": "IDSheet Studio",
-    "description": "Free open-source Android passport & ID photo maker: remove backgrounds, crop to official passport, visa & stamp sizes, arrange many photos on A4/Letter and print exact-size PDFs. Kotlin, Jetpack Compose, Material 3.",
-    "icon": "https://raw.githubusercontent.com/riyadmondol2006/IDSheet-Studio/main/docs/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/riyadmondol2006/IDSheet-Studio",
-    "githubRepo": "riyadmondol2006/IDSheet-Studio",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "io.github.riyadmondol2006.idsheetstudio",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "riyadmondol2006",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/riyadmondol2006/IDSheet-Studio/main/docs/screenshots/home.png",
-      "https://raw.githubusercontent.com/riyadmondol2006/IDSheet-Studio/main/docs/screenshots/layout.png",
-      "https://raw.githubusercontent.com/riyadmondol2006/IDSheet-Studio/main/docs/screenshots/background.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -36232,34 +35545,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "video-player",
-    "name": "Video Player",
-    "description": "Glass Player — a glassmorphism video player for Android, packaged as an APK",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/video-player/main/docs/icon.png\n",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/video-player\n",
-    "githubRepo": "technicalnihilist-lgtm/video-player\n",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.glassplayer.app",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/video-player/main/docs/screenshots/02-library.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/video-player/main/docs/screenshots/03-player.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/video-player/main/docs/screenshots/04-settings.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/video-player/main/docs/screenshots/05-light.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/video-player/main/docs/screenshots/01-empty.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/video-player/main/docs/screenshots/06-landscape.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "kinora-effect",
     "name": "Kinora Effect ",
     "description": "Kinora Effect is an open-source motion graphics and visual effects editor designed for Android. It brings a desktop-style creative workflow to mobile devices, offering a professional editing environment with timeline-based composition tools, layered project management, visual effects controls, and touch-friendly workflows optimized for productivity. The app is built to give creators a powerful and flexible workspace for producing polished motion graphics and visual content directly from their Android devices.\n\nWith advanced panel layouts, composition preview, project editing tools, UI scaling options, and Android file management support, Kinora Effect is tailored for designers, artists, and content creators who need a capable visual editing experience in a mobile-first environment.",
@@ -36339,31 +35624,6 @@
       "https://raw.githubusercontent.com/GeneralZyonix/morphe-download-helper/main/docs/promo/reddit-step-3-4-helper-v2.png",
       "https://raw.githubusercontent.com/GeneralZyonix/morphe-download-helper/main/docs/promo/reddit-v1.1-banner.png",
       "https://raw.githubusercontent.com/GeneralZyonix/morphe-download-helper/main/docs/promo/reddit-v2.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "tagshot",
-    "name": "TagShot",
-    "description": "Offline, privacy-first native Android photo indexing application with 6 UI design systems and perceptual duplicate detection",
-    "icon": "https://raw.githubusercontent.com/killindodo/TagShot/main/assets/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/killindodo/TagShot",
-    "githubRepo": "killindodo/TagShot",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.tagshot.app",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "killindodo",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/killindodo/TagShot/main/assets/screenshots/01_ui_design_systems.png",
-      "https://raw.githubusercontent.com/killindodo/TagShot/main/assets/screenshots/02_tag_and_scrubber_customizer.png",
-      "https://raw.githubusercontent.com/killindodo/TagShot/main/assets/screenshots/03_duplicate_finder_overview.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -36454,87 +35714,6 @@
       "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/library.jpg",
       "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/artist.jpg",
       "https://raw.githubusercontent.com/Roggzuay/ondalune/refs/heads/main/docs/screenshots/home.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "glass-browser-ios",
-    "name": "Glass Browser Ios",
-    "description": "iOS app shell for Glass Browser — a native WKWebView wrapper around the Glass Browser HTML UI (tabs, private mode, bookmarks, history, settings).",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser-ios/main/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/glass-browser-ios",
-    "githubRepo": "technicalnihilist-lgtm/glass-browser-ios",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.glass.browser",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser-ios/main/screenshots/01-start.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser-ios/main/screenshots/02-search.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser-ios/main/screenshots/03-settings.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser-ios/main/screenshots/04-tabs.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser-ios/main/screenshots/06-private.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser-ios/main/screenshots/07-dark.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser-ios/main/screenshots/08-motion.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser-ios/main/screenshots/09-depth.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "smali-helper-plus",
-    "name": "Smali Helper Plus",
-    "description": "Smali Helper Plus: modern offline Dalvik bytecode & Smali reference for Android. All 224+ opcodes, typo-tolerant search, Smali playground, Smali-to-Java explainer, learning academy and reverse-engineering tools. Kotlin + Jetpack Compose + Material 3.",
-    "icon": "https://raw.githubusercontent.com/riyadmondol2006/Smali-Helper-Plus/main/docs/images/logo.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/riyadmondol2006/Smali-Helper-Plus",
-    "githubRepo": "riyadmondol2006/Smali-Helper-Plus",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.riyadm.smalihelperplus",
-    "category": "Development",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "riyadmondol2006",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/riyadmondol2006/Smali-Helper-Plus/main/docs/screenshots/home.png",
-      "https://raw.githubusercontent.com/riyadmondol2006/Smali-Helper-Plus/main/docs/screenshots/opcodes.png",
-      "https://raw.githubusercontent.com/riyadmondol2006/Smali-Helper-Plus/main/docs/screenshots/opcode_detail.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "liquid-weather",
-    "name": "Liquid Weather",
-    "description": "Liquid Weather — glassy animated weather app with live forecasts for any city or country worldwide. No ads, no account. Single-file HTML + signed Android APK.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-weather/main/screenshots/icon.png\n",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/liquid-weather",
-    "githubRepo": "technicalnihilist-lgtm/liquid-weather",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.liquidweather.app",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-weather/main/screenshots/home.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-weather/main/screenshots/rain.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-weather/main/screenshots/search.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-weather/main/screenshots/settings.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -36699,34 +35878,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "nova-city",
-    "name": "Nova City",
-    "description": "NOVA CITY — open-world hero + driving game (WebGL) with a signed Android APK",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/nova-city/main/assets/icon-512.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/nova-city",
-    "githubRepo": "technicalnihilist-lgtm/nova-city",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.novacity.game",
-    "category": "Development",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/nova-city/main/docs/screenshots/01-chase.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/nova-city/main/docs/screenshots/02-cockpit.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/nova-city/main/docs/screenshots/03-night-rain.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/nova-city/main/docs/screenshots/04-city-aerial.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/nova-city/main/docs/screenshots/05-street-traffic.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/nova-city/main/docs/screenshots/06-plaza.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "sleeve",
     "name": "Sleeve",
     "description": "Sleeve — all-in-one media downloader for Android (Ghost engine, yt-dlp, gallery-dl, Spotify/Audible resolution). GPL-3.0 fork of Seal.",
@@ -36832,32 +35983,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "ios-music",
-    "name": "IOS Music",
-    "description": "Glass Player - a frosted-glass music player for Android. Play your own songs with a liquid glass UI, live color shift, and smooth spring animations.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/iOS-music/main/icon-512.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/iOS-music",
-    "githubRepo": "technicalnihilist-lgtm/iOS-music",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.glassplayer.app",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/iOS-music/main/screenshots/01-now-playing.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/iOS-music/main/screenshots/02-playlist.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/iOS-music/main/screenshots/03-glass-options.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/iOS-music/main/screenshots/04-depth.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "pixel-calculator",
     "name": "Pixel Calculator",
     "description": "Elevate your daily math with a calculator that looks as good as it functions.\n\nThis isn't just another standard calculator app. It is a fully customizable, feature-rich tool designed for students, professionals, and anyone who appreciates clean aesthetics and powerful utility. From simple math to complex equations, this app adapts to exactly what you need.\n\nKey Features:\n\nAdvanced Scientific Calculator: Need more power? Expand the calculator to access a full suite of scientific functions. Easily calculate trigonometry (sin, cos, tan), logarithms (log, ln), square roots, powers, factorials, and constants like π and e. It even includes a toggle for Degree and Radian modes, plus an \"inv\" button for inverse functions.\n\nDeep Customization (Themes & Shapes): Make it truly yours. Switch effortlessly between a crisp White theme and a sleek Dark theme. Tailor the interface further by choosing your preferred button shape—Pill, Square, or Circle—and pick from a variety of vibrant accent colors to match your style.\n\nIntegrated Unit Converter: Say goodbye to searching for conversion charts. The built-in converter handles multiple categories, including Length, Area, Volume, Weight, Temperature, Speed, Pressure, and Power. Input your value (e.g., Kilometers) and get instant, highly accurate conversions (e.g., Miles).\n\nBuilt-in Notepad: Need to jot down a quick number or a multi-step equation before calculating? Slide up the integrated Notes panel to type your thoughts. It saves automatically, so you never lose your work while switching between screens.\n\nCalculation History: Never lose a number again. The dedicated History screen keeps a running log of your previous equations. Just tap the history icon to view past calculations and easily clear them when you're done.\n\nIntuitive & Clean UI: Designed with a focus on user experience, featuring large, easy-to-read numbers and responsive buttons. Seamlessly switch between the standard keypad and the scientific layout with a single tap.\n\nWhether you are balancing a budget in Dark Mode, converting units for a project, or solving complex trigonometric equations in Scientific View, this calculator delivers a premium, personalized experience.",
@@ -36943,56 +36068,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "glass-browser",
-    "name": "Glass Browser",
-    "description": "A complete, working Android web browser with a liquid-glass interface — single-file HTML chrome over a real WebView. Tabs, private mode, downloads, pop-ups and PixelCopy screenshots. Signed APK in every release.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser/main/screenshots/icon-512.png\n",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/glass-browser\n\n",
-    "githubRepo": "technicalnihilist-lgtm/glass-browser\n\n",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.nexabrowser.app",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser/main/screenshots/01-home.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser/main/screenshots/02-browsing.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/glass-browser/main/screenshots/03-tabs.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "liquid-reminders",
-    "name": "Liquid Reminders",
-    "description": "Liquid-glass reminders app for Android — HTML UI wrapped in a native shell with real alarms, notifications and reboot persistence.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-reminders/main/docs/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/liquid-reminders",
-    "githubRepo": "technicalnihilist-lgtm/liquid-reminders",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.liquid.reminders",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-reminders/main/docs/screenshots/01-today.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-reminders/main/docs/screenshots/03-upcoming.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/liquid-reminders/main/docs/screenshots/04-add-sheet.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "ghostmode",
     "name": "GhostMode",
     "description": "Turn your Android device 'unavailable' for incoming calls while keeping LTE/5G mobile data fully working. Supports Shizuku & Root.",
@@ -37069,32 +36144,6 @@
       "https://raw.githubusercontent.com/marcomorosi06/FFmpegGUI/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4_adjust.png",
       "https://raw.githubusercontent.com/marcomorosi06/FFmpegGUI/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5_filters.png",
       "https://raw.githubusercontent.com/marcomorosi06/FFmpegGUI/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6_equalizer.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "pehchan-ai",
-    "name": "Pehchan Ai",
-    "description": "Pehchan AI - offline on-device image identifier for Android. Two TFLite models find and name every object in a photo. No internet, no account, no ads. Free, MIT licensed.",
-    "icon": "https://raw.githubusercontent.com/technicalnihilist-lgtm/pehchan-ai/main/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/technicalnihilist-lgtm/pehchan-ai",
-    "githubRepo": "technicalnihilist-lgtm/pehchan-ai",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.rajok.pehchanai",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "technicalnihilist-lgtm",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/pehchan-ai/main/screenshots/01-home.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/pehchan-ai/main/screenshots/03-objects.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/pehchan-ai/main/screenshots/04-result.png",
-      "https://raw.githubusercontent.com/technicalnihilist-lgtm/pehchan-ai/main/screenshots/06-pizza.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -37230,34 +36279,6 @@
       "https://raw.githubusercontent.com/sachit1751-art/MoneyPal/main/assets/screenshot_5.png",
       "https://raw.githubusercontent.com/sachit1751-art/MoneyPal/main/assets/split_budget.png",
       "https://raw.githubusercontent.com/sachit1751-art/MoneyPal/main/assets/screenshot_6.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "hashiry-gallery",
-    "name": "Hashiry Gallery",
-    "description": "A local-first Android gallery for photos, videos, WebP, and PSD files, with powerful media browsing, built-in viewing tools,file management and fully customizable. No Internet permission required.",
-    "icon": "https://raw.githubusercontent.com/hashierholmes/Hashiry-Gallery/refs/heads/main/assets/icon/hashiry-gallery.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/hashierholmes/Hashiry-Gallery",
-    "githubRepo": "hashierholmes/Hashiry-Gallery",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.hashiry.gallery",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hashierholmes",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/hashierholmes/Hashiry-Gallery/refs/heads/main/assets/screenshots/library-light.png",
-      "https://raw.githubusercontent.com/hashierholmes/Hashiry-Gallery/refs/heads/main/assets/screenshots/library-dark.png",
-      "https://raw.githubusercontent.com/hashierholmes/Hashiry-Gallery/refs/heads/main/assets/screenshots/albums.png",
-      "https://raw.githubusercontent.com/hashierholmes/Hashiry-Gallery/refs/heads/main/assets/screenshots/search.png",
-      "https://raw.githubusercontent.com/hashierholmes/Hashiry-Gallery/refs/heads/main/assets/screenshots/image-viewer.png",
-      "https://raw.githubusercontent.com/hashierholmes/Hashiry-Gallery/refs/heads/main/assets/screenshots/video-player.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -38263,36 +37284,6 @@
       "https://raw.githubusercontent.com/niki914/zafiro/main/res/demos/zafiro__image_understanding.jpg",
       "https://raw.githubusercontent.com/niki914/zafiro/main/res/demos/zafiro__multi_providers.jpg",
       "https://raw.githubusercontent.com/niki914/zafiro/main/res/demos/zafiro__remote_machine_ssh.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "ribbit-revived",
-    "name": "Ribbit Revived",
-    "description": "Fan remake of the classic Tap the Frog: 28 quick frog minigames for Android with practice, daily challenge and vs-CPU modes. Rust engine, Kotlin shell. No ads, no purchases, no tracking.",
-    "icon": "https://raw.githubusercontent.com/riyadmondol2006/Ribbit-Revived/main/docs/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/riyadmondol2006/Ribbit-Revived",
-    "githubRepo": "riyadmondol2006/Ribbit-Revived",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.riyadm.ribbit.revived",
-    "category": "Games",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "riyadmondol2006",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/riyadmondol2006/Ribbit-Revived/main/docs/screenshots/menu.jpg",
-      "https://raw.githubusercontent.com/riyadmondol2006/Ribbit-Revived/main/docs/screenshots/level-select.jpg",
-      "https://raw.githubusercontent.com/riyadmondol2006/Ribbit-Revived/main/docs/screenshots/snack-belt.jpg",
-      "https://raw.githubusercontent.com/riyadmondol2006/Ribbit-Revived/main/docs/screenshots/space-rocks.jpg",
-      "https://raw.githubusercontent.com/riyadmondol2006/Ribbit-Revived/main/docs/screenshots/jet-frog.jpg",
-      "https://raw.githubusercontent.com/riyadmondol2006/Ribbit-Revived/main/docs/screenshots/deep-dive.jpg",
-      "https://raw.githubusercontent.com/riyadmondol2006/Ribbit-Revived/main/docs/screenshots/frog-soccer.jpg",
-      "https://raw.githubusercontent.com/riyadmondol2006/Ribbit-Revived/main/docs/screenshots/frog-volley.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -39791,31 +38782,6 @@
       "https://raw.githubusercontent.com/Neytron951/Ethereal/main/docs/screenshots/AdaptTheme.gif",
       "https://raw.githubusercontent.com/Neytron951/Ethereal/main/docs/screenshots/blur.gif",
       "https://raw.githubusercontent.com/Neytron951/Ethereal/main/docs/screenshots/Start.gif"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "nyxora-browser",
-    "name": "NYXORA Browser",
-    "description": "N browser ",
-    "icon": "https://raw.githubusercontent.com/Sudhamoy-X/N-browser-/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Sudhamoy-X/N-browser-.git",
-    "githubRepo": "Sudhamoy-X/N-browser-",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.aistudio.nyxorabrowser.vqxkpl",
-    "category": "Browsers",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Sudhamoy-X",
-    "officialSite": "",
-    "screenshots": [
-      "https://img.sanishtech.com/u/04d48561a28e3d218c91c330fcd8b1ea.jpg",
-      "https://img.sanishtech.com/u/ad53b6001669abfc17a653b3fa5d559f.jpg",
-      "https://img.sanishtech.com/u/ac54482734c849c82d9af07c6d95a14a.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -41462,31 +40428,6 @@
       "https://arcticons.com/img/phone_dark.webp",
       "https://arcticons.com/img/phone_light.webp",
       "https://arcticons.com/img/phone_you.webp"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "rc-car-in-class",
-    "name": "Rc Car In Class",
-    "description": "drive a rc car in class while the teacher chases youu",
-    "icon": "https://raw.githubusercontent.com/jaihari2006/rc-car-in-class-/Game/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/jaihari2006/rc-car-in-class-",
-    "githubRepo": "jaihari2006/rc-car-in-class-",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.rccar.inclass",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "jaihari2006",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/jaihari2006/rc-car-in-class-/Game/images/gameplay-nitro.jpg",
-      "https://raw.githubusercontent.com/jaihari2006/rc-car-in-class-/Game/images/multiplayer-sensei.jpg",
-      "https://raw.githubusercontent.com/jaihari2006/rc-car-in-class-/Game/images/banner.jpg"
     ],
     "releaseKeyword": "apk"
   },
