@@ -40892,31 +40892,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "hushthreads",
-    "name": "HushThreads",
-    "description": "HushThreads Morphe patches that take the ads out of your Threads feed and let you save photos and videos.",
-    "icon": "https://raw.githubusercontent.com/SysAdminDoc/HushThreads/main/assets/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/SysAdminDoc/HushThreads",
-    "githubRepo": "SysAdminDoc/HushThreads",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "apk",
-    "category": "Social",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "SysAdminDoc",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/SysAdminDoc/HushThreads/main/assets/settings-overview.png",
-      "https://raw.githubusercontent.com/SysAdminDoc/HushThreads/main/assets/readme-hero.png",
-      "https://raw.githubusercontent.com/SysAdminDoc/HushThreads/main/assets/settings-privacy.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "airplane-scheduler-app",
     "name": "Airplane Scheduler App",
     "description": "Android app to automatically switch airplane mode on a schedule",
