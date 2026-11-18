@@ -41247,31 +41247,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "rc-car-in-class",
-    "name": "Rc Car In Class",
-    "description": "🏎️ 3D classroom RC racing game built with Three.js, WebGL & WebRTC. Play online or download Android APK / Windows / UE5 source!",
-    "icon": "https://raw.githubusercontent.com/jaihari2006/rc-car-in-class-/Game/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/jaihari2006/rc-car-in-class-",
-    "githubRepo": "jaihari2006/rc-car-in-class-",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.rccar.inclass",
-    "category": "Games",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "jaihari2006",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/jaihari2006/rc-car-in-class-/Game/images/trailer-preview.gif",
-      "https://raw.githubusercontent.com/jaihari2006/rc-car-in-class-/Game/images/gameplay-nitro.jpg",
-      "https://raw.githubusercontent.com/jaihari2006/rc-car-in-class-/Game/images/banner.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "maglev",
     "name": "Maglev",
     "description": "Download anything on Android: videos from web pages, ordinary links and torrents. Ad-free browser, HLS/m3u8 stream saver, search across 40+ sources, feeds that auto-download. Works as a 1DM alternative",
