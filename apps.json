@@ -41834,5 +41834,33 @@
       "https://raw.githubusercontent.com/caruno-git/Revera/main/docs/screenshots/album.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "mhabit",
+    "name": "Mhabit",
+    "description": "Open-source Flutter habit tracker with smart scoring, WebDAV sync, local-first storage, privacy-focused design, and support for Android, iOS, Windows, macOS, and Linux.",
+    "icon": "https://raw.githubusercontent.com/FriesI23/mhabit/main/docs/README/images/feature-hero-showcase-dark.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/FriesI23/mhabit",
+    "githubRepo": "FriesI23/mhabit",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "io.github.friesi23.mhabit",
+    "category": "Productivity",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "SMS2Email",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/FriesI23/mhabit/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+      "https://raw.githubusercontent.com/FriesI23/mhabit/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+      "https://raw.githubusercontent.com/FriesI23/mhabit/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+      "https://raw.githubusercontent.com/FriesI23/mhabit/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+      "https://raw.githubusercontent.com/FriesI23/mhabit/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png",
+      "https://raw.githubusercontent.com/FriesI23/mhabit/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
