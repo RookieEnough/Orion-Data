@@ -40066,31 +40066,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "releasefetch",
-    "name": "ReleaseFetch",
-    "description": "ReleaseFetch is a modern Android application designed to make downloading GitHub repository releases effortless. Just drop any repository URL, and the app fetches all releases, automatically highlights the best asset for your device, and lets you download & install it right away. 🇮🇳\n\nPAKISTAN KA MAA KA B#OSDA 🤡🇵🇰\n",
-    "icon": "https://raw.githubusercontent.com/Tombytee/ReleaseFetch/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Tombytee/ReleaseFetch",
-    "githubRepo": "Tombytee/ReleaseFetch",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.tombytee.releasefetch",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Tombytee 🇮🇳",
-    "officialSite": "",
-    "screenshots": [
-      "https://i.ibb.co/mVr72JK7/Screenshot-20261114-192908.png",
-      "https://i.ibb.co/Q3yTTxVD/Screenshot-20261114-192917.png",
-      "https://i.ibb.co/whFkJ1yg/Screenshot-20261114-223221.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "opencode-mobile",
     "name": "Opencode Mobile",
     "description": "OpenCode Mobile puts coding agents on your Android phone. The app installs its own Linux (Ubuntu with Git and Node) and runs ten agents inside it, including Claude Code, Codex, Gemini CLI and OpenCode. You need no computer and no Termux. If you prefer, you can connect to an agent running on your computer instead.\n\n\nRun Claude Code and OpenCode on your Android phone, no computer needed. Or follow and steer agents on your computer: live sessions, tool approvals and diffs.",
