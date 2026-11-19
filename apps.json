@@ -35599,7 +35599,7 @@
     "id": "morphe-download-helper",
     "name": "Morphe Download Helper",
     "description": "An unofficial Android helper app that downloads the original APK requested by Morphe Manager and hands it back through Morphe's open DOWNLOAD_ORIGINAL_APK intent contract",
-    "icon": "https://raw.githubusercontent.com/GeneralZyonix/morphe-download-helper/main/docs/icon.png",
+    "icon": "https://raw.githubusercontent.com/GeneralZyonix/morphe-download-helper/refs/heads/main/docs/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -39917,9 +39917,12 @@
     "author": "the-best-is-best",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/master/docs/media/phone-list.png",
-      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/master/docs/media/desktop.png",
-      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/master/docs/media/android-details.png"
+      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/c63ca8d/docs/media/store/store-1.png",
+      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/c63ca8d/docs/media/store/store-2.png",
+      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/c63ca8d/docs/media/store/store-3.png",
+      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/c63ca8d/docs/media/store/store-4.png",
+      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/c63ca8d/docs/media/store/store-5.png",
+      "https://raw.githubusercontent.com/the-best-is-best/FetchJet/c63ca8d/docs/media/store/store-6.png"
     ],
     "releaseKeyword": "apk"
   },
