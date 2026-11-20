@@ -42164,5 +42164,30 @@
       "https://raw.githubusercontent.com/yusibov2026-hue/SubLater/main/screenshots/2.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "vidlab",
+    "name": "VidLab",
+    "description": "Video player and media library manager for Android with built-in WebDAV, embedded Rclone, automatic metadata scraping, and Simkl/Trakt/AniList sync.",
+    "icon": "https://raw.githubusercontent.com/lolzz11/VidLab/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/lolzz11/VidLab",
+    "githubRepo": "lolzz11/VidLab",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.vidlab.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "lolzz11",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/lolzz11/VidLab/main/docs/screenshots/1.jpg",
+      "https://raw.githubusercontent.com/lolzz11/VidLab/main/docs/screenshots/2.jpg",
+      "https://raw.githubusercontent.com/lolzz11/VidLab/main/docs/screenshots/3.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
