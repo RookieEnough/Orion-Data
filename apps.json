@@ -42112,5 +42112,57 @@
       "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/6Nox.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "tartan",
+    "name": "Tartan",
+    "description": "Your all-in-one running coach. Tartan plans your training around your week, puts it on your watch and adapts when life gets in the way.\nCoach with Tartan's built-in rules, an AI on your phone, or your own Gemini or Claude key. Free, and your data stays yours.",
+    "icon": "https://raw.githubusercontent.com/sanjinpepic/Tartan/main/icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/sanjinpepic/Tartan",
+    "githubRepo": "sanjinpepic/Tartan",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "app.tartan",
+    "category": "Health",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "sanjinpepic",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/sanjinpepic/Tartan/main/screenshots/1-today.png",
+      "https://raw.githubusercontent.com/sanjinpepic/Tartan/main/screenshots/2-coach.png",
+      "https://raw.githubusercontent.com/sanjinpepic/Tartan/main/screenshots/3-ask-your-coach.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "sublyter",
+    "name": "SubLyter",
+    "description": "SubLyter — AI Video Subtitle Generator, Translator & Smart PlayerTurn any video or audio file into ultra-accurate, word-synced subtitles in seconds. SubLyter pairs a native AndroidX Media3 + FFmpeg audio engine with blazing-fast Groq Whisper speech recognition, context-aware LLM translation, and a built-in Gemini AI video assistant — wrapped in a modern glassmorphic interface you can customize down to the smallest detail.What Makes SubLyter Stand Out:•Plays & Decodes Almost Any Format: Full support for MKV, MP4, AVI, TS, MOV, WebM, FLAC, Opus, AC3, E-AC3 (5.1/7.1), DTS, and more. Powered by a native Media3 + FFmpeg decoder with speech-focused surround downmixing (prioritizing the center dialogue channel), multi-track audio switching, and zero unnecessary cache copies for large files.•Pinpoint Word-by-Word Sync: Real audio PTS tracking, 10 ms RMS speech-envelope onset calibration, monotonic playback time interpolation, and instant word rendering lock every word tightly to the speaker's voice. Switch anytime between Word-by-Word, Karaoke, and Full Line modes.•Smart AI Translation (20 Languages): Pause-aware phrase splitting (≥ 0.40 s) before translation keeps dialogue natural, while speech-interval mapping aligns translated words to actual spoken timing instead of stretching them across silences. Translate into Russian, English, Spanish, Portuguese, French, German, Italian, Turkish, Azerbaijani, Arabic, Hindi, Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, Persian, Ukrainian, and Polish.•Built-in Gemini AI Video Chat: Ask anything about what you're watching, get summaries and key moments with clickable [MM:SS] timestamps that jump straight to that scene, or toggle 🖼 Frame to send the current video frame for visual Q&A.•Interactive Transcript & Multi-Format Export: Search across all subtitles, tap any line to seek instantly, copy text in one tap, or export directly to .VTT, .ASS (with karaoke timing), .SRT, and .TXT. Load existing .vtt/.srt files or open videos straight from other apps via Open with / Share.•Pro Built-in Video Player: Up to 200% HQ volume boost with quick presets (100%–200% HQ), playback speed (0.5x–2.0x), double-tap seeking, customizable subtitle font, size, color, position, background opacity, appearance/hold timing offsets, aspect modes, and immersive fullscreen.•Deep Personalization & 20-Language UI: Frosted glass interface with 31 static & live animated accent wallpapers (including live Snowfall), 5 dark-slate themes, custom HSL/HEX color pickers with presets, and a built-in 20-language interface.•Fast, Private & Offline-Ready: Uses your own API keys (Groq for transcription/translation with multi-key rotation & caching, Gemini for video chat). API keys are stored locally in Android EncryptedSharedPreferences (Keystore), fonts are bundled offline, cleartext traffic is disabled, and there are zero ads or trackers.",
+    "icon": "https://raw.githubusercontent.com/yusibov2026-hue/SubLater/main/app/src/main/res/drawable-nodpi/ic_launcher_foreground.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/yusibov2026-hue/SubLater",
+    "githubRepo": "yusibov2026-hue/SubLater",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.fromsub.app",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "yusibov2026-hue",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/yusibov2026-hue/SubLater/main/screenshots/1.jpg",
+      "https://raw.githubusercontent.com/yusibov2026-hue/SubLater/main/screenshots/4.jpg",
+      "https://raw.githubusercontent.com/yusibov2026-hue/SubLater/main/screenshots/5.jpg",
+      "https://raw.githubusercontent.com/yusibov2026-hue/SubLater/main/screenshots/3.jpg",
+      "https://raw.githubusercontent.com/yusibov2026-hue/SubLater/main/screenshots/2.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
