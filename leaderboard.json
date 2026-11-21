@@ -2221,5 +2221,14 @@
     "class": "Warrior",
     "avatar_url": "https://api.dicebear.com/9.x/big-ears/svg?seed=Avery",
     "last_updated": 1795215861842
+  },
+  {
+    "username": "Mordecai",
+    "xp": 490,
+    "level": 6,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Avery",
+    "last_updated": 1795258225435
   }
 ]
