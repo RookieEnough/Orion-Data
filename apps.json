@@ -42089,7 +42089,7 @@
     "id": "nox-sound",
     "name": "Nox Sound",
     "description": "Nox Sound — Stream, organize, and play your music effortlessly on Android.\n\n• Direct YouTube Music Access: Connect your account to stream saved songs, explore recommendations, and sync your personal library.\n• Unified Local & Online Playback: Play tracks stored on your device alongside online streams in one place.\n• Uninterrupted Background Audio: Keep music running smoothly while multitasking with responsive lock-screen and queue controls.\n• Live Synced Lyrics: Follow every beat with accurate, auto-scrolling lyrics timed to the track.\n• Essential Daily Tools: Built-in sleep timer, quick favorites, custom playlists, and a distraction-free dark interface.\n",
-    "icon": "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/icon-512.png",
+    "icon": "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/app_icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -42104,12 +42104,14 @@
     "author": "Hance-PDv",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/1Nox.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/2Nox.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/3Nox.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/4Nox.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/5Nox.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/6Nox.png"
+      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/1NoxSound.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/2NoxSound.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/3NoxSound.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/4NoxSound.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/5NoxSound.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/6NoxSound.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/7NoxSound.png",
+      "https://raw.githubusercontent.com/Hance-PDv/Nox_sound/refs/heads/main/Screenshot/8NoxSound.png"
     ],
     "releaseKeyword": "apk"
   },
