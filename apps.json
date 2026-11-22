@@ -26421,11 +26421,12 @@
     "author": "mattedhairr",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/01-today.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/02-today-at-a-glance.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/03-goals.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/04-focus-session.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/HEAD/docs/screenshots/05-calendar.png"
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/01-today.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/02-today-at-a-glance.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/03-goals.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/04-focus-session.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/05-calendar.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/09-appearance.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -29249,9 +29250,14 @@
     "author": "adnoryx",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/adnoryx/HabitFlow/main/docs/screenshots/today.jpg",
-      "https://raw.githubusercontent.com/adnoryx/HabitFlow/main/docs/screenshots/routines.jpg",
-      "https://raw.githubusercontent.com/adnoryx/HabitFlow/main/docs/screenshots/trophies.jpg"
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/refs/heads/main/docs/screenshots/today.jpg",
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/refs/heads/main/docs/screenshots/today_light.jpg",
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/refs/heads/main/docs/screenshots/routines.jpg",
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/refs/heads/main/docs/screenshots/routines_light.jpg",
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/refs/heads/main/docs/screenshots/insights.jpg",
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/refs/heads/main/docs/screenshots/insights_light.jpg",
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/refs/heads/main/docs/screenshots/trophies.jpg",
+      "https://raw.githubusercontent.com/adnoryx/HabitFlow/refs/heads/main/docs/screenshots/trophies_light.jpg"
     ],
     "releaseKeyword": "apk"
   },
