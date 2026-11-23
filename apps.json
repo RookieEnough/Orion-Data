@@ -25324,7 +25324,7 @@
     "id": "shelf",
     "name": "Shelf",
     "description": "A privacy-focused bookmark manager for Android that lets you save, organize, and revisit your bookmarks. Instant metadata, collections, reminders, biometric app lock, and a clean Material 3 interface make it simple to keep your links organized.",
-    "icon": "https://raw.githubusercontent.com/iambhvsh/shelf/app/assets/logo.png",
+    "icon": "https://raw.githubusercontent.com/iambhvsh/shelf/bb649854f6a86642a63cd93ecd2b6c15e980ee71/assets/logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "https://github.com/iambhvsh/shelf/releases/latest/download/shelf-release.apk",
@@ -25339,9 +25339,12 @@
     "author": "iambhvsh",
     "officialSite": "https://shelf.iambhvsh.in",
     "screenshots": [
-      "https://raw.githubusercontent.com/iambhvsh/shelf/refs/heads/web/static/screenshots/screenshot-1.webp",
-      "https://raw.githubusercontent.com/iambhvsh/shelf/refs/heads/web/static/screenshots/screenshot-2.webp",
-      "https://raw.githubusercontent.com/iambhvsh/shelf/refs/heads/web/static/screenshots/screenshot-3.webp"
+      "https://raw.githubusercontent.com/iambhvsh/shelf/bb649854f6a86642a63cd93ecd2b6c15e980ee71/assets/screenshots/01.png",
+      "https://raw.githubusercontent.com/iambhvsh/shelf/bb649854f6a86642a63cd93ecd2b6c15e980ee71/assets/screenshots/02.png",
+      "https://raw.githubusercontent.com/iambhvsh/shelf/bb649854f6a86642a63cd93ecd2b6c15e980ee71/assets/screenshots/03.png",
+      "https://raw.githubusercontent.com/iambhvsh/shelf/bb649854f6a86642a63cd93ecd2b6c15e980ee71/assets/screenshots/04.png",
+      "https://raw.githubusercontent.com/iambhvsh/shelf/bb649854f6a86642a63cd93ecd2b6c15e980ee71/assets/screenshots/05.png",
+      "https://raw.githubusercontent.com/iambhvsh/shelf/bb649854f6a86642a63cd93ecd2b6c15e980ee71/assets/screenshots/06.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -26421,12 +26424,14 @@
     "author": "mattedhairr",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/01-today.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/02-today-at-a-glance.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/03-goals.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/04-focus-session.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/05-calendar.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/b0f8a4657f5d5a1d5e96b575a5438f645ca11377/docs/screenshots/09-appearance.png"
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/01-today.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/10-summit.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/11-focus-sky.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/03-goals.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/04-focus-session.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/05-calendar.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/02-today-at-a-glance.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/09-appearance.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -26714,7 +26719,7 @@
     "id": "lastwave-native",
     "name": "LastWave Native",
     "description": "A High-Resolution Lossless Music Streaming & Player with Real-Time Synced Lyrics & Smart Discovery for Android, built with Material 3 Expressive design.",
-    "icon": "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/lastwave_logo.png",
+    "icon": "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/assets/lastwave_logo.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -26729,12 +26734,14 @@
     "author": "Clash-Projects",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_1.png",
-      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_2.png",
-      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_3.png",
-      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_4.png",
-      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_5.png",
-      "https://raw.githubusercontent.com/Clash-Projects/LastWave-Native/refs/heads/main/Screenshot/screenshot_6.png"
+      "https://lastwave.clashprojects.in/assets/playlist.jpg",
+      "https://lastwave.clashprojects.in/assets/player.jpg",
+      "https://lastwave.clashprojects.in/assets/home.jpg",
+      "https://lastwave.clashprojects.in/assets/logo-circle.png",
+      "https://lastwave.clashprojects.in/assets/lyrics.jpg",
+      "https://lastwave.clashprojects.in/assets/autoeq.jpg",
+      "https://lastwave.clashprojects.in/assets/desktop%20screen%20shots/photo_2026-10-25_19-17-18.jpg",
+      "https://lastwave.clashprojects.in/assets/desktop%20screen%20shots/bg%20image/photo_2026-10-25_20-14-54.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -28809,7 +28816,7 @@
   },
   {
     "id": "wheather-pro",
-    "name": "Wheather app",
+    "name": "wheather-pro",
     "description": "It's a simple wheather app with clean minimal ui",
     "icon": "https://raw.githubusercontent.com/mahesh2008here-star/Wheather-pro/18e635221087f8ed381c95f8487a06c19edbea70/public/assets/weather_app_logo.svg",
     "version": "Latest",
@@ -29235,7 +29242,7 @@
     "id": "habitflow",
     "name": "HabitFlow",
     "description": "HabitFlow is a 100% offline, gamified habit tracker built for Android using Kotlin and Jetpack Compose. Turn your daily routines into an RPG adventure: earn XP for completing tasks, level up from Level 1 to 100+, protect your streak with Day Freezes, and complete Freeze Quests.\n\nKey Features:\n- RPG Gamification: Earn XP for every completed routine, level up your avatar, and unlock achievements.\n- Day Freeze Protection: Save up Day Freezes (max 1 used per day) so you never break your streak.\n- Freeze Quests: Complete daily and weekly challenges to earn bonus Day Freezes and extra XP.\n- 100% Offline & Private: Stores all data locally in an encrypted Room SQLite database with zero cloud servers or tracking.\n- Local JSON Backup: Export and import your progress anytime using offline JSON files.\n- 9 Supported Languages: English, Slovak, Czech, German, Spanish, French, Polish, Ukrainian, Italian.\n- Modern Dark Gaming UI: Smooth 120Hz display support, time-of-day routine grouping, and edge-to-",
-    "icon": "https://raw.githubusercontent.com/adnoryx/HabitFlow/main/docs/screenshots/icon.png",
+    "icon": "https://raw.githubusercontent.com/adnoryx/HabitFlow/refs/heads/main/docs/screenshots/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -32127,7 +32134,7 @@
       "https://raw.githubusercontent.com/home-assistant/android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
       "https://raw.githubusercontent.com/home-assistant/android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png"
     ],
-    "releaseKeyword": "apk"
+    "releaseKeyword": "app-minimal"
   },
   {
     "id": "bitwarden",
