@@ -130,8 +130,8 @@ def generate_mirror():
     try:
         with open(APPS_FILE, "r", encoding="utf-8") as f:
             all_apps = json.load(f)
-            # Filter out non-Android apps right at the start
-            apps = [app for app in all_apps if app.get("platform", "Android") == "Android"]
+            # Filter out desktop apps right at the start. TV apps are Android APKs, so they follow their repo's releases too.
+            apps = [app for app in all_apps if app.get("platform", "Android") in ("Android", "TV")]
     except Exception as e:
         print(f"❌ Error reading apps.json: {e}")
         return

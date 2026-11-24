@@ -59,10 +59,18 @@ jobs:
                     const newApps = JSON.parse(jsonStr);
                     if (!Array.isArray(newApps)) throw new Error("JSON is not an array.");
                     newApps.forEach(app => {
+                       // Same repo listed for a second platform (a TV build next to the phone build): give it a platform suffix instead of dropping it for sharing the ID
+                       const platformOf = x => String(x.platform || 'Android').toLowerCase();
+                       const sameRepoOtherPlatform = currentApps.some(a => a.id === app.id && platformOf(a) !== platformOf(app) &&
+                           ((app.githubRepo && a.githubRepo && a.githubRepo.toLowerCase() === app.githubRepo.toLowerCase()) ||
+                            (app.repoUrl && a.repoUrl && a.repoUrl.toLowerCase() === app.repoUrl.toLowerCase())));
+                       if (sameRepoOtherPlatform) app.id = `${app.id}-${platformOf(app)}`;
                        const exists = currentApps.some(a => {
                            const idMatch = a.id === app.id;
-                           const repoMatch = (app.githubRepo && app.githubRepo.trim() !== "" && a.githubRepo && a.githubRepo.toLowerCase() === app.githubRepo.toLowerCase());
-                           const urlMatch = (app.repoUrl && app.repoUrl.trim() !== "" && a.repoUrl && a.repoUrl.toLowerCase() === app.repoUrl.toLowerCase());
+                           // The same repo can be listed once per platform (a phone build and a TV build), so repo and URL only clash within one platform.
+                           const samePlatform = String(a.platform || 'Android').toLowerCase() === String(app.platform || 'Android').toLowerCase();
+                           const repoMatch = samePlatform && (app.githubRepo && app.githubRepo.trim() !== "" && a.githubRepo && a.githubRepo.toLowerCase() === app.githubRepo.toLowerCase());
+                           const urlMatch = samePlatform && (app.repoUrl && app.repoUrl.trim() !== "" && a.repoUrl && a.repoUrl.toLowerCase() === app.repoUrl.toLowerCase());
                            return idMatch || repoMatch || urlMatch;
                        });
                        if (!exists) {
