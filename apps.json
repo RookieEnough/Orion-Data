@@ -23403,9 +23403,9 @@
     "author": "bcrtvkcs",
     "officialSite": "",
     "screenshots": [
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224102_MoonlightZenith.png",
       "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224037_MoonlightZenith.png",
       "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224054_MoonlightZenith.png",
-      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224102_MoonlightZenith.png",
       "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224124_MoonlightZenith.png",
       "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224131_MoonlightZenith.png"
     ],
@@ -26734,14 +26734,11 @@
     "author": "Clash-Projects",
     "officialSite": "",
     "screenshots": [
-      "https://lastwave.clashprojects.in/assets/playlist.jpg",
-      "https://lastwave.clashprojects.in/assets/player.jpg",
       "https://lastwave.clashprojects.in/assets/home.jpg",
-      "https://lastwave.clashprojects.in/assets/logo-circle.png",
+      "https://lastwave.clashprojects.in/assets/player.jpg",
       "https://lastwave.clashprojects.in/assets/lyrics.jpg",
-      "https://lastwave.clashprojects.in/assets/autoeq.jpg",
-      "https://lastwave.clashprojects.in/assets/desktop%20screen%20shots/photo_2026-10-25_19-17-18.jpg",
-      "https://lastwave.clashprojects.in/assets/desktop%20screen%20shots/bg%20image/photo_2026-10-25_20-14-54.jpg"
+      "https://lastwave.clashprojects.in/assets/playlist.jpg",
+      "https://lastwave.clashprojects.in/assets/autoeq.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -43465,7 +43462,7 @@
   },
   {
     "id": "masterwave",
-    "name": "MasterWave",
+    "name": "Masterwave",
     "description": "Studio-grade lossless music streaming app for Android crafted with Jetpack Compose and ExoPlayer",
     "icon": "https://raw.githubusercontent.com/maheshbuilds-dev/MasterWave/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "version": "Latest",
