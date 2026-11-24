@@ -44726,5 +44726,33 @@
       "https://raw.githubusercontent.com/by-architect/Dejavu/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "robo-island",
+    "name": "Robo Island",
+    "description": "Ultra-sleek AMOLED Black Dynamic Island for Windows featuring an interactive Robot Companion with organic eye physics & desktop mouse glance tracking. Includes Universal Media Player with live scrubbing, RAM & NVMe SSD Storage Health, Background Task Killer, Quick Utilities, and intelligent desktop-safe Auto-Hide (hides while browsing or watching YouTube videos, never on the Home Screen). Built for ultra-low battery consumption (2-5% per day).",
+    "icon": "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Robo-Island/main/icon.png",
+    "version": "1.0.1",
+    "latestVersion": "1.0.1",
+    "downloadUrl": "https://github.com/muthumanikandanb2005-ux/Robo-Island/releases/download/v1.0.1/Robo-Island-v1.0.1-win64.zip",
+    "repoUrl": "https://github.com/muthumanikandanb2005-ux/Robo-Island",
+    "githubRepo": "muthumanikandanb2005-ux/Robo-Island",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "",
+    "category": "Customization",
+    "platform": "Windows",
+    "size": "151 MB",
+    "author": "muthumanikandanb2005-ux",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Robo-Island/main/screenshot-1-media.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Robo-Island/main/screenshot-2-stats.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Robo-Island/main/screenshot-3-apps.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Robo-Island/main/screenshot-4-robolab.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Robo-Island/main/screenshot-5-tools.png",
+      "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Robo-Island/main/screenshot-6-collapsed.png"
+    ],
+    "releaseKeyword": "win64.zip"
   }
 ]
