@@ -44730,7 +44730,7 @@
   {
     "id": "robo-island",
     "name": "Robo Island",
-    "description": "Ultra-sleek AMOLED Black Dynamic Island for Windows featuring an interactive Robot Companion with organic eye physics & desktop mouse glance tracking. Features persistent settings auto-save, flawless desktop-safe auto-hide with top edge hover peeking, Pomodoro Focus Timer, Universal Media Player with spectrum visualizer, RAM & NVMe SSD Storage Health, Background Task Killer, and procedural futuristic sound chimes.",
+    "description": "Ultra-sleek AMOLED Black Dynamic Island for Windows featuring an interactive Robot Companion with organic eye physics & desktop mouse glance tracking. Features persistent settings auto-save, flawless desktop-safe auto-hide (hides on YouTube/browsers, never on Desktop), Pomodoro Focus Timer, Universal Media Player with interactive drag-to-seek progressive bar, spectrum visualizer modes, RAM & NVMe SSD Storage Health, Background Task Killer, 11 expressive moods, Rainbow RGB mode, and procedural futuristic sound chimes.",
     "icon": "https://raw.githubusercontent.com/muthumanikandanb2005-ux/Robo-Island/main/icon.png",
     "version": "1.0.2",
     "latestVersion": "1.0.2",
