@@ -20493,31 +20493,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "gugal",
-    "name": "gugal",
-    "description": "To use Gugal with Google Search you need a CSE (Programmable Search Engine) ID and API key. Instructions for obtaining both can be found in the app.\nTo get these values you must have a Google account, therefore Google might still link searches to your account.\nTo use Gugal with searx or SearXNG you need an instance with the JSON search format enabled. We recommend making your own instance as most public instances don't have it enabled.",
-    "icon": "https://gitlab.com/narektor/gugal/-/raw/main/fastlane/metadata/android/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/narektor/gugal",
-    "githubRepo": "",
-    "gitlabRepo": "narektor/gugal",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "com.porg.gugal",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "narektor",
-    "officialSite": "",
-    "screenshots": [
-      "https://gitlab.com/narektor/gugal/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
-      "https://gitlab.com/narektor/gugal/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
-      "https://gitlab.com/narektor/gugal/-/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "amwf",
     "name": "AmWF",
     "description": "AmWF is a tool that allows you to control the monitor mode of the WiFi interface on rooted Android devices with Qualcomm Snapdragon chipsets.",
@@ -21030,36 +21005,6 @@
       "https://i.ibb.co/VWfCcq7Y/9.jpg",
       "https://i.ibb.co/v6V31ZQ3/10.jpg",
       "https://i.ibb.co/nNcYSwCb/11.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "llm-hub",
-    "name": "LLM Hub",
-    "description": "LLM Hub is an open-source mobile app for on-device LLM chat and image generation, available for both Android and iOS. It's optimized for mobile usage (CPU/GPU/NPU acceleration) and supports multiple model formats so you can run powerful models locally and privately.",
-    "icon": "https://play-lh.googleusercontent.com/1JYETHBT740NoMD8eIz38FlreC7L_7CKKWNMD3OV1O5ddAriL8HHtkaEHw0ylUz5UE4IAAjEU4BFOaOFNuQezw=w480-h960-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/timmyy123/LLM-Hub",
-    "githubRepo": "timmyy123/LLM-Hub",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.llmhub.llmhub",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Timmyy123",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/iSv30uIZN0gLLOgd4lJm9sHr8R21D-qeyECkAURMjgyrM4B8zuAWnqoRz6_GH_oWEiYhMOj-XbBhcOq_LK32=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/_UsVwqM_jcW-s-yg9d8MJjZisO8--8kLSrnD6l4PyNuCLa24_Q1_91UnefYKg1LIInqmVcFZiE6KRhuXN6NJy7M=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/DNh7en9nmWjoMCU66RR7Mbsb5Owgz1al3YjUqEDPcxGwyg09rieOhzFlmWyoIunaY4yyfcoyQdAAdV91I_Pptg=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/XZWJVGAJmDMGUGAmfzPgTuqjPFseCqwUnzOeOtrhnrKGfeIu63CNMh43q_kP0SmNr0KtyhaKCh_Ur_MenxG1Mg=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/-nPTuPP6UP-JJGIStO--LZFirfknmKTbHuHzlDDgPHmM3BXj_7zqJVfJBpygp15iSdUiUnixJYtMpjQlZ4do=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/EepMk8SlLcavT8O_JBTI_VUbhxMCBJdm33XHMvwdmCW5V7Qo0PfP6tC_mPf61Nf5wEz-KHGnz6OQIzeqgwcg=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/GFucDaYR3KBY9N84rxYT17b-TkdH__zmryqtjbFFZ9ePrmXLmqc3rBm1rTYPvBFLRjm5H8vFBfIcGGwwjnv0uA=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/NbM97Qvgv5emeNln80wHT_DSx8-4Tu3ueS18vCvcg5fkcvYBdOGDjRE2G3eNaKHSEf7JoQz1D96aBA4SSWaStH4=w1052-h592-rw"
     ],
     "releaseKeyword": "apk"
   },
@@ -30512,32 +30457,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "auratune",
-    "name": "Auratune",
-    "description": "this app is a music application and upload music and listen ",
-    "icon": "https://raw.githubusercontent.com/tanveerahmed9413/auratune/main/frontend/public/favicon.svg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/tanveerahmed9413/auratune",
-    "githubRepo": "tanveerahmed9413/auratune",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "https://auratune-vqd1.onrender.com/",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "tanveerahmed9413",
-    "officialSite": "",
-    "screenshots": [
-      "https://ik.imagekit.io/wfu2z1vqz/IMG_20261018_151149.jpg",
-      "https://ik.imagekit.io/wfu2z1vqz/IMG_20261018_151141.jpg",
-      "https://ik.imagekit.io/wfu2z1vqz/IMG_20261018_151132.jpg",
-      "https://ik.imagekit.io/wfu2z1vqz/IMG_20261018_151124.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "cleanify",
     "name": "Cleanify",
     "description": "A modern, powerful and feature-rich media management app for Android featuring a swipe-to-sort interface and advanced duplicate/similar media detection & many more, forked from CleanSweep",
@@ -31515,31 +31434,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "frostkeys",
-    "name": "FrostKeys",
-    "description": "FrostKeys: An elegant, privacy-first Android keyboard with Frosted Glass/Background Blur UI and Gemini AI integration. Based on HeliBoard.",
-    "icon": "https://raw.githubusercontent.com/AshwinSoni-01/FrostKeys/main/assets/icon/FrostKeys_Icon_with_bg.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/AshwinSoni-01/FrostKeys",
-    "githubRepo": "AshwinSoni-01/FrostKeys",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.orion.frostkeys",
-    "category": "Customization",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "AshwinSoni-01",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/AshwinSoni-01/FrostKeys/refs/heads/main/assets/screenshots/Screenshot_3.png",
-      "https://raw.githubusercontent.com/AshwinSoni-01/FrostKeys/main/assets/screenshots/Screenshot_4.png",
-      "https://raw.githubusercontent.com/AshwinSoni-01/FrostKeys/main/assets/screenshots/Screenshot_5.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "opengym",
     "name": "OpenGym",
     "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
@@ -31877,36 +31771,6 @@
       "https://raw.githubusercontent.com/luogen520/Pebbo/main/fastlane/metadata/android/zh-CN/images/phoneScreenshots/1.png",
       "https://raw.githubusercontent.com/luogen520/Pebbo/main/fastlane/metadata/android/zh-CN/images/phoneScreenshots/2.png",
       "https://raw.githubusercontent.com/luogen520/Pebbo/main/fastlane/metadata/android/zh-CN/images/phoneScreenshots/3.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "sshborg",
-    "name": "Sshborg",
-    "description": "SSH Client for cyborgs and androids",
-    "icon": "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/payne1982/sshborg",
-    "githubRepo": "payne1982/sshborg",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.sshborg",
-    "category": "Development",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "payne1982",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
-      "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
-      "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
-      "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
-      "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
-      "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
-      "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
-      "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -32322,60 +32186,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "mindustry",
-    "name": "Mindustry",
-    "description": "An open-ended factory management game with RTS and tower defense elements\n\nMindustry is a factory-building game with tower defense and RTS elements. Create elaborate supply chains to feed ammo into your turrets, produce materials to use for building, and construct units. Command units to capture enemy bases, and expand your production. Defend your core from waves of enemies.\n\nGameplay Features\n\n- Use production blocks to create a wide variety of advanced materials\n- Defend your structures from waves of enemies\n- Play with your friends in cross-platform multiplayer co-op games, or challenge them in team-based PvP matches\n- Distribute liquids and fight constant challenges, like outbreaks of fire or enemy flier raids\n- Get the most out of your production by supplying optional coolant and lubricant\n- Produce a wide variety of units for automatic management of your base or assault on enemy bases\n- Set up assembly lines to construct armies of mechanized units\n- Use your units to square up against fully functional enemy bases\n\nCampaign\n\n- Conquer the planets Serpulo and Erekir as you advance through 35 hand-made maps and 250+ procedurally generated sectors\n- Capture territory and set up factories to produce resources while you play other sectors\n- Defend your sectors from periodic invasions\n- Coordinate resource distribution between sectors via launch pads\n- Research new blocks to fuel progress\n- Invite your friends to complete missions together\n- 250+ technology blocks to master\n- 50+ different types of drones, mechs and ships\n\nCustom Games & Cross-Platform Multiplayer\n\n- 16+ built in maps for custom games, in addition to two entire campaigns\n- Play co-op, PvP or sandbox\n- Join a public dedicated server, or invite friends to your own private session\n- Customizable game rules: Change block costs, enemy stats, starting items, wave timing and more\n- Full functional map editor with scripting support\n- Built-in mod browser & mod support",
-    "icon": "https://f-droid.org/repo/io.anuke.mindustry/en-US/icon_Eno3XvqCZUcHRm3eMjiUleAxgzLopPe6-hkI7BHx1lU=.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Anuken/Mindustry",
-    "githubRepo": "Anuken/Mindustry",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "io.anuke.mindustry",
-    "category": "Games",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Anuken",
-    "officialSite": "",
-    "screenshots": [
-      "https://f-droid.org/repo/io.anuke.mindustry/en-US/phoneScreenshots/1.png",
-      "https://f-droid.org/repo/io.anuke.mindustry/en-US/phoneScreenshots/2.png",
-      "https://f-droid.org/repo/io.anuke.mindustry/en-US/phoneScreenshots/3.png",
-      "https://f-droid.org/repo/io.anuke.mindustry/en-US/phoneScreenshots/4.png",
-      "https://f-droid.org/repo/io.anuke.mindustry/en-US/phoneScreenshots/5.png",
-      "https://f-droid.org/repo/io.anuke.mindustry/en-US/phoneScreenshots/6.png",
-      "https://f-droid.org/repo/io.anuke.mindustry/en-US/phoneScreenshots/7.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "taqwa",
-    "name": "Taqwa",
-    "description": "Prayer times, Adhan notifications, Qibla and the Quran for Android and iOS. Free, offline by design, no ads, no tracking. Kotlin Multiplatform.",
-    "icon": "https://raw.githubusercontent.com/MohamedAbulgasem/Taqwa/main/docs/screenshots/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/MohamedAbulgasem/Taqwa",
-    "githubRepo": "MohamedAbulgasem/Taqwa",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "world.taqwa.app",
-    "category": "Reading",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "MohamedAbulgasem",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/MohamedAbulgasem/Taqwa/main/docs/screenshots/prayer-light.png",
-      "https://raw.githubusercontent.com/MohamedAbulgasem/Taqwa/main/docs/screenshots/mushaf.png",
-      "https://raw.githubusercontent.com/MohamedAbulgasem/Taqwa/main/docs/screenshots/recitation.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "redraft",
     "name": "Redraft",
     "description": "An Android PDF editor that performs true content editing — changing existing text and images inside a PDF — rather than just annotating it. Pages are rendered through PDFium (via NDK/JNI) and edited at the page-object level, regenerating the content stream on save.",
@@ -32476,34 +32286,6 @@
       "https://raw.githubusercontent.com/florisboard/florisboard/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
       "https://raw.githubusercontent.com/florisboard/florisboard/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
       "https://raw.githubusercontent.com/florisboard/florisboard/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "antennapod",
-    "name": "AntennaPod",
-    "description": "AntennaPod is a free, open-source podcast manager and player for Android, designed to make discovering, organizing, and enjoying podcasts simple and flexible.\n\nBrowse millions of podcasts using popular directories, add shows through RSS feeds, or import existing subscriptions using OPML. Stream episodes instantly or download them for offline listening, and organize your favorites with a customizable playback queue.\n\nEnjoy features such as adjustable playback speed, chapter navigation, sleep timers, playback history, episode favorites, and home-screen controls. Automatic downloading and smart episode deletion help keep your library updated while managing storage and mobile data usage.\n\nAntennaPod supports light and dark themes, Bluetooth and headset playback controls, and optional podcast subscription synchronization. Its flexible settings allow you to customize how episodes are downloaded, played, and managed.\n\nDeveloped by a community of volunteers, AntennaPod is free of advertisements and subscription fees. Its source code is available under the GPL-3.0 license, and its development is open to community contributions.",
-    "icon": "https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/icon/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/AntennaPod/AntennaPod",
-    "githubRepo": "AntennaPod/AntennaPod",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "de.danoeh.antennapod",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "AntennaPod",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/00.png",
-      "https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/01.png",
-      "https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/02.png",
-      "https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/03.png",
-      "https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/04.png",
-      "https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/05.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -34492,31 +34274,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "portal-digital",
-    "name": "Portal Digital ",
-    "description": "Imagina um lugar onde tem os melhores jogos, aplicativos e Tutorial e livros e programas de computador, tudo na palma da sua mão.",
-    "icon": "https://portaldigital.vercel.app/logo.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/sibemcesar/Portaldigital",
-    "githubRepo": "sibemcesar/Portaldigital",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.portal.ao",
-    "category": "Anime",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "sibemcesar",
-    "officialSite": "",
-    "screenshots": [
-      "https://appteka.store/screenshot/e6e93156cbd176f1103729dd0df288a60e19a135.jpg?e=1793836800&s=gxZiUnnom1CO8_5-wa4AQQ",
-      "https://appteka.store/screenshot/742894d8387a11e25bdfeda8d8d49071f4c6abf3.jpg?e=1793836800&s=bCvIj5xArLkLoLHhZsb_Sw",
-      "https://appteka.store/screenshot/0ca19a4dd79763ef72e89351de0e10aac2ad06f4.jpg?e=1793836800&s=83s87LcamVwjTuJ8jxggWg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "yumelist",
     "name": "YumeList",
     "description": "Unofficial Android MAL client based on Moelist",
@@ -35191,34 +34948,6 @@
       "https://kolfat.app/assets/media-kolfat-2-guide/screenshots/01-02-performance-check-complete.png",
       "https://kolfat.app/assets/media-kolfat-2-guide/screenshots/01-03-welcome-source-choices.png",
       "https://kolfat.app/assets/media-kolfat-2-guide/screenshots/01-04-about-version.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "digipaws",
-    "name": "Digipaws",
-    "description": "DigiPaws is an open-source Android productivity utility designed to help users reduce screen addiction. The application offers two modes namely the Base mode and the Gamified mode (The gamification mode is being separated and developed as a new app knows as [questphone]",
-    "icon": "https://raw.githubusercontent.com/WAYYYAW/digipaws/refs/heads/kt-rewrite/fastlane/metadata/android/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/WAYYYAW/digipaws",
-    "githubRepo": "WAYYYAW/digipaws",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "nethical.digipaws",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "WAYYYAW",
-    "officialSite": "",
-    "screenshots": [
-      "https://f-droid.org/repo/nethical.digipaws/en-US/phoneScreenshots/1.png",
-      "https://f-droid.org/repo/nethical.digipaws/en-US/phoneScreenshots/2.png",
-      "https://f-droid.org/repo/nethical.digipaws/en-US/phoneScreenshots/6.png",
-      "https://f-droid.org/repo/nethical.digipaws/en-US/phoneScreenshots/3.png",
-      "https://f-droid.org/repo/nethical.digipaws/en-US/phoneScreenshots/5.png",
-      "https://f-droid.org/repo/nethical.digipaws/en-US/phoneScreenshots/4.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -38513,35 +38242,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "suntimeswidget",
-    "name": "SuntimesWidget",
-    "description": "Android app (and widget collection) that displays sunlight and moonlight times.",
-    "icon": "https://raw.githubusercontent.com/forrestguice/SuntimesWidget/master/fastlane/metadata/android/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/forrestguice/SuntimesWidget",
-    "githubRepo": "forrestguice/SuntimesWidget",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.forrestguice.suntimeswidget",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "forrestguice",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/forrestguice/SuntimesWidget/master/fastlane/metadata/android/en-US/images/phoneScreenshots/0.png",
-      "https://raw.githubusercontent.com/forrestguice/SuntimesWidget/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
-      "https://raw.githubusercontent.com/forrestguice/SuntimesWidget/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
-      "https://raw.githubusercontent.com/forrestguice/SuntimesWidget/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
-      "https://raw.githubusercontent.com/forrestguice/SuntimesWidget/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
-      "https://raw.githubusercontent.com/forrestguice/SuntimesWidget/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
-      "https://raw.githubusercontent.com/forrestguice/SuntimesWidget/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "merks",
     "name": "Merks",
     "description": "Android app: tap once, say it, done. Voice memos become calendar appointments, reminders or notes.",
@@ -40086,33 +39786,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "kdeconnect-android",
-    "name": "Kdeconnect Android",
-    "description": "Native Android port of the KDE Connect Qt app",
-    "icon": "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/fastlane/metadata/android/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/KDE/kdeconnect-android",
-    "githubRepo": "KDE/kdeconnect-android",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "org.kde.kdeconnect_tp",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "KDE",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
-      "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
-      "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
-      "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
-      "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "phonebox",
     "name": "Phonebox",
     "description": "Turn an old Android phone into a local desk panel for Windows, Linux and macOS. 55 widgets, Smart Stack, AI quotas and sessions, media controls, USB or paired Wi-Fi.",
@@ -41249,31 +40922,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "numo",
-    "name": "Numo",
-    "description": "finance and investment tracking app",
-    "icon": "https://raw.githubusercontent.com/keeystanley-ops/Numo/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/keeystanley-ops/Numo.git",
-    "githubRepo": "keeystanley-ops/Numo",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.aistudio.numo.qireqb",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "stalon",
-    "officialSite": "",
-    "screenshots": [
-      "https://user57013.na.imgto.link/public/20261116/496b83c31ac07b2b984de9f9-1000052320.avif",
-      "https://user57013.na.imgto.link/public/20261116/496b83c31ac07b2b984de9f9-1000052320.avif",
-      "https://user57013.na.imgto.link/public/20261116/496b83c31ac07b2b984de9f9-1000052320.avif"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "tessera-linux",
     "name": "Tessera Linux",
     "description": "Tessera runs real Linux desktop apps on your Android phone, as easily as installing an app. Tap Install to set up Debian 13, then pick from nearly 2,000 Debian apps or 2,800+ Flathub apps and launch them with a tap. Each app opens in its own window, with its own icon and its own card in Recents. There's GPU acceleration for Snapdragon phones, Material You theming that follows your wallpaper and dark mode, a full desktop mode with movable windows, per-app sandboxing and a complete Debian terminal.",
@@ -41379,56 +41027,6 @@
       "https://raw.githubusercontent.com/phsycologicalFudge/AvarionX-Antivirus-Lite/main/gitImages/1.jpg",
       "https://raw.githubusercontent.com/phsycologicalFudge/AvarionX-Antivirus-Lite/main/gitImages/2.jpg",
       "https://raw.githubusercontent.com/phsycologicalFudge/AvarionX-Antivirus-Lite/main/gitImages/3.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "folio-pdf-converter",
-    "name": "Folio Pdf Converter",
-    "description": "A tools can be used to pdf convert for beginners ",
-    "icon": "https://raw.githubusercontent.com/prashant546788/Folio-pdf-converter-/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/prashant546788/Folio-pdf-converter-.git",
-    "githubRepo": "prashant546788/Folio-pdf-converter-",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.aistudio.foliopdf.qwrxmt",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "prashant546788",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Forward-Future/folio/main/docs/screenshots/search.png",
-      "https://raw.githubusercontent.com/Forward-Future/folio/main/docs/screenshots/ask-ai.png",
-      "https://raw.githubusercontent.com/Forward-Future/folio/main/docs/screenshots/search.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "om",
-    "name": "om",
-    "description": "A messaging app that works offline via Bluetooth or hotspot. ",
-    "icon": "https://cdn.imagetourls.com/uploads/tyImg/YSCzykPw.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/mmmmmmbbcvb-eng/Dial.git",
-    "githubRepo": "mmmmmmbbcvb-eng/Dial",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.my.offlinemsg",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "So-and-so ",
-    "officialSite": "",
-    "screenshots": [
-      "https://cdn.imagetourls.com/uploads/tyImg/14mfq5MPd.jpg",
-      "https://cdn.imagetourls.com/uploads/tyImg/cpImjeMl.jpg",
-      "https://cdn.imagetourls.com/uploads/tyImg/18g9iEECM.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -42003,35 +41601,6 @@
       "https://raw.githubusercontent.com/AnasPotter/daybrief/main/images/5-calendar.png",
       "https://raw.githubusercontent.com/AnasPotter/daybrief/main/images/7-things.png",
       "https://raw.githubusercontent.com/AnasPotter/daybrief/main/images/8-saved.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "open-keychain",
-    "name": "Open Keychain",
-    "description": "OpenKeychain is an OpenPGP implementation for Android.",
-    "icon": "https://raw.githubusercontent.com/open-keychain/open-keychain/master/fastlane/metadata/android/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/open-keychain/open-keychain",
-    "githubRepo": "open-keychain/open-keychain",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.key.chain",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "open-keychain",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/open-keychain/open-keychain/master/fastlane/metadata/android/en-US/images/phoneScreenshots/device-2015-05-06-140816.png",
-      "https://raw.githubusercontent.com/open-keychain/open-keychain/master/fastlane/metadata/android/en-US/images/phoneScreenshots/device-2015-05-06-141500.png",
-      "https://raw.githubusercontent.com/open-keychain/open-keychain/master/fastlane/metadata/android/en-US/images/phoneScreenshots/device-2015-05-06-141508.png",
-      "https://raw.githubusercontent.com/open-keychain/open-keychain/master/fastlane/metadata/android/en-US/images/phoneScreenshots/device-2015-05-06-141517.png",
-      "https://raw.githubusercontent.com/open-keychain/open-keychain/master/fastlane/metadata/android/en-US/images/phoneScreenshots/device-2015-05-06-141527.png",
-      "https://raw.githubusercontent.com/open-keychain/open-keychain/master/fastlane/metadata/android/en-US/images/phoneScreenshots/device-2015-05-06-141552.png",
-      "https://raw.githubusercontent.com/open-keychain/open-keychain/master/fastlane/metadata/android/en-US/images/phoneScreenshots/device-2015-05-06-142026.png"
     ],
     "releaseKeyword": "apk"
   },
