@@ -3642,9 +3642,21 @@
     "author": "namidaco",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/namidaco/namida/main/screens/collection_light_1.jpg",
-      "https://raw.githubusercontent.com/namidaco/namida/main/screens/collection_dark_1.jpg",
-      "https://raw.githubusercontent.com/namidaco/namida/main/screens/collection_dark_2.jpg"
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/collection_light_1.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/collection_light_2.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/collection_light_3.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/collection_light_4.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/collection_dark_1.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/collection_dark_2.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/settings/settings.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/settings/settings_advanced.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/settings/settings_backup.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/settings/settings_customization.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/settings/settings_extras.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/settings/settings_indexer.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/settings/settings_playback.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/settings/settings_theme.webp",
+      "https://raw.githubusercontent.com/namidaco/namida-assets/main/screenshots/readme/settings/settings_youtube.webp"
     ],
     "releaseKeyword": "namida-v5.6.1"
   },
@@ -23407,7 +23419,12 @@
       "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224037_MoonlightZenith.png",
       "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224054_MoonlightZenith.png",
       "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224124_MoonlightZenith.png",
-      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224131_MoonlightZenith.png"
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20260613-224131_MoonlightZenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20261125-032717_Moonlight%20Zenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20261125-032740_Moonlight%20Zenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20261125-032746_Moonlight%20Zenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20261125-032756_Moonlight%20Zenith.png",
+      "https://raw.githubusercontent.com/bcrtvkcs/moonlight-zenith-android/refs/heads/master/screenshots/Screenshot_20261125-032846_Moonlight%20Zenith.png"
     ],
     "releaseKeyword": "app-nonRoot-release.apk"
   },
@@ -26424,14 +26441,14 @@
     "author": "mattedhairr",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/01-today.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/10-summit.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/11-focus-sky.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/03-goals.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/04-focus-session.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/05-calendar.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/02-today-at-a-glance.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/afcdcc4b0ab5b9597f073317f44f229f7ede6eed/docs/screenshots/09-appearance.png"
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/01-today.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/10-scenes.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/11-focus-sky.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/03-goals.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/04-focus-session.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/05-calendar.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/02-today-at-a-glance.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/09-appearance.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -33832,12 +33849,12 @@
     "author": "MI-Musanna\nMahdi Islam MI-Musanna\n",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/Home.png",
-      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/Portal.png",
-      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/Project.png",
-      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/Schedule.png",
-      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/Task.png",
-      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/Wallet.png"
+      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/home.png",
+      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/portal.png",
+      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/project.png",
+      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/schedule.png",
+      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/task.png",
+      "https://raw.githubusercontent.com/MI-Musanna/DuoRhythm/main/screenshots/wallet.png"
     ],
     "releaseKeyword": "apk"
   },
