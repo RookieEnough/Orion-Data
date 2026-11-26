@@ -11709,7 +11709,7 @@
     "repoUrl": "https://gitlab.shinice.net/pixeldroid/bunny",
     "gitlabRepo": "pixeldroid/bunny",
     "gitlabDomain": "gitlab.shinice.net",
-    "releaseKeyword": "APK",
+    "releaseKeyword": "apk",
     "packageName": "eu.artectrex.bunny",
     "category": "Media",
     "platform": "Android",
@@ -12468,7 +12468,7 @@
     "latestVersion": "Latest",
     "downloadUrl": "https://releases.ironfoxoss.org/ironfox",
     "repoUrl": "https://gitlab.com/ironfox-oss/IronFox",
-    "githubRepo": "https://github.com/ironfox-oss/IronFox",
+    "githubRepo": "",
     "gitlabRepo": "ironfox-oss/IronFox",
     "gitlabDomain": "gitlab.com",
     "packageName": "org.ironfoxoss.ironfox",
@@ -19681,8 +19681,8 @@
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
-    "repoUrl": "https://github.com/SriKousik/StreamXBot",
-    "githubRepo": "SriKousik/StreamXBot",
+    "repoUrl": "https://github.com/StreamXProject/StreamX-Releases",
+    "githubRepo": "StreamXProject/StreamX-Releases",
     "gitlabRepo": "",
     "gitlabDomain": "",
     "packageName": "com.xstream.music",
@@ -23318,30 +23318,6 @@
       "https://raw.githubusercontent.com/abhay-byte/fluxlinux/main/assets/screenshots/desktop.png"
     ],
     "releaseKeyword": "apk"
-  },
-  {
-    "name": "PocketOps",
-    "id": "pocketops",
-    "description": "Unified utility dashboard for Android. Fast UPI, WhatsApp, and Instagram shortcuts.",
-    "icon": "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/PocketOps.png",
-    "repoUrl": "https://github.com/IIXII-L192/PocketOps-app",
-    "githubRepo": "IIXII-L192/PocketOps-app",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "codebergRepo": "",
-    "releaseKeyword": "apk",
-    "packageName": "l192.aakarsh.pocketops",
-    "category": "Utility",
-    "author": "IIXII-L192",
-    "downloadUrl": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/Menu.png",
-      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/QuickUPI.png",
-      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/QuickUPIQR.png",
-      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/QuickChat.png",
-      "https://raw.githubusercontent.com/IIXII-L192/PocketOps-app/main/QuickInsta.png"
-    ],
-    "platform": "Android"
   },
   {
     "id": "adns",
@@ -31564,31 +31540,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "ai-pro",
-    "name": "Ai Pro",
-    "description": "AI Pro - box any area of your screen, read it with on-device AI (original app, free) [Advanced version of Samsung smart select]",
-    "icon": "https://raw.githubusercontent.com/chinmayshastry05-cpu/ai-pro/main/docs/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/chinmayshastry05-cpu/ai-pro",
-    "githubRepo": "chinmayshastry05-cpu/ai-pro",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "Ai pro",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "chinmayshastry05-cpu",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/chinmayshastry05-cpu/ai-pro/main/docs/screenshot-3.jpg",
-      "https://raw.githubusercontent.com/chinmayshastry05-cpu/ai-pro/main/docs/screenshot-2.jpg",
-      "https://raw.githubusercontent.com/chinmayshastry05-cpu/ai-pro/main/docs/screenshot-1.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "opengym",
     "name": "OpenGym",
     "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
@@ -31640,32 +31591,6 @@
       "https://raw.githubusercontent.com/bl3xand/APK-Toolbox/main/docs/screenshots/source-details.jpg",
       "https://raw.githubusercontent.com/bl3xand/APK-Toolbox/main/docs/screenshots/add.jpg",
       "https://raw.githubusercontent.com/bl3xand/APK-Toolbox/main/docs/screenshots/settings.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "typesprint",
-    "name": "TypingVault",
-    "description": "TypeSprint is a free typing practice app for SSC and Railway exam students. It has 290 typing tests based on real exam patterns — SSC CGL, CHSL (LDC and DEO), Selection Post and Railway RRB NTPC — with live WPM, accuracy and error tracking while you type. Your test records are saved permanently, the app works fully offline, and there are no ads and no login. Install it, practice daily, and watch your typing speed grow.",
-    "icon": "https://raw.githubusercontent.com/diwyankk/typing-test/main/icon-512.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/diwyankk/typing-test",
-    "githubRepo": "diwyankk/typing-test",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.diwyankk.typingtest",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "diwyankk",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/diwyankk/typing-test/main/screenshots/screenshot-1.jpg",
-      "https://raw.githubusercontent.com/diwyankk/typing-test/main/screenshots/screenshot-4.jpg",
-      "https://raw.githubusercontent.com/diwyankk/typing-test/main/screenshots/screenshot-3.jpg",
-      "https://raw.githubusercontent.com/diwyankk/typing-test/main/screenshots/screenshot-2.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -31982,34 +31907,6 @@
       "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
       "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
       "https://raw.githubusercontent.com/payne1982/sshborg/V1/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "music-flow",
-    "name": "MFlow",
-    "description": "MFlow is a refined, full-featured music player designed to give you total control over your audio library. Wrapped in a modern Liquid Glass aesthetic, it delivers uncompromised sound performance through a smooth, ad-free interface tailored completely to your listening preferences.\n\nMFlow: Your music, your way.",
-    "icon": "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/app_icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Hance-PDv/Music-Flow",
-    "githubRepo": "Hance-PDv/Music-Flow",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.mflow.music",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Hance-PDv",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/10MFlow.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/12MFlow.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/13MFlow.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/14MFlow.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/15MFlow.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Music-Flow/refs/heads/main/screenshots/16MFlow.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -33804,33 +33701,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "zaman-mall",
-    "name": "Zaman Mall",
-    "description": "Pakistan's No 1 Ai powered shopping platform🛒.Zaman Mall Offers you thousands of products at cheapest price with imported quality and best user experience💓.So try Zaman Mall Application Ever🤝🏻❣️.",
-    "icon": "https://raw.githubusercontent.com/itx-adilzaman/Zaman-Mall/main/public/images/InShot_20260527_114547559.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/itx-adilzaman/Zaman-Mall",
-    "githubRepo": "itx-adilzaman/Zaman-Mall",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "Zaman.Mall.apk",
-    "category": "Social",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Muhammad Adil Zaman",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/itx-adilzaman/Zaman-Mall/main/public/images/file_0000000057b88211aebfe498919e46f5.png",
-      "https://raw.githubusercontent.com/itx-adilzaman/Zaman-Mall/main/public/images/3.png",
-      "https://raw.githubusercontent.com/itx-adilzaman/Zaman-Mall/main/public/images/4.png",
-      "https://raw.githubusercontent.com/itx-adilzaman/Zaman-Mall/main/public/images/1.png",
-      "https://raw.githubusercontent.com/itx-adilzaman/Zaman-Mall/main/public/images/5.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "duorhythm",
     "name": "DuoRhythm",
     "description": "An offline, zero-telemetry Android suite built for students and independent builders who need strict capital accounting alongside coursework engineering.",
@@ -34094,33 +33964,6 @@
       "https://github.com/d4rken-org/airplanes-live-app/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_search.png",
       "https://github.com/d4rken-org/airplanes-live-app/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_watch.png",
       "https://github.com/d4rken-org/airplanes-live-app/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_feeders.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "orubus-app",
-    "name": "Orubus App",
-    "description": "Orubus AI for Android is an ai companion with one memory that follows you across platforms on telegram, discord on your home screenand much more company ",
-    "icon": "https://raw.githubusercontent.com/orubus-dev/orubus-app/main/icon-512.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/orubus-dev/orubus-app",
-    "githubRepo": "orubus-dev/orubus-app",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "app.orubus.ai",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "orubus-dev",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/orubus-dev/orubus-app/main/store/01-chat.png",
-      "https://raw.githubusercontent.com/orubus-dev/orubus-app/main/store/02-voice-call.png",
-      "https://raw.githubusercontent.com/orubus-dev/orubus-app/main/store/03-photos.png",
-      "https://raw.githubusercontent.com/orubus-dev/orubus-app/main/store/04-earn-units.png",
-      "https://raw.githubusercontent.com/orubus-dev/orubus-app/main/store/05-midnight.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -34756,36 +34599,6 @@
       "https://codeberg.org/zagura/ion-launcher/media/branch/main/metadata/en-US/images/phoneScreenshots/1.jpg",
       "https://codeberg.org/zagura/ion-launcher/media/branch/main/metadata/en-US/images/phoneScreenshots/2.jpg",
       "https://codeberg.org/zagura/ion-launcher/media/branch/main/metadata/en-US/images/phoneScreenshots/3.jpg"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "haseebflix",
-    "name": "HaseebFlix",
-    "description": "HaseebFlix is a free, sleek Android app for discovering movies and TV shows. Browse popular, top-rated and upcoming titles, search movies and series, view details, cast and crew, season and episode guides, and keep a local watchlist with no account required.\n\nCatalogue data comes from TMDB and playback is delivered through a third-party embed provider in a WebView. The app does not host the media itself; it aggregates and points to publicly reachable sources. Signed APK releases are published from version tags with SHA-256 checksums.\n\nFeatures:\n- Browse popular, top-rated and upcoming movies and TV shows\n- Search movies and TV series\n- Details, cast and crew, season and episode selection for series\n- Local watchlist, no account needed\n- Dark Jetpack Compose interface, no ads in the UI\n- Min Android 6.0 (API 23)\n\nLicensed under Apache-2.0. This product uses the TMDB API but is not endorsed or certified by TMDB.",
-    "icon": "https://raw.githubusercontent.com/haseebno1/Haseeb-Flix/main/fastlane/metadata/android/en-US/images/icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/haseebno1/Haseeb-Flix",
-    "githubRepo": "haseebno1/Haseeb-Flix",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.haseebno1.haseebflix",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "haseebno1",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/haseebno1/Haseeb-Flix/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
-      "https://raw.githubusercontent.com/haseebno1/Haseeb-Flix/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
-      "https://raw.githubusercontent.com/haseebno1/Haseeb-Flix/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
-      "https://raw.githubusercontent.com/haseebno1/Haseeb-Flix/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
-      "https://raw.githubusercontent.com/haseebno1/Haseeb-Flix/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
-      "https://raw.githubusercontent.com/haseebno1/Haseeb-Flix/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
-      "https://raw.githubusercontent.com/haseebno1/Haseeb-Flix/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
-      "https://raw.githubusercontent.com/haseebno1/Haseeb-Flix/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -37884,36 +37697,6 @@
       "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/progress.webp",
       "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/main-dark.webp",
       "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/language-picker.webp"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "lumina-sound",
-    "name": "Lumina Sound",
-    "description": "Lumina Sound is a modern music experience that brings music discovery, streaming, and personalization together in a smooth, intuitive interface.\n\nFeatures\n\n- Online Discovery & Sharing: Explore music online and share your favorite tracks and discoveries with others.\n- High-Quality Audio: Enjoy clear, rich sound for an immersive listening experience.\n- Synced Lyrics: Follow songs with precisely synchronized lyrics and smooth scrolling.\n- Smart Sleep Timer: Set a countdown to automatically stop playback.\n- Favorites: Save your favorite tracks for quick access.\n- Custom Playlists: Create, edit, and organize your personal music collections.\n- Listening Statistics: Track listening time, most-played songs, and daily activity.",
-    "icon": "https://raw.githubusercontent.com/Hance-PDv/Lumina-Sound/refs/heads/main/Screenshot/Lumina_icon.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/Hance-PDv/Lumina-Sound",
-    "githubRepo": "Hance-PDv/Lumina-Sound",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.lumina.music",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Hance-PDv",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Hance-PDv/Lumina-Sound/refs/heads/main/Screenshot/1Home.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Lumina-Sound/refs/heads/main/Screenshot/2Lumina.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Lumina-Sound/refs/heads/main/Screenshot/3Lumina.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Lumina-Sound/refs/heads/main/Screenshot/4Lumina.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Lumina-Sound/refs/heads/main/Screenshot/5Lumina.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Lumina-Sound/refs/heads/main/Screenshot/6Lumina.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Lumina-Sound/refs/heads/main/Screenshot/7Lumina.png",
-      "https://raw.githubusercontent.com/Hance-PDv/Lumina-Sound/refs/heads/main/Screenshot/1Setting.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -41195,33 +40978,6 @@
       "https://raw.githubusercontent.com/SAKTHIVEL280/watch-instead/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
       "https://raw.githubusercontent.com/SAKTHIVEL280/watch-instead/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
       "https://raw.githubusercontent.com/SAKTHIVEL280/watch-instead/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
-    "id": "virex-music",
-    "name": "Virex Music",
-    "description": "Native Android music player with discovery, lyrics, radio, playlists and offline listening. Built with Kotlin and Jetpack Compose.",
-    "icon": "https://raw.githubusercontent.com/ogvirex/virex-music/main/docs/assets/logo.jpg",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/ogvirex/virex-music",
-    "githubRepo": "ogvirex/virex-music",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.virexdl.app",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "ogvirex",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/ogvirex/virex-music/main/docs/assets/discover.jpg",
-      "https://raw.githubusercontent.com/ogvirex/virex-music/main/docs/assets/player.jpg",
-      "https://raw.githubusercontent.com/ogvirex/virex-music/main/docs/assets/library.jpg",
-      "https://raw.githubusercontent.com/ogvirex/virex-music/main/docs/assets/offline.jpg",
-      "https://raw.githubusercontent.com/ogvirex/virex-music/main/docs/assets/settings.jpg"
     ],
     "releaseKeyword": "apk"
   },
