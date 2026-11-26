@@ -45868,5 +45868,62 @@
       "https://raw.githubusercontent.com/Chronosauros/contour/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "screenstream",
+    "name": "ScreenStream",
+    "description": "ScreenStream Android App",
+    "icon": "https://thumbs5.imagebam.com/aa/3c/eb/ME1EIN2X_t.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/dkrivoruchko/ScreenStream",
+    "githubRepo": "dkrivoruchko/ScreenStream",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "info.dvkr.screenstream",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "dkrivoruchko",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/dkrivoruchko/ScreenStream/master/docs/images/hero.png",
+      "https://raw.githubusercontent.com/dkrivoruchko/ScreenStream/master/docs/images/streaming-modes.png",
+      "https://raw.githubusercontent.com/dkrivoruchko/ScreenStream/master/docs/images/mjpeg-1.png",
+      "https://raw.githubusercontent.com/dkrivoruchko/ScreenStream/master/docs/images/mjpeg-4.png",
+      "https://raw.githubusercontent.com/dkrivoruchko/ScreenStream/master/docs/images/mjpeg-5.png",
+      "https://raw.githubusercontent.com/dkrivoruchko/ScreenStream/master/docs/images/webrtc-1.png",
+      "https://raw.githubusercontent.com/dkrivoruchko/ScreenStream/master/docs/images/rtsp-1.png"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "avarionx-security",
+    "name": "AvarionX Security",
+    "description": "Android malware protection without ads, tracking, or locked core features.",
+    "icon": "https://raw.githubusercontent.com/phsycologicalFudge/AvarionX-Android-Antivirus/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/phsycologicalFudge/AvarionX-Android-Antivirus",
+    "githubRepo": "phsycologicalFudge/AvarionX-Android-Antivirus",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.colourswift.cssecurity",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "MinosPrime",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/phsycologicalFudge/AvarionX-Android-Antivirus/main/assets/gitImages/1.jpg",
+      "https://raw.githubusercontent.com/phsycologicalFudge/AvarionX-Android-Antivirus/main/assets/gitImages/5.jpg",
+      "https://cdn-cf-east.streamable.com/image/07jwwd.jpg",
+      "https://raw.githubusercontent.com/phsycologicalFudge/AvarionX-Android-Antivirus/main/assets/gitImages/2.jpg",
+      "https://raw.githubusercontent.com/phsycologicalFudge/AvarionX-Android-Antivirus/main/assets/gitImages/3.jpg",
+      "https://raw.githubusercontent.com/phsycologicalFudge/AvarionX-Android-Antivirus/main/assets/gitImages/4.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
