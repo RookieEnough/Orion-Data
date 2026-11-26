@@ -1,0 +1,49 @@
+name: Mirror Sync (GitLab + Codeberg)
+
+# Keeps full replicas of this repo (main + data branches) on GitLab and
+# Codeberg so the Orion Store can fall back if GitHub is ever unavailable.
+# The data branch is force-pushed by design: Update Store Mirror rewrites
+# it as an orphan branch on every run, so the replicas must follow suit.
+# Pushes made with the built-in GITHUB_TOKEN (mirror rebuilds, batch
+# processing) do not fire the push trigger, so a schedule catches those up.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, data]
+  schedule:
+    - cron: '23 */2 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  mirror-gitlab:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (all branches)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push main + data to GitLab
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_MIRROR_TOKEN }}
+        run: |
+          git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@gitlab.com/Grininja/orion-data.git"
+          git push --force gitlab refs/remotes/origin/main:refs/heads/main refs/remotes/origin/data:refs/heads/data
+
+  mirror-codeberg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (all branches)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push main + data to Codeberg
+        env:
+          CODEBERG_TOKEN: ${{ secrets.CODEBERG_MIRROR_TOKEN }}
+        run: |
+          git remote add codeberg "https://RookieZ:${CODEBERG_TOKEN}@codeberg.org/RookieZ/Orion-Data.git"
+          git push --force codeberg refs/remotes/origin/main:refs/heads/main refs/remotes/origin/data:refs/heads/data
