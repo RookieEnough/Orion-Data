@@ -44828,31 +44828,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "folio-pdf-converter",
-    "name": "Folio Pdf Converter",
-    "description": "A tools can be used to pdf convert for beginners ",
-    "icon": "https://raw.githubusercontent.com/prashant546788/Folio-pdf-converter-/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://github.com/prashant546788/Folio-pdf-converter-.git",
-    "githubRepo": "prashant546788/Folio-pdf-converter-",
-    "gitlabRepo": "",
-    "gitlabDomain": "",
-    "packageName": "com.aistudio.foliopdf.qwrxmt",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "prashant546788",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Forward-Future/folio/main/docs/screenshots/search.png",
-      "https://raw.githubusercontent.com/Forward-Future/folio/main/docs/screenshots/ask-ai.png",
-      "https://raw.githubusercontent.com/Forward-Future/folio/main/docs/screenshots/search.png"
-    ],
-    "releaseKeyword": "apk"
-  },
-  {
     "id": "vistaar",
     "name": "Vistaar",
     "description": "Vistaar is an **unofficial, independent client**. You sign in with your **own** Jio mobile number and one-time code, and it shows the channels that account is entitled to. It is not affiliated with, endorsed by or supported by Jio or its owners.",
