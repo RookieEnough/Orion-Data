@@ -5205,61 +5205,6 @@
     "releaseKeyword": "Rhythm"
   },
   {
-    "id": "avocards-revanced",
-    "name": "Avocards Morphe",
-    "description": "Avocards Morphe is a modified version of the Avocards app, designed for learning Korean vocabulary through interactive flashcards and games. It applies a custom ReVanced patch to enable premium features, bypassing subscription costs for enhanced access. This allows users to unlock offline learning, ad removal, dark mode, full K-pop song integration, and unlimited categories without payments.",
-    "icon": "https://play-lh.googleusercontent.com/Qf5hYUZLhcKPcKN-8T1HqngcVD-4Olz893wI9kXw4Ki2j4HkEidzHJ_q9Z55168XDxw=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "com.avocards",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/5KtOwAxv-WvakwhspY15F1ZLse065xRqaKqShO2B-rR4xLPEikFk_swqyW5r3Q-3QQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/1x5ef-l81hqud4s3VZBr0CNjGZ8MPnH5LUDd35cZLDGpfOgdvQTIs9ucTuBYVgi2qA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/jp68-RvjlR9iXR5rha5TKVtCGdNFCQapdEYAYlcykn9UvTzQ0kjV4YIUNt05pybzHFGq=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/bsgOj2MdUL-rCiywMCxVc3pM8VqUjHbXA7br1vd7mhzK16Vly9oFZkhirdM7sOCIwA=w526-h296-rw"
-    ],
-    "releaseKeyword": "avocards"
-  },
-  {
-    "id": "cake-revanced",
-    "name": "Cake Morphe",
-    "description": "Cake Morphe enhances the free tier by bypassing paywalls and unlocks Premium, making it ideal for casual learners seeking full access. Users can practice real-life expressions from videos like K-dramas and YouTube clips, with features like speech recognition and daily lessons",
-    "icon": "https://play-lh.googleusercontent.com/R9Xf7kEuaNi5qpA5WDoDd5mQ9syK-HB5LvXoYf3PNAeFbOYh5o2oUjQBwIWXq_Of5Tg=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "me.mycake",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/tveDlnIpoJZZqhEJScl0XAK75l2qVKD3cBH0IJmfx0JPN-tal1KHu33RBVqpKERhRMCA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/bTWdJTpqZBAW2GlvjeQX5h400vUpZn6Q-jfqL5WbYyYqOBuKE-RWeaWx2OrpZv77iVs=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/-5xE3i_wEt2eOprSZ4FMKRVKv7D-QjMXEjTqXsiwTKj-u2HwbZGaEbulNwIxWzLQbg=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/q_nnt5viKONIB_kRiT3_ZmS-5Q-uDUapPdBlyevj2gll3DBRUHBqeZwHVBNI4flcDHA_=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/hyCeBphWaBoDslO1_NfJWVk9VX0JsJzCiu6C35lMMZoX9rWtso6FqxF6rR-VHgbFxE8=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/hz6vptnqII0RSUZEYR0ylV64KEk5oPCbUDtHE0BGNQDpcIg3fNXSD3-xhIHrh0T5se_l=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/x-06WdBZOvU8yo47dngXS1AxfbEUMyRfjgdD3tNiBGlJrCxChsNuzRE9JYvcmlpDZ4OJ=w2560-h1440-rw"
-    ],
-    "releaseKeyword": "cake"
-  },
-  {
     "id": "calistree-revanced",
     "name": "Calistree Morphe",
     "description": "Calistree Morphe builds upon the original Calistree app, a calisthenics and bodyweight fitness tool that generates personalized workouts based on user objectives, equipment, and skill level. This modification applies a custom 'Unlock Pro' patch from community repositories to bypass subscription barriers and enable full premium access without monthly or lifetime fees. Users gain unlimited Journeys, equipment locations, custom exercises and flows, exercise history graphs, more buddies, and custom themes for enhanced training customization.",
@@ -5315,36 +5260,6 @@
       "https://play-lh.googleusercontent.com/A3bPG_-9NsdxcAc_nQCpuP2VlsFhwhCs4YlskrQ5PK4drcui9lBs8Z41nX_EtV2cxi8=w526-h296-rw"
     ],
     "releaseKeyword": "chargeprice"
-  },
-  {
-    "id": "eggbun-revanced",
-    "name": "Eggbun Morphe",
-    "description": "Eggbun Morphe builds upon the original Eggbun app, a fun Korean language learning tool that uses a chatbot tutor named Lanny for interactive practice in speaking, reading, listening, and writing skills. This modification applies custom patches from the hoo-dles repository to the package kr.eggbun.eggconvo, primarily 'Enable Premium' to bypass subscription barriers and unlock full access to all courses, advanced lessons, personalized word lists, quizzes, and ebooks without monthly or yearly fees. It also includes 'Force native keyboard' for improved typing, with broad compatibility across versions, making it ideal for beginners seeking premium features for free.",
-    "icon": "https://play-lh.googleusercontent.com/W7IHiirVldNP4dED-uiDIrUKqHOfz4lMI-0FYnxWf0HRUElKIRqemlvlKrhXp-k3WR0=s48-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "kr.eggbun.eggconvo",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/WsZgMqjAziiB8lglLBACiBCj8T_qSg7bwXZ_S8oFVYCm1QNnkoQHDTmAZzpDTJSbKA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/UVR0ehOGVdCE-mGBq23u79GC1DehGGw0E_GPXa1L9I38kz5bkO_MOJ4dBb2lKHvU1w=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/491OAbh1QCHdy3u498OU9LVxA5kSvfZSg7YiaHPbHqzlLV7WnGoQk7zVrVYUNHHlxRY=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/-z7iadZjakZIGOi_ZYbK54CnQuaJMj6XmsFcwLGxcM1REhUokECd_VlrJTeTl7RsMQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/_S8XixorgMbIXh2a94tK92T_xNU273H_9hmWopcJB9qyvIr6Y2WFPk439rmzCbX_e-g=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/XUbx87PpvgWBTiv51A7WNqurqHhERQr7PQgZwMAh-opvNc2jb25Lcne6GWnYdHRKUg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/FiYDAELkV3RHHLYt6dfC6Eq_XpUxtEI3I6-UCf-BIiHgZLKSymLqyLkHM2Y_fbiaKg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/dGYdgYGPsZ9t0G5OJrKL-YDixvAZWHKaXw2ZCvLxMlcKlUkSy9wePTxK8Z4bH4hXLwP4=w526-h296-rw"
-    ],
-    "releaseKeyword": "eggbun"
   },
   {
     "id": "geocaching-revanced",
@@ -5520,35 +5435,6 @@
       "https://play-lh.googleusercontent.com/mCpjiEJzvwRF8yxy2aDwXOZB_IBXHJO6WXQQcmTwx7jBgq1Nx478_07aD3vA2Py5cJZB4VdzoVhvMHwT33ou=w526-h296-rw"
     ],
     "releaseKeyword": "park4night"
-  },
-  {
-    "id": "my-expenses-revanced",
-    "name": "MyExpenses Morphe",
-    "description": "My Expenses ReVanced builds upon the original My Expenses app by Michael Totschnig, an open-source personal finance tracker for managing accounts, expenses, income, budgets, and transactions with features like CSV/QIF export and reconciliation. This modification applies the 'Unlock pro' patch (available in official ReVanced patches and forks) to the package org.totschnig.myexpenses, bypassing premium barriers to enable pro features without payment.",
-    "icon": "https://play-lh.googleusercontent.com/UjuME9DmxhIYnYNWxxeX2GnhZKa2bSRzPa2udUm50z25pUIs06NG_MLTi7MQGp2zWMU=s48-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "org.totschnig.myexpenses",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/cxh_qOx6OwQatZj69uI_odhyn0rbCvFECexPWDo_-nMm4AgfwYyD0MI1IT82fq2g52lW=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/aFtIJcqXhVo_Wl7PoEqHeyRnM3tXdeF4x91-EhCmCqiJ_m32ArNXN8J0C5ffBz_gGKI=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/tnCn6e7pkhh2wIwRcjc_KxvKIYRryIhlk6AbcaBx8-kduwT1bEp_reTDm-J46T4O20M=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/adcSdAkwQ4ITDSnT0OJjpQGiMt1sg9Hc_kAakiTSCgbWkMefZBmCYejwPWzROjGSpA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/OHjRiSnN2_PXcjR-ohxtV_JFbOQOu_5oS_KcJkRO3mCL-F6LtUaq0olOeoFlPIAoBdLt=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/mXwLr38eFMrHkLeVO1WEOM-4ErQ7djKh8c458cJwOK0U9uPILZa5UkT4At5htnhTeVw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/Gof-KhMRhZMm3WysBEBeQoDt--uX6RjRANOiXhiXSSlbmap7fbK6kSFIBbwxHTrb-A=w526-h296-rw"
-    ],
-    "releaseKeyword": "my-expenses"
   },
   {
     "id": "teuida-revanced",
@@ -11190,35 +11076,6 @@
     "gitlabDomain": "gitlab.com"
   },
   {
-    "id": "meme-morphe",
-    "name": "Meme Generator Morphe",
-    "description": " Are you ready to dive into the world of memes and become a meme maestro? Look no further than Meme Generator, the go-to app for meme enthusiasts and anyone who wants to start exploring the world of memes. \n\nPatches Applied : \n - Enable Pro",
-    "icon": "https://play-lh.googleusercontent.com/YNBUh-8PzcAXryawZ559rEUDowEOgXsPDfTDBOi4AQQR6NTsWGvYTU1tMRctN3uoRqw8=w480-h960-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "meme",
-    "packageName": "com.zombodroid.MemeGenerator",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/SnlkBkRT72wjgWDVYQ0_guJcYEG-DXKsPWP0V14yRRd9EEl7A3A3_MF3cGnz2geRwg=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/tgZc0WhJ-bpJx_38UYmRHwHZOHq2TK9mK18b3do8zJtc_baCWq8yYoX93BS8GwmYbR4S=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/NV2Hg5MB3mT0nuk4cpoPFfhaiYP-IHn4_H3BGq15s6RsTqtF1vi3wkzf_tCI2nrVizOV=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/Md-cNPXPzALsq7yZMCzcrwyVYlXBCVd_-2NyTC6V4q4dCJxIUY8eJiH0pztUcD4LlasH=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/mR_zHBNb_pwQudV_pZwJfQkfTWymG5-ASGP09rBbfmQlxFuCPQnL0uuVSAg_wANfO8Cp=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/wh3v8x6SFwIp4VcxtYuOW4VDAlwhH75I-f9abb1kVbSO0QjkrYRIe-eC4rr8Ljj1SUc=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/AcKO10_8-OwEJ5nvTSTRDEDAWUxMV952UoT5NE20uMiqLXabPqXkPNFiSWfA2kUUZHI=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/uMMFSKcuNaGacl-ZSnxC3e3eyS5sLrAPyflWH4uiLs20mqM4gpBD9ZjNmCmIUbCcLw=w1052-h592-rw"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
     "id": "Bussu-morphe",
     "name": "Bussu Morphe",
     "description": "Learn a new language with fun, bite-sized lessons created by experts. Connect with a helpful network of native speakers and qualified teachers to master a language faster.",
@@ -11413,34 +11270,6 @@
       "https://raw.githubusercontent.com/farfromrefug/EnforceDoze/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1776525176.png"
     ],
     "releaseKeyword": "apk"
-  },
-  {
-    "id": "mimo-revanced",
-    "name": "Mimo Morphe",
-    "description": "Learn coding in Python, JavaScript, HTML, CSS, or SQL, and master modern AI-assisted development to become a developer in the age of AI. Mimo is a coding app that takes you from zero to building projects with AI. Gain the knowledge and tools to create production-ready software and pursue a job as a developer. Start building strong portfolio projects today, future-proof your skills, and take the next step beyond just programming syntax—download Mimo and launch your developer career now! \n\nPatches Applied : \n - Enable Pro",
-    "icon": "https://play-lh.googleusercontent.com/lgWq2qiW75DAH1_dpKzt2Q3nAoGO0HI9W1XjTaAtyONIrZbxUI1ZQmI-K8RYUhxUXg=s48-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "mimo",
-    "packageName": "com.getmimo",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Morphe",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/oK94A86SE3_vkv5NUb-hQ8FHOzpwypfTvDs6KcIqwf2for3l5Jvffh5oU0Hya4J_74_s6Q-8lQp_pfCLnv2i=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/43H4qEAwu0P8bIBbWEH_DkjvGXN42fap4qY1pdg4FFBj1HKk3knqe-pgybzww2QnAYIjANRUOf_S0E8cyHfhxg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/fbKpn3t8vcJdI2tPMwFPl0mwcSEh_yYucVdO6YmiWa_pNfA3otD7PTnlSDy838iEaAd7FxjJhBkMtGKr4KOAKw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/fz95axunlnqRuzufVlUsBeEofCdw3guMJXFWD9Ui4IDBcQf4w9HXoLD7yOsGPAjqxDPmJzSps0h5PO6MW_Ft=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/L7--LqVPErf9p-m9ENmkKpUoWZl45-T1vennPDVIfuVmAZOkpGROC_RBepEIDsJVDb--94CtIKEIht94ZmqKhA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/EmikQx4RazP4aRPbGE9FMLGKXfXXoHG3pndLM3pwVk8mat_jCj82fuHIjLvnGSH8uK8svpq-xJ7HtOE2QcFJaA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/hrkukgWYS-tO1yjfG_vHWTv7CT-RfY5t2ardxbdb-SkV5A8oy17MwhVJzROfl-yuZZcujhyDP0u23g5dXsNycw=w526-h296-rw"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "blockads",
@@ -13445,100 +13274,6 @@
     "gitlabDomain": "gitlab.com"
   },
   {
-    "id": "hellochinese-revanced",
-    "name": "HelloChinese Morphe",
-    "description": "Designed in a fun and highly effective manner, HelloChinese helps you rapidly learn Mandarin Chinese from scratch to a conversational level. With HelloChinese, learners can 'learn the Chinese language, explore Chinese culture' – you will not only learn Mandarin Chinese but also enjoy the process of delving into the culture intertwined with the language.\n\nPatches Applied : \n - Enable Premium",
-    "icon": "https://play-lh.googleusercontent.com/3tSOq5FMoNE0li0dwKqJHIAOCUlac7UuV7jYvX1eaKH_fYrME4c8YMCGaJnB7IXx7e--=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "hellochinese",
-    "packageName": "com.hellochinese",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/_e6RSGNtutc-P4SIWEeqtakzxh0RYN5p0vEf03_NBx_axo6cn6lcQguCX3zVtAoripC9fZy9DCAhB-gicluo=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/EdiCnxUhPZ9ENtNBGYvjtH-tHa1MYDHlac3xmpeoKsz5fmFh6zsf534-9PweHHxQe5sQZqgp_hMfr5RPpxoZsQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/uR1asi0W1VGYuMtm7QzLVcNvElFCplQNPK8gVOoSO7WhPrryw-CJNrSuQFs6BALJifdBl-sr1cwiMb_34VYJ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/-UhkpZ4ZLacZeu-GEAWH9PK2njwEB06NFg-_EZdX68fmtK7TuRlZaj1mak91thL8i0SfHP3DXcVs0-dQFw-f=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/kP-dcaxzANoEm2HWVsI0a0Y0rku7fIpynfRqbmHoTl3KMZmBOIV2uIifcEfSdtsregoXTTTz68bRVnMPLK-P1w=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/5lKLmOLc0ty2fxvSizXkkiq-c9C6kE0OlG6usHT4zkCPrlBeW7PeeHQ0rDx0OxA06tjkAXn9A76TrGI-PgYGXA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/bM26gPv9fmtbJ3pD0JLfJ7_f_QJou1cAs0jsaO56uH3Ys2UqGuXohen_kKy_FFFQxdyDuxQbsxt9_W6sOJZComg=w526-h296-rw"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
-    "id": "nomone-revanced",
-    "name": "NOMone Desktop Morphe",
-    "description": "Try our desktop experience running entirely on your smartphone/tablet/smart TV. Phone screen is too small, or just want to work from bed? Try our VR mode!",
-    "icon": "https://play-lh.googleusercontent.com/CduicG0WEYUzNN2Z0J9rZNYEnn9W_k2dL50JAzL8SaoUNzyT9dWYsIycSG7VAJPoCrI=s48-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "nomone",
-    "packageName": "nom.vrd",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/VHsq2ojX-pD6c7Ck0O_ZdMKmPPyknXRgQQwWs7LmWfnVkZAwlnS7rC6BScwVmdzFtOs=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/CYCid1XXFVNROSwx4RcDY1Y4f7r2LKsl-yq-DrONXs1Ax9VEIoWCOprphe3Qz8o7jD0=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/6JwocFRI7NBV4hO_A-WZG_D8hs9R6Hk1UAjeO_WlEambv4yKIUuZMVuZ3AekaIj1MUZ3=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/kQ8oU9e2d1zp34VfZVHHhDCBg9czFqmvf_SBU9HMihD4aprfIkYS3UnWtq809QC3XoCE=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/Dlhzt_KpfFnUHuOHWQdUgsmvPdDDSiNeJsy0frXmVUqFR4EL-4Y7OzMEHXa11ojGumk=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/ZMXOkEitIzotJ83Ae2_vHzoD6p_qz1nr_V3Nc9XVQlpRmgl0ffBTBVPYUe4i78EhqVE=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/qL-C-sQaGz9uDtq8q0c8q85GkehCarodTmwMOtLKDbrVpkPLUEIQk3Hj-G-dK2gzcw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/LFVeu6n8S6jUcnhF23XAkwGND96EfJUhJv6uHoX7u9KjndC6VsW9fMr7OYN9DvXzEMFh=w526-h296-rw"
-    ],
-    "patches": [
-      "Disable anti-tamper checks",
-      "Disable telemetry",
-      "Remove trial limit"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
-    "id": "wallcraft-revanced",
-    "name": "Wallcraft Morphe",
-    "description": "In the Wallcraft application, only wallpapers suitable for the size of your screen will be displayed for you. All images are of high quality with various resolutions. Support for any device, including devices with large screens: 1080x1920 px (Full HD, 1080p) and 2160x3840 px (Ultra HD, 4K).",
-    "icon": "https://play-lh.googleusercontent.com/Pma9lkRk9exOWxPxuNpWDhl0qjaROwflc7ev-uev26aIOPVIpNmGm4O20oFEhomHAgSp=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "wallcraft",
-    "packageName": "com.wallpaperscraft.wallpaper",
-    "category": "Customization",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/fiwkmdTxz66PO4eo_YqmVlSJ53BeXtztnbqdF2DnseaPJcrLmrLJbb29FzEUGe2XLy4=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/mssdRWHCWa1pr-aUE0RrUm8MEKH5IpWZFE10rHunEO_8WmxfBeru1cWL0Ep9k06Dqw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/SW1GjbjRGP8ChoY49nKbIlvV3QRUetjz2c6phx_jYSiEBvGDRKr6dplli39dNB0K4A=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/iJSOogG0cHoYLyKZOhROoaeJ-kiNBFvBiDHFjOx32LUerxqU5I5xAi-N56PkLnXiwrA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/ZnCfZs0P8QfIdwymlUD0AUtvPxjTGThrcOsgd82i4B_rSCb9gOyMjgNpU-DONWcemw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/3Uvki3o4Rt6K9kfH_ia9D_2lsjBbGhckWZ-s0ZFw8h0XbNIlmTVg2b2e3IT2wOWEM3g=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/3Fb70c3eUgk_TXsLNP8SqfM-SH1Xx7Use_FIDwAWJdMmOkGjB_A4mKHUhaRPCgffcw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/ToOv01h5tS_heh3HjQCdGpzUJuDrCx5LpGcAA_gZmSLKJ_fOpMnNNewu59J0YOZGSmY=w526-h296-rw"
-    ],
-    "patches": [
-      "Enable Premium"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
     "id": "windy-revanced",
     "name": "Windy Morphe",
     "description": "Windy.com is an extraordinary tool for weather forecast visualization. It’s fast, intuitive, detailed and most accurate weather app trusted by professional pilots, paragliders, skydivers, kiters, surfers, boaters, fishermen, storm chasers and weather geeks, and even by governments, army staffs and rescue teams. Whether you are tracking a tropical storm or potential severe weather, planning a trip, pursuing your favourite outdoor sport, or you just need to know if it will rain this weekend, Windy provides you with the most up-to-date weather forecast around.",
@@ -13597,37 +13332,6 @@
     "patches": [
       "Custom tabs",
       "GMS support"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
-    "id": "pandora-revanced",
-    "name": "Pandora Morphe",
-    "description": "Create stations from your favorite songs, artists or genres, search or browse to find recommended stations for your mood or activity, and discover podcasts that speak to you. Download today and get instant access to your favorite artists and podcasts, while staying up to date on the most recent singles and releases. From rap and pop to rock and country, play your favorite artists and stay up to date on today’s top hits and releases. Start streaming all of the current global hits and enjoy your own personalized music experience.",
-    "icon": "https://play-lh.googleusercontent.com/jm0217jbZ0VJhGU7ecHHoi7MOcY7KMvxY5t1bIsc3KSVwLNbTwkwsfvtHvQkfabSmyNH=s48-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "pandora",
-    "packageName": "com.pandora.android",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/-cfCi-9UZsN9VUrUnXjICX3JsQQ-yYtHu-KZmGupvwddHaNbiyICVtxwjYEg6tl78DA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/vz3Dk6q9vkPdxSrDIn8XhLcc8ezYxWc6csTmpr5cN_yr03AzqnU0Yurq97hiTBA2Rrw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/eaKiEK-U05mAJTaDALiIthv0Yyexr3bOjZcNB7Jlq31fg8qQlzUTjTLRJH5kTUAfGwa6=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/Gv9YA2qfdxUSZu_BVDDNTcg9MTZx-Pm3FVpzey5hDMzEoopJVfmEqgkEulkb17YVBA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/DGmLad-us9MRt0teOwu3BnXEQvwgoqD_rfVPpmYKxlpVIz-rnFtSUJtm1Dq1qZk4B34=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/6fpKmEoGVTbKChWNy5d8hZkEL5yhENRHrzPuOC26YDlvymbjkhEYeMTrqWXeg009JLM=w526-h296-rw"
-    ],
-    "patches": [
-      "Disable ads",
-      "Unlimited skips"
     ],
     "gitlabRepo": "Grininja/community-builds",
     "gitlabDomain": "gitlab.com"
@@ -17107,38 +16811,6 @@
     "gitlabDomain": "gitlab.com"
   },
   {
-    "id": "mirinae-revanced",
-    "name": "Mirinae Morphe",
-    "description": "Are you learning Korean? Mirinae helps you understand all the parts-of-speech and grammar patterns in any Korean text that you give it. You enter a Korean sentence and Mirinae will translate the sentence, show you all the individual parts of speech, find and explain any grammar patterns present, explain the particles and honorifics and verb conjugations, identify & explain any idioms or neologisms",
-    "icon": "https://play-lh.googleusercontent.com/k9sMGwUE9vR9-bfBxLntv0MeHW2KQA1SNtuHKKfy7fqbijNeJ9iprpnJh6GqqykGy64=s48-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "mirinae",
-    "packageName": "com.mirinae.mirinae",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/0mjeVIquvCPGrGQk1PpJdTxWgYE9sACKHFxWLPRgWmTRgb--ehWLQHsrRwmFmt9SpA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/kB6QEJ_x6B2oPX1WzxR9v7mHxGEMwsxO7iG4XL3Cf41ap1LvY54OSVb3U0PwwOuqzg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/5fQVQwVj2trOXdbhi2r6ppuIKJpTKnYTEO8wKjAd-E5aCzzE8dEmGfCeJuTzIuV6nwA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/WiZ-nUgARKCgTOxPL3lhBTQkmeO22c8ljp6_8SjvNsMzcbn_OEIhUCS2pbMMDWqDwMI=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/D8ht3yA3wDasN1LKfp6PvpikHJl3tNpY7w_WFvR5gFShrih5-rMP-2MNB0kJMXp5DB8=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/1PIs959kYcMo2xJ8HxGOhIl3ZHnhSl8TSyQhtyVsj71R8fizUAErPlsmUNlPECf46M6T=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/rgv-XKUuJe05YiIWK8mgekfEEq7XtWfDOSAYnF_6DvXDh8CSZa_irtkh4Yy2OULBGo3J=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/rvnm25P5_nGowLuiB8WyAhYlwQ1mcuC7qMbFlRAM6IV100iP3Uqd8kMerrOksrypRXS-=w526-h296-rw"
-    ],
-    "patches": [
-      "Enable Pro"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
     "id": "niagara-revanced",
     "name": "Niagara Launcher Morphe",
     "description": "Niagara Launcher is a minimalist Android launcher designed to upgrade your phone by offering a clean, elegant, and customizable home screen. Focusing on productivity and easy customization, Niagara Launcher reduces clutter and allows you to effortlessly customize your home screen with themes, widgets, wallpapers, and icons, helping you make the most of your smartphone.",
@@ -17227,70 +16899,6 @@
     ],
     "patches": [
       "Enable Premium"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
-    "id": "ventusky-revanced",
-    "name": "Ventusky Morphe",
-    "description": "Ventusky All-in-One Weather is a fusion of 20+ of the world's best models, live radar, satellite and 40,000+ webcams, delivering industry-leading accuracy for planning everything from morning jogs to transatlantic flights.",
-    "icon": "https://play-lh.googleusercontent.com/utgUoNCe0j3qP3IRL-QLBvKywi12eN5cuVDW4pCecw5TGVsEaxPzw112Dwz-5plKeQ=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "ventusky",
-    "packageName": "cz.ackee.ventusky",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/mZ3E49EYADBXeUjt8CDsfPI4tGGc97QMrNXvyosq7xT9FGDO3Htvx-jKH3K3EeUP61BY8qORxjpWvX-VZsFH=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/5SU1UL-kl7pGyQTKfxJ2WmBPbhUbvRnUPTN_I2SBTw2xlb6IvXZ0tHBLk03jX9zF8tokHkWAM8KlPLWxdgOWcA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/E6ID2LkrafA6H12FkTT4ihPuGmsbaAxDZiOIa9K662UuGJJ0QIv1hHREoFTOywNkQ7ZYxtbNuCXffpsBfh5ovg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/ihas1QTLzz4h_FrS63DhQsd9-mhvIqnm43MR4eqhI2dZ_XKglnxuUvBdph2-2-ZKkJK-8Gl1tBsTUcjKtjZpgQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/IV97f5y13_4oCehhjqYI2Wz2S3P7uwr_JvfXYp2mQe_cz__XcZTBQldtQ_VKOahnNOBaPTo77U-74DxpH2VAiw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/ODsWpsQEHhZE6iR-EVusl-pULyMJqw0Vj0-XPZFXU6dtotV9yBq10_5Bupvlzl1Evgsr9zVrw9oLArEw23HBOQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/jtsm76kXpXlwm3c6WPswqLqO5_R9AnHioQXHIKsgpIn_gBdVlP9OxzgZNlhY_jKK_LH8y89ofUdqh-L6X9mB6A=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/cbiXtRON9WoMpqXResh5pVCDhLCvKcF8z9uhlVaqq14UpvSIITW0OmZbZrfpW_IW7U_vHZi1Zxa3CT_zW2qYFw=w526-h296-rw"
-    ],
-    "patches": [
-      "Enable Premium"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
-    "id": "xodo-revanced",
-    "name": "Xodo Morphe",
-    "description": "Optimise business workflows with PDF fillable forms, smart annotations, and redaction features. This all-in-one document reader, editor and converter increases efficiency on mobile and tablet. Whether it’s to boost productivity at work or school: scan, edit, sign, annotate and convert documents with ease! Enhance PDF productivity and optimise business workflows with our advanced features, including fillable forms, smart annotations, and secure redaction tools for efficient document management.",
-    "icon": "https://play-lh.googleusercontent.com/P4ka1WmoPb6zvl7h7Tzb3M6LE2bK9vCLrdTAHGVMup2lEUEOXxonQWbDd-sf-nY6vbs=s48-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "xodo",
-    "packageName": "com.xodo.pdf.reader",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/r0Zal-NoSkgbDWnsvGkq9Mk6hTcP-OU_oPLerlYjEIAOI-H-uKWj7l7d6xiY3tUHkg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/5vs-1MUoQRtApHVu01rZtTAG8zXMLZ2qB2MCPqMeu9aVjia-8XWJteLP758dnfwd_sVL=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/WGdPnPmiTpFRYU20IgRmE03ctke1qq-yPMaRMuzKyMHDdP2d1vNhr3eYSf0dg6jalV4=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/bdeNf12tdtNukBu5bPyOvV_Zp7LrP7UL72zZNemXJ-tlvrCmR_DK2CinsJRJbmqHWgG1=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/SceEhUnvlCzJ4r288HhKtaM_ZAP7SXsMy3dA9GIcQiT5JUXrsrf6XKAo46OIFGVEyMI5=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/NCAlCq8ZObp3XA5mWCha-nPkWgpgOvNjdz8nncGQLSwG_-KqIps1JihGfOH5Y1I6kthw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/qC_wy3QBSvSnTtVoFgEKQZNAHBl7THlDNM-nxB9Pk8hlJFtnSXjZRMHhgMOq4xfBWw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/VZ8JtbpsUphGdRj6rPXB_jGfhSGIt_t6cBbH92df0DM6Cxzl3CNdyjL9dMk8ekaOhr9U=w526-h296-rw"
-    ],
-    "patches": [
-      "Enable Pro"
     ],
     "gitlabRepo": "Grininja/community-builds",
     "gitlabDomain": "gitlab.com"
