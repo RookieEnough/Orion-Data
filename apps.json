@@ -18389,9 +18389,10 @@
     "author": "musaddiqbaluch",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/quickslate-screenshot-1.jpg",
-      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/quickslate-screenshot-2.jpg",
-      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/quickslate-screenshot-3.jpg"
+      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/app/src/main/assets/Screenshot1.jpg",
+      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/app/src/main/assets/Screenshot2.jpg",
+      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/app/src/main/assets/Screenshot3.jpg",
+      "https://raw.githubusercontent.com/musaddiqbaluch/QuickSlate/main/app/src/main/assets/Screenshot4.jpg"
     ],
     "releaseKeyword": "apk"
   },
@@ -25738,14 +25739,14 @@
     "author": "mattedhairr",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/01-today.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/10-scenes.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/11-focus-sky.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/03-goals.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/04-focus-session.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/05-calendar.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/02-today-at-a-glance.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/7425d4aa4a783407ba24ef1344dc4fba1cf08acb/docs/screenshots/09-appearance.png"
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/01-today.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/10-scenes.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/11-focus-sky.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/03-goals.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/04-focus-session.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/05-calendar.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/02-today-at-a-glance.png",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/09-appearance.png"
     ],
     "releaseKeyword": "apk"
   },
@@ -26943,13 +26944,13 @@
   {
     "id": "vivi-music-de-desktop-edition",
     "name": "Axolotl Music",
-    "description": "Vivi Music DE (PC Edition) is a sleek, cross-platform YouTube Music client built on Material 3 design principles. As the official desktop port of the acclaimed Vivi Music Android app, it delivers a native audio streaming experience across Windows, Linux, and macOS.\n",
-    "icon": "https://raw.githubusercontent.com/PiBOH/vivi-music-de/refs/heads/vivi-music-de/icon.png",
+    "description": "Axolotl Music is a free, open-source Material 3 desktop client for YouTube Music on Windows, Linux and macOS. It has a full player, synced lyrics, a local library, Discord Rich Presence, Last.fm scrobbling and cross-device sync.",
+    "icon": "https://raw.githubusercontent.com/PiBOH/axolotl-music/axolotl-music-de/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
-    "downloadUrl": "https://github.com/PiBOH/vivi-music-de",
-    "repoUrl": "https://github.com/PiBOH/vivi-music-de",
-    "githubRepo": "https://github.com/PiBOH/vivi-music-de",
+    "downloadUrl": "https://github.com/PiBOH/axolotl-music/releases/latest",
+    "repoUrl": "https://github.com/PiBOH/axolotl-music",
+    "githubRepo": "https://github.com/PiBOH/axolotl-music",
     "gitlabRepo": "",
     "gitlabDomain": "",
     "packageName": "",
@@ -26957,21 +26958,10 @@
     "platform": "PC",
     "size": "Varies",
     "author": "PiBOH",
-    "officialSite": "",
-    "screenshots": [
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/000.home-screen-guest-user.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/001.home-screen-logged-in-user.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/002.webviewlogin.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/003.sync.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/004.expressive-player-queque.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/005.Expressive-player-lyrics%2C-alpha-releases-syle.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/006.Color-customizations.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/007.Desktop-features.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/008.native-screen-notifications.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/010.about-screen.webp",
-      "https://raw.githubusercontent.com/PiBOH/vivi-music-de/gh-pages/images/screenshots/011.in-about-contriburor-screen.webp"
-    ],
-    "releaseKeyword": "apk"
+    "officialSite": "https://piboh.github.io/axolotl-music/",
+    "screenshots": [],
+    "releaseKeyword": "",
+    "telegram": "https://t.me/axolotlmusic"
   },
   {
     "id": "nagramxf",
@@ -37391,7 +37381,7 @@
     "id": "flickora",
     "name": "Flickora",
     "description": "A sleek Android app to discover, browse, and watch movies & TV series — powered by TMDB and VidRift.",
-    "icon": "https://github.com/BindasTime/Flickora/blob/main/build/icon.png",
+    "icon": "https://raw.githubusercontent.com/BindasTime/Flickora-Mobile/main/Screenshots/icon.png",
     "version": "Latest",
     "latestVersion": "Latest",
     "downloadUrl": "#",
@@ -37399,7 +37389,7 @@
     "githubRepo": "BindasTime/Flickora",
     "gitlabRepo": "",
     "gitlabDomain": "",
-    "packageName": "com.haseebflix.mobile",
+    "packageName": "com.flickora.app",
     "category": "Media",
     "platform": "Android",
     "size": "Varies",
