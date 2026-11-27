@@ -45114,5 +45114,58 @@
       "https://raw.githubusercontent.com/xoureldeen/Vectras-VM-Android/master/resources/vectrasvm.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "nior-cinema",
+    "name": "NIOr Cinema",
+    "description": "Premium Android Media Player",
+    "icon": "https://raw.githubusercontent.com/ansarirafea97-tech/NIOr-Cinema/main/file_00000000ccb08211a72f59450320e917.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "https://github.com/ansarirafea97-tech/NIOr-Cinema/releases/download/v2.8.0/app-release-2-signed.apk",
+    "repoUrl": "https://github.com/ansarirafea97-tech/NIOr-Cinema",
+    "githubRepo": "ansarirafea97-tech/NIOr-Cinema",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.aistudio.noircinema.rshgbt",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "ansarirafea97-tech",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ansarirafea97-tech/NIOr-Cinema/main/Screenshot_20261124_172232_Noir%20Cinema.jpg",
+      "https://raw.githubusercontent.com/ansarirafea97-tech/NIOr-Cinema/main/Screenshot_20261124_172248_Noir%20Cinema.jpg",
+      "https://raw.githubusercontent.com/ansarirafea97-tech/NIOr-Cinema/main/Screenshot_20261124_172355_Noir%20Cinema.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "umtify",
+    "name": "UMtify",
+    "description": "🎧 UMtify — Music. Style. Experience.\n\n✨ Your Music, Reimagined in Liquid Crystal Glass.\n\nUMtify is a next-generation Android music player that brings online streaming and your personal offline music library together in one seamless experience.\n\nDesigned with a sophisticated Material 3 foundation and an immersive Liquid Crystal Glass UI, UMtify combines stunning aesthetics, intelligent personalization, and powerful audio performance — all wrapped in a beautifully fluid interface.\n---\n\n✨ Key Highlights\n\n💎 Liquid Crystal Glass UI:\n- Premium translucent glass surfaces with elegant visual depth.\n- Dynamic themes inspired by album cover artwork.\n- Beautifully crafted home-screen widgets and fluid animations.\n\n🎵 Hybrid Music Experience:\n- Seamlessly switch between online streaming and local music playback.\n- Support for high-quality lossless audio, including FLAC.\n- Automatic music folder discovery and offline downloads.\n\n🧠 Smart Personalization\n- Time-aware *Smart Mixes* tailored to your listening habits.\n- Your Top Artists — a dedicated space for your most-played artists.\n- Local → Online Discovery for personalized music recommendations.\n- Beautiful, shareable Replay Cards to showcase your listening journey.\n\n🎧 Audiophile-Grade Playback\n- Powered by optimized ExoPlayer technology.\n- Fast streaming with minimal buffering.\n- Spatial Audio and Dolby Atmos support.\n\n⚡ Engineered for Performance\n- Smooth scrolling on high-refresh-rate displays.\n- Instant tab switching and responsive interactions.\n- Optimized loading for a faster, fluid experience.\n- A clean, distraction-free interface focused on your music.\n---\n\n 🌌 More Than a Music Player\n\nUMtify isn't just about playing music — it's about transforming the way you discover, experience, and enjoy it.\n\n🎶 Elevate Your Listening. Experience UMtify.\n\nUMtify — Music. Style. Experience.",
+    "icon": "https://raw.githubusercontent.com/UjjalMallik/UMtify/main/UMtify%20logo.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/UjjalMallik/UMtify",
+    "githubRepo": "UjjalMallik/UMtify",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.music.umtify",
+    "category": "Music",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "Ujjal Mallik",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/UjjalMallik/UMtify/main/assets/Screenshot_Player.jpg",
+      "https://raw.githubusercontent.com/UjjalMallik/UMtify/main/assets/Screenshot_Home.jpg",
+      "https://raw.githubusercontent.com/UjjalMallik/UMtify/main/assets/Screenshot_Explore.jpg",
+      "https://raw.githubusercontent.com/UjjalMallik/UMtify/main/assets/Screenshot_Library.jpg",
+      "https://raw.githubusercontent.com/UjjalMallik/UMtify/main/assets/Screenshot_Widgets.jpg",
+      "https://raw.githubusercontent.com/UjjalMallik/UMtify/main/assets/Screenshot_Settings.jpg"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
