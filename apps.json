@@ -1076,35 +1076,6 @@
     "screenshots": []
   },
   {
-    "id": "spotify-revanced",
-    "name": "Spotify Revanced",
-    "description": "Ad-free music listening. Unlimited skips, seek bar enabled, and no forced shuffle. Note: Downloads are server-side and not available.",
-    "icon": "https://play-lh.googleusercontent.com/7ynvVIRdhJNAngCg_GI7i8TtH8BqkJYmffeUHsG-mJOdzt1XLvGmbsKuc5Q1SInBjDKN=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "spotify",
-    "packageName": "com.spotify.music",
-    "category": "Music",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Revanced",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/lw-f2gE3DEemmp--D1t4TkSRjQcpEUcTdQdQLpDEah9S9jE7W6xpzpBTVZu3wG4h49uB=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/tzJpz-LEGHDTIJbg24QRkog_j3mc72jsQrm7sY0YDDFRWsL0RCjuLPN6Gxah5i-QQuDk=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/26a9DcvZbOkS3QSO19UQBUp1FX_LDWqZu5zzZCWi-JmzkoEcJ-BoeaogPOdBjmtdGPOf=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/VO7yuzPYaC5NTm4LVYvTOmbShMsDs0Dq96-5rKCqP0fFDmec54YyIVvBIF_nol0Bm-w=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/BqRgtuQjpy3Gy4RzHUGfik7y43ao83w3a8hTq3a1Bhd1fjQywfHpCZsiwB0dmLUOMMI=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/Yo4rveHbCMcw4KEESy7mNvE2JongkNoW1QN2G4sQrGbsS39zbJ5OZlhDnS_WSQkAiIwG=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/OZS5mD4_BrY4pvATogFvkl2pz2KQLnASCauvi0Xu2RUnPC27p93vZ8dxeBwaNIURK418=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/PveCRaVQaU6sRDTD3bnZMP6w8HYR6wpov43rxhHdxN2KG8Jg33aR-R0UaDu_2IvVFQ=w526-h296-rw"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
     "id": "twitter-revanced",
     "name": "X Piko",
     "description": "Ad-free Twitter/X experience. Removes promoted tweets, suggested users, and timeline clutter.",
@@ -5816,62 +5787,6 @@
     "releaseKeyword": "ticktick"
   },
   {
-    "id": "earphone-revanced",
-    "name": "Earphone Alarm Morphe",
-    "description": "Upgrade your morning routine with Earphone Alarm Morphe, featuring exclusive Toxos patches that unlock premium-tier stability and remove all ads. Enjoy the full range of custom alarm sounds and detailed volume controls without the distractions of the original free version.",
-    "icon": "https://play-lh.googleusercontent.com/GgwW2lUEqpOX7vt480xcSpU5dZ5jqv7pWFQgJu8hWl9qWcP6pLYSekiCsIjoGUIKv6Qk=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "com.wixsite.ut_app.utalarm",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "tosox",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/xcnzI2PShqv3IGLxBhrXeYB2MBnBP_MdnsXRL1pA6Xh3ymJkLWXo2bEoAZoCBNkfbw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/3SuGfrlJAoe7_6KAj-d2yH1mwJXYtGJlkEZZJv7QI1nlNq6F9A4AYgsYEZzjI66S7A=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/sGcQSR_I8DuH0YCUIKQMfK_GApTxu1YjSdVfLDPoaUpyAO62zprJjLf6_-p2AOw7p2hG=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/ljL848d7b5VSy7ojbyVLL8tFQdhvUYYJ_WC9mzbtRBG-PiN7ZVUvJ6fJ9xx1fIYUDJA1=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/IzZsiCsBX_IUZ_vb1R_2rdVEweKY_MqAoOvAGQLv5Jwo_jjI8r9b1vlLNHWxayFEBXg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/jzJpmJ4HH_NTD6vqYPbVbAMK_JPgfI9dXQos0kB_oKFBQZm7Mod5x7VPfuBnL9M_wNo=w526-h296-rw"
-    ],
-    "releaseKeyword": "earphone"
-  },
-  {
-    "id": "flatastic-revanced",
-    "name": "Flatastic Morphe",
-    "description": "Flatastic Morphe comes with Toxos patches applied to enhance the app experience. It unlocks premium features, removes ads, and improves usability. Designed for smoother tracking and a distraction free interface.",
-    "icon": "https://play-lh.googleusercontent.com/s5Eu5HL_wrD0iRe4y245uO_fMjg3DIxNuqVw8ayVBQny8bUdmHmKOWwDxl7jMj0ujqw=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "com.flatastic.app",
-    "category": "Productivity",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "tosox",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/Q7NNogrHRuZPV3LLauIFCFL5geX9xJ0RP7p-KKTWxuFy5A-wmpULU_-Krm-SL9ZZveNL=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/NjHcI64V8kP0JdOIRVL9AcISwbOKpv2tiF_SJbP5c-bRm-eI8i7ONWsBOEhOZAezkw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/rIcxYGU-0OW2Q0C8Pczj9t7Dva_XwUWOhAWVq392A8ZmOFDmFw3uDVzdXjoLvBlVXHdb=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/T3v4QPBG2UWNWQHBb6p77Y3sFUQfRZu6Jt8vWyXUz5IQN1w0z6yrR_ytqbTPbCf9oOA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/4Fq7euWYoWama88W9dSpv8hijKpKD6QJC820KorB8ySH_Sh-7o560w_tIiOKAnVF9i4=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/_bEC40r2VakLiFO4hRoapGZO9kZZl7TBP6Soe3nIKyzObaokWX2YIx5y51KAKas1SkM=w526-h296-rw"
-    ],
-    "releaseKeyword": "flatastic"
-  },
-  {
     "id": "kicker-revanced",
     "name": "Kicker Morphe",
     "description": "Kicker Morphe with Toxos patches removes ads and unlocks premium features. It enhances performance and provides a cleaner, smoother football news and live score experience.",
@@ -5956,60 +5871,6 @@
       "https://play-lh.googleusercontent.com/EGyaDtPp0_Vk47i7Ez0f__Urtpe7YlzDwdIki6yD0tZfi2lZYuc_1tltYH30tgqR_Q=w526-h296-rw"
     ],
     "releaseKeyword": "dialer"
-  },
-  {
-    "id": "lingory-revanced",
-    "name": "Lingory Morphe",
-    "description": "Lingory Morphe comes patched to unlock premium features and remove ads for a smoother language learning experience. It enhances usability by eliminating restrictions and interruptions. Learn languages faster with a clean and distraction free interface.",
-    "icon": "https://play-lh.googleusercontent.com/Tl08df19MlhTQFPky53PteQ2xD-MAUSzGNnGlPDV3xoKlh3ihYLsF54b51xIzlUC3CA=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "org.languageapp.lingory",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/NcjZEwXHDI0YTo_mPw20waFlQ0i0Y5X0SmA7fcBKgSlYOR6B_0lTGcWc6iIOEA4AkRI=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/ylklcAd2hNBEk27hdb5_MoCv5g7Xw2d_GFTKa_lAtZJoAHf0va9ad6FuGGcsxheNmQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/4gqpEqcp0d4adK_CdiIb7WmIDcQhGIdsbHhuGyK26h7jDlPB7Akscf7fmc3Jk0k35zNh=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/uGnWUEyueKlq51p9-_og2xzam89XxK3lv4ZTQLqUmKQDeDPECbJWbQDhYhBUe2ufNnM=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/cInNp-bIXfbXUgQGQpugRXmIrCz2hgZfEhspLi1ZgMqvnlITJpV-HvIsHO2cqRtBn_0=w526-h296-rw"
-    ],
-    "releaseKeyword": "lingory"
-  },
-  {
-    "id": "ttmik-stories-revanced",
-    "name": "TTMIK Stories Morphe",
-    "description": "TTMIK Stories Morphe unlocks premium stories and removes ads for an uninterrupted reading experience. It enhances usability by bypassing limitations and improving overall performance. Enjoy learning Korean through stories with a clean and distraction free interface.",
-    "icon": "https://play-lh.googleusercontent.com/pcI58gmQzFU1j86Dhs8GqfVgCsEdVUyDI4y4b7xblIzovEfTLihhl4MFVETUW97Xgvk=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com",
-    "packageName": "app.ttmikstories.android",
-    "category": "Education",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/8o28l41dZZhib38mt8tPYO1m6wcp13HqSUcK4IZ1mw-ofqTR-kDsdkEDq4WsW2S-Ug=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/RMG311jLXMxR3p_Hgc1dmSyNUOUqzNuE7fr4wB5F8I48bXrgcob465R5bNEPUy1gzQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/0ASW609GmF775kFOizWe56Rx3YZ3KqNNeszpOupUPG_IN5U7HPHYiP3XWr4q-QgqL8ZFjkEJYik4j8fnRREW=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/mcDN2WTULnDXRQ1mV8tkRUixymaRIIZF5w5L_Wpq2T7hCenSguzUFaB1vXniB3inKA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/CKuDLZfGKtNyM5QbdT4lHxOQzC8420vI_r5YVxw4mPFwgpPf_5T5Pk7vHt0BG3pJYas=w526-h296-rw"
-    ],
-    "releaseKeyword": "ttmik-stories"
   },
   {
     "id": "kakotalk-revanced",
@@ -8995,40 +8856,6 @@
     "releaseKeyword": "apk"
   },
   {
-    "id": "ibs-paint-revanced",
-    "name": "Ibis Paint Morphe",
-    "description": "ibis Paint is a popular and versatile drawing app downloaded more than 460 million times in total as a series, which provides over 47000 brushes, over 27000 materials, over 2100 fonts, 84 filters, 46 screentones, 27 blending modes, recording drawing processes, stroken",
-    "icon": "https://play-lh.googleusercontent.com/QcfhlXm32JDnj3WM2-TSL78ad99x4slovX4OzCSLSPU3uRN-mGXpKyM_yeXiewhz0Lk=w480-h960-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "ibs_paint",
-    "packageName": "jp.ne.ibis.ibispaintx.app",
-    "category": "Media",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "officialSite": "",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/KjfgitN0PxaWIc9SR0y3cebP0Jd_e_G60uZE_NSXpqnrzWMfa5bTlExxaTV47B9nrWEYb1jpBQJObIfMcX-xRpQ=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/1ykLwPhWJP_1CRoEfeVsV7sRN6YQV28Vm0fUIT3FuWinAfiJJPZLtgmm3o3yGu00klbLoWUKL13BFTSKPAgBP00=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/kHNr82olZY2GTW7W6LV76rkU0edTfIovoErKaU4mk-cRdxchgtNbmtW57qdhOHwxXhALJSHJdsUZB15bS9CKmGI=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/ezqj65P6eqUeNPyokehwU471iuKUzErRr9hiIExQom5fRl4qgu2FFonvG2w25j2KxmvZxHHlIzJ27wQ3R4AUVpw=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/52oC3ZJvG6rubJ84QhDAkCfX3YUOEDj2KlkbyOuWOo3iXA6M5GkQdLfANrwGrnFis1z-9lTrxfzoV5TxCNKw2ZU=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/JZw2b4Ffi9fLGwCdvOyBRSh-oKLJhwNA6asjWG5ZmSxA17YmTubxkFQyoCRnWUncgpFqHX6axEVEeGDvx4VpKgE=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/5lAykUR6o2vYW6dExj1_MKJOLQ9lTIq3UH2BPr6WRt6M35N1YExMNS1kXOpChaVpTyvTw7DHulhh97_yyIPI=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/hlNbZMbLGwvwQVg2H-Nv0gjgSx1ggvPrXAm90HqXi1450fzyEklc3Xc33d1UrTbKcOnjyJ50VLn-_xiNcMeu=w1052-h592-rw"
-    ],
-    "patches": [
-      "Disabled change package name",
-      "Enable Prime membership"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
     "id": "simple-keyboard",
     "name": "Simple keyboard ",
     "description": "An app for those who only need a keyboard and nothing more\nThis keyboard is created for those who only need a keyboard and nothing more.\n\nTo enable the keyboard:\n\n* Open \"Simple Keyboard\" from your launcher\n* Enable the Simple Keyboard (default system warning about tracking will be shown)\n* Switch to Simple Keyboard from current Input Method (differs between keyboards, usually long-press space)\n* To edit Simple Keyboard settings long-press \",\" or open system Settings, Languages & Input, Simple Keyboard.\n* You can enable/disable all the input methods in Settings, Languages & Input, Manage Keyboards (differs between phones)\n\nFeatures:\n\n* Small size (<1MB)\n* Adjustable keyboard height for more screen space\n* Number row\n* Swipe space to move pointer\n* Delete swipe\n* Custom theme colors\n* Minimal permissions (only Vibrate)\n* Ads-free\n\nFeatures it doesn’t have and probably will never have:\n\n* Emojis\n* GIFs\n* Spell checker\n* Swipe typing",
@@ -11616,35 +11443,6 @@
     "gitlabDomain": "gitlab.com"
   },
   {
-    "id": "icon-packer-revanced",
-    "name": "Icon Packer Morphe",
-    "description": "Hi designers & customizers, do you struggling to find a way to build your icon packs? There is a revolution solution for building your icon packs! \n\nPatches Applied : \n - Unlocked premium features",
-    "icon": "https://play-lh.googleusercontent.com/FeiQ7x7QZD5c7zzWjqu6SZzn7yYYoOFaEBol2-MauXk_j74vFEU0GJSsy6pIs6TKMCY=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "icon-packer",
-    "packageName": "cn.ommiao.iconpacker",
-    "category": "Customization",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "Morphe",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/y03xvRvj3LqX8anuyV1yM9YMAb4BLpivn2Ukb0ZKddGv3N6ytflRt2-ic2idphRXNDof=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/NEVWQCvp5jpmxWF63_ZsYrKlmfC0c3F-JNG7gxHEXC3zYT5208znloeWkPc1QnLFjQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/BdicUKQ-vXOEvYTBOAS2vH5ekDVTmwYjq4ZmeoPtf91Mr7CnJjfoMEXHEyp4W2yhWXI=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/IbzZ9YCAcBEKuJ09JLj1z91_zZWZmAluC9o8pGOw3T7qRrZKwjnF_gwePsZNsJ34eps=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/0SAPyteTz5Z_lGnE-kG0eqd3FqNT7IYZDqLU3kJHdcZ2Onhdk_yzAPLlPjzr7uWrD3Q=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/7suWnR7fg7n21qiwsNCGeaR1P55OC_FWQI1ke5Adxn8lxMxeLvemTvS2AyKt_Kjp7pfr=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/K9BhNOR4VkDw91MsGv10DnqzxI6c-4Ku0Iidk7JaGCYhyTJik3XzMfPN2j4gDVlYktc=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/zZRe87ZdXG6Dwkp4gTwHqJMcqmuTlPWyfcfrZRAU3YZpZ4PgXCt5nPvzUPeL8regsQ=w526-h296-rw"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
-  },
-  {
     "id": "blockads",
     "name": "blockads",
     "description": "Block ads system-wide on Android using local VPN-based DNS filtering. No root needed. No data collection.",
@@ -13616,35 +13414,6 @@
       "https://raw.githubusercontent.com/ilianoKokoro/umihi-music/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/player2.png"
     ],
     "releaseKeyword": "apk"
-  },
-  {
-    "id": "aio-revanced",
-    "name": "AIO Calculator Morphe",
-    "description": "Designed with simplicity in mind, it helps you solve everyday problems. From simple or complex calculations, to unit and currency conversions, percentages, proportions, areas, volumes, etc... it does it all! \n\nPatches Applied : \n - Disable ads",
-    "icon": "https://play-lh.googleusercontent.com/qAv4AuEF0vZUFEY1khlj_g86SVYgK1K0HzfoHTQlwfh5bUYPhZF9eXeei9zpFVfzTQ8=w240-h480-rw",
-    "version": "Latest",
-    "latestVersion": "Latest",
-    "downloadUrl": "#",
-    "repoUrl": "https://gitlab.com/Grininja/community-builds",
-    "githubRepo": "",
-    "releaseKeyword": "aiocal",
-    "packageName": "all.in.one.calculator",
-    "category": "Utility",
-    "platform": "Android",
-    "size": "Varies",
-    "author": "hoo-dles",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/RvU2ENkwV-8jYySeHYluQPaZGKFpA6OzITzVqBT40SG_vec1b8HUpBo5LX4jSjJOZZ4ixvyusV0Ii9Lyxfkz1g=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/oim27wEuNHQJPNLsu0eHC_1b9nK-ZNdY0iUt3fs7MAP8sw1KHeg3FbDleHWB1IVRI8V-rAskE6To4gByRbAN5g=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/m-ve6Ke_1BOxFLvyuyFGqJkIyJm2sL_m9XwKqXyMpKlePq5yv8mI3RlpDn0X2tPUOL5jwD1wXWY41IKEfc_qrEk=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/8lVdTDOlEJtK05qZYWnJ8d7ASP5W6KvkRy-7Jhn_9dkcrg9b1Q1rTUxV1Z-j60ge1JSLRPZnJj8rQRvjh6mC9g=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/jVVlkZd5dUnMaMUPRib594Mzca5bd27nOJg5ywQUp1MiaT7IOZhbS0mlqbeAVPcOTOVZQTD1ViT0kYbIrMytgg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/XdwyZ2Edt-v-KdSdJS7Fwnxk7M2vAOvei5-l0lFVRQIBKR6G9ym-lbnHHtC3po7WHLA9c6BbVpc5tIyyzCOmvQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/DtZZO0pVjHf9YiA0nks79pbSagWMsICUVDDdRsv52d7J0KXNiNkK5JUGdLlqKS4b8Cp4rAemE5MuWeuDsrx1zQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/Mz5WwZaznPWF6HrgJbHGHPWRH05VplgR-G2wjnIwz4mUW8Kx8RH5_TeZkbm3vBHXvEIzU-0eTA2zfqTaCeOw=w526-h296-rw"
-    ],
-    "gitlabRepo": "Grininja/community-builds",
-    "gitlabDomain": "gitlab.com"
   },
   {
     "id": "fotmob-revanced",
