@@ -25739,14 +25739,17 @@
     "author": "mattedhairr",
     "officialSite": "",
     "screenshots": [
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/01-today.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/10-scenes.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/11-focus-sky.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/03-goals.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/04-focus-session.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/05-calendar.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/02-today-at-a-glance.png",
-      "https://raw.githubusercontent.com/mattedhairr/YouDO/25a3fb21ef30de5285d7b2cb6ce1cfd89417c420/docs/screenshots/09-appearance.png"
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/00-banner.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/01-plan-one-tree.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/02-plan-today.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/03-plan-home-screen.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/04-focus-stars.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/05-focus-hours.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/06-together-future.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/07-together-squad.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/08-together-share.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/09-together-exam-room.jpg",
+      "https://raw.githubusercontent.com/mattedhairr/YouDO/ce2cba0734b4bcf251acaf0205ff20b48c57069b/docs/screenshots/store/10-yours-place.jpg"
     ],
     "releaseKeyword": "apk"
   },
