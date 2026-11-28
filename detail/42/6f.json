@@ -1,0 +1,1 @@
+{"stash":{"description":"Downloads your full Spotify and YouTube Music library to your device using yt-dlp, then plays them back directly. No servers exist on their end, credentials are encrypted on-device with AES-256-GCM so nothing touches their infrastructure."}}

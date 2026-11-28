@@ -1,0 +1,1 @@
+{"prompt-caching":{"description":"Automatic prompt caching for Claude Code. Cuts token costs by up to 90% on repeated file reads, bug fix sessions, and long coding conversations - zero config.","officialSite":"https://github.com/flightlesstux/prompt-caching"}}

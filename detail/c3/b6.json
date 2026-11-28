@@ -1,0 +1,1 @@
+{"processtamer":{"description":"A lightweight freeware utility that runs in the system tray and constantly monitors processes. When a process starts hogging the CPU, it temporarily reduces its priority to keep the system responsive for other tasks, effectively 'taming' runaway applications."}}

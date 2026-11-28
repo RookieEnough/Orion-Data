@@ -1,0 +1,1 @@
+{"prek":{"description":"Prek is a fast, dependency-free pre-commit hook manager built in Rust, designed as a drop-in replacement for pre-commit with improved speed, parallel execution, and better developer experience. ","officialSite":"https://github.com/j178/prek","screenshots":["https://raw.githubusercontent.com/Shadyteal2/image-hosting/main/assets/prek6-1.webp"]}}

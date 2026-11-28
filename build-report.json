@@ -1,0 +1,76 @@
+{
+ "apps": 1734,
+ "categories": {
+  "Anime": 43,
+  "Browsers": 29,
+  "Customization": 104,
+  "Development": 67,
+  "Education": 30,
+  "Educational": 1,
+  "Games": 48,
+  "Health": 37,
+  "Media": 238,
+  "Music": 146,
+  "Privacy": 81,
+  "Productivity": 181,
+  "Reading": 63,
+  "Social": 76,
+  "Streaming": 1,
+  "TV": 1,
+  "Utilities": 1,
+  "Utility": 586,
+  "music": 1
+ },
+ "generated_at": "2026-11-28T13:54:56Z",
+ "legacy_mirror": {
+  "bytes": 19577690,
+  "depth": 0,
+  "file": "mirror.json",
+  "reduced": false,
+  "sha256": "3ec9fbfc6a857a64fc0e3afc3a3c5b61ae9272c7192731c190b894b51efb7764"
+ },
+ "notes": [
+  "1,482 of 1,734 apps had their placeholder version replaced by the live tag from the release data"
+ ],
+ "repos": 1440,
+ "schema": 3,
+ "tiers": {
+  "0 catalog": {
+   "files": 256,
+   "largest_bytes": 3946,
+   "largest_path": "catalog/93.bin",
+   "total_bytes": 352889
+  },
+  "1 versions": {
+   "files": 256,
+   "largest_bytes": 435,
+   "largest_path": "versions/9f.bin",
+   "total_bytes": 39188
+  },
+  "2 detail": {
+   "files": 1712,
+   "largest_bytes": 3482,
+   "largest_path": "detail/72/dc.json",
+   "total_bytes": 1435683
+  },
+  "3 releases": {
+   "files": 1366,
+   "largest_bytes": 461260,
+   "largest_path": "releases/f9/81.json",
+   "total_bytes": 7321196
+  },
+  "legacy mirror": {
+   "files": 1,
+   "largest_bytes": 19577690,
+   "largest_path": "mirror.json",
+   "total_bytes": 19577690
+  },
+  "stars": {
+   "files": 1,
+   "largest_bytes": 0,
+   "largest_path": "",
+   "total_bytes": 38361
+  }
+ },
+ "warnings": []
+}

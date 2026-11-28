@@ -1,0 +1,1 @@
+{"openbrand":{"description":"A brand asset extractor that pulls logos, colors, backdrop images, and brand names from any website URL. Ships as an npm package, a self-hostable Next.js app, and an MCP server compatible with Claude Code and Cursor.","officialSite":"https://github.com/ethanjyx/openbrand"}}
