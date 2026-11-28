@@ -46236,5 +46236,58 @@
       "https://raw.githubusercontent.com/skt019/atmosplayer/main/screenshots/07-speaker-setup-71.jpg"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "id": "rinox-player",
+    "name": "Rinox Player",
+    "description": "Open-Source 100% Offline Pro 4K Video Player for Android. Powered by LibVLC FFmpeg engine, 120Hz/144Hz smooth playback, 10-band equalizer, Privacy Vault & Jetpack Compose AMOLED UI.",
+    "icon": "https://raw.githubusercontent.com/rifadhasan3429/Rinox-Player/main/icon.jpg",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/rifadhasan3429/Rinox-Player",
+    "githubRepo": "rifadhasan3429/Rinox-Player",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.rinox.videoplayer",
+    "category": "Media",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "rifadhasan3429",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/rifadhasan3429/Rinox-Player/main/s1.jpg",
+      "https://raw.githubusercontent.com/rifadhasan3429/Rinox-Player/main/s2.jpg",
+      "https://raw.githubusercontent.com/rifadhasan3429/Rinox-Player/main/s3.jpg",
+      "https://raw.githubusercontent.com/rifadhasan3429/Rinox-Player/main/s4.jpg",
+      "https://raw.githubusercontent.com/rifadhasan3429/Rinox-Player/main/s5.jpg"
+    ],
+    "releaseKeyword": "apk"
+  },
+  {
+    "id": "deg-messages",
+    "name": "DEG Messages",
+    "description": "A privacy-minded native Android SMS app built with Kotlin and Jetpack Compose.",
+    "icon": "https://raw.githubusercontent.com/orisakume/deg-messages/main/app/src/main/res/drawable-nodpi/app_icon.png",
+    "version": "Latest",
+    "latestVersion": "Latest",
+    "downloadUrl": "#",
+    "repoUrl": "https://github.com/orisakume/deg-messages",
+    "githubRepo": "orisakume/deg-messages",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "packageName": "com.example.messages",
+    "category": "Utility",
+    "platform": "Android",
+    "size": "Varies",
+    "author": "orisakume",
+    "officialSite": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/orisakume/deg-messages/main/docs/screenshots/02-conversation.png",
+      "https://raw.githubusercontent.com/orisakume/deg-messages/main/docs/screenshots/03-otps.png",
+      "https://raw.githubusercontent.com/orisakume/deg-messages/main/docs/screenshots/01-inbox.png",
+      "https://raw.githubusercontent.com/orisakume/deg-messages/main/docs/screenshots/04-settings.png"
+    ],
+    "releaseKeyword": "apk"
   }
 ]
