@@ -2338,5 +2338,14 @@
     "class": "Warrior",
     "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
     "last_updated": 1795872488254
+  },
+  {
+    "username": "NaofySan",
+    "xp": 450,
+    "level": 5,
+    "title": "Rookie",
+    "class": "Warrior",
+    "avatar_url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mecha&backgroundColor=c0aede",
+    "last_updated": 1795875730867
   }
 ]
