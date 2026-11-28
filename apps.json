@@ -45966,5 +45966,29 @@
       "https://codeberg.org/jlmakiola/calendula/raw/branch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/07-dark.png"
     ],
     "releaseKeyword": "apk"
+  },
+  {
+    "name": "Melo",
+    "id": "melo",
+    "description": "A minimal Android music player for Spotify, YouTube Music, and local audio.",
+    "icon": "https://raw.githubusercontent.com/aarush-io/melo/main/docs/assets/img/readme/melo-logo-light.png",
+    "repoUrl": "https://github.com/aarush-io/melo",
+    "githubRepo": "aarush-io/melo",
+    "gitlabRepo": "",
+    "gitlabDomain": "",
+    "codebergRepo": "",
+    "releaseKeyword": "apk",
+    "packageName": "in.melo",
+    "category": "Music",
+    "author": "aarush-io",
+    "downloadUrl": "",
+    "screenshots": [
+      "https://raw.githubusercontent.com/aarush-io/melo/main/docs/assets/img/readme/customize.png",
+      "https://raw.githubusercontent.com/aarush-io/melo/main/docs/assets/img/readme/melo-hero.png",
+      "https://raw.githubusercontent.com/aarush-io/melo/main/docs/assets/img/readme/home.png",
+      "https://raw.githubusercontent.com/aarush-io/melo/main/docs/assets/img/readme/library.png",
+      "https://raw.githubusercontent.com/aarush-io/melo/main/docs/assets/img/readme/player.png"
+    ],
+    "platform": "Android"
   }
 ]
