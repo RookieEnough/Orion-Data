@@ -1,0 +1,28 @@
+# Orion Data — local tooling artefacts.
+# Nothing here is a source of truth. Everything is regenerated from apps.json
+# and the upstream APIs. See docs/SCALING.md for why derived data must never be
+# committed to a source branch.
+
+# git checkout of the previous data plane, used to reuse unchanged releases
+.prev/
+
+# scripts/build_data.py output
+dist/
+
+# scripts/mirror_audit.py fetch cache (holds a full copy of mirror.json)
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Binaries belong in GitHub Releases, never in git history.
+*.apk
+*.aab
+*.apks
+*.xapk
+*.dex

@@ -1,0 +1,91 @@
+name: Data Plane Guard
+
+# Runs on every pull request and once a day. Fails when any artefact is close to
+# a platform limit, so the ceiling is discovered here instead of in production.
+#
+# See docs/SCALING.md section 7.9.
+
+on:
+  pull_request:
+    paths:
+      - 'apps.json'
+      - 'scripts/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Unit checks for the data plane
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "scripts")
+          import orion_data as od
+
+          # tier 0 / tier 1 round-trip
+          apps = [
+              {"id": "a", "name": "Alpha", "icon": "https://play-lh.googleusercontent.com/x",
+               "category": "Media", "author": "Acme", "packageName": "com.acme.alpha",
+               "githubRepo": "Acme/Alpha", "version": "1.2.3", "size": "12 MB",
+               "platform": "Android"},
+              {"id": "b", "name": "Beta", "icon": "https://example.com/i.png",
+               "category": "Tools", "author": "Acme", "packageName": "com.acme.beta",
+               "repoUrl": "https://github.com/Acme/Beta", "version": "2.0.0",
+               "size": "8 MB", "platform": "Linux"},
+          ]
+          for part in od.encode_catalog(apps).values():
+              got = od.decode_catalog(part)
+              assert len(got) == 2, got
+              for want, have in zip(apps, sorted(got, key=lambda x: x["id"])):
+                  assert want["id"] == have["id"]
+                  assert want["icon"] == have["icon"], (want["icon"], have["icon"])
+                  assert want["platform"] == have["platform"]
+
+          for part in od.encode_versions(apps).values():
+              got = od.decode_versions(part)
+              assert got["a"] == "1.2.3" and got["b"] == "2.0.0", got
+
+          # tier 3 URL factoring must be lossless, including %2B in asset names
+          repo = "Acme/Alpha"
+          releases = [{
+              "tag_name": "v1.2.3", "name": "v1.2.3", "prerelease": False,
+              "published_at": "2026-01-02T03:04:05Z",
+              "assets": [
+                  {"name": "app-v1.2.3.apk", "size": 123,
+                   "browser_download_url": f"https://github.com/{repo}/releases/download/v1.2.3/app-v1.2.3.apk",
+                   "download_count": 7},
+                  {"name": "app+arm64.apk", "size": 456,
+                   "browser_download_url": f"https://github.com/{repo}/releases/download/v1.2.3/app%2Barm64.apk",
+                   "download_count": 3},
+              ],
+          }]
+          prefix = od.repo_asset_prefix(releases)
+          packed = od.compact_release(releases[0], repo, prefix)
+          back = od.expand_compact_release(packed, repo, prefix)
+          for want, have in zip(releases[0]["assets"], back["assets"]):
+              assert want["browser_download_url"] == have["browser_download_url"], (
+                  want["browser_download_url"], have["browser_download_url"])
+          print("data plane unit checks: PASS")
+          PY
+
+      - name: Build from apps.json only (no network) and gate on size
+        run: |
+          python scripts/build_data.py --no-legacy-mirror --check
+
+      - name: Report the live legacy mirror's headroom
+        continue-on-error: true
+        run: python scripts/mirror_audit.py --assert

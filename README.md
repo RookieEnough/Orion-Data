@@ -32,36 +32,61 @@ By keeping these concerns in dedicated, version-controlled files, the store clie
 | Path | Type | Purpose |
 |------|------|---------|
 | `.github` | Directory | GitHub Actions workflows and repository automation |
-| `APKs` | Directory | Hosted Android package (APK) artifacts |
 | `config` | Directory | Environment and application configuration files |
-| `docs` | Directory | Project documentation |
+| `docs` | Directory | Documentation — **[DATA_CONTRACT.md](docs/DATA_CONTRACT.md)**, **[SCALING.md](docs/SCALING.md)** |
 | `downloads` | Directory | Downloadable assets served to clients |
-| `scripts` | Directory | Utility and automation scripts |
+| `scripts` | Directory | Data-plane builder, auditors and utilities |
 | `workers` | Directory | Background worker services for data processing |
-| `apps.json` | Manifest | Catalog of applications available in the store |
+| `apps.json` | Manifest | **Source of truth**: catalog of applications available in the store |
 | `config.json` | Manifest | Primary runtime configuration |
 | `mirror_config.json` | Manifest | Mirror endpoints and fallback source configuration |
 | `package.json` | Manifest | Node.js project manifest and dependencies |
 | `release_notes.json` | Manifest | Structured release history and changelogs |
+
+Generated data is never committed to `main`. The builder writes it to `dist/`
+and the `Build Data Plane` workflow publishes it to the `data` branch.
 
 ## Directory Tree
 
 ```text
 Orion-Data/
 ├── .github/                  # GitHub Actions workflows and automation
-│   └── workflows/            # CI/CD pipeline definitions
-├── APKs/                     # Hosted Android package artifacts
+│   └── workflows/            # build, guard and release pipelines
 ├── config/                   # Environment and application configuration
-├── docs/                     # Project documentation
+├── docs/                     # DATA_CONTRACT.md, SCALING.md, project docs
 ├── downloads/                # Downloadable assets served to clients
-├── scripts/                  # Utility and automation scripts
+├── scripts/                  # Data-plane builder and auditors
 ├── workers/                  # Background worker services
-├── apps.json                 # Application catalog for the store
+├── apps.json                 # Source of truth: the application catalog
 ├── config.json               # Primary runtime configuration
 ├── mirror_config.json        # Mirror endpoints and fallback sources
 ├── package.json              # Node.js project manifest
 ├── release_notes.json        # Structured release history
 └── README.md
+```
+
+## The Data Plane
+
+`apps.json` is the only hand-maintained data file. `scripts/build_data.py`
+compiles it, plus live release data from the upstream host APIs, into a
+**tiered** data plane on the `data` branch — one tier per access pattern, so no
+single file grows with the size of the catalogue:
+
+| Tier | Path | Size | Read when |
+|------|------|------|-----------|
+| 0 | `catalog/<pp>.bin` | ~203 B/app | boot — grid and search |
+| 1 | `versions/<pp>.bin` | ~23 B/app | background update check |
+| 2 | `detail/<h1>/<h2>.json` | ~828 B/app | an app sheet opens |
+| 3 | `releases/<h1>/<h2>.json` | ~4,112 B/app | the version picker opens |
+| — | `mirror.json` | legacy | the shipped 2.x client only |
+
+The wire format is specified in **[docs/DATA_CONTRACT.md](docs/DATA_CONTRACT.md)**.
+The reasoning, the platform limits being defended against, and the path to
+millions of apps are in **[docs/SCALING.md](docs/SCALING.md)**.
+
+```bash
+python scripts/build_data.py --from-mirror mirror.json --check   # build + gate
+python scripts/mirror_audit.py --assert                          # audit live sizes
 ```
 
 ## Core Manifests
@@ -99,52 +124,74 @@ Together, these components ensure that data generation and distribution remain a
 
 ## Getting Started
 
-To work with the repository locally, clone it and install dependencies:
-
 ```bash
 git clone https://github.com/RookieEnough/Orion-Data.git
 cd Orion-Data
-npm install
+npm install                     # only needed by the scraper/mirror tooling
 ```
 
-No additional build step is required to read the manifests. They are plain JSON and can be parsed by any client or script.
+`apps.json` is plain JSON and needs no build step. Building the data plane needs
+Python 3.10+ and no third-party packages:
+
+```bash
+python scripts/build_data.py --from-mirror mirror.json --check
+```
 
 ## Usage
 
-The repository is intended to be **consumed programmatically**. Clients and tooling should read the JSON manifests directly and resolve package downloads through the configured mirrors.
+The repository is intended to be **consumed programmatically**.
 
-| Task | File to Read |
-|------|--------------|
-| Render the app catalog | `apps.json` |
-| Resolve a download source | `mirror_config.json` |
-| Display a changelog | `release_notes.json` |
+| Task | Read |
+|------|------|
+| Render the storefront grid | `catalog/<pp>.bin` |
+| Check installed apps for updates | `versions/<pp>.bin` |
+| Show description and screenshots | `detail/<h1>/<h2>.json` |
+| List an app's versions and downloads | `releases/<h1>/<h2>.json` |
+| Legacy 2.x client | `mirror.json` |
 | Read runtime settings | `config.json` |
 
-A minimal example of loading the catalog:
+Full byte-level specification: **[docs/DATA_CONTRACT.md](docs/DATA_CONTRACT.md)**.
 
-```js
-const apps = require('./apps.json');
-const mirrors = require('./mirror_config.json');
+A minimal catalog lookup, using the reference decoder:
 
-// Resolve a package against the first available mirror
-function resolveDownload(appId) {
-  const app = apps.find((entry) => entry.id === appId);
-  if (!app) throw new Error(`Unknown app: ${appId}`);
-  return `${mirrors.primary}/${app.path}`;
-}
+```python
+import sys
+sys.path.insert(0, "scripts")
+import orion_data as od
+
+base = "https://raw.githubusercontent.com/RookieEnough/Orion-Data/data/"
+apps = {}                                     # id -> catalog row
+for part in range(256):                       # or fetch only the parts you need
+    path = f"catalog/{part:02x}.bin"
+    try:
+        apps.update({a["id"]: a for a in od.decode_catalog(open(path, "rb").read())})
+    except FileNotFoundError:
+        pass
+
+app = apps["spotify-morphe"]
+repo = app["repo"]                            # owner/repo
+h1, h2 = od.shard_path(repo, 2)
+releases = json.load(open(f"releases/{h1}/{h2}.json"))[repo]
+newest = od.expand_compact_release(releases["r"][0], repo, releases["p"])
+print(app["icon"], app["version"], newest["assets"][0]["browser_download_url"])
 ```
 
 ## Data Flow
 
-The lifecycle of a release follows a predictable path:
+1. **Source** — `apps.json` is hand-maintained.
+2. **Fetch** — `scripts/build_data.py --fetch` refreshes release data with
+   conditional GETs; unchanged repositories cost no API budget.
+3. **Compile** — the four tiers are written to `dist/` deterministically, so
+   unchanged shards keep their git blob SHA.
+4. **Gate** — the capacity check fails the build before any artefact approaches
+   a platform limit.
+5. **Publish** — `.github/workflows/update_mirror.yml` force-pushes a single
+   orphan snapshot to the `data` branch.
+6. **Consume** — clients read the tier for the question they are asking.
 
-1. **Source** - Application metadata and artifacts are prepared.
-2. **Processing** - Worker services in `workers/` transform raw input into structured manifests.
-3. **Validation** - CI workflows in `.github/` verify schema and formatting.
-4. **Publishing** - Artifacts are placed in `APKs/` and `downloads/`, and manifests are committed.
-5. **Consumption** - Clients read the manifests and fetch packages via configured mirrors.
-
-This separation keeps the client simple and the data layer authoritative.
+Binary artefacts (APKs) belong in [Releases](https://github.com/RookieEnough/Orion-Data/releases),
+never in git: a 2 GiB release asset costs nothing and does not count against
+repository size.
 
 ## Contributing
 
